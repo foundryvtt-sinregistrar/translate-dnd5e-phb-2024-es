@@ -1,0 +1,47 @@
+{
+  "id": "translate-dnd5e-phb-2024-es",
+  "title": "Translation: Spanish [D&D5e] PHB 2024 Spanish",
+  "description": "Translation into Spanish of the 2024 player manual [PHB2004] using Babele.",
+  "version": "1.13.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "es", "name": "Español", "path": "lang/es.json" }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "5.2.1",
+          "verified": "5.2.5"
+        },
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.7.5",
+          "verified": "2.7.5"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/converters.js",
+    "scripts/babele-register.js"
+  ],
+  "authors": [
+    {
+      "name": "foundryvtt-sinregistrar"
+    }
+  ]
+}
