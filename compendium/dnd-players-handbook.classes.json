@@ -303,11 +303,11 @@
       "activities": {
         "LAMSQQ3i8NNzanUw": {
           "name": "Furia divina necrótica",
-          "target": "First creature you hit with a weapon or an Unarmed Strike"
+          "target": "Primera criatura que golpees con un arma o un golpe sin armas"
         },
         "wtC08LDH1A38krl7": {
           "name": "Furia divina radiante",
-          "target": "First creature you hit with a weapon or an Unarmed Strike"
+          "target": "Primera criatura que golpees con un arma o un golpe sin armas"
         }
       },
       "effects": {},
@@ -613,7 +613,7 @@
         },
         "mh4XxabSpGFITcO2": {
           "name": "Teletransporte ampliado",
-          "target": "within 10 pies of you"
+          "target": "A 10 pies o menos de ti"
         }
       },
       "effects": {},
@@ -1172,7 +1172,7 @@
           "name": "Bonificador a Iniciativa",
           "roll": "Bardic Inspiration",
           "condition": "Cuando tires iniciativa y no estés incapacitado.",
-          "target": "Ally who can see or hear you"
+          "target": "Aliado que pueda verte u oírte"
         }
       },
       "effects": {},
@@ -1300,7 +1300,7 @@
       "activities": {
         "aOptL5pMaj3WtR8S": {
           "name": "Expulsar muertos vivientes",
-          "target": "Undead of your choice"
+          "target": "Muertos vivientes a tu elección"
         },
         "OY9UrTXvlRL0JUoI": {
           "name": "Chispa divina: Salvación"
@@ -1500,7 +1500,7 @@
         "dnd5eactivity000": {
           "name": "Ilusión sanadora",
           "condition": "Cuando la ilusión termina",
-          "target": "Within 5 pies of the duplicate"
+          "target": "A 5 pies o menos del duplicado"
         }
       },
       "effects": {},
@@ -1526,7 +1526,7 @@
         },
         "VYaBlCeCIurkfcUZ": {
           "name": "Mover duplicado",
-          "target": "within 30 pies"
+          "target": "A 30 pies o menos"
         }
       },
       "effects": {},
@@ -1643,7 +1643,7 @@
       "activities": {
         "fW3U8L8Ca9a6O9Wx": {
           "name": "Canalizar divinidad: Expulsar muertos vivientes",
-          "target": "Undead"
+          "target": "Muertos vivientes"
         }
       },
       "effects": {
@@ -1709,7 +1709,7 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Transponer",
-          "target": "Your duplicate"
+          "target": "Tu duplicado"
         }
       },
       "effects": {},
@@ -1813,11 +1813,11 @@
       "activities": {
         "MbCGfaQAeW2rzNWb": {
           "name": "Golpe divino radiante",
-          "target": "When you a hit a creature with an attack roll using a weapon once per turn"
+          "target": "Cuando golpees a una criatura con una tirada de ataque usando un arma, una vez por turno"
         },
         "uYVz8MBW0EZ2X0zD": {
           "name": "Golpe divino necrótico",
-          "target": "When you a hit a creature with an attack roll using a weapon once per turn"
+          "target": "Cuando golpees a una criatura con una tirada de ataque usando un arma, una vez por turno"
         }
       },
       "effects": {},
@@ -2188,7 +2188,7 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Transportarse",
-          "target": "Unoccupied space"
+          "target": "Espacio desocupado"
         },
         "gyp9DZB2u3s7sqEu": {
           "name": "Recargar con espacio de conjuro"
@@ -2772,7 +2772,7 @@
         },
         "wLW7ki9v7rDBxW1k": {
           "name": "Discernir fortalezas y debilidades",
-          "target": "Creature you can see"
+          "target": "Criatura que puedas ver"
         }
       },
       "effects": {},
@@ -3001,12 +3001,12 @@
         "eul9Wm3isSjjMORh": {
           "name": "Invocar arma",
           "range": "same plane of existence",
-          "target": "bonded weapon"
+          "target": "Arma vinculada"
         },
         "Zrpvke0w6MeFeerZ": {
           "name": "Vincular con arma",
           "condition": "o 1 Hour",
-          "target": "currently unbound weapon"
+          "target": "Arma no vinculada actualmente"
         }
       },
       "effects": {
@@ -3047,7 +3047,7 @@
       "activities": {
         "lHdiTksQmeJBFrf7": {
           "name": "Golpe primigenio",
-          "target": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape"
+          "target": "Cuando golpees a una criatura con una tirada de ataque usando un arma o con un ataque de forma de bestia mientras estés en Forma salvaje"
         }
       },
       "effects": {},
@@ -3170,7 +3170,7 @@
       "activities": {
         "TqjZeWzJpT25ZX8s": {
           "name": "Mirada de dos mentes",
-          "target": "Touch"
+          "target": "Toque"
         }
       },
       "effects": {},
@@ -3216,7 +3216,7 @@
       "activities": {
         "fHEY2QcPTBaT4lBF": {
           "name": "Imbuir con resistencia",
-          "target": "Your familiar"
+          "target": "Tu familiar"
         },
         "uehA2kfgOCKRIqAs": {
           "name": "Encontrar familiar with Swimming",
@@ -3637,7 +3637,7 @@
           "name": "Redirigir",
           "condition": "Si reduces el daño a 0",
           "range": "5 pies for melee attacks or 60 pies for ranged attacks",
-          "target": "Isn't behind Total Cover"
+          "target": "Que no esté tras cobertura total"
         },
         "rQwRKkuZ7WhnB7v7": {
           "name": "Reducir",
@@ -3655,7 +3655,7 @@
           "name": "Redirigir",
           "condition": "Si reduces el daño a 0",
           "range": "5 pies for melee attacks or 60 pies for ranged attacks",
-          "target": "Isn't behind Total Cover"
+          "target": "Que no esté tras cobertura total"
         },
         "F7NbTRmkUTDDZxj7": {
           "name": "Reducir",
@@ -3687,7 +3687,7 @@
           "name": "Salvación elemental",
           "condition": "Cuando inflijas daño de Golpe elemental",
           "range": "pushed or pulled up to 10 pies",
-          "target": "hit by elemental damage from imbued strike"
+          "target": "Criatura golpeada por daño elemental de Golpe imbuido"
         },
         "xCHcv0MDt4mopzrp": {
           "name": "Golpe elemental"
@@ -3885,7 +3885,7 @@
       "activities": {
         "wUptpPoTTmYwEHTe": {
           "name": "Paso sombrío mejorado",
-          "target": "Unoccupied space"
+          "target": "Espacio desocupado"
         }
       },
       "effects": {},
@@ -4190,7 +4190,7 @@
         "Q1ZC1so4EDE9EyV7": {
           "name": "Paso sombrío",
           "condition": "Mientras estés por completo en Luz tenue u Oscuridad",
-          "target": "Unoccupied space"
+          "target": "Espacio desocupado"
         }
       },
       "effects": {},
@@ -4420,7 +4420,7 @@
         "spcp6PQ8947Ds4Qg": {
           "name": "Ataque dirigido",
           "condition": "Cuando realices la acción de Atacar en tu turno",
-          "target": "Can see or hear you"
+          "target": "Que pueda verte u oírte"
         }
       },
       "effects": {},
@@ -4530,7 +4530,7 @@
           "name": "Maniobrar",
           "roll": "Attack Bonus",
           "condition": "Cuando impactes a una criatura con una tirada de ataque",
-          "target": "Can see or hear you"
+          "target": "Que pueda verte u oírte"
         }
       },
       "effects": {},
@@ -5448,7 +5448,7 @@
         "dWcCw1vTWRMx4YzD": {
           "name": "Derribar",
           "condition": "Cuando inflijas daño de Ataque furtivo",
-          "target": "Larger or smaller"
+          "target": "Grande o más pequeña"
         },
         "jR7KqMuPOZYUCDyO": {
           "name": "Ataque furtivo astuto",
@@ -5615,7 +5615,7 @@
         "doKz9cXC8vEqV8TG": {
           "name": "Susurros psíquicos (gratuito)",
           "roll": "Dado de energía psiónica",
-          "target": "Creatures you can see"
+          "target": "Criaturas que puedas ver"
         },
         "lPsbFldwEL8ElBGY": {
           "name": "Talento reforzado psiónicamente",
@@ -5625,7 +5625,7 @@
         "UJRfxrJ9qUnsJBPp": {
           "name": "Susurros psíquicos",
           "roll": "Dado de energía psiónica",
-          "target": "Creatures you can see"
+          "target": "Criaturas que puedas ver"
         }
       },
       "effects": {
@@ -5827,7 +5827,7 @@
         "KyFxvisMIoL1OXRa": {
           "name": "Teletransportación psíquica",
           "roll": "Distancia máxima de lanzamiento",
-          "target": "Unoccupied space"
+          "target": "Espacio desocupado"
         },
         "V4igVC3iuQ9uHASF": {
           "name": "Golpes teledirigidos",
@@ -6104,12 +6104,12 @@
       "activities": {
         "me8v2ec00BryjJyK": {
           "name": "Ordenar al compañero",
-          "target": "Primal Companion"
+          "target": "Compañero primordial"
         },
         "XUK2CSbRYnpEgB5J": {
           "name": "Entrenar compañero",
           "condition": "Según sea necesario para añadir la opción de daño de fuerza",
-          "target": "Primal Companion's Attack features"
+          "target": "Rasgos de Ataque del compañero primordial"
         }
       },
       "effects": {
@@ -6366,15 +6366,15 @@
       "activities": {
         "2yp6Wab81zhE5XAj": {
           "name": "Invocar compañero",
-          "target": "Unoccupied"
+          "target": "Espacio desocupado"
         },
         "Jtr7GXnCHb85xHg8": {
           "name": "Ordenar",
-          "target": "Primal Companion"
+          "target": "Compañero primordial"
         },
         "nmuppQvpw52aVeaf": {
           "name": "Restaurar compañero",
-          "target": "Primal Companion that has died within the last hour"
+          "target": "Compañero primordial que haya muerto en la última hora"
         }
       },
       "effects": {},
@@ -6512,7 +6512,7 @@
         "0DMuCuULnpS5lIR5": {
           "name": "Esquiva Sombría",
           "condition": "Cuando una criatura haga una tirada de ataque contra ti",
-          "target": "Unoccupied"
+          "target": "Espacio desocupado"
         }
       },
       "effects": {},
@@ -6975,7 +6975,7 @@
         "nx7BmSJnY8WZV8Mv": {
           "name": "Evitar Ventaja/Desventaja",
           "condition": "Cuando una criatura que puedas ver a 60 pies o menos vaya a hacer una tirada de d20 con Ventaja/Desventaja",
-          "target": "You can see"
+          "target": "Que puedas ver"
         }
       },
       "effects": {},
@@ -7127,7 +7127,7 @@
       "activities": {
         "wA0tk32liOOVBDHy": {
           "name": "Discurso Telepático",
-          "target": "You can see"
+          "target": "Que puedas ver"
         }
       },
       "effects": {},
@@ -7597,7 +7597,7 @@
           "name": "Paso Pavoroso",
           "condition": "Después de teletransportarte",
           "range": "Of the space you just left",
-          "target": "That you choose"
+          "target": "Que elijas"
         },
         "KMyLMOnvFbMuoRYa": {
           "name": "Paso Desaparecedor",
@@ -7654,7 +7654,7 @@
         "RcOD8an5PifIcVfn": {
           "name": "PG de Criaturas Elegidas",
           "condition": "Siempre que uses tu Astucia Mágica o termines un Descanso corto o largo",
-          "target": "You can see when you gain the points"
+          "target": "Que puedas ver cuando obtengas los puntos"
         }
       },
       "effects": {},
@@ -7701,7 +7701,7 @@
         "QUbshQXhUDQqlu2s": {
           "name": "Paso Refrescante",
           "condition": "Immediately after you teleport",
-          "target": "That you can see"
+          "target": "Que puedas ver"
         },
         "RH4iC8ek6mxLrJcr": {
           "name": ""
@@ -8075,7 +8075,7 @@
         "THaODa86JJaeoWfL": {
           "name": "Proyectar guarda",
           "condition": "Cuando una criatura que puedas ver a 30 pies de ti reciba daño",
-          "target": "That you can see"
+          "target": "Que puedas ver"
         }
       },
       "effects": {},
