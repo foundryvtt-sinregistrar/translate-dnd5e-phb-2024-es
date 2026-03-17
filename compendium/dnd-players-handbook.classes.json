@@ -1171,7 +1171,7 @@
         "dnd5eactivity000": {
           "name": "Bonificador a Iniciativa",
           "roll": "Bardic Inspiration",
-          "condition": "Cuando tires iniciativa y no estés Incapacitated.",
+          "condition": "Cuando tires iniciativa y no estés incapacitado.",
           "target": "Ally who can see or hear you"
         }
       },
@@ -3481,7 +3481,7 @@
       "activities": {
         "jD3THRjOL2ILRYuM": {
           "name": "Conjuro cuidadoso",
-          "condition": "When you cast a conjuro that forces other creatures to make a saving throw"
+          "condition": "Cuando lances un conjuro que obligue a otras criaturas a hacer una tirada de salvación"
         }
       },
       "effects": {},
@@ -3493,7 +3493,7 @@
       "activities": {
         "WMoNZCe0IyHlRLM4": {
           "name": "Conjuro distante",
-          "condition": "When you cast a conjuro that has a range of at least 5 pies or when you cast a conjuro that has a range of Touch"
+          "condition": "Cuando lances un conjuro con un alcance de al menos 5 pies o cuando lances un conjuro con alcance de toque"
         }
       },
       "effects": {},
@@ -3505,7 +3505,7 @@
       "activities": {
         "NkEwJOEFigqsdbZy": {
           "name": "Conjuro potenciado",
-          "condition": "When you roll damage for a conjuro"
+          "condition": "Cuando tires el daño de un conjuro"
         }
       },
       "effects": {},
@@ -3517,7 +3517,7 @@
       "activities": {
         "WGQHGHweOlSpZDHp": {
           "name": "Conjuro prolongado",
-          "condition": "When you cast a conjuro that has a duration of 1 minute or longer"
+          "condition": "Cuando lances un conjuro cuya duración sea de 1 minuto o más"
         }
       },
       "effects": {},
@@ -3529,7 +3529,7 @@
       "activities": {
         "uHwIuPfMDD9sxVa9": {
           "name": "Conjuro intensificado",
-          "condition": "When you cast a conjuro that forces a creature to make a saving throw"
+          "condition": "Cuando lances un conjuro que obligue a una criatura a hacer una tirada de salvación"
         }
       },
       "effects": {},
@@ -3541,7 +3541,7 @@
       "activities": {
         "leFbHb9SZwDix2TU": {
           "name": "Conjuro acelerado",
-          "condition": "When you cast a conjuro that has a casting time of an action"
+          "condition": "Cuando lances un conjuro cuyo tiempo de lanzamiento sea una acción"
         }
       },
       "effects": {},
@@ -3553,7 +3553,7 @@
       "activities": {
         "vudKvHh2PbAiDXSE": {
           "name": "Conjuro certero",
-          "condition": "When you make an attack roll for a conjuro and miss"
+          "condition": "Cuando hagas una tirada de ataque para un conjuro y falles"
         }
       },
       "effects": {},
@@ -3565,7 +3565,7 @@
       "activities": {
         "9jWUnfRzs0TqKWC2": {
           "name": "Conjuro sutil",
-          "condition": "When you cast a conjuro"
+          "condition": "Cuando lances un conjuro"
         }
       },
       "effects": {},
@@ -3577,7 +3577,7 @@
       "activities": {
         "FT1V43gRA47fCA51": {
           "name": "Conjuro transmutado",
-          "condition": "When you cast a conjuro that deals Acid, Cold, Fire, Lightning, Poison, or Thunder damage"
+          "condition": "Cuando lances un conjuro que inflija daño de ácido, frío, fuego, relámpago, veneno o trueno"
         }
       },
       "effects": {},
@@ -3589,7 +3589,7 @@
       "activities": {
         "WsG9JmGU7gRGiTRq": {
           "name": "Conjuro duplicado",
-          "condition": "When you cast a conjuro that can be upcast to target an additional creature"
+          "condition": "Cuando lances un conjuro que pueda lanzarse con un espacio superior para elegir como objetivo a una criatura adicional"
         }
       },
       "effects": {},
@@ -3619,7 +3619,7 @@
       "activities": {
         "PCabpSdfoEUocWya": {
           "name": "Velarse",
-          "condition": "While entirely within Dim Luz or Oscuridad"
+          "condition": "Mientras estés por completo en Luz tenue u Oscuridad"
         }
       },
       "effects": {
@@ -3635,13 +3635,13 @@
       "activities": {
         "dJv36KHyIVsbD00p": {
           "name": "Redirigir",
-          "condition": "If you reduce the damage to 0",
+          "condition": "Si reduces el daño a 0",
           "range": "5 pies for melee attacks or 60 pies for ranged attacks",
           "target": "Isn't behind Total Cover"
         },
         "rQwRKkuZ7WhnB7v7": {
           "name": "Reducir",
-          "condition": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage"
+          "condition": "Cuando una tirada de ataque te impacte y su daño incluya daño contundente, perforante o cortante"
         }
       },
       "effects": {},
@@ -3653,13 +3653,13 @@
       "activities": {
         "AnEiO80Ga3etD595": {
           "name": "Redirigir",
-          "condition": "If you reduce the damage to 0",
+          "condition": "Si reduces el daño a 0",
           "range": "5 pies for melee attacks or 60 pies for ranged attacks",
           "target": "Isn't behind Total Cover"
         },
         "F7NbTRmkUTDDZxj7": {
           "name": "Reducir",
-          "condition": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage"
+          "condition": "Cuando una tirada de ataque te impacte y su daño incluya daño contundente, perforante o cortante"
         }
       },
       "effects": {},
@@ -3685,7 +3685,7 @@
         },
         "vUWH2QBMG6gewncl": {
           "name": "Salvación elemental",
-          "condition": "When you deal Elemental Strike damage",
+          "condition": "Cuando inflijas daño de Golpe elemental",
           "range": "pushed or pulled up to 10 pies",
           "target": "hit by elemental damage from imbued strike"
         },
@@ -3722,15 +3722,15 @@
       "activities": {
         "a5WGe405dvalmJKa": {
           "name": "Golpe potenciado",
-          "condition": "Once on each of your turns when you hit with an Unarmed Strike"
+          "condition": "Una vez en cada uno de tus turnos, cuando impactes con un golpe sin armas"
         },
         "dgweOd8lDt6TRI0e": {
           "name": "Zancada destructiva",
-          "condition": "When you use your Step of the Wind"
+          "condition": "Cuando uses tu Paso del viento"
         },
         "qE2UY5XJjYB5wZ1t": {
           "name": "Resistencia al daño",
-          "condition": "While your Elemental Attunement is active"
+          "condition": "Mientras tu Armonización elemental esté activa"
         }
       },
       "effects": {
@@ -3863,7 +3863,7 @@
       "activities": {
         "x5fBC7ybAnr79AxK": {
           "name": "Defensa paciente",
-          "condition": "When you expend a Focus Point to use Patient Defensa"
+          "condition": "Cuando gastes un punto de enfoque para usar Defensa paciente"
         },
         "XLma1NEOJNEBD6mH": {
           "name": "Golpe de ráfaga"
@@ -4074,15 +4074,15 @@
       "activities": {
         "1jdSaWanuRrdkVs3": {
           "name": "Aturdir",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "condition": "Siempre que impactes a una criatura con un ataque otorgado por tu Ráfaga de golpes"
         },
         "5Qgc0K3TfuonkPIG": {
           "name": "Derribar",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "condition": "Siempre que impactes a una criatura con un ataque otorgado por tu Ráfaga de golpes"
         },
         "XoaS0RtDCGAqrQsf": {
           "name": "Empujar",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "condition": "Siempre que impactes a una criatura con un ataque otorgado por tu Ráfaga de golpes"
         }
       },
       "effects": {
@@ -4128,7 +4128,7 @@
       "activities": {
         "BW0d7xkRsDuv075E": {
           "name": "Mano de daño",
-          "condition": "Once per turn when you hit a creature with an Unarmed Strike and deal damage"
+          "condition": "Una vez por turno, cuando impactes a una criatura con un golpe sin armas y le causes daño"
         },
         "stWL2fvcxsh0HFw2": {
           "name": "Mano sanadora"
@@ -4147,11 +4147,11 @@
       "activities": {
         "lBn87Q4yyJXWzLqg": {
           "name": "Terminar vibraciones",
-          "condition": "When you take the Attack action on your turn"
+          "condition": "Cuando realices la acción de Atacar en tu turno"
         },
         "O1mQr2rPpzRpB3yJ": {
           "name": "Instilar vibraciones",
-          "condition": "When you hit a creature with an Unarmed Strike"
+          "condition": "Cuando impactes a una criatura con un golpe sin armas"
         }
       },
       "effects": {
@@ -4189,7 +4189,7 @@
       "activities": {
         "Q1ZC1so4EDE9EyV7": {
           "name": "Paso sombrío",
-          "condition": "While entirely within Dim Luz or Oscuridad",
+          "condition": "Mientras estés por completo en Luz tenue u Oscuridad",
           "target": "Unoccupied space"
         }
       },
@@ -4323,7 +4323,7 @@
       "activities": {
         "RfyAj9VDmzAJkTL3": {
           "name": "Metabolismo insólito",
-          "condition": "When you roll initiative"
+          "condition": "Cuando tires iniciativa"
         }
       },
       "effects": {},
@@ -4358,7 +4358,7 @@
         "nYe2l7Rml0qyFbf6": {
           "name": "Intercambiar posiciones",
           "roll": "Armor Class Bonus",
-          "condition": "When you're within 5 pies of a creature on your turn"
+          "condition": "Cuando estés a 5 pies o menos de una criatura en tu turno"
         }
       },
       "effects": {
@@ -4419,7 +4419,7 @@
       "activities": {
         "spcp6PQ8947Ds4Qg": {
           "name": "Ataque dirigido",
-          "condition": "When you take the Attack action on your turn",
+          "condition": "Cuando realices la acción de Atacar en tu turno",
           "target": "Can see or hear you"
         }
       },
@@ -4529,7 +4529,7 @@
         "JpsQYtXEwkR4OZn7": {
           "name": "Maniobrar",
           "roll": "Attack Bonus",
-          "condition": "When you hit a creature with an attack roll",
+          "condition": "Cuando impactes a una criatura con una tirada de ataque",
           "target": "Can see or hear you"
         }
       },
@@ -4601,7 +4601,7 @@
       "activities": {
         "QhxT9ZuZXmHGlrnT": {
           "name": "daño de reposte",
-          "condition": "When a creature misses you with a melee attack roll"
+          "condition": "Cuando una criatura falle una tirada de ataque cuerpo a cuerpo contra ti"
         }
       },
       "effects": {},
@@ -4693,7 +4693,7 @@
         },
         "UV3wzKmXpqDjWDAy": {
           "name": "Aura pavorosa",
-          "condition": "Whenever an enemy starts its turn in your Aura of Protección"
+          "condition": "Siempre que un enemigo empiece su turno en tu Aura de protección"
         },
         "ycjMkYEABIglN3pI": {
           "name": "Restaurar uso"
@@ -4813,7 +4813,7 @@
         "PN4GTZbhMC6Qn20K": {
           "name": "Defensa gloriosa",
           "roll": "AC Bonus",
-          "condition": "When you or another creature you can see within 10 pies of you is hit by an attack roll"
+          "condition": "Cuando tú u otra criatura que puedas ver a 10 pies de ti sea impactada por una tirada de ataque"
         }
       },
       "effects": {},
@@ -5447,20 +5447,20 @@
       "activities": {
         "dWcCw1vTWRMx4YzD": {
           "name": "Derribar",
-          "condition": "When you deal Snack Attack damage",
+          "condition": "Cuando inflijas daño de Ataque furtivo",
           "target": "Larger or smaller"
         },
         "jR7KqMuPOZYUCDyO": {
           "name": "Ataque furtivo astuto",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando inflijas daño de Ataque furtivo"
         },
         "m2bRZ1YeD3yf9nV7": {
           "name": "Retirada",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando inflijas daño de Ataque furtivo"
         },
         "n64fvJMT9fPUy7DH": {
           "name": "Veneno",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando inflijas daño de Ataque furtivo"
         }
       },
       "effects": {
@@ -5480,7 +5480,7 @@
       "activities": {
         "5dVDtrViFh1ALqny": {
           "name": "Golpe mortal",
-          "condition": "When you hit with your Sneak Attack on the first round of a combat"
+          "condition": "Cuando impactes con tu Ataque furtivo en la primera ronda de un combate"
         }
       },
       "effects": {},
@@ -5492,15 +5492,15 @@
       "activities": {
         "3eq7lcmpkJJBU2KO": {
           "name": "Noquear",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando inflijas daño de Ataque furtivo"
         },
         "4TnBjQTJzt9UjUos": {
           "name": "Aturdir",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando inflijas daño de Ataque furtivo"
         },
         "ki4lIPVGNA0HjEzH": {
           "name": "Obscurecer",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando inflijas daño de Ataque furtivo"
         }
       },
       "effects": {
@@ -5532,7 +5532,7 @@
       "activities": {
         "JCB7zQI08np5YFon": {
           "name": "Veneno",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando inflijas daño de Ataque furtivo"
         }
       },
       "effects": {},
@@ -6511,7 +6511,7 @@
       "activities": {
         "0DMuCuULnpS5lIR5": {
           "name": "Esquiva Sombría",
-          "condition": "When a creature makes an attack roll against you",
+          "condition": "Cuando una criatura haga una tirada de ataque contra ti",
           "target": "Unoccupied"
         }
       },
@@ -6545,7 +6545,7 @@
       "activities": {
         "VWK5HqWXbyZ1UWlL": {
           "name": "Miedo en Masa",
-          "condition": "When you use the Dreadful Strike effect"
+          "condition": "Cuando uses el efecto de Golpes pavorosos"
         }
       },
       "effects": {},
@@ -6557,7 +6557,7 @@
       "activities": {
         "KAgnJeRtqjDeYJ2S": {
           "name": "Resistencias",
-          "condition": "When you take damage"
+          "condition": "Cuando recibas daño"
         }
       },
       "effects": {
@@ -6623,7 +6623,7 @@
         },
         "y2cSZJxteG7Yew0u": {
           "name": "Reducir agotamiento",
-          "condition": "Whenever you finish a Descanso corto"
+          "condition": "Siempre que termines un Descanso corto"
         }
       },
       "effects": {},
@@ -6877,23 +6877,23 @@
       "activities": {
         "8c416jhRGbwBaFtn": {
           "name": "Frío",
-          "condition": "When you cast a conjuro that deals damage of your elemental affinity"
+          "condition": "Cuando lances un conjuro que inflija daño del tipo de tu afinidad elemental"
         },
         "HIZjwCtrr9r9EDet": {
           "name": "Relámpago",
-          "condition": "When you cast a conjuro that deals damage of your elemental affinity"
+          "condition": "Cuando lances un conjuro que inflija daño del tipo de tu afinidad elemental"
         },
         "QtWZ4Z7tGn9FhBMI": {
           "name": "Fuego",
-          "condition": "When you cast a conjuro that deals damage of your elemental affinity"
+          "condition": "Cuando lances un conjuro que inflija daño del tipo de tu afinidad elemental"
         },
         "RDl054AHObOn4Lf9": {
           "name": "Ácido",
-          "condition": "When you cast a conjuro that deals damage of your elemental affinity"
+          "condition": "Cuando lances un conjuro que inflija daño del tipo de tu afinidad elemental"
         },
         "SV6ewryKJ1bBxeyD": {
           "name": "Veneno",
-          "condition": "When you cast a conjuro that deals damage of your elemental affinity"
+          "condition": "Cuando lances un conjuro que inflija daño del tipo de tu afinidad elemental"
         }
       },
       "effects": {},
@@ -6974,7 +6974,7 @@
       "activities": {
         "nx7BmSJnY8WZV8Mv": {
           "name": "Evitar Ventaja/Desventaja",
-          "condition": "When a creature you can see within 60 pies is about to roll d20 with Advantage/Disadvantage",
+          "condition": "Cuando una criatura que puedas ver a 60 pies o menos vaya a hacer una tirada de d20 con Ventaja/Desventaja",
           "target": "You can see"
         }
       },
@@ -7352,11 +7352,11 @@
       "activities": {
         "E8deQJEsNQVxFCPf": {
           "name": "daño de Maleficio",
-          "condition": "When your thrall hits a creature under the effect of your Maleficio"
+          "condition": "Cuando tu esclavo impacte a una criatura bajo los efectos de tu Maleficio"
         },
         "NVf51SrlR3le7SrR": {
           "name": "PG Temporales del Esclavo",
-          "condition": "When you cast Maleficio without Concentration"
+          "condition": "Cuando lances Maleficio sin concentración"
         }
       },
       "effects": {},
@@ -7380,7 +7380,7 @@
         "4A1lkH3i3azHU1YQ": {
           "name": "Suerte",
           "roll": "Bonus",
-          "condition": "When you make an ability check or saving throw"
+          "condition": "Cuando hagas una prueba de característica o una tirada de salvación"
         }
       },
       "effects": {},
@@ -7406,7 +7406,7 @@
       "activities": {
         "ySE8596WjBPyBt2W": {
           "name": "Maestro Sobrenatural",
-          "condition": "When you use Magical Cunning"
+          "condition": "Cuando uses Astucia Mágica"
         }
       },
       "effects": {},
@@ -7569,7 +7569,7 @@
         },
         "vIY5Deb2vCh5POdP": {
           "name": "Lanzar al Infierno",
-          "condition": "Once per turn when you hit a creature with an attack roll"
+          "condition": "Una vez por turno, cuando impactes a una criatura con una tirada de ataque"
         }
       },
       "effects": {},
@@ -7591,17 +7591,17 @@
       "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso brumoso} como Reacción en respuesta a recibir daño.</p><p>Además, los siguientes efectos pasan a formar parte de tus opciones de Steps of the Fey.</p><p><strong>Paso Desaparecedor. </strong>Tienes la condición &amp;Reference hasta el inicio de tu siguiente turno o hasta inmediatamente después de hacer una tirada de ataque, infligir daño o lanzar un conjuro.</p><p><strong>Paso Pavoroso.</strong> Las criaturas a 5 pies del espacio que dejaste o del espacio en el que apareces (a tu elección) deben superar una tirada de salvación de sabiduría contra tu CD de salvación de conjuros o reciben 2d10 de daño Psíquico.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Disappearing Step</strong> incluye un Efecto Activo que aplica la condición invisible.</p></section>",
       "activities": {
         "2ceGTpBbBclN3qF9": {
-          "condition": "After taking damage"
+          "condition": "Después de recibir daño"
         },
         "kj8zIhPbjs4UIHtc": {
           "name": "Paso Pavoroso",
-          "condition": "After teleporting",
+          "condition": "Después de teletransportarte",
           "range": "Of the space you just left",
           "target": "That you choose"
         },
         "KMyLMOnvFbMuoRYa": {
           "name": "Paso Desaparecedor",
-          "condition": "After teleporting"
+          "condition": "Después de teletransportarte"
         }
       },
       "effects": {
@@ -7649,11 +7649,11 @@
       "activities": {
         "e0Z4QVl2xhKrnzlY": {
           "name": "Tus puntos de golpe temporales",
-          "condition": "Whenever you use your Magical Cunning or finish a Short or Descanso largo"
+          "condition": "Siempre que uses tu Astucia Mágica o termines un Descanso corto o largo"
         },
         "RcOD8an5PifIcVfn": {
           "name": "PG de Criaturas Elegidas",
-          "condition": "Whenever you use your Magical Cunning or finish a Short or Descanso largo",
+          "condition": "Siempre que uses tu Astucia Mágica o termines un Descanso corto o largo",
           "target": "You can see when you gain the points"
         }
       },
@@ -7695,7 +7695,7 @@
       "activities": {
         "48TdRWDqCVcC9mh4": {
           "name": "Paso Burlón",
-          "condition": "After teleporting",
+          "condition": "Después de teletransportarte",
           "range": "Of the space you just left"
         },
         "QUbshQXhUDQqlu2s": {
