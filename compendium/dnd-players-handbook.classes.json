@@ -1022,13 +1022,13 @@
           "title": "Rasgos de Subclase"
         },
         "GIqTIyYPWRzuIyqW": {
-          "title": "Beguiling Magic"
+          "title": "Magia embaucadora"
         },
         "HNlKvmPL8ztcaf2d": {
           "title": "Rasgos de Subclase"
         },
         "nP8NCPYVMtgCwhLl": {
-          "title": "Mantle of Majesty"
+          "title": "Manto de Majestad"
         },
         "qZ2NBbJPG4MFaeGq": {
           "title": "Rasgos de Subclase"
@@ -1085,7 +1085,7 @@
           "title": "Rasgos de Subclase"
         },
         "zXNjqYhloLv46FqV": {
-          "title": "Bonus Proficiencies"
+          "title": "Competencias adicionales"
         }
       }
     },
@@ -1228,7 +1228,7 @@
           "title": "Rasgos de Subclase"
         },
         "8krOiLIscFAfDhDV": {
-          "title": "Martial Training"
+          "title": "Entrenamiento Marcial"
         },
         "exsKwuBwoS4Gycgx": {
           "title": "Rasgos de Subclase"
@@ -1245,7 +1245,7 @@
       "effects": {},
       "advancement": {
         "tOHyKfroR3MU9nUq": {
-          "title": "Words of Life and Death"
+          "title": "Palabras de vida y muerte"
         }
       }
     },
@@ -1317,7 +1317,7 @@
       },
       "advancement": {
         "uFauTQi3ls40bO1J": {
-          "title": "Divine Spark Die Count"
+          "title": "Número de dados de chispa divina"
         }
       }
     },
@@ -1328,23 +1328,23 @@
       "effects": {},
       "advancement": {
         "14RcvdtbvXnTdR9P": {
-          "title": "Divine Strike"
+          "title": "Golpe divino"
         },
         "2wUNkQzS4vL9nR6D": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "bwCLOdauuzoHofil": {
           "title": ""
         },
         "C9ABIfTHZkeFpUva": {
-          "title": "Blessed Strikes Choice",
+          "title": "Elección de golpes benditos",
           "hint": "Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Clérigo subclass in an older book, use only the option you choose for this feature)."
         },
         "db2RJZ0xSSbbOPIk": {
           "title": "Rasgos de Clase"
         },
         "FjHGiO7BkbHTcQ2J": {
-          "title": "Cantrips Known"
+          "title": "Trucos conocidos"
         },
         "fMMlnS7XNj4jHolA": {
           "title": "Rasgos de Clase"
@@ -1353,22 +1353,22 @@
           "title": ""
         },
         "GsYtOM3ismwNGVBK": {
-          "title": "Epic Boon"
+          "title": "Don épico"
         },
         "ilTop8eaoKLL9KVJ": {
           "title": "Rasgos de Clase"
         },
         "ivrX9MYiE52lFZLI": {
-          "title": "Channel Divinity Uses"
+          "title": "Usos de Canalizar divinidad"
         },
         "iyByIlgOSTkVdiIb": {
           "title": "Rasgos de Clase"
         },
         "jMZmkkMc9XLsde4W": {
-          "title": "Max Prepared Conjuros"
+          "title": "Máximo de conjuros preparados"
         },
         "KfX42cnLxFc9gUxU": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "mhZh3LfLMa15tXee": {
           "title": ""
@@ -1386,20 +1386,20 @@
           "title": "Rasgos de Clase"
         },
         "U6GGwY4ZKiXqXBQN": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "V8GfnoZYTe1PLXPI": {
-          "title": "Divine Order Choice",
+          "title": "Elección de orden divina",
           "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
         },
         "X3bKJF53QCfKsonV": {
-          "title": "Blessed Strikes"
+          "title": "Golpes Bendecidos"
         },
         "xtHP27K3z3naIFTi": {
           "title": ""
         },
         "Z9K5kHYMLvroIMpT": {
-          "title": "Saving Throw Proficiencies"
+          "title": "Competencias en tiradas de salvación"
         }
       }
     },
@@ -1539,16 +1539,16 @@
       "effects": {},
       "advancement": {
         "1FttAn0lw9lBpofn": {
-          "title": "Life Domain Conjuros"
+          "title": "Conjuros del dominio de la vida"
         },
         "fke7bQihEBwKmOXP": {
           "title": "Rasgos de Subclase"
         },
         "iYrz7E0p8N6pp5Uy": {
-          "title": "Life Domain Conjuros"
+          "title": "Conjuros del dominio de la vida"
         },
         "MOUCVB3JGazDiUI3": {
-          "title": "Life Domain Conjuros"
+          "title": "Conjuros del dominio de la vida"
         },
         "Qkx3Cd07TGIwBX91": {
           "title": "Rasgos de Subclase"
@@ -1557,7 +1557,7 @@
           "title": "Rasgos de Subclase"
         },
         "zfcT1xCvqRLRZXiH": {
-          "title": "Life Domain Conjuros"
+          "title": "Conjuros del dominio de la vida"
         }
       }
     },
@@ -1575,22 +1575,22 @@
       "effects": {},
       "advancement": {
         "7pvGU6o2dLYJHPpP": {
-          "title": "Luz Domain Conjuros"
+          "title": "Conjuros del dominio de la luz"
         },
         "eD9lLxCaUZ95WK6F": {
-          "title": "Luz Domain Conjuros"
+          "title": "Conjuros del dominio de la luz"
         },
         "fke7bQihEBwKmOXP": {
           "title": "Rasgos de Subclase"
         },
         "oLUCU4vWw0AisW5B": {
-          "title": "Luz Domain Conjuros"
+          "title": "Conjuros del dominio de la luz"
         },
         "Qkx3Cd07TGIwBX91": {
           "title": "Rasgos de Subclase"
         },
         "umpPA6tSu5kxGiy4": {
-          "title": "Luz Domain Conjuros"
+          "title": "Conjuros del dominio de la luz"
         },
         "xGJEF0anyVTaO02x": {
           "title": "Rasgos de Subclase"
@@ -1677,19 +1677,19 @@
           "title": "Rasgos de Subclase"
         },
         "gH98h8olisWhUrQL": {
-          "title": "Trickery Domain Conjuros"
+          "title": "Conjuros del dominio del engaño"
         },
         "KoLlVUFbPP90pFDP": {
-          "title": "Trickery Domain Conjuros"
+          "title": "Conjuros del dominio del engaño"
         },
         "Qkx3Cd07TGIwBX91": {
           "title": "Rasgos de Subclase"
         },
         "RB2Lt2Z47hJwwuFt": {
-          "title": "Trickery Domain Conjuros"
+          "title": "Conjuros del dominio del engaño"
         },
         "SW0sOaygBnc8rPs7": {
-          "title": "Trickery Domain Conjuros"
+          "title": "Conjuros del dominio del engaño"
         },
         "xGJEF0anyVTaO02x": {
           "title": "Rasgos de Subclase"
@@ -1734,10 +1734,10 @@
       "effects": {},
       "advancement": {
         "1dIYdZ1KKKxkXTk0": {
-          "title": "War Domain Conjuros"
+          "title": "Conjuros del dominio de la guerra"
         },
         "AgfxU2gYyKB8moBa": {
-          "title": "War Domain Conjuros"
+          "title": "Conjuros del dominio de la guerra"
         },
         "fke7bQihEBwKmOXP": {
           "title": "Rasgos de Subclase"
@@ -1749,10 +1749,10 @@
           "title": "Rasgos de Subclase"
         },
         "Xo12jE9zyzozVpSP": {
-          "title": "War Domain Conjuros"
+          "title": "Conjuros del dominio de la guerra"
         },
         "Yu4b3jL9WGl7N8eo": {
-          "title": "War Domain Conjuros"
+          "title": "Conjuros del dominio de la guerra"
         }
       }
     },
@@ -1869,7 +1869,7 @@
       "effects": {},
       "advancement": {
         "3QzkY4MkeL5QLWfM": {
-          "title": "Lands Auxilio Damage"
+          "title": "Daño de Ayuda de la Tierra"
         },
         "9l1ICcnaGx27bdOp": {
           "title": "Rasgos de Subclase"
@@ -1898,10 +1898,10 @@
           "title": "Rasgos de Subclase"
         },
         "gr3doNHG1mFLGGoL": {
-          "title": "Circle of the Moon Conjuros"
+          "title": "Conjuros del Círculo de la Luna"
         },
         "k5GlSJQuULYxgCe1": {
-          "title": "Circle of the Moon Conjuros"
+          "title": "Conjuros del Círculo de la Luna"
         },
         "tdzTZSOWJgyhnk5X": {
           "title": "Rasgos de Subclase"
@@ -1910,10 +1910,10 @@
           "title": "Rasgos de Subclase"
         },
         "u6jFGLueb9EL9e0k": {
-          "title": "Circle of the Moon Conjuros"
+          "title": "Conjuros del Círculo de la Luna"
         },
         "vuWXaKhrGUjV2krQ": {
-          "title": "Circle of the Moon Conjuros"
+          "title": "Conjuros del Círculo de la Luna"
         }
       }
     },
@@ -1924,7 +1924,7 @@
       "effects": {},
       "advancement": {
         "7kBG7Byk5jBlGf0P": {
-          "title": "Circle of the Sea Conjuros"
+          "title": "Conjuros del Círculo del Mar"
         },
         "9l1ICcnaGx27bdOp": {
           "title": "Rasgos de Subclase"
@@ -1933,13 +1933,13 @@
           "title": "Rasgos de Subclase"
         },
         "CuANzP8zte61d9h6": {
-          "title": "Circle of the Sea Conjuros"
+          "title": "Conjuros del Círculo del Mar"
         },
         "MSlo0HUIORP5XiIw": {
-          "title": "Wrath of the Sea Range"
+          "title": "Alcance de Ira del Mar"
         },
         "PWoeJpOrgvqmHeqd": {
-          "title": "Circle of the Sea Conjuros"
+          "title": "Conjuros del Círculo del Mar"
         },
         "tdzTZSOWJgyhnk5X": {
           "title": "Rasgos de Subclase"
@@ -1948,7 +1948,7 @@
           "title": "Rasgos de Subclase"
         },
         "ugBNEe4FGJ0r6KWy": {
-          "title": "Circle of the Sea Conjuros"
+          "title": "Conjuros del Círculo del Mar"
         }
       }
     },
@@ -1969,7 +1969,7 @@
           "title": "Rasgos de Subclase"
         },
         "rGMjKBLIZDHfCXPa": {
-          "title": "Starry Form Die"
+          "title": "Dado de forma estelar"
         },
         "tdzTZSOWJgyhnk5X": {
           "title": "Rasgos de Subclase"
@@ -2014,39 +2014,39 @@
           "title": "Rasgos de Clase"
         },
         "ail7EZ56O8d037cL": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "bwCLOdauuzoHofil": {
           "title": ""
         },
         "EoM7g9kruaS8VvhA": {
-          "title": "Known Forms"
+          "title": "Formas conocidas"
         },
         "Eq4uHvKtlKorid7h": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "FOf5CkGnSs0OlppY": {
           "title": ""
         },
         "fwwJ7sF6UAsgWaLf": {
-          "title": "Druidic",
+          "title": "Druídico",
           "hint": "You know Druidic, the secret language of Druids."
         },
         "hmO24ovOBpmXAb4U": {
           "title": "Rasgos de Clase"
         },
         "HYDmnuNUbI5liP08": {
-          "title": "Elemental Fury",
+          "title": "Furia Elemental",
           "hint": "The might of the elements flows through you. You gain one of the following options of your choice."
         },
         "iqdFykNhppeEsmtM": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "J2JpbQEZhVD3Dnjz": {
           "title": "Rasgos de Clase"
         },
         "JoHnvnMWRhadHGwf": {
-          "title": "Cantrips Known"
+          "title": "Trucos conocidos"
         },
         "jOMGuG8a0KfmaeJd": {
           "title": ""
@@ -2055,45 +2055,45 @@
           "title": "Rasgos de Clase"
         },
         "Kx19MYNjomUt6m4p": {
-          "title": "Saving Throw Proficiencies"
+          "title": "Competencias en tiradas de salvación"
         },
         "mhZh3LfLMa15tXee": {
           "title": ""
         },
         "MIVwoANGkc6gmUWN": {
-          "title": "Wild Shape Uses"
+          "title": "Usos de forma salvaje"
         },
         "mRSh9oUVjLU33e7p": {
           "title": ""
         },
         "NpBpNlHOO43gMD0U": {
-          "title": "Primal Order",
+          "title": "Orden primigenia",
           "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
         },
         "P65WodekLKSPQLGZ": {
           "title": "Rasgos de Clase"
         },
         "pIfdGSkqdp00omkE": {
-          "title": "Wild Shape CR"
+          "title": "VD de forma salvaje"
         },
         "rXdhQDJgZhG0AXRZ": {
-          "title": "Epic Boon"
+          "title": "Don épico"
         },
         "SpGvDfOabbJrOR3K": {
-          "title": "Druidic Conjuros"
+          "title": "Conjuros druídicos"
         },
         "uNjxqZQ9lZuOKmU7": {
           "title": "Rasgos de Clase"
         },
         "VmNGSY7Jbmy4AwBb": {
-          "title": "Max Prepared Conjuros"
+          "title": "Máximo de conjuros preparados"
         },
         "W0d3c6X31SgnFFYM": {
-          "title": "Elemental Fury",
+          "title": "Furia Elemental",
           "hint": "The might of the elements flows through you. You gain one of the following options of your choice."
         },
         "wB9ulPjnFnueTfr5": {
-          "title": "Tool Proficiencies"
+          "title": "Competencias con herramientas"
         },
         "wp38UtjwG71SVceB": {
           "title": ""
@@ -2468,25 +2468,25 @@
       "effects": {},
       "advancement": {
         "1ea5JshCgLSm7lf0": {
-          "title": "Student of War: Skills"
+          "title": "Estudiante de la guerra: habilidades"
         },
         "1uBHnM7yyltYiGYr": {
           "title": "Rasgos de Subclase"
         },
         "2Bz61bO8B5SjrzEg": {
-          "title": "Combat Superiority: Maneuvers"
+          "title": "Superioridad en combate: maniobras"
         },
         "DNwHuSG5CFe5o94z": {
           "title": "Rasgos de Subclase"
         },
         "eoklbSN2nZwv8yV7": {
-          "title": "Student of War: Herramientas"
+          "title": "Estudiante de la guerra: herramientas"
         },
         "ifmHcVXF9ZqyVhXa": {
           "title": "Rasgos de Subclase"
         },
         "invmv4oqzyJrxiQm": {
-          "title": "Superiority Dice"
+          "title": "Dados de superioridad"
         },
         "nAg9H5fvgytySqaf": {
           "title": "Rasgos de Subclase"
@@ -2527,7 +2527,7 @@
           "title": "Rasgos de Subclase"
         },
         "F4BJnjlTZ7nAuzjg": {
-          "title": "Fighting Style"
+          "title": "Estilo de combate"
         },
         "ifmHcVXF9ZqyVhXa": {
           "title": "Rasgos de Subclase"
@@ -2554,7 +2554,7 @@
       "effects": {},
       "advancement": {
         "09H7zVdBbTtMJ4OH": {
-          "title": "Cantrips"
+          "title": "Trucos"
         },
         "1uBHnM7yyltYiGYr": {
           "title": "Rasgos de Subclase"
@@ -2572,7 +2572,7 @@
           "title": "Rasgos de Subclase"
         },
         "xmimftRPT4w7jVr9": {
-          "title": "Prepared Conjuros"
+          "title": "Conjuros preparados"
         }
       }
     },
@@ -2611,7 +2611,7 @@
           "title": "Rasgos de Clase"
         },
         "4QKhDAuuM8x78quv": {
-          "title": "Weapon Mastery"
+          "title": "Maestría con armas"
         },
         "54UFgRZAnd1Qo9dp": {
           "title": ""
@@ -2623,19 +2623,19 @@
           "title": ""
         },
         "B05A1ijLPQMNlb3m": {
-          "title": "Saving Throw Proficiencies"
+          "title": "Competencias en tiradas de salvación"
         },
         "bwCLOdauuzoHofil": {
           "title": ""
         },
         "EmTANp6x6GfXFTmU": {
-          "title": "Fighting Style"
+          "title": "Estilo de combate"
         },
         "F4xsrA82RQCn3gEF": {
-          "title": "Epic Boon"
+          "title": "Don épico"
         },
         "fK62ORkG9cOsa3XL": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "FOf5CkGnSs0OlppY": {
           "title": ""
@@ -2644,7 +2644,7 @@
           "title": "Rasgos de Clase"
         },
         "iJ9JidHgTldknGgK": {
-          "title": "Indomitable"
+          "title": "Indomable"
         },
         "knLMZh9N1O50qEcV": {
           "title": "Rasgos de Clase"
@@ -2653,7 +2653,7 @@
           "title": ""
         },
         "mJnrjhWpEz2lMDq4": {
-          "title": "Weapon Mastery"
+          "title": "Maestría con armas"
         },
         "mpkUwD60nPpNaKsg": {
           "title": ""
@@ -2662,13 +2662,13 @@
           "title": ""
         },
         "n08OgNequzQOoUMV": {
-          "title": "Weapon Masteries Known"
+          "title": "Maestrías de arma conocidas"
         },
         "Nl6NkDxsiWjv7MfC": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "oQeuiFaWAVOPtJPt": {
-          "title": "Weapon Mastery"
+          "title": "Maestría con armas"
         },
         "pUT3XfEF6U1xeY18": {
           "title": "Rasgos de Clase"
@@ -2677,25 +2677,25 @@
           "title": "Rasgos de Clase"
         },
         "TsqDRDOepHDmgYjZ": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "UaSYMl2io5kbXNOY": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "wKoM6KOIKl1HWVpR": {
           "title": "Rasgos de Clase"
         },
         "x1gr4ONIHZo6bjX8": {
-          "title": "Action Surge"
+          "title": "Oleada de acción"
         },
         "XNba1RiASLSxoS8e": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "yEH3vVRip4nzxnN9": {
-          "title": "Second Wind"
+          "title": "Segundo aliento"
         },
         "YSAbsXV9zn9eX9p7": {
-          "title": "Weapon Mastery"
+          "title": "Maestría con armas"
         },
         "zvm19nuuM9qRHGrR": {
           "title": ""
@@ -2828,16 +2828,16 @@
           "title": "Rasgos de Subclase"
         },
         "vMuB8NtPfuK9vXOf": {
-          "title": "Psionic Energy Die"
+          "title": "Dado de energía psiónica"
         },
         "WS2baKDHOKdTHvn4": {
           "title": "Rasgos de Subclase"
         },
         "yKvNmgxz4gELiJvU": {
-          "title": "Telequinético Master"
+          "title": "Maestría telequinética"
         },
         "ZcYeA3tYEs1kJDXQ": {
-          "title": "Guarded Mind",
+          "title": "Mente protegida",
           "hint": "You have Resistencia to Psychic damage."
         }
       }
@@ -3291,7 +3291,7 @@
       "effects": {},
       "advancement": {
         "ysQ48LtppKVlaYwB": {
-          "title": "Choose Origin Feat"
+          "title": "Elegir dote de origen"
         }
       }
     },
@@ -4919,7 +4919,7 @@
           "title": "Rasgos de Subclase"
         },
         "9rAVikjK0DFEkhXH": {
-          "title": "Oath of Devotion Conjuros"
+          "title": "Conjuros del Juramento de Devoción"
         },
         "jix1tV556sLlpGYr": {
           "title": "Rasgos de Subclase"
@@ -4928,16 +4928,16 @@
           "title": "Rasgos de Subclase"
         },
         "K8RRsq7vmiYuKAAv": {
-          "title": "Oath of Devotion Conjuros"
+          "title": "Conjuros del Juramento de Devoción"
         },
         "Qji0iHmIWmCZcKt8": {
-          "title": "Oath of Devotion Conjuros"
+          "title": "Conjuros del Juramento de Devoción"
         },
         "vplzciS9QHhcjdQt": {
-          "title": "Oath of Devotion Conjuros"
+          "title": "Conjuros del Juramento de Devoción"
         },
         "VuZSFzUklRDrpP5g": {
-          "title": "Oath of Devotion Conjuros"
+          "title": "Conjuros del Juramento de Devoción"
         }
       }
     },
@@ -4954,10 +4954,10 @@
           "title": "Rasgos de Subclase"
         },
         "89s3fFAoCFSpYv6Z": {
-          "title": "Oath of Glory Conjuros"
+          "title": "Conjuros del Juramento de Gloria"
         },
         "FUGKdCaFsCCi5ccu": {
-          "title": "Oath of Glory Conjuros"
+          "title": "Conjuros del Juramento de Gloria"
         },
         "jix1tV556sLlpGYr": {
           "title": "Rasgos de Subclase"
@@ -4966,13 +4966,13 @@
           "title": "Rasgos de Subclase"
         },
         "M8Nwl0JZb3gWnr3W": {
-          "title": "Oath of Glory Conjuros"
+          "title": "Conjuros del Juramento de Gloria"
         },
         "P7wWj5pNRHmZLFWq": {
-          "title": "Oath of Glory Conjuros"
+          "title": "Conjuros del Juramento de Gloria"
         },
         "WqnzmyhRfHbgTrfR": {
-          "title": "Oath of Glory Conjuros"
+          "title": "Conjuros del Juramento de Gloria"
         }
       }
     },
@@ -4989,7 +4989,7 @@
           "title": "Rasgos de Subclase"
         },
         "h2MX1vR2iLLFzACv": {
-          "title": "Oath of the Ancients Conjuros"
+          "title": "Conjuros del Juramento de los Antiguos"
         },
         "jix1tV556sLlpGYr": {
           "title": "Rasgos de Subclase"
@@ -4998,16 +4998,16 @@
           "title": "Rasgos de Subclase"
         },
         "niUBumHRyZgKHgNL": {
-          "title": "Oath of the Ancients Conjuros"
+          "title": "Conjuros del Juramento de los Antiguos"
         },
         "rcWsvVmk690mS4yD": {
-          "title": "Oath of the Ancients Conjuros"
+          "title": "Conjuros del Juramento de los Antiguos"
         },
         "t4ClezJsbG0Ume4b": {
-          "title": "Oath of the Ancients Conjuros"
+          "title": "Conjuros del Juramento de los Antiguos"
         },
         "YNVurnSqbnurm8hr": {
-          "title": "Oath of the Ancients Conjuros"
+          "title": "Conjuros del Juramento de los Antiguos"
         }
       }
     },
@@ -5024,13 +5024,13 @@
           "title": "Rasgos de Subclase"
         },
         "5odMdYFLIl3L5D0X": {
-          "title": "Oath of Vengeance Conjuros"
+          "title": "Conjuros del Juramento de Venganza"
         },
         "b4x7VukRNGJcz1BM": {
-          "title": "Oath of Vengeance Conjuros"
+          "title": "Conjuros del Juramento de Venganza"
         },
         "CVyNYvAWyCAYyQYK": {
-          "title": "Oath of Vengeance Conjuros"
+          "title": "Conjuros del Juramento de Venganza"
         },
         "jix1tV556sLlpGYr": {
           "title": "Rasgos de Subclase"
@@ -5039,10 +5039,10 @@
           "title": "Rasgos de Subclase"
         },
         "RFgVLmzbcdu12XP3": {
-          "title": "Oath of Vengeance Conjuros"
+          "title": "Conjuros del Juramento de Venganza"
         },
         "VUmPWqGdVSi8ILrA": {
-          "title": "Oath of Vengeance Conjuros"
+          "title": "Conjuros del Juramento de Venganza"
         }
       }
     },
@@ -5053,10 +5053,10 @@
       "effects": {},
       "advancement": {
         "29Ufd0MpG7PBckVs": {
-          "title": "Epic Boon"
+          "title": "Don épico"
         },
         "2sq0pcazOXs74X5l": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "4ZvtY8dxJGz7VaDN": {
           "title": "Rasgos de Clase"
@@ -5077,16 +5077,16 @@
           "title": "Rasgos de Clase"
         },
         "czWJhEH2Xw1gaXzl": {
-          "title": "Channel Divinity Uses"
+          "title": "Usos de Canalizar divinidad"
         },
         "dChGldRqBZQFRIoP": {
           "title": "Rasgos de Clase"
         },
         "dSjz0J0F5cQLvWTd": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "eK65opSkuSD1C22h": {
-          "title": "Saving Throw Proficiencies"
+          "title": "Competencias en tiradas de salvación"
         },
         "ETE0AFEPZYVKhGeV": {
           "title": "Rasgos de Clase"
@@ -5098,19 +5098,19 @@
           "title": "Rasgos de Clase"
         },
         "g88kf6OtX8abBt5c": {
-          "title": "Fighting Style"
+          "title": "Estilo de combate"
         },
         "H2wzREytOuzt7qqC": {
-          "title": "Weapon Mastery"
+          "title": "Maestría con armas"
         },
         "H67dh2nWpE6JMoS2": {
           "title": ""
         },
         "iZReGwulhKjVqgRD": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "K0m33nbxbp3BfUKd": {
-          "title": "Max Prepared Conjuros"
+          "title": "Máximo de conjuros preparados"
         },
         "mhZh3LfLMa15tXee": {
           "title": ""
@@ -5128,13 +5128,13 @@
           "title": ""
         },
         "TZP9M5VqcBv8D313": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "WdtO0qeppSNvtel8": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "xNrNjQXdjdqudAk8": {
-          "title": "Aura Distance"
+          "title": "Distancia del aura"
         }
       }
     },
@@ -5342,10 +5342,10 @@
           "title": "Rasgos de Subclase"
         },
         "CKaLT66TRgZpnY7A": {
-          "title": "Lanzamiento de Conjuros"
+          "title": "Lanzamiento de conjuros"
         },
         "euJHhdIZBeLz1Wyc": {
-          "title": "Max Prepared Conjuros"
+          "title": "Máximo de conjuros preparados"
         },
         "MlEcUhyGRGitfiUJ": {
           "title": "Rasgos de Subclase"
@@ -5384,7 +5384,7 @@
           "title": "Rasgos de Subclase"
         },
         "DUvYYdPtc0kH5wEg": {
-          "title": "Asesino's Herramientas",
+          "title": "Herramientas del asesino",
           "hint": "You gain a Disguise Kit and a Envenenador’s Kit."
         },
         "MlEcUhyGRGitfiUJ": {
@@ -5394,7 +5394,7 @@
           "title": "Rasgos de Subclase"
         },
         "rvg1VPVkuaZrsvIx": {
-          "title": "Asesino's Herramientas",
+          "title": "Herramientas del asesino",
           "hint": "You gain a Disguise Kit and a Envenenador’s Kit."
         }
       }
@@ -5701,17 +5701,17 @@
       "effects": {},
       "advancement": {
         "29Ufd0MpG7PBckVs": {
-          "title": "Epic Boon"
+          "title": "Don épico"
         },
         "4doj2kFD8sIYiX8X": {
-          "title": "Expertise",
+          "title": "Pericia",
           "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
         },
         "4lvoA3fvGLv15lyc": {
           "title": "Rasgos de Clase"
         },
         "4uOxepnMxb2TYDY4": {
-          "title": "Sneak Attack"
+          "title": "Ataque furtivo"
         },
         "6lgPpApxgrLKsNdH": {
           "title": "Rasgos de Clase"
@@ -5738,7 +5738,7 @@
           "title": "Rasgos de Clase"
         },
         "IHbn6EXoBfxHdj7c": {
-          "title": "Thieves' Cant",
+          "title": "Jerga de ladrones",
           "hint": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below."
         },
         "mC2Y1MpLlQ7uSnvk": {
@@ -5757,10 +5757,10 @@
           "title": "Rasgos de Clase"
         },
         "N5TGZDRu7NwVSaq6": {
-          "title": "Tool Proficiencies"
+          "title": "Competencias con herramientas"
         },
         "OJXVOKQhi05P672u": {
-          "title": "Saving Throw Proficiencies"
+          "title": "Competencias en tiradas de salvación"
         },
         "PbZFa8JfPdQcvr1Q": {
           "title": ""
@@ -5769,26 +5769,26 @@
           "title": "Rasgos de Clase"
         },
         "q22sm4VsezAltuqE": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "Rb7qWhNRuua2brG0": {
           "title": "Rasgos de Clase"
         },
         "sqWH6tnUg7jiGaEj": {
-          "title": "Expertise",
+          "title": "Pericia",
           "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
         },
         "tSxdQdTxlNVE1kdD": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "UH1CrcBv6JRJJxsQ": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "xE00qAIjMdw63Kja": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "yp6ZCsT10nGs4J4q": {
-          "title": "Weapon Mastery"
+          "title": "Maestría con armas"
         },
         "YW6yxOO45ACMgnJT": {
           "title": ""
@@ -5851,7 +5851,7 @@
           "title": "Rasgos de Subclase"
         },
         "ETTPZOwazQk1UcG3": {
-          "title": "Psychic Blade",
+          "title": "Hoja psíquica",
           "hint": "You are granted a Psychic Blade which can be used for your Psychic Blades features."
         },
         "MlEcUhyGRGitfiUJ": {
@@ -5861,7 +5861,7 @@
           "title": "Rasgos de Subclase"
         },
         "vzAj9DVM39AAA9WA": {
-          "title": "Psionic Power",
+          "title": "Poder psiónico",
           "hint": "You harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel certain powers you have from this subclass."
         }
       }
@@ -6176,31 +6176,31 @@
           "title": "Rasgos de Subclase"
         },
         "ApuOilYuWlOmNpfX": {
-          "title": "Fey Wanderer Conjuros"
+          "title": "Conjuros de Caminante feérico"
         },
         "c1dfKgLV2pkPvKpP": {
-          "title": "Fey Wanderer Conjuros"
+          "title": "Conjuros de Caminante feérico"
         },
         "cVDlMpoqGjBNky2p": {
-          "title": "Otherworldly Glamour"
+          "title": "Glamur de otro mundo"
         },
         "gBE1JZA0jf6dglQu": {
           "title": "Rasgos de Subclase"
         },
         "isx6d7Fx8S8uFExt": {
-          "title": "Fey Wanderer Conjuros"
+          "title": "Conjuros de Caminante feérico"
         },
         "Qzj7dJ4PN6u5yWqR": {
-          "title": "Fey Wanderer Conjuros"
+          "title": "Conjuros de Caminante feérico"
         },
         "uE246vo2KTJFrDb6": {
-          "title": "Fey Wanderer Conjuros"
+          "title": "Conjuros de Caminante feérico"
         },
         "wacj6x75L5ZaZUky": {
           "title": "Rasgos de Subclase"
         },
         "YDQg3zzcxEfqiU5q": {
-          "title": "Dreadful Strike Damage"
+          "title": "Daño de golpes pavorosos"
         }
       }
     },
@@ -6239,19 +6239,19 @@
           "title": "Rasgos de Subclase"
         },
         "4eo9br1mEA5VJT0M": {
-          "title": "Gloom Stalker Conjuros"
+          "title": "Conjuros del Acechador Umbrío"
         },
         "4nA7C6uQhBJBtWdS": {
           "title": "Rasgos de Subclase"
         },
         "54Vx532gIpI470pA": {
-          "title": "Gloom Stalker Conjuros"
+          "title": "Conjuros del Acechador Umbrío"
         },
         "Fqvc9RaQVzUqudyT": {
-          "title": "Gloom Stalker Conjuros"
+          "title": "Conjuros del Acechador Umbrío"
         },
         "lpUpJDTOsRlZAwg5": {
-          "title": "Dreadful Strike Damage"
+          "title": "Daño de golpes pavorosos"
         },
         "RHaWAsE41kcgqP72": {
           "title": ""
@@ -6263,7 +6263,7 @@
           "title": "Rasgos de Subclase"
         },
         "xYj1TbCoy8ytnnRt": {
-          "title": "Iron Mind",
+          "title": "Mente de hierro",
           "hint": "You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
         },
         "Z2BVzd4qs4kZGTOh": {
@@ -6390,19 +6390,19 @@
           "title": "Rasgos de Clase"
         },
         "29Ufd0MpG7PBckVs": {
-          "title": "Epic Boon"
+          "title": "Don épico"
         },
         "2Wma1d7xii6GUWC9": {
-          "title": "Marca del cazador Damage"
+          "title": "Daño de Marca del cazador"
         },
         "3trTn2JpXbZ6X24q": {
-          "title": "Saving Throw Proficiencies"
+          "title": "Competencias en tiradas de salvación"
         },
         "491B9spyMvoNt2ij": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "AtKKnCoTLBqSxhCh": {
-          "title": "Fighting Style"
+          "title": "Estilo de combate"
         },
         "bwCLOdauuzoHofil": {
           "title": ""
@@ -6411,10 +6411,10 @@
           "title": "Rasgos de Clase"
         },
         "cvPNAaphQTdoQqAb": {
-          "title": "Weapon Mastery"
+          "title": "Maestría con armas"
         },
         "DOENALOWWjAUHzb7": {
-          "title": "Favored Enemy"
+          "title": "Enemigo predilecto"
         },
         "e1EWIvBos04kIm4n": {
           "title": "Rasgos de Clase"
@@ -6426,7 +6426,7 @@
           "title": "Rasgos de Clase"
         },
         "FksFWNV4X4lTFlvO": {
-          "title": "Favored Enemy"
+          "title": "Enemigo predilecto"
         },
         "FOf5CkGnSs0OlppY": {
           "title": ""
@@ -6435,13 +6435,13 @@
           "title": "Rasgos de Clase"
         },
         "H1iv8RH9TOVH30qO": {
-          "title": "Skill Proficiencies"
+          "title": "Competencias en habilidades"
         },
         "iYdu1uOqAnHGWIZY": {
-          "title": "Max Prepared Conjuros"
+          "title": "Máximo de conjuros preparados"
         },
         "knFte4PvZAtHAcFJ": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "M9VOxnHqo0qYtwGb": {
           "title": "Rasgos de Clase"
@@ -6456,13 +6456,13 @@
           "title": "Rasgos de Clase"
         },
         "PLqssMc398jEsEW4": {
-          "title": "Deft Explorer"
+          "title": "Explorador diestro"
         },
         "R77BAIzMfcPq0urg": {
           "title": "Rasgos de Clase"
         },
         "TehnIJlh1drGLjpj": {
-          "title": "Armor Training"
+          "title": "Entrenamiento con armaduras"
         },
         "tfv4CeK2F4fdZMMi": {
           "title": "Rasgos de Clase"
@@ -6471,16 +6471,16 @@
           "title": ""
         },
         "wXbfWOQp62GRMMlZ": {
-          "title": "Weapon Proficiencies"
+          "title": "Competencias con armas"
         },
         "wzh6lW4bOlQy4geS": {
-          "title": "Deft Explorer"
+          "title": "Explorador diestro"
         },
         "yMKZmo7nE6oSFMD0": {
           "title": "Rasgos de Clase"
         },
         "Yscwm2LPBUNjW0pk": {
-          "title": "Expertise"
+          "title": "Pericia"
         },
         "zurYQjBBNQW92SAz": {
           "title": "Rasgos de Clase"
@@ -7024,7 +7024,7 @@
           "title": "Características de Clase"
         },
         "DUHZI0oND7OQ6lox": {
-          "title": "Máximo de Conjuros Preparados"
+          "title": "Máximo de conjuros preparados"
         },
         "FOf5CkGnSs0OlppY": {
           "title": ""
