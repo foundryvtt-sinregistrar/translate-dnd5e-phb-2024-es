@@ -3,7 +3,7 @@
   "mapping": {
     "activities": {
       "path": "system.activities",
-      "converter": "activities"
+      "converter": "phb2024ActivitiesById"
     },
     "effects": {
       "path": "effects",
@@ -52,7 +52,13 @@
       "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
-          "name": "Consumir"
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -64,7 +70,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -76,13 +88,31 @@
       "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled], &amp;Reference[Incapacitated] o &amp;Reference[Restrained]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
-          "name": "Tirada para escapar"
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "rYGOWDRcT5jBKvzq": {
-          "name": "Romper cuerda"
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Y0LvyxjfVHNbp4CG": {
-          "name": "Atar nudo"
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -102,7 +132,13 @@
       "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
-          "name": "Consumir"
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -130,10 +166,22 @@
       "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura u objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
       "activities": {
         "FoeoumkYcnAsGCRo": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "mDj3jtAY6ICmi1ZL": {
-          "name": "Empapar zona"
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -153,7 +201,13 @@
       "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
-          "name": "Consumir"
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -173,7 +227,13 @@
       "description": "<p>Una linterna de capucha proyecta luz brillante en un radio de 30 pies y luz tenue otros 30 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite. Como acción, puedes bajar la capucha, reduciendo la luz a luz tenue en un radio de 5 pies.</p>",
       "activities": {
         "dnd5eactivity000": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -185,7 +245,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -197,7 +263,13 @@
       "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
       "activities": {
         "khBeGXY2PYjIvbvA": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -209,7 +281,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -229,7 +307,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -241,7 +325,13 @@
       "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
       "activities": {
         "SouNhSdWdnznKCam": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -261,7 +351,13 @@
       "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
-          "name": "Consumir"
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -273,7 +369,13 @@
       "description": "<p>Como acción de Utilizar, puedes esparcir abrojos desde su bolsa para cubrir un área de 5 pies cuadrados a 5 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 15 o recibe 1 punto de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. Recuperar los abrojos lleva 10 minutos.</p>",
       "activities": {
         "G8upRnZw22jGWKWy": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -297,10 +399,22 @@
       "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
       "activities": {
         "FoeoumkYcnAsGCRo": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "mDj3jtAY6ICmi1ZL": {
-          "name": "Empapar zona"
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -312,10 +426,22 @@
       "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufrir la condición &amp;Reference[Prone]. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recover Ball Bearings</strong> concede otro uso de este objeto.</p></section>",
       "activities": {
         "FCoYqKd4jqXjHFNN": {
-          "name": "Esparcir bolas de rodamiento"
+          "name": "Esparcir bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "IKk7iQcYsjxDfnmk": {
-          "name": "Recuperar bolas de rodamiento"
+          "name": "Recuperar bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -339,7 +465,13 @@
       "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
       "activities": {
         "khBeGXY2PYjIvbvA": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -351,7 +483,13 @@
       "description": "<p>Una linterna de ojo de buey proyecta luz brillante en un cono de 60 pies y luz tenue en otros 60 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite.</p>",
       "activities": {
         "dnd5eactivity000": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -363,13 +501,31 @@
       "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled], &amp;Reference[Incapacitated], o &amp;Reference[Restrained]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
-          "name": "Tirada para escapar"
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "rYGOWDRcT5jBKvzq": {
-          "name": "Romper cuerda"
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Y0LvyxjfVHNbp4CG": {
-          "name": "Atar nudo"
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -413,7 +569,13 @@
       "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de agua bendita. Elige una criatura que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre 2d8 puntos de daño radiante si es un diablo o un no muerto.</p>",
       "activities": {
         "ArV3jMOIvfj5c5y9": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -457,7 +619,13 @@
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Quarterstaff.</p></section>",
       "activities": {
         "5c4fPKVW51b3Ri3j": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -477,7 +645,13 @@
       "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una redoma de ácido. Elige una criatura u objeto que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre 2d6 puntos de daño de ácido.</p>",
       "activities": {
         "PnWlLChqr5JsfCJC": {
-          "name": "Lanzar ácido"
+          "name": "Lanzar ácido",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -489,7 +663,13 @@
       "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de fuego alquímico. Elige una criatura u objeto que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre [[/damage 1d4 type=fire]] puntos de daño de fuego y empieza &amp;Reference[burning].</p>",
       "activities": {
         "NVclbplLi9uFhKQE": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -514,7 +694,13 @@
       "description": "<p>Como acción adicional, puedes beber una redoma de antitoxina para obtener ventaja en las tiradas de salvación para evitar o terminar la condición Envenenado durante 1 hora.</p>",
       "activities": {
         "2TNbDh0n59svuGIx": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -546,10 +732,22 @@
       "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufre la condición &amp;Reference[Prone]. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recover Ball Bearings</strong> concede otro uso de este objeto.</p></section>",
       "activities": {
         "FCoYqKd4jqXjHFNN": {
-          "name": "Esparcir bolas de rodamiento"
+          "name": "Esparcir bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "IKk7iQcYsjxDfnmk": {
-          "name": "Recuperar bolas de rodamiento"
+          "name": "Recuperar bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -645,7 +843,13 @@
       "description": "<p>Como acción de Utilizar, puedes esparcir abrojos desde su bolsa para cubrir un área de 5 pies cuadrados a 5 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 15 o recibe 1 punto de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. Recuperar los abrojos lleva 10 minutos.</p>",
       "activities": {
         "G8upRnZw22jGWKWy": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -661,7 +865,13 @@
       "description": "<p>Durante 1 hora, una vela encendida emite luz brillante en un radio de 5 pies y luz tenue en otros 5 pies adicionales.</p>",
       "activities": {
         "8kldn9CuzuAz7dVb": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -697,13 +907,31 @@
       "description": "<p>Como acción de Utilizar, puedes envolver una cadena alrededor de una criatura no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Grappled], &amp;Reference[Incapacitated], o &amp;Reference[Restrained] si superas una tirada de Fuerza (Atletismo) CD 13. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cadena, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 18. Romper la cadena requiere superar una tirada de Fuerza (Atletismo) CD 20 como acción.</p>",
       "activities": {
         "9eioXCinYhuRDmOd": {
-          "name": "Tirada para escapar"
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Jg400eyFy9mMETQa": {
-          "name": "Prueba para romper cadena"
+          "name": "Prueba para romper cadena",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "nkqvEiPdXCyiJ9ub": {
-          "name": "Prueba para enlazar con cadena"
+          "name": "Prueba para enlazar con cadena",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -819,7 +1047,13 @@
       "description": "<p>Como acción de Utilizar, puedes lanzar el garfio de escalada hacia una barandilla, un saliente u otro punto donde pueda engancharse a 50 pies de ti, y el garfio se engancha si superas una tirada de Destreza (Acrobacias) CD 13. Si ataste una cuerda al garfio, después puedes trepar por ella.</p>",
       "activities": {
         "X7mlPFWw8g4zsAmB": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -831,7 +1065,13 @@
       "description": "<p>Un kit de curandero tiene diez usos. Como acción de Utilizar, puedes gastar uno de sus usos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).</p>",
       "activities": {
         "bsWqOT06BB3Vb2hg": {
-          "name": "Estabilizar"
+          "name": "Estabilizar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -851,7 +1091,13 @@
       "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de agua bendita. Elige una criatura que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre 2d8 puntos de daño radiante si es un diablo o un no muerto.</p>",
       "activities": {
         "ArV3jMOIvfj5c5y9": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -863,10 +1109,22 @@
       "description": "<p>Como acción de Utilizar, puedes colocar una trampa de caza, que es un anillo de acero dentado que se cierra cuando una criatura pisa una placa de presión en el centro. La trampa está sujeta por una cadena pesada a un objeto inmóvil, como un árbol o una estaca clavada en el suelo. Una criatura que pisa la placa debe superar una tirada de salvación de Destreza CD 13 o sufre 1d4 puntos de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. A partir de entonces, hasta que la criatura se libere de la trampa, su movimiento queda limitado por la longitud de la cadena (normalmente 3 pies). Una criatura puede usar su acción para hacer una prueba de Fuerza (Atletismo) CD 13, liberándose a sí misma u otra criatura a su alcance si tiene éxito. Cada tirada fallida inflige [[/damage 1 type=piercing]] de daño a la criatura atrapada.</p>",
       "activities": {
         "JjJCLmn9qZmCzlxX": {
-          "name": "Escapar"
+          "name": "Escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "tIsE5Y5S9TjOTs9C": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": "Pisa la placa"
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -914,7 +1172,13 @@
       "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
       "activities": {
         "khBeGXY2PYjIvbvA": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -926,7 +1190,13 @@
       "description": "<p>Una linterna de ojo de buey quema aceite como combustible para proyectar luz brillante en un cono de 60 pies y luz tenue en otros 60 pies adicionales.</p>",
       "activities": {
         "YuK3Zl78vcfJq0Gd": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -938,7 +1208,13 @@
       "description": "<p>Una linterna de capucha quema aceite como combustible para proyectar luz brillante en un radio de 30 pies y luz tenue en otros 30 pies adicionales. Como acción adicional, puedes bajar la capucha, reduciendo la luz a luz tenue en un radio de 5 pies, o volver a subirla.</p>",
       "activities": {
         "IU6trhDShBQzMABE": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -966,13 +1242,31 @@
       "description": "<p>Como acción de Utilizar, puedes usar grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Grappled], &amp;Reference[Incapacitated], o &amp;Reference[Restrained] si superas una tirada de Destreza (Juego de manos) CD 13. Mientras esté engrilletada, una criatura tiene desventaja en las tiradas de ataque, y queda restringida si los grilletes están sujetos a una cadena o gancho fijado en su sitio. Escapar de los grilletes requiere superar una tirada de Destreza (Juego de manos) CD 20 como acción. Romperlos requiere superar una tirada de Fuerza (Atletismo) CD 25 como acción.</p><p>Cada juego de grilletes incluye una llave. Sin la llave, una criatura puede usar Thieves’ Tools para forzar la cerradura de los grilletes con una tirada [[/tool thief dex 15]] con éxito.</p>",
       "activities": {
         "HStudlka63uekHM2": {
-          "name": "Prueba para romper"
+          "name": "Prueba para romper",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "IpcLYRMUOUk7dKpE": {
-          "name": "Tirada para escapar"
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "LPW3NsIFCn3pYMjY": {
-          "name": "Atar"
+          "name": "Atar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -1004,7 +1298,13 @@
       "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una red. Elige una criatura que puedas ver a 15 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o adquiere la condición &amp;Reference[Restrained] hasta que escape. El objetivo tiene éxito automáticamente si es enorme o mayor.</p><p>Para escapar, el objetivo o una criatura a 5 pies de él debe gastar una acción para hacer una prueba [[/skill ath 10]], liberando a la criatura restringida si tiene éxito. Destruir la red (CA 10; 5 PG; inmunidad al daño contundente, veneno y psíquico) también libera al objetivo y pone fin al efecto.</p>",
       "activities": {
         "3u15g2fvhp6MyN5O": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {
@@ -1020,10 +1320,22 @@
       "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
       "activities": {
         "FoeoumkYcnAsGCRo": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "mDj3jtAY6ICmi1ZL": {
-          "name": "Empapar zona"
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1059,7 +1371,13 @@
       "description": "<p>Como acción adicional, puedes usar una redoma de veneno básico para recubrir un arma o hasta tres piezas de munición. Una criatura que reciba daño perforante o cortante del arma o la munición envenenada sufre 1d4 puntos de daño de veneno adicionales. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que inflige daño, lo que ocurra antes.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a roll for the Poison damage.</p></section>",
       "activities": {
         "KLsqFTXAS8fnlaYs": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1079,7 +1397,13 @@
       "description": "<p>Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura a 5 pies de ti. La criatura que bebe el fluido rojo mágico de esta redoma recupera 2d4 + 2 puntos de golpe.</p>",
       "activities": {
         "cNvH4obx5XJ2myYr": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1147,13 +1471,31 @@
       "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled], &amp;Reference[Incapacitated], o &amp;Reference[Restrained]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
-          "name": "Tirada para escapar"
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "rYGOWDRcT5jBKvzq": {
-          "name": "Romper cuerda"
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Y0LvyxjfVHNbp4CG": {
-          "name": "Atar nudo"
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1189,7 +1531,13 @@
       "description": "<p>Cuando se hace sonar como acción de Utilizar, un silbato de señales produce un sonido que puede oírse hasta a 600 pies de distancia.</p>",
       "activities": {
         "xBb5IRSNGtnimaeF": {
-          "name": "Silbar"
+          "name": "Silbar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1241,7 +1589,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1253,7 +1607,13 @@
       "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
       "activities": {
         "SouNhSdWdnznKCam": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1433,7 +1793,13 @@
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} adopta una de las formas de la tabla de focos druídicos y está tallado, atado con cintas o pintado para canalizar magia primigenia. Un druida o un guardabosques puede usar dicho objeto como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Quarterstaff.</p></section>",
       "activities": {
         "8F63re0OqRLG0LzQ": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1453,10 +1819,22 @@
       "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
       "activities": {
         "snf3qwCBELlFasdZ": {
-          "name": "Detectar trampas"
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Xa5CnT6vqjbhgSpN": {
-          "name": "Jugar para ganar"
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1468,10 +1846,22 @@
       "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
       "activities": {
         "HVVXAdVmahZwMWmn": {
-          "name": "Jugar para ganar"
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "NDaV33ElahCIeFGJ": {
-          "name": "Detectar trampas"
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1483,10 +1873,22 @@
       "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
       "activities": {
         "el0b7gglRR0etmB0": {
-          "name": "Jugar para ganar"
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "X7yHLXqHjM0kC0Jw": {
-          "name": "Detectar trampas"
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1498,10 +1900,22 @@
       "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
       "activities": {
         "EbM17Ylyo84xBjwb": {
-          "name": "Detectar trampas"
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "gUPVf8vkBC1YlPN0": {
-          "name": "Jugar para ganar"
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1537,7 +1951,13 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>",
       "activities": {
         "3N1e1qi6ahj2wveE": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1549,10 +1969,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "CC7piQjkR6p4CI1N": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "CJszIKH8JldMrgx8": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1564,10 +1996,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "Gp0oZApy9ygRjom3": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "LqgwTSdc7UQxSuRf": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1579,10 +2023,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "4Kdc4kFSmsrhoBiB": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Kb811duGqW9XeVfD": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1594,10 +2050,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "BJ2uJJ9CHUFOLnei": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "uOwGcYrrpv2U4tNt": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1609,10 +2077,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "8k3LD7TVIH6vvzi7": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "ijMZxlEipxTbukhT": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1624,10 +2104,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "SDxZp9JVBHGgAQUU": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "zlDJ7Llgwkqp2J9N": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1639,10 +2131,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "cSIpON2kKXcoCe1T": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "d6eRHAV6fceuC5FN": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1654,10 +2158,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "7p2XS89osRnThY69": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "geguSdrqAMj6NlWb": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1669,10 +2185,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "3snlGseDtpUO13gU": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "ZWWjpnZKCCyH9e6P": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1684,10 +2212,22 @@
       "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
       "activities": {
         "75CpViXTZBViOpNm": {
-          "name": "Tocar una melodía conocida"
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Js5Arad9LXLyzU4s": {
-          "name": "Improvisar una canción"
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1747,7 +2287,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (CD 15) o encender un fuego (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acid}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Alchemist’s Fire}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Component Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>",
       "activities": {
         "3tr6iV1buoI6GB27": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1759,10 +2305,22 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar bebida envenenada (CD 15) o identificar alcohol (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}</p>",
       "activities": {
         "0jzVWvMqR981vABJ": {
-          "name": "Identificar alcohol"
+          "name": "Identificar alcohol",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "3OFmxXtcOkeG70rl": {
-          "name": "Detectar bebida envenenada"
+          "name": "Detectar bebida envenenada",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1774,7 +2332,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto con adornos llamativos que dificultan su falsificación (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>",
       "activities": {
         "PVMIlNQvLAyrF4kP": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1786,7 +2350,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o forzar una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barrel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Portable Ram}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</p>",
       "activities": {
         "FA1LisaMRSw353K6": {
-          "name": "Sellar o forzar"
+          "name": "Sellar o forzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1798,7 +2368,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar un mapa de un área pequeña (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Map}</p>",
       "activities": {
         "Q3W6zdSkQt4HEpX8": {
-          "name": "Trazar un mapa"
+          "name": "Trazar un mapa",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1810,7 +2386,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Modificar calzado para otorgar ventaja en la siguiente prueba de Destreza (Acrobacias) del portador (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Climber’s Kit}</p>",
       "activities": {
         "dnvBdyoNniSVN9Ky": {
-          "name": "Modificar calzado"
+          "name": "Modificar calzado",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1822,10 +2404,22 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Mejorar el sabor de la comida (CD 10) o detectar comida estropeada o envenenada (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}</p>",
       "activities": {
         "CxQN6WZyRt5IGrNj": {
-          "name": "Mejorar sabor"
+          "name": "Mejorar sabor",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "XpIVwyE6VhHNBoae": {
-          "name": "Detectar comida estropeada o envenenada"
+          "name": "Detectar comida estropeada o envenenada",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1837,7 +2431,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Aplicar maquillaje (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}</p>",
       "activities": {
         "SgFQStIx3w0ADo05": {
-          "name": "Aplicar maquillaje"
+          "name": "Aplicar maquillaje",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1849,10 +2449,22 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Imitar 10 palabras o menos de la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)</p>",
       "activities": {
         "HcOxYMy4gmRHLJiF": {
-          "name": "Duplicar sello de cera"
+          "name": "Duplicar sello de cera",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "rIanv5IgN2QhpKSK": {
-          "name": "Imitar caligrafía"
+          "name": "Imitar caligrafía",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1864,7 +2476,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Determinar qué ha contenido un objeto de vidrio en las últimas 24 horas (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Magnifying Glass}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Spyglass}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial}</p>",
       "activities": {
         "Ah1G0WFrQCrH8Ct4": {
-          "name": "Determinar contenido previo"
+          "name": "Determinar contenido previo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1876,7 +2494,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una planta (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion of Healing}</p>",
       "activities": {
         "EEn8IAiinlOlAluN": {
-          "name": "Identificar planta"
+          "name": "Identificar planta",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1888,7 +2512,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Determinar el valor de una gema (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> Arcane Focus, Holy Symbol</p>",
       "activities": {
         "ghdkI4seBn7XykXx": {
-          "name": "Determinar valor"
+          "name": "Determinar valor",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1900,7 +2530,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Añadir un diseño a un objeto de cuero (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Sling}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Whip}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Hide Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Map or Scroll Case}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}</p>",
       "activities": {
         "9GMvXIRK14ghlLel": {
-          "name": "Añadir diseño"
+          "name": "Añadir diseño",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1912,7 +2548,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Cincelar un símbolo o un agujero en piedra (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}</p>",
       "activities": {
         "fEjYUIHLH9OahqE8": {
-          "name": "Cincelar un símbolo o un agujero"
+          "name": "Cincelar un símbolo o un agujero",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1924,10 +2566,22 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar una ruta (CD 10) o determinar la posición guiándose por las estrellas (CD 15)</p>",
       "activities": {
         "tbXPqxy6Ukm9WnSs": {
-          "name": "Trazar una ruta"
+          "name": "Trazar una ruta",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "TPOgnShxoZdAsFXc": {
-          "name": "Determinar posición guiándose por las estrellas"
+          "name": "Determinar posición guiándose por las estrellas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1939,7 +2593,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Pintar una imagen reconocible de algo que hayas visto (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> Druidic Focus, Holy Symbol</p>",
       "activities": {
         "Zy0IXp9aMcAicN4l": {
-          "name": "Pintar una imagen reconocible"
+          "name": "Pintar una imagen reconocible",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1951,7 +2611,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar un objeto envenenado (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Basic Poison}</p>",
       "activities": {
         "LLPutFBLFtMUNR0H": {
-          "name": "Detectar objeto envenenado"
+          "name": "Detectar objeto envenenado",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1963,7 +2629,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia <strong>Peso:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Determinar qué ha contenido un objeto de cerámica en las últimas 24 horas (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jug}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}</p>",
       "activities": {
         "Wf4qq2yDYECwuUBG": {
-          "name": "Determinar contenido previo"
+          "name": "Determinar contenido previo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1975,7 +2647,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar la apertura de una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Firearm Bullets}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Iron Spikes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Sling Bullets}</p>",
       "activities": {
         "NkpANzY0LKUz2Vm0": {
-          "name": "Forzar apertura"
+          "name": "Forzar apertura",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1987,7 +2665,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una cerradura (CD 15) o desarmar una trampa (CD 15)</p>",
       "activities": {
         "4pIHxWxCdaF3Ieok": {
-          "name": "Forzar cerradura/desactivar trampa"
+          "name": "Forzar cerradura/desactivar trampa",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -1999,7 +2683,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Ensamblar un objeto minúsculo hecho de chatarra, que se deshace en 1 minuto (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Musket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flask}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Lock}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Signal Whistle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}</p>",
       "activities": {
         "JSVBIHDQAhgJf1jV": {
-          "name": "Ensamblar un objeto minúsculo"
+          "name": "Ensamblar un objeto minúsculo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2011,7 +2701,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Remendar un desgarro en la ropa (CD 10) o coser un diseño minúsculo (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Padded Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Sack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{String}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tent}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}</p>",
       "activities": {
         "UccmCl9KzcTB4zGS": {
-          "name": "Remendar o coser"
+          "name": "Remendar o coser",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2023,7 +2719,13 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tallar un motivo en madera (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}, Druidic Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</p>",
       "activities": {
         "BUtZN2MAxVTxHX0S": {
-          "name": "Tallar un motivo"
+          "name": "Tallar un motivo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2035,11 +2737,22 @@
       "description": "<p><em>Consulta: &amp;Reference[unarmedstrike]</em></p>",
       "activities": {
         "X96HnXRaVti0SXqJ": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Z288a0QXgaNbdZmP": {
           "name": "Agarrar/empujar",
-          "chatFlavor": "Intento de agarrar o empujar"
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": "Intento de agarrar o empujar"
+          }
         }
       },
       "effects": {
@@ -2058,7 +2771,13 @@
       "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
-          "name": "Consumir"
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2070,7 +2789,13 @@
       "description": "",
       "activities": {
         "WkTYphqhrW8RuuUm": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2082,7 +2807,13 @@
       "description": "",
       "activities": {
         "EXxkQF1AZxrd6c7A": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2094,7 +2825,13 @@
       "description": "",
       "activities": {
         "tFtnW9SGsqxilkl5": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2106,7 +2843,13 @@
       "description": "",
       "activities": {
         "3SJSAL3pv9gKkAM9": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2118,7 +2861,13 @@
       "description": "",
       "activities": {
         "HXmVf11fhJVaDGRU": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2130,7 +2879,13 @@
       "description": "",
       "activities": {
         "9fA3ExXYUl4EvWHA": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2142,7 +2897,13 @@
       "description": "",
       "activities": {
         "oz5daQHA5CwlHyhA": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2154,7 +2915,13 @@
       "description": "",
       "activities": {
         "ylhYxAHaTmE2223j": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2166,7 +2933,13 @@
       "description": "",
       "activities": {
         "amG8qOS4NKpbj2hY": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2178,7 +2951,13 @@
       "description": "",
       "activities": {
         "zi3BW6RGO2ugOyXu": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2190,7 +2969,13 @@
       "description": "",
       "activities": {
         "ToaPTz56SpDo69SZ": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2202,7 +2987,13 @@
       "description": "",
       "activities": {
         "rkjuC3ZV4s9UpD0i": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2214,7 +3005,13 @@
       "description": "",
       "activities": {
         "CJjRI7JX8tziGFSo": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2226,7 +3023,13 @@
       "description": "",
       "activities": {
         "bZgdThKc69XEv43i": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2238,7 +3041,13 @@
       "description": "",
       "activities": {
         "r1hUkUrLD8kqx8X0": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2250,7 +3059,13 @@
       "description": "",
       "activities": {
         "Fxtsz7mTZxBoZWRF": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2262,7 +3077,13 @@
       "description": "",
       "activities": {
         "UYlAFnNzdcc3L81u": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2274,7 +3095,13 @@
       "description": "",
       "activities": {
         "FHmD55OJjrFoBkHr": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2286,7 +3113,13 @@
       "description": "",
       "activities": {
         "b04WToYLVtgE03Dm": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2298,7 +3131,13 @@
       "description": "",
       "activities": {
         "BFZXotvvF4YaAKeT": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2310,7 +3149,13 @@
       "description": "",
       "activities": {
         "KiHlb6kIDAvWmnhv": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2322,7 +3167,13 @@
       "description": "",
       "activities": {
         "wVGKly5R472acaHj": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2334,7 +3185,13 @@
       "description": "",
       "activities": {
         "QIpweawAzbt4xw5h": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2346,7 +3203,13 @@
       "description": "",
       "activities": {
         "iNq67ySHyNX4jmSQ": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2358,7 +3221,13 @@
       "description": "",
       "activities": {
         "HjEJjclqCeGjAymL": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2370,7 +3239,13 @@
       "description": "",
       "activities": {
         "Zyg4dqUmd4VkNdov": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2382,7 +3257,13 @@
       "description": "",
       "activities": {
         "XYVC9JOYrtFlLA1k": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2394,7 +3275,13 @@
       "description": "",
       "activities": {
         "0PGNisis4CVkSml5": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2406,7 +3293,13 @@
       "description": "",
       "activities": {
         "YOx3cikY6oPu6Ojh": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2418,7 +3311,13 @@
       "description": "",
       "activities": {
         "XTpNEcni4iwfmaeA": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2430,7 +3329,13 @@
       "description": "",
       "activities": {
         "42jdrHDfDRCcYeL4": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2442,7 +3347,13 @@
       "description": "",
       "activities": {
         "ApQ85BtlIJDElLuu": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2454,7 +3365,13 @@
       "description": "",
       "activities": {
         "pJCR6dF3xxKAupNv": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2466,7 +3383,13 @@
       "description": "",
       "activities": {
         "HiR3FA2Uc0oOAHU9": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2478,7 +3401,13 @@
       "description": "",
       "activities": {
         "qezzwsHRqu4rtKVW": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2490,7 +3419,13 @@
       "description": "",
       "activities": {
         "jf99rIxqlwX1YLPc": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2502,7 +3437,13 @@
       "description": "",
       "activities": {
         "aTON7UZlIvfSwpY8": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2514,7 +3455,13 @@
       "description": "",
       "activities": {
         "VC8ZaoZ7An8WUFf6": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2534,7 +3481,13 @@
       "description": "<p>Conjunto de ropas diseñado específicamente para ser caro y que se note.</p>",
       "activities": {
         "dnd5eactivity000": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2546,7 +3499,13 @@
       "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
       "activities": {
         "SouNhSdWdnznKCam": {
-          "name": ""
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2558,10 +3517,22 @@
       "description": "<p>Puedes rociar con aceite a una criatura, objeto o espacio, o usarlo como combustible, como se detalla a continuación.</p><p><strong>Rociar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes sustituir uno de tus ataques por lanzar un frasco de aceite. Elige una criatura u objeto a 20 pies o menos de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedar cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre [[/damage 5 type=fire]] puntos de daño adicionales por el aceite en llamas.</p><p><strong>Rociar un espacio.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área de 5 pies cuadrados a 5 pies o menos de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haberse encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine allí su turno. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
       "activities": {
         "FoeoumkYcnAsGCRo": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "mDj3jtAY6ICmi1ZL": {
-          "name": "Rociar área"
+          "name": "Rociar área",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2573,7 +3544,13 @@
       "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
-          "name": "Consumir"
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2593,7 +3570,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que guarda pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se utiliza para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2605,7 +3588,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2625,10 +3614,22 @@
       "description": "<p>Puedes rociar con aceite a una criatura, objeto o espacio, o usarlo como combustible, como se detalla a continuación.</p><p><strong>Rociar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes sustituir uno de tus ataques por lanzar un frasco de aceite. Elige una criatura u objeto a 20 pies o menos de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedar cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre [[/damage 5 type=fire]] puntos de daño adicionales por el aceite en llamas.</p><p><strong>Rociar un espacio.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área de 5 pies cuadrados a 5 pies o menos de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haberse encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine allí su turno. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
       "activities": {
         "FoeoumkYcnAsGCRo": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "mDj3jtAY6ICmi1ZL": {
-          "name": "Rociar área"
+          "name": "Rociar área",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2656,7 +3657,13 @@
       "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
       "activities": {
         "khBeGXY2PYjIvbvA": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2676,7 +3683,13 @@
       "description": "<p>Durante 1 hora, una vela encendida emite luz brillante en un radio de 5 pies y luz tenue en otros 5 pies adicionales.</p>",
       "activities": {
         "8kldn9CuzuAz7dVb": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2720,10 +3733,22 @@
       "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
       "activities": {
         "FoeoumkYcnAsGCRo": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "mDj3jtAY6ICmi1ZL": {
-          "name": "Empapar zona"
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2735,10 +3760,22 @@
       "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
       "activities": {
         "FoeoumkYcnAsGCRo": {
-          "name": "Lanzar"
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "mDj3jtAY6ICmi1ZL": {
-          "name": "Empapar zona"
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2766,13 +3803,31 @@
       "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled], &amp;Reference[Incapacitated], o &amp;Reference[Restrained]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
-          "name": "Tirada para escapar"
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "rYGOWDRcT5jBKvzq": {
-          "name": "Romper cuerda"
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         },
         "Y0LvyxjfVHNbp4CG": {
-          "name": "Atar nudo"
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
@@ -2800,7 +3855,13 @@
       "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
       "activities": {
         "lshQ6ZeI69B0aRpu": {
-          "name": "Encender"
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
         }
       },
       "effects": {},
