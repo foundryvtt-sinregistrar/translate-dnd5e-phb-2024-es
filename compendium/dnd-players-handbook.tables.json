@@ -1,11 +1,5 @@
 {
   "label": "Tablas de tiradas",
-  "mapping": {
-    "results": {
-      "path": "results",
-      "converter": "phb2024RollTableResultsById"
-    }
-  },
   "folders": {
     "Chapter 2": "Capítulo 2",
     "Chapter 3": "Capítulo 3",
@@ -216,17 +210,17 @@
       "results": {
         "BDTDezjTIxlDKI0W": {
           "type": "document",
-          "name": "Tiefling abisal",
+          "name": "Tiflin abisal",
           "description": ""
         },
         "az5LLssMmXKwVuVN": {
           "type": "document",
-          "name": "Tiefling ctónico",
+          "name": "Tiflin, ctónico",
           "description": ""
         },
         "rgmgNUmrPVv1e7Dz": {
           "type": "document",
-          "name": "Tiefling infernal",
+          "name": "Tiflin, infernal",
           "description": ""
         }
       }
@@ -453,7 +447,7 @@
         "b1ryx7FwWLGwgQiQ": {
           "type": "text",
           "name": "",
-          "description": "<p><strong>Índigo.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Apresado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitución</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si tiene éxito en tres tiradas de salvación, la condición termina. Si falla tres tiradas, tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrificado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición hasta que sea liberado por un efecto como el conjuro <em>Restauración mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de uno u otro. <em>Efectos adicionales:</em> No se pueden lanzar conjuros a través de esta capa, que se destruye con la Luz brillante emitida por el conjuro <em>Luz del día</em>.</p>"
+          "description": "<p><strong>Índigo.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restringido</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitución</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si tiene éxito en tres tiradas de salvación, la condición termina. Si falla tres tiradas, tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrificado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición hasta que sea liberado por un efecto como el conjuro <em>Restauración mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de uno u otro. <em>Efectos adicionales:</em> No se pueden lanzar conjuros a través de esta capa, que se destruye con la Luz brillante emitida por el conjuro <em>Luz del día</em>.</p>"
         },
         "cbfHzGC7oLI48i1F": {
           "type": "text",
@@ -495,7 +489,7 @@
         "9roEeqKHIauLWYsP": {
           "type": "text",
           "name": "",
-          "description": "<p><strong>Índigo.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Apresado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitución</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si tiene éxito en tres tiradas de salvación, la condición termina. Si falla tres tiradas, tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrificado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición hasta que sea liberado por un efecto como el conjuro <em>Restauración mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de uno u otro.</p>"
+          "description": "<p><strong>Índigo.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restringido</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitución</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si tiene éxito en tres tiradas de salvación, la condición termina. Si falla tres tiradas, tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrificado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición hasta que sea liberado por un efecto como el conjuro <em>Restauración mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de uno u otro.</p>"
         },
         "YRy23VFeS34ZU0kN": {
           "type": "text",
@@ -1343,7 +1337,7 @@
         "YkwnSFxrMOkXaHYM": {
           "type": "text",
           "name": "",
-          "description": "Una criatura amistosa contigo aparece en un espacio desocupado aleatorio a 60 pies o menos de ti. La criatura está bajo el control del DM y desaparece 1 minuto después. Tira [[/r 1d4]] para determinar la criatura: con un 1 aparece un Modron duodrón; con un 2, un flumph; con un 3, un Modron monodrón; con un 4, un unicornio. Consulta el Monster Manual para el bloque de estadísticas de la criatura."
+          "description": "Una criatura amistosa contigo aparece en un espacio desocupado aleatorio a 60 pies o menos de ti. La criatura está bajo el control del DM y desaparece 1 minuto después. Tira [[/r 1d4]] para determinar la criatura: con un 1 aparece un Modron duodrón; con un 2, un flumph; con un 3, un Modron monodrón; con un 4, un unicornio. Consulta el Manual de Monstruos para el bloque de estadísticas de la criatura."
         },
         "tM3cYTdF8xl5Z3QU": {
           "type": "text",
@@ -1423,7 +1417,7 @@
         "Mc6j9kCS7dSiJm6L": {
           "type": "text",
           "name": "",
-          "description": "Tienes la condición de &amp;Reference[Frightened]{Asustado} hasta el final de tu siguiente turno. El DM determina el origen de tu miedo."
+          "description": "Tienes la condición de &amp;Reference[Frightened]{Aterrorizado} hasta el final de tu siguiente turno. El DM determina el origen de tu miedo."
         },
         "V5If86DM2oyQE5Qm": {
           "type": "text",
@@ -1488,6 +1482,12 @@
           "description": "<strong>Alta:</strong> Cauto. <strong>Baja:</strong> Ingenuo."
         }
       }
+    }
+  },
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "phb2024RollTableResultsById"
     }
   }
 }
