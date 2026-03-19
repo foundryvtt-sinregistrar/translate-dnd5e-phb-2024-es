@@ -1,5 +1,11 @@
 {
   "label": "Tablas de tiradas",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "phb2024RollTableResultsById"
+    }
+  },
   "folders": {
     "Chapter 2": "Capítulo 2",
     "Chapter 3": "Capítulo 3",
