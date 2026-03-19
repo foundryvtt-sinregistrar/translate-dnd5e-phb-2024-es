@@ -117,7 +117,7 @@
     "phbPhantasmalFor": {
       "name": "Fuerza fantasmal",
       "folder": "2nd Level",
-      "description": "<div><p>Intentas crear una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Inteligencia. En una salvación fallida, creas un objeto, criatura u otro fenómeno fantasmal de no más de un Cubo de 10 pies que solo el objetivo percibe durante la duración. El fantasma incluye sonido, temperatura y otros estímulos.</p><p>El objetivo puede usar la acción &amp;Reference[Study]{Study} para examinar el fantasma con una tirada [[/check ability=int skill=inv dc=@attributes.spell.dc]] enfrentada a tu CD de salvación de conjuros. Si la tirada tiene éxito, el objetivo se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p><p>Mientras esté afectado por el conjuro, el objetivo trata al fantasma como si fuera real y racionaliza cualquier resultado ilógico de interactuar con él. Por ejemplo, si el objetivo cruza un puente fantasmal y sobrevive a la caída, creerá que el puente existe y que otra cosa le hizo caer.</p><p>Un objetivo afectado incluso puede sufrir daño por la ilusión si el fantasma representa una criatura o peligro peligroso. En cada uno de tus turnos, tal fantasma puede infligir 2d8 de daño Psíquico al objetivo si está en el área del fantasma o a 5 pies de él. El objetivo percibe el daño como un tipo apropiado a la ilusión.</p></div>",
+      "description": "<div><p>Intentas crear una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Inteligencia. En una salvación fallida, creas un objeto, criatura u otro fenómeno fantasmal de no más de un Cubo de 10 pies que solo el objetivo percibe durante la duración. El fantasma incluye sonido, temperatura y otros estímulos.</p><p>El objetivo puede usar la acción &amp;Reference[Study]{Estudiar} para examinar el fantasma con una tirada [[/check ability=int skill=inv dc=@attributes.spell.dc]] enfrentada a tu CD de salvación de conjuros. Si la tirada tiene éxito, el objetivo se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p><p>Mientras esté afectado por el conjuro, el objetivo trata al fantasma como si fuera real y racionaliza cualquier resultado ilógico de interactuar con él. Por ejemplo, si el objetivo cruza un puente fantasmal y sobrevive a la caída, creerá que el puente existe y que otra cosa le hizo caer.</p><p>Un objetivo afectado incluso puede sufrir daño por la ilusión si el fantasma representa una criatura o peligro peligroso. En cada uno de tus turnos, tal fantasma puede infligir 2d8 de daño Psíquico al objetivo si está en el área del fantasma o a 5 pies de él. El objetivo percibe el daño como un tipo apropiado a la ilusión.</p></div>",
       "activities": {
         "5LLVXOLZf1fTstUw": {
           "name": "Lanzar",
@@ -150,7 +150,7 @@
       "effects": {
         "QyPQcXhcl8sTDQ3d": {
           "name": "Viendo ilusiones",
-          "description": "<p>El objetivo puede usar la acción &amp;Reference[Study]{Study} para examinar el fantasma con una tirada [[/check ability=int skill=inv]] enfrentada a tu CD de salvación de conjuros. Si la tirada tiene éxito, el objetivo se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p>"
+          "description": "<p>El objetivo puede usar la acción &amp;Reference[Study]{Estudiar} para examinar el fantasma con una tirada [[/check ability=int skill=inv]] enfrentada a tu CD de salvación de conjuros. Si la tirada tiene éxito, el objetivo se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p>"
         }
       },
       "advancement": {}
@@ -190,19 +190,24 @@
       },
       "effects": {
         "0ODEqmz3M45lwd8q": {
-          "name": "Protección contra relámpago"
+          "name": "Protección contra relámpago",
+          "description": null
         },
         "DsflUNYKqETaLgxG": {
-          "name": "Protección contra fuego"
+          "name": "Protección contra fuego",
+          "description": null
         },
         "M13rFIPjAIMwKzQp": {
-          "name": "Protección contra trueno"
+          "name": "Protección contra trueno",
+          "description": null
         },
         "RrJ5b1A9TghFe5QK": {
-          "name": "Protección contra ácido"
+          "name": "Protección contra ácido",
+          "description": null
         },
         "xDm8bqlMGiPq7nlt": {
-          "name": "Protección contra frío"
+          "name": "Protección contra frío",
+          "description": null
         }
       },
       "advancement": {}
@@ -397,7 +402,8 @@
       },
       "effects": {
         "1jrUeJtfZMGhJOZa": {
-          "name": "Apariencia alterada"
+          "name": "Apariencia alterada",
+          "description": null
         },
         "6SL9vuAkx7nAfS5D": {
           "name": "Adaptación acuática",
@@ -486,7 +492,7 @@
     "phbsplAnimateDea": {
       "name": "Animar a los muertos",
       "folder": "3rd Level",
-      "description": "<p>Elige un montón de huesos o el cadáver de un Humanoide Mediano o Pequeño dentro del alcance. El objetivo se convierte en una criatura No muerta: un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{Skeleton}</strong> si elegiste huesos o un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobZombie0000]{Zombie}</strong> si elegiste un cadáver.</p><p>En cada uno de tus turnos, puedes usar una Acción adicional para ordenar mentalmente a cualquier criatura que hayas creado con este conjuro si la criatura está a 60 pies o menos de ti (si controlas múltiples criaturas, puedes dar órdenes a cualquiera de ellas al mismo tiempo, emitiendo la misma orden para todas). Decides qué acción realizará la criatura y adónde se moverá en su siguiente turno, o puedes emitir una orden general, como vigilar una cámara o un pasillo. Si no emites órdenes, la criatura realiza la acción Esquivar y solo se mueve para evitar el daño. Una vez dada una orden, la criatura la sigue hasta que completa su tarea.</p><p>La criatura permanece bajo tu control durante 24 horas, tras lo cual deja de obedecer cualquier orden que le hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que termine el periodo actual de 24 horas. Este uso del conjuro reafirma tu control sobre hasta cuatro criaturas que hayas animado con este conjuro, en lugar de animar una criatura nueva.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Animas o reafirmas el control sobre dos criaturas No muertas adicionales por cada nivel de espacio de conjuro por encima de 3. Cada criatura debe provenir de un cadáver o montón de huesos diferente.</p>",
+      "description": "<p>Elige un montón de huesos o el cadáver de un Humanoide Mediano o Pequeño dentro del alcance. El objetivo se convierte en una criatura No muerta: un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{Esqueleto}</strong> si elegiste huesos o un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobZombie0000]{Zombi}</strong> si elegiste un cadáver.</p><p>En cada uno de tus turnos, puedes usar una Acción adicional para ordenar mentalmente a cualquier criatura que hayas creado con este conjuro si la criatura está a 60 pies o menos de ti (si controlas múltiples criaturas, puedes dar órdenes a cualquiera de ellas al mismo tiempo, emitiendo la misma orden para todas). Decides qué acción realizará la criatura y adónde se moverá en su siguiente turno, o puedes emitir una orden general, como vigilar una cámara o un pasillo. Si no emites órdenes, la criatura realiza la acción Esquivar y solo se mueve para evitar el daño. Una vez dada una orden, la criatura la sigue hasta que completa su tarea.</p><p>La criatura permanece bajo tu control durante 24 horas, tras lo cual deja de obedecer cualquier orden que le hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que termine el periodo actual de 24 horas. Este uso del conjuro reafirma tu control sobre hasta cuatro criaturas que hayas animado con este conjuro, en lugar de animar una criatura nueva.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Animas o reafirmas el control sobre dos criaturas No muertas adicionales por cada nivel de espacio de conjuro por encima de 3. Cada criatura debe provenir de un cadáver o montón de huesos diferente.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -540,7 +546,7 @@
     "phbsplAntimagicF": {
       "name": "Campo antimagia",
       "folder": "8th Level",
-      "description": "<p>Un aura de antimagia te rodea en una Emisión de 10 pies. Nadie puede lanzar conjuros, realizar acciones mágicas ni crear otros efectos mágicos dentro del aura, y esas cosas no pueden hacer objetivo ni afectar de otro modo a nada que esté dentro de ella. Las propiedades mágicas de los objetos mágicos no funcionan dentro del aura ni sobre nada que esté dentro de ella.</p><p>Las áreas de efecto creadas por conjuros u otra magia no pueden extenderse dentro del aura, y nadie puede teletransportarse hacia dentro o fuera de ella ni usar viaje planar allí. Los portales se cierran temporalmente mientras estén en el aura.</p><p>Los conjuros en curso, excepto los lanzados por un artefacto o una deidad, quedan suprimidos en el área. Mientras un efecto está suprimido, no funciona, pero el tiempo que pase suprimido cuenta para su duración.</p><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> no tiene efecto sobre el aura, y las auras creadas por diferentes conjuros de <em>Antimagic Field</em> no se anulan entre sí.</p>",
+      "description": "<p>Un aura de antimagia te rodea en una Emisión de 10 pies. Nadie puede lanzar conjuros, realizar acciones mágicas ni crear otros efectos mágicos dentro del aura, y esas cosas no pueden hacer objetivo ni afectar de otro modo a nada que esté dentro de ella. Las propiedades mágicas de los objetos mágicos no funcionan dentro del aura ni sobre nada que esté dentro de ella.</p><p>Las áreas de efecto creadas por conjuros u otra magia no pueden extenderse dentro del aura, y nadie puede teletransportarse hacia dentro o fuera de ella ni usar viaje planar allí. Los portales se cierran temporalmente mientras estén en el aura.</p><p>Los conjuros en curso, excepto los lanzados por un artefacto o una deidad, quedan suprimidos en el área. Mientras un efecto está suprimido, no funciona, pero el tiempo que pase suprimido cuenta para su duración.</p><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar magia}</em> no tiene efecto sobre el aura, y las auras creadas por diferentes conjuros de <em>Antimagic Field</em> no se anulan entre sí.</p>",
       "activities": {
         "OxII9yaa3KpRduWZ": {
           "name": "",
@@ -594,10 +600,12 @@
           "description": "<p>La criatura adquiere la condición &amp;Reference[Frightened apply=false]. La criatura Aterrorizada debe usar su movimiento en sus turnos para alejarse lo máximo posible del objetivo, moviéndose por la ruta más segura.</p><p><strong>Finalizar el efecto.</strong> Si la criatura Aterrorizada o Hechizada termina su turno a más de 120 pies del objetivo, la criatura hace una [[/save ability=wis format=long]]. Si la salvación tiene éxito, la criatura deja de estar afectada por el objetivo. Una criatura que tenga éxito en la salvación contra este efecto es inmune a él durante 1 minuto; después de ese tiempo, puede verse afectada de nuevo.</p>"
         },
         "bW6xZzK4dmulRmUT": {
-          "name": "Antipatía"
+          "name": "Antipatía",
+          "description": null
         },
         "Cz9yMSQmtWRnz81Z": {
-          "name": "Simpatía"
+          "name": "Simpatía",
+          "description": null
         },
         "pkTbvXvccMakDjyU": {
           "name": "Hechizado",
@@ -974,7 +982,8 @@
       },
       "effects": {
         "Vq0t8ts0lfPoGx6U": {
-          "name": "Piel de corteza"
+          "name": "Piel de corteza",
+          "description": null
         }
       },
       "advancement": {}
@@ -1023,7 +1032,7 @@
     "phbsplBefuddleme": {
       "name": "Confusión mental",
       "folder": "8th Level",
-      "description": "<p>Asestas un impacto mental a la mente de una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Inteligencia.</p><p>En una salvación fallida, el objetivo recibe 10d12 de daño psíquico y no puede lanzar conjuros ni realizar la acción de Magia. Al final de cada 30 días, el objetivo repite la tirada de salvación, terminando el efecto si tiene éxito. El efecto también puede terminarse con los conjuros <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Heal}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em>.</p><p>En una salvación con éxito, el objetivo solo recibe la mitad del daño.</p>",
+      "description": "<p>Asestas un impacto mental a la mente de una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Inteligencia.</p><p>En una salvación fallida, el objetivo recibe 10d12 de daño psíquico y no puede lanzar conjuros ni realizar la acción de Magia. Al final de cada 30 días, el objetivo repite la tirada de salvación, terminando el efecto si tiene éxito. El efecto también puede terminarse con los conjuros <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauración mayor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Sanar}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Deseo}</em>.</p><p>En una salvación con éxito, el objetivo solo recibe la mitad del daño.</p>",
       "activities": {
         "TAVpYz6KXNk1xZi1": {
           "name": "",
@@ -1038,7 +1047,7 @@
       "effects": {
         "KjjRlnccDwmAY7gG": {
           "name": "Confundido",
-          "description": "<p>En una salvación fallida, el objetivo recibe 10d12 de daño psíquico y no puede lanzar conjuros ni realizar la acción de Magia. Al final de cada 30 días, el objetivo repite la [[/save ability=wis]] tirada de salvación, terminando el efecto si tiene éxito. El efecto también puede terminarse con los conjuros <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Heal}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em>.</p>"
+          "description": "<p>En una salvación fallida, el objetivo recibe 10d12 de daño psíquico y no puede lanzar conjuros ni realizar la acción de Magia. Al final de cada 30 días, el objetivo repite la [[/save ability=wis]] tirada de salvación, terminando el efecto si tiene éxito. El efecto también puede terminarse con los conjuros <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauración mayor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000]{Sanar}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Deseo}</em>.</p>"
         }
       },
       "advancement": {}
@@ -1305,7 +1314,8 @@
       },
       "effects": {
         "La5ofK0TnPSTL3iq": {
-          "name": "Etéreo"
+          "name": "Etéreo",
+          "description": null
         }
       },
       "advancement": {}
@@ -1536,7 +1546,8 @@
       },
       "effects": {
         "WuYsg2mftQltuDIK": {
-          "name": "Poder del círculo"
+          "name": "Poder del círculo",
+          "description": null
         }
       },
       "advancement": {}
@@ -1630,7 +1641,8 @@
       },
       "effects": {
         "DKl58EVNaSX976co": {
-          "name": "Cegado"
+          "name": "Cegado",
+          "description": null
         }
       },
       "advancement": {}
@@ -1729,7 +1741,8 @@
       },
       "effects": {
         "ANhwNb9xKRpWs4Q2": {
-          "name": "Comprensión"
+          "name": "Comprensión",
+          "description": null
         }
       },
       "advancement": {}
@@ -2008,7 +2021,7 @@
     "phbsplContactOth": {
       "name": "Contactar con otro plano",
       "folder": "5th Level",
-      "description": "<p>Contactas mentalmente con un semidiós, el espíritu de un sabio muerto hace mucho tiempo u otra entidad conocedora de otro plano. Contactar con esta inteligencia de otro mundo puede quebrar tu mente. Cuando lanzas este conjuro, realiza una tirada de salvación de Inteligencia con CD 15. En una salvación con éxito, puedes hacer a la entidad hasta cinco preguntas. Debes hacer tus preguntas antes de que el conjuro termine. El DM responde cada pregunta con una sola palabra, como “sí”, “no”, “quizá”, “nunca”, “irrelevante” o “incierto” (si la entidad no sabe la respuesta). Si una respuesta de una sola palabra pudiera resultar engañosa, el DM podría ofrecer una frase corta como respuesta.</p><p>En una salvación fallida, recibes 6d6 de daño psíquico y adquieres la condición &amp;Reference[Incapacitated] hasta que termines un Descanso prolongado. Un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em> lanzado sobre ti termina este efecto.</p>",
+      "description": "<p>Contactas mentalmente con un semidiós, el espíritu de un sabio muerto hace mucho tiempo u otra entidad conocedora de otro plano. Contactar con esta inteligencia de otro mundo puede quebrar tu mente. Cuando lanzas este conjuro, realiza una tirada de salvación de Inteligencia con CD 15. En una salvación con éxito, puedes hacer a la entidad hasta cinco preguntas. Debes hacer tus preguntas antes de que el conjuro termine. El DM responde cada pregunta con una sola palabra, como “sí”, “no”, “quizá”, “nunca”, “irrelevante” o “incierto” (si la entidad no sabe la respuesta). Si una respuesta de una sola palabra pudiera resultar engañosa, el DM podría ofrecer una frase corta como respuesta.</p><p>En una salvación fallida, recibes 6d6 de daño psíquico y adquieres la condición &amp;Reference[Incapacitated] hasta que termines un Descanso prolongado. Un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauración mayor}</em> lanzado sobre ti termina este efecto.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -2086,7 +2099,8 @@
           "name": "Conjuro de contingencia",
           "changes": {
             "name": "Contingencia: {}"
-          }
+          },
+          "description": null
         }
       },
       "advancement": {}
@@ -2342,7 +2356,8 @@
       },
       "effects": {
         "A0Ygu7lYccaS4Q1K": {
-          "name": "Manto del cruzado"
+          "name": "Manto del cruzado",
+          "description": null
         }
       },
       "advancement": {}
@@ -2554,7 +2569,8 @@
       },
       "effects": {
         "7rwwrDvjlu2L7tSM": {
-          "name": "Derribado"
+          "name": "Derribado",
+          "description": null
         }
       },
       "advancement": {}
@@ -2562,7 +2578,7 @@
     "phbsplDetectEvil": {
       "name": "Detectar el bien y el mal",
       "folder": "1st Level",
-      "description": "<p>Durante la duración, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Ser feérico (Fey), Infernal (Fiend) o No muerto (Undead) a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Hallow}</em> está activo allí y, de ser así, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>",
+      "description": "<p>Durante la duración, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Ser feérico (Fey), Infernal (Fiend) o No muerto (Undead) a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, de ser así, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -2576,7 +2592,8 @@
       },
       "effects": {
         "pOgbtXbKVGdbwjjE": {
-          "name": "Detectar el bien y el mal"
+          "name": "Detectar el bien y el mal",
+          "description": null
         }
       },
       "advancement": {}
@@ -2598,7 +2615,8 @@
       },
       "effects": {
         "BHw91lQmVgdx39WZ": {
-          "name": "Detectar magia"
+          "name": "Detectar magia",
+          "description": null
         }
       },
       "advancement": {}
@@ -2620,7 +2638,8 @@
       },
       "effects": {
         "zSS8rmsXm5JCaM5x": {
-          "name": "Detectar veneno y enfermedades"
+          "name": "Detectar veneno y enfermedades",
+          "description": null
         }
       },
       "advancement": {}
@@ -2705,7 +2724,7 @@
     "phbsplDisintegra": {
       "name": "Desintegrar",
       "folder": "6th Level",
-      "description": "<p>Lanzas un rayo verde contra un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto no mágico o una creación de fuerza mágica, como el muro creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}.</em></p><p>Una criatura objetivo de este conjuro realiza una tirada de salvación de Destreza. En una salvación fallida, el objetivo recibe 10d6 + 40 de daño de Fuerza. Si este daño lo reduce a 0 Puntos de Golpe, él y todo lo no mágico que lleve puesto y encima se desintegran en polvo gris. El objetivo solo puede ser resucitado mediante un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTrueResurr]{True Resurrection}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em>.</p><p>Este conjuro desintegra automáticamente un objeto no mágico Grande o menor o una creación de fuerza mágica. Si dicho objetivo es Enorme o mayor, este conjuro desintegra una porción de Cubo de 10 pies de él.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El daño aumenta en 3d6 por cada nivel de espacio de conjuro por encima de 6.</p>",
+      "description": "<p>Lanzas un rayo verde contra un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto no mágico o una creación de fuerza mágica, como el muro creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Muro de Fuerza}.</em></p><p>Una criatura objetivo de este conjuro realiza una tirada de salvación de Destreza. En una salvación fallida, el objetivo recibe 10d6 + 40 de daño de Fuerza. Si este daño lo reduce a 0 Puntos de Golpe, él y todo lo no mágico que lleve puesto y encima se desintegran en polvo gris. El objetivo solo puede ser resucitado mediante un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTrueResurr]{Verdadera resurrección}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Deseo}</em>.</p><p>Este conjuro desintegra automáticamente un objeto no mágico Grande o menor o una creación de fuerza mágica. Si dicho objetivo es Enorme o mayor, este conjuro desintegra una porción de Cubo de 10 pies de él.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El daño aumenta en 3d6 por cada nivel de espacio de conjuro por encima de 6.</p>",
       "activities": {
         "nsJamHa2MpBw01mY": {
           "name": "",
@@ -2827,7 +2846,8 @@
       },
       "effects": {
         "xvEfaqPYJUNKaM58": {
-          "name": "Favor divino"
+          "name": "Favor divino",
+          "description": null
         }
       },
       "advancement": {}
@@ -2862,7 +2882,7 @@
     "phbsplDivineWord": {
       "name": "Palabra divina",
       "folder": "7th Level",
-      "description": "<p>Pronuncias una palabra imbuida con poder de los Planos Superiores. Cada criatura a tu elección en el alcance realiza una tirada de salvación de Carisma. En una salvación fallida, un objetivo que tenga 50 Puntos de Golpe o menos sufre un efecto basado en sus Puntos de Golpe actuales, como se muestra en la tabla de Efectos de palabra divina. Independientemente de sus Puntos de Golpe, un objetivo que sea Celestial, Elemental, Ser feérico (Fey) o Infernal (Fiend) y falle su tirada es enviado de vuelta a su plano de origen (si no se encuentra ya en él) y no puede regresar al plano actual durante 24 horas por ningún medio salvo un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em>.</p><table><thead><tr><td>Puntos de Golpe</td><td>Efecto de palabra divina</td></tr></thead><tbody><tr><td>0–20</td><td>El objetivo muere.</td></tr><tr><td>21–30</td><td>El objetivo tiene las condiciones &amp;Reference[Blinded apply=false], &amp;Reference[Deafened apply=false] y &amp;Reference[Stunned apply=false] durante 1 hora.</td></tr><tr><td>31–40</td><td>El objetivo tiene las condiciones Cegado y Ensordecido durante 10 minutos.</td></tr><tr><td>41–50</td><td>El objetivo tiene la condición Ensordecido durante 1 minuto.</td></tr></tbody></table>",
+      "description": "<p>Pronuncias una palabra imbuida con poder de los Planos Superiores. Cada criatura a tu elección en el alcance realiza una tirada de salvación de Carisma. En una salvación fallida, un objetivo que tenga 50 Puntos de Golpe o menos sufre un efecto basado en sus Puntos de Golpe actuales, como se muestra en la tabla de Efectos de palabra divina. Independientemente de sus Puntos de Golpe, un objetivo que sea Celestial, Elemental, Ser feérico (Fey) o Infernal (Fiend) y falle su tirada es enviado de vuelta a su plano de origen (si no se encuentra ya en él) y no puede regresar al plano actual durante 24 horas por ningún medio salvo un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Deseo}</em>.</p><table><thead><tr><td>Puntos de Golpe</td><td>Efecto de palabra divina</td></tr></thead><tbody><tr><td>0–20</td><td>El objetivo muere.</td></tr><tr><td>21–30</td><td>El objetivo tiene las condiciones &amp;Reference[Blinded apply=false], &amp;Reference[Deafened apply=false] y &amp;Reference[Stunned apply=false] durante 1 hora.</td></tr><tr><td>31–40</td><td>El objetivo tiene las condiciones Cegado y Ensordecido durante 10 minutos.</td></tr><tr><td>41–50</td><td>El objetivo tiene la condición Ensordecido durante 1 minuto.</td></tr></tbody></table>",
       "activities": {
         "jImdta87M9XcUBkn": {
           "name": "",
@@ -2876,16 +2896,20 @@
       },
       "effects": {
         "8O8KymREuOZFi45g": {
-          "name": "Cegado, Ensordecido"
+          "name": "Cegado, Ensordecido",
+          "description": null
         },
         "grWj3oo8iH8egvi1": {
-          "name": "Cegado, Ensordecido, Aturdido"
+          "name": "Cegado, Ensordecido, Aturdido",
+          "description": null
         },
         "poB090Yp3gKXXcMH": {
-          "name": "Muerte"
+          "name": "Muerte",
+          "description": null
         },
         "qZvAfjU2H6Fg6y6M": {
-          "name": "Ensordecido"
+          "name": "Ensordecido",
+          "description": null
         }
       },
       "advancement": {}
@@ -3098,7 +3122,7 @@
     "phbsplEldritchBl": {
       "name": "Ráfaga sobrenatural",
       "folder": "Cantrips",
-      "description": "<p>Lanzas un rayo de energía crepitante. Realiza un ataque de conjuro a distancia contra una criatura u objeto en el alcance. En un impacto, el objetivo recibe 1d10 de daño de Fuerza.</p><p><strong>Mejora de truco.</strong> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a diferentes objetivos. Realiza una tirada de ataque separada por cada rayo.</p><p>[[(floor((@details.level+1)/6)+1)]]{Total Beams}</p>",
+      "description": "<p>Lanzas un rayo de energía crepitante. Realiza un ataque de conjuro a distancia contra una criatura u objeto en el alcance. En un impacto, el objetivo recibe 1d10 de daño de Fuerza.</p><p><strong>Mejora de truco.</strong> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a diferentes objetivos. Realiza una tirada de ataque separada por cada rayo.</p><p>[[(floor((@details.level+1)/6)+1)]]{Rayos totales}</p>",
       "activities": {
         "bs1cjAs0zaHB959h": {
           "name": "",
@@ -3157,49 +3181,64 @@
       },
       "effects": {
         "1l07FgjqaBWVhfdf": {
-          "name": "Ácido elemental +3"
+          "name": "Ácido elemental +3",
+          "description": null
         },
         "4fKngKGyhjykjx5K": {
-          "name": "Rayo elemental +1"
+          "name": "Rayo elemental +1",
+          "description": null
         },
         "9YTw1A75Wva2KJFq": {
-          "name": "Fuego elemental +2"
+          "name": "Fuego elemental +2",
+          "description": null
         },
         "dWeOUtA5QzUSuT5r": {
-          "name": "Fuego elemental +3"
+          "name": "Fuego elemental +3",
+          "description": null
         },
         "F0jmiP33LCpSXzKS": {
-          "name": "Ácido elemental +2"
+          "name": "Ácido elemental +2",
+          "description": null
         },
         "hARI3OSV4CuHMXBT": {
-          "name": "Trueno elemental +3"
+          "name": "Trueno elemental +3",
+          "description": null
         },
         "I4YQq64aes0LeDNj": {
-          "name": "Rayo elemental +3"
+          "name": "Rayo elemental +3",
+          "description": null
         },
         "JSh7FcMkMvrPuUze": {
-          "name": "Fuego elemental +1"
+          "name": "Fuego elemental +1",
+          "description": null
         },
         "mDyZ1j4PNKdlJCiD": {
-          "name": "Frío elemental +3"
+          "name": "Frío elemental +3",
+          "description": null
         },
         "P7l2v5zWI795y0qr": {
-          "name": "Frío elemental +2"
+          "name": "Frío elemental +2",
+          "description": null
         },
         "pGfFNf1ET79OGY2m": {
-          "name": "Ácido elemental +1"
+          "name": "Ácido elemental +1",
+          "description": null
         },
         "R9Pq5uRtTktLZaBV": {
-          "name": "Rayo elemental +2"
+          "name": "Rayo elemental +2",
+          "description": null
         },
         "wKcTkykZTJwB5WGx": {
-          "name": "Frío elemental +1"
+          "name": "Frío elemental +1",
+          "description": null
         },
         "xlAFY1k5T1OAtpDy": {
-          "name": "Trueno elemental +1"
+          "name": "Trueno elemental +1",
+          "description": null
         },
         "XN3zomIP0t98AGfc": {
-          "name": "Trueno elemental +2"
+          "name": "Trueno elemental +2",
+          "description": null
         }
       },
       "advancement": {}
@@ -3365,7 +3404,8 @@
       },
       "effects": {
         "louTI4Z9bNUYBa8K": {
-          "name": "Etéreo"
+          "name": "Etéreo",
+          "description": null
         }
       },
       "advancement": {}
@@ -3568,7 +3608,8 @@
       },
       "effects": {
         "LEOWoE0nlVC8VRka": {
-          "name": "Catatónico"
+          "name": "Catatónico",
+          "description": null
         }
       },
       "advancement": {}
@@ -3594,7 +3635,7 @@
     "phbsplFindSteed0": {
       "name": "Encontrar corcel",
       "folder": "2nd Level",
-      "description": "<p>Invocas a un ser de otro mundo que aparece como un corcel leal en un espacio desocupado de tu elección dentro del alcance. Esta criatura usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{Otherworldly Steed}</strong>. Si ya tienes un corcel de este conjuro, el corcel es reemplazado por el nuevo.</p><p>El corcel se asemeja a un animal Grande montable a tu elección, como un caballo, un camello, un lobo huargo o un alce. Cada vez que lanzas el conjuro, elige el tipo de criatura del corcel —Celestial, Ser feérico (Fey) o Infernal (Fiend)—, lo que determina ciertos rasgos en su bloque de estadísticas.</p><p><strong>Combate.</strong> El corcel es un aliado tuyo y de tus aliados. En combate, comparte tu cuenta de Iniciativa y funciona como una &amp;Reference[controllingamount]{montura controlada} mientras lo montas (según se define en las reglas de combate montado). Si tienes la condición Incapacitado, el corcel realiza su turno inmediatamente después del tuyo y actúa de forma independiente, centrándose en protegerte.</p><p><strong>Desaparición del corcel.</strong> El corcel desaparece si cae a 0 Puntos de Golpe o si mueres. Cuando desaparece, deja atrás cualquier cosa que estuviera vistiendo o portando. Si lanzas este conjuro de nuevo, decides si invocas al mismo corcel que desapareció u otro diferente.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del corcel, los siguientes atributos también se ven afectados.</p><table><caption>Otherworldly Steed</caption><tbody><tr><td><strong>CA</strong></td><td>10 + 1 por nivel de conjuro</td></tr><tr><td><strong>PG</strong></td><td>5 + 10 por nivel de conjuro (el corcel tiene un número de Dados de Golpe [d10] igual al nivel del conjuro)</td></tr><tr><td><strong>Velocidad</strong></td><td>60 ft., Vuelo 60 ft. (requiere conjuro de nivel 4+)</td></tr><tr><td><strong>BP</strong></td><td>igual a tu Bonificación por competencia</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Summon Flying Steed</strong> debe usarse cuando se consume un espacio de conjuro de nivel 4 o superior y está configurada para aplicar la Velocidad de Vuelo.</p><p>Cuando uses un espacio de conjuro de nivel 2 o 3, debes usar en su lugar la actividad <strong>Summon Steed</strong>.</p></section>",
+      "description": "<p>Invocas a un ser de otro mundo que aparece como un corcel leal en un espacio desocupado de tu elección dentro del alcance. Esta criatura usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{Corcel de otro mundo}</strong>. Si ya tienes un corcel de este conjuro, el corcel es reemplazado por el nuevo.</p><p>El corcel se asemeja a un animal Grande montable a tu elección, como un caballo, un camello, un lobo huargo o un alce. Cada vez que lanzas el conjuro, elige el tipo de criatura del corcel —Celestial, Ser feérico (Fey) o Infernal (Fiend)—, lo que determina ciertos rasgos en su bloque de estadísticas.</p><p><strong>Combate.</strong> El corcel es un aliado tuyo y de tus aliados. En combate, comparte tu cuenta de Iniciativa y funciona como una &amp;Reference[controllingamount]{montura controlada} mientras lo montas (según se define en las reglas de combate montado). Si tienes la condición Incapacitado, el corcel realiza su turno inmediatamente después del tuyo y actúa de forma independiente, centrándose en protegerte.</p><p><strong>Desaparición del corcel.</strong> El corcel desaparece si cae a 0 Puntos de Golpe o si mueres. Cuando desaparece, deja atrás cualquier cosa que estuviera vistiendo o portando. Si lanzas este conjuro de nuevo, decides si invocas al mismo corcel que desapareció u otro diferente.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del corcel, los siguientes atributos también se ven afectados.</p><table><caption>Otherworldly Steed</caption><tbody><tr><td><strong>CA</strong></td><td>10 + 1 por nivel de conjuro</td></tr><tr><td><strong>PG</strong></td><td>5 + 10 por nivel de conjuro (el corcel tiene un número de Dados de Golpe [d10] igual al nivel del conjuro)</td></tr><tr><td><strong>Velocidad</strong></td><td>60 ft., Vuelo 60 ft. (requiere conjuro de nivel 4+)</td></tr><tr><td><strong>BP</strong></td><td>igual a tu Bonificación por competencia</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Summon Flying Steed</strong> debe usarse cuando se consume un espacio de conjuro de nivel 4 o superior y está configurada para aplicar la Velocidad de Vuelo.</p><p>Cuando uses un espacio de conjuro de nivel 2 o 3, debes usar en su lugar la actividad <strong>Summon Steed</strong>.</p></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "Invocar corcel",
@@ -3662,7 +3703,7 @@
     "phbsplFingerofDe": {
       "name": "Dedo de la muerte",
       "folder": "7th Level",
-      "description": "<p>Libera energía negativa hacia una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Constitución, recibiendo 7d8 + 30 de daño necrótico en una salvación fallida o la mitad de daño en una salvación con éxito.</p><p>Un Humanoide muerto por este conjuro se alza al comienzo de tu siguiente turno como un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobZombie0000]{Zombie}</strong> (consulta el apéndice B) que sigue tus órdenes verbales.</p>",
+      "description": "<p>Libera energía negativa hacia una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Constitución, recibiendo 7d8 + 30 de daño necrótico en una salvación fallida o la mitad de daño en una salvación con éxito.</p><p>Un Humanoide muerto por este conjuro se alza al comienzo de tu siguiente turno como un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobZombie0000]{Zombi}</strong> (consulta el apéndice B) que sigue tus órdenes verbales.</p>",
       "activities": {
         "bfoGmw7iFaVObnn6": {
           "name": "Levantar zombi",
@@ -3851,7 +3892,7 @@
     "phbsplFleshtoSto": {
       "name": "Carne en piedra",
       "folder": "6th Level",
-      "description": "<p>Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Constitución. En una salvación fallida, adquiere la condición &amp;Reference[Restrained apply=false] durante la duración. En una salvación con éxito, su Velocidad es 0 hasta el comienzo de tu siguiente turno. Los Constructos superan automáticamente la tirada.</p><p>Un objetivo Restringido realiza otra tirada de salvación de Constitución al final de cada uno de sus turnos. Si supera la salvación tres veces, el conjuro termina. Si falla la salvación tres veces, se convierte en piedra y adquiere la condición &amp;Reference[Petrified] durante la duración. Los éxitos y fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de un tipo.</p><p>Si mantienes tu Concentración en este conjuro durante toda la posible duración, el objetivo queda Petrificado hasta que la condición se termine con <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em> o magia similar.</p>",
+      "description": "<p>Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Constitución. En una salvación fallida, adquiere la condición &amp;Reference[Restrained apply=false] durante la duración. En una salvación con éxito, su Velocidad es 0 hasta el comienzo de tu siguiente turno. Los Constructos superan automáticamente la tirada.</p><p>Un objetivo Restringido realiza otra tirada de salvación de Constitución al final de cada uno de sus turnos. Si supera la salvación tres veces, el conjuro termina. Si falla la salvación tres veces, se convierte en piedra y adquiere la condición &amp;Reference[Petrified] durante la duración. Los éxitos y fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de un tipo.</p><p>Si mantienes tu Concentración en este conjuro durante toda la posible duración, el objetivo queda Petrificado hasta que la condición se termine con <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauración mayor}</em> o magia similar.</p>",
       "activities": {
         "g34TzvzMcBYBxqp4": {
           "name": "",
@@ -3892,7 +3933,8 @@
       },
       "effects": {
         "EHFLuTHqI6cXn1zb": {
-          "name": "Vuelo"
+          "name": "Vuelo",
+          "description": null
         }
       },
       "advancement": {}
@@ -3900,7 +3942,7 @@
     "phbsplFogCloud00": {
       "name": "Nube de niebla",
       "folder": "1st Level",
-      "description": "<p>Creas una Esfera de niebla de 20 pies de radio centrada en un punto dentro del alcance. La Esfera está &amp;Reference[heavilyobscured]. Dura durante la duración o hasta que un viento fuerte (como el creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em>) la disipe.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El radio de la niebla aumenta en 20 pies por cada nivel de espacio de conjuro por encima de 1.</p>",
+      "description": "<p>Creas una Esfera de niebla de 20 pies de radio centrada en un punto dentro del alcance. La Esfera está &amp;Reference[heavilyobscured]. Dura durante la duración o hasta que un viento fuerte (como el creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de viento}</em>) la disipe.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El radio de la niebla aumenta en 20 pies por cada nivel de espacio de conjuro por encima de 1.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -3918,7 +3960,7 @@
     "phbsplForbiddanc": {
       "name": "Prohibición",
       "folder": "6th Level",
-      "description": "<p>Creas un resguardo contra el viaje mágico que protege hasta 40.000 pies cuadrados de superficie de suelo hasta una altura de 30 pies por encima de este. Durante la duración, las criaturas no pueden teletransportarse al área ni usar portales, como los creados por el conjuro <em>Gate</em>, para entrar en el área. El conjuro protege el área contra viajes planares y, por tanto, impide que las criaturas accedan a ella por el Plano Astral, el Plano Etéreo, el Feywild, la Grieta Sombría (Shadowfell) o el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlaneShift]{Plane Shift}</em>.</p><p>Además, el conjuro inflige daño a tipos de criaturas que elijas al lanzarlo. Elige uno o más de los siguientes: Aberraciones, Celestiales, Elementales, Seres feéricos (Fey), Infernales (Fiends) y No muertos (Undead). Cuando una criatura de un tipo elegido entra por primera vez en un turno en el área del conjuro o termina su turno allí, recibe 5d10 de daño Radiante o Necrótico (a tu elección al lanzar el conjuro).</p><p>Puedes designar una contraseña cuando lanzas el conjuro. Una criatura que diga la contraseña al entrar en el área no recibe daño del conjuro.</p><p>El área del conjuro no puede superponerse con el área de otra <em>Forbiddance</em>. Si lanzas <em>Forbiddance</em> todos los días durante 30 días en la misma ubicación, el conjuro dura hasta que se disipe y los componentes materiales se consumen en el último lanzamiento.</p>",
+      "description": "<p>Creas un resguardo contra el viaje mágico que protege hasta 40.000 pies cuadrados de superficie de suelo hasta una altura de 30 pies por encima de este. Durante la duración, las criaturas no pueden teletransportarse al área ni usar portales, como los creados por el conjuro <em>Gate</em>, para entrar en el área. El conjuro protege el área contra viajes planares y, por tanto, impide que las criaturas accedan a ella por el Plano Astral, el Plano Etéreo, el Feywild, la Grieta Sombría (Shadowfell) o el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlaneShift]{Cambio de plano}</em>.</p><p>Además, el conjuro inflige daño a tipos de criaturas que elijas al lanzarlo. Elige uno o más de los siguientes: Aberraciones, Celestiales, Elementales, Seres feéricos (Fey), Infernales (Fiends) y No muertos (Undead). Cuando una criatura de un tipo elegido entra por primera vez en un turno en el área del conjuro o termina su turno allí, recibe 5d10 de daño Radiante o Necrótico (a tu elección al lanzar el conjuro).</p><p>Puedes designar una contraseña cuando lanzas el conjuro. Una criatura que diga la contraseña al entrar en el área no recibe daño del conjuro.</p><p>El área del conjuro no puede superponerse con el área de otra <em>Forbiddance</em>. Si lanzas <em>Forbiddance</em> todos los días durante 30 días en la misma ubicación, el conjuro dura hasta que se disipe y los componentes materiales se consumen en el último lanzamiento.</p>",
       "activities": {
         "9IBiOeIf2PC1wcLp": {
           "name": "Dañar criatura prohibida",
@@ -4018,7 +4060,8 @@
       },
       "effects": {
         "BKn8O3YwoWfQLp8U": {
-          "name": "Envuelto en luz"
+          "name": "Envuelto en luz",
+          "description": null
         },
         "ZFQXpyq6qUlynwLq": {
           "name": "Cegado",
@@ -4044,7 +4087,8 @@
       },
       "effects": {
         "bcTPZ6dJ4kHwaBRD": {
-          "name": "Movimiento sin restricciones"
+          "name": "Movimiento sin restricciones",
+          "description": null
         }
       },
       "advancement": {}
@@ -4143,7 +4187,7 @@
     "phbsplGeas000000": {
       "name": "Mando",
       "folder": "5th Level",
-      "description": "<p>Das una orden verbal a una criatura que puedas ver dentro del alcance, ordenándole realizar algún servicio o abstenerse de una acción o curso de actividad según decidas. El objetivo debe superar una tirada de salvación de Sabiduría o adquirir la condición &amp;Reference[Charmed apply=false] durante la duración. El objetivo supera automáticamente la tirada si no puede entender tu orden.</p><p>Mientras esté Hechizada, la criatura recibe [[/damage 5d10 type=psychic]] de daño psíquico si actúa de una forma directamente contraria a tu orden. Recibe este daño como máximo una vez al día.</p><p>Puedes dar cualquier orden que elijas, salvo una actividad que resulte en una muerte segura. Si das una orden suicida, el conjuro termina.</p><p>Un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove Curse}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> termina este conjuro.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Si usas un espacio de conjuro de nivel 7 u 8, la duración es de 365 días. Si usas un espacio de conjuro de nivel 9, el conjuro dura hasta que lo termine uno de los conjuros mencionados anteriormente.</p>",
+      "description": "<p>Das una orden verbal a una criatura que puedas ver dentro del alcance, ordenándole realizar algún servicio o abstenerse de una acción o curso de actividad según decidas. El objetivo debe superar una tirada de salvación de Sabiduría o adquirir la condición &amp;Reference[Charmed apply=false] durante la duración. El objetivo supera automáticamente la tirada si no puede entender tu orden.</p><p>Mientras esté Hechizada, la criatura recibe [[/damage 5d10 type=psychic]] de daño psíquico si actúa de una forma directamente contraria a tu orden. Recibe este daño como máximo una vez al día.</p><p>Puedes dar cualquier orden que elijas, salvo una actividad que resulte en una muerte segura. Si das una orden suicida, el conjuro termina.</p><p>Un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Quitar maldición}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauración mayor}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Deseo}</em> termina este conjuro.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Si usas un espacio de conjuro de nivel 7 u 8, la duración es de 365 días. Si usas un espacio de conjuro de nivel 9, el conjuro dura hasta que lo termine uno de los conjuros mencionados anteriormente.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -4184,7 +4228,7 @@
     "phbsplGiantInsec": {
       "name": "Insecto gigante",
       "folder": "4th Level",
-      "description": "<p>Invocas un ciempiés, araña o avispa gigantes (elegidos al lanzar el conjuro). Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantInsec]{Giant Insect}</strong>. La forma que elijas determina ciertos detalles de su bloque de estadísticas. La criatura desaparece cuando cae a 0 Puntos de Golpe o cuando el conjuro termina.</p><p>La criatura es aliada tuya y de tus aliados. En combate, comparte tu cuenta de Iniciativa, pero actúa inmediatamente después de tu turno. Obedece tus órdenes verbales (sin requerir acción por tu parte). Si no le das ninguna, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del insecto, los siguientes atributos también se ven afectados.</p><table><caption>Giant Insect</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>30 + 10 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>Velocidad</strong></td><td>40 ft., Trepar 40 ft., Vuelo 40 ft. (solo avispa)</td></tr><tr><td><strong>BP</strong></td><td>igual a tu Bonificación por competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Invocas un ciempiés, araña o avispa gigantes (elegidos al lanzar el conjuro). Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantInsec]{Insecto gigante}</strong>. La forma que elijas determina ciertos detalles de su bloque de estadísticas. La criatura desaparece cuando cae a 0 Puntos de Golpe o cuando el conjuro termina.</p><p>La criatura es aliada tuya y de tus aliados. En combate, comparte tu cuenta de Iniciativa, pero actúa inmediatamente después de tu turno. Obedece tus órdenes verbales (sin requerir acción por tu parte). Si no le das ninguna, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del insecto, los siguientes atributos también se ven afectados.</p><table><caption>Giant Insect</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>30 + 10 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>Velocidad</strong></td><td>40 ft., Trepar 40 ft., Vuelo 40 ft. (solo avispa)</td></tr><tr><td><strong>BP</strong></td><td>igual a tu Bonificación por competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -4216,7 +4260,8 @@
       },
       "effects": {
         "tWt9b1JlQpDYbhfj": {
-          "name": "Locuaz"
+          "name": "Locuaz",
+          "description": null
         }
       },
       "advancement": {}
@@ -4337,7 +4382,8 @@
       },
       "effects": {
         "NDpw6r63ZdEgks1a": {
-          "name": "Invisible"
+          "name": "Invisible",
+          "description": null
         }
       },
       "advancement": {}
@@ -4390,7 +4436,7 @@
     "phbsplGuardsandW": {
       "name": "Guardianes y protecciones",
       "folder": "6th Level",
-      "description": "<p>Creas un resguardo que protege hasta 2.500 pies cuadrados de superficie de suelo. El área protegida puede tener hasta 20 pies de altura y puedes darle forma como un cuadrado de 50 pies, cien cuadrados de 5 pies contiguos o veinticinco cuadrados de 10 pies contiguos.</p><p>Cuando lanzas este conjuro, puedes especificar individuos que no se vean afectados por los efectos del conjuro. También puedes especificar una contraseña que, cuando se pronuncie en voz alta a 5 pies o menos del área protegida, haga que el hablante sea inmune a sus efectos.</p><p>El conjuro crea los efectos siguientes dentro del área protegida. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> no tiene efecto sobre <em>Guards and Wards</em> en sí, pero cada uno de los efectos siguientes puede disiparse. Si los cuatro efectos se disipan, <em>Guards and Wards</em> termina. Si lanzas el conjuro todos los días durante 365 días en la misma área, el conjuro dura a partir de entonces hasta que se disipen todos sus efectos.</p><p><strong>Pasillos.</strong> Niebla llena todos los pasillos protegidos, haciéndolos &amp;Reference[HeavilyObscured]. Además, en cada intersección o bifurcación que ofrezca una elección de dirección, hay un 50 por ciento de probabilidad de que una criatura que no seas tú crea que va en la dirección opuesta a la que ha elegido.</p><p><strong>Puertas.</strong> Todas las puertas del área protegida están mágicamente cerradas, como si estuvieran selladas por el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock]{Arcane Lock}</em>. Además, puedes cubrir hasta diez puertas con una ilusión para que parezcan secciones de muro liso.</p><p><strong>Escaleras.</strong> Telarañas llenan todas las escaleras del área protegida de arriba abajo, como en el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Web}</em>. Estos hilos vuelven a crecer en 10 minutos si se destruyen mientras <em>Guards and Wards</em> dura.</p><p><strong>Otro efecto de conjuro.</strong> Sitúa uno de los siguientes efectos mágicos dentro del área protegida:</p><ul><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Dancing Lights}</em> en cuatro pasillos, con un programa sencillo que las luces repiten mientras <em>Guards and Wards</em> dura</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMouth]{Magic Mouth}</em> en dos lugares</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Stinking Cloud}</em> en dos lugares (los vapores regresan en 10 minutos si se dispersan mientras <em>Guards and Wards</em> dura)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em> en un pasillo o sala (el viento sopla continuamente mientras el conjuro dura)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</em> en un cuadrado de 5 pies; cualquier criatura que entre en ese cuadrado recibe mentalmente la sugerencia</li></ul>",
+      "description": "<p>Creas un resguardo que protege hasta 2.500 pies cuadrados de superficie de suelo. El área protegida puede tener hasta 20 pies de altura y puedes darle forma como un cuadrado de 50 pies, cien cuadrados de 5 pies contiguos o veinticinco cuadrados de 10 pies contiguos.</p><p>Cuando lanzas este conjuro, puedes especificar individuos que no se vean afectados por los efectos del conjuro. También puedes especificar una contraseña que, cuando se pronuncie en voz alta a 5 pies o menos del área protegida, haga que el hablante sea inmune a sus efectos.</p><p>El conjuro crea los efectos siguientes dentro del área protegida. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar magia}</em> no tiene efecto sobre <em>Guards and Wards</em> en sí, pero cada uno de los efectos siguientes puede disiparse. Si los cuatro efectos se disipan, <em>Guards and Wards</em> termina. Si lanzas el conjuro todos los días durante 365 días en la misma área, el conjuro dura a partir de entonces hasta que se disipen todos sus efectos.</p><p><strong>Pasillos.</strong> Niebla llena todos los pasillos protegidos, haciéndolos &amp;Reference[HeavilyObscured]. Además, en cada intersección o bifurcación que ofrezca una elección de dirección, hay un 50 por ciento de probabilidad de que una criatura que no seas tú crea que va en la dirección opuesta a la que ha elegido.</p><p><strong>Puertas.</strong> Todas las puertas del área protegida están mágicamente cerradas, como si estuvieran selladas por el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock]{Cerradura arcana}</em>. Además, puedes cubrir hasta diez puertas con una ilusión para que parezcan secciones de muro liso.</p><p><strong>Escaleras.</strong> Telarañas llenan todas las escaleras del área protegida de arriba abajo, como en el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Telaraña}</em>. Estos hilos vuelven a crecer en 10 minutos si se destruyen mientras <em>Guards and Wards</em> dura.</p><p><strong>Otro efecto de conjuro.</strong> Sitúa uno de los siguientes efectos mágicos dentro del área protegida:</p><ul><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Luces danzantes}</em> en cuatro pasillos, con un programa sencillo que las luces repiten mientras <em>Guards and Wards</em> dura</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMouth]{Boca mágica}</em> en dos lugares</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Nube apestosa}</em> en dos lugares (los vapores regresan en 10 minutos si se dispersan mientras <em>Guards and Wards</em> dura)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de viento}</em> en un pasillo o sala (el viento sopla continuamente mientras el conjuro dura)</li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Sugerencia}</em> en un cuadrado de 5 pies; cualquier criatura que entre en ese cuadrado recibe mentalmente la sugerencia</li></ul>",
       "activities": {
         "0UuktQmXxk0juJgb": {
           "name": "",
@@ -4422,58 +4468,76 @@
       },
       "effects": {
         "A1T0X0DUFIxx3qhE": {
-          "name": "Guía de Supervivencia"
+          "name": "Guía de Supervivencia",
+          "description": null
         },
         "Cpte6tynFFJbraX2": {
-          "name": "Guía de Intimidación"
+          "name": "Guía de Intimidación",
+          "description": null
         },
         "cw02ZbuiRn6GyoEv": {
-          "name": "Guía de Historia"
+          "name": "Guía de Historia",
+          "description": null
         },
         "E4BqoCkyoKLJbGmb": {
-          "name": "Guía de Interpretación"
+          "name": "Guía de Interpretación",
+          "description": null
         },
         "fCdLUO5DoSIT4wVK": {
-          "name": "Guía de Persuasión"
+          "name": "Guía de Persuasión",
+          "description": null
         },
         "GezMMzvZhWXEYyGm": {
-          "name": "Guía acrobática"
+          "name": "Guía acrobática",
+          "description": null
         },
         "IqxGXju1tYDWoda6": {
-          "name": "Guía de Naturaleza"
+          "name": "Guía de Naturaleza",
+          "description": null
         },
         "Je4xWElmaiSDsOjU": {
-          "name": "Guía de Engaño"
+          "name": "Guía de Engaño",
+          "description": null
         },
         "jVKWknHHFuMwvTct": {
-          "name": "Guía de Religión"
+          "name": "Guía de Religión",
+          "description": null
         },
         "pwFahx7uqM4DOgnu": {
-          "name": "Guía de Juego de manos"
+          "name": "Guía de Juego de manos",
+          "description": null
         },
         "qPowjrduxnzKpH8x": {
-          "name": "Guía de Percepción"
+          "name": "Guía de Percepción",
+          "description": null
         },
         "sPkLWVpkJ7NqDQT0": {
-          "name": "Guía atlética"
+          "name": "Guía atlética",
+          "description": null
         },
         "UQixxmOdHUDjVYNh": {
-          "name": "Guía de Investigación"
+          "name": "Guía de Investigación",
+          "description": null
         },
         "Vb4iRJ73Nw78UUMW": {
-          "name": "Guía de Sigilo"
+          "name": "Guía de Sigilo",
+          "description": null
         },
         "Vl1YSG1DlZvx9nSI": {
-          "name": "Guía de Medicina"
+          "name": "Guía de Medicina",
+          "description": null
         },
         "Vlfh8IFOezrSpeBZ": {
-          "name": "Guía de Arcanos"
+          "name": "Guía de Arcanos",
+          "description": null
         },
         "VsU5vUhMioT9pCwG": {
-          "name": "Guía de Perspicacia"
+          "name": "Guía de Perspicacia",
+          "description": null
         },
         "y6aODSkiubtFt6Ap": {
-          "name": "Guía de trato con animales"
+          "name": "Guía de trato con animales",
+          "description": null
         }
       },
       "advancement": {}
@@ -4919,7 +4983,8 @@
       },
       "effects": {
         "csA26qg5YSsji1ZZ": {
-          "name": "Protección sagrada"
+          "name": "Protección sagrada",
+          "description": null
         },
         "wqBjgsd2xRnmSm8Z": {
           "name": "Cegado",
@@ -5970,7 +6035,8 @@
       },
       "effects": {
         "po9iJIqq4OqhvMw0": {
-          "name": "Mente en blanco"
+          "name": "Mente en blanco",
+          "description": null
         }
       },
       "advancement": {}
@@ -6091,13 +6157,16 @@
       },
       "effects": {
         "uMsGEsbEZ2hckOKW": {
-          "name": "Duplicado C"
+          "name": "Duplicado C",
+          "description": null
         },
         "VUqQIaiZoIzxUdf1": {
-          "name": "Duplicado A"
+          "name": "Duplicado A",
+          "description": null
         },
         "XcTQl9DhT9lC3bxI": {
-          "name": "Duplicado B"
+          "name": "Duplicado B",
+          "description": null
         }
       },
       "advancement": {}
@@ -6228,7 +6297,8 @@
       },
       "effects": {
         "usz9yzOPHV4Nb93D": {
-          "name": "Oculto frente a Adivinación"
+          "name": "Oculto frente a Adivinación",
+          "description": null
         }
       },
       "advancement": {}
@@ -6968,7 +7038,8 @@
       },
       "effects": {
         "6DciPRMecBWvJCZq": {
-          "name": "Telepatía vinculada"
+          "name": "Telepatía vinculada",
+          "description": null
         }
       },
       "advancement": {}
@@ -7449,7 +7520,8 @@
       },
       "effects": {
         "BRwB0T8buWhJAuDx": {
-          "name": "Ver invisibilidad"
+          "name": "Ver invisibilidad",
+          "description": null
         }
       },
       "advancement": {}
@@ -7584,7 +7656,7 @@
     "phbsplShield0000": {
       "name": "Escudo",
       "folder": "1st Level",
-      "description": "<p>Una barrera imperceptible de fuerza mágica te protege. Hasta el comienzo de tu próximo turno, tienes un bonificador de +5 a la CA, incluido contra el ataque que desencadenó el conjuro, y no recibes daño de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}</em>.</p>",
+      "description": "<p>Una barrera imperceptible de fuerza mágica te protege. Hasta el comienzo de tu próximo turno, tienes un bonificador de +5 a la CA, incluido contra el ataque que desencadenó el conjuro, y no recibes daño de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Proyectil mágico}</em>.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -7647,25 +7719,29 @@
           "name": "Shillelagh (1d12)",
           "changes": {
             "name": "{} (Shillelagh)"
-          }
+          },
+          "description": null
         },
         "Oy8fnNNzPmehxXio": {
           "name": "Shillelagh (1d10)",
           "changes": {
             "name": "{} (Shillelagh)"
-          }
+          },
+          "description": null
         },
         "QPsqj6jfS0iXSrTs": {
           "name": "Shillelagh (1d8)",
           "changes": {
             "name": "{} Shillelagh"
-          }
+          },
+          "description": null
         },
         "X9xoN8qHUiCc4SZR": {
           "name": "Shillelagh (2d6)",
           "changes": {
             "name": "{} (Shillelagh)"
-          }
+          },
+          "description": null
         }
       },
       "advancement": {}
@@ -7883,7 +7959,8 @@
       },
       "effects": {
         "4werkFeLTqFwHRIa": {
-          "name": "Estabilizado"
+          "name": "Estabilizado",
+          "description": null
         }
       },
       "advancement": {}
@@ -7905,7 +7982,8 @@
       },
       "effects": {
         "lHx55SIuimKR3ALR": {
-          "name": "Comunicación bestial"
+          "name": "Comunicación bestial",
+          "description": null
         }
       },
       "advancement": {}
@@ -7945,7 +8023,8 @@
       },
       "effects": {
         "cByepuCx1dcWTEa7": {
-          "name": "Hablando con las plantas"
+          "name": "Hablando con las plantas",
+          "description": null
         }
       },
       "advancement": {}
@@ -7967,7 +8046,8 @@
       },
       "effects": {
         "q2ug9SpVRCGuudoG": {
-          "name": "Trepar cual araña"
+          "name": "Trepar cual araña",
+          "description": null
         }
       },
       "advancement": {}
@@ -8093,7 +8173,7 @@
     "phbsplStinkingCl": {
       "name": "Nube apestosa",
       "folder": "3rd Level",
-      "description": "<p>Creas una Esfera de 20 pies de radio de gas amarillento y nauseabundo centrada en un punto dentro del alcance. La nube está &amp;Reference[heavilyobscured]. La nube permanece en el aire durante la duración o hasta que un viento fuerte (como el creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em>) la disperse.</p><p>Cada criatura que comience su turno en la Esfera debe superar una tirada de salvación de Constitución o tener la condición &amp;Reference[poisoned apply=false] hasta el final del turno actual. Mientras esté Envenenada de este modo, la criatura no puede realizar una acción ni una Acción adicional.</p>",
+      "description": "<p>Creas una Esfera de 20 pies de radio de gas amarillento y nauseabundo centrada en un punto dentro del alcance. La nube está &amp;Reference[heavilyobscured]. La nube permanece en el aire durante la duración o hasta que un viento fuerte (como el creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de viento}</em>) la disperse.</p><p>Cada criatura que comience su turno en la Esfera debe superar una tirada de salvación de Constitución o tener la condición &amp;Reference[poisoned apply=false] hasta el final del turno actual. Mientras esté Envenenada de este modo, la criatura no puede realizar una acción ni una Acción adicional.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "Lanzar y salvar",
@@ -8148,7 +8228,8 @@
       },
       "effects": {
         "DbTCk1h0u86Etlpr": {
-          "name": "Piel pétrea"
+          "name": "Piel pétrea",
+          "description": null
         }
       },
       "advancement": {}
@@ -8206,7 +8287,8 @@
       },
       "effects": {
         "ujpteFz6imf8RZsj": {
-          "name": "Ensordecido"
+          "name": "Ensordecido",
+          "description": null
         }
       },
       "advancement": {}
@@ -8237,7 +8319,7 @@
     "phbsplSummonAber": {
       "name": "Invocar aberración",
       "folder": "4th Level",
-      "description": "<p>Llamas a un espíritu aberrante. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobAberrantSp]{Aberrant Spirit}</strong>. Cuando lanzas el conjuro, elige engendro de contemplador, azotamentes o slaad. La criatura recuerda a una Aberración de ese tipo, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Aberrant Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>40 + 10 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>Velocidad</strong></td><td>30 ft.; Volar 30 ft. (planear; solo engendro de contemplador)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu aberrante. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobAberrantSp]{Espíritu aberrante}</strong>. Cuando lanzas el conjuro, elige engendro de contemplador, azotamentes o slaad. La criatura recuerda a una Aberración de ese tipo, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Aberrant Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>40 + 10 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>Velocidad</strong></td><td>30 ft.; Volar 30 ft. (planear; solo engendro de contemplador)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -8255,7 +8337,7 @@
     "phbsplSummonBeas": {
       "name": "Invocar bestia",
       "folder": "2nd Level",
-      "description": "<p>Llamas a un espíritu bestial. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBestialSpi]{Bestial Spirit}</strong>. Cuando lanzas el conjuro, elige un entorno: Aire, Tierra o Agua. La criatura recuerda a un animal de tu elección nativo del entorno elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Bestial Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>20 (solo Aire) o 30 (solo Tierra y Agua) + 5 por cada nivel de conjuro por encima de 2</td></tr><tr><td><strong>Velocidad</strong></td><td>30 ft.; Trepar 30 ft. (solo Tierra); Volar 60 ft. (solo Aire); Nadar 30 ft. (solo Agua)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu bestial. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobBestialSpi]{Espíritu bestial}</strong>. Cuando lanzas el conjuro, elige un entorno: Aire, Tierra o Agua. La criatura recuerda a un animal de tu elección nativo del entorno elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Bestial Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>20 (solo Aire) o 30 (solo Tierra y Agua) + 5 por cada nivel de conjuro por encima de 2</td></tr><tr><td><strong>Velocidad</strong></td><td>30 ft.; Trepar 30 ft. (solo Tierra); Volar 60 ft. (solo Aire); Nadar 30 ft. (solo Agua)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -8273,7 +8355,7 @@
     "phbsplSummonCele": {
       "name": "Invocar celestial",
       "folder": "5th Level",
-      "description": "<p>Llamas a un espíritu Celestial. Se manifiesta en una forma angelical en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobCelestialS]{Celestial Spirit}</strong>. Cuando lanzas el conjuro, elige Vengador o Defensor. Tu elección determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Celestial Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro + 2 (solo Defensor)</td></tr><tr><td><strong>PG</strong></td><td>40 + 10 por cada nivel de conjuro por encima de 5</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu Celestial. Se manifiesta en una forma angelical en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobCelestialS]{Espíritu celestial}</strong>. Cuando lanzas el conjuro, elige Vengador o Defensor. Tu elección determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Celestial Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro + 2 (solo Defensor)</td></tr><tr><td><strong>PG</strong></td><td>40 + 10 por cada nivel de conjuro por encima de 5</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "8i0eyFEHYqF8mktf": {
           "name": "",
@@ -8291,7 +8373,7 @@
     "phbsplSummonCons": {
       "name": "Invocar constructo",
       "folder": "4th Level",
-      "description": "<p>Llamas al espíritu de un Constructo. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstructS]{Construct Spirit}</strong>. Cuando lanzas el conjuro, elige un material: Arcilla, Metal o Piedra. La criatura recuerda a una estatua animada (eliges su apariencia) hecha del material elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Construct Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>13 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>40 + 15 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas al espíritu de un Constructo. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstructS]{Espíritu constructo}</strong>. Cuando lanzas el conjuro, elige un material: Arcilla, Metal o Piedra. La criatura recuerda a una estatua animada (eliges su apariencia) hecha del material elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Construct Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>13 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>40 + 15 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -8309,7 +8391,7 @@
     "phbsplSummonDrag": {
       "name": "Invocar dragón",
       "folder": "5th Level",
-      "description": "<p>Llamas a un espíritu de Dragón. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobDraconicSp]{Draconic Spirit}</strong>. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior. </strong>Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Draconic Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>14 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>50 + 10 por cada nivel de conjuro por encima de 5</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu de Dragón. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobDraconicSp]{Espíritu dracónico}</strong>. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior. </strong>Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Draconic Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>14 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>50 + 10 por cada nivel de conjuro por encima de 5</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "gOf4QDymYpUVAvTk": {
           "name": "",
@@ -8327,7 +8409,7 @@
     "phbsplSummonElem": {
       "name": "Invocar elemental",
       "folder": "4th Level",
-      "description": "<p>Llamas a un espíritu Elemental. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElementalS]{Elemental Spirit}</strong>. Cuando lanzas el conjuro, elige un elemento: Aire, Tierra, Fuego o Agua. La criatura recuerda a una forma bípedo envuelta en el elemento elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Elemental Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>50 + 10 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>Velocidad</strong></td><td>40 ft.; Escavar 40 ft. (solo Tierra); Volar 40 ft. (planear; solo Aire); Nadar 40 ft. (solo Agua)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu Elemental. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElementalS]{Espíritu elemental}</strong>. Cuando lanzas el conjuro, elige un elemento: Aire, Tierra, Fuego o Agua. La criatura recuerda a una forma bípedo envuelta en el elemento elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Elemental Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>50 + 10 por cada nivel de conjuro por encima de 4</td></tr><tr><td><strong>Velocidad</strong></td><td>40 ft.; Escavar 40 ft. (solo Tierra); Volar 40 ft. (planear; solo Aire); Nadar 40 ft. (solo Agua)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -8345,7 +8427,7 @@
     "phbsplSummonFey0": {
       "name": "Invocar feérico",
       "folder": "3rd Level",
-      "description": "<p>Llamas a un espíritu Fey. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFeySpirit0]{Fey Spirit}</strong>. Cuando lanzas el conjuro, elige un estado de ánimo: Furioso, Jocoso o Travesuras. La criatura recuerda a una criatura Fey de tu elección marcada por el estado de ánimo elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Fey Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>12 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>30 + 10 por cada nivel de conjuro por encima de 3</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu Fey. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFeySpirit0]{Espíritu feérico}</strong>. Cuando lanzas el conjuro, elige un estado de ánimo: Furioso, Jocoso o Travesuras. La criatura recuerda a una criatura Fey de tu elección marcada por el estado de ánimo elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Fey Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>12 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>30 + 10 por cada nivel de conjuro por encima de 3</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -8363,7 +8445,7 @@
     "phbsplSummonFien": {
       "name": "Invocar infernal",
       "folder": "6th Level",
-      "description": "<p>Llamas a un espíritu infernal. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFiendishSp]{Fiendish Spirit}</strong>. Cuando lanzas el conjuro, elige Demonio, Diablo o Yugoloth. La criatura recuerda a un Infernal del tipo elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Fiendish Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>12 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>50 (solo Demonio) o 40 (solo Diablo) o 60 (solo Yugoloth) + 15 por cada nivel de conjuro por encima de 6</td></tr><tr><td><strong>Velocidad</strong></td><td>40 ft.; Trepar 40 ft. (solo Demonio); Volar 60 ft. (solo Diablo)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu infernal. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFiendishSp]{Espíritu infernal}</strong>. Cuando lanzas el conjuro, elige Demonio, Diablo o Yugoloth. La criatura recuerda a un Infernal del tipo elegido, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción &amp;Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Fiendish Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>12 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>50 (solo Demonio) o 40 (solo Diablo) o 60 (solo Yugoloth) + 15 por cada nivel de conjuro por encima de 6</td></tr><tr><td><strong>Velocidad</strong></td><td>40 ft.; Trepar 40 ft. (solo Demonio); Volar 60 ft. (solo Diablo)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "zf0AcitLNX2zkKe5": {
           "name": "",
@@ -8381,7 +8463,7 @@
     "phbsplSummonUnde": {
       "name": "Invocar muerto viviente",
       "folder": "3rd Level",
-      "description": "<p>Llamas a un espíritu No Muerto. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobUndeadSpir]{Undead Spirit}</strong>. Cuando lanzas el conjuro, elige una forma para la criatura: Fantasmal, Putrefacto o Esquelético. El espíritu recuerda a una criatura No Muerta con la forma elegida, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Undead Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>30 (solo Fantasmal y Putrefacto) o 20 (solo Esquelético) + 10 por cada nivel de conjuro por encima de 3</td></tr><tr><td><strong>Velocidad</strong></td><td>30 ft.; Volar 40 ft. (planear; solo Fantasmal)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
+      "description": "<p>Llamas a un espíritu No Muerto. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobUndeadSpir]{Espíritu no muerto}</strong>. Cuando lanzas el conjuro, elige una forma para la criatura: Fantasmal, Putrefacto o Esquelético. El espíritu recuerda a una criatura No Muerta con la forma elegida, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando se reduce a 0 Puntos de golpe o cuando el conjuro termina.</p><p>La criatura es una aliada tuya y de tus aliados. En combate, la criatura comparte tu contador de Iniciativa, pero actúa inmediatamente después de ti. Obedece tus órdenes verbales (no requieren acción por tu parte). Si no le das órdenes, realiza la acción Dodge y usa su movimiento para evitar el peligro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Usa el nivel del espacio de conjuro como nivel del conjuro en el bloque de estadísticas.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>Además del uso indicado del nivel del conjuro en los Rasgos y Acciones del espíritu, también se ven afectados los siguientes atributos.</p><table><caption>Undead Spirit</caption><tbody><tr><td><strong>CA</strong></td><td>11 + el nivel del conjuro</td></tr><tr><td><strong>PG</strong></td><td>30 (solo Fantasmal y Putrefacto) o 20 (solo Esquelético) + 10 por cada nivel de conjuro por encima de 3</td></tr><tr><td><strong>Velocidad</strong></td><td>30 ft.; Volar 40 ft. (planear; solo Fantasmal)</td></tr><tr><td><strong>PB</strong></td><td>igual a tu Bonificador de competencia</td></tr></tbody></table></article></section>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -8480,7 +8562,8 @@
           "name": "Munición inagotable",
           "changes": {
             "name": "Swift {}"
-          }
+          },
+          "description": null
         }
       },
       "advancement": {}
@@ -8564,14 +8647,16 @@
           "description": "<p>Mientras esté Asustado, el objetivo debe moverse al menos 30 pies lejos del glifo en cada uno de sus turnos, si puede.</p>"
         },
         "D8tOj85XIpMRp3Yl": {
-          "name": "Incapacitado"
+          "name": "Incapacitado",
+          "description": null
         },
         "YAwLt85sPQpUCIBI": {
           "name": "Discutiendo",
           "description": "<p>El objetivo es incapaz de comunicarse de manera significativa y tiene Desventaja en las tiradas de ataque y en las Pruebas de característica.</p>"
         },
         "zZerWADc4a5rGJ9r": {
-          "name": "Aturdido"
+          "name": "Aturdido",
+          "description": null
         }
       },
       "advancement": {}
@@ -8602,7 +8687,7 @@
     "phbsplTashasBubb": {
       "name": "Caldero burbujeante de Tasha",
       "folder": "6th Level",
-      "description": "<p>Conjuras un caldero con patas de garra lleno de líquido burbujeante. El caldero aparece en un espacio desocupado en el suelo a 5 pies de ti y dura durante la duración. El caldero no puede moverse y desaparece cuando el conjuro termina, junto con el líquido burbujeante del interior.</p><p>El líquido del caldero duplica las propiedades de una poción Común o Poco común de tu elección (como una <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion of Healing}</em>). Como Acción adicional, tú o un aliado podéis meter la mano en el caldero y sacar una poción de ese tipo. La poción se contiene en un vial que desaparece cuando la poción se consume. El caldero puede producir un número de estas pociones igual a tu modificador de habilidad de lanzamiento de conjuros (mínimo 1). Cuando se extrae la última de estas pociones del caldero, el caldero desaparece y el conjuro termina.</p><p>Las pociones obtenidas del caldero que no se consuman desaparecen cuando lanzas este conjuro de nuevo.</p><section id=\"secret-qrXgiTRMAIHRBFCQ\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Los Usos limitados de este conjuro representan el número de pociones restantes en el caldero, que se restablece con la actividad <strong>Crear caldero</strong>.</p><p>La actividad opcional <strong>Sacar poción</strong> consumirá un uso del caldero.</p></section>",
+      "description": "<p>Conjuras un caldero con patas de garra lleno de líquido burbujeante. El caldero aparece en un espacio desocupado en el suelo a 5 pies de ti y dura durante la duración. El caldero no puede moverse y desaparece cuando el conjuro termina, junto con el líquido burbujeante del interior.</p><p>El líquido del caldero duplica las propiedades de una poción Común o Poco común de tu elección (como una <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Poción de curación}</em>). Como Acción adicional, tú o un aliado podéis meter la mano en el caldero y sacar una poción de ese tipo. La poción se contiene en un vial que desaparece cuando la poción se consume. El caldero puede producir un número de estas pociones igual a tu modificador de habilidad de lanzamiento de conjuros (mínimo 1). Cuando se extrae la última de estas pociones del caldero, el caldero desaparece y el conjuro termina.</p><p>Las pociones obtenidas del caldero que no se consuman desaparecen cuando lanzas este conjuro de nuevo.</p><section id=\"secret-qrXgiTRMAIHRBFCQ\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Los Usos limitados de este conjuro representan el número de pociones restantes en el caldero, que se restablece con la actividad <strong>Crear caldero</strong>.</p><p>La actividad opcional <strong>Sacar poción</strong> consumirá un uso del caldero.</p></section>",
       "activities": {
         "n8e6rqgHeRvMyg79": {
           "name": "Crear caldero",
@@ -8684,7 +8769,8 @@
       },
       "effects": {
         "IPBTCBz3RnIvDfI5": {
-          "name": "Vinculado telepáticamente"
+          "name": "Vinculado telepáticamente",
+          "description": null
         }
       },
       "advancement": {}
@@ -8914,7 +9000,8 @@
       },
       "effects": {
         "bmESvtHHL0Su7gn4": {
-          "name": "Comunicación universal"
+          "name": "Comunicación universal",
+          "description": null
         }
       },
       "advancement": {}
@@ -9017,7 +9104,8 @@
       },
       "effects": {
         "nW7Dh0S9wT7QHWCj": {
-          "name": "Visión verdadera"
+          "name": "Visión verdadera",
+          "description": null
         }
       },
       "advancement": {}
@@ -9042,7 +9130,8 @@
           "name": "Ataque certero",
           "changes": {
             "name": "{} (True Strike)"
-          }
+          },
+          "description": null
         }
       },
       "advancement": {}
@@ -9195,7 +9284,7 @@
     "phbsplWallofForc": {
       "name": "Muro de Fuerza",
       "folder": "5th Level",
-      "description": "<p>Un muro invisible de fuerza aparece en un punto que eliges dentro del alcance. El muro puede aparecer con cualquier orientación que elijas, como una barrera horizontal o vertical o en ángulo. Puede estar flotando libremente o descansando sobre una superficie sólida. Puedes darle forma de cúpula hemisférica o esfera con un radio de hasta 10 pies, o puedes darle forma de superficie plana compuesta por diez paneles de 10 pies por 10 pies. Cada panel debe ser contiguo a otro panel. En cualquier forma, el muro tiene 1/4 de pulgada de grosor y dura mientras dure el conjuro. Si el muro corta el espacio de una criatura cuando aparece, la criatura es empujada hacia uno de los lados del muro (a tu elección).</p><p>Nada puede pasar físicamente a través del muro. Es inmune a todo daño y no puede ser disipado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}.</em> Sin embargo, un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Disintegrate}</em> destruye el muro al instante. El muro también se extiende al Plano Etéreo y bloquea el viaje etéreo a través de él.</p>",
+      "description": "<p>Un muro invisible de fuerza aparece en un punto que eliges dentro del alcance. El muro puede aparecer con cualquier orientación que elijas, como una barrera horizontal o vertical o en ángulo. Puede estar flotando libremente o descansando sobre una superficie sólida. Puedes darle forma de cúpula hemisférica o esfera con un radio de hasta 10 pies, o puedes darle forma de superficie plana compuesta por diez paneles de 10 pies por 10 pies. Cada panel debe ser contiguo a otro panel. En cualquier forma, el muro tiene 1/4 de pulgada de grosor y dura mientras dure el conjuro. Si el muro corta el espacio de una criatura cuando aparece, la criatura es empujada hacia uno de los lados del muro (a tu elección).</p><p>Nada puede pasar físicamente a través del muro. Es inmune a todo daño y no puede ser disipado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar magia}.</em> Sin embargo, un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Desintegrar}</em> destruye el muro al instante. El muro también se extiende al Plano Etéreo y bloquea el viaje etéreo a través de él.</p>",
       "activities": {
         "O3uhE0OLzsAhHoAg": {
           "name": "Paneles",
@@ -9321,7 +9410,7 @@
     "phbsplWardingBon": {
       "name": "Vínculo Protector",
       "folder": "2nd Level",
-      "description": "<p>Toques a otra criatura dispuesta y creas una conexión mística entre tú y el objetivo hasta que el conjuro termina. Mientras el objetivo esté a 60 pies o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, y tiene &amp;Reference[damageresistance]{Resistance} a todo el daño. Además, cada vez que sufra daño, tú recibes la misma cantidad de daño.</p><p>El conjuro termina si tus puntos de golpe se reducen a 0 o si tú y el objetivo os separáis más de 60 pies. También termina si el conjuro se vuelve a lanzar sobre cualquiera de las criaturas conectadas.</p>",
+      "description": "<p>Toques a otra criatura dispuesta y creas una conexión mística entre tú y el objetivo hasta que el conjuro termina. Mientras el objetivo esté a 60 pies o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, y tiene &amp;Reference[damageresistance]{Resistencia} a todo el daño. Además, cada vez que sufra daño, tú recibes la misma cantidad de daño.</p><p>El conjuro termina si tus puntos de golpe se reducen a 0 o si tú y el objetivo os separáis más de 60 pies. También termina si el conjuro se vuelve a lanzar sobre cualquiera de las criaturas conectadas.</p>",
       "activities": {
         "dnd5eactivity000": {
           "name": "",
@@ -9336,7 +9425,7 @@
       "effects": {
         "HRfwqQtKmhNzaGX8": {
           "name": "Vinculado",
-          "description": "<p>Mientras el objetivo esté a 60 pies o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, y tiene Resistance a todo el daño. Además, cada vez que sufra daño, tú recibes la misma cantidad de daño.</p><p>El conjuro termina si tus puntos de golpe se reducen a 0 o si tú y el objetivo os separáis más de 60 pies. También termina si el conjuro se vuelve a lanzar sobre cualquiera de las criaturas conectadas.</p>"
+          "description": "<p>Mientras el objetivo esté a 60 pies o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, y tiene Resistencia a todo el daño. Además, cada vez que sufra daño, tú recibes la misma cantidad de daño.</p><p>El conjuro termina si tus puntos de golpe se reducen a 0 o si tú y el objetivo os separáis más de 60 pies. También termina si el conjuro se vuelve a lanzar sobre cualquiera de las criaturas conectadas.</p>"
         }
       },
       "advancement": {}
@@ -9358,7 +9447,8 @@
       },
       "effects": {
         "hyFupFam9XIbim0U": {
-          "name": "Respiración bajo el agua"
+          "name": "Respiración bajo el agua",
+          "description": null
         }
       },
       "advancement": {}
