@@ -2705,7 +2705,7 @@
           "effects": {
             "9svfDetqjhsFP3ey": {
               "name": "Invisibilidad",
-              "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+              "description": "<p>El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.</p>"
             }
           },
           "advancement": {}
@@ -3188,7 +3188,7 @@
           "effects": {
             "9svfDetqjhsFP3ey": {
               "name": "Invisibilidad",
-              "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+              "description": "<p>El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.</p>"
             }
           },
           "advancement": {}
@@ -3559,7 +3559,7 @@
           "effects": {
             "9svfDetqjhsFP3ey": {
               "name": "Invisibilidad",
-              "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+              "description": "<p>El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.</p>"
             }
           },
           "advancement": {}
@@ -7783,7 +7783,7 @@
           "advancement": {
             "8gFHAigaFboVUSgH": {
               "title": "Background Mejora de Característica",
-              "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+              "hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Constitución y Carisma; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
             },
             "CdiCt0Cr9bP9FQNO": {
               "title": "Competencias de Trasfondo",
@@ -8038,7 +8038,7 @@
             },
             "IHbn6EXoBfxHdj7c": {
               "title": "Jerga de Ladrones",
-              "hint": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below."
+              "hint": "Aprendiste varios idiomas en las comunidades donde ejerciste tus talentos de bribón. Conoces la Jerga de Ladrones y otro idioma a tu elección, que puedes escoger de los idiomas que aparecen a continuación."
             },
             "mC2Y1MpLlQ7uSnvk": {
               "title": "Rasgos de Clase"
@@ -8320,7 +8320,7 @@
             },
             "nIaa61I4SSnwAQvz": {
               "title": "Metamagia",
-              "hint": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options."
+              "hint": "Como tu magia fluye desde tu interior, puedes alterar tus conjuros para adaptarlos a tus necesidades; obtienes dos opciones de Metamagia."
             },
             "preISmaDhLpsoWqy": {
               "title": "Rasgos de Clase"
@@ -8352,8 +8352,8 @@
           "effects": {},
           "advancement": {
             "18x2qczDE0MerZfa": {
-              "title": "Drow Traits",
-              "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+              "title": "Rasgos de drow",
+              "hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu característica para el lanzamiento de conjuros."
             },
             "5w2FaHXRKiN7v1rE": {
               "title": "Tamaño",
@@ -8363,12 +8363,12 @@
               "title": "Elfo Traits"
             },
             "hIn6cR8fRweVWhTp": {
-              "title": "Drow Traits",
-              "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+              "title": "Rasgos de drow",
+              "hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu característica para el lanzamiento de conjuros."
             },
             "LWGXpgeZc3PwUgTg": {
-              "title": "Drow Traits",
-              "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+              "title": "Rasgos de drow",
+              "hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu característica para el lanzamiento de conjuros."
             },
             "nccRK77cXNtEHCHX": {
               "title": "Sentidos Agudos",
@@ -8406,11 +8406,11 @@
             },
             "O7OAEMhJm2ecXudR": {
               "title": "Competencias de Trasfondo",
-              "hint": "Your background grants you proficiency in Deception and Sleight of Hand. It also grants you proficiency in Forgery Kit."
+              "hint": "Tu trasfondo te otorga competencia en Engaño y Juego de manos. También te otorga competencia con el kit de falsificación."
             },
             "ozyZYuICa8mqTjA0": {
               "title": "Background Mejora de Característica",
-              "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+              "hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Constitución y Carisma; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
             }
           }
         },
@@ -8781,11 +8781,11 @@
           "advancement": {
             "kDI6zoUamHzFTvHG": {
               "title": "Background Mejora de Característica",
-              "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+              "hint": "Tu trasfondo te permite aumentar tus puntuaciones de Inteligencia, Sabiduría y Carisma; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
             },
             "Lk1ScjOCqRDtX2Tg": {
               "title": "Competencias de Trasfondo",
-              "hint": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies."
+              "hint": "Tu trasfondo te otorga competencia en Perspicacia y Religión. También te otorga competencia con los suministros de calígrafo."
             },
             "ygyW1bVUTnCnjxY2": {
               "title": "Dote de Trasfondo",
@@ -9356,8 +9356,8 @@
               "title": "Rasgos de Clase"
             },
             "S1H3INPWaAiRkB6G": {
-              "title": "Scholar",
-              "hint": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency. You have Expertise in the chosen skill."
+              "title": "Erudito",
+              "hint": "Mientras estudiabas magia, también te especializaste en otro campo de estudio. Elige una de las siguientes habilidades en la que tengas competencia. Obtienes Pericia en la habilidad elegida."
             },
             "ssLPH7qn9DUncfJ1": {
               "title": "Rasgos de Clase"
@@ -9462,11 +9462,11 @@
             },
             "ihi9jqhIMh3y3uaU": {
               "title": "Background Mejora de Característica",
-              "hint": "Your background allows you to increase your Dexterity, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+              "hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Inteligencia y Sabiduría; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
             },
             "uwnus2OqHl8XwTbO": {
               "title": "Competencias de Trasfondo",
-              "hint": "Your background grants you proficiency in Investigation and Perception. It also grants you proficiency with Calligrapher's Supplies."
+              "hint": "Tu trasfondo te otorga competencia en Investigación y Percepción. También te otorga competencia con los suministros de calígrafo."
             }
           }
         },
@@ -9540,10 +9540,10 @@
               "title": "Celestial Resistencia"
             },
             "B7jCbkEdf3zoFrDK": {
-              "title": "Aasimar Traits"
+              "title": "Rasgos de aasimar"
             },
             "Tr6LRsr28KaxnVD2": {
-              "title": "Aasimar Traits"
+              "title": "Rasgos de aasimar"
             },
             "WVHYH9ArLefVlHJL": {
               "title": "Luz Bearer",
