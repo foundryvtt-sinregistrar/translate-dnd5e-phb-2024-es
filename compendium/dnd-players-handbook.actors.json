@@ -167,7 +167,7 @@
         },
         "VSfvWi5FOm2U6pfm": {
           "name": "Ataque de la bestia",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d8 + 2 + tu modificador de sabiduría de daño contundente, perforante o cortante (a tu elección cuando convoques a la bestia). Si la bestia se ha movido al menos 20 pies en línea recta hacia el objetivo antes del impacto, el objetivo recibe 1d6 de daño adicional del mismo tipo y tiene la condición &amp;Reference[prone]{Derribado} si es una criatura Grande o más pequeña.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Nota de Foundry</strong></p><p>Las actividades de <strong>Ataque</strong> y <strong>Ataque de carga</strong> te permitirán elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p><p>La actividad de <strong>Ataque de carga</strong> incluye el daño adicional.</p></section>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d8 + 2 + tu modificador de sabiduría de daño contundente, perforante o cortante (a tu elección cuando convoques a la bestia). Si la bestia se ha movido al menos 20 pies en línea recta hacia el objetivo antes del impacto, el objetivo recibe 1d6 de daño adicional del mismo tipo y tiene la condición &amp;Reference[Prone]{Derribado} si es una criatura Grande o más pequeña.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Nota de Foundry</strong></p><p>Las actividades de <strong>Ataque</strong> y <strong>Ataque de carga</strong> te permitirán elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p><p>La actividad de <strong>Ataque de carga</strong> incluye el daño adicional.</p></section>",
           "activities": {
             "DtbiagypchdLSQEj": {
               "name": "Ataque"
@@ -195,7 +195,7 @@
       "items": {
         "LUOy5vzHMODQLZT3": {
           "name": "Ataque de la bestia",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d6 + 2 + tu modificador de sabiduría de daño contundente o perforante (a tu elección cuando convoques a la bestia), y el objetivo tiene la condición &amp;Reference[grappled]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Nota de Foundry</strong></p><p>La actividad de <strong>Ataque</strong> te permitirá elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p></section>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d6 + 2 + tu modificador de sabiduría de daño contundente o perforante (a tu elección cuando convoques a la bestia), y el objetivo tiene la condición &amp;Reference[Grappled]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Nota de Foundry</strong></p><p>La actividad de <strong>Ataque</strong> te permitirá elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p></section>",
           "activities": {
             "DtbiagypchdLSQEj": {
               "name": "Ataque"
@@ -495,7 +495,7 @@
           "effects": {
             "i5T6yzxlsSnXxGGa": {
               "name": "Restringido",
-              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Apresado apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
             }
           },
           "advancement": {}
@@ -525,7 +525,7 @@
           "effects": {
             "BWZxm9qxlXDSF6Dy": {
               "name": "Restringido",
-              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Apresado apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
             }
           },
           "advancement": {}
@@ -555,7 +555,7 @@
           "effects": {
             "fwIobATMREr7g26x": {
               "name": "Restringido",
-              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Apresado apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
             }
           },
           "advancement": {}
@@ -881,7 +881,7 @@
           "effects": {
             "EiXyxkdcQN9Ui6pd": {
               "name": "Hechizado",
-              "description": "<p>El objetivo queda &amp;Reference[charmed]{Hechizado} por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>"
+              "description": "<p>El objetivo queda &amp;Reference[Charmed]{Hechizado} por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>"
             }
           },
           "advancement": {}
@@ -919,7 +919,7 @@
         },
         "phbaoiFeyStep000": {
           "name": "Paso feérico",
-          "description": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Travieso.</strong> El espíritu llena un Cubo de 10 pies a 5 pies o menos de él con &amp;Reference[darkness]{Oscuridad} mágicas, que duran hasta el final de su siguiente turno.</p>",
+          "description": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Travieso.</strong> El espíritu llena un Cubo de 10 pies a 5 pies o menos de él con &amp;Reference[Darkness]{Oscuridad} mágicas, que duran hasta el final de su siguiente turno.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Teletransporte y Ocultar"
@@ -1153,7 +1153,7 @@
         },
         "phbaoiVenomousSp": {
           "name": "Escupitajo venenoso",
-          "description": "<p><em>Tirada de salvación de Constitución:</em> tu CD de salvación de conjuro; una criatura que el insecto pueda ver a 10 pies o menos. <em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Envenenado]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
+          "description": "<p><em>Tirada de salvación de Constitución:</em> tu CD de salvación de conjuro; una criatura que el insecto pueda ver a 10 pies o menos. <em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Poisoned]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Salvación"
@@ -1162,7 +1162,7 @@
           "effects": {
             "uUvxWKSj8qQRIbTK": {
               "name": "Envenenado",
-              "description": "<p>El objetivo tiene la condición &amp;Reference[Envenenado]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
             }
           },
           "advancement": {}
@@ -1543,7 +1543,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -1626,7 +1626,7 @@
         },
         "phbaoiGore000000": {
           "name": "Cornada",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante. Si el jabalí se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño perforante adicionales y, si es Grande o más pequeño, tiene la condición &amp;Reference[Tumbado]{Derribado}.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante. Si el jabalí se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño perforante adicionales y, si es Grande o más pequeño, tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
           "activities": {
             "D32E8Wol7dVUZqLe": {
               "name": "Ataque de Carga"
@@ -1660,7 +1660,7 @@
         },
         "phbaoiClaw000000": {
           "name": "Garra",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Enorme o más pequeño.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference[Prone]{Derribado} si es Enorme o más pequeño.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -1749,7 +1749,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -1805,7 +1805,7 @@
         },
         "phbaoiConstrict0": {
           "name": "Constricción",
-          "description": "<p><em>Tirada de salvación de fuerza:</em> CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 5 pies. <em>Fracaso:</em> 7 (3d4) de daño contundente, y el objetivo tiene la condición &amp;Reference[grappled]{Agarrado} (CD 12 para escapar).</p>",
+          "description": "<p><em>Tirada de salvación de fuerza:</em> CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 5 pies. <em>Fracaso:</em> 7 (3d4) de daño contundente, y el objetivo tiene la condición &amp;Reference[Grappled]{Agarrado} (CD 12 para escapar).</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Salvación"
@@ -1848,7 +1848,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -1922,7 +1922,7 @@
       "items": {
         "phbaoiBite000000": {
           "name": "Mordisco",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[grappled apply=false]{Agarrado} (CD 12 para escapar). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[restrained apply=false]{Apresado}.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD 12 para escapar). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[restrained apply=false]{Apresado}.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -1931,7 +1931,7 @@
           "effects": {
             "LtkZa9s0yWBlbnja": {
               "name": "Sujetado",
-              "description": "<p>Mientras &amp;Reference[Agarrado apply=false]{Agarrado} (CD 12 para escapar), el objetivo tiene la condición &amp;Reference[Agarrado apply=false]{Agarrado}.</p>"
+              "description": "<p>Mientras &amp;Reference[Grappled apply=false]{Agarrado} (CD 12 para escapar), el objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado}.</p>"
             }
           },
           "advancement": {}
@@ -1954,7 +1954,7 @@
       "items": {
         "phbaoiBite000000": {
           "name": "Mordisco",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto: </em>8 (1d10 + 3) de daño perforante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Enorme o más pequeño.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto: </em>8 (1d10 + 3) de daño perforante, y el objetivo tiene la condición &amp;Reference[Prone]{Derribado} si es Enorme o más pequeño.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -1992,7 +1992,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel del conjuro (redondeando hacia abajo), y usa [[/item Breath Weapon]].</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel del conjuro (redondeando hacia abajo), y usa [[/item Breath Weapon]].</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -2092,7 +2092,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -2123,7 +2123,7 @@
       "items": {
         "phbaoiGore000000": {
           "name": "Cornada",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+8, alcance 5 pies. <em>Impacto:</em> 15 (2d8 + 6) de daño perforante. Si el elefante se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo también tiene la condición &amp;Reference[prone]{Derribado}.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+8, alcance 5 pies. <em>Impacto:</em> 15 (2d8 + 6) de daño perforante. Si el elefante se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo también tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -2165,7 +2165,7 @@
       "items": {
         "phbaoiRam0000000": {
           "name": "Embestida",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si el alce se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference[prone]{Derribado}.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si el alce se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -2252,7 +2252,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu realiza un número de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu realiza un número de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -2263,7 +2263,7 @@
         },
         "phbaoiTricksy000": {
           "name": "Tramposo",
-          "description": "<p>El espíritu llena un Cubo de 10 pies dentro de 5 pies de él con &amp;Reference[darkness]{Oscuridad} mágica, que dura hasta el final de su siguiente turno.</p>",
+          "description": "<p>El espíritu llena un Cubo de 10 pies dentro de 5 pies de él con &amp;Reference[Darkness]{Oscuridad} mágica, que dura hasta el final de su siguiente turno.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Usar"
@@ -2345,7 +2345,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "uRWF9IxLlsNSZDqv": {
               "name": "Activar"
@@ -2434,7 +2434,7 @@
         },
         "phbaoiClaw000000": {
           "name": "Pinza",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto:</em> 4 (1d6 + 1) de daño contundente. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[grappled]{Agarrado} (CD 11 para escapar). El cangrejo tiene dos pinzas, cada una de las cuales puede sujetar a un objetivo.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto:</em> 4 (1d6 + 1) de daño contundente. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[Grappled]{Agarrado} (CD 11 para escapar). El cangrejo tiene dos pinzas, cada una de las cuales puede sujetar a un objetivo.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -2454,7 +2454,7 @@
       "items": {
         "phbaoiRam0000000": {
           "name": "Embestida",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si la cabra se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 5 (2d4) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference[prone]{Derribado}.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si la cabra se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 5 (2d4) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
           "activities": {
             "20CCDc94Yf2PWgQv": {
               "name": "Ataque de Carga"
@@ -2477,7 +2477,7 @@
       "items": {
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El insecto realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El insecto realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -2506,7 +2506,7 @@
         },
         "phbaoiVenomousSp": {
           "name": "Escupitajo venenoso",
-          "description": "<p><em>Tirada de salvación de constitución:</em> tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 10 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[Envenenado apply=false]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
+          "description": "<p><em>Tirada de salvación de constitución:</em> tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 10 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Salvación"
@@ -2515,7 +2515,7 @@
           "effects": {
             "jVWtHTrlPNi4dpDi": {
               "name": "Envenenado",
-              "description": "<p>El objetivo tiene la condición &amp;Reference[Envenenado apply=false]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
             }
           },
           "advancement": {}
@@ -2606,7 +2606,7 @@
         },
         "phbaoiWebRecharg": {
           "name": "Telaraña",
-          "description": "<p><em>Tirada de salvación de destreza:</em> CD 13, una criatura que la araña pueda ver a 60 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[restrained]{Apresado} hasta que la telaraña sea destruida (CA 10; PG 5; Vulnerabilidad al daño de fuego; Inmunidad al daño de veneno y psíquico).</p>",
+          "description": "<p><em>Tirada de salvación de destreza:</em> CD 13, una criatura que la araña pueda ver a 60 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[Restrained]{Apresado} hasta que la telaraña sea destruida (CA 10; PG 5; Vulnerabilidad al daño de fuego; Inmunidad al daño de veneno y psíquico).</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Salvación"
@@ -2882,7 +2882,7 @@
       "items": {
         "phbaoiBite000000": {
           "name": "Mordisco",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Grande o más pequeño.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante, y el objetivo tiene la condición &amp;Reference[Prone]{Derribado} si es Grande o más pequeño.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -3624,7 +3624,7 @@
       "items": {
         "FBFgFP2iirQ8hRLd": {
           "name": "Desgarrar",
-          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Tumbado apply=false]{Derribado}.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",
           "activities": {
             "VP3t6lmmuXKGCRwX": {
               "name": "Ataque"
@@ -3633,7 +3633,7 @@
           "effects": {
             "9A6Hpr7hApdISok9": {
               "name": "Derribado",
-              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Tumbado apply=false]{Derribado}.</p>"
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
           },
           "advancement": {}
@@ -3680,7 +3680,7 @@
         },
         "phbaoiFesteringA": {
           "name": "Aura purulenta",
-          "description": "<p><em>Tirada de salvación de constitución:</em> CD igual a tu DC de salvación de conjuros, cualquier criatura (que no seas tú) que comience su turno dentro de una emanación de 5 pies originada en el espíritu. <em>Fallo:</em> La criatura tiene la condición &amp;Reference[Envenenado apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p>",
+          "description": "<p><em>Tirada de salvación de constitución:</em> CD igual a tu DC de salvación de conjuros, cualquier criatura (que no seas tú) que comience su turno dentro de una emanación de 5 pies originada en el espíritu. <em>Fallo:</em> La criatura tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Salvación",
@@ -3719,7 +3719,7 @@
         },
         "phbaoiMultiattac": {
           "name": "Multiataque",
-          "description": "<p>El espíritu hace un número de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+          "description": "<p>El espíritu hace un número de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Activar"
@@ -3775,7 +3775,7 @@
       "items": {
         "phbaoiHooves0000": {
           "name": "Pezuñas",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +6, alcance 5 pies. <em>Impacto:</em> 9 (2d4 + 4) de daño contundente. Si el caballo se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 5 (2d4) de daño contundente adicional y, si es Grande o más pequeño, tiene la condición &amp;Reference[prone]{Derribado}.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +6, alcance 5 pies. <em>Impacto:</em> 9 (2d4 + 4) de daño contundente. Si el caballo se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 5 (2d4) de daño contundente adicional y, si es Grande o más pequeño, tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -3826,7 +3826,7 @@
       "items": {
         "phbaoiBite000000": {
           "name": "Mordisco",
-          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto: </em>5 (1d6 + 2) de daño perforante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Mediano o más pequeño.</p>",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto: </em>5 (1d6 + 2) de daño perforante, y el objetivo tiene la condición &amp;Reference[Prone]{Derribado} si es Mediano o más pequeño.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -3960,7 +3960,7 @@
       "items": {
         "phbaoiFellGlareF": {
           "name": "Mirada siniestra",
-          "description": "<p><em>Tirada de salvación de sabiduría:</em> la CD es igual a tu DC de salvación de conjuro, una criatura a 60 pies o menos que el corcel pueda ver. <em>Fallo:</em> El objetivo tiene la condición &amp;Reference[frightened]{Asustado} hasta el final de tu siguiente turno.</p>",
+          "description": "<p><em>Tirada de salvación de sabiduría:</em> la CD es igual a tu DC de salvación de conjuro, una criatura a 60 pies o menos que el corcel pueda ver. <em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened]{Asustado} hasta el final de tu siguiente turno.</p>",
           "activities": {
             "dWKWpysw3p2eriFS": {
               "name": "Salvación"
@@ -4016,7 +4016,7 @@
         },
         "98rHJrXiyuCX36s2": {
           "name": "Cuerda",
-          "description": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>",
+          "description": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -4044,7 +4044,7 @@
         },
         "DJyet31V2fyifika": {
           "name": "Complexión poderosa",
-          "description": "<p>Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición &amp;Reference[Agarrado]{Agarrado}. También cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p><section id=\"secret-7qaTRjmRe4PD41G3\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que aumenta automáticamente tu tamaño al determinar la capacidad de carga.</p></section>",
+          "description": "<p>Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición &amp;Reference[Grappled]{Agarrado}. También cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p><section id=\"secret-7qaTRjmRe4PD41G3\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que aumenta automáticamente tu tamaño al determinar la capacidad de carga.</p></section>",
           "activities": {},
           "effects": {
             "ge1u3EIFvsoj3jZu": {
@@ -4112,7 +4112,7 @@
         },
         "fe2owFlcPQloVxAz": {
           "name": "Cuerda",
-          "description": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>",
+          "description": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -4221,7 +4221,7 @@
         },
         "spjpH2kYn7wPHbe6": {
           "name": "Goliat",
-          "description": "<p>Más altos que la mayoría de la gente, los goliats son descendientes lejanos de los gigantes. Cada goliat porta los favores de los primeros gigantes, favores que se manifiestan en diversos dones sobrenaturales, incluida la capacidad de crecer rápidamente y aproximarse temporalmente a la altura de sus gigantescos parientes.</p><p>Los goliats tienen rasgos físicos que recuerdan a los gigantes de sus linajes. Por ejemplo, algunos goliats se asemejan a gigantes de piedra, mientras que otros recuerdan a gigantes de fuego. Sea cual sea el tipo de gigante al que consideren su estirpe, los goliats han forjado su propio camino en el multiverso, libres de los conflictos internos que han asolado a la especie de los gigantes durante eras, y buscan alturas aún mayores que las alcanzadas por sus ancestros.</p><h3 data-anchor=\"goliath-traits\">Rasgos de goliat</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (alrededor de 7–8 pies de altura)</p><p><strong>Velocidad:</strong> 35 pies</p><p>Como goliat, tienes estos rasgos especiales.</p><p><strong>Herencia gigante.</strong> Desciendes de los gigantes. Elige uno de los siguientes beneficios, un don sobrenatural de tu herencia; puedes usar el beneficio elegido un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo:</p><p><strong>Zancada de las nubes (gigante de las nubes).</strong> Como acción adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Quemadura de fuego (gigante de fuego).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d10 de daño de fuego.</p><p><strong>Escalofrío de escarcha (gigante de escarcha).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d6 de daño de frío y reducir su velocidad en 10 pies hasta el inicio de tu siguiente turno.</p><p><strong>Traspié de la colina (gigante de la colina).</strong> Cuando impactas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes darle a ese objetivo la condición &amp;Reference[Tumbado]{Derribado}.</p><p><strong>Resistencia pétrea (gigante de piedra).</strong> Cuando recibes daño, puedes usar tu reacción para tirar 1d12. Suma tu modificador de constitución al resultado y reduce el daño en esa cantidad.</p><p><strong>Trueno de la tormenta (gigante de la tormenta).</strong> Cuando recibes daño de una criatura que esté a 60 pies o menos de ti, puedes usar tu reacción para hacer que esa criatura reciba 1d8 de daño de trueno.</p><p><strong>Forma grande.</strong> A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como acción adicional si estás en un espacio lo bastante amplio. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Mientras dure, tienes ventaja en las pruebas de fuerza y tu velocidad aumenta en 10 pies. Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un descanso largo.</p><p><strong>constitución poderosa.</strong> Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición agarrado. Además, cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p>",
+          "description": "<p>Más altos que la mayoría de la gente, los goliats son descendientes lejanos de los gigantes. Cada goliat porta los favores de los primeros gigantes, favores que se manifiestan en diversos dones sobrenaturales, incluida la capacidad de crecer rápidamente y aproximarse temporalmente a la altura de sus gigantescos parientes.</p><p>Los goliats tienen rasgos físicos que recuerdan a los gigantes de sus linajes. Por ejemplo, algunos goliats se asemejan a gigantes de piedra, mientras que otros recuerdan a gigantes de fuego. Sea cual sea el tipo de gigante al que consideren su estirpe, los goliats han forjado su propio camino en el multiverso, libres de los conflictos internos que han asolado a la especie de los gigantes durante eras, y buscan alturas aún mayores que las alcanzadas por sus ancestros.</p><h3 data-anchor=\"goliath-traits\">Rasgos de goliat</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (alrededor de 7–8 pies de altura)</p><p><strong>Velocidad:</strong> 35 pies</p><p>Como goliat, tienes estos rasgos especiales.</p><p><strong>Herencia gigante.</strong> Desciendes de los gigantes. Elige uno de los siguientes beneficios, un don sobrenatural de tu herencia; puedes usar el beneficio elegido un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo:</p><p><strong>Zancada de las nubes (gigante de las nubes).</strong> Como acción adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Quemadura de fuego (gigante de fuego).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d10 de daño de fuego.</p><p><strong>Escalofrío de escarcha (gigante de escarcha).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d6 de daño de frío y reducir su velocidad en 10 pies hasta el inicio de tu siguiente turno.</p><p><strong>Traspié de la colina (gigante de la colina).</strong> Cuando impactas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes darle a ese objetivo la condición &amp;Reference[Prone]{Derribado}.</p><p><strong>Resistencia pétrea (gigante de piedra).</strong> Cuando recibes daño, puedes usar tu reacción para tirar 1d12. Suma tu modificador de constitución al resultado y reduce el daño en esa cantidad.</p><p><strong>Trueno de la tormenta (gigante de la tormenta).</strong> Cuando recibes daño de una criatura que esté a 60 pies o menos de ti, puedes usar tu reacción para hacer que esa criatura reciba 1d8 de daño de trueno.</p><p><strong>Forma grande.</strong> A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como acción adicional si estás en un espacio lo bastante amplio. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Mientras dure, tienes ventaja en las pruebas de fuerza y tu velocidad aumenta en 10 pies. Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un descanso largo.</p><p><strong>constitución poderosa.</strong> Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición agarrado. Además, cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p>",
           "activities": {},
           "effects": {},
           "advancement": {
@@ -5364,7 +5364,7 @@
         },
         "wCm876rs73aLspi8": {
           "name": "Grilletes",
-          "description": "<p>Como acción de Utilizar, puedes usar los grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta que esté a 5 pies o menos de ti y que tenga la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}, si tienes éxito en una tirada de destreza (Juego de manos) con CD 13. Mientras está encadenada, la criatura tiene desventaja en las tiradas de ataque, y queda Restringida si los grilletes están sujetos a una cadena o gancho fijado en su lugar. Escapar de los grilletes requiere una tirada de destreza (Juego de manos) con CD 20 superada como acción. Romperlos requiere una tirada de fuerza (Atletismo) con CD 25 superada como acción.</p><p>Cada juego de grilletes viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de los grilletes con una tirada exitosa de [[/tool thief dex 15]].</p>",
+          "description": "<p>Como acción de Utilizar, puedes usar los grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta que esté a 5 pies o menos de ti y que tenga la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}, si tienes éxito en una tirada de destreza (Juego de manos) con CD 13. Mientras está encadenada, la criatura tiene desventaja en las tiradas de ataque, y queda Restringida si los grilletes están sujetos a una cadena o gancho fijado en su lugar. Escapar de los grilletes requiere una tirada de destreza (Juego de manos) con CD 20 superada como acción. Romperlos requiere una tirada de fuerza (Atletismo) con CD 25 superada como acción.</p><p>Cada juego de grilletes viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de los grilletes con una tirada exitosa de [[/tool thief dex 15]].</p>",
           "activities": {
             "HStudlka63uekHM2": {
               "name": "Prueba de Ruptura"
@@ -5682,7 +5682,7 @@
         },
         "lPLxJpOExOu738Kx": {
           "name": "Cuerda",
-          "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
+          "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -6194,7 +6194,7 @@
         },
         "j1CMUOdMfODOlzqe": {
           "name": "Cuerda",
-          "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
+          "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -6588,7 +6588,7 @@
         },
         "c2LSt9haTsjNcKaR": {
           "name": "Cuerda",
-          "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
+          "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -7277,7 +7277,7 @@
         },
         "dqV77Me9UZHAMC1g": {
           "name": "Cuerda",
-          "description": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
+          "description": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -7377,7 +7377,7 @@
             },
             "NQtVK0T5uwfMPGQL": {
               "name": "Mover la Marca",
-              "condition": "when the currently marked target drops to 0 Puntos de golpe"
+              "condition": "cuando el objetivo marcado actualmente cae a 0 puntos de golpe"
             },
             "vxr2JKuQ3jyMDTwb": {
               "name": "Marcar Criatura"
@@ -7969,7 +7969,7 @@
         },
         "QbYoldhl7H2rNv6J": {
           "name": "Bolitas metálicas",
-          "description": "<p>Como acción Utilizar, puedes esparcir las bolitas metálicas de su bolsa. Se extienden para cubrir un área de 10 pies de lado sobre un suelo nivelado a 10 pies o menos de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de destreza CD 10 o adquirir la condición &amp;Reference[Tumbado]{Derribado}. Recuperar las bolitas metálicas lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recover Ball Bearings</strong> concede otro uso de este objeto.</p></section>",
+          "description": "<p>Como acción Utilizar, puedes esparcir las bolitas metálicas de su bolsa. Se extienden para cubrir un área de 10 pies de lado sobre un suelo nivelado a 10 pies o menos de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de destreza CD 10 o adquirir la condición &amp;Reference[Prone]{Derribado}. Recuperar las bolitas metálicas lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recover Ball Bearings</strong> concede otro uso de este objeto.</p></section>",
           "activities": {
             "FCoYqKd4jqXjHFNN": {
               "name": "Esparcir Bolitas Metálicas"
@@ -8125,7 +8125,7 @@
         },
         "vU5hCPtcGcZdmxFM": {
           "name": "Cuerda",
-          "description": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
+          "description": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -8142,7 +8142,7 @@
         },
         "y2llYJ6e3eTGCUGZ": {
           "name": "Valiente",
-          "description": "<p>Tienes ventaja en las tiradas de salvación que hagas para evitar o terminar la condición &amp;Reference[Asustado]{Asustado}.</p>",
+          "description": "<p>Tienes ventaja en las tiradas de salvación que hagas para evitar o terminar la condición &amp;Reference[Frightened]{Asustado}.</p>",
           "activities": {},
           "effects": {},
           "advancement": {}
@@ -8225,7 +8225,7 @@
         },
         "ens3JhM0K0V4RcIM": {
           "name": "Cuerda",
-          "description": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference[Agarrado]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
+          "description": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Grappled]{Agarrado} o &amp;Reference[Incapacitated]{Incapacitado}. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
           "activities": {
             "5q6tX1T7ONDvgJiA": {
               "name": "Prueba de Escape"
@@ -8602,7 +8602,7 @@
             },
             "dnd5eactivity000": {
               "name": "Daño Extra del Maleficio",
-              "condition": "whenever you hit the target with an attack roll"
+              "condition": "cuando golpeas al objetivo con una tirada de ataque"
             }
           },
           "effects": {
@@ -9717,14 +9717,14 @@
         },
         "phbaoiGraspingHa": {
           "name": "Mano apresadora",
-          "description": "<p>La mano intenta agarrar a una criatura Enorme o más pequeña que esté a 5 pies o menos de ella. El objetivo debe superar una tirada de salvación de destreza o sufre la condición &amp;Reference[Agarrado]{Agarrado}, con una CD de escape igual a tu CD de salvación de conjuros. Mientras la mano tenga agarrado al objetivo, puedes usar una acción adicional para hacer que la mano lo aplaste, infligiendo al objetivo daño contundente igual a 4d6 más tu modificador de característica de lanzamiento de conjuros.</p><h3>Pruebas para escapar del agarre</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Strength (Athletics)} [[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]{Dexterity (Acrobatics)}</p>",
+          "description": "<p>La mano intenta agarrar a una criatura Enorme o más pequeña que esté a 5 pies o menos de ella. El objetivo debe superar una tirada de salvación de destreza o sufre la condición &amp;Reference[Grappled]{Agarrado}, con una CD de escape igual a tu CD de salvación de conjuros. Mientras la mano tenga agarrado al objetivo, puedes usar una acción adicional para hacer que la mano lo aplaste, infligiendo al objetivo daño contundente igual a 4d6 más tu modificador de característica de lanzamiento de conjuros.</p><h3>Pruebas para escapar del agarre</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Strength (Athletics)} [[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]{Dexterity (Acrobatics)}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Agarre"
             },
             "oVvdrmP4wv1oKWar": {
               "name": "Aplastar",
-              "condition": "has a creature grappled"
+              "condition": "si tiene agarrada a una criatura"
             }
           },
           "effects": {},
@@ -9774,7 +9774,7 @@
           "effects": {
             "NGnrAr3HdReYoTjS": {
               "name": "Sujeto",
-              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo &amp;Reference[Apresado apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla la salvación, el objetivo recibe 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) puntos de daño del tipo del espíritu. Si tiene éxito en la salvación, el objetivo no está sujeto por el espíritu.</p>"
+              "description": "<p>Al comienzo de cada uno de sus turnos, el objetivo &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla la salvación, el objetivo recibe 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) puntos de daño del tipo del espíritu. Si tiene éxito en la salvación, el objetivo no está sujeto por el espíritu.</p>"
             }
           },
           "advancement": {}
@@ -9803,7 +9803,7 @@
           "effects": {
             "sEpCnDgBAYjTuRgI": {
               "name": "Asustado",
-              "description": "<p>El objetivo tiene la condición &amp;Reference[Asustado apply=false]{Asustado} hasta el inicio de tu siguiente turno, teniendo tanto tú como el espíritu como origen del miedo.</p>"
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el inicio de tu siguiente turno, teniendo tanto tú como el espíritu como origen del miedo.</p>"
             }
           },
           "advancement": {}
@@ -9867,7 +9867,7 @@
       "items": {
         "phbaoiLevel4Conj": {
           "name": "Ataque de vid",
-          "description": "<p>Haz una tirada de ataque de conjuro cuerpo a cuerpo contra una criatura a 30 pies o menos de la vid. Si impactas, el objetivo recibe 4d8 puntos de daño contundente y es arrastrado hasta 30 pies hacia la vid; si el objetivo es Enorme o más pequeño, sufre la condición &amp;Reference[Agarrado]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><p>La vid puede mantener agarradas a [[@flags.dnd5e.summon.level - 3]] criatura(s) a la vez, y puedes hacer que la vid suelte a una criatura agarrada (sin necesidad de acción).</p><h3>Pruebas para escapar</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]</p><p>[[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]</p>",
+          "description": "<p>Haz una tirada de ataque de conjuro cuerpo a cuerpo contra una criatura a 30 pies o menos de la vid. Si impactas, el objetivo recibe 4d8 puntos de daño contundente y es arrastrado hasta 30 pies hacia la vid; si el objetivo es Enorme o más pequeño, sufre la condición &amp;Reference[Grappled]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><p>La vid puede mantener agarradas a [[@flags.dnd5e.summon.level - 3]] criatura(s) a la vez, y puedes hacer que la vid suelte a una criatura agarrada (sin necesidad de acción).</p><h3>Pruebas para escapar</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]</p><p>[[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Ataque"
@@ -10086,7 +10086,7 @@
       "items": {
         "phbaoiFesteringA": {
           "name": "Aura pútrida",
-          "description": "<p><em>Tirada de salvación de constitución:</em> la CD es igual a tu CD de salvación de conjuros, para cualquier criatura (que no seas tú) que empiece su turno dentro de una emanación de 5 pies. originada en el espíritu. <em>Fallo:</em> la criatura tiene la condición &amp;Reference[Envenenado apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p>",
+          "description": "<p><em>Tirada de salvación de constitución:</em> la CD es igual a tu CD de salvación de conjuros, para cualquier criatura (que no seas tú) que empiece su turno dentro de una emanación de 5 pies. originada en el espíritu. <em>Fallo:</em> la criatura tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Salvación",
