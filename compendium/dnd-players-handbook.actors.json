@@ -1896,7 +1896,7 @@
         },
         "dnd5einvisible00": {
           "name": "Invisible",
-          "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          "description": "@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN inline]"
         },
         "O96hoqlJot40eGqB": {
           "name": "Sentido activo: oído"
@@ -3151,7 +3151,7 @@
       "effects": {
         "dnd5einvisible00": {
           "name": "Invisible",
-          "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          "description": "@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN inline]"
         }
       },
       "items": {
@@ -11672,7 +11672,7 @@
       "effects": {
         "dnd5einvisible00": {
           "name": "Invisible",
-          "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          "description": "@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN inline]"
         }
       },
       "items": {
@@ -12233,7 +12233,7 @@
       "effects": {
         "dnd5einvisible00": {
           "name": "Invisible",
-          "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          "description": "@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN inline]"
         }
       },
       "items": {}
