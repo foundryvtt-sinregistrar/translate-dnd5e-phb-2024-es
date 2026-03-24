@@ -72,7 +72,7 @@
     },
     "5KMKEV07I25SVth0": {
       "name": "Cuerda",
-      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado] o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado} o &amp;Reference[Restrained]{Apresado}. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
@@ -308,7 +308,7 @@
     },
     "KbVt56CK4ud3FUk3": {
       "name": "Bolas de rodamiento",
-      "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufrir la condición &amp;Reference[Derribado]. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recuperar bolas de rodamiento</strong> concede otro uso de este objeto.</p></section>",
+      "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufrir la condición &amp;Reference[Prone]{Derribado}. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recuperar bolas de rodamiento</strong> concede otro uso de este objeto.</p></section>",
       "folder": "Adventuring Gear",
       "activities": {
         "FCoYqKd4jqXjHFNN": {
@@ -359,7 +359,7 @@
     },
     "LfDewuKszszreg6i": {
       "name": "Cuerda",
-      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado}, o &amp;Reference[Restrained]{Apresado}. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
@@ -542,7 +542,7 @@
     },
     "phbagBallBearing": {
       "name": "Bolas de rodamiento",
-      "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufre la condición &amp;Reference[Derribado]. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recuperar bolas de rodamiento</strong> concede otro uso de este objeto.</p></section>",
+      "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufre la condición &amp;Reference[Prone]{Derribado}. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recuperar bolas de rodamiento</strong> concede otro uso de este objeto.</p></section>",
       "folder": "Adventuring Gear",
       "activities": {
         "FCoYqKd4jqXjHFNN": {
@@ -693,7 +693,7 @@
     },
     "phbagChain000000": {
       "name": "Cadena",
-      "description": "<p>Como acción de Utilizar, puedes envolver una cadena alrededor de una criatura no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado] si superas una tirada de Fuerza (Atletismo) CD 13. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cadena, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 18. Romper la cadena requiere superar una tirada de Fuerza (Atletismo) CD 20 como acción.</p>",
+      "description": "<p>Como acción de Utilizar, puedes envolver una cadena alrededor de una criatura no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado}, o &amp;Reference[Restrained]{Apresado} si superas una tirada de Fuerza (Atletismo) CD 13. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cadena, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 18. Romper la cadena requiere superar una tirada de Fuerza (Atletismo) CD 20 como acción.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "9eioXCinYhuRDmOd": {
@@ -965,7 +965,7 @@
     },
     "phbagManacles000": {
       "name": "Grilletes",
-      "description": "<p>Como acción de Utilizar, puedes usar grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado] si superas una tirada de Destreza (Juego de manos) CD 13. Mientras esté engrilletada, una criatura tiene desventaja en las tiradas de ataque, y queda restringida si los grilletes están sujetos a una cadena o gancho fijado en su sitio. Escapar de los grilletes requiere superar una tirada de Destreza (Juego de manos) CD 20 como acción. Romperlos requiere superar una tirada de Fuerza (Atletismo) CD 25 como acción.</p><p>Cada juego de grilletes incluye una llave. Sin la llave, una criatura puede usar Thieves’ Tools para forzar la cerradura de los grilletes con una tirada [[/tool thief dex 15]] con éxito.</p>",
+      "description": "<p>Como acción de Utilizar, puedes usar grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado}, o &amp;Reference[Restrained]{Apresado} si superas una tirada de Destreza (Juego de manos) CD 13. Mientras esté engrilletada, una criatura tiene desventaja en las tiradas de ataque, y queda restringida si los grilletes están sujetos a una cadena o gancho fijado en su sitio. Escapar de los grilletes requiere superar una tirada de Destreza (Juego de manos) CD 20 como acción. Romperlos requiere superar una tirada de Fuerza (Atletismo) CD 25 como acción.</p><p>Cada juego de grilletes incluye una llave. Sin la llave, una criatura puede usar Thieves’ Tools para forzar la cerradura de los grilletes con una tirada [[/tool thief dex 15]] con éxito.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "HStudlka63uekHM2": {
@@ -1003,7 +1003,7 @@
     },
     "phbagNet00000000": {
       "name": "Red",
-      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una red. Elige una criatura que puedas ver a 15 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o adquiere la condición &amp;Reference[Apresado] hasta que escape. El objetivo tiene éxito automáticamente si es enorme o mayor.</p><p>Para escapar, el objetivo o una criatura a 5 pies de él debe gastar una acción para hacer una prueba [[/skill ath 10]], liberando a la criatura restringida si tiene éxito. Destruir la red (CA 10; 5 PG; inmunidad al daño contundente, veneno y psíquico) también libera al objetivo y pone fin al efecto.</p>",
+      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una red. Elige una criatura que puedas ver a 15 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o adquiere la condición &amp;Reference[Restrained]{Apresado} hasta que escape. El objetivo tiene éxito automáticamente si es enorme o mayor.</p><p>Para escapar, el objetivo o una criatura a 5 pies de él debe gastar una acción para hacer una prueba [[/skill ath 10]], liberando a la criatura restringida si tiene éxito. Destruir la red (CA 10; 5 PG; inmunidad al daño contundente, veneno y psíquico) también libera al objetivo y pone fin al efecto.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "3u15g2fvhp6MyN5O": {
@@ -1146,7 +1146,7 @@
     },
     "phbagRope0000000": {
       "name": "Cuerda",
-      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado}, o &amp;Reference[Restrained]{Apresado}. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
@@ -2767,7 +2767,7 @@
     },
     "x8jC9e00t4cUYiKR": {
       "name": "Cuerda",
-      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado}, o &amp;Reference[Restrained]{Apresado}. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "5q6tX1T7ONDvgJiA": {
