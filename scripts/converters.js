@@ -5,6 +5,7 @@ import { phb2024JournalEntryFullById } from "./converters/phb2024-journalEntryFu
 import { phb2024ActorFullById } from "./converters/phb2024-actorFullById.js";
 import { phb2024RollTableResultsById } from "./converters/phb2024-rollTableResultsById.js";
 import { phb2024ActivitiesById } from "./converters/phb2024-activities-by-id.js";
+import { phb2024ActorDetails } from "./converters/phb2024-actor-details.js";
 
 
 Hooks.on("init", () => {
@@ -18,6 +19,7 @@ Hooks.on("init", () => {
         phb2024JournalPagesById,
         phb2024JournalEntryFullById,
         phb2024ActorFullById,
+        phb2024ActorDetails,
         phb2024RollTableResultsById
     });
 

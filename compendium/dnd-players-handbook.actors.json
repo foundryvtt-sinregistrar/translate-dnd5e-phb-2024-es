@@ -1,6 +1,10 @@
 {
   "label": "Actores",
   "mapping": {
+    "details": {
+      "path": "system.details",
+      "converter": "phb2024ActorDetails"
+    },
     "items": {
       "path": "items",
       "converter": "phb2024ActorFullById"
