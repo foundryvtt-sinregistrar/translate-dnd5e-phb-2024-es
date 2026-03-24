@@ -40,7 +40,7 @@
   "entries": {
     "1NwTdI5LHEH5WThq": {
       "name": "Manta",
-      "description": "<p>Mientras estés envuelto en una manta, tienes ventaja en las tiradas de salvación contra el frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "description": "<p>Mientras estés envuelto en una manta, tienes ventaja en las tiradas de salvación contra el frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -48,7 +48,7 @@
     },
     "2nlARB78sJo8Z2W6": {
       "name": "Agua (pinta)",
-      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
@@ -90,7 +90,7 @@
     },
     "5tEPJK0TLcjPvPNF": {
       "name": "Odre de agua",
-      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -98,7 +98,7 @@
     },
     "67ScUFYRuMU0J2Wt": {
       "name": "Agua (pinta)",
-      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
@@ -118,7 +118,7 @@
     },
     "6SKwUOHlYMst7M2z": {
       "name": "Raciones",
-      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition]{desnutrición} en el glosario de reglas para conocer los riesgos de no comer.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -141,7 +141,7 @@
     },
     "ABjsMdpDnWlkjbMq": {
       "name": "Saco de dormir",
-      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -149,7 +149,7 @@
     },
     "aWEY8Xh0wfn69Q1w": {
       "name": "Agua (pinta)",
-      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
@@ -257,7 +257,7 @@
     },
     "It6m0vGGZwCf9E7r": {
       "name": "Agua (pinta)",
-      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
@@ -327,7 +327,7 @@
     },
     "KH8g5hD7Q6ZX1YqV": {
       "name": "Saco de dormir",
-      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -377,7 +377,7 @@
     },
     "llmXULupnKVHUGuE": {
       "name": "Raciones",
-      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition]{desnutrición} en el glosario de reglas para conocer los riesgos de no comer.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -385,7 +385,7 @@
     },
     "LuLBFWwxjbNKU9FF": {
       "name": "Odre de agua",
-      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -393,7 +393,7 @@
     },
     "nFFc8hnpFeiIhQWa": {
       "name": "Raciones",
-      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition]{desnutrición} en el glosario de reglas para conocer los riesgos de no comer.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -485,7 +485,7 @@
     },
     "phbagAlchemistsF": {
       "name": "Fuego alquímico",
-      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de fuego alquímico. Elige una criatura u objeto que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre [[/damage 1d4 type=fire]] puntos de daño de fuego y empieza &amp;Reference[burning].</p>",
+      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de fuego alquímico. Elige una criatura u objeto que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre [[/damage 1d4 type=fire]] puntos de daño de fuego y empieza &amp;Reference[burning]{ardiendo}.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "NVclbplLi9uFhKQE": {
@@ -495,7 +495,7 @@
       "effects": {
         "HL12olRyPOCmmMQ5": {
           "name": "Ardiendo",
-          "description": "<p>Referencia de reglas: &amp;Reference[burning].</p>"
+          "description": "<p>Referencia de reglas: &amp;Reference[burning]{ardiendo}.</p>"
         }
       },
       "advancement": {}
@@ -577,7 +577,7 @@
     },
     "phbagBedroll0000": {
       "name": "Saco de dormir",
-      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -593,7 +593,7 @@
     },
     "phbagBlanket0000": {
       "name": "Manta",
-      "description": "<p>Mientras estés envuelto en una manta, tienes ventaja en las tiradas de salvación contra el frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "description": "<p>Mientras estés envuelto en una manta, tienes ventaja en las tiradas de salvación contra el frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -1130,7 +1130,7 @@
     },
     "phbagRations0000": {
       "name": "Raciones",
-      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition]{desnutrición} en el glosario de reglas para conocer los riesgos de no comer.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -1272,7 +1272,7 @@
     },
     "phbagWaterskin00": {
       "name": "Odre de agua",
-      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -2059,7 +2059,7 @@
     },
     "phbWaterpint0000": {
       "name": "Agua (pinta)",
-      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
@@ -2574,7 +2574,7 @@
     },
     "Qgekp4euuB5S9tpe": {
       "name": "Agua (pinta)",
-      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "XlTBFtJ0jyBJ71bh": {
@@ -2705,7 +2705,7 @@
     },
     "UOiM3icOTVhR3llN": {
       "name": "Odre de agua",
-      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -2713,7 +2713,7 @@
     },
     "UPfmTzNgqi9QblZR": {
       "name": "Raciones",
-      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition]{desnutrición} en el glosario de reglas para conocer los riesgos de no comer.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -2759,7 +2759,7 @@
     },
     "X5XgogJLLydoKdrJ": {
       "name": "Odre de agua",
-      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration]{deshidratación}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -2793,7 +2793,7 @@
     },
     "xP6OWuEaxQbDUfJV": {
       "name": "Raciones",
-      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition]{desnutrición} en el glosario de reglas para conocer los riesgos de no comer.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
