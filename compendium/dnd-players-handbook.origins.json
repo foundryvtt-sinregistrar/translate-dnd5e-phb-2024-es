@@ -142,7 +142,7 @@
     },
     "phbbgAcolyte0000": {
       "name": "Acólito",
-      "description": "<p><strong>Puntuaciones de característica:</strong> Inteligencia, Sabiduría, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la magia} (Clérigo)</p><p><strong>Competencias en habilidades:</strong> Perspicacia e Religión</p><p><strong>Competencia con herramientas:</strong> Suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Útiles de caligrafía}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (rezos), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo sagrado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (10 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, 8 PG; o (B) 50 PG</p><p>Te entregaste al servicio en un templo, ya sea enclavado en una ciudad o aislado en un bosque sagrado. Allí realizabas ritos en honor de un dios o un panteón. Servías a las órdenes de un sacerdote y estudiabas religión. Gracias a las enseñanzas de tu sacerdote y a tu propia devoción, también aprendiste a canalizar un pequeño grado de poder divino al servicio de tu lugar de culto y de las personas que allí rezaban.</p>",
+      "description": "<p><strong>Puntuaciones de característica:</strong> Inteligencia, Sabiduría, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la magia} (Clérigo)</p><p><strong>Competencias en habilidades:</strong> Perspicacia y Religión</p><p><strong>Competencia con herramientas:</strong> Suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Útiles de caligrafía}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (rezos), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo sagrado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (10 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, 8 PG; o (B) 50 PG</p><p>Te entregaste al servicio en un templo, ya sea enclavado en una ciudad o aislado en un bosque sagrado. Allí realizabas ritos en honor de un dios o un panteón. Servías a las órdenes de un sacerdote y estudiabas religión. Gracias a las enseñanzas de tu sacerdote y a tu propia devoción, también aprendiste a canalizar un pequeño grado de poder divino al servicio de tu lugar de culto y de las personas que allí rezaban.</p>",
       "folder": "Backgrounds",
       "activities": {},
       "effects": {},
@@ -186,7 +186,7 @@
         },
         "yepxK82qt9QhQB7F": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Crafter."
+          "hint": "Tu trasfondo te otorga la dote Artesano."
         }
       }
     },
@@ -199,7 +199,7 @@
       "advancement": {
         "lTp2YYNaBEwG774d": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Skilled."
+          "hint": "Tu trasfondo te otorga la dote Hábil."
         },
         "O7OAEMhJm2ecXudR": {
           "title": "Competencias del trasfondo",
@@ -236,7 +236,7 @@
         },
         "WJA48TLxfqlc3ygz": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Alert."
+          "hint": "Tu trasfondo te otorga la dote Alerta."
         }
       }
     },
@@ -261,7 +261,7 @@
         },
         "XOsAbJyhH8CmAnPd": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Musician."
+          "hint": "Tu trasfondo te otorga la dote Músico."
         }
       }
     },
@@ -278,7 +278,7 @@
         },
         "khsLl8BCDlFMmhDL": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Tough."
+          "hint": "Tu trasfondo te otorga la dote Duro."
         },
         "pLGiyOjTP7nwuwTl": {
           "title": "Elegir idiomas",
@@ -299,7 +299,7 @@
       "advancement": {
         "nsFrYL3pFMdqsiWq": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Alert."
+          "hint": "Tu trasfondo te otorga la dote Alerta."
         },
         "pLGiyOjTP7nwuwTl": {
           "title": "Elegir idiomas",
@@ -361,7 +361,7 @@
         },
         "TOKSk87QSgyggHCn": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Healer."
+          "hint": "Tu trasfondo te otorga la dote Sanador."
         }
       }
     },
@@ -378,7 +378,7 @@
         },
         "FcRbbMcvK5eWlsgG": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Lucky."
+          "hint": "Tu trasfondo te otorga la dote Afortunado."
         },
         "J0Q0xlAkNMb2MUrP": {
           "title": "Competencias del trasfondo",
@@ -411,13 +411,13 @@
         },
         "vCe6YNpwh45sK0wR": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Skilled."
+          "hint": "Tu trasfondo te otorga la dote Hábil."
         }
       }
     },
     "phbbgSage0000000": {
       "name": "Sabio",
-      "description": "<p><strong>Puntuaciones de característica:</strong> Constitución, Inteligencia, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la magia} (Mago)</p><p><strong>Competencias en habilidades:</strong> Arcanos e Historia</p><p><strong>Competencia con herramientas:</strong> Suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Útiles de caligrafía}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (historia), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (8 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, 8 PG; o (B) 50 PG</p><p>Pasaste tus años formativos viajando entre mansiones y monasterios, realizando diversos trabajos ocasionales a cambio de acceso a sus bibliotecas. Pasaste muchas noches largas estudiando libros y pergaminos, aprendiendo el saber del multiverso —incluso los rudimentos de la magia—, y tu mente ansía aún más conocimiento.</p>",
+      "description": "<p><strong>Puntuaciones de característica:</strong> Constitución, Inteligencia, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la magia} (Mago)</p><p><strong>Competencias en habilidades:</strong> Arcanos y Historia</p><p><strong>Competencia con herramientas:</strong> Suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Útiles de caligrafía}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (historia), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (8 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, 8 PG; o (B) 50 PG</p><p>Pasaste tus años formativos viajando entre mansiones y monasterios, realizando diversos trabajos ocasionales a cambio de acceso a sus bibliotecas. Pasaste muchas noches largas estudiando libros y pergaminos, aprendiendo el saber del multiverso —incluso los rudimentos de la magia—, y tu mente ansía aún más conocimiento.</p>",
       "folder": "Backgrounds",
       "activities": {},
       "effects": {},
@@ -428,7 +428,7 @@
         },
         "DMd8rikwPlZdpP1l": {
           "title": "Competencias del trasfondo",
-          "hint": "Tu trasfondo te otorga competencia en Arcanos e Historia. También te otorga competencia con los suministros de calígrafo."
+          "hint": "Tu trasfondo te otorga competencia en Arcanos y Historia. También te otorga competencia con los suministros de calígrafo."
         },
         "kKt7VMmZUuRr35dP": {
           "title": "Dote de trasfondo",
@@ -449,7 +449,7 @@
       "advancement": {
         "6jf2ylkDlxJ1L1iy": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Tavern Brawler."
+          "hint": "Tu trasfondo te otorga la dote Buscapleitos de taberna."
         },
         "pLGiyOjTP7nwuwTl": {
           "title": "Elegir idiomas",
@@ -474,7 +474,7 @@
       "advancement": {
         "BNzeq8VcPbRzjlmh": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Skilled."
+          "hint": "Tu trasfondo te otorga la dote Hábil."
         },
         "ihi9jqhIMh3y3uaU": {
           "title": "Mejora de característica del trasfondo",
@@ -507,7 +507,7 @@
         },
         "tk8CFgIW7fXL0mlu": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Savage Attacker."
+          "hint": "Tu trasfondo te otorga la dote Atacante salvaje."
         },
         "y4FZ4I6wU0F8DEjO": {
           "title": "Competencias del trasfondo",
@@ -524,7 +524,7 @@
       "advancement": {
         "8eRg0htLwA7np7UW": {
           "title": "Dote de trasfondo",
-          "hint": "Tu trasfondo te otorga la dote Lucky."
+          "hint": "Tu trasfondo te otorga la dote Afortunado."
         },
         "FaRZUhzv2BHTCXBG": {
           "title": "Competencias del trasfondo",
@@ -542,13 +542,14 @@
     },
     "phbspAasimar0000": {
       "name": "Aasimar",
-      "description": "<p>Los aasimar (se pronuncia AH-sih-mar) son mortales que llevan una chispa de los Planos Superiores en sus almas. Ya sea descendientes de un ser angelical o imbuidos de poder celestial, pueden avivar esa chispa para llevar luz, curación e ira celestial.</p><p>Los aasimar pueden surgir en cualquier población de mortales. Se parecen a sus progenitores, pero viven hasta 160 años y presentan rasgos que insinúan su herencia celestial, como pecas metálicas, ojos luminosos, un halo o el color de piel de un ángel (plateado, verde nacarado o rojo cobrizo). Estos rasgos comienzan siendo sutiles y se vuelven evidentes cuando el aasimar aprende a revelar toda su naturaleza celestial.</p><h3 data-anchor=\"aasimar-traits\">Rasgos de aasimar</h3><p class=\"phb-meta\"><strong>Tipo de criatura: </strong>Humanoide</p><p class=\"phb-meta\"><strong>Tamaño: </strong>Mediano (aproximadamente entre 4 y 7 pies de altura) o Pequeño (aproximadamente entre 2 y 4 pies de altura), elegido cuando seleccionas esta especie</p><p class=\"phb-meta\"><strong>Velocidad:</strong> 30 pies</p><p>Como aasimar, tienes estos rasgos especiales.</p><p><strong>Resistencia celestial.</strong> Tienes resistencia al daño necrótico y al daño radiante.</p><p><strong>Visión en la oscuridad.</strong> Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Manos curativas.</strong> Como acción mágica, tocas a una criatura y tiras un número de d4 igual a tu bonificación por competencia. La criatura recupera un número de puntos de golpe igual al resultado total. Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo.</p><p><strong>Portador de luz.</strong> Conoces el truco <em>Light</em>. El Carisma es tu característica de lanzamiento de conjuros para él.</p><p><strong>Revelación celestial.</strong> Cuando alcanzas el nivel 3 de personaje, puedes transformarte como acción adicional usando una de las siguientes opciones (elige la opción cada vez que te transformes). La transformación dura 1 minuto o hasta que la termines (no requiere acción). Una vez te transformas, no puedes volver a hacerlo hasta que termines un Descanso largo.</p><p>Una vez en cada uno de tus turnos, antes de que la transformación termine, puedes infligir daño adicional a un objetivo cuando le hagas daño con un ataque o un conjuro. El daño adicional es igual a tu bonificación por competencia, y el tipo de daño adicional es necrótico para Manto necrótico o radiante para Alas celestiales y Resplandor interior.</p><p>Estas son las opciones de transformación:</p><p><strong>Alas celestiales.</strong> Dos alas espectrales brotan temporalmente de tu espalda. Hasta que la transformación termine, tienes una velocidad de vuelo igual a tu velocidad.</p><p><strong>Resplandor interior.</strong> Una luz abrasadora irradia temporalmente de tus ojos y boca. Mientras dure, emites Luz brillante en un radio de 10 pies y Luz tenue en 10 pies adicionales, y al final de cada uno de tus turnos, cada criatura a 10 pies de ti recibe daño radiante igual a tu bonificación por competencia.</p><p><strong>Manto necrótico.</strong> Tus ojos se convierten brevemente en pozos de oscuridad y unas alas sin plumas brotan temporalmente de tu espalda. Las criaturas que no sean tus aliados y que se encuentren a 10 pies de ti deben superar una tirada de salvación de Carisma (CD 8 más tu modificador de Carisma y tu bonificación por competencia) o sufrir la condición Asustado hasta el final de tu siguiente turno.</p>",
+      "description": "<p>Los aasimar (se pronuncia AH-sih-mar) son mortales que llevan una chispa de los Planos Superiores en sus almas. Ya sea descendientes de un ser angelical o imbuidos de poder celestial, pueden avivar esa chispa para llevar luz, curación e ira celestial.</p><p>Los aasimar pueden surgir en cualquier población de mortales. Se parecen a sus progenitores, pero viven hasta 160 años y presentan rasgos que insinúan su herencia celestial, como pecas metálicas, ojos luminosos, un halo o el color de piel de un ángel (plateado, verde nacarado o rojo cobrizo). Estos rasgos comienzan siendo sutiles y se vuelven evidentes cuando el aasimar aprende a revelar toda su naturaleza celestial.</p><h3 data-anchor=\"aasimar-traits\">Rasgos de aasimar</h3><p class=\"phb-meta\"><strong>Tipo de criatura: </strong>Humanoide</p><p class=\"phb-meta\"><strong>Tamaño: </strong>Mediano (aproximadamente entre 4 y 7 pies de altura) o Pequeño (aproximadamente entre 2 y 4 pies de altura), elegido cuando seleccionas esta especie</p><p class=\"phb-meta\"><strong>Velocidad:</strong> 30 pies</p><p>Como aasimar, tienes estos rasgos especiales.</p><p><strong>Resistencia celestial.</strong> Tienes resistencia al daño necrótico y al daño radiante.</p><p><strong>Visión en la oscuridad.</strong> Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Manos curativas.</strong> Como acción mágica, tocas a una criatura y tiras un número de d4 igual a tu bonificación por competencia. La criatura recupera un número de puntos de golpe igual al resultado total. Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo.</p><p><strong>Portador de luz.</strong> Conoces el truco <em>Luz</em>. El Carisma es tu característica de lanzamiento de conjuros para él.</p><p><strong>Revelación celestial.</strong> Cuando alcanzas el nivel 3 de personaje, puedes transformarte como acción adicional usando una de las siguientes opciones (elige la opción cada vez que te transformes). La transformación dura 1 minuto o hasta que la termines (no requiere acción). Una vez te transformas, no puedes volver a hacerlo hasta que termines un Descanso largo.</p><p>Una vez en cada uno de tus turnos, antes de que la transformación termine, puedes infligir daño adicional a un objetivo cuando le hagas daño con un ataque o un conjuro. El daño adicional es igual a tu bonificación por competencia, y el tipo de daño adicional es necrótico para Manto necrótico o radiante para Alas celestiales y Resplandor interior.</p><p>Estas son las opciones de transformación:</p><p><strong>Alas celestiales.</strong> Dos alas espectrales brotan temporalmente de tu espalda. Hasta que la transformación termine, tienes una velocidad de vuelo igual a tu velocidad.</p><p><strong>Resplandor interior.</strong> Una luz abrasadora irradia temporalmente de tus ojos y boca. Mientras dure, emites Luz brillante en un radio de 10 pies y Luz tenue en 10 pies adicionales, y al final de cada uno de tus turnos, cada criatura a 10 pies de ti recibe daño radiante igual a tu bonificación por competencia.</p><p><strong>Manto necrótico.</strong> Tus ojos se convierten brevemente en pozos de oscuridad y unas alas sin plumas brotan temporalmente de tu espalda. Las criaturas que no sean tus aliados y que se encuentren a 10 pies de ti deben superar una tirada de salvación de Carisma (CD 8 más tu modificador de Carisma y tu bonificación por competencia) o sufrir la condición Asustado hasta el final de tu siguiente turno.</p>",
       "folder": "Species",
       "activities": {},
       "effects": {},
       "advancement": {
         "1P6xFzbXPoDqJUwf": {
-          "hint": "Mediano (aproximadamente entre 4 y 7 pies de altura) o Pequeño (aproximadamente entre 2 y 4 pies de altura), elegido cuando seleccionas esta especie"
+          "hint": "Mediano (aproximadamente entre 4 y 7 pies de altura) o Pequeño (aproximadamente entre 2 y 4 pies de altura), elegido cuando seleccionas esta especie",
+          "title": "Tamaño"
         },
         "9M3fOL4n0rogK6nR": {
           "title": "Resistencia celestial"
@@ -561,7 +562,7 @@
         },
         "WVHYH9ArLefVlHJL": {
           "title": "Portador de luz",
-          "hint": "Conoces el truco Light. El Carisma es tu característica de lanzamiento de conjuros para él."
+          "hint": "Conoces el truco Luz. El Carisma es tu característica de lanzamiento de conjuros para él."
         }
       }
     },
@@ -581,7 +582,8 @@
           "hint": "Tienes resistencia al daño de veneno."
         },
         "lskxIeib6rIreZ1h": {
-          "hint": "Mediano (aproximadamente entre 4 y 7 pies de altura) o Pequeño (aproximadamente entre 3 y 4 pies de altura)"
+          "hint": "Mediano (aproximadamente entre 4 y 7 pies de altura) o Pequeño (aproximadamente entre 3 y 4 pies de altura)",
+          "title": "Tamaño"
         },
         "T8T6H9TudTleafUL": {
           "title": "Rasgos de tiflin"
@@ -614,7 +616,8 @@
           "title": "Presencia de otro mundo"
         },
         "lskxIeib6rIreZ1h": {
-          "hint": "Mediano (unos 4–7 pies de altura) o Pequeño (unos 3–4 pies de altura)"
+          "hint": "Mediano (unos 4–7 pies de altura) o Pequeño (unos 3–4 pies de altura)",
+          "title": "Tamaño"
         },
         "O6M9VGAwHx9Kkfhj": {
           "title": "Rasgos de tiflin ctónico",
@@ -641,7 +644,8 @@
       "effects": {},
       "advancement": {
         "65BqBxGcj6z4S803": {
-          "hint": "Mediano (unos 5–7 pies de altura)"
+          "hint": "Mediano (unos 5–7 pies de altura)",
+          "title": "Tamaño"
         },
         "jOGAWKkPIAbshOpo": {
           "title": "Vuelo dracónico"
@@ -663,7 +667,8 @@
           "hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como característica para lanzar conjuros."
         },
         "5w2FaHXRKiN7v1rE": {
-          "hint": "Mediano (unos 5–6 pies de altura)"
+          "hint": "Mediano (unos 5–6 pies de altura)",
+          "title": "Tamaño"
         },
         "boHzoT53gYPvJ9o2": {
           "title": "Rasgos de elfo"
@@ -690,7 +695,8 @@
       "effects": {},
       "advancement": {
         "6HdONjMD4UozXSfC": {
-          "hint": "Mediano (unos 4–5 pies de altura)"
+          "hint": "Mediano (unos 4–5 pies de altura)",
+          "title": "Tamaño"
         },
         "PphNMhWLl5mEgAZf": {
           "title": "Rasgos de enano"
@@ -720,7 +726,8 @@
           "title": "Rasgos de gnomo"
         },
         "O7gYRGMSW3atQ2Yc": {
-          "hint": "Pequeño (unos 3–4 pies de altura)"
+          "hint": "Pequeño (unos 3–4 pies de altura)",
+          "title": "Tamaño"
         }
       }
     },
@@ -735,7 +742,8 @@
           "title": "Rasgos de goliat"
         },
         "LETPMtBLvmzWUUb0": {
-          "hint": "Mediano (unos 7–8 pies de altura)"
+          "hint": "Mediano (unos 7–8 pies de altura)",
+          "title": "Tamaño"
         },
         "LrdYfRLrRlgsZrNn": {
           "title": "Ascendencia gigante",
@@ -757,7 +765,8 @@
           "title": "Rasgos de mediano"
         },
         "GYp1vi82hSEoe3mO": {
-          "hint": "Pequeño (unos 2–3 pies de altura)"
+          "hint": "Pequeño (unos 2–3 pies de altura)",
+          "title": "Tamaño"
         }
       }
     },
@@ -773,7 +782,8 @@
           "hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como característica para lanzar conjuros."
         },
         "5w2FaHXRKiN7v1rE": {
-          "hint": "Mediano (unos 5–6 pies de altura)"
+          "hint": "Mediano (unos 5–6 pies de altura)",
+          "title": "Tamaño"
         },
         "boHzoT53gYPvJ9o2": {
           "title": "Rasgos de elfo"
@@ -794,7 +804,7 @@
     },
     "phbspHuman000000": {
       "name": "Humano",
-      "description": "<p>Presentes por todo el multiverso, los humanos son tan variados como numerosos y se esfuerzan por lograr todo lo que pueden en los años que se les conceden. Su ambición e ingenio son elogiados, respetados y temidos en muchos mundos.</p><p>Los humanos son tan diversos en apariencia como la gente de la Tierra y veneran a muchos dioses. Los eruditos discuten el origen de la humanidad, pero se dice que una de las primeras reuniones humanas conocidas tuvo lugar en Sigil, la ciudad en forma de toro situada en el centro del multiverso y el lugar donde nació el idioma común. Desde allí, los humanos pudieron haberse extendido a todas las partes del multiverso, llevando consigo el cosmopolitismo de la Ciudad de las Puertas.</p><h3 data-anchor=\"human-traits\">Rasgos de humano</h3><p><strong>Tipo de criatura: </strong>Humanoide.</p><p><strong>Tamaño: </strong>Mediano (unos 4–7 pies de altura) o Pequeño (unos 2–4 pies de altura), a tu elección cuando seleccionas esta especie.</p><p><strong>Velocidad: </strong>30 pies.</p><p>Como humano, tienes estos rasgos especiales.</p><p><strong>Ingenioso. </strong>Ganas Inspiración heroica cada vez que terminas un descanso largo.</p><p><strong>Hábil. </strong>Ganas competencia en una habilidad de tu elección.</p><p><strong>Versátil.</strong> Ganas un dote de origen de tu elección (consulta el capítulo 5). Se recomienda el dote Skilled.</p>",
+      "description": "<p>Presentes por todo el multiverso, los humanos son tan variados como numerosos y se esfuerzan por lograr todo lo que pueden en los años que se les conceden. Su ambición e ingenio son elogiados, respetados y temidos en muchos mundos.</p><p>Los humanos son tan diversos en apariencia como la gente de la Tierra y veneran a muchos dioses. Los eruditos discuten el origen de la humanidad, pero se dice que una de las primeras reuniones humanas conocidas tuvo lugar en Sigil, la ciudad en forma de toro situada en el centro del multiverso y el lugar donde nació el idioma común. Desde allí, los humanos pudieron haberse extendido a todas las partes del multiverso, llevando consigo el cosmopolitismo de la Ciudad de las Puertas.</p><h3 data-anchor=\"human-traits\">Rasgos de humano</h3><p><strong>Tipo de criatura: </strong>Humanoide.</p><p><strong>Tamaño: </strong>Mediano (unos 4–7 pies de altura) o Pequeño (unos 2–4 pies de altura), a tu elección cuando seleccionas esta especie.</p><p><strong>Velocidad: </strong>30 pies.</p><p>Como humano, tienes estos rasgos especiales.</p><p><strong>Ingenioso. </strong>Ganas Inspiración heroica cada vez que terminas un descanso largo.</p><p><strong>Hábil. </strong>Ganas competencia en una habilidad de tu elección.</p><p><strong>Versátil.</strong> Ganas una dote de origen de tu elección (consulta el capítulo 5). Se recomienda la dote Hábil.</p>",
       "folder": "Species",
       "activities": {},
       "effects": {},
@@ -803,11 +813,12 @@
           "title": "Rasgos de humano"
         },
         "dLxv96vt2B2KOEe2": {
-          "hint": "Mediano (unos 4–7 pies de altura) o Pequeño (unos 2–4 pies de altura), a tu elección cuando seleccionas esta especie"
+          "hint": "Mediano (unos 4–7 pies de altura) o Pequeño (unos 2–4 pies de altura), a tu elección cuando seleccionas esta especie",
+          "title": "Tamaño"
         },
         "KB8IQLwyuL6SOFnv": {
           "title": "Versátil",
-          "hint": "Ganas un dote de origen de tu elección. Se recomienda Skilled."
+          "hint": "Ganas una dote de origen de tu elección. Se recomienda Hábil."
         },
         "xIdIaWtTj1cBERln": {
           "title": "Hábil",
@@ -838,7 +849,8 @@
           "hint": "Tienes resistencia al daño de fuego."
         },
         "lskxIeib6rIreZ1h": {
-          "hint": "Mediano (unos 4–7 pies de altura) o Pequeño (unos 3–4 pies de altura)"
+          "hint": "Mediano (unos 4–7 pies de altura) o Pequeño (unos 3–4 pies de altura)",
+          "title": "Tamaño"
         },
         "ol3SWLw2FTNEiXrb": {
           "title": "Rasgos de tiflin infernal",
@@ -857,7 +869,8 @@
       "effects": {},
       "advancement": {
         "B2sUOuY0KhoULqlX": {
-          "hint": "Mediano (unos 6–7 pies de altura)"
+          "hint": "Mediano (unos 6–7 pies de altura)",
+          "title": "Tamaño"
         },
         "C2ehwp5W2SMJ88Wy": {
           "title": "Rasgos de orco"
@@ -875,7 +888,8 @@
           "title": "Rasgos de gnomo"
         },
         "O7gYRGMSW3atQ2Yc": {
-          "hint": "Pequeño (unos 3–4 pies de altura)"
+          "hint": "Pequeño (unos 3–4 pies de altura)",
+          "title": "Tamaño"
         },
         "RNvJhB97kaJrZTfU": {
           "title": "Rasgos de gnomo de roca",
@@ -1377,7 +1391,8 @@
       "effects": {},
       "advancement": {
         "5w2FaHXRKiN7v1rE": {
-          "hint": "Mediano (unos 5–6 pies de altura)"
+          "hint": "Mediano (unos 5–6 pies de altura)",
+          "title": "Tamaño"
         },
         "boHzoT53gYPvJ9o2": {
           "title": "Rasgos de elfo"
