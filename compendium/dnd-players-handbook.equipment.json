@@ -172,7 +172,9 @@
       "description": "<p>Una linterna de capucha proyecta luz brillante en un radio de 30 pies y luz tenue otros 30 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite. Como acción, puedes bajar la capucha, reduciendo la luz a luz tenue en un radio de 5 pies.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "dnd5eactivity000": {}
+        "dnd5eactivity000": {
+          "name": "Usar"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -238,7 +240,9 @@
       "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "SouNhSdWdnznKCam": {}
+        "SouNhSdWdnznKCam": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -268,7 +272,9 @@
       "description": "<p>Como acción de Utilizar, puedes esparcir abrojos desde su bolsa para cubrir un área de 5 pies cuadrados a 5 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 15 o recibe 1 punto de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. Recuperar los abrojos lleva 10 minutos.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "G8upRnZw22jGWKWy": {}
+        "G8upRnZw22jGWKWy": {
+          "name": "Salvación"
+        }
       },
       "effects": {
         "HsbtDDdiWhk4d7WB": {
@@ -344,7 +350,9 @@
       "description": "<p>Una linterna de ojo de buey proyecta luz brillante en un cono de 60 pies y luz tenue en otros 60 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "dnd5eactivity000": {}
+        "dnd5eactivity000": {
+          "name": "Usar"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -448,7 +456,9 @@
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>",
       "folder": "Arcane Focus",
       "activities": {
-        "5c4fPKVW51b3Ri3j": {}
+        "5c4fPKVW51b3Ri3j": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -478,7 +488,9 @@
       "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de fuego alquímico. Elige una criatura u objeto que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre [[/damage 1d4 type=fire]] puntos de daño de fuego y empieza &amp;Reference[burning].</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "NVclbplLi9uFhKQE": {}
+        "NVclbplLi9uFhKQE": {
+          "name": "Salvación"
+        }
       },
       "effects": {
         "HL12olRyPOCmmMQ5": {
@@ -501,7 +513,9 @@
       "description": "<p>Como acción adicional, puedes beber una redoma de antitoxina para obtener ventaja en las tiradas de salvación para evitar o terminar la condición Envenenado durante 1 hora.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "2TNbDh0n59svuGIx": {}
+        "2TNbDh0n59svuGIx": {
+          "name": "Usar"
+        }
       },
       "effects": {
         "DzWVacNiq6ggXbU9": {
@@ -630,7 +644,9 @@
       "description": "<p>Como acción de Utilizar, puedes esparcir abrojos desde su bolsa para cubrir un área de 5 pies cuadrados a 5 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 15 o recibe 1 punto de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. Recuperar los abrojos lleva 10 minutos.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "G8upRnZw22jGWKWy": {}
+        "G8upRnZw22jGWKWy": {
+          "name": "Salvación"
+        }
       },
       "effects": {
         "HsbtDDdiWhk4d7WB": {
@@ -852,7 +868,8 @@
         "tIsE5Y5S9TjOTs9C": {
           "activation": {
             "condition": "Pisa la placa"
-          }
+          },
+          "name": "Salvación"
         }
       },
       "effects": {
@@ -989,7 +1006,9 @@
       "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una red. Elige una criatura que puedas ver a 15 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o adquiere la condición &amp;Reference[Apresado] hasta que escape. El objetivo tiene éxito automáticamente si es enorme o mayor.</p><p>Para escapar, el objetivo o una criatura a 5 pies de él debe gastar una acción para hacer una prueba [[/skill ath 10]], liberando a la criatura restringida si tiene éxito. Destruir la red (CA 10; 5 PG; inmunidad al daño contundente, veneno y psíquico) también libera al objetivo y pone fin al efecto.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "3u15g2fvhp6MyN5O": {}
+        "3u15g2fvhp6MyN5O": {
+          "name": "Salvación"
+        }
       },
       "effects": {
         "67ofG0FVqrrkAHKa": {
@@ -1042,7 +1061,9 @@
       "description": "<p>Como acción adicional, puedes usar una redoma de veneno básico para recubrir un arma o hasta tres piezas de munición. Una criatura que reciba daño perforante o cortante del arma o la munición envenenada sufre 1d4 puntos de daño de veneno adicionales. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que inflige daño, lo que ocurra antes.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye una tirada para el daño de veneno.</p></section>",
       "folder": "Adventuring Gear",
       "activities": {
-        "KLsqFTXAS8fnlaYs": {}
+        "KLsqFTXAS8fnlaYs": {
+          "name": "Daño"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -1060,7 +1081,9 @@
       "description": "<p>Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura a 5 pies de ti. La criatura que bebe el fluido rojo mágico de esta redoma recupera 2d4 + 2 puntos de golpe.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "cNvH4obx5XJ2myYr": {}
+        "cNvH4obx5XJ2myYr": {
+          "name": "Curar"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -1232,7 +1255,9 @@
       "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "SouNhSdWdnznKCam": {}
+        "SouNhSdWdnznKCam": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -1410,7 +1435,9 @@
       "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco druídico} adopta una de las formas de la tabla de focos druídicos y está tallado, atado con cintas o pintado para canalizar magia primigenia. Un druida o un guardabosques puede usar dicho objeto como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>",
       "folder": "Druidic Focus",
       "activities": {
-        "8F63re0OqRLG0LzQ": {}
+        "8F63re0OqRLG0LzQ": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -1512,7 +1539,9 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>",
       "folder": "Weapons",
       "activities": {
-        "3N1e1qi6ahj2wveE": {}
+        "3N1e1qi6ahj2wveE": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -1720,7 +1749,9 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (CD 15) o encender un fuego (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Ácido}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Fuego de alquimista}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Bolsa de componentes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>",
       "folder": "Artisan",
       "activities": {
-        "3tr6iV1buoI6GB27": {}
+        "3tr6iV1buoI6GB27": {
+          "name": "Prueba"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -1745,7 +1776,9 @@
       "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto con adornos llamativos que dificultan su falsificación (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, <em>Pergamino de conjuro</em></p>",
       "folder": "Artisan",
       "activities": {
-        "PVMIlNQvLAyrF4kP": {}
+        "PVMIlNQvLAyrF4kP": {
+          "name": "Prueba"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2004,7 +2037,9 @@
       "description": "<p><em>Consulta: &amp;Reference[unarmedstrike]</em></p>",
       "folder": "Weapons",
       "activities": {
-        "X96HnXRaVti0SXqJ": {},
+        "X96HnXRaVti0SXqJ": {
+          "name": "Ataque"
+        },
         "Z288a0QXgaNbdZmP": {
           "name": "Agarrar/empujar",
           "description": {
@@ -2039,7 +2074,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "WkTYphqhrW8RuuUm": {}
+        "WkTYphqhrW8RuuUm": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2049,7 +2086,9 @@
       "description": "",
       "folder": "Martial Ranged",
       "activities": {
-        "EXxkQF1AZxrd6c7A": {}
+        "EXxkQF1AZxrd6c7A": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2059,7 +2098,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "tFtnW9SGsqxilkl5": {}
+        "tFtnW9SGsqxilkl5": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2069,7 +2110,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "3SJSAL3pv9gKkAM9": {}
+        "3SJSAL3pv9gKkAM9": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2079,7 +2122,9 @@
       "description": "",
       "folder": "Simple Ranged",
       "activities": {
-        "HXmVf11fhJVaDGRU": {}
+        "HXmVf11fhJVaDGRU": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2089,7 +2134,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "9fA3ExXYUl4EvWHA": {}
+        "9fA3ExXYUl4EvWHA": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2099,7 +2146,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "oz5daQHA5CwlHyhA": {}
+        "oz5daQHA5CwlHyhA": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2109,7 +2158,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "ylhYxAHaTmE2223j": {}
+        "ylhYxAHaTmE2223j": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2119,7 +2170,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "amG8qOS4NKpbj2hY": {}
+        "amG8qOS4NKpbj2hY": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2129,7 +2182,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "zi3BW6RGO2ugOyXu": {}
+        "zi3BW6RGO2ugOyXu": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2139,7 +2194,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "ToaPTz56SpDo69SZ": {}
+        "ToaPTz56SpDo69SZ": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2149,7 +2206,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "rkjuC3ZV4s9UpD0i": {}
+        "rkjuC3ZV4s9UpD0i": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2159,7 +2218,9 @@
       "description": "",
       "folder": "Martial Ranged",
       "activities": {
-        "CJjRI7JX8tziGFSo": {}
+        "CJjRI7JX8tziGFSo": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2169,7 +2230,9 @@
       "description": "",
       "folder": "Martial Ranged",
       "activities": {
-        "bZgdThKc69XEv43i": {}
+        "bZgdThKc69XEv43i": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2179,7 +2242,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "r1hUkUrLD8kqx8X0": {}
+        "r1hUkUrLD8kqx8X0": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2189,7 +2254,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "Fxtsz7mTZxBoZWRF": {}
+        "Fxtsz7mTZxBoZWRF": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2199,7 +2266,9 @@
       "description": "",
       "folder": "Simple Ranged",
       "activities": {
-        "UYlAFnNzdcc3L81u": {}
+        "UYlAFnNzdcc3L81u": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2209,7 +2278,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "FHmD55OJjrFoBkHr": {}
+        "FHmD55OJjrFoBkHr": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2219,7 +2290,9 @@
       "description": "",
       "folder": "Martial Ranged",
       "activities": {
-        "b04WToYLVtgE03Dm": {}
+        "b04WToYLVtgE03Dm": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2229,7 +2302,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "BFZXotvvF4YaAKeT": {}
+        "BFZXotvvF4YaAKeT": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2239,7 +2314,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "KiHlb6kIDAvWmnhv": {}
+        "KiHlb6kIDAvWmnhv": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2249,7 +2326,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "wVGKly5R472acaHj": {}
+        "wVGKly5R472acaHj": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2259,7 +2338,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "QIpweawAzbt4xw5h": {}
+        "QIpweawAzbt4xw5h": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2269,7 +2350,9 @@
       "description": "",
       "folder": "Martial Ranged",
       "activities": {
-        "iNq67ySHyNX4jmSQ": {}
+        "iNq67ySHyNX4jmSQ": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2279,7 +2362,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "HjEJjclqCeGjAymL": {}
+        "HjEJjclqCeGjAymL": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2289,7 +2374,9 @@
       "description": "",
       "folder": "Martial Ranged",
       "activities": {
-        "Zyg4dqUmd4VkNdov": {}
+        "Zyg4dqUmd4VkNdov": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2299,7 +2386,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "XYVC9JOYrtFlLA1k": {}
+        "XYVC9JOYrtFlLA1k": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2309,7 +2398,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "0PGNisis4CVkSml5": {}
+        "0PGNisis4CVkSml5": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2319,7 +2410,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "YOx3cikY6oPu6Ojh": {}
+        "YOx3cikY6oPu6Ojh": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2329,7 +2422,9 @@
       "description": "",
       "folder": "Simple Ranged",
       "activities": {
-        "XTpNEcni4iwfmaeA": {}
+        "XTpNEcni4iwfmaeA": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2339,7 +2434,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "42jdrHDfDRCcYeL4": {}
+        "42jdrHDfDRCcYeL4": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2349,7 +2446,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "ApQ85BtlIJDElLuu": {}
+        "ApQ85BtlIJDElLuu": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2359,7 +2458,9 @@
       "description": "",
       "folder": "Simple Ranged",
       "activities": {
-        "pJCR6dF3xxKAupNv": {}
+        "pJCR6dF3xxKAupNv": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2369,7 +2470,9 @@
       "description": "",
       "folder": "Simple Melee",
       "activities": {
-        "HiR3FA2Uc0oOAHU9": {}
+        "HiR3FA2Uc0oOAHU9": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2379,7 +2482,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "qezzwsHRqu4rtKVW": {}
+        "qezzwsHRqu4rtKVW": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2389,7 +2494,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "jf99rIxqlwX1YLPc": {}
+        "jf99rIxqlwX1YLPc": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2399,7 +2506,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "aTON7UZlIvfSwpY8": {}
+        "aTON7UZlIvfSwpY8": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2409,7 +2518,9 @@
       "description": "",
       "folder": "Martial Melee",
       "activities": {
-        "VC8ZaoZ7An8WUFf6": {}
+        "VC8ZaoZ7An8WUFf6": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2427,7 +2538,9 @@
       "description": "<p>Conjunto de ropas diseñado específicamente para ser caro y que se note.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "dnd5eactivity000": {}
+        "dnd5eactivity000": {
+          "name": "Usar"
+        }
       },
       "effects": {},
       "advancement": {}
@@ -2437,7 +2550,9 @@
       "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
       "folder": "Adventuring Gear",
       "activities": {
-        "SouNhSdWdnznKCam": {}
+        "SouNhSdWdnznKCam": {
+          "name": "Ataque"
+        }
       },
       "effects": {},
       "advancement": {}
