@@ -4,7 +4,60 @@
  * - NO llama a Babele ni hace deep merge (evita recursión)
  * - Traducciones por _id (robusto)
  */
-export function phb2024ActorFullById(actor, translation) {
+import { phb2024ActivitiesById } from "./phb2024-activities-by-id.js";
+import { phb2024MergeEffects } from "./phb2024-merge-effects.js";
+import { phb2024AdvancementById } from "./phb2024-advancement-by-id.js";
+
+export function phb2024ActorFullById(source, translation) {
+    if (!Array.isArray(source) || !translation || typeof translation !== "object") {
+        return source;
+    }
+
+    const out = source.map((item) => foundry.utils.deepClone(item));
+
+    for (const item of out) {
+        const id = item?._id ?? item?.id;
+        if (!id) continue;
+
+        const patch = translation[id];
+        if (!patch || typeof patch !== "object") continue;
+
+        // Nombre
+        if (patch.name !== undefined) {
+            item.name = patch.name;
+        }
+
+        // Descripción
+        if (patch.description !== undefined) {
+            if (foundry.utils.hasProperty(item, "system.description.value")) {
+                foundry.utils.setProperty(item, "system.description.value", patch.description);
+            } else if (item.system?.description && typeof item.system.description === "object" && "value" in item.system.description) {
+                item.system.description.value = patch.description;
+            } else {
+                item.description = patch.description;
+            }
+        }
+
+        // Activities
+        if (patch.activities && item.system?.activities) {
+            item.system.activities = phb2024ActivitiesById(item.system.activities, patch.activities);
+        }
+
+        // Effects
+        if (patch.effects && Array.isArray(item.effects)) {
+            item.effects = phb2024MergeEffects(item.effects, patch.effects);
+        }
+
+        // Advancement
+        if (patch.advancement && Array.isArray(item.system?.advancement)) {
+            item.system.advancement = phb2024AdvancementById(item.system.advancement, patch.advancement);
+        }
+    }
+
+    return out;
+}
+
+export function phb2024ActorFullById00(actor, translation) {
     if (!translation) return actor;
 
     // Si viene como JSON completo con entries
