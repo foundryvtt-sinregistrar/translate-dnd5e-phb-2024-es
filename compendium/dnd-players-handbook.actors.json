@@ -34,6 +34,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
       "folder": "Aberrant Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiEyeRayBeho": {
@@ -65,6 +81,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
       "folder": "Aberrant Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -108,6 +140,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
       "folder": "Aberrant Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiClawSlaadO": {
@@ -156,6 +204,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
       "folder": "Primal Companions",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiPrimalBond": {
@@ -191,6 +255,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
       "folder": "Primal Companions",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "LUOy5vzHMODQLZT3": {
@@ -234,6 +314,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
       "folder": "Primal Companions",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "Myheb5GAefBfmT0v": {
@@ -268,6 +364,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
       "folder": "Bestial Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFlybyAirOn": {
@@ -306,6 +418,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
       "folder": "Bestial Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -344,6 +472,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
       "folder": "Bestial Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -389,6 +533,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
       "folder": "Celestial Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHealingTou": {
@@ -431,6 +591,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
       "folder": "Celestial Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHealingTou": {
@@ -477,6 +653,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
       "folder": "Conjured Elementals",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "oJkALZTVLPy8TJSR": {
@@ -507,6 +699,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
       "folder": "Conjured Elementals",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "M6i0fFdNQmWKA4BZ": {
@@ -537,6 +745,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
       "folder": "Conjured Elementals",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "BeXR1DiQaXVIpgxp": {
@@ -567,6 +791,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
       "folder": "Construct Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBerserkLas": {
@@ -610,6 +850,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
       "folder": "Construct Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHeatedBody": {
@@ -653,6 +909,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
       "folder": "Construct Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -700,6 +972,22 @@
       "description": "",
       "folder": "Conjurations",
       "biography": "",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -708,6 +996,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
       "folder": "Elemental Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAmorphousF": {
@@ -746,6 +1050,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
       "folder": "Elemental Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -777,6 +1097,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
       "folder": "Elemental Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAmorphousF": {
@@ -815,6 +1151,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
       "folder": "Fey Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFeyBlade00": {
@@ -857,6 +1209,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
       "folder": "Fey Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFeyBlade00": {
@@ -904,6 +1272,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
       "folder": "Fey Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFeyBlade00": {
@@ -946,6 +1330,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
       "folder": "Elemental Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAmorphousF": {
@@ -984,6 +1384,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
       "folder": "Fiendish Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBiteDemonO": {
@@ -1034,6 +1450,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
       "folder": "Fiendish Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiDevilsSigh": {
@@ -1082,6 +1514,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
       "folder": "Fiendish Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiClawsYugol": {
@@ -1120,6 +1568,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
       "folder": "Giant Insects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -1174,6 +1638,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
       "folder": "Giant Insects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -1228,6 +1708,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
       "folder": "Giant Insects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -1266,6 +1762,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
       "folder": "Animated Objects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiSlam000000": {
@@ -1286,6 +1798,22 @@
       "description": "",
       "folder": "Conjurations",
       "biography": "",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -1294,6 +1822,22 @@
       "description": "",
       "folder": "Conjurations",
       "biography": "",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -1302,6 +1846,22 @@
       "description": "",
       "folder": "Conjurations",
       "biography": "",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -1310,6 +1870,22 @@
       "description": "",
       "folder": "Conjurations",
       "biography": "",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {
         "9gxhNWiPY0SA7eV0": {
           "name": "Sentido activo: vista"
@@ -1329,6 +1905,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
       "folder": "Animated Objects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiSlam000000": {
@@ -1349,6 +1941,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
       "folder": "Animated Objects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiSlam000000": {
@@ -1369,6 +1977,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiClawSlaadO": {
@@ -1450,6 +2074,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFist000000": {
@@ -1492,6 +2132,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -1512,6 +2168,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -1532,6 +2204,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFlybyAirOn": {
@@ -1584,6 +2272,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -1615,6 +2319,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBloodiedFu": {
@@ -1645,6 +2365,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -1687,6 +2423,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -1707,6 +2459,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiJumper0000": {
@@ -1734,6 +2502,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHealingTou": {
@@ -1790,6 +2574,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -1821,6 +2621,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBerserkLas": {
@@ -1891,6 +2707,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAmphibious": {
@@ -1918,6 +2750,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -1950,6 +2798,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -1977,6 +2841,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag caption=false]</p>",
       "folder": "Summons",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBreathWeap": {
@@ -2058,6 +2938,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHooves0000": {
@@ -2081,6 +2977,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAmorphousF": {
@@ -2119,6 +3031,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiGore000000": {
@@ -2161,6 +3089,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiRam0000000": {
@@ -2184,6 +3128,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbFaithfulHound caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbFaithfulHound caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {
         "dnd5einvisible00": {
           "name": "Invisible",
@@ -2210,6 +3170,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFeyBlade00": {
@@ -2279,6 +3255,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBiteDemonO": {
@@ -2361,6 +3353,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAmphibious": {
@@ -2395,6 +3403,22 @@
       "description": "<p><strong>Velocidad:</strong> 4 mph</p><p><strong>Tripulación:</strong> 80</p><p><strong>Pasajeros:</strong> —</p><p><strong>Carga (toneladas):</strong> 150</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 500</p><p><strong>Umbral de daño:</strong> 20</p><p><strong>Coste:</strong> 30.000 PO</p>",
       "folder": "Vehicles",
       "biography": "<p><strong>Velocidad:</strong> 4 mph</p><p><strong>Tripulación:</strong> 80</p><p><strong>Pasajeros:</strong> —</p><p><strong>Carga (toneladas):</strong> 150</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 500</p><p><strong>Umbral de daño:</strong> 20</p><p><strong>Coste:</strong> 30.000 PO</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -2403,6 +3427,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -2423,6 +3463,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAmphibious": {
@@ -2450,6 +3506,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiRam0000000": {
@@ -2473,6 +3545,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -2543,6 +3631,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBubbleDash": {
@@ -2584,6 +3688,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -2629,6 +3749,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -2649,6 +3785,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiRam0000000": {
@@ -2672,6 +3824,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiTalons0000": {
@@ -2692,6 +3860,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Legal malvado",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "oHafKbzbqYGiL4i1": {
@@ -2774,6 +3958,22 @@
       "description": "<p><strong>Velocidad:</strong> 1 mph</p><p><strong>Tripulación:</strong> 1</p><p><strong>Pasajeros:</strong> —</p><p><strong>Carga (toneladas):</strong> 1/2</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 100</p><p><strong>Umbral de daño:</strong> 10</p><p><strong>Coste:</strong> 3.000 PO</p>",
       "folder": "Vehicles",
       "biography": "<p><strong>Velocidad:</strong> 1 mph</p><p><strong>Tripulación:</strong> 1</p><p><strong>Pasajeros:</strong> —</p><p><strong>Carga (toneladas):</strong> 1/2</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 100</p><p><strong>Umbral de daño:</strong> 10</p><p><strong>Coste:</strong> 3.000 PO</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -2782,6 +3982,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiMultiattac": {
@@ -2843,6 +4059,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -2870,6 +4102,22 @@
       "description": "<p><strong>Velocidad:</strong> 3 mph</p><p><strong>Tripulación:</strong> 40</p><p><strong>Pasajeros:</strong> 150</p><p><strong>Carga (toneladas):</strong> 10</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de daño:</strong> 15</p><p><strong>Coste:</strong> 10.000 PO</p>",
       "folder": "Vehicles",
       "biography": "<p><strong>Velocidad:</strong> 3 mph</p><p><strong>Tripulación:</strong> 40</p><p><strong>Pasajeros:</strong> 150</p><p><strong>Carga (toneladas):</strong> 10</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de daño:</strong> 15</p><p><strong>Coste:</strong> 10.000 PO</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -2878,6 +4126,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -2898,6 +4162,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBeastofBur": {
@@ -2925,6 +4205,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiCompressio": {
@@ -2971,6 +4267,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
       "folder": "Otherworldly Steeds",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFellGlareF": {
@@ -3035,6 +4347,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFlyby00000": {
@@ -3062,6 +4390,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "ddOOLlNTSnyTzlfq": {
@@ -3097,6 +4441,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHooves0000": {
@@ -3117,6 +4477,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Neutral bueno",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -3175,6 +4551,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Caótico malvado",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "7wNdT95XqhyGOpBd": {
@@ -3271,6 +4663,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAgile00000": {
@@ -3298,6 +4706,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBeak000000": {
@@ -3325,6 +4749,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -3359,6 +4799,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHooves0000": {
@@ -3379,6 +4835,22 @@
       "description": "<p><strong>Velocidad:</strong> 1 1/2 mph</p><p><strong>Tripulación:</strong> 1</p><p><strong>Pasajeros:</strong> 3</p><p><strong>Carga (toneladas):</strong> —</p><p><strong>CA:</strong> 11</p><p><strong>PG:</strong> 50</p><p><strong>Umbral de daño:</strong> —</p><p><strong>Coste:</strong> 50 PO</p>",
       "folder": "Vehicles",
       "biography": "<p><strong>Velocidad:</strong> 1 1/2 mph</p><p><strong>Tripulación:</strong> 1</p><p><strong>Pasajeros:</strong> 3</p><p><strong>Carga (toneladas):</strong> —</p><p><strong>CA:</strong> 11</p><p><strong>PG:</strong> 50</p><p><strong>Umbral de daño:</strong> —</p><p><strong>Coste:</strong> 50 PO</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -3387,6 +4859,22 @@
       "description": "<p><strong>Velocidad:</strong> 2 mph</p><p><strong>Tripulación:</strong> 20</p><p><strong>Pasajeros:</strong> 20</p><p><strong>Carga (toneladas):</strong> 100</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de daño:</strong> 15</p><p><strong>Coste:</strong> 10,000 PO</p>",
       "folder": "Vehicles",
       "biography": "<p><strong>Velocidad:</strong> 2 mph</p><p><strong>Tripulación:</strong> 20</p><p><strong>Pasajeros:</strong> 20</p><p><strong>Carga (toneladas):</strong> 100</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de daño:</strong> 15</p><p><strong>Coste:</strong> 10,000 PO</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -3395,6 +4883,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiSting00000": {
@@ -3415,6 +4919,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Legal malvado",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiShortbow00": {
@@ -3446,6 +4966,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Caótico neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -3473,6 +5009,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Legal bueno",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBurstofIng": {
@@ -3512,6 +5064,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -3546,6 +5114,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Neutral bueno",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "lO6diOZO5FReftK6": {
@@ -3620,6 +5204,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "FBFgFP2iirQ8hRLd": {
@@ -3660,6 +5260,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
       "folder": "Summon Templates",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiDeathlyTou": {
@@ -3751,6 +5367,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -3771,6 +5403,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHooves0000": {
@@ -3794,6 +5442,22 @@
       "description": "<p><strong>Velocidad:</strong> 2 1/2 mph</p><p><strong>Tripulación:</strong> 60</p><p><strong>Pasajeros:</strong> 60</p><p><strong>Carga (toneladas):</strong> 200</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 500</p><p><strong>Umbral de daño:</strong> 20</p><p><strong>Coste:</strong> 25,000 PO</p>",
       "folder": "Vehicles",
       "biography": "<p><strong>Velocidad:</strong> 2 1/2 mph</p><p><strong>Tripulación:</strong> 60</p><p><strong>Pasajeros:</strong> 60</p><p><strong>Carga (toneladas):</strong> 200</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 500</p><p><strong>Umbral de daño:</strong> 20</p><p><strong>Coste:</strong> 25,000 PO</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -3802,6 +5466,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -3822,6 +5502,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiBite000000": {
@@ -3849,6 +5545,22 @@
       "description": "",
       "folder": "Creatures",
       "biography": "",
+      "details": {
+        "alignment": "Neutral malvado",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiSlam000000": {
@@ -3880,6 +5592,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
       "folder": "Otherworldly Steeds",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHealingTou": {
@@ -3918,6 +5646,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
       "folder": "Otherworldly Steeds",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFeyStepFey": {
@@ -3956,6 +5700,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
       "folder": "Otherworldly Steeds",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFellGlareF": {
@@ -3998,6 +5758,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000]{Bárbaro}</td><td>Batalla</td><td>Fuerza</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSailor00000]{Marinero}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspGoliath0000]{Goliat}</td><td>Gigante, Trasgo</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbBarbarian0]{Bárbaro}</td><td>15</td><td>13</td><td>14</td><td>10</td><td>12</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Caótico</td><td>Rebelde</td></tr><tr><td>Malvado</td><td>Vengativo</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000]{Bárbaro}</td><td>Batalla</td><td>Fuerza</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSailor00000]{Marinero}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspGoliath0000]{Goliat}</td><td>Gigante, Trasgo</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbBarbarian0]{Bárbaro}</td><td>15</td><td>13</td><td>14</td><td>10</td><td>12</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Caótico</td><td>Rebelde</td></tr><tr><td>Malvado</td><td>Vengativo</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Caótico malvado",
+        "eyes": "",
+        "height": "7,5 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Rebelde, Vengativo",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "2velwU23v3eiqKDt": {
@@ -4426,6 +6202,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000]{Bardo}</td><td>Actuación</td><td>Carisma</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgEntertainer]{Artista}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspChthonicTie]{Tiflin, ctónico}</td><td>Mediano, Gigante</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBard000000]{Bardo}</td><td>8</td><td>14</td><td>12</td><td>13</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Egoísta</td></tr><tr><td>Malvado</td><td>Codicioso</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000]{Bardo}</td><td>Actuación</td><td>Carisma</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgEntertainer]{Artista}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspChthonicTie]{Tiflin, ctónico}</td><td>Mediano, Gigante</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBard000000]{Bardo}</td><td>8</td><td>14</td><td>12</td><td>13</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Egoísta</td></tr><tr><td>Malvado</td><td>Codicioso</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Neutral malvado",
+        "eyes": "",
+        "height": "5 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Egoísta, Avaro",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "0n19q2PG7kSIagTf": {
@@ -4907,6 +6699,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>Dioses</td><td>Sabiduría</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuard000000]{Guardia}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Enano}</td><td>Lengua de signos común, Enano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Leal</td></tr><tr><td>Bueno</td><td>Servicial</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>Dioses</td><td>Sabiduría</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuard000000]{Guardia}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Enano}</td><td>Lengua de signos común, Enano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Leal</td></tr><tr><td>Bueno</td><td>Servicial</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Legal bueno",
+        "eyes": "",
+        "height": "4,5 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Leal, Servicial",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "2V4SlxT0gOLoZr6R": {
@@ -5439,6 +7247,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbDruid00000000]{Druida}</td><td>Naturaleza</td><td>Sabiduría</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgFarmer00000]{Granjero}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHuman000000]{Humano}</td><td>Élfico, Mediano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdDruid00000]{Druida}</td><td>8</td><td>12</td><td>14</td><td>13</td><td>15</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Indiferente</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbDruid00000000]{Druida}</td><td>Naturaleza</td><td>Sabiduría</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgFarmer00000]{Granjero}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHuman000000]{Humano}</td><td>Élfico, Mediano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdDruid00000]{Druida}</td><td>8</td><td>12</td><td>14</td><td>13</td><td>15</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Indiferente</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Neutral bueno",
+        "eyes": "",
+        "height": "6 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Desinteresado, Honesto",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "19tlhsqHQTv8CRZg": {
@@ -5941,6 +7765,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000]{Guerrero}</td><td>Armas</td><td>Fuerza o Destreza</td><td>Baja</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000]{Soldado}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Enano}</td><td>Orco, Enano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrFighter000]{Guerrero}</td><td>15</td><td>14</td><td>13</td><td>8</td><td>10</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Pragmático</td></tr><tr><td>Bueno</td><td>Bondadoso</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000]{Guerrero}</td><td>Armas</td><td>Fuerza o Destreza</td><td>Baja</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000]{Soldado}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Enano}</td><td>Orco, Enano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrFighter000]{Guerrero}</td><td>15</td><td>14</td><td>13</td><td>8</td><td>10</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Pragmático</td></tr><tr><td>Bueno</td><td>Bondadoso</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Neutral bueno",
+        "eyes": "",
+        "height": "4 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Pragmático, Amable",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "2hYoSp1UbJJzFmxS": {
@@ -6385,6 +8225,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMonk000000000]{Monje}</td><td>Combate desarmado</td><td>Destreza y Sabiduría</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuide000000]{Guía}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDragonborn0]{Sangredragón}</td><td>Enano, Dracónico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMonk000000]{Monje}</td><td>12</td><td>15</td><td>13</td><td>10</td><td>14</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Metódico</td></tr><tr><td>Neutral</td><td>Lacónico</td></tr></tbody></table><p></p>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMonk000000000]{Monje}</td><td>Combate desarmado</td><td>Destreza y Sabiduría</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuide000000]{Guía}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDragonborn0]{Sangredragón}</td><td>Enano, Dracónico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMonk000000]{Monje}</td><td>12</td><td>15</td><td>13</td><td>10</td><td>14</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Metódico</td></tr><tr><td>Neutral</td><td>Lacónico</td></tr></tbody></table><p></p>",
+      "details": {
+        "alignment": "Legal neutral",
+        "eyes": "",
+        "height": "6,2 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Metódico, Lacónico",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "0B3F7Gxulf0CCbvX": {
@@ -6833,6 +8689,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000]{Paladín}</td><td>Defensa</td><td>Fuerza y Carisma</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspOrc00000000]{Orco}</td><td>Enano, Orco</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPaladin000]{Paladín}</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Sentencioso</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000]{Paladín}</td><td>Defensa</td><td>Fuerza y Carisma</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspOrc00000000]{Orco}</td><td>Enano, Orco</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPaladin000]{Paladín}</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Sentencioso</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Legal bueno",
+        "eyes": "",
+        "height": "6,8 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Crítico, Honesto",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "0ixRJQsN1lKCrUYa": {
@@ -7196,6 +9068,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000]{Explorador}</td><td>Supervivencia</td><td>Destreza y Sabiduría</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgWayfarer000]{Viajero}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspWoodElf0000]{Elfo, de los bosques}</td><td>Gnómico, Élfico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Guardabosques}</td><td>12</td><td>15</td><td>13</td><td>8</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Caótico</td><td>Egocéntrico</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000]{Explorador}</td><td>Supervivencia</td><td>Destreza y Sabiduría</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgWayfarer000]{Viajero}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspWoodElf0000]{Elfo, de los bosques}</td><td>Gnómico, Élfico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Guardabosques}</td><td>12</td><td>15</td><td>13</td><td>8</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Caótico</td><td>Egocéntrico</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Caótico bueno",
+        "eyes": "",
+        "height": "5,2 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Egocéntrico, Honesto",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "0chhgaw86ZbdJCfh": {
@@ -7716,6 +9604,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000]{Pícaro}</td><td>Sigilo</td><td>Destreza</td><td>Baja</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminal}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHalfling000]{Mediano}</td><td>Lengua de signos común, mediano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Pícaro}</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Leal</td></tr><tr><td>Malvado</td><td>Deshonesto</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000]{Pícaro}</td><td>Sigilo</td><td>Destreza</td><td>Baja</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminal}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHalfling000]{Mediano}</td><td>Lengua de signos común, mediano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Pícaro}</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Leal</td></tr><tr><td>Malvado</td><td>Deshonesto</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Legal malvado",
+        "eyes": "",
+        "height": "2,5 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Leal, Deshonesto",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "2TvREfiIiuaOZ1ud": {
@@ -8154,6 +10058,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000]{Hechicero}</td><td>Poder</td><td>Carisma</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCharlatan00]{Taimador}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDrow0000000]{Elfo, drow}</td><td>Gigante, élfico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{Hechicero}</td><td>10</td><td>13</td><td>14</td><td>8</td><td>12</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Caótico</td><td>Impulsivo</td></tr><tr><td>Neutral</td><td>Lacónico</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000]{Hechicero}</td><td>Poder</td><td>Carisma</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCharlatan00]{Taimador}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDrow0000000]{Elfo, drow}</td><td>Gigante, élfico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{Hechicero}</td><td>10</td><td>13</td><td>14</td><td>8</td><td>12</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Caótico</td><td>Impulsivo</td></tr><tr><td>Neutral</td><td>Lacónico</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Caótico neutral",
+        "eyes": "",
+        "height": "6 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Impulsivo, Lacónico",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "53JAahd2s1Cgm5Bm": {
@@ -8591,6 +10511,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000]{Brujo}</td><td>Saber oculto</td><td>Carisma</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgAcolyte0000]{Acólito}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspRockGnome00]{Gnomo, de roca}</td><td>Enano, gnómico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{Brujo}</td><td>8</td><td>14</td><td>13</td><td>12</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Lacónico y desinteresado</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000]{Brujo}</td><td>Saber oculto</td><td>Carisma</td><td>Alta</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgAcolyte0000]{Acólito}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspRockGnome00]{Gnomo, de roca}</td><td>Enano, gnómico</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{Brujo}</td><td>8</td><td>14</td><td>13</td><td>12</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Neutral</td><td>Lacónico y desinteresado</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "3,5 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Lacónico, Desinteresado",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "2RDALbFPRpJ9lLQ8": {
@@ -9170,6 +11106,22 @@
       "description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Mago}</td><td>Libros de conjuros</td><td>Inteligencia</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Escriba}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspAasimar0000]{Aasimar}</td><td>Dragónico, lengua de signos común</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Mago}</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Metódico</td></tr><tr><td>Neutral</td><td>Egoísta</td></tr></tbody></table>",
       "folder": "Example Characters",
       "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Mago}</td><td>Libros de conjuros</td><td>Inteligencia</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Escriba}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspAasimar0000]{Aasimar}</td><td>Dragónico, lengua de signos común</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Mago}</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Metódico</td></tr><tr><td>Neutral</td><td>Egoísta</td></tr></tbody></table>",
+      "details": {
+        "alignment": "Legal neutral",
+        "eyes": "",
+        "height": "5 pies",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "Metódico, Egoísta",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "1h7eZLfYX5tq4wZX": {
@@ -9624,6 +11576,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
       "folder": "Animated Objects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiSlam000000": {
@@ -9644,6 +11612,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbcftPackDamage": {
@@ -9665,6 +11649,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0 caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0 caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {
         "dnd5einvisible00": {
           "name": "Invisible",
@@ -9691,6 +11691,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplBigbysHand caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplBigbysHand caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiClenchedFi": {
@@ -9756,6 +11772,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
       "folder": "Conjured Elementals",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "1sm4KQqflaDX7MEu": {
@@ -9786,6 +11818,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureFey caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureFey caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAttackAtta": {
@@ -9815,6 +11863,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFlamingSph caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFlamingSph caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFlamingSph": {
@@ -9847,6 +11911,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplTensersFlo caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplTensersFlo caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "KTWQy1Nv101ubAeN": {
@@ -9863,6 +11943,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGraspingVi caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGraspingVi caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiLevel4Conj": {
@@ -9883,6 +11979,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiLevel4Conj": {
@@ -9906,6 +12018,22 @@
       "description": "",
       "folder": "Conjurations",
       "biography": "",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -9914,6 +12042,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00 caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00 caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -9922,6 +12066,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -9930,6 +12090,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbswdMordenkain caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbswdMordenkain caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbftMordenkaine": {
@@ -9950,6 +12126,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplLeomundsSe caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplLeomundsSe caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -9958,6 +12150,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiAttackSpir": {
@@ -9978,6 +12186,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     },
@@ -9986,6 +12210,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplUnseenServ caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplUnseenServ caption=false]</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {
         "dnd5einvisible00": {
           "name": "Invisible",
@@ -9999,6 +12239,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte caption=false]</p>",
       "folder": "Conjurations",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiHooves0000": {
@@ -10019,6 +12275,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
       "folder": "Animated Objects",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "details": {
+        "alignment": "Sin alineamiento",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiSlam000000": {
@@ -10039,6 +12311,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
       "folder": "Undead Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiDeathlyTou": {
@@ -10082,6 +12370,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
       "folder": "Undead Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiFesteringA": {
@@ -10135,6 +12439,22 @@
       "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
       "folder": "Undead Spirits",
       "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "details": {
+        "alignment": "Neutral",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {
         "phbaoiGraveBoltS": {
@@ -10166,6 +12486,22 @@
       "description": "<p><strong>Velocidad:</strong> 8 mph</p><p><strong>Tripulación:</strong> 10</p><p><strong>Pasajeros:</strong> 20</p><p><strong>Carga (toneladas):</strong> 1</p><p><strong>CA:</strong> 13</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de daño:</strong> —</p><p><strong>Coste:</strong> 40,000 PO</p>",
       "folder": "Vehicles",
       "biography": "<p><strong>Velocidad:</strong> 8 mph</p><p><strong>Tripulación:</strong> 10</p><p><strong>Pasajeros:</strong> 20</p><p><strong>Carga (toneladas):</strong> 1</p><p><strong>CA:</strong> 13</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de daño:</strong> —</p><p><strong>Coste:</strong> 40,000 PO</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
       "effects": {},
       "items": {}
     }
