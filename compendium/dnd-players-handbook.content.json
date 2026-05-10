@@ -1,6 +1,7 @@
 {
   "label": "Manual del Jugador",
   "mapping": {
+    "title": "flags.dnd5e.title",
     "pages": {
       "path": "pages",
       "converter": "phb2024JournalPagesById"
@@ -91,6 +92,7 @@
     },
     "phbAppendixATheM": {
       "name": "Apéndice A: El multiverso",
+      "title": "Apéndice A: El multiverso",
       "folder": "Appendices",
       "pages": {
         "a2sV7VHUWTNW5wgO": {
@@ -122,6 +124,7 @@
     },
     "phbAppendixBCrea": {
       "name": "Apéndice B: Bloques de estadísticas de criaturas",
+      "title": "Apéndice B: Bloques de estadísticas de criaturas",
       "folder": "Appendices",
       "pages": {
         "23iinS1LHrYAzHL3": {
@@ -158,6 +161,7 @@
     },
     "phbAppendixCRule": {
       "name": "Apéndice C: Glosario de reglas",
+      "title": "Apéndice C: Glosario de reglas",
       "folder": "Appendices",
       "pages": {
         "0a2umg2mJMAzM9Q3": {
@@ -2954,6 +2958,7 @@
     },
     "phbChangelog0000": {
       "name": "Registro de cambios del Manual del Jugador",
+      "title": "Registro de cambios",
       "folder": "",
       "pages": {
         "329Lnbzx1ji9Nil7": {
@@ -2995,6 +3000,7 @@
     },
     "phbCharacterClas": {
       "name": "Clases de personaje",
+      "title": "Cap. 3: Clases de personaje",
       "folder": "Chapter 3",
       "pages": {
         "jlSMyO89AI0ZtQjd": {
@@ -3006,13 +3012,14 @@
     },
     "phbCharacterOrig": {
       "name": "Orígenes de personaje",
+      "title": "Cap. 4: Orígenes de personaje",
       "folder": "Chapter 4",
       "pages": {
         "I4pMIU6bhnyHnTlm": {
           "name": "Visión general",
           "text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh4ArtHandout.JournalEntryPage.2tRHWrt4zwY6tqoD]</p><p>Este capítulo describe los dos componentes del origen de un aventurero: el trasfondo y la especie. Juntos, estos elementos sugieren las primeras experiencias de tu personaje y su origen familiar antes de llevar una vida de aventuras y aprender las capacidades de una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas.JournalEntryPage.jlSMyO89AI0ZtQjd]{clase}.</p><h2>Componentes del origen</h2><p>Cada parte del origen de tu personaje refleja facetas de tu personaje, su vida y las circunstancias que le pusieron en el camino de la aventura.</p><p>Si eliges un trasfondo o una especie de un libro anterior, consulta el recuadro @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh#backgrounds-and-species-from-older-books]{Trasfondos y especies de libros anteriores} en el capítulo 2 para saber cómo usarlos con las opciones de este libro.</p>",
           "type": "text",
-          "flagsTitle": "Componentes del origen"
+          "title": "Componentes del origen"
         },
         "rT7WsIIPWp54Zvsg": {
           "name": "Trasfondos de personaje",
@@ -3183,6 +3190,7 @@
     },
     "phbCreatingAChar": {
       "name": "Crear un personaje",
+      "title": "Cap. 2: Crear un personaje",
       "folder": "Chapter 2",
       "pages": {
         "2nJWForKrOIXzELQ": {
@@ -3419,6 +3427,7 @@
     },
     "phbEquipment0000": {
       "name": "Equipo",
+      "title": "Cap. 6: Equipo",
       "folder": "Chapter 6",
       "pages": {
         "4qZb5TSboG6GmLTv": {
@@ -3551,6 +3560,7 @@
     },
     "phbFeats00000000": {
       "name": "Dotes",
+      "title": "Cap. 5: Dotes",
       "folder": "Chapter 5",
       "pages": {
         "GxfrwkJbrIvn7reC": {
@@ -3780,6 +3790,7 @@
     },
     "phbPlayingTheGam": {
       "name": "Jugar a D&D",
+      "title": "Cap. 1: Jugar a D&D",
       "folder": "Chapter 1",
       "pages": {
         "0a5PV83ad5JizhIz": {
@@ -4085,6 +4096,7 @@
     },
     "phbSpells0000000": {
       "name": "Conjuros",
+      "title": "Cap. 7: Conjuros",
       "folder": "",
       "pages": {
         "5HnIk6HsrSxkvkz5": {

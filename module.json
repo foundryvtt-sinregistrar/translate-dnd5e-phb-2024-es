@@ -2,7 +2,7 @@
   "id": "translate-dnd5e-phb-2024-es",
   "title": "Translation: Spanish [D&D5e] PHB 2024 Spanish",
   "description": "Translation into Spanish of the 2024 player manual [PHB2004] using Babele.",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351"

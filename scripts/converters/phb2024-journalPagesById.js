@@ -1,6 +1,26 @@
 export function phb2024JournalPagesById(source, translation) {
     if (!source || !translation) return source;
 
+    const setProperty = globalThis.foundry?.utils?.setProperty
+        ?? function setPropertyFallback(obj, path, value) {
+            const parts = path.split(".");
+            let current = obj;
+
+            for (let i = 0; i < parts.length - 1; i++) {
+                const key = parts[i];
+                current[key] = current[key] ?? {};
+                current = current[key];
+            }
+
+            current[parts.at(-1)] = value;
+            return true;
+        };
+
+    const getProperty = globalThis.foundry?.utils?.getProperty
+        ?? function getPropertyFallback(obj, path) {
+            return path.split(".").reduce((current, key) => current?.[key], obj);
+        };
+
     // Normaliza colección de páginas
     const pages = (() => {
         if (Array.isArray(source)) return source;
@@ -19,8 +39,21 @@ export function phb2024JournalPagesById(source, translation) {
         const tPage = tPages[pageId];
         if (!tPage) continue;
 
-        // Nombre de página
-        if (typeof tPage.name === "string") page.name = tPage.name;
+        // Nombre visible de página
+        if (typeof tPage.name === "string") {
+            page.name = tPage.name;
+        }
+
+        // Título interno usado por el índice especial del PHB:
+        // pages.<id>.flags.dnd5e.title
+        const pageTitle =
+            (typeof tPage.title === "string") ? tPage.title :
+                (typeof getProperty(tPage, "flags.dnd5e.title") === "string") ? getProperty(tPage, "flags.dnd5e.title") :
+                    undefined;
+
+        if (pageTitle !== undefined) {
+            setProperty(page, "flags.dnd5e.title", pageTitle);
+        }
 
         // TEXT: soporta string o text.content
         const textContent =
