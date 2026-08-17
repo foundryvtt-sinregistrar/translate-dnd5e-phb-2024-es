@@ -26,7 +26,7 @@ jobs:
 
       - name: Build module zip (git archive)
         run: |
-          python dev-tools/buildScripts/build_release.py --dist dist --ref "${GITHUB_SHA}"
+          python dev-tools/buildScripts/build_release.py --dist dist --ref "${GITHUB_SHA}" --allow-dirty
           ls -lah dist
 
       - name: Verify expected asset exists
