@@ -134,4 +134,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,phpstorm+all,visualstudiocode
+# Commits info
+# git diff --staged > staged.txt
+staged.txt
