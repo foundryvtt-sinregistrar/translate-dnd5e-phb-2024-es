@@ -1,0 +1,275 @@
+{
+  "base": "dnd-players-handbook.spells-v001.json",
+  "changes": {
+    "reference_labels": 3,
+    "uuid_labels": 46,
+    "plain_replacements": 1,
+    "effect_names": 3
+  },
+  "entries_modified": 34,
+  "fields_modified": 36,
+  "top_unresolved_uuid_labels": [
+    [
+      "Restauración mayor",
+      4
+    ],
+    [
+      "Disipar magia",
+      3
+    ],
+    [
+      "Ráfaga de viento",
+      2
+    ],
+    [
+      "Círculo mágico",
+      2
+    ],
+    [
+      "Tiny",
+      1
+    ],
+    [
+      "Small",
+      1
+    ],
+    [
+      "Medium",
+      1
+    ],
+    [
+      "Large",
+      1
+    ],
+    [
+      "Huge",
+      1
+    ],
+    [
+      "Awakened Shrub",
+      1
+    ],
+    [
+      "Awakened Tree",
+      1
+    ],
+    [
+      "aire (Rayo)",
+      1
+    ],
+    [
+      "tierra (Trueno)",
+      1
+    ],
+    [
+      "fuego (Fuego)",
+      1
+    ],
+    [
+      "agua (Frío)",
+      1
+    ],
+    [
+      "Ghoul",
+      1
+    ],
+    [
+      "Ghasts",
+      1
+    ],
+    [
+      "Wights",
+      1
+    ],
+    [
+      "Mummies",
+      1
+    ],
+    [
+      "Ten berries",
+      1
+    ],
+    [
+      "Carne en piedra",
+      1
+    ],
+    [
+      "Protección contra el Bien y el Mal",
+      1
+    ],
+    [
+      "Quitar maldición",
+      1
+    ],
+    [
+      "Caballo de monta",
+      1
+    ],
+    [
+      "Oración curativa",
+      1
+    ],
+    [
+      "Campo antimagia",
+      1
+    ],
+    [
+      "Atravesar muro",
+      1
+    ],
+    [
+      "Luz del día",
+      1
+    ],
+    [
+      "Teleportation Outcome",
+      1
+    ]
+  ],
+  "sample_changed_fields": [
+    [
+      "phbPhantasmalFor",
+      "description"
+    ],
+    [
+      "phbPhantasmalFor",
+      "effects.QyPQcXhcl8sTDQ3d.description"
+    ],
+    [
+      "phbsplAnimateDea",
+      "description"
+    ],
+    [
+      "phbsplAntimagicF",
+      "description"
+    ],
+    [
+      "phbsplBefuddleme",
+      "description"
+    ],
+    [
+      "phbsplBefuddleme",
+      "effects.KjjRlnccDwmAY7gG.description"
+    ],
+    [
+      "phbsplContactOth",
+      "description"
+    ],
+    [
+      "phbsplDetectEvil",
+      "description"
+    ],
+    [
+      "phbsplDisintegra",
+      "description"
+    ],
+    [
+      "phbsplDivineWord",
+      "description"
+    ],
+    [
+      "phbsplEldritchBl",
+      "description"
+    ],
+    [
+      "phbsplFindSteed0",
+      "description"
+    ],
+    [
+      "phbsplFingerofDe",
+      "description"
+    ],
+    [
+      "phbsplFleshtoSto",
+      "description"
+    ],
+    [
+      "phbsplFogCloud00",
+      "description"
+    ],
+    [
+      "phbsplForbiddanc",
+      "description"
+    ],
+    [
+      "phbsplGeas000000",
+      "description"
+    ],
+    [
+      "phbsplGiantInsec",
+      "description"
+    ],
+    [
+      "phbsplGreaterInv",
+      "effects.NDpw6r63ZdEgks1a.name"
+    ],
+    [
+      "phbsplGuardsandW",
+      "description"
+    ],
+    [
+      "phbsplInvisibili",
+      "effects.9svfDetqjhsFP3ey.name"
+    ],
+    [
+      "phbsplMislead000",
+      "effects.3mTWrCYjgS8jIDRU.name"
+    ],
+    [
+      "phbsplShield0000",
+      "description"
+    ],
+    [
+      "phbsplStinkingCl",
+      "description"
+    ],
+    [
+      "phbsplSummonAber",
+      "description"
+    ],
+    [
+      "phbsplSummonBeas",
+      "description"
+    ],
+    [
+      "phbsplSummonCele",
+      "description"
+    ],
+    [
+      "phbsplSummonCons",
+      "description"
+    ],
+    [
+      "phbsplSummonDrag",
+      "description"
+    ],
+    [
+      "phbsplSummonElem",
+      "description"
+    ],
+    [
+      "phbsplSummonFey0",
+      "description"
+    ],
+    [
+      "phbsplSummonFien",
+      "description"
+    ],
+    [
+      "phbsplSummonUnde",
+      "description"
+    ],
+    [
+      "phbsplTashasBubb",
+      "description"
+    ],
+    [
+      "phbsplWallofForc",
+      "description"
+    ],
+    [
+      "phbsplWardingBon",
+      "description"
+    ]
+  ]
+}

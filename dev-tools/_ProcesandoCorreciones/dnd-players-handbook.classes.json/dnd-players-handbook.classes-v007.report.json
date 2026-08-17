@@ -1,0 +1,1276 @@
+{
+  "_meta": {
+    "source_base": "dnd-players-handbook.classes.json",
+    "source_reference_en": "dnd-players-handbook.classes-en.json",
+    "version": "v007",
+    "scope": [
+      "review of empty advancement titles",
+      "high-confidence completion of empty activity names"
+    ],
+    "strategy": {
+      "advancement_title_empty": "preserved when also empty in English source",
+      "activity_name_empty": "filled only when the entry had exactly one empty activity name"
+    }
+  },
+  "summary": {
+    "activity_names_filled": 85,
+    "activity_names_remaining_empty": 4,
+    "entries_with_remaining_empty_activity_names": [
+      "phbbrbRelentless",
+      "phbdrdLandsAid00"
+    ],
+    "advancement_titles_changed": 0,
+    "advancement_titles_remaining_empty": 76,
+    "advancement_titles_empty_also_in_english": 76
+  },
+  "remaining_activity_empty": [
+    {
+      "entry_key": "phbbrbRelentless",
+      "entry_name_es": "Furia implacable",
+      "entry_name_en": "Relentless Rage",
+      "activity_id": "dnd5eactivity100",
+      "activities_in_entry": 2,
+      "description_excerpt_es": "Tu Furia puede mantenerte luchando a pesar de heridas graves. Si tus Puntos de Golpe se reducen a 0 mientras tu Furia está activa y no mueres al instante, puedes hacer una tirada de salvación de constitución con CD 10. Si tienes éxito, tus Puntos de Golpe pasan a ser un número i"
+    },
+    {
+      "entry_key": "phbbrbRelentless",
+      "entry_name_es": "Furia implacable",
+      "entry_name_en": "Relentless Rage",
+      "activity_id": "Y2xWUsWmpklWLtVT",
+      "activities_in_entry": 2,
+      "description_excerpt_es": "Tu Furia puede mantenerte luchando a pesar de heridas graves. Si tus Puntos de Golpe se reducen a 0 mientras tu Furia está activa y no mueres al instante, puedes hacer una tirada de salvación de constitución con CD 10. Si tienes éxito, tus Puntos de Golpe pasan a ser un número i"
+    },
+    {
+      "entry_key": "phbdrdLandsAid00",
+      "entry_name_es": "Ayuda de la Tierra",
+      "entry_name_en": "Land's Aid",
+      "activity_id": "dnd5eactivity000",
+      "activities_in_entry": 2,
+      "description_excerpt_es": "Como Acción mágica, puedes gastar un uso de tu Forma salvaje y elegir un punto a 60 pies de ti. Flores llenas de vitalidad y espinas drenadoras de vida aparecen por un instante en una esfera de 10 pies de radio centrada en ese punto. Cada criatura de tu elección en la esfera deb"
+    },
+    {
+      "entry_key": "phbdrdLandsAid00",
+      "entry_name_es": "Ayuda de la Tierra",
+      "entry_name_en": "Land's Aid",
+      "activity_id": "LI4RB1gsoHK0bS5n",
+      "activities_in_entry": 2,
+      "description_excerpt_es": "Como Acción mágica, puedes gastar un uso de tu Forma salvaje y elegir un punto a 60 pies de ti. Flores llenas de vitalidad y espinas drenadoras de vida aparecen por un instante en una esfera de 10 pies de radio centrada en ese punto. Cada criatura de tu elección en la esfera deb"
+    }
+  ],
+  "remaining_advancement_title_empty": [
+    {
+      "entry_key": "phbbrbBarbarian0",
+      "entry_name_es": "Bárbaro",
+      "entry_name_en": "Barbarian",
+      "advancement_id": "5hgfh1Zcyct9PXLy",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrbBarbarian0",
+      "entry_name_es": "Bárbaro",
+      "entry_name_en": "Barbarian",
+      "advancement_id": "Ab9IuXTuVV9GY2s0",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrbBarbarian0",
+      "entry_name_es": "Bárbaro",
+      "entry_name_en": "Barbarian",
+      "advancement_id": "llft9LHzCcVGZr1R",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrbBarbarian0",
+      "entry_name_es": "Bárbaro",
+      "entry_name_en": "Barbarian",
+      "advancement_id": "SI7lbuRXd2YfXXEi",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrbBarbarian0",
+      "entry_name_es": "Bárbaro",
+      "entry_name_en": "Barbarian",
+      "advancement_id": "WB74p7CaIJKZVoNK",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrbBarbarian0",
+      "entry_name_es": "Bárbaro",
+      "entry_name_en": "Barbarian",
+      "advancement_id": "Xl4k2CTxTMhAZbGt",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrbBarbarian0",
+      "entry_name_es": "Bárbaro",
+      "entry_name_en": "Barbarian",
+      "advancement_id": "YzgEeP9pAA0c3bbn",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrbPrimalCham",
+      "entry_name_es": "Campeón primigenio",
+      "entry_name_en": "Primal Champion",
+      "advancement_id": "Yj4v0ul6dJiogWZy",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrdBard000000",
+      "entry_name_es": "Bardo",
+      "entry_name_en": "Bard",
+      "advancement_id": "7R1ktICniomiGkiZ",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrdBard000000",
+      "entry_name_es": "Bardo",
+      "entry_name_en": "Bard",
+      "advancement_id": "B8ZYPClljGmIdxjl",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrdBard000000",
+      "entry_name_es": "Bardo",
+      "entry_name_en": "Bard",
+      "advancement_id": "e8hDmktYGVFiT6M0",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrdBard000000",
+      "entry_name_es": "Bardo",
+      "entry_name_en": "Bard",
+      "advancement_id": "pqZADBERYfrNsOMx",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrdBard000000",
+      "entry_name_es": "Bardo",
+      "entry_name_en": "Bard",
+      "advancement_id": "qs1yWeyecJMaX17E",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrdBard000000",
+      "entry_name_es": "Bardo",
+      "entry_name_en": "Bard",
+      "advancement_id": "U0u27jvpuWGcbhV5",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbbrdBard000000",
+      "entry_name_es": "Bardo",
+      "entry_name_en": "Bard",
+      "advancement_id": "ZxvWh6VVEyxNXBkx",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "NCN5ZAV8TtveRR4d",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "xtHP27K3z3naIFTi",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbdrdDruid00000",
+      "entry_name_es": "Druida",
+      "entry_name_en": "Druid",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbdrdDruid00000",
+      "entry_name_es": "Druida",
+      "entry_name_en": "Druid",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbdrdDruid00000",
+      "entry_name_es": "Druida",
+      "entry_name_en": "Druid",
+      "advancement_id": "jOMGuG8a0KfmaeJd",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbdrdDruid00000",
+      "entry_name_es": "Druida",
+      "entry_name_en": "Druid",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbdrdDruid00000",
+      "entry_name_es": "Druida",
+      "entry_name_en": "Druid",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbdrdDruid00000",
+      "entry_name_es": "Druida",
+      "entry_name_en": "Druid",
+      "advancement_id": "wp38UtjwG71SVceB",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "54UFgRZAnd1Qo9dp",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "a70EF7pL9l3Y48QL",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "mpkUwD60nPpNaKsg",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbftrFighter000",
+      "entry_name_es": "Guerrero",
+      "entry_name_en": "Fighter",
+      "advancement_id": "zvm19nuuM9qRHGrR",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbmnkBodyAndMin",
+      "entry_name_es": "Cuerpo y mente",
+      "entry_name_en": "Body and Mind",
+      "advancement_id": "Yj4v0ul6dJiogWZy",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbmnkMonk000000",
+      "entry_name_es": "Monje",
+      "entry_name_en": "Monk",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbmnkMonk000000",
+      "entry_name_es": "Monje",
+      "entry_name_en": "Monk",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbmnkMonk000000",
+      "entry_name_es": "Monje",
+      "entry_name_en": "Monk",
+      "advancement_id": "LfwDqrjK9TQZpwDU",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbmnkMonk000000",
+      "entry_name_es": "Monje",
+      "entry_name_en": "Monk",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbmnkMonk000000",
+      "entry_name_es": "Monje",
+      "entry_name_en": "Monk",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbmnkMonk000000",
+      "entry_name_es": "Monje",
+      "entry_name_en": "Monk",
+      "advancement_id": "OGo9kMbx7cFuGx00",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbpdnPaladin000",
+      "entry_name_es": "Paladín",
+      "entry_name_en": "Paladin",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbpdnPaladin000",
+      "entry_name_es": "Paladín",
+      "entry_name_en": "Paladin",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbpdnPaladin000",
+      "entry_name_es": "Paladín",
+      "entry_name_en": "Paladin",
+      "advancement_id": "H67dh2nWpE6JMoS2",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbpdnPaladin000",
+      "entry_name_es": "Paladín",
+      "entry_name_en": "Paladin",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbpdnPaladin000",
+      "entry_name_es": "Paladín",
+      "entry_name_en": "Paladin",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbpdnPaladin000",
+      "entry_name_es": "Paladín",
+      "entry_name_en": "Paladin",
+      "advancement_id": "tU89l5dpMkYJBBJ5",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgeRogue00000",
+      "entry_name_es": "Pícaro",
+      "entry_name_en": "Rogue",
+      "advancement_id": "6zkx7K1uPW2IQ5JA",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgeRogue00000",
+      "entry_name_es": "Pícaro",
+      "entry_name_en": "Rogue",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgeRogue00000",
+      "entry_name_es": "Pícaro",
+      "entry_name_en": "Rogue",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgeRogue00000",
+      "entry_name_es": "Pícaro",
+      "entry_name_en": "Rogue",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgeRogue00000",
+      "entry_name_es": "Pícaro",
+      "entry_name_en": "Rogue",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgeRogue00000",
+      "entry_name_es": "Pícaro",
+      "entry_name_en": "Rogue",
+      "advancement_id": "PbZFa8JfPdQcvr1Q",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgeRogue00000",
+      "entry_name_es": "Pícaro",
+      "entry_name_en": "Rogue",
+      "advancement_id": "YW6yxOO45ACMgnJT",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrGloomStalk",
+      "entry_name_es": "Acechador sombrío",
+      "entry_name_en": "Gloom Stalker",
+      "advancement_id": "RHaWAsE41kcgqP72",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrGloomStalk",
+      "entry_name_es": "Acechador sombrío",
+      "entry_name_en": "Gloom Stalker",
+      "advancement_id": "Z2BVzd4qs4kZGTOh",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrRanger0000",
+      "entry_name_es": "Guardabosques",
+      "entry_name_en": "Ranger",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrRanger0000",
+      "entry_name_es": "Guardabosques",
+      "entry_name_en": "Ranger",
+      "advancement_id": "eJTiCO9yVqCP1Ptd",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrRanger0000",
+      "entry_name_es": "Guardabosques",
+      "entry_name_en": "Ranger",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrRanger0000",
+      "entry_name_es": "Guardabosques",
+      "entry_name_en": "Ranger",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrRanger0000",
+      "entry_name_es": "Guardabosques",
+      "entry_name_en": "Ranger",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbrgrRanger0000",
+      "entry_name_es": "Guardabosques",
+      "entry_name_en": "Ranger",
+      "advancement_id": "tGf0hPcdu2TIQdgN",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbscrSorcerer00",
+      "entry_name_es": "Hechicero",
+      "entry_name_en": "Sorcerer",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbscrSorcerer00",
+      "entry_name_es": "Hechicero",
+      "entry_name_en": "Sorcerer",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbscrSorcerer00",
+      "entry_name_es": "Hechicero",
+      "entry_name_en": "Sorcerer",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbscrSorcerer00",
+      "entry_name_es": "Hechicero",
+      "entry_name_en": "Sorcerer",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbscrSorcerer00",
+      "entry_name_es": "Hechicero",
+      "entry_name_en": "Sorcerer",
+      "advancement_id": "q7N6Am8hFSq15JTl",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbscrSorcerer00",
+      "entry_name_es": "Hechicero",
+      "entry_name_en": "Sorcerer",
+      "advancement_id": "wu4INYdfnMUSeDqH",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbwlkWarlock000",
+      "entry_name_es": "Brujo",
+      "entry_name_en": "Warlock",
+      "advancement_id": "viu0ntZhrve35HNy",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbwzdWizard0000",
+      "entry_name_es": "Mago",
+      "entry_name_en": "Wizard",
+      "advancement_id": "a16u6wgnJQq8HMoq",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbwzdWizard0000",
+      "entry_name_es": "Mago",
+      "entry_name_en": "Wizard",
+      "advancement_id": "bwCLOdauuzoHofil",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbwzdWizard0000",
+      "entry_name_es": "Mago",
+      "entry_name_en": "Wizard",
+      "advancement_id": "FOf5CkGnSs0OlppY",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbwzdWizard0000",
+      "entry_name_es": "Mago",
+      "entry_name_en": "Wizard",
+      "advancement_id": "KTYjh1MKLvOtrZ3u",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbwzdWizard0000",
+      "entry_name_es": "Mago",
+      "entry_name_en": "Wizard",
+      "advancement_id": "mhZh3LfLMa15tXee",
+      "title_en": ""
+    },
+    {
+      "entry_key": "phbwzdWizard0000",
+      "entry_name_es": "Mago",
+      "entry_name_en": "Wizard",
+      "advancement_id": "mRSh9oUVjLU33e7p",
+      "title_en": ""
+    }
+  ],
+  "changed_activity_names": [
+    {
+      "entry_key": "phbbrbBranchesOf",
+      "entry_name": "Ramas del Árbol",
+      "activity_id": "jQ1yQ7jICDFobGVg",
+      "old_name": "",
+      "new_name": "Ramas del Árbol",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbbrbFrenzy0000",
+      "entry_name": "Frenesí",
+      "activity_id": "myPBq8xozti108Mc",
+      "old_name": "",
+      "new_name": "Frenesí",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbbrbIntimidati",
+      "entry_name": "Presencia intimidante",
+      "activity_id": "ZRHT8mOlea6T8XpP",
+      "old_name": "",
+      "new_name": "Presencia intimidante",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbbrbUnarmedStr",
+      "entry_name": "Ataque desarmado",
+      "activity_id": "rzJNP8887XkduayP",
+      "old_name": "",
+      "new_name": "Ataque desarmado",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbbrbWarriorOfT",
+      "entry_name": "Guerrero de los dioses",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Guerrero de los dioses",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbbrdBeguilingM",
+      "entry_name": "Magia embaucadora",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Magia embaucadora",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbbrdCountercha",
+      "entry_name": "Contracanción",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Contracanción",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbbrdLeadingEva",
+      "entry_name": "Evasión Inspiradora",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Evasión Inspiradora",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbbrdMantleOfIn",
+      "entry_name": "Manto de Inspiración",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Manto de Inspiración",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbbrdPeerlessSk",
+      "entry_name": "Habilidad Inigualable",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Habilidad Inigualable",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbbrdUnarmedStr",
+      "entry_name": "Golpe sin Armas",
+      "activity_id": "H9sA759bPJSda7L3",
+      "old_name": "",
+      "new_name": "Golpe sin Armas",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbclcBlessedHea",
+      "entry_name": "Sanador Bendecido",
+      "activity_id": "65RBpJDqkywCR90I",
+      "old_name": "",
+      "new_name": "Sanador Bendecido",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbclcDiscipleOf",
+      "entry_name": "Discípulo de la Vida",
+      "activity_id": "Dm91WPfNiRty1bXv",
+      "old_name": "",
+      "new_name": "Discípulo de la Vida",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbclcDivineInte",
+      "entry_name": "Intervención Divina",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Intervención Divina",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbclcGreaterDiv",
+      "entry_name": "Intervención Divina Superior",
+      "activity_id": "QF0ngRPf1dAyycw1",
+      "old_name": "",
+      "new_name": "Intervención Divina Superior",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbclcImprovedWa",
+      "entry_name": "Destello Protector Mejorado",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Destello Protector Mejorado",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbclcInvokeDupl",
+      "entry_name": "Invocar Duplicidad",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Invocar Duplicidad",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbClcPotentSpel",
+      "entry_name": "Golpes benditos: Conjuración potente",
+      "activity_id": "2ADklkzUUW3aAeOt",
+      "old_name": "",
+      "new_name": "Golpes benditos: Conjuración potente",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbclcPreserveLi",
+      "entry_name": "Preservar la Vida",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Preservar la Vida",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbclcRadianceOf",
+      "entry_name": "Resplandor del Alba",
+      "activity_id": "dnd5eactivity000",
+      "old_name": "",
+      "new_name": "Resplandor del Alba",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbdrdCircleForm",
+      "entry_name": "Formas del Círculo",
+      "activity_id": "PEEVPEasGs8fZ4aW",
+      "old_name": "",
+      "new_name": "Formas del Círculo",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbdrdLunarForm0",
+      "entry_name": "Forma Lunar",
+      "activity_id": "1MWIOnDOZdrrCRw5",
+      "old_name": "",
+      "new_name": "Forma Lunar",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbdrdStormborn0",
+      "entry_name": "Nacido de la tormenta",
+      "activity_id": "jOppnQcyBPpUizBN",
+      "old_name": "",
+      "new_name": "Nacido de la tormenta",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbdrdWildShape0",
+      "entry_name": "Forma salvaje",
+      "activity_id": "46YUClJmy4DjUyW7",
+      "old_name": "",
+      "new_name": "Forma salvaje",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbftrActionSurg",
+      "entry_name": "Oleada de acción",
+      "activity_id": "jtpVG47zPBUI0CZ5",
+      "old_name": "",
+      "new_name": "Oleada de acción",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbftrIndomitabl",
+      "entry_name": "Indomable",
+      "activity_id": "84EBzlT1nDmNqhqM",
+      "old_name": "",
+      "new_name": "Indomable",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbftrSecondWind",
+      "entry_name": "Segundo aliento",
+      "activity_id": "zumaUC11cpntqme1",
+      "old_name": "",
+      "new_name": "Segundo aliento",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvArmorofSha",
+      "entry_name": "Armadura de sombras",
+      "activity_id": "v3GceOoHJUQgfSWj",
+      "old_name": "",
+      "new_name": "Armadura de sombras",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvAscendantS",
+      "entry_name": "Paso ascendente",
+      "activity_id": "7EI0Gi1gXOeG3z6Z",
+      "old_name": "",
+      "new_name": "Paso ascendente",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvGiftoftheD",
+      "entry_name": "Don de las profundidades",
+      "activity_id": "vWwmQUAWJw04yAbF",
+      "old_name": "",
+      "new_name": "Don de las profundidades",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvLifedrinke",
+      "entry_name": "Bebedor de vida",
+      "activity_id": "LDIKT3JVs25qBVuL",
+      "old_name": "",
+      "new_name": "Bebedor de vida",
+      "activities_in_entry": 3
+    },
+    {
+      "entry_key": "phbinvMaskofMany",
+      "entry_name": "Máscara de los mil rostros",
+      "activity_id": "R0tyovCnSefEFyXw",
+      "old_name": "",
+      "new_name": "Máscara de los mil rostros",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvMasterofMy",
+      "entry_name": "Maestro de las innumerables formas",
+      "activity_id": "cQpBPylKjXRaeaM4",
+      "old_name": "",
+      "new_name": "Maestro de las innumerables formas",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvMistyVisio",
+      "entry_name": "Visiones brumosas",
+      "activity_id": "74fYEr3FNUwniqfY",
+      "old_name": "",
+      "new_name": "Visiones brumosas",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvOnewithSha",
+      "entry_name": "Uno con las sombras",
+      "activity_id": "uF0beZxnJDJ6LQp8",
+      "old_name": "",
+      "new_name": "Uno con las sombras",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvOtherworld",
+      "entry_name": "Salto de otro mundo",
+      "activity_id": "wH4IQveLxB62JsAi",
+      "old_name": "",
+      "new_name": "Salto de otro mundo",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvVisionsOfD",
+      "entry_name": "Visiones de reinos lejanos",
+      "activity_id": "bTLS2ccOyKbiT1sN",
+      "old_name": "",
+      "new_name": "Visiones de reinos lejanos",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbinvWhispersOf",
+      "entry_name": "Susurros de la tumba",
+      "activity_id": "IFWVSWZIMHxQuass",
+      "old_name": "",
+      "new_name": "Susurros de la tumba",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnkHandOfHarm",
+      "entry_name": "Mano de daño",
+      "activity_id": "3LBCmLni9BQUpgcv",
+      "old_name": "",
+      "new_name": "Mano de daño",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnkHandOfUlti",
+      "entry_name": "Mano de misericordia suprema",
+      "activity_id": "XtgmW9115BzcLiFr",
+      "old_name": "",
+      "new_name": "Mano de misericordia suprema",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnkStunningSt",
+      "entry_name": "Golpe aturdidor",
+      "activity_id": "Xto99a8Zt46VLwaR",
+      "old_name": "",
+      "new_name": "Golpe aturdidor",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnkSuperiorDe",
+      "entry_name": "Defensa superior",
+      "activity_id": "tED3Z5V5ZlCkyzWU",
+      "old_name": "",
+      "new_name": "Defensa superior",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnkUnarmedStr",
+      "entry_name": "Golpe sin armas",
+      "activity_id": "H9sA759bPJSda7L3",
+      "old_name": "",
+      "new_name": "Golpe sin armas",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbmnkWholenessO",
+      "entry_name": "Plenitud corporal",
+      "activity_id": "CoatPmjognJHbfZ6",
+      "old_name": "",
+      "new_name": "Plenitud corporal",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvAmbush0000",
+      "entry_name": "Emboscada",
+      "activity_id": "HiargkiZgN4q8kg6",
+      "old_name": "",
+      "new_name": "Emboscada",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvCommanding",
+      "entry_name": "Presencia imponente",
+      "activity_id": "WYWuaoPWf2Vy5olB",
+      "old_name": "",
+      "new_name": "Presencia imponente",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvDisarmingA",
+      "entry_name": "Ataque desarmador",
+      "activity_id": "5y3EDGj0EGN3xVzO",
+      "old_name": "",
+      "new_name": "Ataque desarmador",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvDistractin",
+      "entry_name": "Golpe distractor",
+      "activity_id": "DBgCFax1iS3mobyw",
+      "old_name": "",
+      "new_name": "Golpe distractor",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvFeintingAt",
+      "entry_name": "Ataque de finta",
+      "activity_id": "Utu8uaZOMepShbyw",
+      "old_name": "",
+      "new_name": "Ataque de finta",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvGoadingAtt",
+      "entry_name": "Ataque provocador",
+      "activity_id": "YZDchvLnuCD6xMkF",
+      "old_name": "",
+      "new_name": "Ataque provocador",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvLungingAtt",
+      "entry_name": "Ataque alargado",
+      "activity_id": "aoTn3UKohm5VAuIT",
+      "old_name": "",
+      "new_name": "Ataque alargado",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvMenacingAt",
+      "entry_name": "Ataque amenazante",
+      "activity_id": "b6LpZcPAmrfgo5hc",
+      "old_name": "",
+      "new_name": "Ataque amenazante",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvParry00000",
+      "entry_name": "Parada",
+      "activity_id": "F4UxiihGgkdv4orJ",
+      "old_name": "",
+      "new_name": "Parada",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvPrecisionA",
+      "entry_name": "Ataque preciso",
+      "activity_id": "WrckriM4bPU6NS38",
+      "old_name": "",
+      "new_name": "Ataque preciso",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvPushingAtt",
+      "entry_name": "Ataque de empuje",
+      "activity_id": "IFAKr2EogbOKzFSk",
+      "old_name": "",
+      "new_name": "Ataque de empuje",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvRally00000",
+      "entry_name": "Arenga",
+      "activity_id": "uyAnJsUHU2Aek9Lk",
+      "old_name": "",
+      "new_name": "Arenga",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvSweepingAt",
+      "entry_name": "Ataque barrido",
+      "activity_id": "P9XWzKIH1sEvsOtC",
+      "old_name": "",
+      "new_name": "Ataque barrido",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvTacticalAs",
+      "entry_name": "Evaluación táctica",
+      "activity_id": "qx70O22QGfH0MryE",
+      "old_name": "",
+      "new_name": "Evaluación táctica",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbmnvTripAttack",
+      "entry_name": "Ataque de derribo",
+      "activity_id": "EVY5IoXOorEfQbCr",
+      "old_name": "",
+      "new_name": "Ataque de derribo",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnAbjureFoes",
+      "entry_name": "Abjurar a los enemigos",
+      "activity_id": "coLSoQzZ6lGbXtIw",
+      "old_name": "",
+      "new_name": "Abjurar a los enemigos",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnInspiringS",
+      "entry_name": "Castigo inspirador",
+      "activity_id": "oBkPCmC2KsH2WUJp",
+      "old_name": "",
+      "new_name": "Castigo inspirador",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnLayOnHands",
+      "entry_name": "Imposición de manos",
+      "activity_id": "gXZh9aGHcywV9huC",
+      "old_name": "",
+      "new_name": "Imposición de manos",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbpdnNaturesWra",
+      "entry_name": "Ira de la naturaleza",
+      "activity_id": "SuusUi5JLqtcqLyj",
+      "old_name": "",
+      "new_name": "Ira de la naturaleza",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnPeerlessAt",
+      "entry_name": "Atleta sin igual",
+      "activity_id": "vqecWeEPmZkTGGNW",
+      "old_name": "",
+      "new_name": "Atleta sin igual",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnRestoringT",
+      "entry_name": "Toque restaurador",
+      "activity_id": "PgTPWedvQHDlQ7LQ",
+      "old_name": "",
+      "new_name": "Toque restaurador",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnSacredWeap",
+      "entry_name": "Arma sagrada",
+      "activity_id": "Ew70lNTD8dR3vREt",
+      "old_name": "",
+      "new_name": "Arma sagrada",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnUndyingSen",
+      "entry_name": "Centinela imperecedero",
+      "activity_id": "bRIROEIDYNYI8XFQ",
+      "old_name": "",
+      "new_name": "Centinela imperecedero",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbpdnVowOfEnmit",
+      "entry_name": "Voto de enemistad",
+      "activity_id": "vWvSOIxCzNFML1R5",
+      "old_name": "",
+      "new_name": "Voto de enemistad",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgeAssasinate",
+      "entry_name": "Asesinar",
+      "activity_id": "xF68xROGwfOkEY7f",
+      "old_name": "",
+      "new_name": "Asesinar",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgeBladesPsyc",
+      "entry_name": "Hoja psíquica",
+      "activity_id": "lj6GYZqj9iLkBQB5",
+      "old_name": "",
+      "new_name": "Hoja psíquica",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbrgeMageHandLe",
+      "entry_name": "Legerdemain de Mano de mago",
+      "activity_id": "pqFQ12KXNH89TDNX",
+      "old_name": "",
+      "new_name": "Legerdemain de Mano de mago",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgeSneakAttac",
+      "entry_name": "Ataque furtivo",
+      "activity_id": "a1T6nHaqmvbLpyJr",
+      "old_name": "",
+      "new_name": "Ataque furtivo",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgrBeguilingT",
+      "entry_name": "Giro seductor",
+      "activity_id": "rRxcZhODLP7a0kHX",
+      "old_name": "",
+      "new_name": "Giro seductor",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgrBestialFur",
+      "entry_name": "Furia bestial",
+      "activity_id": "gSi5hBWIsy2wJqUj",
+      "old_name": "",
+      "new_name": "Furia bestial",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgrDreadfulSt",
+      "entry_name": "Golpes pavorosos",
+      "activity_id": "KazABqojM9ox0enm",
+      "old_name": "",
+      "new_name": "Golpes pavorosos",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgrHuntersPre",
+      "entry_name": "Presa del cazador",
+      "activity_id": "Ek6m8ZY5Df7Mp6DO",
+      "old_name": "",
+      "new_name": "Presa del cazador",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbrgrSuperiorHu",
+      "entry_name": "Presa Superior del Cazador",
+      "activity_id": "yqOAxbsX16RkOx06",
+      "old_name": "",
+      "new_name": "Presa Superior del Cazador",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbwlkBookOfShad",
+      "entry_name": "Libro de las Sombras",
+      "activity_id": "EJ5pgHCVyUKpX00e",
+      "old_name": "",
+      "new_name": "Libro de las Sombras",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbwlkClairvoyan",
+      "entry_name": "Combatiente Clarividente",
+      "activity_id": "4BXutqp9H7khPzoS",
+      "old_name": "",
+      "new_name": "Combatiente Clarividente",
+      "activities_in_entry": 2
+    },
+    {
+      "entry_key": "phbwlkDarkOnesBl",
+      "entry_name": "Bendición del Oscuro",
+      "activity_id": "p3YSnjGDlLIbiLpC",
+      "old_name": "",
+      "new_name": "Bendición del Oscuro",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbwlkHealingLig",
+      "entry_name": "Luz Sanadora",
+      "activity_id": "hWlUAWSqoxOIm5VB",
+      "old_name": "",
+      "new_name": "Luz Sanadora",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbwlkRadiantSou",
+      "entry_name": "Alma Radiante",
+      "activity_id": "fB7nzrDeQKU5zZbb",
+      "old_name": "",
+      "new_name": "Alma Radiante",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbwlkSearingVen",
+      "entry_name": "Venganza Abrasadora",
+      "activity_id": "3dwQMFOGNl4ZLoWM",
+      "old_name": "",
+      "new_name": "Venganza Abrasadora",
+      "activities_in_entry": 1
+    },
+    {
+      "entry_key": "phbwlkStepsOfThe",
+      "entry_name": "Pasos de las Hadas",
+      "activity_id": "RH4iC8ek6mxLrJcr",
+      "old_name": "",
+      "new_name": "Pasos de las Hadas",
+      "activities_in_entry": 3
+    },
+    {
+      "entry_key": "phbwzdEmpoweredE",
+      "entry_name": "Evocación potenciada",
+      "activity_id": "24lZHflqzcwoBev5",
+      "old_name": "",
+      "new_name": "Evocación potenciada",
+      "activities_in_entry": 1
+    }
+  ]
+}

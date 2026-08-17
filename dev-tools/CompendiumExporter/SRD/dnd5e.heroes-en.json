@@ -1,0 +1,1185 @@
+{
+  "label": "Starter Heroes",
+  "folders": {},
+  "entries": {
+    "125qFnXvT9z0iOic": {
+      "name": "Perrin (Halfling Monk)",
+      "tokenName": "Perrin",
+      "items": {
+        "q4tr1vTU8RxtU1UZ": {
+          "name": "Priest"
+        },
+        "O3ZjSw0GtAOPScHI": {
+          "name": "Lightfoot Halfling"
+        },
+        "FtOM4QiOW5MwgcS3": {
+          "name": "Lucky"
+        },
+        "nmmihiqphHjoE8dl": {
+          "name": "Brave"
+        },
+        "cWrETHzCRs1Ueqd3": {
+          "name": "Halfling Nimbleness"
+        },
+        "AArhiOrSkaQUnCZS": {
+          "name": "Naturally Stealthy"
+        },
+        "8Grf7ga6JcZF0X6x": {
+          "name": "Monk"
+        },
+        "CwgoTDXWCD7PknIN": {
+          "name": "Unarmored Defense"
+        },
+        "pchnXqd5C79fVlxy": {
+          "name": "Martial Arts"
+        },
+        "YJ1P3PnFKHOdQpaP": {
+          "name": "Hammer"
+        },
+        "DDnxRCeYUhXstWU8": {
+          "name": "Tinderbox"
+        },
+        "5skKSSB4ShHbKoc8": {
+          "name": "Waterskin"
+        },
+        "dDuMscUuMI2bTdkj": {
+          "name": "Torch"
+        },
+        "nC6VcR5JAIbR4err": {
+          "name": "Stick of Incense"
+        },
+        "WeKJI3gPUAU52WAX": {
+          "name": "Dart"
+        },
+        "1F73YcUHbZMgePAD": {
+          "name": "Common Clothes"
+        },
+        "LQhGSEatJ3VK7oqW": {
+          "name": "Rations"
+        },
+        "1kqMwSwjfErSFNvl": {
+          "name": "Pouch"
+        },
+        "zF5L4xHnJBC7b2iM": {
+          "name": "Crowbar"
+        },
+        "g7U3OAXVcoI4lwzf": {
+          "name": "Unarmed Strike"
+        },
+        "WcROGD590imVj9qp": {
+          "name": "Backpack"
+        },
+        "8UQanAvHUIHZXp0O": {
+          "name": "Piton"
+        },
+        "irCoxLHje0eA6Qmu": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "GfKuJYLFfw00oW9R": {
+          "name": "Reliquary"
+        },
+        "NsNcJBUG5ajbk7sG": {
+          "name": "Vestments"
+        },
+        "XbF0CTipyqbMKHsB": {
+          "name": "Prayer Book"
+        },
+        "GYyovoNdU66nxOlX": {
+          "name": "Shortsword"
+        }
+      }
+    },
+    "2Pdtnswo8Nj2nafY": {
+      "name": "Randal (Human Fighter)",
+      "tokenName": "Randal",
+      "items": {
+        "r7UallZJjcIFsz8i": {
+          "name": "Grappler"
+        },
+        "iODPoFlvprdu59Ga": {
+          "name": "Watchman"
+        },
+        "VFOCTtbEvjeUHo6B": {
+          "name": "Variant Human"
+        },
+        "IMdfN9m0aSEgqbYt": {
+          "name": "Fighter"
+        },
+        "mcMzTtxd6fvcIl58": {
+          "name": "Fighting Style"
+        },
+        "7r63kurEAM3GdEec": {
+          "name": "Second Wind"
+        },
+        "WikxBVtWpucxRSue": {
+          "name": "Defense"
+        },
+        "gta26ORvqC323k3r": {
+          "name": "Longsword"
+        },
+        "7Wo9Qcdhwbyq9bsq": {
+          "name": "Hammer"
+        },
+        "ARtFVyx8fqe5XvpN": {
+          "name": "Tinderbox"
+        },
+        "4c3saZuHGHXb8Qlg": {
+          "name": "Waterskin"
+        },
+        "Di7LgeBsM42Mi6yF": {
+          "name": "Torch"
+        },
+        "1TqythtyZfsOOGeJ": {
+          "name": "Arrow"
+        },
+        "DHfjuHRMDDsyjBti": {
+          "name": "Longbow"
+        },
+        "B2OSARI9hcSzaai9": {
+          "name": "Quiver"
+        },
+        "ulOW5qzq7q2edJTP": {
+          "name": "Rations"
+        },
+        "T8BW5LfQIDdur78q": {
+          "name": "Pouch"
+        },
+        "UJASRXvyW3VTm5wn": {
+          "name": "Crowbar"
+        },
+        "4uWprZzCVMbHmA40": {
+          "name": "Bedroll"
+        },
+        "wYUZWMKa6FntpIvv": {
+          "name": "Backpack"
+        },
+        "fzsNQ3GG8bJ8iofD": {
+          "name": "Piton"
+        },
+        "UVMJHgIbTxTR0HcP": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "VTK7cdWAzOYl9fon": {
+          "name": "Mess Kit"
+        },
+        "hkjHLyA2QOgfJgM7": {
+          "name": "Horn"
+        },
+        "rEwBQ75m41HeBYOs": {
+          "name": "Handaxe"
+        },
+        "yz7DxhEVWUzdQKm7": {
+          "name": "Chain Mail"
+        },
+        "u69KONMFqydKuk1H": {
+          "name": "Shield"
+        }
+      }
+    },
+    "4Jsv5vYaJ1atUEDV": {
+      "name": "Zanna (Gnome Wizard)",
+      "tokenName": "Zanna",
+      "items": {
+        "5hEbhdZm1ozQ3B2g": {
+          "name": "Tinker"
+        },
+        "Nt4QsuSYvhIwSoO5": {
+          "name": "Scholar"
+        },
+        "hTIYCYd5l9PjPNUO": {
+          "name": "Rock Gnome"
+        },
+        "rOHL1eSwwfo4Q4Mw": {
+          "name": "Gnome Cunning"
+        },
+        "d3oMVcQqmvqU4rYT": {
+          "name": "Artificer's Lore"
+        },
+        "LIy4OAHvmzzZBX3q": {
+          "name": "Tinker"
+        },
+        "0oPFm6zn1i3inAem": {
+          "name": "Wizard"
+        },
+        "4WVhXsAxPHVYGEHa": {
+          "name": "Spellcasting"
+        },
+        "XdHNGZEzeUffTKQT": {
+          "name": "Arcane Recovery"
+        },
+        "5wyx7z5cxsMerha7": {
+          "name": "Tinderbox"
+        },
+        "8RwQgNOULLp5FUZU": {
+          "name": "Waterskin"
+        },
+        "OaqottSKB4DfyJml": {
+          "name": "Torch"
+        },
+        "oIIkARYLBjQO8fII": {
+          "name": "Small Knife"
+        },
+        "b9oUUlG520EAGH82": {
+          "name": "Ink Pen"
+        },
+        "KTAa3zMAxi1my7SH": {
+          "name": "Robes"
+        },
+        "MSIbKCEoCzmcy7B8": {
+          "name": "Rations"
+        },
+        "zGavZI1kWyEzNuaC": {
+          "name": "Pouch"
+        },
+        "JiiDBVOSGZB5pn3j": {
+          "name": "Parchment"
+        },
+        "IjqsGxn4Is2LEd0D": {
+          "name": "Book of Lore"
+        },
+        "1F9b0nul4MBBQG7t": {
+          "name": "Bedroll"
+        },
+        "aipbjBYnYxbXTdQt": {
+          "name": "Backpack"
+        },
+        "hoes4Yc1U7CYCo5H": {
+          "name": "Spellbook"
+        },
+        "rlCl6ZpmfzjiEUcB": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "UhRaZPqD1obqIOUn": {
+          "name": "Ink Bottle"
+        },
+        "Su67tuX92M4JMyrM": {
+          "name": "Mess Kit"
+        },
+        "6QwDbSy4DdJDWmSH": {
+          "name": "Component Pouch"
+        },
+        "WmTpVLcSdZVoDrWA": {
+          "name": "Quarterstaff"
+        },
+        "CY5DepK0fPEZlqob": {
+          "name": "Magic Missile"
+        },
+        "M654WxRzK4iKr8hP": {
+          "name": "Alarm"
+        },
+        "ADStL8U8T5R9akvp": {
+          "name": "Light"
+        },
+        "NV64CG1QBOT4YyF1": {
+          "name": "Mage Armor"
+        },
+        "LyJ8I0LdCSPCWa0d": {
+          "name": "Fire Bolt"
+        },
+        "PtJ6TyvPsRo0y1nq": {
+          "name": "Find Familiar"
+        },
+        "iXY1MRCzK0cZ14Kg": {
+          "name": "Sleep"
+        },
+        "lv88l3uAjrLKRZG0": {
+          "name": "Mage Hand"
+        },
+        "KswTUmrH37e6GsUI": {
+          "name": "Shield"
+        }
+      }
+    },
+    "Dh1AA6w104V17V6w": {
+      "name": "Krusk (Half-Orc Paladin)",
+      "tokenName": "Krusk",
+      "items": {
+        "mmNOUJeTSbhakKbO": {
+          "name": "Amulet (Holy Symbol)"
+        },
+        "h9ta6MMHygQtSvhd": {
+          "name": "Love Letter"
+        },
+        "gfQ9BWSZtm6WJyZr": {
+          "name": "Local Champion"
+        },
+        "k1DGfhs1ZfnWZQaL": {
+          "name": "Half-Orc"
+        },
+        "WBbDX9rHq98Tnimi": {
+          "name": "Relentless Endurance"
+        },
+        "B8MsTHgz7ooglEVG": {
+          "name": "Savage Attacks"
+        },
+        "00NeikN42J9spbqf": {
+          "name": "Paladin"
+        },
+        "r2wKhAitYHdCMCTd": {
+          "name": "Divine Sense"
+        },
+        "hXdhD97eIEu4TZqT": {
+          "name": "Lay on Hands"
+        },
+        "O8zxaD0RfSdc0hE9": {
+          "name": "Longsword"
+        },
+        "dLZZeF4GdmnVzMPU": {
+          "name": "Tinderbox"
+        },
+        "efhXrQbirl8VZyB4": {
+          "name": "Waterskin"
+        },
+        "c2kXiYCCI3GoUOei": {
+          "name": "Torch"
+        },
+        "JRf1p7SRfgidLypC": {
+          "name": "Rations"
+        },
+        "dxPcTaoaq9SXqphI": {
+          "name": "Bedroll"
+        },
+        "G9505KmrMSHBWf8g": {
+          "name": "Javelin"
+        },
+        "ywNBNpv1C7BCgkex": {
+          "name": "Backpack"
+        },
+        "d4CmvW8R3FAjbWKu": {
+          "name": "Smith's Tools"
+        },
+        "jPU066t1jdacJtqh": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "9GZ9g4sWxCBmDAOQ": {
+          "name": "Mess Kit"
+        },
+        "0uUSKFCkeEIm0CaD": {
+          "name": "Chain Mail"
+        },
+        "jTyfsfOKBhVQG2Tu": {
+          "name": "Shield"
+        }
+      }
+    },
+    "Jw8DeuPjt1qpusdB": {
+      "name": "Sefris (Half-Elf Warlock)",
+      "tokenName": "Sefris",
+      "items": {
+        "8uFLMKLwRO7Y5Xl2": {
+          "name": "Burglar"
+        },
+        "HXPw0uc6V7RW9aUv": {
+          "name": "Half-Elf"
+        },
+        "Tdogp6mS8Fnea1Th": {
+          "name": "Fey Ancestry"
+        },
+        "C9WQGiLT2XDJCjeS": {
+          "name": "Warlock"
+        },
+        "HNkO4u8EYXCrOWii": {
+          "name": "Otherworldly Patron"
+        },
+        "ASybES6cNcArfo9N": {
+          "name": "Pact Magic"
+        },
+        "NU6Z2f7Mf9GLXF9F": {
+          "name": "The Fiend"
+        },
+        "7VjDwCQSWcmnzmts": {
+          "name": "Dark One's Blessing"
+        },
+        "IubeTOfNLUmhBHG0": {
+          "name": "Expanded Spell List"
+        },
+        "8ACDuwIl3rEpmuRz": {
+          "name": "Dagger"
+        },
+        "DMZ8rrm0Fk6Vvohm": {
+          "name": "Tinderbox"
+        },
+        "1WoJ4E2N3rkDLOxr": {
+          "name": "Waterskin"
+        },
+        "2jWv0cmxuCMSjm5g": {
+          "name": "Torch"
+        },
+        "Bf1fINiUJsUhiBNY": {
+          "name": "Quiver"
+        },
+        "qXVA6nFXwNYnR314": {
+          "name": "Common Clothes"
+        },
+        "zRh2otWcN6pHluby": {
+          "name": "Rations"
+        },
+        "kHsxMCIusnAw7yQM": {
+          "name": "Pouch"
+        },
+        "J4mpLVwGFoHQPO23": {
+          "name": "Crowbar"
+        },
+        "0pno1FSlE0Y0PYGO": {
+          "name": "Bedroll"
+        },
+        "nhSqzlz64JQkWt0O": {
+          "name": "Backpack"
+        },
+        "xuXH5lpQihUTH89r": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "6L8kQtf84FtnSOLf": {
+          "name": "Crossbow Bolt"
+        },
+        "Jgwk8Xn9ImBYxv99": {
+          "name": "Mess Kit"
+        },
+        "qUmbsPoMgJJkeuvP": {
+          "name": "Leather Armor"
+        },
+        "bOhHMNROgdaYr9vI": {
+          "name": "Light Crossbow"
+        },
+        "izX26lwJr25QtPmF": {
+          "name": "Component Pouch"
+        },
+        "o0V5vtyO81ry34pK": {
+          "name": "Thieves' Tools"
+        },
+        "9u9XIMepTO55XIjU": {
+          "name": "Burning Hands"
+        },
+        "5Icng9OG78N6y6PT": {
+          "name": "Eldritch Blast"
+        },
+        "vIPAhNx55Fthm9R3": {
+          "name": "Command"
+        },
+        "j7GBS18d2Sa6Q8kJ": {
+          "name": "Chill Touch"
+        }
+      }
+    },
+    "ZGDys30OS76uYaIO": {
+      "name": "Aoth (Human Druid)",
+      "tokenName": "Aoth",
+      "items": {
+        "yZ0HzuMNz4aMWPYH": {
+          "name": "Druidic Focus: Cowbell"
+        },
+        "lMobFB5hSFEGtkrq": {
+          "name": "Recluse"
+        },
+        "FZiSrcZmUUelVbNW": {
+          "name": "Human"
+        },
+        "bapuOCz7eZNdZ4Et": {
+          "name": "Druid"
+        },
+        "vlHZEirUBkXrOs1W": {
+          "name": "Druidic"
+        },
+        "CICEvmF4z3OxHSU4": {
+          "name": "Spellcasting"
+        },
+        "ZritJCgD0JK3D9mt": {
+          "name": "Tinderbox"
+        },
+        "c1OKgyDQrJBUYua2": {
+          "name": "Waterskin"
+        },
+        "6fsrCWlnEEUEEFEI": {
+          "name": "Torch"
+        },
+        "hkfulS1mgoIib6Fp": {
+          "name": "Blanket"
+        },
+        "MbaS2ogYI1KbtKLw": {
+          "name": "Scroll Case"
+        },
+        "h2fbeacwQuIMSOau": {
+          "name": "Common Clothes"
+        },
+        "pmuHf0uXonVit1m0": {
+          "name": "Rations"
+        },
+        "ycsXmoameW0PxPxn": {
+          "name": "Bedroll"
+        },
+        "wTztNWeUlhlns1VR": {
+          "name": "Backpack"
+        },
+        "9jqgCD0tSdwm68DS": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "v6gFAs077yQiyRoA": {
+          "name": "Mess Kit"
+        },
+        "lv1NElGeb4AF3Fl8": {
+          "name": "Leather Armor"
+        },
+        "mzogRoFZkIMPl0Hc": {
+          "name": "Quarterstaff"
+        },
+        "5Y7HeEypCimIIzX3": {
+          "name": "Herbalism Kit"
+        },
+        "Y7Bv598vCGC7yOae": {
+          "name": "Club"
+        },
+        "yNUfDXefj7BXUGU7": {
+          "name": "Detect Poison and Disease"
+        },
+        "6EvDsPPXqWANhUSU": {
+          "name": "Longstrider"
+        },
+        "jOzDyWrlr6ThZXPZ": {
+          "name": "Fog Cloud"
+        },
+        "XQeADFDsyQNyHaf8": {
+          "name": "Purify Food and Drink"
+        },
+        "J1hVbuherz2tiGT6": {
+          "name": "Goodberry"
+        },
+        "jKqkRj3coiQM4R63": {
+          "name": "Druidcraft"
+        },
+        "0ScXCaYzzyhWZttx": {
+          "name": "Shillelagh"
+        },
+        "r62jsF9Z2GyeuG9v": {
+          "name": "Thunderwave"
+        },
+        "JYb389GcFpBYDUzE": {
+          "name": "Jump"
+        },
+        "Un2798EJAL0t2PRC": {
+          "name": "Create or Destroy Water"
+        },
+        "pF8dim6Hn9X9cSH3": {
+          "name": "Speak with Animals"
+        },
+        "uwHgS93Wg63hDJzV": {
+          "name": "Charm Person"
+        },
+        "C20uvzZFjawarxYJ": {
+          "name": "Entangle"
+        },
+        "ryb9VqVV6cg4RJ6b": {
+          "name": "Detect Magic"
+        },
+        "TigHbrTaikkuXdw2": {
+          "name": "Animal Friendship"
+        },
+        "UgL3DNv2bdncIr1j": {
+          "name": "Faerie Fire"
+        },
+        "UgMmOm1OP4CPaeGS": {
+          "name": "Healing Word"
+        },
+        "CpeS14876LLibniH": {
+          "name": "Cure Wounds"
+        }
+      }
+    },
+    "bzlxBO5km3zCQA8G": {
+      "name": "Riswynn (Dwarf Rogue)",
+      "tokenName": "Riswynn",
+      "items": {
+        "kLWeji1tfubIJvfT": {
+          "name": "Bureaucrat"
+        },
+        "NvLVKDjXT1tPk6r4": {
+          "name": "Hill Dwarf"
+        },
+        "0NoJXoWjNGa10THB": {
+          "name": "Dwarven Resilience"
+        },
+        "TaFYgu6nyZIXcUN3": {
+          "name": "Stonecunning"
+        },
+        "C6beIadMtmp9t0Ym": {
+          "name": "Rogue"
+        },
+        "HV4tjQ4I0YwofteT": {
+          "name": "Expertise"
+        },
+        "Hn3bI5L2gaHMLNb3": {
+          "name": "Sneak Attack"
+        },
+        "J43jsAaIZ54qFAuW": {
+          "name": "Thieves' Cant"
+        },
+        "KZ6pv2Oqgkgjr5rQ": {
+          "name": "Dagger"
+        },
+        "2NiyMqVLi252yjW7": {
+          "name": "Hammer"
+        },
+        "t6h7cvBg8HdaCSef": {
+          "name": "Tinderbox"
+        },
+        "w7eDAc3dWCR4irTc": {
+          "name": "Waterskin"
+        },
+        "DlmtRORaVFPORu7x": {
+          "name": "Torch"
+        },
+        "xQRryYoSEs6Hq6vT": {
+          "name": "Fine Clothes"
+        },
+        "yLUvPaR9SEEQMeJ2": {
+          "name": "Arrow"
+        },
+        "iS4larVdEIBbLbrF": {
+          "name": "Quiver"
+        },
+        "PlUYtw31ZP885rIC": {
+          "name": "Rations"
+        },
+        "5HHUTz3z7HEQfZIQ": {
+          "name": "Pouch"
+        },
+        "2XtdoKiFPhKvbFcl": {
+          "name": "Crowbar"
+        },
+        "OdXwywt9vQa11MPL": {
+          "name": "Bedroll"
+        },
+        "df7IpmSKg7P9gt9J": {
+          "name": "Shortbow"
+        },
+        "rF8gwzNSeMCBNCzG": {
+          "name": "Backpack"
+        },
+        "SpPkaGF64gbqUeyz": {
+          "name": "Piton"
+        },
+        "V4sidnhoWmGe9ZPi": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "HhZKGBhG6S7og4i0": {
+          "name": "Rapier"
+        },
+        "NQd6oHPeFT7ZYL85": {
+          "name": "Mess Kit"
+        },
+        "iVRhe5aw8sbEha14": {
+          "name": "Leather Armor"
+        },
+        "FLSNmB3LnQqys43M": {
+          "name": "Thieves' Tools"
+        }
+      }
+    },
+    "cYD0wRXLW4B17aoY": {
+      "name": "Quillathe (Elf Ranger)",
+      "tokenName": "Quillathe",
+      "items": {
+        "I5EK9j7jV6mrXt7K": {
+          "name": "Monster Hunter"
+        },
+        "Aw1q0cqOgyScbZkd": {
+          "name": "High Elf"
+        },
+        "ANwFFbqeIEm4eVPq": {
+          "name": "Fey Ancestry"
+        },
+        "474ipDv33anADoyN": {
+          "name": "Trance"
+        },
+        "Fqh00slzQuYGC27H": {
+          "name": "Ranger"
+        },
+        "rhBykvSHTUxMYa6r": {
+          "name": "Favored Enemy"
+        },
+        "4Eyrf9vW3g4Tf5Oy": {
+          "name": "Natural Explorer"
+        },
+        "bepau0IMDduTaWso": {
+          "name": "Tinderbox"
+        },
+        "7BxO9VNvgGsoNAlA": {
+          "name": "Waterskin"
+        },
+        "h3mmh0q0FGEFKRH1": {
+          "name": "Torch"
+        },
+        "G0JTk8XzOAcYnBFE": {
+          "name": "Arrow"
+        },
+        "BaAz7bLKRM72aW4P": {
+          "name": "Longbow"
+        },
+        "7b7QRDNqLu0FxDRq": {
+          "name": "Quiver"
+        },
+        "qHQn5UivU2pVgwSq": {
+          "name": "Rations"
+        },
+        "cDKfqLQwAOpq1fXJ": {
+          "name": "Bedroll"
+        },
+        "pOGT5yPpJf0CtRe2": {
+          "name": "Backpack"
+        },
+        "yV1Azp4RmVg38nuD": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "ptmMOlC1oMBw8dQ2": {
+          "name": "Mess Kit"
+        },
+        "MTdrfkxOSMj7uG7H": {
+          "name": "Leather Armor"
+        },
+        "hufvnJKAlyzJG6Do": {
+          "name": "Shortsword"
+        },
+        "A3OE0kR3uxAhNjTz": {
+          "name": "Prestidigitation"
+        }
+      }
+    },
+    "irWonyO6ZLh47sN7": {
+      "name": "Merric (Halfling Barbarian)",
+      "tokenName": "Merric",
+      "items": {
+        "XIVdS0HZI5lOG5bx": {
+          "name": "Vigilante"
+        },
+        "RGZjddjd3HbR39wD": {
+          "name": "Lightfoot Halfling"
+        },
+        "yKdzupRNhbtpQNyd": {
+          "name": "Lucky"
+        },
+        "pu50e2QGn8RAy1iw": {
+          "name": "Brave"
+        },
+        "Pu3BoEwS3aMhhKsA": {
+          "name": "Halfling Nimbleness"
+        },
+        "cKdkwiXbwp1VVT9a": {
+          "name": "Naturally Stealthy"
+        },
+        "8q7gahMalAbKTx4Y": {
+          "name": "Barbarian"
+        },
+        "AnS6HmWkKIBxPgMb": {
+          "name": "Rage"
+        },
+        "SfgUIeZgxtkm17Ls": {
+          "name": "Unarmored Defense (Barbarian)"
+        },
+        "kn942lwC0HOAr3sK": {
+          "name": "Tinderbox"
+        },
+        "RXzyzw1tx9VAbayv": {
+          "name": "Waterskin"
+        },
+        "glDE9NU9RrYAKuFp": {
+          "name": "Greataxe"
+        },
+        "YWdXAdfWM7lju1JW": {
+          "name": "Torch"
+        },
+        "WEXKAaQCPLQeQVW8": {
+          "name": "Rations"
+        },
+        "jK1BNCTqbLSV2xFc": {
+          "name": "Bedroll"
+        },
+        "VhXDOC3DfXopry1c": {
+          "name": "Javelin"
+        },
+        "1j8AQoiqnkA2FjZA": {
+          "name": "Backpack"
+        },
+        "LJHqe7VEIN8D1Rcu": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "I640Jkga30Wx25Gp": {
+          "name": "Mess Kit"
+        },
+        "jQGlvMSTD0lkqzYR": {
+          "name": "Handaxe"
+        }
+      }
+    },
+    "kfzBL0q1Y7LgGs2x": {
+      "name": "Akra (Dragonborn Cleric)",
+      "tokenName": "Akra",
+      "items": {
+        "Ra2Z1ujre76weR0i": {
+          "name": "Holy Symbol"
+        },
+        "UXJw0wVE7GCx6yzv": {
+          "name": "Priest"
+        },
+        "eRfgJRQJdRPFSbf5": {
+          "name": "Dragonborn"
+        },
+        "vWo0CO4uYJ8XRnRi": {
+          "name": "Breath Weapon - White"
+        },
+        "PZNSd7pd1tmTdLmw": {
+          "name": "Cleric"
+        },
+        "sYPnCIXmh7C72RMi": {
+          "name": "Spellcasting"
+        },
+        "tUGnDwsGjGCMrxKX": {
+          "name": "Divine Domain"
+        },
+        "AD9TpaN6zrfvZUwa": {
+          "name": "Life Domain"
+        },
+        "BVZ0RopCWd4K0oQy": {
+          "name": "Bonus Proficiency"
+        },
+        "a9hkL9uYDaDoEx3U": {
+          "name": "Disciple of Life"
+        },
+        "I4IpztlEmyuCZXPm": {
+          "name": "Tinderbox"
+        },
+        "VIRpMXIVAZvNtAkn": {
+          "name": "Waterskin"
+        },
+        "hnqo98S375ky0rb9": {
+          "name": "Torch"
+        },
+        "oK8XqVbKjsEdFv2H": {
+          "name": "Stick of Incense"
+        },
+        "yeiFeV1OIIzABau4": {
+          "name": "Quiver"
+        },
+        "PrQWPjULUVIaAgEC": {
+          "name": "Common Clothes"
+        },
+        "WZX5bXeFiAw2BEU9": {
+          "name": "Rations"
+        },
+        "7LkXyfHK37OCjMp2": {
+          "name": "Pouch"
+        },
+        "PQhZsZ0aknC54nku": {
+          "name": "Bedroll"
+        },
+        "nIi8xVV1Mq39IvY6": {
+          "name": "Backpack"
+        },
+        "nnVoqKcxlTu9bRfL": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "b4NGPmLUcMECcA3O": {
+          "name": "Crossbow Bolt"
+        },
+        "wFS05FaRyBFIbjmH": {
+          "name": "Mess Kit"
+        },
+        "WBL9RaW0MEEVU3fX": {
+          "name": "Scale Mail"
+        },
+        "hutWJTfurJjNbSpG": {
+          "name": "Light Crossbow"
+        },
+        "l3rWWzexDhcuyJO1": {
+          "name": "Vestments"
+        },
+        "5IL0OAFVk1aaLPBO": {
+          "name": "Prayer Book"
+        },
+        "tnoOhcw37wWUhWzd": {
+          "name": "Shield"
+        },
+        "El1gUMDZlAqGpbJ8": {
+          "name": "Detect Poison and Disease"
+        },
+        "pZMrJb3AXiRYO5E8": {
+          "name": "Guiding Bolt"
+        },
+        "7LUJHpWpCzfMZI3D": {
+          "name": "Bless"
+        },
+        "9FrgmKwWCYPhlZ5w": {
+          "name": "Bane"
+        },
+        "BgMUGYECwuw8Ku7Z": {
+          "name": "Purify Food and Drink"
+        },
+        "5yH69xkqge3u7to7": {
+          "name": "Thaumaturgy"
+        },
+        "iJsjPtYrp8DFlyFe": {
+          "name": "Detect Evil and Good"
+        },
+        "aEmz3laQj2ZZiKSb": {
+          "name": "Guidance"
+        },
+        "4eIHKWEqjM8bgjZy": {
+          "name": "Create or Destroy Water"
+        },
+        "IoHq7xEZpwhTKlDd": {
+          "name": "Command"
+        },
+        "a7IlF5H2ZPsB4VWm": {
+          "name": "Detect Magic"
+        },
+        "hQ1zxREvUlaNKQpz": {
+          "name": "Sanctuary"
+        },
+        "d56v9vczAXEgMhCY": {
+          "name": "Shield of Faith"
+        },
+        "oTVKQSbPDSaAvYXx": {
+          "name": "Inflict Wounds"
+        },
+        "P97npemu7j70IZAQ": {
+          "name": "Sacred Flame"
+        },
+        "HpjaVMLEU14tJG7y": {
+          "name": "Healing Word"
+        },
+        "LjT1wf4D38c9Ieuo": {
+          "name": "Cure Wounds"
+        },
+        "4u9a0tOYl5CJYyZI": {
+          "name": "Protection from Evil and Good"
+        },
+        "iLKpfoGF7rGpvNWD": {
+          "name": "Mace"
+        }
+      }
+    },
+    "xT2C2Itv2XambDYp": {
+      "name": "Morthos (Tiefling Sorcerer)",
+      "tokenName": "Morthos",
+      "items": {
+        "38phJIpUGf6pPv1e": {
+          "name": "Scholar"
+        },
+        "dXB7dmAyOHzDdKek": {
+          "name": "Tiefling"
+        },
+        "exSIz1TyfxviYAkK": {
+          "name": "Hellish Resistance"
+        },
+        "cY4aXe5XplmPTCQg": {
+          "name": "Infernal Legacy"
+        },
+        "xL28YI8mIoQ9z3xH": {
+          "name": "Sorcerer"
+        },
+        "e9lH7ahP8CU0uAg6": {
+          "name": "Spellcasting"
+        },
+        "Na1MedxNSLf4CJAK": {
+          "name": "Sorcerous Origins"
+        },
+        "PRK1qENNEqBc8bxo": {
+          "name": "Draconic Bloodline"
+        },
+        "tTTrzb514rmq0x1F": {
+          "name": "Dragon Ancestor"
+        },
+        "49Ny9GsyzqPwrI90": {
+          "name": "Draconic Resilience"
+        },
+        "6vCIgo9KoccgbwRI": {
+          "name": "Dagger"
+        },
+        "B3UCVVumF5HePaaL": {
+          "name": "Tinderbox"
+        },
+        "27wWLXm4kjSdXcEl": {
+          "name": "Waterskin"
+        },
+        "9BCH27gEXJGWhI7T": {
+          "name": "Torch"
+        },
+        "7dRoa2j3TRPaHBYJ": {
+          "name": "Small Knife"
+        },
+        "dCFMN3kfqGS9pP9S": {
+          "name": "Ink Pen"
+        },
+        "g5GPBIDOF10kKUJO": {
+          "name": "Robes"
+        },
+        "CPzLDHkcrOlGkl74": {
+          "name": "Rations"
+        },
+        "DTjYxoHTCHiPMyBN": {
+          "name": "Pouch"
+        },
+        "uMlpzwRx212yTpIc": {
+          "name": "Parchment"
+        },
+        "fJtxDpheKdb5lrLi": {
+          "name": "Book of Lore"
+        },
+        "SBaxchfR0Ziv2htL": {
+          "name": "Bedroll"
+        },
+        "P2nHHKUwLYBenRf0": {
+          "name": "Backpack"
+        },
+        "NueX3DdBm2HqT76c": {
+          "name": "Hempen Rope (50 ft.)"
+        },
+        "OUSbKJnaQq6LNF4C": {
+          "name": "Ink Bottle"
+        },
+        "HQzWS1lUPwKcxQtf": {
+          "name": "Mess Kit"
+        },
+        "HkXn8S5OTc1pY4aH": {
+          "name": "Component Pouch"
+        },
+        "x9m2Rw5mZbupgKPq": {
+          "name": "Quarterstaff"
+        },
+        "97D9k533t6YnAoRY": {
+          "name": "Orb"
+        },
+        "qHQNgvJmuP9l3iPA": {
+          "name": "Burning Hands"
+        },
+        "P2zQlFQMdFwgJ5Mk": {
+          "name": "Disguise Self"
+        },
+        "SpljfdxEMZbZfI43": {
+          "name": "Fire Bolt"
+        },
+        "RI84w7ABSrbsvYus": {
+          "name": "Thaumaturgy"
+        },
+        "dr1Uc7vpDN3hYzrm": {
+          "name": "Message"
+        },
+        "cGF1e2k1MrCAPui5": {
+          "name": "Mending"
+        },
+        "KkTW5WHbmwInMvyL": {
+          "name": "Minor Illusion"
+        }
+      }
+    },
+    "xVmbM44RXyI2Eqq3": {
+      "name": "Beiro (Half-Elf Bard)",
+      "tokenName": "Beiro",
+      "items": {
+        "iWdMYgNBkGiajzc4": {
+          "name": "Musical Instrument: Lute"
+        },
+        "2Ejl2ovEUJg7swzL": {
+          "name": "Musical Instrument: Flute"
+        },
+        "6JFzrzKtJyhU12xi": {
+          "name": "Musical Instrument: Drum"
+        },
+        "pEDdh0i2HBhReeuU": {
+          "name": "Love Letter"
+        },
+        "VgrH5nkz2SER0YhR": {
+          "name": "Musician"
+        },
+        "Mmfz1ndrE8zwXsWT": {
+          "name": "Half-Elf"
+        },
+        "9t0oaZailMjUceoS": {
+          "name": "Fey Ancestry"
+        },
+        "fDxJHhma7nbuVE9c": {
+          "name": "Bard"
+        },
+        "FdUaY1D9UanTIzoS": {
+          "name": "Spellcasting"
+        },
+        "sA9bxQRvP9wS18fr": {
+          "name": "Bardic Inspiration"
+        },
+        "EkIeRO2vYW13oJbW": {
+          "name": "Dagger"
+        },
+        "lIQ4rEAs0mF0Xddj": {
+          "name": "Paper"
+        },
+        "ydvLeKqfNoge1eJN": {
+          "name": "Chest"
+        },
+        "EVVslkIQ2WzhgGGM": {
+          "name": "Fine Clothes"
+        },
+        "cp4a1asuEGbtXsFx": {
+          "name": "Sealing Wax"
+        },
+        "n0tZKBjRvnCqwQJF": {
+          "name": "Map or Scroll Case"
+        },
+        "tSx0s9rSOlreV640": {
+          "name": "Ink Pen"
+        },
+        "0dHfAtAVAmyw6UJr": {
+          "name": "Rations"
+        },
+        "R8ixvfpaS4VGrVJ1": {
+          "name": "Pouch"
+        },
+        "EYwUTWTzLS4JESvu": {
+          "name": "Costume Clothes"
+        },
+        "5Yar6BpJpJYTFbKf": {
+          "name": "Backpack"
+        },
+        "CtVyWJa9mhJv7tgC": {
+          "name": "Disguise Kit"
+        },
+        "W26SJwfU9NQD8asV": {
+          "name": "Perfume"
+        },
+        "llAaO9rMzwPr6x9B": {
+          "name": "Soap"
+        },
+        "tgeQ5j3TT9WrZXXy": {
+          "name": "Rapier"
+        },
+        "jm5MASDmYMMtWwRg": {
+          "name": "Ink Bottle"
+        },
+        "w3pbzZVTyM9iKCk4": {
+          "name": "Leather Armor"
+        },
+        "8EFRSg1cA9GKB67H": {
+          "name": "Oil Flask"
+        },
+        "2WTERL3WlJUcj82I": {
+          "name": "Lamp"
+        },
+        "puJFC8aHL60P8S7A": {
+          "name": "Disguise Self"
+        },
+        "h7pWllesEmSKRSJ6": {
+          "name": "Hideous Laughter"
+        },
+        "CJGAifMCSi24SL5c": {
+          "name": "Light"
+        },
+        "8faguw7IxAd4ZdRb": {
+          "name": "Mage Hand"
+        },
+        "PCcIZTkaRF749Y4z": {
+          "name": "Charm Person"
+        },
+        "cUWYVymOvaTyeKFQ": {
+          "name": "Heroism"
+        }
+      }
+    }
+  }
+}

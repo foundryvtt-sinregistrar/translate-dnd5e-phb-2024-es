@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "title": "PHB mini correctiva automática de referencias v1",
+    "scope": [
+      "Corrección automática conservadora de referencias cruzadas rotas en dnd-players-handbook",
+      "Incluye una corrección externa inequívoca a dnd5e.content24",
+      "Deja fuera 3 referencias externas no deterministas"
+    ]
+  },
+  "outputs": {
+    "dnd-players-handbook.actors.json": "dnd-players-handbook.actors.es.mini-correctiva.refs.v1.json",
+    "dnd-players-handbook.feats.json": "dnd-players-handbook.feats.es.mini-correctiva.refs.v1.json",
+    "dnd-players-handbook.content.json": "dnd-players-handbook.content.es.mini-correctiva.refs.v1.json"
+  },
+  "applied": [
+    {
+      "source_file": "dnd-players-handbook.actors.json",
+      "output_file": "dnd-players-handbook.actors.es.mini-correctiva.refs.v1.json",
+      "replacements": [
+        {
+          "from": "Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000",
+          "to": "Compendium.dnd-players-handbook.classes.Item.phbclcCleric0000",
+          "replacements": 4
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagParchment00",
+          "replacements": 3
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife000",
+          "to": "Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0",
+          "replacements": 2
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb",
+          "to": "Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee",
+          "replacements": 2
+        }
+      ],
+      "total_replacements": 11
+    },
+    {
+      "source_file": "dnd-players-handbook.feats.json",
+      "output_file": "dnd-players-handbook.feats.es.mini-correctiva.refs.v1.json",
+      "replacements": [
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagAbrojos000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagAntorcha000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagBolsa000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagCampana0000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagCesta00000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagCubo00000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagCuerda0000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagEscalera00000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagJarra00000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagLámpara0000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagPala00000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagRed00000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagTienda de campaña0000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbagYesquero00",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbwepGarrote000000",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000",
+          "replacements": 1
+        },
+        {
+          "from": "Compendium.dnd-players-handbook.equipment.Item.phbwepGran garrote0",
+          "to": "Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0",
+          "replacements": 1
+        }
+      ],
+      "total_replacements": 16
+    },
+    {
+      "source_file": "dnd-players-handbook.content.json",
+      "output_file": "dnd-players-handbook.content.es.mini-correctiva.refs.v1.json",
+      "replacements": [
+        {
+          "from": "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.JxboWb0XHo2GwqD0",
+          "to": "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.qAFzmGZKhVvAEUF3",
+          "replacements": 1
+        }
+      ],
+      "total_replacements": 1
+    }
+  ],
+  "totals": {
+    "internal_fixed_occurrences": 27,
+    "internal_fixed_unique_refs": 20,
+    "external_fixed_occurrences": 1,
+    "external_fixed_unique_refs": 1,
+    "grand_total_replacements": 28
+  },
+  "unresolved_external_dnd5e_content24": [
+    {
+      "ref": "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ldmA1PbnEGVkmE11",
+      "source_page": "Darkvision",
+      "reason": "No existe ese pageId en dnd5e.content24 y el destino exacto no es determinista con el export disponible."
+    },
+    {
+      "ref": "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.r64UrNusMhwJVnxb",
+      "source_page": "Tremorsense",
+      "reason": "No existe ese pageId en dnd5e.content24 y el destino exacto no es determinista con el export disponible."
+    },
+    {
+      "ref": "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.sacjsfm9ZXnw4Tqc",
+      "source_page": "Blindsight",
+      "reason": "No existe ese pageId en dnd5e.content24 y el destino exacto no es determinista con el export disponible."
+    }
+  ],
+  "notes": [
+    "Actors y Feats quedan saneados respecto a las referencias internas rotas detectadas en la auditoría previa.",
+    "Content solo aplica la sustitución Attack -> Attack Rolls porque es la única externa con correspondencia inequívoca por nombre."
+  ]
+}

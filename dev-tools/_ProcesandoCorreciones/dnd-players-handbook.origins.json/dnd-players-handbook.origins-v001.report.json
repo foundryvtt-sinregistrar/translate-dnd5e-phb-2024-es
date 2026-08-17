@@ -1,0 +1,294 @@
+{
+  "_meta": {
+    "source_es": "dnd-players-handbook.origins.json",
+    "source_en": "dnd-players-handbook.origins-en.json",
+    "output": "dnd-players-handbook.origins-v001.json",
+    "phase": "v001",
+    "scope": [
+      "activities schema migration to phb2024ActivitiesById",
+      "activities.condition -> activities.activation.condition",
+      "activities.chatFlavor -> activities.description.chatFlavor",
+      "first-pass visible @UUID label cleanup in description"
+    ]
+  },
+  "summary": {
+    "entries_modified": 57,
+    "activities_processed": 28,
+    "activation_condition_added": 28,
+    "description_chatFlavor_added": 28,
+    "flat_condition_removed": 5,
+    "flat_chatFlavor_removed": 0,
+    "translated_conditions_from_en": 1,
+    "uuid_labels_replaced": 158
+  },
+  "changed_entries": [
+    "brwAcidBreathWea",
+    "brwColdBreathWea",
+    "brwFireBreathWea",
+    "brwLightningBrea",
+    "brwPoisonBreathW",
+    "phbbgAcolyte0000",
+    "phbbgArtisan0000",
+    "phbbgCharlatan00",
+    "phbbgCriminal000",
+    "phbbgEntertainer",
+    "phbbgFarmer00000",
+    "phbbgGuard000000",
+    "phbbgGuide000000",
+    "phbbgHermit00000",
+    "phbbgMerchant000",
+    "phbbgNoble000000",
+    "phbbgSage0000000",
+    "phbbgSailor00000",
+    "phbbgScribe00000",
+    "phbbgSoldier0000",
+    "phbbgWayfarer000",
+    "phbspAbyssalTief",
+    "phbspChthonicTie",
+    "phbspDrow0000000",
+    "phbspForestGnome",
+    "phbspHighElf0000",
+    "phbspInfernalTie",
+    "phbspRockGnome00",
+    "phbsptAbyssalLeg",
+    "phbsptAdrenaline",
+    "phbsptBreathWeap",
+    "phbsptCelestialR",
+    "phbsptChthonicLe",
+    "phbsptCloudsJaun",
+    "phbsptDraconicFl",
+    "phbsptDrowElfLin",
+    "phbsptElvenLinea",
+    "phbsptFiendishLe",
+    "phbsptFiresBurn0",
+    "phbsptForestGnom",
+    "phbsptFrostsChil",
+    "phbsptHealingHan",
+    "phbsptHighElfLin",
+    "phbsptHillsTumbl",
+    "phbsptInfernalLe",
+    "phbsptLargeForm0",
+    "phbsptLightBeare",
+    "phbsptOtherworld",
+    "phbsptRelentless",
+    "phbsptResourcefu",
+    "phbsptRockGnomeL",
+    "phbsptStonecunni",
+    "phbsptStonesEndu",
+    "phbsptStormsThun",
+    "phbsptVersatile0",
+    "phbsptWoodElfLin",
+    "phbspWoodElf0000"
+  ],
+  "samples": {
+    "translated_conditions_from_en": [
+      {
+        "entry": "phbsptStonesEndu",
+        "activity_id": "vrWhAQ6Bj4gznxHq",
+        "value": "Cuando recibas daño"
+      }
+    ],
+    "uuid_label_replacements_first_40": [
+      {
+        "entry": "phbbgAcolyte0000",
+        "from": "Magic Initiate",
+        "to": "Iniciado en la magia"
+      },
+      {
+        "entry": "phbbgAcolyte0000",
+        "from": "Calligrapher’s Supplies",
+        "to": "Útiles de caligrafía"
+      },
+      {
+        "entry": "phbbgAcolyte0000",
+        "from": "Book",
+        "to": "Libro"
+      },
+      {
+        "entry": "phbbgAcolyte0000",
+        "from": "Holy Symbol",
+        "to": "Símbolo sagrado"
+      },
+      {
+        "entry": "phbbgAcolyte0000",
+        "from": "Parchment",
+        "to": "Pergamino"
+      },
+      {
+        "entry": "phbbgAcolyte0000",
+        "from": "Robe",
+        "to": "Túnica"
+      },
+      {
+        "entry": "phbbgArtisan0000",
+        "from": "Crafter",
+        "to": "Artesano"
+      },
+      {
+        "entry": "phbbgArtisan0000",
+        "from": "Pouches",
+        "to": "Bolsas"
+      },
+      {
+        "entry": "phbbgArtisan0000",
+        "from": "Traveler's Clothes",
+        "to": "Ropa de viajero"
+      },
+      {
+        "entry": "phbbgCharlatan00",
+        "from": "Skilled",
+        "to": "Hábil"
+      },
+      {
+        "entry": "phbbgCharlatan00",
+        "from": "Forgery Kit",
+        "to": "Kit de falsificación"
+      },
+      {
+        "entry": "phbbgCharlatan00",
+        "from": "Costume",
+        "to": "Disfraz"
+      },
+      {
+        "entry": "phbbgCharlatan00",
+        "from": "Fine Clothes",
+        "to": "Ropas finas"
+      },
+      {
+        "entry": "phbbgCriminal000",
+        "from": "Alert",
+        "to": "Alerta"
+      },
+      {
+        "entry": "phbbgCriminal000",
+        "from": "Daggers",
+        "to": "Dagas"
+      },
+      {
+        "entry": "phbbgCriminal000",
+        "from": "Thieves’ Tools",
+        "to": "Herramientas de ladrón"
+      },
+      {
+        "entry": "phbbgCriminal000",
+        "from": "Crowbar",
+        "to": "Palanca"
+      },
+      {
+        "entry": "phbbgCriminal000",
+        "from": "Pouches",
+        "to": "Bolsas"
+      },
+      {
+        "entry": "phbbgCriminal000",
+        "from": "Traveler's Clothes",
+        "to": "Ropa de viajero"
+      },
+      {
+        "entry": "phbbgEntertainer",
+        "from": "Musician",
+        "to": "Músico"
+      },
+      {
+        "entry": "phbbgEntertainer",
+        "from": "Costumes",
+        "to": "Disfraces"
+      },
+      {
+        "entry": "phbbgEntertainer",
+        "from": "Mirror",
+        "to": "Espejo"
+      },
+      {
+        "entry": "phbbgEntertainer",
+        "from": "Traveler's Clothes",
+        "to": "Ropa de viajero"
+      },
+      {
+        "entry": "phbbgFarmer00000",
+        "from": "Tough",
+        "to": "Duro"
+      },
+      {
+        "entry": "phbbgFarmer00000",
+        "from": "Sickle",
+        "to": "Hoz"
+      },
+      {
+        "entry": "phbbgFarmer00000",
+        "from": "Carpenter’s Tools",
+        "to": "Herramientas de carpintero"
+      },
+      {
+        "entry": "phbbgFarmer00000",
+        "from": "Healer’s Kit",
+        "to": "Kit de curandero"
+      },
+      {
+        "entry": "phbbgFarmer00000",
+        "from": "Iron Pot",
+        "to": "Olla de hierro"
+      },
+      {
+        "entry": "phbbgFarmer00000",
+        "from": "Shovel",
+        "to": "Pala"
+      },
+      {
+        "entry": "phbbgFarmer00000",
+        "from": "Traveler's Clothes",
+        "to": "Ropa de viajero"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Alert",
+        "to": "Alerta"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Spear",
+        "to": "Lanza"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Light Crossbow",
+        "to": "Ballesta ligera"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Bolts",
+        "to": "Virotes"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Hooded Lantern",
+        "to": "Linterna de capucha"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Manacles",
+        "to": "Grilletes"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Case, Crossbow Bolt",
+        "to": "Estuche para virotes de ballesta"
+      },
+      {
+        "entry": "phbbgGuard000000",
+        "from": "Traveler's Clothes",
+        "to": "Ropa de viajero"
+      },
+      {
+        "entry": "phbbgGuide000000",
+        "from": "Magic Initiate",
+        "to": "Iniciado en la magia"
+      },
+      {
+        "entry": "phbbgGuide000000",
+        "from": "Shortbow",
+        "to": "Arco corto"
+      }
+    ]
+  }
+}

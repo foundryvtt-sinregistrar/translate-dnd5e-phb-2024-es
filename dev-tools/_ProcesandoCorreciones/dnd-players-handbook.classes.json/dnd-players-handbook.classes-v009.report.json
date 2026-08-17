@@ -1,0 +1,263 @@
+{
+  "_meta": {
+    "source_base": "dnd-players-handbook.classes-v008.json",
+    "spanish_target_source": "dnd-players-handbook.classes-v005.json",
+    "generated_at": "2026-03-17T23:20:00Z",
+    "purpose": "Restaurar activities.target en español manteniendo las claves nuevas de v008"
+  },
+  "summary": {
+    "targets_in_v008": 41,
+    "targets_restored_from_spanish": 41,
+    "targets_without_spanish_source": 0,
+    "mapping_converter": "phb2024ActivitiesById"
+  },
+  "changed": [
+    {
+      "entry_id": "phbbrbDivineFury",
+      "activity_id": "LAMSQQ3i8NNzanUw",
+      "from": "First creature you hit with a weapon or an Unarmed Strike",
+      "to": "Primera criatura que golpees con un arma o un golpe sin armas"
+    },
+    {
+      "entry_id": "phbbrbDivineFury",
+      "activity_id": "wtC08LDH1A38krl7",
+      "from": "First creature you hit with a weapon or an Unarmed Strike",
+      "to": "Primera criatura que golpees con un arma o un golpe sin armas"
+    },
+    {
+      "entry_id": "phbbrbTravelAlon",
+      "activity_id": "mh4XxabSpGFITcO2",
+      "from": "within 10 pies of you",
+      "to": "A 10 pies o menos de ti"
+    },
+    {
+      "entry_id": "phbbrdTandemFoot",
+      "activity_id": "dnd5eactivity000",
+      "from": "Ally who can see or hear you",
+      "to": "Aliado que pueda verte u oírte"
+    },
+    {
+      "entry_id": "phbclcChannelDiv",
+      "activity_id": "aOptL5pMaj3WtR8S",
+      "from": "Undead of your choice",
+      "to": "Muertos vivientes a tu elección"
+    },
+    {
+      "entry_id": "phbclcImprovedDu",
+      "activity_id": "dnd5eactivity000",
+      "from": "Within 5 pies of the duplicate",
+      "to": "A 5 pies o menos del duplicado"
+    },
+    {
+      "entry_id": "phbclcInvokeDupl",
+      "activity_id": "VYaBlCeCIurkfcUZ",
+      "from": "within 30 pies",
+      "to": "A 30 pies o menos"
+    },
+    {
+      "entry_id": "phbclcSearUndead",
+      "activity_id": "fW3U8L8Ca9a6O9Wx",
+      "from": "Undead",
+      "to": "Muertos vivientes"
+    },
+    {
+      "entry_id": "phbclcTricksters",
+      "activity_id": "dnd5eactivity000",
+      "from": "Your duplicate",
+      "to": "Tu duplicado"
+    },
+    {
+      "entry_id": "phbDivineStrike0",
+      "activity_id": "MbCGfaQAeW2rzNWb",
+      "from": "When you a hit a creature with an attack roll using a weapon once per turn",
+      "to": "Cuando golpees a una criatura con una tirada de ataque usando un arma, una vez por turno"
+    },
+    {
+      "entry_id": "phbDivineStrike0",
+      "activity_id": "uYVz8MBW0EZ2X0zD",
+      "from": "When you a hit a creature with an attack roll using a weapon once per turn",
+      "to": "Cuando golpees a una criatura con una tirada de ataque usando un arma, una vez por turno"
+    },
+    {
+      "entry_id": "phbdrdMoonlightS",
+      "activity_id": "dnd5eactivity000",
+      "from": "Unoccupied space",
+      "to": "Espacio desocupado"
+    },
+    {
+      "entry_id": "phbftrKnowYourEn",
+      "activity_id": "wLW7ki9v7rDBxW1k",
+      "from": "Creature you can see",
+      "to": "Criatura que puedas ver"
+    },
+    {
+      "entry_id": "phbftrWarBond000",
+      "activity_id": "eul9Wm3isSjjMORh",
+      "from": "bonded weapon",
+      "to": "Arma vinculada"
+    },
+    {
+      "entry_id": "phbftrWarBond000",
+      "activity_id": "Zrpvke0w6MeFeerZ",
+      "from": "currently unbound weapon",
+      "to": "Arma no vinculada actualmente"
+    },
+    {
+      "entry_id": "phbFuryPrimalStr",
+      "activity_id": "lHdiTksQmeJBFrf7",
+      "from": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape",
+      "to": "Cuando golpees a una criatura con una tirada de ataque usando un arma o con un ataque de forma de bestia mientras estés en Forma salvaje"
+    },
+    {
+      "entry_id": "phbinvGazeofTwoM",
+      "activity_id": "TqjZeWzJpT25ZX8s",
+      "from": "Touch",
+      "to": "Toque"
+    },
+    {
+      "entry_id": "phbinvInvestment",
+      "activity_id": "fHEY2QcPTBaT4lBF",
+      "from": "Your familiar",
+      "to": "Tu familiar"
+    },
+    {
+      "entry_id": "phbmnkDeflectAtt",
+      "activity_id": "dJv36KHyIVsbD00p",
+      "from": "Isn't behind Total Cover",
+      "to": "Que no esté tras cobertura total"
+    },
+    {
+      "entry_id": "phbmnkDeflectEne",
+      "activity_id": "AnEiO80Ga3etD595",
+      "from": "Isn't behind Total Cover",
+      "to": "Que no esté tras cobertura total"
+    },
+    {
+      "entry_id": "phbmnkElementalA",
+      "activity_id": "vUWH2QBMG6gewncl",
+      "from": "hit by elemental damage from imbued strike",
+      "to": "Criatura golpeada por daño elemental de Golpe imbuido"
+    },
+    {
+      "entry_id": "phbmnkImprovedSh",
+      "activity_id": "wUptpPoTTmYwEHTe",
+      "from": "Unoccupied space",
+      "to": "Espacio desocupado"
+    },
+    {
+      "entry_id": "phbmnkShadowStep",
+      "activity_id": "Q1ZC1so4EDE9EyV7",
+      "from": "Unoccupied space",
+      "to": "Espacio desocupado"
+    },
+    {
+      "entry_id": "phbmnvCommanders",
+      "activity_id": "spcp6PQ8947Ds4Qg",
+      "from": "Can see or hear you",
+      "to": "Que pueda verte u oírte"
+    },
+    {
+      "entry_id": "phbmnvManeuverin",
+      "activity_id": "JpsQYtXEwkR4OZn7",
+      "from": "Can see or hear you",
+      "to": "Que pueda verte u oírte"
+    },
+    {
+      "entry_id": "phbrgeCunningStr",
+      "activity_id": "dWcCw1vTWRMx4YzD",
+      "from": "Larger or smaller",
+      "to": "Grande o más pequeña"
+    },
+    {
+      "entry_id": "phbrgePsionicPow",
+      "activity_id": "doKz9cXC8vEqV8TG",
+      "from": "Creatures you can see",
+      "to": "Criaturas que puedas ver"
+    },
+    {
+      "entry_id": "phbrgePsionicPow",
+      "activity_id": "UJRfxrJ9qUnsJBPp",
+      "from": "Creatures you can see",
+      "to": "Criaturas que puedas ver"
+    },
+    {
+      "entry_id": "phbrgeSoulBlades",
+      "activity_id": "KyFxvisMIoL1OXRa",
+      "from": "Unoccupied space",
+      "to": "Espacio desocupado"
+    },
+    {
+      "entry_id": "phbrgrExceptiona",
+      "activity_id": "me8v2ec00BryjJyK",
+      "from": "Primal Companion",
+      "to": "Compañero primordial"
+    },
+    {
+      "entry_id": "phbrgrExceptiona",
+      "activity_id": "XUK2CSbRYnpEgB5J",
+      "from": "Primal Companion's Attack features",
+      "to": "Rasgos de Ataque del compañero primordial"
+    },
+    {
+      "entry_id": "phbrgrPrimalComp",
+      "activity_id": "2yp6Wab81zhE5XAj",
+      "from": "Unoccupied",
+      "to": "Espacio desocupado"
+    },
+    {
+      "entry_id": "phbrgrPrimalComp",
+      "activity_id": "Jtr7GXnCHb85xHg8",
+      "from": "Primal Companion",
+      "to": "Compañero primordial"
+    },
+    {
+      "entry_id": "phbrgrPrimalComp",
+      "activity_id": "nmuppQvpw52aVeaf",
+      "from": "Primal Companion that has died within the last hour",
+      "to": "Compañero primordial que haya muerto en la última hora"
+    },
+    {
+      "entry_id": "phbrgrShadowyDod",
+      "activity_id": "0DMuCuULnpS5lIR5",
+      "from": "Unoccupied",
+      "to": "Espacio desocupado"
+    },
+    {
+      "entry_id": "phbscrRestoreBal",
+      "activity_id": "nx7BmSJnY8WZV8Mv",
+      "from": "You can see",
+      "to": "Que puedas ver"
+    },
+    {
+      "entry_id": "phbscrTelepathic",
+      "activity_id": "wA0tk32liOOVBDHy",
+      "from": "You can see",
+      "to": "Que puedas ver"
+    },
+    {
+      "entry_id": "phbwlkMistyEscap",
+      "activity_id": "kj8zIhPbjs4UIHtc",
+      "from": "That you choose",
+      "to": "Que elijas"
+    },
+    {
+      "entry_id": "phbwlkResilience",
+      "activity_id": "RcOD8an5PifIcVfn",
+      "from": "You can see when you gain the points",
+      "to": "Que puedas ver cuando obtengas los puntos"
+    },
+    {
+      "entry_id": "phbwlkStepsOfThe",
+      "activity_id": "QUbshQXhUDQqlu2s",
+      "from": "That you can see",
+      "to": "Que puedas ver"
+    },
+    {
+      "entry_id": "phbwzdProjectedW",
+      "activity_id": "THaODa86JJaeoWfL",
+      "from": "That you can see",
+      "to": "Que puedas ver"
+    }
+  ],
+  "missing_source": []
+}

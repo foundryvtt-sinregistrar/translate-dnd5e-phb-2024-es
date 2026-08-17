@@ -1,0 +1,181 @@
+{
+  "label": "Character Origins",
+  "folders": {
+    "Backgrounds": "Backgrounds",
+    "Dragonborn": "Dragonborn",
+    "Dwarf": "Dwarf",
+    "Elf": "Elf",
+    "Gnome": "Gnome",
+    "Goliath": "Goliath",
+    "Halfling": "Halfling",
+    "Human": "Human",
+    "Orc": "Orc",
+    "Species": "Species",
+    "Tiefling": "Tiefling",
+    "Traits": "Traits"
+  },
+  "entries": {
+    "phbbgAcolyte0000": {
+      "name": "Acolyte"
+    },
+    "phbbgCriminal000": {
+      "name": "Criminal"
+    },
+    "phbbgSage0000000": {
+      "name": "Sage"
+    },
+    "phbbgSoldier0000": {
+      "name": "Soldier"
+    },
+    "phbspAbyssalTief": {
+      "name": "Tiefling, Abyssal"
+    },
+    "phbspChthonicTie": {
+      "name": "Tiefling, Chthonic"
+    },
+    "phbspDragonborn0": {
+      "name": "Dragonborn"
+    },
+    "phbspDrow0000000": {
+      "name": "Elf, Drow"
+    },
+    "phbspDwarf000000": {
+      "name": "Dwarf"
+    },
+    "phbspForestGnome": {
+      "name": "Gnome, Forest"
+    },
+    "phbspGoliath0000": {
+      "name": "Goliath"
+    },
+    "phbspHalfling000": {
+      "name": "Halfling"
+    },
+    "phbspHighElf0000": {
+      "name": "Elf, High"
+    },
+    "phbspHuman000000": {
+      "name": "Human"
+    },
+    "phbspInfernalTie": {
+      "name": "Tiefling, Infernal"
+    },
+    "phbspOrc00000000": {
+      "name": "Orc"
+    },
+    "phbspRockGnome00": {
+      "name": "Gnome, Rock"
+    },
+    "phbspWoodElf0000": {
+      "name": "Elf, Wood"
+    },
+    "phbsptAbyssalLeg": {
+      "name": "Fiendish Legacy, Abyssal"
+    },
+    "phbsptAdrenaline": {
+      "name": "Adrenaline Rush"
+    },
+    "phbsptBrave00000": {
+      "name": "Brave"
+    },
+    "phbsptBreathWeap": {
+      "name": "Breath Weapon"
+    },
+    "phbsptChthonicLe": {
+      "name": "Fiendish Legacy, Chthonic"
+    },
+    "phbsptCloudsJaun": {
+      "name": "Cloud's Jaunt"
+    },
+    "phbsptDraconicFl": {
+      "name": "Draconic Flight"
+    },
+    "phbsptDrowElfLin": {
+      "name": "Elven Lineage, Drow"
+    },
+    "phbsptDwarvenRes": {
+      "name": "Dwarven Resilience"
+    },
+    "phbsptDwarvenTou": {
+      "name": "Dwarven Toughness"
+    },
+    "phbsptFeyAncestr": {
+      "name": "Fey Ancestry"
+    },
+    "phbsptFiresBurn0": {
+      "name": "Fire's Burn"
+    },
+    "phbsptForestGnom": {
+      "name": "Gnomish Lineage, Forest"
+    },
+    "phbsptFrostsChil": {
+      "name": "Frost's Chill"
+    },
+    "phbsptGiantAnces": {
+      "name": "Giant Ancestry"
+    },
+    "phbsptGnomishCun": {
+      "name": "Gnomish Cunning"
+    },
+    "phbsptHalflingNi": {
+      "name": "Halfling Nimbleness"
+    },
+    "phbsptHighElfLin": {
+      "name": "Elven Lineage, High Elf"
+    },
+    "phbsptHillsTumbl": {
+      "name": "Hill's Tumble"
+    },
+    "phbsptInfernalLe": {
+      "name": "Fiendish Legacy, Infernal"
+    },
+    "phbsptKeenSenses": {
+      "name": "Keen Senses"
+    },
+    "phbsptLargeForm0": {
+      "name": "Large Form"
+    },
+    "phbsptLuck000000": {
+      "name": "Luck"
+    },
+    "phbsptNaturallyS": {
+      "name": "Naturally Stealthy"
+    },
+    "phbsptOtherworld": {
+      "name": "Otherworldly Presence"
+    },
+    "phbsptPowerfulBu": {
+      "name": "Powerful Build"
+    },
+    "phbsptRelentless": {
+      "name": "Relentless Endurance"
+    },
+    "phbsptResourcefu": {
+      "name": "Resourceful"
+    },
+    "phbsptRockGnomeL": {
+      "name": "Gnomish Lineage, Rock"
+    },
+    "phbsptSkillful00": {
+      "name": "Skillful"
+    },
+    "phbsptStonecunni": {
+      "name": "Stonecunning"
+    },
+    "phbsptStonesEndu": {
+      "name": "Stone's Endurance"
+    },
+    "phbsptStormsThun": {
+      "name": "Storm's Thunder"
+    },
+    "phbsptTrance0000": {
+      "name": "Trance"
+    },
+    "phbsptVersatile0": {
+      "name": "Versatile"
+    },
+    "phbsptWoodElfLin": {
+      "name": "Elven Lineage, Wood Elf"
+    }
+  }
+}

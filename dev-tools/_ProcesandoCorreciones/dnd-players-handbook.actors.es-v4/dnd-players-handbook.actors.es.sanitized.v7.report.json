@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "id": "actors.corrective.v7",
+    "input": "dnd-players-handbook.actors.es.sanitized.v5.json",
+    "qa_basis": "dnd-players-handbook.actors.es.sanitized.v6.qa.report.json",
+    "output": "dnd-players-handbook.actors.es.sanitized.v7.json",
+    "generated_utc": "2026-03-23T00:00:00Z"
+  },
+  "summary": {
+    "total_changes": 60,
+    "placeholder_number_of_attacks_fixed": 9,
+    "activity_conditions_translated": 3,
+    "reference_keys_canonicalized": 48,
+    "remaining_targeted_english_conditions": 0,
+    "remaining_targeted_number_of_attacks": 0,
+    "remaining_reference_key_old_forms_from_v6_list": 0
+  },
+  "applied_condition_overrides": {
+    "entries.phbprgRanger0000.items.klDLuGyY3ayzsJ5s.activities.NQtVK0T5uwfMPGQL.condition": "cuando el objetivo marcado actualmente cae a 0 puntos de golpe",
+    "entries.phbprgWarlock000.items.2RDALbFPRpJ9lLQ8.activities.dnd5eactivity000.condition": "cuando golpeas al objetivo con una tirada de ataque",
+    "entries.phbsplBigbysHand.items.phbaoiGraspingHa.activities.oVvdrmP4wv1oKWar.condition": "si tiene agarrada a una criatura"
+  },
+  "sample_changes": [
+    {
+      "path": "entries.phbmobBestialSpi.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobCelestialS.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobConstructS.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobDraconicSp.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel del conjuro (redondeando hacia abajo), y usa [[/item Breath Weapon]].</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel del conjuro (redondeando hacia abajo), y usa [[/item Breath Weapon]].</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobElementalS.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobFeySpirit0.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu realiza un número de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu realiza un número de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobFiendishSp.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobGiantInsec.items.phbaoiMultiattac.description",
+      "before": "<p>El insecto realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El insecto realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbmobUndeadSpir.items.phbaoiMultiattac.description",
+      "before": "<p>El espíritu hace un número de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+      "after": "<p>El espíritu hace un número de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
+    },
+    {
+      "path": "entries.phbprgRanger0000.items.klDLuGyY3ayzsJ5s.activities.NQtVK0T5uwfMPGQL.condition",
+      "before": "when the currently marked target drops to 0 Puntos de golpe",
+      "after": "cuando el objetivo marcado actualmente cae a 0 puntos de golpe"
+    },
+    {
+      "path": "entries.phbprgWarlock000.items.2RDALbFPRpJ9lLQ8.activities.dnd5eactivity000.condition",
+      "before": "whenever you hit the target with an attack roll",
+      "after": "cuando golpeas al objetivo con una tirada de ataque"
+    },
+    {
+      "path": "entries.phbsplBigbysHand.items.phbaoiGraspingHa.activities.oVvdrmP4wv1oKWar.condition",
+      "before": "has a creature grappled",
+      "after": "si tiene agarrada a una criatura"
+    },
+    {
+      "path": "entries.phbBeastoftheLan.items.VSfvWi5FOm2U6pfm.description",
+      "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d8 + 2 + tu modificador de sabiduría de daño contundente, perforante o cortante (a tu elección cuando convoques a la bestia). Si la bestia se ha movido al menos 20 pies en línea recta hacia el objetivo antes del impacto, el objetivo recibe 1d6 de daño adicional del mismo tipo y tiene la condición &amp;Reference[prone]{Derribado} si es una criatura Grande o más pequeña.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Nota de Foundry</strong></p><p>Las actividades de <strong>Ataque</strong> y <strong>Ataque de carga</strong> te permitirán elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p><p>La actividad de <strong>Ataque de carga</strong> incluye el daño adicional.</p></section>",
+      "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d8 + 2 + tu modificador de sabiduría de daño contundente, perforante o cortante (a tu elección cuando convoques a la bestia). Si la bestia se ha movido al menos 20 pies en línea recta hacia el objetivo antes del impacto, el objetivo recibe 1d6 de daño adicional del mismo tipo y tiene la condición &amp;Reference[Prone]{Derribado} si es una criatura Grande o más pequeña.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Nota de Foundry</strong></p><p>Las actividades de <strong>Ataque</strong> y <strong>Ataque de carga</strong> te permitirán elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p><p>La actividad de <strong>Ataque de carga</strong> incluye el daño adicional.</p></section>"
+    },
+    {
+      "path": "entries.phbBeastoftheSea.items.LUOy5vzHMODQLZT3.description",
+      "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d6 + 2 + tu modificador de sabiduría de daño contundente o perforante (a tu elección cuando convoques a la bestia), y el objetivo tiene la condición &amp;Reference[grappled]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Nota de Foundry</strong></p><p>La actividad de <strong>Ataque</strong> te permitirá elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p></section>",
+      "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d6 + 2 + tu modificador de sabiduría de daño contundente o perforante (a tu elección cuando convoques a la bestia), y el objetivo tiene la condición &amp;Reference[Grappled]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Nota de Foundry</strong></p><p>La actividad de <strong>Ataque</strong> te permitirá elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p></section>"
+    },
+    {
+      "path": "entries.phbConjuredEarth.items.oJkALZTVLPy8TJSR.effects.i5T6yzxlsSnXxGGa.description",
+      "before": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Apresado apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>",
+      "after": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+    },
+    {
+      "path": "entries.phbConjuredFireE.items.M6i0fFdNQmWKA4BZ.effects.BWZxm9qxlXDSF6Dy.description",
+      "before": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Apresado apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>",
+      "after": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+    },
+    {
+      "path": "entries.phbConjuredWater.items.BeXR1DiQaXVIpgxp.effects.fwIobATMREr7g26x.description",
+      "before": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Apresado apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>",
+      "after": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+    },
+    {
+      "path": "entries.phbelsMirthfulFe.items.phbaoiFeyStep000.effects.EiXyxkdcQN9Ui6pd.description",
+      "before": "<p>El objetivo queda &amp;Reference[charmed]{Hechizado} por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>",
+      "after": "<p>El objetivo queda &amp;Reference[Charmed]{Hechizado} por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>"
+    },
+    {
+      "path": "entries.phbelsTricksyFey.items.phbaoiFeyStep000.description",
+      "before": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Travieso.</strong> El espíritu llena un Cubo de 10 pies a 5 pies o menos de él con &amp;Reference[darkness]{Oscuridad} mágicas, que duran hasta el final de su siguiente turno.</p>",
+      "after": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Travieso.</strong> El espíritu llena un Cubo de 10 pies a 5 pies o menos de él con &amp;Reference[Darkness]{Oscuridad} mágicas, que duran hasta el final de su siguiente turno.</p>"
+    },
+    {
+      "path": "entries.phbginGiantCenti.items.phbaoiVenomousSp.description",
+      "before": "<p><em>Tirada de salvación de Constitución:</em> tu CD de salvación de conjuro; una criatura que el insecto pueda ver a 10 pies o menos. <em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Envenenado]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
+      "after": "<p><em>Tirada de salvación de Constitución:</em> tu CD de salvación de conjuro; una criatura que el insecto pueda ver a 10 pies o menos. <em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Poisoned]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+    },
+    {
+      "path": "entries.phbginGiantCenti.items.phbaoiVenomousSp.effects.uUvxWKSj8qQRIbTK.description",
+      "before": "<p>El objetivo tiene la condición &amp;Reference[Envenenado]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
+      "after": "<p>El objetivo tiene la condición &amp;Reference[Poisoned]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+    },
+    {
+      "path": "entries.phbmobBoar000000.items.phbaoiGore000000.description",
+      "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante. Si el jabalí se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño perforante adicionales y, si es Grande o más pequeño, tiene la condición &amp;Reference[Tumbado]{Derribado}.</p>",
+      "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante. Si el jabalí se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño perforante adicionales y, si es Grande o más pequeño, tiene la condición &amp;Reference[Prone]{Derribado}.</p>"
+    },
+    {
+      "path": "entries.phbmobBrownBear0.items.phbaoiClaw000000.description",
+      "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Enorme o más pequeño.</p>",
+      "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference[Prone]{Derribado} si es Enorme o más pequeño.</p>"
+    },
+    {
+      "path": "entries.phbmobConstricto.items.phbaoiConstrict0.description",
+      "before": "<p><em>Tirada de salvación de fuerza:</em> CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 5 pies. <em>Fracaso:</em> 7 (3d4) de daño contundente, y el objetivo tiene la condición &amp;Reference[grappled]{Agarrado} (CD 12 para escapar).</p>",
+      "after": "<p><em>Tirada de salvación de fuerza:</em> CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 5 pies. <em>Fracaso:</em> 7 (3d4) de daño contundente, y el objetivo tiene la condición &amp;Reference[Grappled]{Agarrado} (CD 12 para escapar).</p>"
+    },
+    {
+      "path": "entries.phbmobCrocodile0.items.phbaoiBite000000.description",
+      "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[grappled apply=false]{Agarrado} (CD 12 para escapar). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[restrained apply=false]{Apresado}.</p>",
+      "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD 12 para escapar). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[restrained apply=false]{Apresado}.</p>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "label": "Spells",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "phb2024ActivitiesById"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phb2024MergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phb2024AdvancementById"
+    }
+  },
+  "folders": {
+    "Cantrips": "Cantrips",
+    "1st Level": "1st Level"
+  },
+  "entries": {
+    "spellId": {
+      "name": "",
+      "description": "",
+      "folder": "",
+      "activities": {
+        "activityId": {
+          "name": "Cast",
+          "target": "15 cone",
+          "range": "60 ft",
+          "duration": "1 minute",
+          "activation": {
+            "condition": "..."
+          },
+          "description": {
+            "chatFlavor": "..."
+          }
+        }
+      },
+      "effects": {
+        "effectId": {
+          "name": "Protegido",
+          "description": "<p>...</p>"
+        }
+      },
+      "advancement": {
+        "advancementId": {
+          "title": "Ability Score Improvement",
+          "hint": "..."
+        }
+      }
+    }
+  }
+}

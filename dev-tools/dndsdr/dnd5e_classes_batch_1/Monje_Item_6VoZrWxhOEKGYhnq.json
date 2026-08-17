@@ -1,0 +1,794 @@
+{
+  "_id": "6VoZrWxhOEKGYhnq",
+  "name": "Monje",
+  "type": "class",
+  "img": "icons/skills/melee/hand-grip-staff-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Como monje, obtienes los siguientes ragos de clase.</p><h3>Puntos de Golpe</h3><p><strong>Dados de Golpe:</strong> 1d8 por nivel de monje<br /><strong>Puntos de Golpe a nivel 1:</strong> 8 + tu modificador por Constitución<br /><strong>Puntos de Golpe a niveles superiores:</strong> 1d8 (o 5) + tu modificador por Constitución por cada nivel de monje por encima del primero</p><h3>Competencias</h3><p><strong>Armadura:</strong> Ninguna<br /><strong>Armas:</strong> Armas simples, espadas cortas<br /><strong>Herramientas:</strong> escoge un tipo de herramientas de artesano o un instrumento musical<br /><strong>Tiradas de Salvación:</strong> Fuerza, Destreza<br /><strong>Habilidades:</strong> elige dos de entre Acrobacias, Atletismo, Historia, Perspicacia, Religión y Sigilo</p><h3>Equipo</h3><p>Además del equipo que obtengas por tu trasfondo, empiezas con el siguiente equipo:</p><ul><li>(a) una espada corta o (b) cualquier arma sencilla</li><li>(a) un paquete de explorador de mazmorras o (b) un paquete de explorador</li><li>10 dardos</li></ul><h1>El Monje</h1><table><thead><tr><td>Nivel</td><td>Bon. por competencia</td><td>Artes Marciales</td><td>Puntos de Ki</td><td>Movimiento sin Armadura</td><td>Rasgos</td></tr></thead><tbody><tr><td>1</td><td>+2</td><td>1d4</td><td>—</td><td>—</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.UAvV7N7T4zJhxdfI]{Defensa sin Armadura}, @UUID[Compendium.dnd5e.classfeatures.Item.l50hjTxO2r0iecKw]{Artes Marciales}</td></tr><tr><td>2</td><td>+2</td><td>1d4</td><td>2</td><td>+10 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7]{Ki}, @UUID[Compendium.dnd5e.classfeatures.Item.zCeqyQ8uIPNdYJSW]{Movimiento sin Armadura}</td></tr><tr><td>3</td><td>+2</td><td>1d4</td><td>3</td><td>+10 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.rtpQdX77dYWbDIOH]{Tradición Monástica}, @UUID[Compendium.dnd5e.classfeatures.Item.mzweVbnsJPQiVkAe]{Desviar Proyectiles}</td></tr><tr><td>4</td><td>+2</td><td>1d4</td><td>4</td><td>+10 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}, @UUID[Compendium.dnd5e.classfeatures.Item.KQz9bqxVkXjDl8gK]{Caída Lenta}</td></tr><tr><td>5</td><td>+3</td><td>1d6</td><td>5</td><td>+10 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Ataque Adicional}, @UUID[Compendium.dnd5e.classfeatures.Item.pvRc6GAu1ok6zihC]{Golpe Aturdidor}</td></tr><tr><td>6</td><td>+3</td><td>1d6</td><td>6</td><td>+15 ft.</td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.7flZKruSSu6dHg6D]{Ataques Potenciados con Ki},</p><p>Rasgo de Tradición Monástica</p></td></tr><tr><td>7</td><td>+3</td><td>1d6</td><td>7</td><td>+15 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.a4P4DNMmH8CqSNkC]{Evasión}, @UUID[Compendium.dnd5e.classfeatures.Item.ZmC31XKS4YNENnoc]{Quietud Mental}</td></tr><tr><td>8</td><td>+3</td><td>1d6</td><td>8</td><td>+15 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>9</td><td>+4</td><td>1d6</td><td>9</td><td>+15 ft.</td><td>Mejora de Movimiento sin Armadura</td></tr><tr><td>10</td><td>+4</td><td>1d6</td><td>10</td><td>+20 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.bqWA7t9pDELbNRkp]{Pureza de Cuerpo}</td></tr><tr><td>11</td><td>+4</td><td>1d8</td><td>11</td><td>+20 ft.</td><td>Rasgo de Tradición Monástica</td></tr><tr><td>12</td><td>+4</td><td>1d8</td><td>12</td><td>+20 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>13</td><td>+5</td><td>1d8</td><td>13</td><td>+20 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XjuGBeB8Y0C3A5D4]{Lengua del Sol y la Luna}</td></tr><tr><td>14</td><td>+5</td><td>1d8</td><td>14</td><td>+25 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.7D2EkLdISwShEDlN]{Alma Diamantina}</td></tr><tr><td>15</td><td>+5</td><td>1d8</td><td>15</td><td>+25 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.gDH8PMrKvLHaNmEI]{Cuerpo Atemporal}</td></tr><tr><td>16</td><td>+5</td><td>1d8</td><td>16</td><td>+25 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>17</td><td>+6</td><td>1d10</td><td>17</td><td>+25 ft.</td><td>Rasgo de Tradición Monástica</td></tr><tr><td>18</td><td>+6</td><td>1d10</td><td>18</td><td>+30 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.3jwFt3hSqDswBlOH]{Cuerpo Vacío}</td></tr><tr><td>19</td><td>+6</td><td>1d10</td><td>19</td><td>+30 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>20</td><td>+6</td><td>1d10</td><td>20</td><td>+30 ft.</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.mQNPg89YIs7g5tG4]{Yo Perfecto}</td></tr></tbody></table><h1>Tradiciones Monásticas</h1><p>Tres tradiciones monásticas son particularmente counes en los monasterios dispersos por el multiverso. La mayoría de ellos practican una de ellas en exclusiva, pero unos pococ honran a las tres e instruyen a cada uno de los monmjes de forma individual, teniendo en consideración sus aptitudes e intereses. Las tres tradiciones se apoyan en las mismas técnicas básicas, aunque divergen al ir aumentando las aptitudes del alumno. Es por eso por lo que un monje no elige su tradición hasta legar a nivel 3.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.IvlpKMXX3PmW1NY2]{Camino de la Mano Abierta}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "monk",
+    "levels": 1,
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "title": "Hit Points",
+        "icon": "systems/dnd5e/icons/svg/hit-points.svg",
+        "_id": "ocxNtDFJ7YDaYaK7"
+      },
+      {
+        "_id": "mmAxx3U7FvXNAcKc",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim",
+            "weapon:mar:shortsword"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "QPXy59CQGY9HB0c3",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*",
+                "tool:music:*"
+              ]
+            }
+          ]
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "4M8MQ1E64zbcRg6B",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:str",
+            "saves:dex"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "7HRRCPk80Ng2Evdx",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:acr",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:rel",
+                "skills:ste"
+              ]
+            }
+          ]
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "BQWHr3mt5flvkfIj",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "di:poison",
+            "ci:diseased",
+            "ci:poisoned"
+          ],
+          "choices": []
+        },
+        "level": 10,
+        "title": "Purity of Body",
+        "value": {
+          "chosen": []
+        },
+        "hint": "Your mastery of the ki flowing through you makes you immune to disease and poison."
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.UAvV7N7T4zJhxdfI",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.l50hjTxO2r0iecKw",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.eGxoNmSMWKNzChCO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Features",
+        "_id": "n0q8XyiGA3vLPgpK"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.10b6z2W1txNkrGP7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.5MwNlVZK7m6VolOH",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.TDglPcxIVEzvVSgK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.yrSFIGTaQOH2PFRI",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.zCeqyQ8uIPNdYJSW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Features",
+        "_id": "7TyDqpGGi3r3nsp0"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.rtpQdX77dYWbDIOH",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.mzweVbnsJPQiVkAe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Features",
+        "_id": "2sLHTw6k15DSW8WB"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.KQz9bqxVkXjDl8gK",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "Features",
+        "_id": "Zc1jOZK1b9mIKekq"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.XogoBnFWmCAHXppo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.pvRc6GAu1ok6zihC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Features",
+        "_id": "j9LeWmxlsENKaMLo"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.7flZKruSSu6dHg6D",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Features",
+        "_id": "psobDjMqtA2216Db"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.a4P4DNMmH8CqSNkC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.ZmC31XKS4YNENnoc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Features",
+        "_id": "K38aFaEMxMqRB0BC"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.bqWA7t9pDELbNRkp",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Features",
+        "_id": "eLqmJotmwzlGNrxG"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.XjuGBeB8Y0C3A5D4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Features",
+        "_id": "N0geIQiuofqYgswj"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.7D2EkLdISwShEDlN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Features",
+        "_id": "N1hjizyI82UPp8UI"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.gDH8PMrKvLHaNmEI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Features",
+        "_id": "TcLZS9WzC7bPETSd"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.3jwFt3hSqDswBlOH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Features",
+        "_id": "tRb3a0tA5IpehPs8"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.mQNPg89YIs7g5tG4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Features",
+        "_id": "sEQz9c9XhWYjS9x5"
+      },
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "die",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "number": null,
+              "faces": 4,
+              "modifiers": []
+            },
+            "5": {
+              "number": null,
+              "faces": 6,
+              "modifiers": []
+            },
+            "11": {
+              "number": null,
+              "faces": 8,
+              "modifiers": []
+            },
+            "17": {
+              "number": null,
+              "faces": 10,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Martial Arts Die",
+        "_id": "MXFbf0nxMiyLdPbX"
+      },
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "unarmored-movement",
+          "type": "distance",
+          "distance": {
+            "units": "ft"
+          },
+          "scale": {
+            "2": {
+              "value": 10
+            },
+            "6": {
+              "value": 15
+            },
+            "10": {
+              "value": 20
+            },
+            "14": {
+              "value": 25
+            },
+            "18": {
+              "value": 30
+            }
+          }
+        },
+        "value": {},
+        "title": "Unarmored Movement",
+        "_id": "1OzfWDWCquoHMeX5"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "Ability Score Improvement",
+        "_id": "ofNSUhSHKhhDuPSR"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "Ability Score Improvement",
+        "_id": "s3t9o57hP6iUHirr"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "Ability Score Improvement",
+        "_id": "O24MWOKc1ImsKaml"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "Ability Score Improvement",
+        "_id": "xdqWoLtgO3uyl3nJ"
+      },
+      {
+        "_id": "puDaUsYrlks0z5gm",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": ""
+      },
+      {
+        "_id": "0awj2yq115ev9u9o",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "Monastic Tradition"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "_id": "5yj0P4r9teJDnDtd",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.osLzOwQdPtrK3rQH",
+        "_id": "R5tuRtaPonfjQCVU",
+        "group": "5yj0P4r9teJDnDtd",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "simpleM",
+        "_id": "Mlf6kel8ws6xgDER",
+        "group": "5yj0P4r9teJDnDtd",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "OR",
+        "_id": "3TbVLmLPtjVaSh5O",
+        "group": "",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "_id": "AvDYtl0uvQsDuhnb",
+        "group": "3TbVLmLPtjVaSh5O",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "_id": "4QKQURCmIurbTAzp",
+        "group": "3TbVLmLPtjVaSh5O",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": 10,
+        "key": "Compendium.dnd5e.items.Item.3rCO8MTIdPGSW6IJ",
+        "_id": "AOYuulsULvsHbSLO",
+        "group": "",
+        "sort": 700000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "5d4",
+    "primaryAbility": {
+      "value": [],
+      "all": true
+    },
+    "hd": {
+      "denomination": "d8",
+      "spent": 0,
+      "additional": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": "HQ1Oy7HkbnxnE63o",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Monk"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1725037370616,
+    "modifiedTime": 1725992280386,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null,
+    "compendiumSource": null
+  }
+}

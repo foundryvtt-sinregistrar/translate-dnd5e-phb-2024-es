@@ -1,0 +1,44 @@
+{
+  "base_source_used": "dnd-players-handbook.classes-v006.json",
+  "note": "Se tomó v006 como base local disponible y se alineó con la estructura nueva de activities del classes.json corregido.",
+  "output": "dnd-players-handbook.classes-v008.json",
+  "mapping.activities.converter": "phb2024ActivitiesById",
+  "total_activities_processed": 379,
+  "migrated_flat_condition_to_activation_condition": 118,
+  "migrated_flat_chatFlavor_to_description_chatFlavor": 2,
+  "added_empty_activation_condition": 261,
+  "added_empty_description_chatFlavor": 377,
+  "removed_flat_condition": 118,
+  "removed_flat_chatFlavor": 2,
+  "manual_translation_fixes": [
+    {
+      "entry": "phbmnkUnarmedStr",
+      "activity": "Sl673lS0oweTsTHf",
+      "path": "activities.*.description.chatFlavor",
+      "value": "Intento de agarrar o embestir"
+    },
+    {
+      "entry": "phbscrBendLuck00",
+      "activity": "8Q7zyRRAkbJ1D7kl",
+      "path": "activities.*.activation.condition",
+      "value": "Inmediatamente después de que otra criatura que puedas ver tire el d20 para una Prueba de d20"
+    },
+    {
+      "entry": "phbwlkBeguilingD",
+      "activity": "Y2cMdoDnGTyEqs0l",
+      "path": "activities.*.activation.condition",
+      "value": "Inmediatamente después de que una criatura que puedas ver te golpee con una tirada de ataque"
+    },
+    {
+      "entry": "phbwlkStepsOfThe",
+      "activity": "QUbshQXhUDQqlu2s",
+      "path": "activities.*.activation.condition",
+      "value": "Inmediatamente después de teletransportarte"
+    }
+  ],
+  "validation": {
+    "remaining_flat_condition": 0,
+    "remaining_flat_chatFlavor": 0,
+    "remaining_obvious_english_in_new_paths": 0
+  }
+}

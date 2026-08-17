@@ -1,0 +1,41 @@
+{
+  "base": "dnd-players-handbook.equipment-v003.json",
+  "output": "dnd-players-handbook.equipment-v004.json",
+  "entries_modified": 8,
+  "changed_keys": [
+    "phbagLock0000000",
+    "phbtulCarpenters",
+    "phbtulCobblersTo",
+    "phbtulDisguiseKi",
+    "phbtulGlassblowe",
+    "phbtulPoisonersK",
+    "phbtulPottersToo",
+    "phbtulTinkersToo"
+  ],
+  "replacements": {
+    "{Thieves’ Tools}": 1,
+    "{Pole}": 1,
+    "{Portable Ram}": 1,
+    "{Torch}": 1,
+    "{Climber’s Kit}": 1,
+    "{Costume}": 1,
+    "{Vial}": 1,
+    "{Magnifying Glass}": 1,
+    "{Spyglass}": 1,
+    "{Glass Bottle}": 1,
+    "{Basic Poison}": 1,
+    "{Jug}": 1,
+    "{Hunting Trap}": 1,
+    "{Lock}": 1,
+    "{Manacles}": 1,
+    "{Musket}": 1,
+    "{Pistol}": 1,
+    "{Signal Whistle}": 1,
+    "{Flask}": 1,
+    "{Shovel}": 1
+  },
+  "notes": [
+    "Pasada conservadora sobre labels visibles en @UUID[...] que seguían en inglés.",
+    "No se tocaron estructuras de activities, effects ni advancement."
+  ]
+}

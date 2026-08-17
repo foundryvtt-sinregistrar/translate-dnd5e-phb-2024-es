@@ -1,0 +1,681 @@
+{
+  "advancementTitleEmpty": {
+    "phbbrbBarbarian0": {
+      "entryName": "Bárbaro",
+      "advancementIds": [
+        "5hgfh1Zcyct9PXLy",
+        "Ab9IuXTuVV9GY2s0",
+        "llft9LHzCcVGZr1R",
+        "SI7lbuRXd2YfXXEi",
+        "WB74p7CaIJKZVoNK",
+        "Xl4k2CTxTMhAZbGt",
+        "YzgEeP9pAA0c3bbn"
+      ]
+    },
+    "phbbrbPrimalCham": {
+      "entryName": "Campeón primigenio",
+      "advancementIds": [
+        "Yj4v0ul6dJiogWZy"
+      ]
+    },
+    "phbbrdBard000000": {
+      "entryName": "Bardo",
+      "advancementIds": [
+        "7R1ktICniomiGkiZ",
+        "B8ZYPClljGmIdxjl",
+        "e8hDmktYGVFiT6M0",
+        "pqZADBERYfrNsOMx",
+        "qs1yWeyecJMaX17E",
+        "U0u27jvpuWGcbhV5",
+        "ZxvWh6VVEyxNXBkx"
+      ]
+    },
+    "phbclcCleric0000": {
+      "entryName": "Clérigo",
+      "advancementIds": [
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p",
+        "NCN5ZAV8TtveRR4d",
+        "xtHP27K3z3naIFTi"
+      ]
+    },
+    "phbdrdDruid00000": {
+      "entryName": "Druida",
+      "advancementIds": [
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "jOMGuG8a0KfmaeJd",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p",
+        "wp38UtjwG71SVceB"
+      ]
+    },
+    "phbftrFighter000": {
+      "entryName": "Guerrero",
+      "advancementIds": [
+        "54UFgRZAnd1Qo9dp",
+        "a70EF7pL9l3Y48QL",
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "mhZh3LfLMa15tXee",
+        "mpkUwD60nPpNaKsg",
+        "mRSh9oUVjLU33e7p",
+        "zvm19nuuM9qRHGrR"
+      ]
+    },
+    "phbmnkBodyAndMin": {
+      "entryName": "Cuerpo y mente",
+      "advancementIds": [
+        "Yj4v0ul6dJiogWZy"
+      ]
+    },
+    "phbmnkMonk000000": {
+      "entryName": "Monje",
+      "advancementIds": [
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "LfwDqrjK9TQZpwDU",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p",
+        "OGo9kMbx7cFuGx00"
+      ]
+    },
+    "phbpdnPaladin000": {
+      "entryName": "Paladín",
+      "advancementIds": [
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "H67dh2nWpE6JMoS2",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p",
+        "tU89l5dpMkYJBBJ5"
+      ]
+    },
+    "phbrgeRogue00000": {
+      "entryName": "Pícaro",
+      "advancementIds": [
+        "6zkx7K1uPW2IQ5JA",
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p",
+        "PbZFa8JfPdQcvr1Q",
+        "YW6yxOO45ACMgnJT"
+      ]
+    },
+    "phbrgrGloomStalk": {
+      "entryName": "Acechador sombrío",
+      "advancementIds": [
+        "RHaWAsE41kcgqP72",
+        "Z2BVzd4qs4kZGTOh"
+      ]
+    },
+    "phbrgrRanger0000": {
+      "entryName": "Guardabosques",
+      "advancementIds": [
+        "bwCLOdauuzoHofil",
+        "eJTiCO9yVqCP1Ptd",
+        "FOf5CkGnSs0OlppY",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p",
+        "tGf0hPcdu2TIQdgN"
+      ]
+    },
+    "phbscrSorcerer00": {
+      "entryName": "Hechicero",
+      "advancementIds": [
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p",
+        "q7N6Am8hFSq15JTl",
+        "wu4INYdfnMUSeDqH"
+      ]
+    },
+    "phbwlkWarlock000": {
+      "entryName": "Brujo",
+      "advancementIds": [
+        "viu0ntZhrve35HNy"
+      ]
+    },
+    "phbwzdWizard0000": {
+      "entryName": "Mago",
+      "advancementIds": [
+        "a16u6wgnJQq8HMoq",
+        "bwCLOdauuzoHofil",
+        "FOf5CkGnSs0OlppY",
+        "KTYjh1MKLvOtrZ3u",
+        "mhZh3LfLMa15tXee",
+        "mRSh9oUVjLU33e7p"
+      ]
+    }
+  },
+  "activitiesNameEmpty": {
+    "phbbrbBranchesOf": {
+      "entryName": "Ramas del Árbol",
+      "activityIds": [
+        "jQ1yQ7jICDFobGVg"
+      ]
+    },
+    "phbbrbFrenzy0000": {
+      "entryName": "Frenesí",
+      "activityIds": [
+        "myPBq8xozti108Mc"
+      ]
+    },
+    "phbbrbIntimidati": {
+      "entryName": "Presencia intimidante",
+      "activityIds": [
+        "ZRHT8mOlea6T8XpP"
+      ]
+    },
+    "phbbrbRelentless": {
+      "entryName": "Furia implacable",
+      "activityIds": [
+        "dnd5eactivity100",
+        "Y2xWUsWmpklWLtVT"
+      ]
+    },
+    "phbbrbUnarmedStr": {
+      "entryName": "Ataque desarmado",
+      "activityIds": [
+        "rzJNP8887XkduayP"
+      ]
+    },
+    "phbbrbWarriorOfT": {
+      "entryName": "Guerrero de los dioses",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbbrdBeguilingM": {
+      "entryName": "Magia embaucadora",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbbrdCountercha": {
+      "entryName": "Contracanción",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbbrdLeadingEva": {
+      "entryName": "Evasión Inspiradora",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbbrdMantleOfIn": {
+      "entryName": "Manto de Inspiración",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbbrdPeerlessSk": {
+      "entryName": "Habilidad Inigualable",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbbrdUnarmedStr": {
+      "entryName": "Golpe sin Armas",
+      "activityIds": [
+        "H9sA759bPJSda7L3"
+      ]
+    },
+    "phbclcBlessedHea": {
+      "entryName": "Sanador Bendecido",
+      "activityIds": [
+        "65RBpJDqkywCR90I"
+      ]
+    },
+    "phbclcDiscipleOf": {
+      "entryName": "Discípulo de la Vida",
+      "activityIds": [
+        "Dm91WPfNiRty1bXv"
+      ]
+    },
+    "phbclcDivineInte": {
+      "entryName": "Intervención Divina",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbclcGreaterDiv": {
+      "entryName": "Intervención Divina Superior",
+      "activityIds": [
+        "QF0ngRPf1dAyycw1"
+      ]
+    },
+    "phbclcImprovedWa": {
+      "entryName": "Destello Protector Mejorado",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbclcInvokeDupl": {
+      "entryName": "Invocar Duplicidad",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbClcPotentSpel": {
+      "entryName": "Golpes benditos: Conjuración potente",
+      "activityIds": [
+        "2ADklkzUUW3aAeOt"
+      ]
+    },
+    "phbclcPreserveLi": {
+      "entryName": "Preservar la Vida",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbclcRadianceOf": {
+      "entryName": "Resplandor del Alba",
+      "activityIds": [
+        "dnd5eactivity000"
+      ]
+    },
+    "phbdrdCircleForm": {
+      "entryName": "Formas del Círculo",
+      "activityIds": [
+        "PEEVPEasGs8fZ4aW"
+      ]
+    },
+    "phbdrdLandsAid00": {
+      "entryName": "Ayuda de la Tierra",
+      "activityIds": [
+        "dnd5eactivity000",
+        "LI4RB1gsoHK0bS5n"
+      ]
+    },
+    "phbdrdLunarForm0": {
+      "entryName": "Forma Lunar",
+      "activityIds": [
+        "1MWIOnDOZdrrCRw5"
+      ]
+    },
+    "phbdrdStormborn0": {
+      "entryName": "Nacido de la tormenta",
+      "activityIds": [
+        "jOppnQcyBPpUizBN"
+      ]
+    },
+    "phbdrdWildShape0": {
+      "entryName": "Forma salvaje",
+      "activityIds": [
+        "46YUClJmy4DjUyW7"
+      ]
+    },
+    "phbftrActionSurg": {
+      "entryName": "Oleada de acción",
+      "activityIds": [
+        "jtpVG47zPBUI0CZ5"
+      ]
+    },
+    "phbftrIndomitabl": {
+      "entryName": "Indomable",
+      "activityIds": [
+        "84EBzlT1nDmNqhqM"
+      ]
+    },
+    "phbftrSecondWind": {
+      "entryName": "Segundo aliento",
+      "activityIds": [
+        "zumaUC11cpntqme1"
+      ]
+    },
+    "phbinvArmorofSha": {
+      "entryName": "Armadura de sombras",
+      "activityIds": [
+        "v3GceOoHJUQgfSWj"
+      ]
+    },
+    "phbinvAscendantS": {
+      "entryName": "Paso ascendente",
+      "activityIds": [
+        "7EI0Gi1gXOeG3z6Z"
+      ]
+    },
+    "phbinvGiftoftheD": {
+      "entryName": "Don de las profundidades",
+      "activityIds": [
+        "vWwmQUAWJw04yAbF"
+      ]
+    },
+    "phbinvLifedrinke": {
+      "entryName": "Bebedor de vida",
+      "activityIds": [
+        "LDIKT3JVs25qBVuL"
+      ]
+    },
+    "phbinvMaskofMany": {
+      "entryName": "Máscara de los mil rostros",
+      "activityIds": [
+        "R0tyovCnSefEFyXw"
+      ]
+    },
+    "phbinvMasterofMy": {
+      "entryName": "Maestro de las innumerables formas",
+      "activityIds": [
+        "cQpBPylKjXRaeaM4"
+      ]
+    },
+    "phbinvMistyVisio": {
+      "entryName": "Visiones brumosas",
+      "activityIds": [
+        "74fYEr3FNUwniqfY"
+      ]
+    },
+    "phbinvOnewithSha": {
+      "entryName": "Uno con las sombras",
+      "activityIds": [
+        "uF0beZxnJDJ6LQp8"
+      ]
+    },
+    "phbinvOtherworld": {
+      "entryName": "Salto de otro mundo",
+      "activityIds": [
+        "wH4IQveLxB62JsAi"
+      ]
+    },
+    "phbinvVisionsOfD": {
+      "entryName": "Visiones de reinos lejanos",
+      "activityIds": [
+        "bTLS2ccOyKbiT1sN"
+      ]
+    },
+    "phbinvWhispersOf": {
+      "entryName": "Susurros de la tumba",
+      "activityIds": [
+        "IFWVSWZIMHxQuass"
+      ]
+    },
+    "phbmnkHandOfHarm": {
+      "entryName": "Mano de daño",
+      "activityIds": [
+        "3LBCmLni9BQUpgcv"
+      ]
+    },
+    "phbmnkHandOfUlti": {
+      "entryName": "Mano de misericordia suprema",
+      "activityIds": [
+        "XtgmW9115BzcLiFr"
+      ]
+    },
+    "phbmnkStunningSt": {
+      "entryName": "Golpe aturdidor",
+      "activityIds": [
+        "Xto99a8Zt46VLwaR"
+      ]
+    },
+    "phbmnkSuperiorDe": {
+      "entryName": "Defensa superior",
+      "activityIds": [
+        "tED3Z5V5ZlCkyzWU"
+      ]
+    },
+    "phbmnkUnarmedStr": {
+      "entryName": "Golpe sin armas",
+      "activityIds": [
+        "H9sA759bPJSda7L3"
+      ]
+    },
+    "phbmnkWholenessO": {
+      "entryName": "Plenitud corporal",
+      "activityIds": [
+        "CoatPmjognJHbfZ6"
+      ]
+    },
+    "phbmnvAmbush0000": {
+      "entryName": "Emboscada",
+      "activityIds": [
+        "HiargkiZgN4q8kg6"
+      ]
+    },
+    "phbmnvCommanding": {
+      "entryName": "Presencia imponente",
+      "activityIds": [
+        "WYWuaoPWf2Vy5olB"
+      ]
+    },
+    "phbmnvDisarmingA": {
+      "entryName": "Ataque desarmador",
+      "activityIds": [
+        "5y3EDGj0EGN3xVzO"
+      ]
+    },
+    "phbmnvDistractin": {
+      "entryName": "Golpe distractor",
+      "activityIds": [
+        "DBgCFax1iS3mobyw"
+      ]
+    },
+    "phbmnvFeintingAt": {
+      "entryName": "Ataque de finta",
+      "activityIds": [
+        "Utu8uaZOMepShbyw"
+      ]
+    },
+    "phbmnvGoadingAtt": {
+      "entryName": "Ataque provocador",
+      "activityIds": [
+        "YZDchvLnuCD6xMkF"
+      ]
+    },
+    "phbmnvLungingAtt": {
+      "entryName": "Ataque alargado",
+      "activityIds": [
+        "aoTn3UKohm5VAuIT"
+      ]
+    },
+    "phbmnvMenacingAt": {
+      "entryName": "Ataque amenazante",
+      "activityIds": [
+        "b6LpZcPAmrfgo5hc"
+      ]
+    },
+    "phbmnvParry00000": {
+      "entryName": "Parada",
+      "activityIds": [
+        "F4UxiihGgkdv4orJ"
+      ]
+    },
+    "phbmnvPrecisionA": {
+      "entryName": "Ataque preciso",
+      "activityIds": [
+        "WrckriM4bPU6NS38"
+      ]
+    },
+    "phbmnvPushingAtt": {
+      "entryName": "Ataque de empuje",
+      "activityIds": [
+        "IFAKr2EogbOKzFSk"
+      ]
+    },
+    "phbmnvRally00000": {
+      "entryName": "Arenga",
+      "activityIds": [
+        "uyAnJsUHU2Aek9Lk"
+      ]
+    },
+    "phbmnvSweepingAt": {
+      "entryName": "Ataque barrido",
+      "activityIds": [
+        "P9XWzKIH1sEvsOtC"
+      ]
+    },
+    "phbmnvTacticalAs": {
+      "entryName": "Evaluación táctica",
+      "activityIds": [
+        "qx70O22QGfH0MryE"
+      ]
+    },
+    "phbmnvTripAttack": {
+      "entryName": "Ataque de derribo",
+      "activityIds": [
+        "EVY5IoXOorEfQbCr"
+      ]
+    },
+    "phbpdnAbjureFoes": {
+      "entryName": "Abjurar a los enemigos",
+      "activityIds": [
+        "coLSoQzZ6lGbXtIw"
+      ]
+    },
+    "phbpdnInspiringS": {
+      "entryName": "Castigo inspirador",
+      "activityIds": [
+        "oBkPCmC2KsH2WUJp"
+      ]
+    },
+    "phbpdnLayOnHands": {
+      "entryName": "Imposición de manos",
+      "activityIds": [
+        "gXZh9aGHcywV9huC"
+      ]
+    },
+    "phbpdnNaturesWra": {
+      "entryName": "Ira de la naturaleza",
+      "activityIds": [
+        "SuusUi5JLqtcqLyj"
+      ]
+    },
+    "phbpdnPeerlessAt": {
+      "entryName": "Atleta sin igual",
+      "activityIds": [
+        "vqecWeEPmZkTGGNW"
+      ]
+    },
+    "phbpdnRestoringT": {
+      "entryName": "Toque restaurador",
+      "activityIds": [
+        "PgTPWedvQHDlQ7LQ"
+      ]
+    },
+    "phbpdnSacredWeap": {
+      "entryName": "Arma sagrada",
+      "activityIds": [
+        "Ew70lNTD8dR3vREt"
+      ]
+    },
+    "phbpdnUndyingSen": {
+      "entryName": "Centinela imperecedero",
+      "activityIds": [
+        "bRIROEIDYNYI8XFQ"
+      ]
+    },
+    "phbpdnVowOfEnmit": {
+      "entryName": "Voto de enemistad",
+      "activityIds": [
+        "vWvSOIxCzNFML1R5"
+      ]
+    },
+    "phbrgeAssasinate": {
+      "entryName": "Asesinar",
+      "activityIds": [
+        "xF68xROGwfOkEY7f"
+      ]
+    },
+    "phbrgeBladesPsyc": {
+      "entryName": "Hoja psíquica",
+      "activityIds": [
+        "lj6GYZqj9iLkBQB5"
+      ]
+    },
+    "phbrgeMageHandLe": {
+      "entryName": "Legerdemain de Mano de mago",
+      "activityIds": [
+        "pqFQ12KXNH89TDNX"
+      ]
+    },
+    "phbrgeSneakAttac": {
+      "entryName": "Ataque furtivo",
+      "activityIds": [
+        "a1T6nHaqmvbLpyJr"
+      ]
+    },
+    "phbrgrBeguilingT": {
+      "entryName": "Giro seductor",
+      "activityIds": [
+        "rRxcZhODLP7a0kHX"
+      ]
+    },
+    "phbrgrBestialFur": {
+      "entryName": "Furia bestial",
+      "activityIds": [
+        "gSi5hBWIsy2wJqUj"
+      ]
+    },
+    "phbrgrDreadfulSt": {
+      "entryName": "Golpes pavorosos",
+      "activityIds": [
+        "KazABqojM9ox0enm"
+      ]
+    },
+    "phbrgrHuntersPre": {
+      "entryName": "Presa del cazador",
+      "activityIds": [
+        "Ek6m8ZY5Df7Mp6DO"
+      ]
+    },
+    "phbrgrSuperiorHu": {
+      "entryName": "Presa Superior del Cazador",
+      "activityIds": [
+        "yqOAxbsX16RkOx06"
+      ]
+    },
+    "phbwlkBookOfShad": {
+      "entryName": "Libro de las Sombras",
+      "activityIds": [
+        "EJ5pgHCVyUKpX00e"
+      ]
+    },
+    "phbwlkClairvoyan": {
+      "entryName": "Combatiente Clarividente",
+      "activityIds": [
+        "4BXutqp9H7khPzoS"
+      ]
+    },
+    "phbwlkDarkOnesBl": {
+      "entryName": "Bendición del Oscuro",
+      "activityIds": [
+        "p3YSnjGDlLIbiLpC"
+      ]
+    },
+    "phbwlkHealingLig": {
+      "entryName": "Luz Sanadora",
+      "activityIds": [
+        "hWlUAWSqoxOIm5VB"
+      ]
+    },
+    "phbwlkRadiantSou": {
+      "entryName": "Alma Radiante",
+      "activityIds": [
+        "fB7nzrDeQKU5zZbb"
+      ]
+    },
+    "phbwlkSearingVen": {
+      "entryName": "Venganza Abrasadora",
+      "activityIds": [
+        "3dwQMFOGNl4ZLoWM"
+      ]
+    },
+    "phbwlkStepsOfThe": {
+      "entryName": "Pasos de las Hadas",
+      "activityIds": [
+        "RH4iC8ek6mxLrJcr"
+      ]
+    },
+    "phbwzdEmpoweredE": {
+      "entryName": "Evocación potenciada",
+      "activityIds": [
+        "24lZHflqzcwoBev5"
+      ]
+    }
+  }
+}

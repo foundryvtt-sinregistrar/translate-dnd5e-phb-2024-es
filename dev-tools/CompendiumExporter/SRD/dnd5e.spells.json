@@ -1,0 +1,974 @@
+{
+  "label": "Conjuros (SRD)",
+  "folders": {
+    "Nivel 1": "Nivel 1",
+    "Nivel 2": "Nivel 2",
+    "Nivel 3": "Nivel 3",
+    "Nivel 4": "Nivel 4",
+    "Nivel 5": "Nivel 5",
+    "Nivel 6": "Nivel 6",
+    "Nivel 7": "Nivel 7",
+    "Nivel 8": "Nivel 8",
+    "Nivel 9": "Nivel 9",
+    "Truco": "Truco"
+  },
+  "entries": {
+    "04nMsTWkIFvkbXlY": {
+      "name": "Polimorfar"
+    },
+    "0xmXiPiuYws1OGcX": {
+      "name": "Marca del cazador"
+    },
+    "13uVuBQP6VaiSPvC": {
+      "name": "Respirar bajo el agua"
+    },
+    "15Fa6q1nH27XfbR8": {
+      "name": "Disipar magia"
+    },
+    "1ADstb0Xec6HHRcU": {
+      "name": "Esfera elástica"
+    },
+    "1Drt0SHxbEAHxprN": {
+      "name": "Conjurar animales"
+    },
+    "1LkZvINag7KqBmDR": {
+      "name": "Conjurar elemental"
+    },
+    "1N8dDMMgZ1h1YJ3B": {
+      "name": "Invisibilidad"
+    },
+    "1RzxKZzkQOoioxPj": {
+      "name": "Labia"
+    },
+    "1nhIxh0DsJsntCfj": {
+      "name": "Abrir"
+    },
+    "22dPoeXfaaAv4K3h": {
+      "name": "Reprension infernal"
+    },
+    "2IWiZAJtOGDoKjiz": {
+      "name": "Forma gaseosa"
+    },
+    "2RC0EyvBLPH88PZF": {
+      "name": "Rayo solar"
+    },
+    "2VXGS206tuChoeXy": {
+      "name": "Hablar con las plantas"
+    },
+    "2skfDtglk1mGrb3l": {
+      "name": "Detectar venenos y enfermedades"
+    },
+    "2yHXEcrRbadZDr5M": {
+      "name": "Calentar metal"
+    },
+    "30ZgXtijJVCxQk5N": {
+      "name": "Embelesar"
+    },
+    "34ddoYIrnOZ2GFYi": {
+      "name": "Palabra de curación en masa"
+    },
+    "35j2QIMmIk6aEdxj": {
+      "name": "Palabra de poder: aturdir"
+    },
+    "3Lo9boi7P2ro6QV4": {
+      "name": "Inmovilizar persona"
+    },
+    "3MYDjS6k9IYL0aTj": {
+      "name": "Calmar emociones"
+    },
+    "3OZnNhunvRtPOQmH": {
+      "name": "Identificar"
+    },
+    "3okM6Gn63zzEULkz": {
+      "name": "Deseo"
+    },
+    "41JIhpDyM9Anm7cs": {
+      "name": "Proyectil mágico"
+    },
+    "42O2aNBW7vK90gTL": {
+      "name": "Atadura planar"
+    },
+    "4H6YgYdKgnX6ZQ8M": {
+      "name": "Flecha ácida"
+    },
+    "4dSvfvTy2ZIJ3K4k": {
+      "name": "Entender idiomas"
+    },
+    "4smlOvpF5AQHcyg1": {
+      "name": "Contingencia"
+    },
+    "4v2H3hHb3Ph9XLNd": {
+      "name": "Augurio"
+    },
+    "5OGFdJw35QXp6mh6": {
+      "name": "Sugestión en masa"
+    },
+    "5SuJewoa1CRWaj1F": {
+      "name": "Manos Ardientes"
+    },
+    "5VhqFROQYjr1P9lp": {
+      "name": "Silencio"
+    },
+    "5e1xTohkzqFqbYH4": {
+      "name": "Golpe flamigero"
+    },
+    "5eh2HFbS13078Y3H": {
+      "name": "Hallar corcel"
+    },
+    "64D1gNZ4hx7SWG2x": {
+      "name": "Prohibición"
+    },
+    "64uo4fHriHLjRUrX": {
+      "name": "Fundirse con la piedra"
+    },
+    "6HEEhLdJz32TL4Js": {
+      "name": "Presagio"
+    },
+    "6g3WLOZ2u0EbaLAd": {
+      "name": "Patron hipnótico"
+    },
+    "76C0FdcxlU8F9Rl2": {
+      "name": "Palabra de regreso"
+    },
+    "7Fw7Bf1k3xxDVr5L": {
+      "name": "Fabricar"
+    },
+    "7KjExw0kmuqERa7C": {
+      "name": "Tormenta de la venganza"
+    },
+    "7UwUjJ6owIQkEPrs": {
+      "name": "Castigo marcador"
+    },
+    "7buEm5KhI5lP8m1z": {
+      "name": "Saeta guía"
+    },
+    "7e3QXF10hLNDEdr6": {
+      "name": "Falsa vida"
+    },
+    "7fFHlBk3UNX8gPKL": {
+      "name": "Controlar agua"
+    },
+    "7p9IuWrSWFgfyQo2": {
+      "name": "Alarma"
+    },
+    "7u2obDvuvtZBkTfq": {
+      "name": "Rayo abrasador"
+    },
+    "7v06rdmUakoTk1LQ": {
+      "name": "Boca mágica"
+    },
+    "82jM6qD9axLJsTrH": {
+      "name": "Texto ilusorio"
+    },
+    "8MICCMeOXT3aJUy9": {
+      "name": "Favor divino"
+    },
+    "8PJAsHmbu6UgDHC0": {
+      "name": "Viajar con el viento"
+    },
+    "8RTDOt80u8aBv9qx": {
+      "name": "Alterar el propio aspecto"
+    },
+    "8aWtP5hcrmcEesBW": {
+      "name": "Circulo de teletransportación"
+    },
+    "8cse7rit0oswRPUP": {
+      "name": "Cerradura arcana"
+    },
+    "8dzaICjGy6mTUaUr": {
+      "name": "Bendicion"
+    },
+    "8sgwRh8NUNkn9Vi0": {
+      "name": "Cofre oculto"
+    },
+    "8zT7njvqbpXs4Cel": {
+      "name": "Piedad con los moribundos"
+    },
+    "91Sw6vOIaO7U8DvM": {
+      "name": "Dominar persona"
+    },
+    "95K2aUhAGV9qXjnf": {
+      "name": "Perdicion"
+    },
+    "9eOZDBImVKxbeOyZ": {
+      "name": "Potenciar característica"
+    },
+    "9gYGkrL6qFTsE6fw": {
+      "name": "Crecimiento espinoso"
+    },
+    "9hQXdMSmerkTsHDe": {
+      "name": "Confusión"
+    },
+    "9kGrFXnLiRg3Xnbo": {
+      "name": "Regenerar"
+    },
+    "A3q2gTNqG6fvNGrv": {
+      "name": "Disfrazarse"
+    },
+    "A4RsPuSvB9wFtz1j": {
+      "name": "Puerta dimensional"
+    },
+    "AGFMPAmuzwWO6Dfz": {
+      "name": "Revivir a los muertos"
+    },
+    "AQsBc94ES7W7s7iG": {
+      "name": "Muro de espinas"
+    },
+    "ATo0Eb63TDtnu6iA": {
+      "name": "Animar objetos"
+    },
+    "Advtckpz1B733bu9": {
+      "name": "Hoja de fuego"
+    },
+    "AoTTjapz1FsGOIZz": {
+      "name": "Bola de fuego de explosión retardada"
+    },
+    "B0pnIcc52O6G8hi8": {
+      "name": "Zancada prodigiosa"
+    },
+    "B2kbmgbA2WQR00kx": {
+      "name": "Símbolo"
+    },
+    "BP3GCwa66IAw1yTG": {
+      "name": "Luz del día"
+    },
+    "BQk5Row4NymMnUQl": {
+      "name": "Risa horrible"
+    },
+    "BV0mpbHh29IbbIj5": {
+      "name": "Crear comida y agua"
+    },
+    "BYNvBJzHcF5VJhXw": {
+      "name": "Asesino fantasmal"
+    },
+    "Bnn9Nzajixvow9xi": {
+      "name": "Luz"
+    },
+    "BrBZdCCrJRIVg7YX": {
+      "name": "Imagen silenciosa"
+    },
+    "CAxSzHWizrafT033": {
+      "name": "Luces danzantes"
+    },
+    "CKZTpZlxj7hjjo2H": {
+      "name": "Armadura de mago"
+    },
+    "CjIq8Ed7bu3vVwT1": {
+      "name": "Contagio"
+    },
+    "CylBa7jR8DSbo8Z3": {
+      "name": "Zona de la verdad"
+    },
+    "DGONTFbk5eORs5qv": {
+      "name": "Tentaculos negros"
+    },
+    "DQzlB5Y3k791W5bH": {
+      "name": "Ver invisibilidad"
+    },
+    "DUBgwHPakcLDkB6W": {
+      "name": "Paso arbóreo"
+    },
+    "E4NXux0RHvME1XgP": {
+      "name": "Crear muerto viviente"
+    },
+    "EOmsUcFQJTfG2oio": {
+      "name": "Descarga de fuego"
+    },
+    "ERCv7yuRkQ0YjGx6": {
+      "name": "Invertir la gravedad"
+    },
+    "Ek45cBpVXvJdv1Qy": {
+      "name": "Contrahechizo"
+    },
+    "Eon0jzGzQRNluTPQ": {
+      "name": "Campo antimagia"
+    },
+    "F0GsG0SJzsIOacwV": {
+      "name": "Restablecimiento menor"
+    },
+    "FSMy6VAjDnXY9vWz": {
+      "name": "Ráfaga de viento"
+    },
+    "FjYE214HTERCRZNm": {
+      "name": "Esfera de llamas"
+    },
+    "GJ2WYm3SQFR0winH": {
+      "name": "Antipatia/Simpatia"
+    },
+    "GSvLWcdCZLQkilXT": {
+      "name": "Desplazamiento"
+    },
+    "GtGjNjPBgUHxGYAD": {
+      "name": "Recado"
+    },
+    "HBHbOGKNVVprSlwn": {
+      "name": "Desintegrar"
+    },
+    "HPvZm8YJO91k6Qdg": {
+      "name": "Dedo de la muerte"
+    },
+    "HQfd7jJyULIoGxrZ": {
+      "name": "Telequinesis"
+    },
+    "I2LUSF5ogc7Bj62e": {
+      "name": "Hablar con los muertos"
+    },
+    "IBJmWjzbQGu7M4UX": {
+      "name": "Nube de oscurecimiento"
+    },
+    "ImlCJQwR1VL40Qem": {
+      "name": "Ojo arcano"
+    },
+    "Iv2qqSAT7OkXKPFx": {
+      "name": "Localizar animales o plantas"
+    },
+    "IyikgTEOTv701jgQ": {
+      "name": "Relámpago"
+    },
+    "J3uILDYS7MiOfmTJ": {
+      "name": "Tormenta de fuego"
+    },
+    "J6Jpw5XzB5aTeqnz": {
+      "name": "Desplazamiento entre planos"
+    },
+    "JGT5bNqu9REL7Fuz": {
+      "name": "Encontrar familiar"
+    },
+    "JLTQyqXEaJDrTXyW": {
+      "name": "Salpicadura ácida"
+    },
+    "JPwIEfgUPVebr5AH": {
+      "name": "Piel Robliza"
+    },
+    "JQyigMNPiDnGI18b": {
+      "name": "Geas"
+    },
+    "JVhKeanAXZH62DrF": {
+      "name": "Vinculo protector"
+    },
+    "JYuRBwxpoFhXduvD": {
+      "name": "Parar el tiempo"
+    },
+    "JbxsYXxSOTZbf9I0": {
+      "name": "Arma espiritual"
+    },
+    "KJRVzeMQXPj8Gtyx": {
+      "name": "Trepar cual arácnido"
+    },
+    "KeunEkg1JYbOCOhV": {
+      "name": "Circulo de la muerte"
+    },
+    "KgEw3sDr39C6g8nY": {
+      "name": "Conjurar elementales menores"
+    },
+    "KhwiSi9fwVfUPtku": {
+      "name": "Dormir"
+    },
+    "Kn7K5PtYUJAKZTTp": {
+      "name": "Purificar comida y bebida"
+    },
+    "KrM3oHVv13RAALrS": {
+      "name": "Detectar trampas"
+    },
+    "L4J89JXqbKs6puEV": {
+      "name": "Teletransporte"
+    },
+    "LTDNWoFVJNLjiiNa": {
+      "name": "Espada arcana"
+    },
+    "LWTUqKkUQdMAmOe0": {
+      "name": "Rociada de color"
+    },
+    "LkvI11Uue774QBKZ": {
+      "name": "Nube aniquiladora"
+    },
+    "LmRHHMtplpxr9fX6": {
+      "name": "Revivir"
+    },
+    "LrPvWHBPmiMQQsKB": {
+      "name": "Dominar bestia"
+    },
+    "MAxM77CDUu8dgIRQ": {
+      "name": "Protección contra veneno"
+    },
+    "MBMaQLwoy05qzMJ3": {
+      "name": "Engañar"
+    },
+    "MCEpGpvovcXagwQS": {
+      "name": "Despertar"
+    },
+    "MImfWCzEPRMYD3Xp": {
+      "name": "Esfera congelante"
+    },
+    "MK6gpQMeDFo0cP9f": {
+      "name": "Llama permanente"
+    },
+    "MOEmz9N0j0QPkKEE": {
+      "name": "Plegaria de curación"
+    },
+    "MRxldJd6C4bsBo3O": {
+      "name": "Levitar"
+    },
+    "MUO1uYN7JR1hm4dR": {
+      "name": "Taumaturgia"
+    },
+    "Mzh95utKDPIrjiH8": {
+      "name": "Detectar el bien y el mal"
+    },
+    "N2UEFq8X5LRsLcOZ": {
+      "name": "Cambiar de forma"
+    },
+    "NJgxf7pmSsBArIG7": {
+      "name": "Sanctasanctórum privado"
+    },
+    "NXWWWgHtWb7Nv21F": {
+      "name": "Pequeña choza"
+    },
+    "NmoRmM1mhuM3pqnY": {
+      "name": "Muro de piedra"
+    },
+    "ODhLKBxLnvvLOnw1": {
+      "name": "Rayo debilitador"
+    },
+    "OVikYmSdHliAG2YD": {
+      "name": "Plaga de insectos"
+    },
+    "Opwh2PdX4runSBlm": {
+      "name": "Auxilio"
+    },
+    "P6f1PPKPd9BCb742": {
+      "name": "Compulsión"
+    },
+    "P7mF2MxSuVJwHRRY": {
+      "name": "Guía"
+    },
+    "PQuEgKyCdovOvhqN": {
+      "name": "Excursion eterea"
+    },
+    "Pyzmm8R7rVsNAPsd": {
+      "name": "Curar heridas en masa"
+    },
+    "QbQZKoXOgHWN06aa": {
+      "name": "Polimorfar verdadero"
+    },
+    "QbTxN5dWIbYZ4jLU": {
+      "name": "Relampago en cadena"
+    },
+    "Qf6CAZkc7ms4ZY3e": {
+      "name": "Buenas bayas"
+    },
+    "QvGcdRUSNRKEQJlK": {
+      "name": "Moldear la piedra"
+    },
+    "ReMbjfeOKoSj3O79": {
+      "name": "Piel pétrea"
+    },
+    "RpKjTlYASrfqUPVA": {
+      "name": "Cono de frío"
+    },
+    "RvEqsD89Zvd5yex4": {
+      "name": "Aura mágica de arcanista"
+    },
+    "S7VbUetIfVT7B6Eq": {
+      "name": "Oscuridad"
+    },
+    "SAj03P2WBDiWu7zu": {
+      "name": "Mastín fiel"
+    },
+    "SLxA9QhrggTz0taU": {
+      "name": "Consagrar"
+    },
+    "SbSvZKkJASyk8jKo": {
+      "name": "Saber Druidico"
+    },
+    "Sgjrf8qqv97CCWM4": {
+      "name": "Arma mágica"
+    },
+    "SgrEKiC6dAtvy6Pz": {
+      "name": "Invocación instantánea"
+    },
+    "SleYkHovQ8NagmeV": {
+      "name": "Localizar objeto"
+    },
+    "Szvk5FEVQW3uhJi5": {
+      "name": "Acelerar"
+    },
+    "T1vpZLam7LezjToj": {
+      "name": "Palabra divina"
+    },
+    "TIoadMIsUKD4edXi": {
+      "name": "Proyección astral"
+    },
+    "TfRzwEgBHHkCc6Ql": {
+      "name": "Baile irresistible"
+    },
+    "TgHsuhNasPbhu8MO": {
+      "name": "Guardian de la fe"
+    },
+    "TkJ8Wtg1L7TZtspm": {
+      "name": "Disipar el bien y el mal"
+    },
+    "TwlD4PLcltv7Xh7j": {
+      "name": "Nube apestosa"
+    },
+    "UDUnlfPsOAbq2RSE": {
+      "name": "Contorno borroso"
+    },
+    "UJJu9c2UvCzVljiP": {
+      "name": "Telaraña"
+    },
+    "UfHQhA54M4323gVO": {
+      "name": "Toque vampírico"
+    },
+    "Utk1OQRwYkMkFRD3": {
+      "name": "Mano de mago"
+    },
+    "VtCXMdyM6mAdIJZb": {
+      "name": "Guarda contra la muerte"
+    },
+    "VzgFzcmocr1X1cp4": {
+      "name": "Shillelagh"
+    },
+    "W4Qx5z0id6da0vqg": {
+      "name": "Conocer las leyendas"
+    },
+    "WN2LWEljYU6QqnRH": {
+      "name": "Tormenta de hielo"
+    },
+    "WTbOQBsarsL1LuXJ": {
+      "name": "Ola atronadora"
+    },
+    "WahI41a3goVUg0x1": {
+      "name": "Agrandar/Reducir"
+    },
+    "Wl2vtJ4hCt2tpWfR": {
+      "name": "Terror abyecto"
+    },
+    "WmQpxfjZwF3MGUby": {
+      "name": "Globo de invulnerabilidad"
+    },
+    "WzvJ7G3cqvIubsLk": {
+      "name": "Restablecimiento mayor"
+    },
+    "X3DrXgxjwI2dvkD6": {
+      "name": "Muro de fuego"
+    },
+    "X4c8xCkmF8U9HUMz": {
+      "name": "Imagen múltiple"
+    },
+    "X8w9EzYLGc4vQ1H2": {
+      "name": "Mensajero animal"
+    },
+    "XT7nzJmVGgv73uaf": {
+      "name": "Conjurar celestial"
+    },
+    "XXUDGFELgoskdOD0": {
+      "name": "Terror"
+    },
+    "XZhdgVK3cLoxNCQl": {
+      "name": "Levantar maldición"
+    },
+    "XbwGq5kDJNvAxNXV": {
+      "name": "Portal"
+    },
+    "XqzXSKNR75ZdYTA9": {
+      "name": "Adivinacion"
+    },
+    "XvbiNhNqXXIFisIy": {
+      "name": "Agarre electrizante"
+    },
+    "XzkJpE6XpZfKjODD": {
+      "name": "Visión veraz"
+    },
+    "Y6oItIuhOJZ0i0FC": {
+      "name": "Curar en masa"
+    },
+    "Y7uWUO4yqUN0JKl0": {
+      "name": "Jaula de fuerza"
+    },
+    "YBda6nLKjxdT1LbS": {
+      "name": "Caminar sobre las aguas"
+    },
+    "YWtwzp6ZnQJMEmVW": {
+      "name": "Crecimiento vegetal"
+    },
+    "Z9p1vezIn95jw1Yw": {
+      "name": "Descarga sobrenatural"
+    },
+    "ZPd73HtKF3At11jh": {
+      "name": "Controlar el clima"
+    },
+    "ZRqu3Xh9FmlBCZGy": {
+      "name": "Mal de Ojo"
+    },
+    "ZU9d6woBdUP8pIPt": {
+      "name": "Señal de esperanza"
+    },
+    "ZVnL9L8v1KC9TBF4": {
+      "name": "Cautiverio"
+    },
+    "ZrTc23tToJ0JpH2h": {
+      "name": "Salto"
+    },
+    "a2KJHCIbY5Mi4Dmn": {
+      "name": "Mano arcana"
+    },
+    "a3XtAO5n2GrqiAh5": {
+      "name": "Crear o destruir agua"
+    },
+    "aL1F8fvYLtNzUbKu": {
+      "name": "Hablar con los animales"
+    },
+    "aU62xVUBYkAQWIHv": {
+      "name": "Indetectable"
+    },
+    "ap4dmtshjEbwU3Ts": {
+      "name": "Truco de la cuerda"
+    },
+    "arzCrMRgcNiQuh43": {
+      "name": "Orden imperiosa"
+    },
+    "avD5XUtkBPQQR97c": {
+      "name": "Escudo de fuego"
+    },
+    "bA2sk9eMKBeY7EPD": {
+      "name": "Ilusión programada"
+    },
+    "bV3yun6MIuFj71Er": {
+      "name": "Rayo de luna"
+    },
+    "bllEWfm9xfEKynhv": {
+      "name": "Mente en blanco"
+    },
+    "bnjXlk13ZRJuf5d0": {
+      "name": "Disco flotante"
+    },
+    "cYI4RNNjI5GAmLhy": {
+      "name": "Encontrar el camino"
+    },
+    "ccduLIvutyNqvkgv": {
+      "name": "Sirviente invisible"
+    },
+    "cdrYKaFi98YWaBMw": {
+      "name": "Burla dañina"
+    },
+    "cg50KpBkBdPK6vPL": {
+      "name": "Clarividencia"
+    },
+    "clwv2PWOcT822hlr": {
+      "name": "Laberinto"
+    },
+    "ctW81uiX56xZR2c5": {
+      "name": "Rayo de escarcha"
+    },
+    "czXrVRx6XYRWsHAi": {
+      "name": "Insecto gigante"
+    },
+    "d54VDyFulD9xxY7J": {
+      "name": "Comunión"
+    },
+    "d9MwcXi7Il3HROXd": {
+      "name": "Pasamuros"
+    },
+    "dEfSELiY1eO3cpX9": {
+      "name": "Conjurar seres del bosque"
+    },
+    "dLJhxDfeyOsc3zsY": {
+      "name": "Barrera de cuchillas"
+    },
+    "dSTu1MaPhBqPITwM": {
+      "name": "Contactar con otro plano"
+    },
+    "da0a1t2FqaTjRZGT": {
+      "name": "Libertad de movimiento"
+    },
+    "dhqBY4TvVjxVmOZd": {
+      "name": "Tormenta de aguanieve"
+    },
+    "dl8YwvMboBqX2OC4": {
+      "name": "Resistencia"
+    },
+    "dmvaMLFWFtv0qx0S": {
+      "name": "Palabra de poder: matar"
+    },
+    "dp6xny4v8PDoIGjh": {
+      "name": "Comunión con la naturaleza"
+    },
+    "eCPQuQkIabFKTl9u": {
+      "name": "Crear llama"
+    },
+    "eEpy1ONlXumKS1mp": {
+      "name": "Dominar monstruo"
+    },
+    "eGMhwmuleAM46C6L": {
+      "name": "Rociada prismática"
+    },
+    "ePhRKHXRE7l1sEoQ": {
+      "name": "Proyectar imagen"
+    },
+    "eS7XnnApoxRxYXPs": {
+      "name": "Hechizar persona"
+    },
+    "ehvmg9U9fcMEhE4z": {
+      "name": "Llamar al relámpago"
+    },
+    "ej6wyY4G1gOcb1U6": {
+      "name": "Urna mágica"
+    },
+    "etgcR9wqmrhyZ0tx": {
+      "name": "Grasa"
+    },
+    "ew6GA8dJy2spQmFW": {
+      "name": "Muro de viento"
+    },
+    "f38w5rd9SgdmWc6F": {
+      "name": "Espejísmo arcano"
+    },
+    "fVbCxFRaORalHB20": {
+      "name": "Escudriñar"
+    },
+    "fkREcytuZ8sngWtC": {
+      "name": "Aliado planar"
+    },
+    "fzZnVKLmBMo2f5up": {
+      "name": "Muro de hielo"
+    },
+    "g2u9PYfqWQAyg9OI": {
+      "name": "Rociada venenosa"
+    },
+    "gMrWeG8fMDPRFiVe": {
+      "name": "Enmarañar"
+    },
+    "gXtzz9t1DTzJeLr4": {
+      "name": "Localizar criatura"
+    },
+    "ge3Saet9zPTDyaoL": {
+      "name": "Heroísmo"
+    },
+    "ghXTfe7sgCbgf1Q8": {
+      "name": "Detectar magia"
+    },
+    "gopnZvS0c2jD5FP8": {
+      "name": "Don de lenguas"
+    },
+    "gvdA9nPuWLck4tBl": {
+      "name": "Santuario"
+    },
+    "h830iyqParFleNqR": {
+      "name": "Clon"
+    },
+    "hDOENzjuj5WpLq7B": {
+      "name": "Encantar animal"
+    },
+    "hJ6ZiA3fpoY8v9cp": {
+      "name": "Visión en la oscuridad"
+    },
+    "hYCrN82dMJFuJODB": {
+      "name": "Romper la mente"
+    },
+    "hzK7FQya0BDjSmLE": {
+      "name": "Explosión solar"
+    },
+    "icZokbgV1jIMpNCv": {
+      "name": "Mensaje"
+    },
+    "j8NtLXOOJ3GAKF8I": {
+      "name": "Protección contra energía"
+    },
+    "j8S49Rea8b1640Zi": {
+      "name": "Aura sagrada"
+    },
+    "jZ6JNykRtdQ90MOo": {
+      "name": "Escudo de fe"
+    },
+    "jccbeBIfLrqEZnDP": {
+      "name": "Simulacro"
+    },
+    "jhhT9PsHy5A7EojO": {
+      "name": "Resurrección"
+    },
+    "jmfu8zj4zjjzUbeh": {
+      "name": "Muro prismático"
+    },
+    "kSPRpeIx3w3nihrF": {
+      "name": "Ensueño"
+    },
+    "kjmjY0zlE6IEiQVL": {
+      "name": "Reparar"
+    },
+    "kozNy29b0X6exFhY": {
+      "name": "De la carne a la piedra"
+    },
+    "ksaaTxIbKx2sJfia": {
+      "name": "Inflingir heridas"
+    },
+    "l9Ju5KE7bbn3WpTm": {
+      "name": "Inmovilizar monstruo"
+    },
+    "lnaGnxMzpYnbw1uU": {
+      "name": "Creación"
+    },
+    "mF52ldF79Cr7wfQo": {
+      "name": "Tormenta de meteoritos"
+    },
+    "mGGlcLdggHwcL7MG": {
+      "name": "Impacto certero"
+    },
+    "mbFw57uyfLkyiw5k": {
+      "name": "Apariencia"
+    },
+    "mgFqi0ev8f7Ut19y": {
+      "name": "Festín de los héroes"
+    },
+    "n4JDcFKe5ikzYmAc": {
+      "name": "Dulce descanso"
+    },
+    "n9pJzTDsAwQxJVRl": {
+      "name": "Llama sagrada"
+    },
+    "nqBDWkVOfcGZt4YU": {
+      "name": "Fuego feérico"
+    },
+    "nslx2nT3p4lNkmdp": {
+      "name": "Imagen mayor"
+    },
+    "o8Dh7fblk1d16tnO": {
+      "name": "Palabra de curación"
+    },
+    "o9ZCvuD2B1OTcubb": {
+      "name": "Muro de fuerza"
+    },
+    "oIzA2MEHwxhtQneU": {
+      "name": "Ilusión menor"
+    },
+    "ohqAIBg6de989CIo": {
+      "name": "Aspectos animales"
+    },
+    "oyE5nVppa5mde5gT": {
+      "name": "Animar a los muertos"
+    },
+    "pB7XVYwdGNcUG935": {
+      "name": "Glifo custodio"
+    },
+    "pO4zGe5LmFIYqJiL": {
+      "name": "Imponer maldicion"
+    },
+    "pRMvmknwLf2tdMTj": {
+      "name": "Pasar sin rastro"
+    },
+    "pV04y1iXoWiom6bp": {
+      "name": "Nube incendiaria"
+    },
+    "pn4SnsFDvYDiE6rC": {
+      "name": "Mansion magnífica"
+    },
+    "ppWAAEul0QHtm4er": {
+      "name": "Detectar pensamientos"
+    },
+    "pub0OWVEB71XQx1n": {
+      "name": "Caída de pluma"
+    },
+    "pxpb2eOB6bv4phAf": {
+      "name": "Destierro"
+    },
+    "pybg5MNc3lkerH4Y": {
+      "name": "Marchitar"
+    },
+    "qLeEXZDbW5y4bmLY": {
+      "name": "Resurrección verdadera"
+    },
+    "qcYitWoSMTnKkzM1": {
+      "name": "Curar"
+    },
+    "r3243JU4AyQJyfX4": {
+      "name": "Alterar los recuerdos"
+    },
+    "s7nXgot5gGZVcMrv": {
+      "name": "Viajar mediante plantas"
+    },
+    "sTIkQK7KuQNOyY0C": {
+      "name": "Terreno alucinatorio"
+    },
+    "tEpDmYZNGc9f5OhJ": {
+      "name": "Invisibilidad mejorada"
+    },
+    "tMH6Ivn4GmE1naMj": {
+      "name": "Dañar"
+    },
+    "uAwtVZkiSTyP6ORB": {
+      "name": "Enlace telepático"
+    },
+    "uCud2s4TjMfjiXUb": {
+      "name": "Espíritus guardianes"
+    },
+    "uUWb1wZgtMou0TVP": {
+      "name": "Curar heridas"
+    },
+    "udsLtG0BugXHR2JQ": {
+      "name": "Prestidigitación"
+    },
+    "vrN18tbTw7io5MWd": {
+      "name": "Toque helado"
+    },
+    "wJKpSvSTbSkTjqyb": {
+      "name": "Hacer añicos"
+    },
+    "wXzkqpeFP8eWgJzK": {
+      "name": "Caparazón antivida"
+    },
+    "wpx42mtoZ5BmXRs1": {
+      "name": "Corcel fantasmal"
+    },
+    "wqfAVANuQonNBgnL": {
+      "name": "Paso brumoso"
+    },
+    "wvLbtemkH8gyBpdc": {
+      "name": "Recluir"
+    },
+    "x5JNBSyIBBZsjcGT": {
+      "name": "Terremoto"
+    },
+    "xNM9CzQQr2CieM4B": {
+      "name": "Semiplano"
+    },
+    "xmDBqZhRVrtLP8h2": {
+      "name": "Protección contra el bien y el mal"
+    },
+    "y8A4HfTwd93ypdEz": {
+      "name": "Círculo mágico"
+    },
+    "yI0XWIgI0IGGsR3R": {
+      "name": "Mover la tierra"
+    },
+    "yN3XZZujhR4aVvPa": {
+      "name": "Conjurar feerico"
+    },
+    "yfbK8gZqESlaoY5t": {
+      "name": "Volar"
+    },
+    "yqUDoxk4x0NWG5Bz": {
+      "name": "Ralentizar"
+    },
+    "yw0tYQkOMCgKZ8Ur": {
+      "name": "Guardas y guardias"
+    },
+    "z1mx84ONwkXKUZd7": {
+      "name": "Escudo"
+    },
+    "zMAWdyc8UVb37BK4": {
+      "name": "Sugestión"
+    },
+    "zMEo5DKK8uxsuWnq": {
+      "name": "Reencarnar"
+    },
+    "zPGohqJRir6MyQ3U": {
+      "name": "Retirada expeditiva"
+    },
+    "ztgcdrWPshKRpFd0": {
+      "name": "Bola de fuego"
+    },
+    "zwGsAv6kmwzYGhh3": {
+      "name": "Sordera/Ceguera"
+    }
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "text_replacements": [
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "remove Search paren",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search caption",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search header skill",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search header detect",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search insight",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search state of mind",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search medicine",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search ailment",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search perception",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search concealed",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search survival",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "field": "text",
+      "label": "search tracks",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "remove Study paren",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study caption",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study header skill",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study header areas",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study arcana noop",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study arcana text",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study history",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study history text",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study investigation",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study investigation text",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study nature",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study nature text",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study religion",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "field": "text",
+      "label": "study religion text",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "UDlogfdiT2uYEZz4",
+      "field": "text",
+      "label": "utilize paren",
+      "count": 1
+    },
+    {
+      "entry": "phbSpeciesDescri",
+      "page": "BKZ4ViHHUMxaqPz4",
+      "field": "text",
+      "label": "gnome spell paren",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "OP0YhS6iOm4yfPIt",
+      "field": "text",
+      "label": "outer planes paren",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "OP0YhS6iOm4yfPIt",
+      "field": "text",
+      "label": "attunement dead page",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "CpD1zLLviYjS9FBX",
+      "field": "text",
+      "label": "attunement page",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "IL73rq9BlQowdon7",
+      "field": "text",
+      "label": "armor class",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "IL73rq9BlQowdon7",
+      "field": "text",
+      "label": "attack roll label",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "prone in glossary",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "glossary headers",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "AC",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "C",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "CE",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "CG",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "Cha",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "CN",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "Con",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "CP",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "CR",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "DC",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "Dex",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "DM noop",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "EP",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "GP",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "HP",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "Int",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "LE",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "LG",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "LN",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "M",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "N noop",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "NE",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "NG",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "NPC",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "PB",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "PP",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "R noop",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "S",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "SP",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "Str",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "V",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "Wis",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "field": "text",
+      "label": "XP",
+      "count": 1
+    },
+    {
+      "entry": "phbCraftingEquip",
+      "page": "ggAFS76FpMT6lJ9N",
+      "field": "text",
+      "label": "spell scrolls plural",
+      "count": 1
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "YSB1QtxZW2BI9f4Y",
+      "field": "text",
+      "label": "spell scrolls plural 2",
+      "count": 1
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "b2QVn25z2N1ykWpf",
+      "field": "text",
+      "label": "spell scroll singular",
+      "count": 1
+    },
+    {
+      "entry": "phbRogue00000000",
+      "page": "BiqRuwpBfYi32N2p",
+      "field": "description",
+      "label": "thief subclass label",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterClas",
+      "page": "jlSMyO89AI0ZtQjd",
+      "field": "text",
+      "label": "wild magic label",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "St3ANvrKOgxECnTn",
+      "field": "text",
+      "label": "chapter 1 label",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "8gPSPovZD9reqFet",
+      "field": "text",
+      "label": "chapter 1 combat label",
+      "count": 1
+    },
+    {
+      "entry": "phbExploration00",
+      "page": "kkgGDm3VQW8EGsnV",
+      "field": "text",
+      "label": "chapter 6 label",
+      "count": 1
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "9gz1xBZF5YsMScrk",
+      "field": "text",
+      "label": "chapter 6 label 2",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "I4pMIU6bhnyHnTlm",
+      "field": "text",
+      "label": "class label",
+      "count": 1
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "cfhVAnmKmLQ5RUmD",
+      "field": "text",
+      "label": "alchemists fire label",
+      "count": 1
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "GCvg8n7Q7ltSPRxe",
+      "field": "text",
+      "label": "poisoners kit label",
+      "count": 1
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "cfhVAnmKmLQ5RUmD",
+      "field": "text",
+      "label": "scroll cantrip label",
+      "count": 1
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "xIDcbjgXOndS8zRl",
+      "field": "text",
+      "label": "scroll cantrip label 2",
+      "count": 1
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "cfhVAnmKmLQ5RUmD",
+      "field": "text",
+      "label": "scroll l1 label",
+      "count": 1
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "xIDcbjgXOndS8zRl",
+      "field": "text",
+      "label": "scroll l1 label 2",
+      "count": 1
+    },
+    {
+      "entry": "phbSocialInterac",
+      "page": "Cs8ij3IkT7xRhP15",
+      "field": "text",
+      "label": "social search",
+      "count": 1
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "ujhsaI8nVkjXwMHD",
+      "field": "text",
+      "label": "spell effects study",
+      "count": 1
+    },
+    {
+      "entry": "phbSpeciesDescri",
+      "page": "BKZ4ViHHUMxaqPz4",
+      "field": "text",
+      "label": "gnome utilize",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "YD1uHIdQFEjpRZY9",
+      "field": "text",
+      "label": "species label",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "YD1uHIdQFEjpRZY9",
+      "field": "text",
+      "label": "species creature type",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "YD1uHIdQFEjpRZY9",
+      "field": "text",
+      "label": "species size",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "YD1uHIdQFEjpRZY9",
+      "field": "text",
+      "label": "species speed",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "YD1uHIdQFEjpRZY9",
+      "field": "text",
+      "label": "species speed text",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "YD1uHIdQFEjpRZY9",
+      "field": "text",
+      "label": "species special traits",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "rT7WsIIPWp54Zvsg",
+      "field": "text",
+      "label": "backgrounds label",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "rT7WsIIPWp54Zvsg",
+      "field": "text",
+      "label": "background ability scores",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "rT7WsIIPWp54Zvsg",
+      "field": "text",
+      "label": "background feat",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "rT7WsIIPWp54Zvsg",
+      "field": "text",
+      "label": "background skill prof",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "rT7WsIIPWp54Zvsg",
+      "field": "text",
+      "label": "background tool prof",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "rT7WsIIPWp54Zvsg",
+      "field": "text",
+      "label": "background artisans tools",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "I4pMIU6bhnyHnTlm",
+      "field": "text",
+      "label": "old books label",
+      "count": 1
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "ibFcHkHH1icuT3l8",
+      "field": "text",
+      "label": "alchemist supplies label",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "field": "text",
+      "label": "changelog study",
+      "count": 1
+    }
+  ],
+  "pages_modified": [
+    {
+      "entry": "phbAppendixCRule",
+      "page": "8gPSPovZD9reqFet",
+      "name": "Sorpresa"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "CpD1zLLviYjS9FBX",
+      "name": "Sintonía"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "FvDonO0qOQWp1RIw",
+      "name": "Convenciones del glosario"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "IL73rq9BlQowdon7",
+      "name": "Clase de armadura"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "Nuz0Wx4a4aAPcC34",
+      "name": "Estudiar"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "OP0YhS6iOm4yfPIt",
+      "name": "Muerto"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "St3ANvrKOgxECnTn",
+      "name": "Bloque de estadísticas"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "UDlogfdiT2uYEZz4",
+      "name": "Utilizar"
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "ySj4gYZ4ADZoia7R",
+      "name": "Buscar"
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "name": "2.0.0"
+    },
+    {
+      "entry": "phbCharacterClas",
+      "page": "jlSMyO89AI0ZtQjd",
+      "name": "Visión general"
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "I4pMIU6bhnyHnTlm",
+      "name": "Visión general"
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "YD1uHIdQFEjpRZY9",
+      "name": "Especies de personaje"
+    },
+    {
+      "entry": "phbCharacterOrig",
+      "page": "rT7WsIIPWp54Zvsg",
+      "name": "Trasfondos de personaje"
+    },
+    {
+      "entry": "phbCraftingEquip",
+      "page": "ggAFS76FpMT6lJ9N",
+      "name": "Introducción"
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "GCvg8n7Q7ltSPRxe",
+      "name": "Otras herramientas"
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "cfhVAnmKmLQ5RUmD",
+      "name": "Tabla de equipo de aventura"
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "ibFcHkHH1icuT3l8",
+      "name": "Herramientas de artesano"
+    },
+    {
+      "entry": "phbEquipment0000",
+      "page": "xIDcbjgXOndS8zRl",
+      "name": "Lista de equipo de aventura"
+    },
+    {
+      "entry": "phbExploration00",
+      "page": "kkgGDm3VQW8EGsnV",
+      "name": "Equipo de aventura"
+    },
+    {
+      "entry": "phbRogue00000000",
+      "page": "BiqRuwpBfYi32N2p",
+      "name": "Ladrón"
+    },
+    {
+      "entry": "phbSocialInterac",
+      "page": "Cs8ij3IkT7xRhP15",
+      "name": "Ejemplo de interacción social"
+    },
+    {
+      "entry": "phbSpeciesDescri",
+      "page": "BKZ4ViHHUMxaqPz4",
+      "name": "Gnomo"
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "9gz1xBZF5YsMScrk",
+      "name": "Componentes"
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "YSB1QtxZW2BI9f4Y",
+      "name": "Nivel del conjuro"
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "b2QVn25z2N1ykWpf",
+      "name": "Obtener conjuros"
+    },
+    {
+      "entry": "phbSpells0000000",
+      "page": "ujhsaI8nVkjXwMHD",
+      "name": "Efectos"
+    }
+  ],
+  "summary": {
+    "entries_modified": 11,
+    "pages_modified": 27,
+    "replacements_total": 102
+  },
+  "label_counts": {
+    "AC": 1,
+    "C": 1,
+    "CE": 1,
+    "CG": 1,
+    "CN": 1,
+    "CP": 1,
+    "CR": 1,
+    "Cha": 1,
+    "Con": 1,
+    "DC": 1,
+    "DM noop": 1,
+    "Dex": 1,
+    "EP": 1,
+    "GP": 1,
+    "HP": 1,
+    "Int": 1,
+    "LE": 1,
+    "LG": 1,
+    "LN": 1,
+    "M": 1,
+    "N noop": 1,
+    "NE": 1,
+    "NG": 1,
+    "NPC": 1,
+    "PB": 1,
+    "PP": 1,
+    "R noop": 1,
+    "S": 1,
+    "SP": 1,
+    "Str": 1,
+    "V": 1,
+    "Wis": 1,
+    "XP": 1,
+    "alchemist supplies label": 1,
+    "alchemists fire label": 1,
+    "armor class": 1,
+    "attack roll label": 1,
+    "attunement dead page": 1,
+    "attunement page": 1,
+    "background ability scores": 1,
+    "background artisans tools": 1,
+    "background feat": 1,
+    "background skill prof": 1,
+    "background tool prof": 1,
+    "backgrounds label": 1,
+    "changelog study": 1,
+    "chapter 1 combat label": 1,
+    "chapter 1 label": 1,
+    "chapter 6 label": 1,
+    "chapter 6 label 2": 1,
+    "class label": 1,
+    "glossary headers": 1,
+    "gnome spell paren": 1,
+    "gnome utilize": 1,
+    "old books label": 1,
+    "outer planes paren": 1,
+    "poisoners kit label": 1,
+    "prone in glossary": 1,
+    "remove Search paren": 1,
+    "remove Study paren": 1,
+    "scroll cantrip label": 1,
+    "scroll cantrip label 2": 1,
+    "scroll l1 label": 1,
+    "scroll l1 label 2": 1,
+    "search ailment": 1,
+    "search caption": 1,
+    "search concealed": 1,
+    "search header detect": 1,
+    "search header skill": 1,
+    "search insight": 1,
+    "search medicine": 1,
+    "search perception": 1,
+    "search state of mind": 1,
+    "search survival": 1,
+    "search tracks": 1,
+    "social search": 1,
+    "species creature type": 1,
+    "species label": 1,
+    "species size": 1,
+    "species special traits": 1,
+    "species speed": 1,
+    "species speed text": 1,
+    "spell effects study": 1,
+    "spell scroll singular": 1,
+    "spell scrolls plural": 1,
+    "spell scrolls plural 2": 1,
+    "study arcana noop": 1,
+    "study arcana text": 1,
+    "study caption": 1,
+    "study header areas": 1,
+    "study header skill": 1,
+    "study history": 1,
+    "study history text": 1,
+    "study investigation": 1,
+    "study investigation text": 1,
+    "study nature": 1,
+    "study nature text": 1,
+    "study religion": 1,
+    "study religion text": 1,
+    "thief subclass label": 1,
+    "utilize paren": 1,
+    "wild magic label": 1
+  }
+}

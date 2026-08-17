@@ -1,0 +1,732 @@
+{
+  "_id": "gZiUvbXWLs0pOp0c",
+  "name": "Paladín",
+  "type": "class",
+  "img": "icons/commodities/treasure/token-gold-gem-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Como paladín, obtienes los siguientes ragos de clase.</p><h3>Puntos de Golpe</h3><p><strong>Dados de Golpe:</strong> 1d10 por nivel de paladín<br /><strong>Puntos de Golpe a nivel 1:</strong> 10 + tu modificador por Constitución<br /><strong>Puntos de Golpe a niveles superiores:</strong> 1d10 (o 6) + tu modificador por Constitución por cada nivel de paladín por encima del primero</p><h3>Competencias</h3><p><strong>Armadura:</strong> todas las armaduras y escudos<br /><strong>Armas:</strong> Armas sencillas y marciales<br /><strong>Herramientas:</strong> Ninguna<br /><strong>Tiradas de Salvación:</strong> Sabiduría, Carisma<br /><strong>Habilidades:</strong> elige dos de entre Atletismo, Intimidación, Medicina, Perspicacia, Persuasión y Religión</p><h3>Equipo</h3><p>Además del equipo que obtengas por tu trasfondo, empiezas con el siguiente equipo:</p><ul><li>(a) un arma marcial y un escudo o (b) dos armas marciales</li><li>(a) cinco jabalinas o (b) cualquier arma cuerpo a cuerpo sencilla</li><li>(a) un paquete de sacerdote o (b) un paquete de explorador</li><li>Cota de malla y un símbolo sagrado</li></ul><h1>El Paladín</h1><table><thead><tr><td>Nivel</td><td>Bon. por competencia</td><td>Rasgos</td></tr></thead><tbody><tr><td>1</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.E8ozg8avUVOX9N7u]{Sentidos Divinos}, @UUID[Compendium.dnd5e.classfeatures.Item.OdrvL3afwLOPeuYZ]{Imponer las Manos}</td></tr><tr><td>2</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Ho7dVxBlOYFlfBHk]{Estilo de Combate}, @UUID[Compendium.dnd5e.classfeatures.Item.ihoQHsmVZlyDbPhX]{Lanzamiento de Conjuros}, @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Castigo Divino}</td></tr><tr><td>3</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.dY9yrqkyEDuF0CG2]{Salud Divina}, @UUID[Compendium.dnd5e.classfeatures.Item.olAqNsUTIef9x8xC]{Juramento Sagrado}, @UUID[Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo]{Canalizar Divinidad}</td></tr><tr><td>4</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>5</td><td>+3</td><td>Espacio para Conjuro de Nivel 2, @UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Ataque Adicional}</td></tr><tr><td>6</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.carGDhkIdoduTC0I]{Aura de Protección}</td></tr><tr><td>7</td><td>+3</td><td>Rasgo de Juramento Sagrado</td></tr><tr><td>8</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>9</td><td>+4</td><td>Espacio para Conjuro de Nivel 3</td></tr><tr><td>10</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.nahSkBO6LH4HkpaT]{Aura de Coraje}</td></tr><tr><td>11</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FAk41RPCTcvCk6KI]{Castigo Divino Mejorado}</td></tr><tr><td>12</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>13</td><td>+5</td><td>Espacio para Conjuro de Nivel 4</td></tr><tr><td>14</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.U7BIPVPsptBmwsnV]{Toque Purificador}</td></tr><tr><td>15</td><td>+5</td><td>Rasgo de Juramento Sagrado</td></tr><tr><td>16</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>17</td><td>+6</td><td>Espacio para Conjuro de Nivel 5</td></tr><tr><td>18</td><td>+6</td><td>Mejora de Auras</td></tr><tr><td>19</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td></tr><tr><td>20</td><td>+6</td><td>Rasgo de Juramento Sagrado</td></tr></tbody></table><h1>Juramentos Sagrados</h1><p>Convertirse en un paladín implica tomar unos votos que te compromenten con la causa de la justicia, en una lucha constante contra la maldad. El juramento definitivo, que tomas cuando llegas a nivel 3, es la culminación del entrenamiento de un paladín. Algunos personajes de esa clase no se consideran a sí mismos auténticos paladines hasta que no han alcanzado el nivel 3 y pronunciado su juramento. No obstante, para otros esto no es más que un formalismo, un sello oficial sobre algo que siempre estuvo en el corazón del paladín.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.sZ86mbX8D5PfYuhl]{Juramento de Entrega}</p><h3>Romper tu Juramento</h3><p>Un paladín siempre intenta alcanzar los más altos estándares de conducta, pero incluso el más virtuoso de ellos es falible. A veces el camino correcto es demasiado exigente, una situación fuerza a elegir el menor de dos males o el calor de las emociones hace que un paladín viole su propio juramento.</p><p>Lo normal es que un paladín que haya roto sus votos busque que un clérigo que comparta su fe u otro paladín de la misma orden le absuelva. El paladín podría pasar una noche entera de vigilia, rezando, como señal de penitencia. Una alternativa es ayunar o llevar a cabo cualquier otro acto de sacrificio. Tras finalizar el rito de la confesión y el perdón, el paladín puede hacer borrón y cuenta nueva.</p><p>Si un paladín viola su juramento a sabiendas y no muestra señal alguna de arrepentimiento, las consecuencias pueden ser mucho más serias. Si el DM lo considera oportuno, el paladín impenitente podría verse forzado a abandonar su clase y adoptar otra.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "paladin",
+    "levels": 1,
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "title": "Hit Points",
+        "icon": "systems/dnd5e/icons/svg/hit-points.svg",
+        "_id": "N4T7S8KXXZKskROj"
+      },
+      {
+        "_id": "qfbfR422hrwjwWyd",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:hvy",
+            "armor:shl"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "2pEp37GeIGCBdiqU",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "aIeuTIJdiKMaChi8",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "ZZIWxV7EaHl6GVcu",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:ath",
+                "skills:ins",
+                "skills:itm",
+                "skills:med",
+                "skills:per",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "_id": "qd6RxOGs50LR5Lea",
+        "classRestriction": "secondary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "LYiiMtwvVVXZs8yE",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "ci:diseased"
+          ],
+          "choices": []
+        },
+        "level": 3,
+        "title": "Divine Health",
+        "value": {
+          "chosen": []
+        },
+        "hint": "The divine magic flowing through you makes you immune to disease."
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.E8ozg8avUVOX9N7u",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.OdrvL3afwLOPeuYZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Features",
+        "_id": "HL6Kwpmrsz5yqmBK"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Ho7dVxBlOYFlfBHk",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.ihoQHsmVZlyDbPhX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.ySMPQ6zNSlvkrl2f",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Features",
+        "_id": "RwqEtAP5aJqHIW5J"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.dY9yrqkyEDuF0CG2",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.olAqNsUTIef9x8xC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.8M7uOPhbTxoxxJSo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Features",
+        "_id": "ki8eEksoSjfOHDcF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.XogoBnFWmCAHXppo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Features",
+        "_id": "WaoJQunO9O2pdC1g"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.carGDhkIdoduTC0I",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Features",
+        "_id": "Gs5c5ciErsG3NDyW"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.nahSkBO6LH4HkpaT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Features",
+        "_id": "teLWeatpgzXs5uCc"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.FAk41RPCTcvCk6KI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Features",
+        "_id": "BWhYgjLNVypoHyqZ"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.U7BIPVPsptBmwsnV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Features",
+        "_id": "63s9ja0RR4UkfHCN"
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.zSlV0O2rQMdoq6pB"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.hCop9uJrWhF1QPb4"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.3Nc6u9pyStByuJsm"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.06NVMYf58Z76O85O"
+            }
+          ],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          },
+          "restriction": {
+            "type": "class",
+            "subtype": "fightingStyle",
+            "level": "",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Fighting Style",
+        "_id": "GPzUDRFo5bfrhU1K",
+        "hint": "Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again."
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "Ability Score Improvement",
+        "_id": "ASKyHbSBAKRIU6i3"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "Ability Score Improvement",
+        "_id": "iBK2dJf2hwv9vOBI"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "Ability Score Improvement",
+        "_id": "BI8DBqJZY8O9orOX"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "Ability Score Improvement",
+        "_id": "hKEbRRkEEfvA3ydq"
+      },
+      {
+        "_id": "puDaUsYrlks0z5gm",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": ""
+      },
+      {
+        "_id": "J6UYtKD0wkJQ9CHT",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "aura-radius",
+          "type": "distance",
+          "distance": {
+            "units": "ft"
+          },
+          "scale": {
+            "6": {
+              "value": 10
+            },
+            "18": {
+              "value": 30
+            }
+          }
+        },
+        "value": {},
+        "title": "Aura Radius"
+      },
+      {
+        "_id": "n22j60yn24fqr3sy",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "Sacred Oath"
+      }
+    ],
+    "spellcasting": {
+      "progression": "half",
+      "ability": "cha",
+      "preparation": {
+        "formula": "@abilities.cha.mod + floor(@classes.paladin.levels / 2)"
+      }
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "_id": "mNW3DhRGE7hORMia",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "AND",
+        "_id": "qtoUTXznLIdqzLDC",
+        "group": "mNW3DhRGE7hORMia",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "mar",
+        "_id": "sMUMbtr7U7orGlw1",
+        "group": "qtoUTXznLIdqzLDC",
+        "sort": 650000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "armor",
+        "count": null,
+        "key": "shield",
+        "_id": "RCUC6iX1bx8RbdYi",
+        "group": "qtoUTXznLIdqzLDC",
+        "sort": 700000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": 2,
+        "key": "mar",
+        "_id": "qpxs0rk4lOYOveVf",
+        "group": "mNW3DhRGE7hORMia",
+        "sort": 800000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "OR",
+        "_id": "KU6igyNLG0PRlFkl",
+        "group": "",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": 5,
+        "key": "Compendium.dnd5e.items.Item.DWLMnODrnHn8IbAG",
+        "_id": "PJ66eV1adKQqkHvZ",
+        "group": "KU6igyNLG0PRlFkl",
+        "sort": 900000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "simpleM",
+        "_id": "qbjwGvxDVuBdPxjg",
+        "group": "KU6igyNLG0PRlFkl",
+        "sort": 1000000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "OR",
+        "_id": "WpRsbaUbRDpHYmTY",
+        "group": "",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.6BybWxK5GcEzqcOV",
+        "_id": "jeQyetu8yEeSivyL",
+        "group": "WpRsbaUbRDpHYmTY",
+        "sort": 1100000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "_id": "GWGVhytRaKQXNUna",
+        "group": "WpRsbaUbRDpHYmTY",
+        "sort": 1200000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "AND",
+        "_id": "lYcSORTIlg5LwdX7",
+        "group": "",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.rLMflzmxpe8JGTOA",
+        "_id": "REA8qwWfZCpl5ZqP",
+        "group": "lYcSORTIlg5LwdX7",
+        "sort": 1300000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "focus",
+        "count": null,
+        "key": "holy",
+        "_id": "9ELn1dIN7WY1YJb8",
+        "group": "lYcSORTIlg5LwdX7",
+        "sort": 1400000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "5d4 * 10",
+    "primaryAbility": {
+      "value": [],
+      "all": true
+    },
+    "hd": {
+      "denomination": "d10",
+      "spent": 0,
+      "additional": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": "HwOKB9LPw4dA10L8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Paladin"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1725037371154,
+    "modifiedTime": 1725992280692,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null,
+    "compendiumSource": null
+  }
+}

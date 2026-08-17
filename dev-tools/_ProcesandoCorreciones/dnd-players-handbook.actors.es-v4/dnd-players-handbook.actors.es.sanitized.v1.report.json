@@ -1,0 +1,788 @@
+{
+  "input": "dnd-players-handbook.actors.json",
+  "reference": "dnd-players-handbook.actors-en-v4.json",
+  "output": "dnd-players-handbook.actors.es.sanitized.v1.json",
+  "changed": {
+    "total": 97,
+    "byField": {
+      "description": 24,
+      "name": 7,
+      "advancement.title": 60,
+      "advancement.hint": 6
+    },
+    "byPath": [
+      {
+        "path": "entries.phbginGiantCenti.items.phbaoiVenomousSp.description",
+        "field": "description",
+        "before": "<p><em>Tirada de salvación de Constitución:</em> tu CD de salvación de conjuro; una criatura que el insecto pueda ver a 10 pies o menos. <em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Poisoned]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
+        "after": "<p><em>Tirada de salvación de Constitución:</em> tu CD de salvación de conjuro; una criatura que el insecto pueda ver a 10 pies o menos. <em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Envenenado]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+      },
+      {
+        "path": "entries.phbginGiantCenti.items.phbaoiVenomousSp.effects.uUvxWKSj8qQRIbTK.description",
+        "field": "description",
+        "before": "<p>El objetivo tiene la condición &amp;Reference[Poisoned]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>",
+        "after": "<p>El objetivo tiene la condición &amp;Reference[Envenenado]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+      },
+      {
+        "path": "entries.phbmobBoar000000.items.phbaoiGore000000.description",
+        "field": "description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante. Si el jabalí se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño perforante adicionales y, si es Grande o más pequeño, tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante. Si el jabalí se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño perforante adicionales y, si es Grande o más pequeño, tiene la condición &amp;Reference[Tumbado]{Derribado}.</p>"
+      },
+      {
+        "path": "entries.phbmobCrocodile0.items.phbaoiBite000000.description",
+        "field": "description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference (CD 12 para escapar). Mientras está Grappled, el objetivo tiene la condición &amp;Reference.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference (CD 12 para escapar). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference.</p>"
+      },
+      {
+        "path": "entries.phbmobCrocodile0.items.phbaoiBite000000.effects.LtkZa9s0yWBlbnja.description",
+        "field": "description",
+        "before": "<p>Mientras &amp;Reference[Grappled apply=false]{Agarrado} (CD 12 para escapar), el objetivo tiene la condición &amp;Reference.</p>",
+        "after": "<p>Mientras &amp;Reference[Agarrado apply=false]{Agarrado} (CD 12 para escapar), el objetivo tiene la condición &amp;Reference.</p>"
+      },
+      {
+        "path": "entries.phbmobElephant00.items.phbaoiTrample000.description",
+        "field": "description",
+        "before": "<p> <em>Tirada de salvación de destreza:</em> CD 16, una criatura a 5 pies que tenga la condición Prone. <em>Fracaso:</em> 17 (2d10 + 6) de daño contundente. <em>Éxito:</em> La mitad de daño.</p>",
+        "after": "<p> <em>Tirada de salvación de destreza:</em> CD 16, una criatura a 5 pies que tenga la condición Tumbado. <em>Fracaso:</em> 17 (2d10 + 6) de daño contundente. <em>Éxito:</em> La mitad de daño.</p>"
+      },
+      {
+        "path": "entries.phbmobImp0000000.items.oHafKbzbqYGiL4i1.activities.dnd5eactivity000.name",
+        "field": "name",
+        "before": "Cast",
+        "after": "Lanzar"
+      },
+      {
+        "path": "entries.phbmobImp0000000.items.oHafKbzbqYGiL4i1.effects.9svfDetqjhsFP3ey.name",
+        "field": "name",
+        "before": "Invisibility",
+        "after": "Invisibilidad"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.items.7wNdT95XqhyGOpBd.effects.9svfDetqjhsFP3ey.name",
+        "field": "name",
+        "before": "Invisibility",
+        "after": "Invisibilidad"
+      },
+      {
+        "path": "entries.phbmobSprite0000.items.lO6diOZO5FReftK6.effects.9svfDetqjhsFP3ey.name",
+        "field": "name",
+        "before": "Invisibility",
+        "after": "Invisibilidad"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.98rHJrXiyuCX36s2.description",
+        "field": "description",
+        "before": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>",
+        "after": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.DJyet31V2fyifika.description",
+        "field": "description",
+        "before": "<p>Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición &amp;Reference[Grappled]{Agarrado}. También cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p><section id=\"secret-7qaTRjmRe4PD41G3\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que aumenta automáticamente tu tamaño al determinar la capacidad de carga.</p></section>",
+        "after": "<p>Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición &amp;Reference[Agarrado]{Agarrado}. También cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p><section id=\"secret-7qaTRjmRe4PD41G3\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que aumenta automáticamente tu tamaño al determinar la capacidad de carga.</p></section>"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.fe2owFlcPQloVxAz.description",
+        "field": "description",
+        "before": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>",
+        "after": "<p>Como acción de Uso, puedes hacer un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura haga, como acción, una tirada de destreza (Acrobacias) con CD 15 superada.</p>"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.spjpH2kYn7wPHbe6.description",
+        "field": "description",
+        "before": "<p>Más altos que la mayoría de la gente, los goliats son descendientes lejanos de los gigantes. Cada goliat porta los favores de los primeros gigantes, favores que se manifiestan en diversos dones sobrenaturales, incluida la capacidad de crecer rápidamente y aproximarse temporalmente a la altura de sus gigantescos parientes.</p><p>Los goliats tienen rasgos físicos que recuerdan a los gigantes de sus linajes. Por ejemplo, algunos goliats se asemejan a gigantes de piedra, mientras que otros recuerdan a gigantes de fuego. Sea cual sea el tipo de gigante al que consideren su estirpe, los goliats han forjado su propio camino en el multiverso, libres de los conflictos internos que han asolado a la especie de los gigantes durante eras, y buscan alturas aún mayores que las alcanzadas por sus ancestros.</p><h3 data-anchor=\"goliath-traits\">Rasgos de goliat</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (alrededor de 7–8 pies de altura)</p><p><strong>Velocidad:</strong> 35 pies</p><p>Como goliat, tienes estos rasgos especiales.</p><p><strong>Herencia gigante.</strong> Desciendes de los gigantes. Elige uno de los siguientes beneficios, un don sobrenatural de tu herencia; puedes usar el beneficio elegido un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo:</p><p><strong>Zancada de las nubes (gigante de las nubes).</strong> Como acción adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Quemadura de fuego (gigante de fuego).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d10 de daño de fuego.</p><p><strong>Escalofrío de escarcha (gigante de escarcha).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d6 de daño de frío y reducir su velocidad en 10 pies hasta el inicio de tu siguiente turno.</p><p><strong>Traspié de la colina (gigante de la colina).</strong> Cuando impactas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes darle a ese objetivo la condición &amp;Reference[Prone]{Derribado}.</p><p><strong>Resistencia pétrea (gigante de piedra).</strong> Cuando recibes daño, puedes usar tu reacción para tirar 1d12. Suma tu modificador de constitución al resultado y reduce el daño en esa cantidad.</p><p><strong>Trueno de la tormenta (gigante de la tormenta).</strong> Cuando recibes daño de una criatura que esté a 60 pies o menos de ti, puedes usar tu reacción para hacer que esa criatura reciba 1d8 de daño de trueno.</p><p><strong>Forma grande.</strong> A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como acción adicional si estás en un espacio lo bastante amplio. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Mientras dure, tienes ventaja en las pruebas de fuerza y tu velocidad aumenta en 10 pies. Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un descanso largo.</p><p><strong>constitución poderosa.</strong> Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición agarrado. Además, cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p>",
+        "after": "<p>Más altos que la mayoría de la gente, los goliats son descendientes lejanos de los gigantes. Cada goliat porta los favores de los primeros gigantes, favores que se manifiestan en diversos dones sobrenaturales, incluida la capacidad de crecer rápidamente y aproximarse temporalmente a la altura de sus gigantescos parientes.</p><p>Los goliats tienen rasgos físicos que recuerdan a los gigantes de sus linajes. Por ejemplo, algunos goliats se asemejan a gigantes de piedra, mientras que otros recuerdan a gigantes de fuego. Sea cual sea el tipo de gigante al que consideren su estirpe, los goliats han forjado su propio camino en el multiverso, libres de los conflictos internos que han asolado a la especie de los gigantes durante eras, y buscan alturas aún mayores que las alcanzadas por sus ancestros.</p><h3 data-anchor=\"goliath-traits\">Rasgos de goliat</h3><p><strong>Tipo de criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (alrededor de 7–8 pies de altura)</p><p><strong>Velocidad:</strong> 35 pies</p><p>Como goliat, tienes estos rasgos especiales.</p><p><strong>Herencia gigante.</strong> Desciendes de los gigantes. Elige uno de los siguientes beneficios, un don sobrenatural de tu herencia; puedes usar el beneficio elegido un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo:</p><p><strong>Zancada de las nubes (gigante de las nubes).</strong> Como acción adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Quemadura de fuego (gigante de fuego).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d10 de daño de fuego.</p><p><strong>Escalofrío de escarcha (gigante de escarcha).</strong> Cuando impactas a un objetivo con una tirada de ataque y le infliges daño, también puedes hacer que ese objetivo reciba 1d6 de daño de frío y reducir su velocidad en 10 pies hasta el inicio de tu siguiente turno.</p><p><strong>Traspié de la colina (gigante de la colina).</strong> Cuando impactas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes darle a ese objetivo la condición &amp;Reference[Tumbado]{Derribado}.</p><p><strong>Resistencia pétrea (gigante de piedra).</strong> Cuando recibes daño, puedes usar tu reacción para tirar 1d12. Suma tu modificador de constitución al resultado y reduce el daño en esa cantidad.</p><p><strong>Trueno de la tormenta (gigante de la tormenta).</strong> Cuando recibes daño de una criatura que esté a 60 pies o menos de ti, puedes usar tu reacción para hacer que esa criatura reciba 1d8 de daño de trueno.</p><p><strong>Forma grande.</strong> A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como acción adicional si estás en un espacio lo bastante amplio. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Mientras dure, tienes ventaja en las pruebas de fuerza y tu velocidad aumenta en 10 pies. Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un descanso largo.</p><p><strong>constitución poderosa.</strong> Tienes ventaja en cualquier tirada de salvación que hagas para terminar la condición agarrado. Además, cuentas como una categoría de tamaño mayor al determinar tu capacidad de carga.</p>"
+      },
+      {
+        "path": "entries.phbprgCleric0000.items.wCm876rs73aLspi8.description",
+        "field": "description",
+        "before": "<p>Como acción de Utilizar, puedes usar los grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta que esté a 5 pies o menos de ti y que tenga la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference, si tienes éxito en una tirada de destreza (Juego de manos) con CD 13. Mientras está encadenada, la criatura tiene desventaja en las tiradas de ataque, y queda Restringida si los grilletes están sujetos a una cadena o gancho fijado en su lugar. Escapar de los grilletes requiere una tirada de destreza (Juego de manos) con CD 20 superada como acción. Romperlos requiere una tirada de fuerza (Atletismo) con CD 25 superada como acción.</p><p>Cada juego de grilletes viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de los grilletes con una tirada exitosa de [[/tool thief dex 15]].</p>",
+        "after": "<p>Como acción de Utilizar, puedes usar los grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta que esté a 5 pies o menos de ti y que tenga la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference, si tienes éxito en una tirada de destreza (Juego de manos) con CD 13. Mientras está encadenada, la criatura tiene desventaja en las tiradas de ataque, y queda Restringida si los grilletes están sujetos a una cadena o gancho fijado en su lugar. Escapar de los grilletes requiere una tirada de destreza (Juego de manos) con CD 20 superada como acción. Romperlos requiere una tirada de fuerza (Atletismo) con CD 25 superada como acción.</p><p>Cada juego de grilletes viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de los grilletes con una tirada exitosa de [[/tool thief dex 15]].</p>"
+      },
+      {
+        "path": "entries.phbprgDruid00000.items.lPLxJpOExOu738Kx.description",
+        "field": "description",
+        "before": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
+        "after": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>"
+      },
+      {
+        "path": "entries.phbprgFighter000.items.j1CMUOdMfODOlzqe.description",
+        "field": "description",
+        "before": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
+        "after": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>"
+      },
+      {
+        "path": "entries.phbprgFighter000.items.U0XGCNKcrWKFIrHC.description",
+        "field": "description",
+        "before": "<p>Has perfeccionado tu destreza marcial y obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting Style feat} de tu elección. @UUID[Compendium.dnd-players-handbook.feats.Item.phbfstDefense000]{Defensa} es la opción recomendada.</p><p>Cada vez que ganas un nivel de guerrero, puedes reemplazar la dote que elegiste por una dote de estilo de lucha diferente.</p>",
+        "after": "<p>Has perfeccionado tu destreza marcial y obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Estilo de Combate feat} de tu elección. @UUID[Compendium.dnd-players-handbook.feats.Item.phbfstDefense000]{Defensa} es la opción recomendada.</p><p>Cada vez que ganas un nivel de guerrero, puedes reemplazar la dote que elegiste por una dote de estilo de lucha diferente.</p>"
+      },
+      {
+        "path": "entries.phbprgMonk000000.items.c2LSt9haTsjNcKaR.description",
+        "field": "description",
+        "before": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>",
+        "after": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si tienes éxito en una tirada de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una tirada de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Para escapar de la cuerda, la criatura debe superar una tirada de destreza (Acrobacias) con CD 15 como acción.</p>"
+      },
+      {
+        "path": "entries.phbprgPaladin000.items.aRs9x4T2ZWK6t61n.name",
+        "field": "name",
+        "before": "Dragonchess",
+        "after": "Ajedrez de Dragones"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.dqV77Me9UZHAMC1g.description",
+        "field": "description",
+        "before": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
+        "after": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.gYlNEEiCsBQ0H2Ka.advancement.RwuXccrKfMuuWLKr.title",
+        "field": "advancement.title",
+        "before": "Keen Senses",
+        "after": "Sentidos Agudos"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.gYlNEEiCsBQ0H2Ka.advancement.RwuXccrKfMuuWLKr.hint",
+        "field": "advancement.hint",
+        "before": "You have proficiency in the Insight, Perception, or Survival skill.",
+        "after": "Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia."
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.29Ufd0MpG7PBckVs.title",
+        "field": "advancement.title",
+        "before": "Epic Boon",
+        "after": "Dádiva Épica"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.3trTn2JpXbZ6X24q.title",
+        "field": "advancement.title",
+        "before": "Saving Throw Proficiencies",
+        "after": "Competencias en Tiradas de Salvación"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.491B9spyMvoNt2ij.title",
+        "field": "advancement.title",
+        "before": "Skill Proficiencies",
+        "after": "Competencias en Habilidades"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.AtKKnCoTLBqSxhCh.title",
+        "field": "advancement.title",
+        "before": "Fighting Style",
+        "after": "Estilo de Combate"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.cvPNAaphQTdoQqAb.title",
+        "field": "advancement.title",
+        "before": "Weapon Mastery",
+        "after": "Maestría con Armas"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.DOENALOWWjAUHzb7.title",
+        "field": "advancement.title",
+        "before": "Favored Enemy",
+        "after": "Enemigo Predilecto"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.FksFWNV4X4lTFlvO.title",
+        "field": "advancement.title",
+        "before": "Favored Enemy",
+        "after": "Enemigo Predilecto"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.H1iv8RH9TOVH30qO.title",
+        "field": "advancement.title",
+        "before": "Skill Proficiencies",
+        "after": "Competencias en Habilidades"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.iYdu1uOqAnHGWIZY.title",
+        "field": "advancement.title",
+        "before": "Max Prepared Conjuros",
+        "after": "Máximo de Conjuros Preparados"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.knFte4PvZAtHAcFJ.title",
+        "field": "advancement.title",
+        "before": "Weapon Proficiencies",
+        "after": "Competencias con Armas"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.PLqssMc398jEsEW4.title",
+        "field": "advancement.title",
+        "before": "Deft Explorer",
+        "after": "Explorador Diestro"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.TehnIJlh1drGLjpj.title",
+        "field": "advancement.title",
+        "before": "Armor Training",
+        "after": "Entrenamiento con Armaduras"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.wXbfWOQp62GRMMlZ.title",
+        "field": "advancement.title",
+        "before": "Weapon Proficiencies",
+        "after": "Competencias con Armas"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.wzh6lW4bOlQy4geS.title",
+        "field": "advancement.title",
+        "before": "Deft Explorer",
+        "after": "Explorador Diestro"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.m9wrpwrNGnU2RUmH.advancement.Yscwm2LPBUNjW0pk.title",
+        "field": "advancement.title",
+        "before": "Expertise",
+        "after": "Pericia"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.advancement.CdiCt0Cr9bP9FQNO.title",
+        "field": "advancement.title",
+        "before": "Background Proficiencies",
+        "after": "Competencias de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.advancement.WJA48TLxfqlc3ygz.title",
+        "field": "advancement.title",
+        "before": "Background Feat",
+        "after": "Dote de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.khbeIQjFr7NGF1eO.description",
+        "field": "description",
+        "before": "<p>Aprendiste varios lenguajes en las comunidades donde ejercías tus talentos pícaros. Conoces la jerga de ladrones (Thieves’ Cant) y otro idioma de tu elección, que eliges de las tablas de idiomas del @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{chapter 2}.</p><section id=\"secret-xG1Y223QZRsrOTCZ\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Thieves' Cant se añadirá automáticamente a tu hoja y se te pedirá que elijas el idioma adicional.</p></section>",
+        "after": "<p>Aprendiste varios lenguajes en las comunidades donde ejercías tus talentos pícaros. Conoces la jerga de ladrones (Thieves’ Cant) y otro idioma de tu elección, que eliges de las tablas de idiomas del @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw#choose-languages]{chapter 2}.</p><section id=\"secret-xG1Y223QZRsrOTCZ\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Jerga de Ladrones se añadirá automáticamente a tu hoja y se te pedirá que elijas el idioma adicional.</p></section>"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.QbYoldhl7H2rNv6J.description",
+        "field": "description",
+        "before": "<p>Como acción Utilizar, puedes esparcir las bolitas metálicas de su bolsa. Se extienden para cubrir un área de 10 pies de lado sobre un suelo nivelado a 10 pies o menos de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de destreza CD 10 o adquirir la condición &amp;Reference[Prone]{Derribado}. Recuperar las bolitas metálicas lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recover Ball Bearings</strong> concede otro uso de este objeto.</p></section>",
+        "after": "<p>Como acción Utilizar, puedes esparcir las bolitas metálicas de su bolsa. Se extienden para cubrir un área de 10 pies de lado sobre un suelo nivelado a 10 pies o menos de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de destreza CD 10 o adquirir la condición &amp;Reference[Tumbado]{Derribado}. Recuperar las bolitas metálicas lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recover Ball Bearings</strong> concede otro uso de este objeto.</p></section>"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.29Ufd0MpG7PBckVs.title",
+        "field": "advancement.title",
+        "before": "Epic Boon",
+        "after": "Dádiva Épica"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.4doj2kFD8sIYiX8X.title",
+        "field": "advancement.title",
+        "before": "Expertise",
+        "after": "Pericia"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.4doj2kFD8sIYiX8X.hint",
+        "field": "advancement.hint",
+        "before": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.",
+        "after": "Obtienes Pericia en dos de tus competencias en habilidades a tu elección. Se recomienda Juego de Manos y Sigilo si tienes competencia en ellas."
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.4uOxepnMxb2TYDY4.title",
+        "field": "advancement.title",
+        "before": "Sneak Attack",
+        "after": "Ataque Furtivo"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.FiaNLovfP6tnY4tD.hint",
+        "field": "advancement.hint",
+        "before": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.",
+        "after": "Tu mente astuta es excepcionalmente difícil de controlar. Obtienes competencia en tiradas de salvación de Sabiduría y Carisma."
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.IHbn6EXoBfxHdj7c.title",
+        "field": "advancement.title",
+        "before": "Thieves' Cant",
+        "after": "Jerga de Ladrones"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.N5TGZDRu7NwVSaq6.title",
+        "field": "advancement.title",
+        "before": "Tool Proficiencies",
+        "after": "Competencias con Herramientas"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.OJXVOKQhi05P672u.title",
+        "field": "advancement.title",
+        "before": "Saving Throw Proficiencies",
+        "after": "Competencias en Tiradas de Salvación"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.q22sm4VsezAltuqE.title",
+        "field": "advancement.title",
+        "before": "Weapon Proficiencies",
+        "after": "Competencias con Armas"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.sqWH6tnUg7jiGaEj.title",
+        "field": "advancement.title",
+        "before": "Expertise",
+        "after": "Pericia"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.sqWH6tnUg7jiGaEj.hint",
+        "field": "advancement.hint",
+        "before": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.",
+        "after": "Obtienes Pericia en dos de tus competencias en habilidades a tu elección. Se recomienda Juego de Manos y Sigilo si tienes competencia en ellas."
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.tSxdQdTxlNVE1kdD.title",
+        "field": "advancement.title",
+        "before": "Skill Proficiencies",
+        "after": "Competencias en Habilidades"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.UH1CrcBv6JRJJxsQ.title",
+        "field": "advancement.title",
+        "before": "Armor Training",
+        "after": "Entrenamiento con Armaduras"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.xE00qAIjMdw63Kja.title",
+        "field": "advancement.title",
+        "before": "Skill Proficiencies",
+        "after": "Competencias en Habilidades"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.yp6ZCsT10nGs4J4q.title",
+        "field": "advancement.title",
+        "before": "Weapon Mastery",
+        "after": "Maestría con Armas"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.vU5hCPtcGcZdmxFM.description",
+        "field": "description",
+        "before": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
+        "after": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.ens3JhM0K0V4RcIM.description",
+        "field": "description",
+        "before": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>",
+        "after": "<p>Como acción Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una prueba de destreza (Juego de manos) con CD 10. La cuerda puede romperse con una prueba de fuerza (Atletismo) con CD 20 superada.</p><p>Solo puedes atar a una criatura que no esté dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado]{Agarrado}, &amp;Reference o &amp;Reference. Si las piernas de la criatura están atadas, la criatura tiene la condición restringido hasta que escape. Escapar de la cuerda requiere que la criatura realice, como acción, una prueba de destreza (Acrobacias) con CD 15 superada.</p>"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.29Ufd0MpG7PBckVs.title",
+        "field": "advancement.title",
+        "before": "Epic Boon",
+        "after": "Dádiva Épica"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.7xtY4ilruYHMPFfM.title",
+        "field": "advancement.title",
+        "before": "Skill Proficiencies",
+        "after": "Competencias en Habilidades"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.DUHZI0oND7OQ6lox.title",
+        "field": "advancement.title",
+        "before": "Max Prepared Conjuros",
+        "after": "Máximo de Conjuros Preparados"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.mQyTV3LMkMQT1zfO.title",
+        "field": "advancement.title",
+        "before": "Sorcery Points",
+        "after": "Puntos de Hechicería"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.nFvwOhQGBMwm07Fa.title",
+        "field": "advancement.title",
+        "before": "Weapon Proficiencies",
+        "after": "Competencias con Armas"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.nIaa61I4SSnwAQvz.title",
+        "field": "advancement.title",
+        "before": "Metamagic",
+        "after": "Metamagia"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.XzTd1a6iGhCAqMs3.title",
+        "field": "advancement.title",
+        "before": "Saving Throw Proficiencies",
+        "after": "Competencias en Tiradas de Salvación"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.zMjMi0B3XrcQMqAS.title",
+        "field": "advancement.title",
+        "before": "Cantrips Known",
+        "after": "Trucos Conocidos"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.nccRK77cXNtEHCHX.title",
+        "field": "advancement.title",
+        "before": "Keen Senses",
+        "after": "Sentidos Agudos"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.nccRK77cXNtEHCHX.hint",
+        "field": "advancement.hint",
+        "before": "You have proficiency in the Insight, Perception, or Survival skill.",
+        "after": "Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.advancement.lTp2YYNaBEwG774d.title",
+        "field": "advancement.title",
+        "before": "Background Feat",
+        "after": "Dote de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.advancement.O7OAEMhJm2ecXudR.title",
+        "field": "advancement.title",
+        "before": "Background Proficiencies",
+        "after": "Competencias de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.29Ufd0MpG7PBckVs.title",
+        "field": "advancement.title",
+        "before": "Epic Boon",
+        "after": "Dádiva Épica"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.4XUbrDNUSRAH6TqT.title",
+        "field": "advancement.title",
+        "before": "Weapon Proficiencies",
+        "after": "Competencias con Armas"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.9LblGv17rkWDNni2.title",
+        "field": "advancement.title",
+        "before": "Skill Proficiencies",
+        "after": "Competencias en Habilidades"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.dZ29O2QGbIsj25Vg.title",
+        "field": "advancement.title",
+        "before": "Cantrips Known",
+        "after": "Trucos Conocidos"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.HucmTSEzIq7OeJr7.title",
+        "field": "advancement.title",
+        "before": "Eldritch Invocations Known",
+        "after": "Invocaciones Sobrenaturales Conocidas"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.pNAJJ0MCkjHO2ZK1.title",
+        "field": "advancement.title",
+        "before": "Contact Patron",
+        "after": "Contactar al Patrón"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.W9auMtMHTf0KV1Xw.title",
+        "field": "advancement.title",
+        "before": "Saving Throw Proficiencies",
+        "after": "Competencias en Tiradas de Salvación"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.xMtpuEuf5g6C8cqA.title",
+        "field": "advancement.title",
+        "before": "Eldritch Invocations",
+        "after": "Invocaciones Sobrenaturales"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.xMtpuEuf5g6C8cqA.hint",
+        "field": "advancement.hint",
+        "before": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons.",
+        "after": "You have unearthed Invocaciones Sobrenaturales, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons."
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.59ehZ8UPSlKtZyhr.advancement.yB5RTWToMnl2sB6c.title",
+        "field": "advancement.title",
+        "before": "Armor Training",
+        "after": "Entrenamiento con Armaduras"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.advancement.Lk1ScjOCqRDtX2Tg.title",
+        "field": "advancement.title",
+        "before": "Background Proficiencies",
+        "after": "Competencias de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.advancement.ygyW1bVUTnCnjxY2.title",
+        "field": "advancement.title",
+        "before": "Background Feat",
+        "after": "Dote de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.u374Dto17FhtJsmA.description",
+        "field": "description",
+        "before": "<p>Mediante ceremonias ocultas, has formado un pacto con una entidad misteriosa para obtener poderes mágicos. La entidad es una voz en las sombras —su identidad es incierta—, pero su don para ti es muy concreto: la capacidad de lanzar conjuros. Consulta las @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules on spellcasting}. La información siguiente detalla cómo usas esas reglas con los conjuros de brujo, que aparecen en la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs]{Brujo conjuro list}.</p><p><strong>Trucos.</strong> Conoces dos trucos de brujo de tu elección. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEldritchBl]{Descarga sobrenatural} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitación} son los recomendados. Cada vez que ganas un nivel de brujo, puedes reemplazar uno de tus trucos de esta característica por otro truco de brujo de tu elección.</p><p>Cuando alcanzas los niveles 4 y 10 de brujo, aprendes otro truco de brujo de tu elección, como se indica en la columna Cantrips de la tabla de características del brujo.</p><p><strong>Máximo actual de trucos conocidos:</strong> [[lookup @scale.warlock.cantrips-known]]</p><p><strong>Espacios de conjuro.</strong> La @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Brujo Features table} muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de brujo de niveles 1–5. La tabla también muestra el nivel de esos espacios, que es el mismo para todos. Recuperas todos los espacios de Magia de pacto gastados cuando terminas un descanso corto o largo.</p><p>Por ejemplo, cuando eres un brujo de nivel 5, tienes dos espacios de conjuro de nivel 3. Para lanzar el conjuro de nivel 1 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0]{Rayo de hechicería}, debes gastar uno de esos espacios y lo lanzas como un conjuro de nivel 3.</p><p><strong>Conjuros preparados de nivel 1+.</strong> Preparas la lista de conjuros de nivel 1 o superior que están disponibles para que los lances con esta característica. Para empezar, elige dos conjuros de nivel 1 de brujo. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Hechizar persona} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Maleficio} son los recomendados.</p><p><strong>Máximo actual de conjuros preparados:</strong> [[lookup @scale.warlock.max-prepared]]</p><p>El número de conjuros de tu lista aumenta a medida que ganas niveles de brujo, como se indica en la columna Prepared Conjuros de la tabla de características del brujo. Cada vez que ese número aumenta, elige conjuros adicionales de brujo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Los conjuros elegidos deben ser de un nivel no superior al indicado en la columna Slot Level de la tabla para tu nivel. Cuando alcanzas el nivel 6, por ejemplo, aprendes un nuevo conjuro de brujo, que puede ser de nivel 1–3.</p><p>Si otra característica de brujo te concede conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con esta característica, pero cuentan como conjuros de brujo para ti.</p><p><strong>Cambiar tus conjuros preparados.</strong> Cada vez que ganas un nivel de brujo, puedes reemplazar un conjuro de tu lista por otro conjuro de brujo de un nivel permitido.</p><p><strong>Característica de lanzamiento de conjuros.</strong> carisma es tu característica de lanzamiento de conjuros para tus conjuros de brujo.</p><p><strong>Foco de lanzamiento de conjuros.</strong> Puedes usar un foco arcano como foco de lanzamiento de conjuros para tus conjuros de brujo.</p>",
+        "after": "<p>Mediante ceremonias ocultas, has formado un pacto con una entidad misteriosa para obtener poderes mágicos. La entidad es una voz en las sombras —su identidad es incierta—, pero su don para ti es muy concreto: la capacidad de lanzar conjuros. Consulta las @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules on spellcasting}. La información siguiente detalla cómo usas esas reglas con los conjuros de brujo, que aparecen en la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs]{Brujo conjuro list}.</p><p><strong>Trucos.</strong> Conoces dos trucos de brujo de tu elección. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEldritchBl]{Descarga sobrenatural} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitación} son los recomendados. Cada vez que ganas un nivel de brujo, puedes reemplazar uno de tus trucos de esta característica por otro truco de brujo de tu elección.</p><p>Cuando alcanzas los niveles 4 y 10 de brujo, aprendes otro truco de brujo de tu elección, como se indica en la columna Cantrips de la tabla de características del brujo.</p><p><strong>Máximo actual de trucos conocidos:</strong> [[lookup @scale.warlock.cantrips-known]]</p><p><strong>Espacios de conjuro.</strong> La @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Brujo Features table} muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de brujo de niveles 1–5. La tabla también muestra el nivel de esos espacios, que es el mismo para todos. Recuperas todos los espacios de Magia de pacto gastados cuando terminas un descanso corto o largo.</p><p>Por ejemplo, cuando eres un brujo de nivel 5, tienes dos espacios de conjuro de nivel 3. Para lanzar el conjuro de nivel 1 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0]{Rayo de hechicería}, debes gastar uno de esos espacios y lo lanzas como un conjuro de nivel 3.</p><p><strong>Conjuros preparados de nivel 1+.</strong> Preparas la lista de conjuros de nivel 1 o superior que están disponibles para que los lances con esta característica. Para empezar, elige dos conjuros de nivel 1 de brujo. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Hechizar persona} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Maleficio} son los recomendados.</p><p><strong>Máximo actual de conjuros preparados:</strong> [[lookup @scale.warlock.max-prepared]]</p><p>El número de conjuros de tu lista aumenta a medida que ganas niveles de brujo, como se indica en la columna Conjuros Preparados de la tabla de características del brujo. Cada vez que ese número aumenta, elige conjuros adicionales de brujo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Los conjuros elegidos deben ser de un nivel no superior al indicado en la columna Slot Level de la tabla para tu nivel. Cuando alcanzas el nivel 6, por ejemplo, aprendes un nuevo conjuro de brujo, que puede ser de nivel 1–3.</p><p>Si otra característica de brujo te concede conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con esta característica, pero cuentan como conjuros de brujo para ti.</p><p><strong>Cambiar tus conjuros preparados.</strong> Cada vez que ganas un nivel de brujo, puedes reemplazar un conjuro de tu lista por otro conjuro de brujo de un nivel permitido.</p><p><strong>Característica de lanzamiento de conjuros.</strong> carisma es tu característica de lanzamiento de conjuros para tus conjuros de brujo.</p><p><strong>Foco de lanzamiento de conjuros.</strong> Puedes usar un foco arcano como foco de lanzamiento de conjuros para tus conjuros de brujo.</p>"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.29Ufd0MpG7PBckVs.title",
+        "field": "advancement.title",
+        "before": "Epic Boon",
+        "after": "Dádiva Épica"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.4ImCjedK6yWbC2ni.title",
+        "field": "advancement.title",
+        "before": "Saving Throw Proficiencies",
+        "after": "Competencias en Tiradas de Salvación"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.73lag0NN0ElcSq94.title",
+        "field": "advancement.title",
+        "before": "Skill Proficiencies",
+        "after": "Competencias en Habilidades"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.EvuUhx2TrDAsAxgN.title",
+        "field": "advancement.title",
+        "before": "Max Prepared Conjuros",
+        "after": "Máximo de Conjuros Preparados"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.IxWyp7l1BPCaw3jl.title",
+        "field": "advancement.title",
+        "before": "Weapon Proficiencies",
+        "after": "Competencias con Armas"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.ZTnATJgznTj4W6ZG.title",
+        "field": "advancement.title",
+        "before": "Cantrips Known",
+        "after": "Trucos Conocidos"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.advancement.BNzeq8VcPbRzjlmh.title",
+        "field": "advancement.title",
+        "before": "Background Feat",
+        "after": "Dote de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.advancement.uwnus2OqHl8XwTbO.title",
+        "field": "advancement.title",
+        "before": "Background Proficiencies",
+        "after": "Competencias de Trasfondo"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.zZPB6kweRHR6xpyF.description",
+        "field": "description",
+        "before": "<p>Como estudiante de la magia arcana, has aprendido a lanzar conjuros. Consulta las @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules on spellcasting}. La información siguiente detalla cómo usas esas reglas con los conjuros de mago, que aparecen en la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago conjuro list}.</p><p><strong>Trucos.</strong> Conoces tres trucos de mago de tu elección. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]{Mano de mago} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Rayo de escarcha} son los recomendados. Cada vez que termines un descanso largo, puedes reemplazar uno de tus trucos de esta característica por otro truco de mago de tu elección.</p><p>Cuando alcanzas los niveles 4 y 10 de mago, aprendes otro truco de mago de tu elección, como se indica en la columna Cantrips de la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Mago Features table}.</p><p><strong>Libro de conjuros.</strong> Tu aprendizaje como mago culminó en la creación de un libro único: tu libro de conjuros. Es un objeto diminuto que pesa 3 libras, contiene 100 páginas y solo puede ser leído por ti o por alguien que lance @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00]{Identificar}. Tú determinas el aspecto y los materiales del libro, como un tomo con cantos dorados o una colección de hojas de vitela atadas con cordel.</p><p>El libro contiene los conjuros de nivel 1 o superior que conoces. Empieza con seis conjuros de mago de nivel 1 de tu elección. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal]{Caída de pluma}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{Armadura de mago}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Proyectil mágico}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Dormir} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav]{Ola atronadora} son los recomendados.</p><p>Cada vez que ganas un nivel de mago después del 1, añade dos conjuros de mago de tu elección a tu libro de conjuros. Cada uno de esos conjuros debe ser de un nivel para el que tengas espacios de conjuro, como se muestra en la tabla de características del mago. Estos conjuros son el resultado de la investigación arcana que realizas de forma habitual.</p><p><strong>Espacios de conjuro.</strong> La tabla de características del mago muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un descanso largo.</p><p><strong>Conjuros preparados de nivel 1 o superior.</strong> Preparas la lista de conjuros de nivel 1 o superior que están disponibles para que los lances con esta característica. Para hacerlo, elige cuatro conjuros de tu libro de conjuros. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro.</p><p>El número de conjuros de tu lista aumenta a medida que ganas niveles de mago, como se indica en la columna Prepared Conjuros de la tabla de características del mago. Cada vez que ese número aumenta, elige conjuros adicionales de mago hasta que el número de conjuros de tu lista coincida con el número de la tabla. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un mago de nivel 3, tu lista de conjuros preparados puede incluir seis conjuros de niveles 1 o 2 en cualquier combinación, elegidos de tu libro de conjuros.</p><p>Si otra característica de mago te concede conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con esta característica, pero cuentan como conjuros de mago para ti.</p><p><strong>Cambiar tus conjuros preparados.</strong> Cada vez que terminas un descanso largo, puedes cambiar tu lista de conjuros preparados, reemplazando cualquiera de los conjuros por otros de tu libro de conjuros.</p><p><strong>Característica de lanzamiento de conjuros.</strong> inteligencia es tu característica de lanzamiento de conjuros para tus conjuros de mago.</p><p><strong>Foco de lanzamiento de conjuros.</strong> Puedes usar un foco arcano o tu libro de conjuros como foco de lanzamiento de conjuros para tus conjuros de mago.</p>",
+        "after": "<p>Como estudiante de la magia arcana, has aprendido a lanzar conjuros. Consulta las @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules on spellcasting}. La información siguiente detalla cómo usas esas reglas con los conjuros de mago, que aparecen en la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago conjuro list}.</p><p><strong>Trucos.</strong> Conoces tres trucos de mago de tu elección. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]{Mano de mago} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Rayo de escarcha} son los recomendados. Cada vez que termines un descanso largo, puedes reemplazar uno de tus trucos de esta característica por otro truco de mago de tu elección.</p><p>Cuando alcanzas los niveles 4 y 10 de mago, aprendes otro truco de mago de tu elección, como se indica en la columna Cantrips de la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Mago Features table}.</p><p><strong>Libro de conjuros.</strong> Tu aprendizaje como mago culminó en la creación de un libro único: tu libro de conjuros. Es un objeto diminuto que pesa 3 libras, contiene 100 páginas y solo puede ser leído por ti o por alguien que lance @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00]{Identificar}. Tú determinas el aspecto y los materiales del libro, como un tomo con cantos dorados o una colección de hojas de vitela atadas con cordel.</p><p>El libro contiene los conjuros de nivel 1 o superior que conoces. Empieza con seis conjuros de mago de nivel 1 de tu elección. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal]{Caída de pluma}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{Armadura de mago}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Proyectil mágico}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Dormir} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav]{Ola atronadora} son los recomendados.</p><p>Cada vez que ganas un nivel de mago después del 1, añade dos conjuros de mago de tu elección a tu libro de conjuros. Cada uno de esos conjuros debe ser de un nivel para el que tengas espacios de conjuro, como se muestra en la tabla de características del mago. Estos conjuros son el resultado de la investigación arcana que realizas de forma habitual.</p><p><strong>Espacios de conjuro.</strong> La tabla de características del mago muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un descanso largo.</p><p><strong>Conjuros preparados de nivel 1 o superior.</strong> Preparas la lista de conjuros de nivel 1 o superior que están disponibles para que los lances con esta característica. Para hacerlo, elige cuatro conjuros de tu libro de conjuros. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro.</p><p>El número de conjuros de tu lista aumenta a medida que ganas niveles de mago, como se indica en la columna Conjuros Preparados de la tabla de características del mago. Cada vez que ese número aumenta, elige conjuros adicionales de mago hasta que el número de conjuros de tu lista coincida con el número de la tabla. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un mago de nivel 3, tu lista de conjuros preparados puede incluir seis conjuros de niveles 1 o 2 en cualquier combinación, elegidos de tu libro de conjuros.</p><p>Si otra característica de mago te concede conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con esta característica, pero cuentan como conjuros de mago para ti.</p><p><strong>Cambiar tus conjuros preparados.</strong> Cada vez que terminas un descanso largo, puedes cambiar tu lista de conjuros preparados, reemplazando cualquiera de los conjuros por otros de tu libro de conjuros.</p><p><strong>Característica de lanzamiento de conjuros.</strong> inteligencia es tu característica de lanzamiento de conjuros para tus conjuros de mago.</p><p><strong>Foco de lanzamiento de conjuros.</strong> Puedes usar un foco arcano o tu libro de conjuros como foco de lanzamiento de conjuros para tus conjuros de mago.</p>"
+      },
+      {
+        "path": "entries.phbSpectralAnima.name",
+        "field": "name",
+        "before": "Conjured Animals",
+        "after": "Animales Conjurados"
+      },
+      {
+        "path": "entries.phbSpectralAnima.items.phbcftPackDamage.name",
+        "field": "name",
+        "before": "Pack Damage",
+        "after": "Daño en Grupo"
+      },
+      {
+        "path": "entries.phbsplBigbysHand.items.phbaoiGraspingHa.description",
+        "field": "description",
+        "before": "<p>La mano intenta agarrar a una criatura Enorme o más pequeña que esté a 5 pies o menos de ella. El objetivo debe superar una tirada de salvación de destreza o sufre la condición &amp;Reference[Grappled]{Agarrado}, con una CD de escape igual a tu CD de salvación de conjuros. Mientras la mano tenga agarrado al objetivo, puedes usar una acción adicional para hacer que la mano lo aplaste, infligiendo al objetivo daño contundente igual a 4d6 más tu modificador de característica de lanzamiento de conjuros.</p><h3>Pruebas para escapar del agarre</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Strength (Athletics)} [[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]{Dexterity (Acrobatics)}</p>",
+        "after": "<p>La mano intenta agarrar a una criatura Enorme o más pequeña que esté a 5 pies o menos de ella. El objetivo debe superar una tirada de salvación de destreza o sufre la condición &amp;Reference[Agarrado]{Agarrado}, con una CD de escape igual a tu CD de salvación de conjuros. Mientras la mano tenga agarrado al objetivo, puedes usar una acción adicional para hacer que la mano lo aplaste, infligiendo al objetivo daño contundente igual a 4d6 más tu modificador de característica de lanzamiento de conjuros.</p><h3>Pruebas para escapar del agarre</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Strength (Athletics)} [[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]{Dexterity (Acrobatics)}</p>"
+      },
+      {
+        "path": "entries.phbsplGraspingVi.items.phbaoiLevel4Conj.description",
+        "field": "description",
+        "before": "<p>Haz una tirada de ataque de conjuro cuerpo a cuerpo contra una criatura a 30 pies o menos de la vid. Si impactas, el objetivo recibe 4d8 puntos de daño contundente y es arrastrado hasta 30 pies hacia la vid; si el objetivo es Enorme o más pequeño, sufre la condición &amp;Reference[Grappled]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><p>La vid puede mantener agarradas a [[@flags.dnd5e.summon.level - 3]] criatura(s) a la vez, y puedes hacer que la vid suelte a una criatura agarrada (sin necesidad de acción).</p><h3>Pruebas para escapar</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]</p><p>[[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]</p>",
+        "after": "<p>Haz una tirada de ataque de conjuro cuerpo a cuerpo contra una criatura a 30 pies o menos de la vid. Si impactas, el objetivo recibe 4d8 puntos de daño contundente y es arrastrado hasta 30 pies hacia la vid; si el objetivo es Enorme o más pequeño, sufre la condición &amp;Reference[Agarrado]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><p>La vid puede mantener agarradas a [[@flags.dnd5e.summon.level - 3]] criatura(s) a la vez, y puedes hacer que la vid suelte a una criatura agarrada (sin necesidad de acción).</p><h3>Pruebas para escapar</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]</p><p>[[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]</p>"
+      }
+    ]
+  },
+  "pendingSameAsEnglish": {
+    "total": 35,
+    "byField": {
+      "name": 8,
+      "description": 8,
+      "advancement.hint": 13,
+      "advancement.title": 6
+    },
+    "items": [
+      {
+        "path": "entries.phbInvisibleSens.effects.dnd5einvisible00.name",
+        "field": "name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbInvisibleSens.effects.dnd5einvisible00.description",
+        "field": "description",
+        "value": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+      },
+      {
+        "path": "entries.phbmobFaithfulHo.effects.dnd5einvisible00.name",
+        "field": "name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbmobFaithfulHo.effects.dnd5einvisible00.description",
+        "field": "description",
+        "value": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+      },
+      {
+        "path": "entries.phbmobImp0000000.items.oHafKbzbqYGiL4i1.effects.9svfDetqjhsFP3ey.description",
+        "field": "description",
+        "value": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+      },
+      {
+        "path": "entries.phbmobPanther000.items.ddOOLlNTSnyTzlfq.description",
+        "field": "description",
+        "value": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.items.7wNdT95XqhyGOpBd.effects.9svfDetqjhsFP3ey.description",
+        "field": "description",
+        "value": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+      },
+      {
+        "path": "entries.phbmobSprite0000.items.lO6diOZO5FReftK6.effects.9svfDetqjhsFP3ey.description",
+        "field": "description",
+        "value": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.zhKbejFtCdHcLvg0.name",
+        "field": "name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.name",
+        "field": "name",
+        "value": "Criminal"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.advancement.8gFHAigaFboVUSgH.hint",
+        "field": "advancement.hint",
+        "value": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.IHbn6EXoBfxHdj7c.hint",
+        "field": "advancement.hint",
+        "value": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.nIaa61I4SSnwAQvz.hint",
+        "field": "advancement.hint",
+        "value": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.18x2qczDE0MerZfa.title",
+        "field": "advancement.title",
+        "value": "Drow Traits"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.18x2qczDE0MerZfa.hint",
+        "field": "advancement.hint",
+        "value": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.hIn6cR8fRweVWhTp.title",
+        "field": "advancement.title",
+        "value": "Drow Traits"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.hIn6cR8fRweVWhTp.hint",
+        "field": "advancement.hint",
+        "value": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.LWGXpgeZc3PwUgTg.title",
+        "field": "advancement.title",
+        "value": "Drow Traits"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.LWGXpgeZc3PwUgTg.hint",
+        "field": "advancement.hint",
+        "value": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.advancement.O7OAEMhJm2ecXudR.hint",
+        "field": "advancement.hint",
+        "value": "Your background grants you proficiency in Deception and Sleight of Hand. It also grants you proficiency in Forgery Kit."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.advancement.ozyZYuICa8mqTjA0.hint",
+        "field": "advancement.hint",
+        "value": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.MYuqmfnLZn23dvht.name",
+        "field": "name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.advancement.kDI6zoUamHzFTvHG.hint",
+        "field": "advancement.hint",
+        "value": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.advancement.Lk1ScjOCqRDtX2Tg.hint",
+        "field": "advancement.hint",
+        "value": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies."
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.S1H3INPWaAiRkB6G.title",
+        "field": "advancement.title",
+        "value": "Scholar"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.S1H3INPWaAiRkB6G.hint",
+        "field": "advancement.hint",
+        "value": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency. You have Expertise in the chosen skill."
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.advancement.ihi9jqhIMh3y3uaU.hint",
+        "field": "advancement.hint",
+        "value": "Your background allows you to increase your Dexterity, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.advancement.uwnus2OqHl8XwTbO.hint",
+        "field": "advancement.hint",
+        "value": "Your background grants you proficiency in Investigation and Perception. It also grants you proficiency with Calligrapher's Supplies."
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.name",
+        "field": "name",
+        "value": "Aasimar"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.advancement.B7jCbkEdf3zoFrDK.title",
+        "field": "advancement.title",
+        "value": "Aasimar Traits"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.advancement.Tr6LRsr28KaxnVD2.title",
+        "field": "advancement.title",
+        "value": "Aasimar Traits"
+      },
+      {
+        "path": "entries.phbsplArcaneEye0.effects.dnd5einvisible00.name",
+        "field": "name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbsplArcaneEye0.effects.dnd5einvisible00.description",
+        "field": "description",
+        "value": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+      },
+      {
+        "path": "entries.phbsplUnseenServ.effects.dnd5einvisible00.name",
+        "field": "name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbsplUnseenServ.effects.dnd5einvisible00.description",
+        "field": "description",
+        "value": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+      }
+    ]
+  },
+  "brokenReferencesRemaining": {
+    "total": 0,
+    "items": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "base_es": "dnd-players-handbook.tables.json",
+  "base_en": "dnd-players-handbook.tables-en.json",
+  "version": "v001",
+  "changes": {
+    "mapping_added": true,
+    "result_names_corrected": 3,
+    "description_text_patches": 2
+  },
+  "changed_entries": {
+    "phbFiendishLegac": {
+      "name": "Legado infernal",
+      "changes": [
+        {
+          "path": "entries.phbFiendishLegac.results.BDTDezjTIxlDKI0W.name",
+          "kind": "result_name",
+          "before": "Tiefling abisal",
+          "after": "Tiflin abisal"
+        },
+        {
+          "path": "entries.phbFiendishLegac.results.az5LLssMmXKwVuVN.name",
+          "kind": "result_name",
+          "before": "Tiefling ctónico",
+          "after": "Tiflin, ctónico"
+        },
+        {
+          "path": "entries.phbFiendishLegac.results.rgmgNUmrPVv1e7Dz.name",
+          "kind": "result_name",
+          "before": "Tiefling infernal",
+          "after": "Tiflin, infernal"
+        }
+      ]
+    },
+    "phbWildMagicSurg": {
+      "name": "Oleada de magia salvaje",
+      "changes": [
+        {
+          "path": "entries.phbWildMagicSurg.results.YkwnSFxrMOkXaHYM.description",
+          "kind": "result_description",
+          "before": "Una criatura amistosa contigo aparece en un espacio desocupado aleatorio a 60 pies o menos de ti. La criatura está bajo el control del DM y desaparece 1 minuto después. Tira [[/r 1d4]] para determinar la criatura: con un 1 aparece un Modron duodrón; con un 2, un flumph; con un 3, un Modron monodrón; con un 4, un unicornio. Consulta el Monster Manual para el bloque de estadísticas de la criatura.",
+          "after": "Una criatura amistosa contigo aparece en un espacio desocupado aleatorio a 60 pies o menos de ti. La criatura está bajo el control del DM y desaparece 1 minuto después. Tira [[/r 1d4]] para determinar la criatura: con un 1 aparece un Modron duodrón; con un 2, un flumph; con un 3, un Modron monodrón; con un 4, un unicornio. Consulta el Manual de Monstruos para el bloque de estadísticas de la criatura."
+        },
+        {
+          "path": "entries.phbWildMagicSurg.results.Mc6j9kCS7dSiJm6L.description",
+          "kind": "result_description",
+          "before": "Tienes la condición de &amp;Reference[Frightened]{Asustado} hasta el final de tu siguiente turno. El DM determina el origen de tu miedo.",
+          "after": "Tienes la condición de &amp;Reference[Frightened]{Aterrorizado} hasta el final de tu siguiente turno. El DM determina el origen de tu miedo."
+        }
+      ]
+    }
+  },
+  "summary": {
+    "entries_total": 27,
+    "results_total": 257,
+    "entries_modified": 2
+  }
+}

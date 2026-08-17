@@ -1,0 +1,24 @@
+{
+  "id": "dnd-players-handbook.equipment",
+  "fileName": "dnd-players-handbook.equipment.json",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "phb2024ActivitiesById"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phb2024MergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phb2024AdvancementById"
+    }
+  },
+  "folders": {
+    "totalFolders": 21
+  },
+  "entries": {
+    "totalEntries": 258
+  }
+}

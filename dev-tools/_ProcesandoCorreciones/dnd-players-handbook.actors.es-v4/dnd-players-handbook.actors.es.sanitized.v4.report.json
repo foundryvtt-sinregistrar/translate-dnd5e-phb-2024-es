@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "input": "dnd-players-handbook.actors.es.sanitized.v3.json",
+    "base_report": "dnd-players-handbook.actors.es.sanitized.v3.manual-review.report.json",
+    "output": "dnd-players-handbook.actors.es.sanitized.v4.json",
+    "generated_at": "2026-03-23T18:21:11.360307+00:00",
+    "version": "v4"
+  },
+  "summary": {
+    "manual_overrides_applied": 7,
+    "targeted_fragments_remaining": 0,
+    "broken_reference_remaining": 0
+  },
+  "applied_overrides": [
+    {
+      "path": "entries.phbprgFighter000.items.8jWxAwM0A9lpspWN.description",
+      "changes": [
+        "chapter 6 → capítulo 6",
+        "Traveler’s Clothes → Ropa de viajero"
+      ]
+    },
+    {
+      "path": "entries.phbprgMonk000000.items.2cLlxPh1dvJ76dvY.description",
+      "changes": [
+        "Traveler’s Clothes → Ropa de viajero"
+      ]
+    },
+    {
+      "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.description",
+      "changes": [
+        "chapter 6 → capítulo 6",
+        "Fine Clothes → Ropa fina"
+      ]
+    },
+    {
+      "path": "entries.phbprgRanger0000.items.XisqpTwG3m4b8ouV.description",
+      "changes": [
+        "Traveler’s Clothes → Ropa de viajero"
+      ]
+    },
+    {
+      "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.description",
+      "changes": [
+        "kit de falsificación → Kit de falsificación",
+        "Fine Clothes → Ropa fina",
+        "GP → PO en este bloque"
+      ]
+    },
+    {
+      "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.description",
+      "changes": [
+        "suministros de calígrafo → Útiles de caligrafía",
+        "Holy Símbolo → Símbolo sagrado",
+        "Parchment → Pergamino",
+        "GP → PO en este bloque"
+      ]
+    },
+    {
+      "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.description",
+      "changes": [
+        "suministros de calígrafo → Útiles de caligrafía",
+        "Fine Clothes → Ropa fina",
+        "GP → PO en este bloque"
+      ]
+    },
+    {
+      "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.description",
+      "changes": [
+        "Sentidos agudos → Sentidos Agudos"
+      ]
+    },
+    {
+      "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.advancement.O7OAEMhJm2ecXudR.hint",
+      "changes": [
+        "kit de falsificación → Kit de falsificación"
+      ]
+    },
+    {
+      "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.advancement.Lk1ScjOCqRDtX2Tg.hint",
+      "changes": [
+        "suministros de calígrafo → Útiles de caligrafía"
+      ]
+    },
+    {
+      "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.advancement.uwnus2OqHl8XwTbO.hint",
+      "changes": [
+        "suministros de calígrafo → Útiles de caligrafía"
+      ]
+    }
+  ],
+  "notes": [
+    "Se han mantenido sin cambios los nombres que coinciden con el inglés pero son válidos en el proyecto, como Aasimar, Quasit, Trance, Noble, Criminal o Invisible.",
+    "Esta v4 es una pasada quirúrgica de overrides exactos sobre los pendientes de la v3; no rehace reglas generales ni altera la estructura del fichero."
+  ]
+}

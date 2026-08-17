@@ -1,0 +1,1493 @@
+{
+  "label": "Tablas de tiradas",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "phb2024RollTableResultsById"
+    }
+  },
+  "folders": {
+    "Chapter 2": "Capítulo 2",
+    "Chapter 3": "Capítulo 3",
+    "Chapter 7": "Capítulo 7",
+    "Descriptions by Ability Score": "Descripciones por puntuación de característica",
+    "Personality Traits by Alignment": "Rasgos de personalidad por alineamiento",
+    "Reincarnated Lineages": "Linajes reencarnados"
+  },
+  "entries": {
+    "phbChaoticTraits": {
+      "name": "Rasgos caóticos",
+      "folder": "",
+      "description": "",
+      "results": {
+        "vbxR0RtP7iH28FER": {
+          "type": "text",
+          "name": "",
+          "description": "Fanfarrón"
+        },
+        "jgeZtQTXub7pLGDW": {
+          "type": "text",
+          "name": "",
+          "description": "Impulsivo"
+        },
+        "3p84lOv2rI5Ifxnq": {
+          "type": "text",
+          "name": "",
+          "description": "Rebelde"
+        },
+        "xTbruVMnWzW4jNvK": {
+          "type": "text",
+          "name": "",
+          "description": "Egocéntrico"
+        }
+      }
+    },
+    "phbCharismaDescr": {
+      "name": "Carisma",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "results": {
+        "lYQO2FYwsrrv0Xjx": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Encantador. <strong>Baja:</strong> Pedante."
+        },
+        "RYulbZL4BwdSMaep": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Autoritario. <strong>Baja:</strong> Sin sentido del humor."
+        },
+        "xsxQy1ck9Meo59k5": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Hilarante. <strong>Baja:</strong> Reservado."
+        },
+        "w5NrO43eyKu4gOU6": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Inspirador. <strong>Baja:</strong> Sin tacto."
+        }
+      }
+    },
+    "phbConstitutionD": {
+      "name": "Constitución",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "results": {
+        "hGgkwJSfz8NfVrx6": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Enérgico. <strong>Baja:</strong> Frágil."
+        },
+        "JBSouZYKuGvXJebO": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Vigoroso. <strong>Baja:</strong> Aprensivo."
+        },
+        "xDNr02NkYWW6SfLC": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Robusto. <strong>Baja:</strong> Letárgico."
+        },
+        "G5HaF3HcFCfAS2n0": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Estable. <strong>Baja:</strong> Delicado."
+        }
+      }
+    },
+    "phbDexterityDesc": {
+      "name": "Destreza",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "results": {
+        "gokgv2E9hihSHCrf": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Ágil. <strong>Baja:</strong> Nervioso."
+        },
+        "5L5SUMEpY9HLYNAL": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Dinámico. <strong>Baja:</strong> Torpe."
+        },
+        "NB88AcSQ3iIW8jXE": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Inquieto. <strong>Baja:</strong> Vacilante."
+        },
+        "KtBa1wiYzwF7fYlo": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Seguro. <strong>Baja:</strong> Inestable."
+        }
+      }
+    },
+    "phbElvenLineage0": {
+      "name": "Linaje élfico",
+      "folder": "",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>",
+      "results": {
+        "BnLtNGVLIwk3q6Hf": {
+          "type": "document",
+          "name": "Elfo drow",
+          "description": ""
+        },
+        "fRp61b2M2UirSn1B": {
+          "type": "document",
+          "name": "Elfo alto",
+          "description": ""
+        },
+        "A4xbZelWo8bO7tfV": {
+          "type": "document",
+          "name": "Elfo del bosque",
+          "description": ""
+        }
+      }
+    },
+    "phbEvilTraits000": {
+      "name": "Rasgos malignos",
+      "folder": "",
+      "description": "",
+      "results": {
+        "odHmKdIBOxARUoDQ": {
+          "type": "text",
+          "name": "",
+          "description": "Deshonesto"
+        },
+        "NZ72JRISdOZWm5Ik": {
+          "type": "text",
+          "name": "",
+          "description": "Vengativo"
+        },
+        "xJdVoehniU7eQP6V": {
+          "type": "text",
+          "name": "",
+          "description": "Cruel"
+        },
+        "Gjh670k1s87Nhz9w": {
+          "type": "text",
+          "name": "",
+          "description": "Avaro"
+        }
+      }
+    },
+    "phbFeywildGifts0": {
+      "name": "Regalos del Feywild",
+      "folder": "",
+      "description": "",
+      "results": {
+        "TqXP9Dlvut14Lum3": {
+          "type": "text",
+          "name": "",
+          "description": "Mariposas ilusorias revolotean a tu alrededor mientras haces un descanso corto o largo."
+        },
+        "yApcdYbXT2osz4ti": {
+          "type": "text",
+          "name": "",
+          "description": "Cada amanecer florecen flores en tu cabello."
+        },
+        "GIWR3QmIqswjjSF2": {
+          "type": "text",
+          "name": "",
+          "description": "Desprendes un leve aroma a canela, lavanda, nuez moscada u otra hierba o especia reconfortante."
+        },
+        "AzX8Y4cc9BPLfRv5": {
+          "type": "text",
+          "name": "",
+          "description": "Tu sombra danza mientras nadie la mira directamente."
+        },
+        "E2o5uvomBiuGKDJ0": {
+          "type": "text",
+          "name": "",
+          "description": "De tu cabeza brotan cuernos o astas."
+        },
+        "BTeKY9daYLzUHXmA": {
+          "type": "text",
+          "name": "",
+          "description": "Tu piel y tu cabello cambian de color cada amanecer."
+        }
+      }
+    },
+    "phbFiendishLegac": {
+      "name": "Legado infernal",
+      "folder": "",
+      "description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p>",
+      "results": {
+        "BDTDezjTIxlDKI0W": {
+          "type": "document",
+          "name": "Tiefling abisal",
+          "description": ""
+        },
+        "az5LLssMmXKwVuVN": {
+          "type": "document",
+          "name": "Tiefling ctónico",
+          "description": ""
+        },
+        "rgmgNUmrPVv1e7Dz": {
+          "type": "document",
+          "name": "Tiefling infernal",
+          "description": ""
+        }
+      }
+    },
+    "phbgenCardinalDi": {
+      "name": "Direcciones cardinales",
+      "folder": "",
+      "description": "",
+      "results": {
+        "DNSpGtmvbcTFYI70": {
+          "type": "text",
+          "name": "",
+          "description": "Norte"
+        },
+        "tKlkAqCz2QJZMRaB": {
+          "type": "text",
+          "name": "",
+          "description": "Este"
+        },
+        "OkQWirC6VKB68BXa": {
+          "type": "text",
+          "name": "",
+          "description": "Sur"
+        },
+        "CyJrrodLJ2WzWGqT": {
+          "type": "text",
+          "name": "",
+          "description": "Oeste"
+        }
+      }
+    },
+    "phbGnomishLineag": {
+      "name": "Linaje gnómico",
+      "folder": "",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>",
+      "results": {
+        "AIWT6lRqac4IYvnv": {
+          "type": "document",
+          "name": "Gnomo del bosque",
+          "description": ""
+        },
+        "tErs3uTFNYKl3gAu": {
+          "type": "document",
+          "name": "Gnomo de las rocas",
+          "description": ""
+        }
+      }
+    },
+    "phbGoodTraits000": {
+      "name": "Rasgos bondadosos",
+      "folder": "",
+      "description": "",
+      "results": {
+        "qEQerPXs9a0dH9pe": {
+          "type": "text",
+          "name": "",
+          "description": "Compasivo"
+        },
+        "djCDvcBqgU9SaC0X": {
+          "type": "text",
+          "name": "",
+          "description": "Servicial"
+        },
+        "hPAFez3M2SD67ReJ": {
+          "type": "text",
+          "name": "",
+          "description": "Honesto"
+        },
+        "ps2Exz1TNuwqhbrx": {
+          "type": "text",
+          "name": "",
+          "description": "Amable"
+        }
+      }
+    },
+    "phbIntelligenceD": {
+      "name": "Inteligencia",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "results": {
+        "6oKmNpNTlC6JSbvO": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Resolutivo. <strong>Baja:</strong> Ingenuo."
+        },
+        "h5aL3ClP4QZv36Da": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Lógico. <strong>Baja:</strong> Ilógico."
+        },
+        "2PIIgUvU1jpAgvu1": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Bien informado. <strong>Baja:</strong> Desinformado."
+        },
+        "QFuzEQD9wISbadXZ": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Curioso. <strong>Baja:</strong> Frívolo."
+        }
+      }
+    },
+    "phbLawfulTraits0": {
+      "name": "Rasgos legales",
+      "folder": "",
+      "description": "",
+      "results": {
+        "CApzKsqAnwn3Sqn3": {
+          "type": "text",
+          "name": "",
+          "description": "Cooperativo"
+        },
+        "MtTv9TsK3nQtDjmL": {
+          "type": "text",
+          "name": "",
+          "description": "Leal"
+        },
+        "CEt8BSsjuvG5tpty": {
+          "type": "text",
+          "name": "",
+          "description": "Crítico"
+        },
+        "XpG5S35SYz9PxnS4": {
+          "type": "text",
+          "name": "",
+          "description": "Metódico"
+        }
+      }
+    },
+    "phbManifestation": {
+      "name": "Manifestaciones del orden",
+      "folder": "",
+      "description": "",
+      "results": {
+        "eXixDmzNcrgIKUuo": {
+          "type": "text",
+          "name": "",
+          "description": "Ruedas dentadas espectrales flotan detrás de ti."
+        },
+        "n0Ca78FAc8y3ZWJg": {
+          "type": "text",
+          "name": "",
+          "description": "Las manecillas de un reloj giran en tus ojos."
+        },
+        "W1eFgui77sHghTZZ": {
+          "type": "text",
+          "name": "",
+          "description": "Tu piel brilla con un lustre cobrizo."
+        },
+        "oCbas5BWdQ1vIyM8": {
+          "type": "text",
+          "name": "",
+          "description": "Ecuaciones flotantes y objetos geométricos se superponen a tu cuerpo."
+        },
+        "nHVMHwbNyTPpSynM": {
+          "type": "text",
+          "name": "",
+          "description": "Tu foco para conjuros adopta temporalmente la forma de un mecanismo de relojería diminuto."
+        },
+        "pzfUxlnRrHLdCMQh": {
+          "type": "text",
+          "name": "",
+          "description": "Tú y quienes se ven afectados por tu magia podéis oír el tictac de engranajes o el repique de un reloj."
+        }
+      }
+    },
+    "phbNeutralTraits": {
+      "name": "Rasgos neutrales",
+      "folder": "",
+      "description": "",
+      "results": {
+        "T9YuWzRd3PcrJFiG": {
+          "type": "text",
+          "name": "",
+          "description": "Egoísta"
+        },
+        "NGFdXd75oMf51KPo": {
+          "type": "text",
+          "name": "",
+          "description": "Desinteresado"
+        },
+        "dUDra1Dj3Vb3HQYW": {
+          "type": "text",
+          "name": "",
+          "description": "Lacónico"
+        },
+        "X0qoW0eOJbpP3dTM": {
+          "type": "text",
+          "name": "",
+          "description": "Pragmático"
+        }
+      }
+    },
+    "phbPrismaticLaye": {
+      "name": "Capas prismáticas",
+      "folder": "",
+      "description": "",
+      "results": {
+        "t0CrtbVhYtW3a7Lt": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Roja.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de fuego</span>. <em>Salvación superada:</em> La mitad de daño. <em>Efectos adicionales</em>: Los ataques a distancia no mágicos no pueden atravesar esta capa, que se destruye si recibe al menos 25 puntos de daño de Frío.</p>"
+        },
+        "jAjDgUISYpf5GnE5": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Naranja.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño ácido</span>. <em>Salvación superada:</em> La mitad de daño. <em>Efectos adicionales:</em> Los ataques a distancia mágicos no pueden atravesar esta capa, que se destruye con un viento fuerte (como el creado por <em>Ráfaga de viento</em>).</p>"
+        },
+        "6ofDupJRAkCwQL5d": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Amarilla.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de relámpago</span>. <em>Salvación superada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 60 puntos de daño de Fuerza.</p>"
+        },
+        "uA69bAczU0ATdEt4": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Verde.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de veneno</span>. <em>Salvación superada:</em> La mitad de daño. <em>Efectos adicionales:</em> Un conjuro de <em>Atravesar muro</em>, u otro conjuro de nivel igual o superior que pueda abrir un portal en una superficie sólida, destruye esta capa.</p>"
+        },
+        "0UVk1kE4Nz7qMSlj": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Azul.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de frío</span>. <em>Salvación superada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 25 puntos de daño de Fuego.</p>"
+        },
+        "b1ryx7FwWLGwgQiQ": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Índigo.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restringido</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitución</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si tiene éxito en tres tiradas de salvación, la condición termina. Si falla tres tiradas, tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrificado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición hasta que sea liberado por un efecto como el conjuro <em>Restauración mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de uno u otro. <em>Efectos adicionales:</em> No se pueden lanzar conjuros a través de esta capa, que se destruye con la Luz brillante emitida por el conjuro <em>Luz del día</em>.</p>"
+        },
+        "cbfHzGC7oLI48i1F": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Violeta.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Cegado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Sabiduría</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al inicio de tu siguiente turno. Con una salvación superada, la condición termina. Con una salvación fallida, la condición termina y la criatura se teletransporta a otro plano de existencia (a elección del DM). <em>Efectos adicionales:</em> Esta capa se destruye con <em>Disipar magia</em>.</p>"
+        }
+      }
+    },
+    "phbPrismaticRays": {
+      "name": "Rayos prismáticos",
+      "folder": "",
+      "description": "",
+      "results": {
+        "Yh9bG6idhWWwUmdS": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Rojo.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de fuego</span>. <em>Salvación superada:</em> La mitad de daño.</p>"
+        },
+        "WtYqe4zm1DJyXmI5": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Naranja.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño ácido</span>. <em>Salvación superada:</em> La mitad de daño.</p>"
+        },
+        "DYdvoPQwjzkQAmOz": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Amarillo.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de relámpago</span>. <em>Salvación superada:</em> La mitad de daño.</p>"
+        },
+        "VJ0WNUsuWtNqlr7M": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Verde.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de veneno</span>. <em>Salvación superada:</em> La mitad de daño.</p>"
+        },
+        "xZgEE34Oi8lV3z8S": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Azul.</strong><em> Salvación fallida:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> de daño de frío</span>. <em>Salvación superada:</em> La mitad de daño.</p>"
+        },
+        "9roEeqKHIauLWYsP": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Índigo.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restringido</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitución</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si tiene éxito en tres tiradas de salvación, la condición termina. Si falla tres tiradas, tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrificado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición hasta que sea liberado por un efecto como el conjuro <em>Restauración mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo acumule tres de uno u otro.</p>"
+        },
+        "YRy23VFeS34ZU0kN": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Violeta.</strong><em> Salvación fallida:</em> El objetivo tiene la <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Cegado</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condición y realiza una tirada de salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Sabiduría</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al inicio de tu siguiente turno. Con una salvación superada, la condición termina. Con una salvación fallida, la condición termina y la criatura se teletransporta a otro plano de existencia (a elección del DM).</p>"
+        },
+        "w7WNMlR1c0Bmsj1l": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Especial.</strong> El objetivo es golpeado por dos rayos. Tira dos veces, repitiendo cualquier 8.</p>"
+        }
+      }
+    },
+    "phbsplConfusionB": {
+      "name": "Comportamiento bajo confusión",
+      "folder": "",
+      "description": "<p>Comportamiento de este turno</p>",
+      "results": {
+        "wOokSBLpTsUWBccD": {
+          "type": "text",
+          "name": "",
+          "description": "El objetivo no realiza ninguna acción y usa todo su movimiento para moverse. Tira [[/r 1d4]] para determinar la dirección: 1, norte; 2, este; 3, sur; o 4, oeste."
+        },
+        "VTOEaomsUWS6eaCb": {
+          "type": "text",
+          "name": "",
+          "description": "El objetivo no se mueve ni realiza acciones."
+        },
+        "usPRYhAMow3voSIj": {
+          "type": "text",
+          "name": "",
+          "description": "El objetivo no se mueve y realiza la acción de Ataque para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna al alcance, el objetivo no realiza ninguna acción."
+        },
+        "Vk9ifvOs3jxCZhvd": {
+          "type": "text",
+          "name": "",
+          "description": "El objetivo elige su comportamiento."
+        },
+        "8oHL5jQ0fXbXGpuf": {
+          "type": "document",
+          "name": "Direcciones cardinales",
+          "description": ""
+        }
+      }
+    },
+    "phbsplReincarnat": {
+      "name": "Especie reencarnada",
+      "folder": "",
+      "description": "<p>Tira [[/r 1d10]] y consulta la tabla siguiente para determinar la especie del cuerpo, o el DM elige otra especie jugable.</p>",
+      "results": {
+        "DLKTRYgF1vpG4ons": {
+          "type": "document",
+          "name": "Aasimar",
+          "description": ""
+        },
+        "lCG2E5mLJL43oGk4": {
+          "type": "document",
+          "name": "Dracónido",
+          "description": ""
+        },
+        "Ym4LPQm1DMZ3iUBH": {
+          "type": "document",
+          "name": "Enano",
+          "description": ""
+        },
+        "9FtTDJCOwnD97SOu": {
+          "type": "document",
+          "name": "Goliat",
+          "description": ""
+        },
+        "RI73kNpd5iAababR": {
+          "type": "document",
+          "name": "Mediano",
+          "description": ""
+        },
+        "6L3KbE75ugKNdbhg": {
+          "type": "document",
+          "name": "Humano",
+          "description": ""
+        },
+        "xNcsrma8ucsEEgz3": {
+          "type": "document",
+          "name": "Orco",
+          "description": ""
+        },
+        "8g4dm4vqB60zPWw5": {
+          "type": "document",
+          "name": "Linaje élfico",
+          "description": ""
+        },
+        "PkXN8vlW5cXx8vbB": {
+          "type": "document",
+          "name": "Legado infernal",
+          "description": ""
+        },
+        "ncs8GLvSuavCJAqf": {
+          "type": "document",
+          "name": "Linaje gnómico",
+          "description": ""
+        }
+      }
+    },
+    "phbsplTeleportMi": {
+      "name": "Percance de teletransporte",
+      "folder": "",
+      "description": "<p><strong>Daño por percance:</strong> [[/damage 3d10 type=force]]</p><p><strong>Distancia fuera del objetivo:</strong> [[/r 2d12#Millas]]{2d12 millas} [[/r 1d8#Dirección]]{Dirección}</p>",
+      "results": {
+        "RaCnOnLRcJPv11Vf": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Círculo permanente:</strong> En el objetivo"
+        },
+        "4W9YPHqIIDyt3WbV": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Objeto vinculado:</strong> En el objetivo"
+        },
+        "MgxjepFoJzZqVf1M": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Muy familiar:</strong> Percance"
+        },
+        "BtifMFAP26aAcDOx": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Muy familiar:</strong> Zona similar"
+        },
+        "K6jZpSdlRXI1Wg9Q": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Muy familiar:</strong> Fuera del objetivo"
+        },
+        "ZPWjjJxSnyLENM8O": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Muy familiar:</strong> En el objetivo"
+        },
+        "niANcATD48MDIE5s": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto casualmente:</strong> Percance"
+        },
+        "rPgQoygHRRWRRmIK": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto casualmente:</strong> Zona similar"
+        },
+        "5hV5vL7SYu53EPvb": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto casualmente:</strong> Fuera del objetivo"
+        },
+        "KShVQqILsbEKwNQ1": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto casualmente:</strong> Fuera del objetivo"
+        },
+        "n7LhrgNZV6rYGYBv": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto o descrito:</strong> Percance"
+        },
+        "S3FXuqVgRazP23RK": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto o descrito:</strong> Zona similar"
+        },
+        "LWWefv3FEwkukueE": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto o descrito:</strong> Fuera del objetivo"
+        },
+        "K3Uun9ZfyGTdLNJl": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Visto o descrito:</strong> En el objetivo"
+        },
+        "UH8N3zGLSGiLPObv": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Destino falso:</strong> Percance"
+        },
+        "yJ4FhyyZvenG7AJl": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Destino falso:</strong> Zona similar"
+        }
+      }
+    },
+    "phbStandardLangu": {
+      "name": "Idiomas estándar",
+      "folder": "",
+      "description": "",
+      "results": {
+        "rViHFEn5WjhRbElK": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Común. <strong>Origen:</strong> Sigil."
+        },
+        "pzL0RD1tg43fqDTo": {
+          "type": "document",
+          "name": "Tabla de subidiomas",
+          "description": ""
+        },
+        "JpUuNwaf83gmUwV4": {
+          "type": "document",
+          "name": "Tabla de subidiomas",
+          "description": ""
+        }
+      }
+    },
+    "phbStarMapForms0": {
+      "name": "Formas del mapa estelar",
+      "folder": "",
+      "description": "",
+      "results": {
+        "ZRBsw6n8mGNwLpJt": {
+          "type": "text",
+          "name": "",
+          "description": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapScroll]{pergamino} con representaciones de constelaciones"
+        },
+        "1e85goxH6XmgVAdj": {
+          "type": "text",
+          "name": "",
+          "description": "Una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapStoneT]{tablilla de piedra} con pequeños orificios perforados"
+        },
+        "eXetoF5I0dBYsAvA": {
+          "type": "text",
+          "name": "",
+          "description": "Una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapOwlbea]{piel de oso lechuza} decorada con símbolos estelares"
+        },
+        "aado9cmpRwu14GS3": {
+          "type": "text",
+          "name": "",
+          "description": "Una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapBoundI]{colección de mapas} encuadernada en una cubierta de ébano"
+        },
+        "65OqsrLnZLnxBefD": {
+          "type": "text",
+          "name": "",
+          "description": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapCrysta]{cristal} grabado con patrones estrellados"
+        },
+        "ZUV7FeQvZGGAC5uO": {
+          "type": "text",
+          "name": "",
+          "description": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapGlassD]{disco de vidrio} grabado con constelaciones"
+        }
+      }
+    },
+    "phbStartingTrink": {
+      "name": "Baratijas",
+      "folder": "",
+      "description": "",
+      "results": {
+        "1UB86NcSDUIBykNm": {
+          "type": "text",
+          "name": "",
+          "description": "Una mano de goblin momificada"
+        },
+        "M1IWLp8ChJcJvuO6": {
+          "type": "text",
+          "name": "",
+          "description": "Un cristal que brilla tenuemente a la luz de la luna"
+        },
+        "XRqEMbHsMsA7J9VH": {
+          "type": "text",
+          "name": "",
+          "description": "Una moneda de oro acuñada en una tierra desconocida"
+        },
+        "VlXxfsGYaBWe8lmv": {
+          "type": "text",
+          "name": "",
+          "description": "Un diario escrito en un idioma que no conoces"
+        },
+        "w5us6YeOVVr5CTzu": {
+          "type": "text",
+          "name": "",
+          "description": "Un anillo de latón que nunca se deslustra"
+        },
+        "zawsPbsknbRsAruh": {
+          "type": "text",
+          "name": "",
+          "description": "Una vieja pieza de ajedrez hecha de vidrio"
+        },
+        "0Z5jMrvmiZ8HK8xd": {
+          "type": "text",
+          "name": "",
+          "description": "Un par de dados de nudillo, cada uno con un símbolo de calavera en la cara que normalmente mostraría seis puntos"
+        },
+        "doz8Ggqs6mdGLHHM": {
+          "type": "text",
+          "name": "",
+          "description": "Un pequeño ídolo que representa a una criatura de pesadilla y que te provoca sueños inquietantes cuando duermes cerca de él"
+        },
+        "bMI91XR4KMvo4tjI": {
+          "type": "text",
+          "name": "",
+          "description": "Un mechón de cabello de alguien"
+        },
+        "u8DhaWBstONiXblV": {
+          "type": "text",
+          "name": "",
+          "description": "La escritura de una parcela de tierra en un reino que desconoces"
+        },
+        "C2uOPhK0TUu8dTXN": {
+          "type": "text",
+          "name": "",
+          "description": "Un bloque de 1 onza hecho de un material desconocido"
+        },
+        "OYKb6uraFnjRkgmd": {
+          "type": "text",
+          "name": "",
+          "description": "Una pequeña muñeca de tela atravesada por agujas"
+        },
+        "ln8C5RrIfteVeu3B": {
+          "type": "text",
+          "name": "",
+          "description": "Un diente de una bestia desconocida"
+        },
+        "SSpTgkp4wvU8lHWp": {
+          "type": "text",
+          "name": "",
+          "description": "Una escama enorme, quizá de dragón"
+        },
+        "uh2ybtxRs8M3VjmX": {
+          "type": "text",
+          "name": "",
+          "description": "Una pluma verde brillante"
+        },
+        "wjOwLB6kmGbWP2qD": {
+          "type": "text",
+          "name": "",
+          "description": "Una vieja carta de adivinación con tu retrato"
+        },
+        "EY007jl51tPPREYT": {
+          "type": "text",
+          "name": "",
+          "description": "Una esfera de vidrio llena de humo en movimiento"
+        },
+        "IDGi7ijU97dtydoh": {
+          "type": "text",
+          "name": "",
+          "description": "Un huevo de 1 libra con una cáscara de color rojo brillante"
+        },
+        "LvAMmmHYYZQu95th": {
+          "type": "text",
+          "name": "",
+          "description": "Una pipa que sopla burbujas"
+        },
+        "ntkr8bH7QTevl9jA": {
+          "type": "text",
+          "name": "",
+          "description": "Un frasco de vidrio que contiene un trozo de carne flotando en líquido conservante"
+        },
+        "SFJefOoyTvSYf2DW": {
+          "type": "text",
+          "name": "",
+          "description": "Una caja de música gnómica que toca una canción que recuerdas vagamente de tu infancia"
+        },
+        "0j3emj0PU8amfwS3": {
+          "type": "text",
+          "name": "",
+          "description": "Una estatuilla de madera de un mediano engreído"
+        },
+        "3LTEcTwsUr9m5mGV": {
+          "type": "text",
+          "name": "",
+          "description": "Una esfera de latón grabada con runas extrañas"
+        },
+        "4Mrq1XRbsUJjKceK": {
+          "type": "text",
+          "name": "",
+          "description": "Un disco de piedra multicolor"
+        },
+        "kcyLpCJmO7UFWW2H": {
+          "type": "text",
+          "name": "",
+          "description": "Un icono de plata con forma de cuervo"
+        },
+        "twUx2e03YCRFeN1f": {
+          "type": "text",
+          "name": "",
+          "description": "Una bolsa que contiene cuarenta y siete dientes, uno de ellos podrido"
+        },
+        "McuVqsG6pSeSN7S6": {
+          "type": "text",
+          "name": "",
+          "description": "Un fragmento de obsidiana que siempre se siente cálido al tacto"
+        },
+        "l1PHw7hxFHIJ6tUh": {
+          "type": "text",
+          "name": "",
+          "description": "Una garra de dragón colgada de un collar de cuero"
+        },
+        "o7vFqKnuUZ2sV10C": {
+          "type": "text",
+          "name": "",
+          "description": "Un par de calcetines viejos"
+        },
+        "nMWe5i4J7zB89CWq": {
+          "type": "text",
+          "name": "",
+          "description": "Un libro en blanco cuyas páginas se niegan a retener tinta, tiza, grafito o cualquier otra marca"
+        },
+        "mUigbGOt583dBuX4": {
+          "type": "text",
+          "name": "",
+          "description": "Una insignia de plata con forma de estrella de cinco puntas"
+        },
+        "K8IUYfsaAz2sdFwM": {
+          "type": "text",
+          "name": "",
+          "description": "Un cuchillo que perteneció a un familiar"
+        },
+        "VBZ5z1IzyOMxWjh3": {
+          "type": "text",
+          "name": "",
+          "description": "Un vial de vidrio lleno de recortes de uñas"
+        },
+        "n1SWfDr140Czy7Dk": {
+          "type": "text",
+          "name": "",
+          "description": "Un dispositivo metálico rectangular con dos diminutas copas metálicas en un extremo que lanza chispas cuando se moja"
+        },
+        "vv4Ogu0Sc5byy86S": {
+          "type": "text",
+          "name": "",
+          "description": "Un guante blanco con lentejuelas del tamaño de una mano humana"
+        },
+        "G1WR64ROhRxe4SlZ": {
+          "type": "text",
+          "name": "",
+          "description": "Un chaleco con cien pequeños bolsillos"
+        },
+        "xl1zdaiiFf991Iqt": {
+          "type": "text",
+          "name": "",
+          "description": "Una piedra sin peso"
+        },
+        "G8H06tR6Rv6YweY1": {
+          "type": "text",
+          "name": "",
+          "description": "Un dibujo de un goblin"
+        },
+        "QAjgAqeSpPQOAxbv": {
+          "type": "text",
+          "name": "",
+          "description": "Un vial de vidrio vacío que huele a perfume"
+        },
+        "K1CvAxT4EQIa1KqT": {
+          "type": "text",
+          "name": "",
+          "description": "Una gema que parece un trozo de carbón cuando la examina cualquiera excepto tú"
+        },
+        "WJN8tK4NZWbXPu6B": {
+          "type": "text",
+          "name": "",
+          "description": "Un trozo de tela de un viejo estandarte"
+        },
+        "VV9aOlIjb6Eeijk0": {
+          "type": "text",
+          "name": "",
+          "description": "Una insignia de rango de un legionario perdido"
+        },
+        "tCjByq1RqPKTMByr": {
+          "type": "text",
+          "name": "",
+          "description": "Una campanilla de plata sin badajo"
+        },
+        "nKavwZYOnFrOHkG3": {
+          "type": "text",
+          "name": "",
+          "description": "Un canario mecánico dentro de una lámpara"
+        },
+        "p4KCpZunRqNmEC9F": {
+          "type": "text",
+          "name": "",
+          "description": "Un cofre en miniatura tallado para parecer que tiene numerosos pies en la parte inferior"
+        },
+        "iQYOjVF2WdcGGgxR": {
+          "type": "text",
+          "name": "",
+          "description": "Una hadilla muerta dentro de una botella de vidrio transparente"
+        },
+        "7JFlRuHhcNgFBQCL": {
+          "type": "text",
+          "name": "",
+          "description": "Una lata metálica que no tiene abertura, pero suena como si estuviera llena de líquido, arena, arañas o vidrio roto (a tu elección)"
+        },
+        "JJewPitLKW29w7us": {
+          "type": "text",
+          "name": "",
+          "description": "Una esfera de vidrio llena de agua en la que nada un pez dorado mecánico"
+        },
+        "sFUjvmAhIHtUIAwn": {
+          "type": "text",
+          "name": "",
+          "description": "Una cuchara de plata con una M grabada en el mango"
+        },
+        "agFIuW6qay5wyhR3": {
+          "type": "text",
+          "name": "",
+          "description": "Un silbato hecho de madera de color dorado"
+        },
+        "CYeyOuA30ohcfPgd": {
+          "type": "text",
+          "name": "",
+          "description": "Un escarabajo muerto del tamaño de tu mano"
+        },
+        "XyePtfYIngJ5suzP": {
+          "type": "text",
+          "name": "",
+          "description": "Dos soldados de juguete, uno sin cabeza"
+        },
+        "YqT3ro2COewxvBQK": {
+          "type": "text",
+          "name": "",
+          "description": "Una pequeña caja llena de botones de distintos tamaños"
+        },
+        "6GFmEhglG9rjrj2G": {
+          "type": "text",
+          "name": "",
+          "description": "Una vela que no puede encenderse"
+        },
+        "BJ9OaK1OeRxCLcsm": {
+          "type": "text",
+          "name": "",
+          "description": "Una jaula en miniatura sin puerta"
+        },
+        "uDyEGNdkNoZflKJG": {
+          "type": "text",
+          "name": "",
+          "description": "Una llave vieja"
+        },
+        "wCHlXVeLGW0nvsPp": {
+          "type": "text",
+          "name": "",
+          "description": "Un mapa del tesoro indescifrable"
+        },
+        "C2EdF8CZHmvexHDX": {
+          "type": "text",
+          "name": "",
+          "description": "La empuñadura de una espada rota"
+        },
+        "BoJHLiKzZPvCmkIf": {
+          "type": "text",
+          "name": "",
+          "description": "Una pata de conejo"
+        },
+        "xhmkotcrYgtDq0jQ": {
+          "type": "text",
+          "name": "",
+          "description": "Un ojo de vidrio"
+        },
+        "NMkW290csrmB9JGQ": {
+          "type": "text",
+          "name": "",
+          "description": "Un camafeo de una persona horrible"
+        },
+        "H16sxzL3mY0ab0SD": {
+          "type": "text",
+          "name": "",
+          "description": "Una calavera de plata del tamaño de una moneda"
+        },
+        "9kaaUYVwfMkFfsjo": {
+          "type": "text",
+          "name": "",
+          "description": "Una máscara de alabastro"
+        },
+        "yrZzanhn0D1p9Nyb": {
+          "type": "text",
+          "name": "",
+          "description": "Un cono de incienso negro pegajoso que apesta"
+        },
+        "G2KxS5pdZuxtDf4D": {
+          "type": "text",
+          "name": "",
+          "description": "Un gorro de dormir que te da sueños agradables cuando lo llevas puesto"
+        },
+        "zYFlKKsvc4HPr7Ub": {
+          "type": "text",
+          "name": "",
+          "description": "Un único abrojo hecho de hueso"
+        },
+        "RMfr9DqzeXVEYAtv": {
+          "type": "text",
+          "name": "",
+          "description": "La montura de un monóculo de oro sin lente"
+        },
+        "uTzd9hG7fVG1nBZB": {
+          "type": "text",
+          "name": "",
+          "description": "Un cubo de 1 pulgada, cada cara de un color distinto"
+        },
+        "xsWDSHfrSy9hQmk8": {
+          "type": "text",
+          "name": "",
+          "description": "Un pomo de puerta de cristal"
+        },
+        "OpI3dqeFnDcvRr75": {
+          "type": "text",
+          "name": "",
+          "description": "Un paquete lleno de polvo rosa"
+        },
+        "TREYOVgNQppBKl9c": {
+          "type": "text",
+          "name": "",
+          "description": "Un fragmento de una hermosa canción, escrito como notas musicales en dos pedazos de pergamino"
+        },
+        "rlRDpniFUS5xuWhG": {
+          "type": "text",
+          "name": "",
+          "description": "Un pendiente de plata en forma de lágrima que contiene una lágrima real"
+        },
+        "W0dQHJTZDRf2UAwp": {
+          "type": "text",
+          "name": "",
+          "description": "Una cáscara de huevo pintada con escenas de miseria con un detalle perturbador"
+        },
+        "K0MYrwt4UTvNMiP3": {
+          "type": "text",
+          "name": "",
+          "description": "Un abanico que, al desplegarse, muestra un gato somnoliento"
+        },
+        "qYB6PvEKrZYEV3Pw": {
+          "type": "text",
+          "name": "",
+          "description": "Un juego de flautas de hueso"
+        },
+        "QRxf4NB36YiWnfJ4": {
+          "type": "text",
+          "name": "",
+          "description": "Un trébol de cuatro hojas prensado dentro de un libro sobre modales y etiqueta"
+        },
+        "gUs56tkBL7gnr0Wa": {
+          "type": "text",
+          "name": "",
+          "description": "Una hoja de pergamino en la que está dibujado un artefacto mecánico"
+        },
+        "DSfbe9YWWPwPT99n": {
+          "type": "text",
+          "name": "",
+          "description": "Una vaina ornamentada que no encaja con ninguna hoja que hayas encontrado"
+        },
+        "GZbSniAp67RYeulU": {
+          "type": "text",
+          "name": "",
+          "description": "Una invitación a una fiesta en la que ocurrió un asesinato"
+        },
+        "37vysK5qfyjHWBWm": {
+          "type": "text",
+          "name": "",
+          "description": "Un pentáculo de bronce con el grabado de la cabeza de una rata en su centro"
+        },
+        "r7gWpB24Slndb3wJ": {
+          "type": "text",
+          "name": "",
+          "description": "Un pañuelo púrpura bordado con el nombre de un archimago"
+        },
+        "yEot4MFFCGmRRTST": {
+          "type": "text",
+          "name": "",
+          "description": "La mitad de un plano de un templo, un castillo u otra estructura"
+        },
+        "vfO9PhxUuVH3Leb4": {
+          "type": "text",
+          "name": "",
+          "description": "Un trozo de tela doblado que, al desplegarse, se transforma en un sombrero elegante"
+        },
+        "RzQeJWipC6ESuUrn": {
+          "type": "text",
+          "name": "",
+          "description": "Un recibo de depósito de un banco en una ciudad lejana"
+        },
+        "H625UbkdnmJ64aw9": {
+          "type": "text",
+          "name": "",
+          "description": "Un diario al que le faltan siete páginas"
+        },
+        "I0exL9dzZg0wthMa": {
+          "type": "text",
+          "name": "",
+          "description": "Una tabaquera de plata vacía con la inscripción «sueños» en la tapa"
+        },
+        "z0tFDFVY2u9jXO68": {
+          "type": "text",
+          "name": "",
+          "description": "Un símbolo sagrado de hierro dedicado a un dios desconocido"
+        },
+        "rReB5FdOho5GjkDt": {
+          "type": "text",
+          "name": "",
+          "description": "Un libro sobre el ascenso y caída de un héroe legendario, al que le falta el último capítulo"
+        },
+        "axl0VE5AthESWIkd": {
+          "type": "text",
+          "name": "",
+          "description": "Un vial de sangre de dragón"
+        },
+        "x48dbt5uqwW7yvjG": {
+          "type": "text",
+          "name": "",
+          "description": "Una flecha antigua de diseño élfico"
+        },
+        "Hpp4hV1sKIoFqzIf": {
+          "type": "text",
+          "name": "",
+          "description": "Una aguja que nunca se dobla"
+        },
+        "Oa6sAjObddYMlClx": {
+          "type": "text",
+          "name": "",
+          "description": "Un broche ornamentado de diseño enano"
+        },
+        "lyVvx6NPjT1Emz7v": {
+          "type": "text",
+          "name": "",
+          "description": "Una botella de vino vacía con una bonita etiqueta que dice: «The Wizard of Wines Winery, Red Dragon Crush, 331422-W»"
+        },
+        "jzjeBPYKZviXaGE9": {
+          "type": "text",
+          "name": "",
+          "description": "Una tesela de mosaico con una superficie vidriada multicolor"
+        },
+        "fWWyjtohJHtz6NpV": {
+          "type": "text",
+          "name": "",
+          "description": "Un ratón petrificado"
+        },
+        "tJILEUhHQJgZd3h7": {
+          "type": "text",
+          "name": "",
+          "description": "Una bandera pirata negra adornada con una calavera de dragón y tibias cruzadas"
+        },
+        "nlYHh9O5My9VbXb5": {
+          "type": "text",
+          "name": "",
+          "description": "Un diminuto cangrejo o araña mecánica que se mueve cuando nadie la observa"
+        },
+        "x3XWO1tRDDjc0Dyt": {
+          "type": "text",
+          "name": "",
+          "description": "Un tarro de cristal con grasa y una etiqueta que dice: «Griffon Grease»"
+        },
+        "99Zmqkbbj1YyO4Cm": {
+          "type": "text",
+          "name": "",
+          "description": "Una caja de madera con fondo cerámico que contiene un gusano vivo con una cabeza en cada extremo de su cuerpo"
+        },
+        "BjTpLIR1DSNUQA7E": {
+          "type": "text",
+          "name": "",
+          "description": "Una urna metálica que contiene las cenizas de un héroe"
+        }
+      }
+    },
+    "phbStrengthDescr": {
+      "name": "Fuerza",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "results": {
+        "WPYEso4sWBUSQvOq": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Musculoso. <strong>Baja:</strong> Débil."
+        },
+        "itpZKjhBdgnKajNe": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Correoso. <strong>Baja:</strong> Enclenque."
+        },
+        "gpwlsLCmwpLSUv0b": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Protector. <strong>Baja:</strong> Cohibido."
+        },
+        "EU3ea5OEEhlg22ru": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Directo. <strong>Baja:</strong> Indirecto."
+        }
+      }
+    },
+    "phbSublanguageTa": {
+      "name": "Tabla de subidiomas",
+      "folder": "",
+      "description": "",
+      "results": {
+        "pyVRbUOfHAgtAvnf": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Lengua de signos común. <strong>Origen:</strong> Sigil."
+        },
+        "LoCbKgBhdONPEPVB": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Dracónico. <strong>Origen:</strong> Dragones."
+        },
+        "0uKZmKF7znJNVuzU": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Enano. <strong>Origen:</strong> Enanos."
+        },
+        "llH2J2NFDJ7eTCim": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Élfico. <strong>Origen:</strong> Elfos."
+        },
+        "ldceHBQUUr4q4wxq": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Gigante. <strong>Origen:</strong> Gigantes."
+        },
+        "K6WzOtBKakv6WBWo": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Gnómico. <strong>Origen:</strong> Gnomos."
+        },
+        "8jwF2ojzhkWpRtUw": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Goblin. <strong>Origen:</strong> Goblinoides."
+        },
+        "b0CKmtsTQ7J2GBz0": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Mediano. <strong>Origen:</strong> Medianos."
+        },
+        "0ax92ObMEQPSC2fm": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Idioma:</strong> Orco. <strong>Origen:</strong> Orcos."
+        }
+      }
+    },
+    "phbWildMagicSurg": {
+      "name": "Oleada de magia salvaje",
+      "folder": "",
+      "description": "",
+      "results": {
+        "IcK4t15GbK2HSh8R": {
+          "type": "text",
+          "name": "",
+          "description": "Tira en esta tabla al comienzo de cada uno de tus turnos durante el próximo minuto, ignorando este resultado en tiradas posteriores."
+        },
+        "YkwnSFxrMOkXaHYM": {
+          "type": "text",
+          "name": "",
+          "description": "Una criatura amistosa contigo aparece en un espacio desocupado aleatorio a 60 pies o menos de ti. La criatura está bajo el control del DM y desaparece 1 minuto después. Tira [[/r 1d4]] para determinar la criatura: con un 1 aparece un Modron duodrón; con un 2, un flumph; con un 3, un Modron monodrón; con un 4, un unicornio. Consulta el Monster Manual para el bloque de estadísticas de la criatura."
+        },
+        "tM3cYTdF8xl5Z3QU": {
+          "type": "text",
+          "name": "",
+          "description": "Durante el próximo minuto, recuperas 5 puntos de golpe al comienzo de cada uno de tus turnos."
+        },
+        "Ag50SwBaku5lCAkB": {
+          "type": "text",
+          "name": "",
+          "description": "Las criaturas tienen desventaja en las tiradas de salvación contra el siguiente conjuro que lances durante el próximo minuto y que implique una tirada de salvación."
+        },
+        "Nkmle92xyQeIO5wq": {
+          "type": "text",
+          "name": "",
+          "description": "Quedas sometido a un efecto que dura 1 minuto, a menos que su descripción diga lo contrario. Tira [[/r 1d8]] para determinar el efecto: con un 1, quedas rodeado de una tenue música etérea que solo tú y las criaturas a 5 pies o menos de ti podéis oír; con un 2, tu tamaño aumenta en una categoría; con un 3, te crece una larga barba hecha de plumas que permanece hasta que estornudas, momento en el que las plumas explotan desde tu cara y desaparecen; con un 4, debes gritar cuando hablas; con un 5, mariposas ilusorias revolotean en el aire a 10 pies o menos de ti; con un 6, aparece un ojo en tu frente, otorgándote ventaja en las pruebas de Sabiduría (Percepción); con un 7, burbujas rosas salen flotando de tu boca cada vez que hablas; con un 8, tu piel se vuelve de un azul vibrante durante 24 horas o hasta que el efecto termine mediante un conjuro de <em>Quitar maldición</em>."
+        },
+        "jd0POA14Xum3SeB8": {
+          "type": "text",
+          "name": "",
+          "description": "Durante el próximo minuto, todos tus conjuros con un tiempo de lanzamiento de una acción tienen un tiempo de lanzamiento de una acción adicional."
+        },
+        "f2jCEbNfnTnrpFwj": {
+          "type": "text",
+          "name": "",
+          "description": "Eres transportado al Plano Astral hasta el final de tu siguiente turno. Luego regresas al espacio que ocupabas anteriormente o al espacio desocupado más cercano si ese espacio está ocupado."
+        },
+        "vQsx4DWNuzIpbk1z": {
+          "type": "text",
+          "name": "",
+          "description": "La próxima vez que lances un conjuro que cause daño durante el próximo minuto, no tires los dados de daño del conjuro para ese daño. En su lugar, usa el número más alto posible para cada dado de daño."
+        },
+        "3h9eiKSmszhELSAb": {
+          "type": "text",
+          "name": "",
+          "description": "Tienes resistencia a todo el daño durante el próximo minuto."
+        },
+        "HSbNtkb3XFTvda0q": {
+          "type": "text",
+          "name": "",
+          "description": "Te transformas en una planta en maceta hasta el comienzo de tu siguiente turno. Mientras eres una planta, tienes la condición de &amp;Reference[Incapacitated]{Incapacitado} y vulnerabilidad a todo el daño. Si bajas a 0 puntos de golpe, tu maceta se rompe y recuperas tu forma."
+        },
+        "Ow2VYpqhO8kH6mrp": {
+          "type": "text",
+          "name": "",
+          "description": "Durante el próximo minuto, puedes teletransportarte hasta 20 pies como una acción adicional en cada uno de tus turnos."
+        },
+        "yCjMQtkhwbm1Hz0o": {
+          "type": "text",
+          "name": "",
+          "description": "Tú y hasta tres criaturas de tu elección a 30 pies o menos de ti tenéis la condición de Invisible durante 1 minuto. Esta invisibilidad termina en una criatura inmediatamente después de que haga una tirada de ataque, cause daño o lance un conjuro."
+        },
+        "zHdxmitNoPPVKAK2": {
+          "type": "text",
+          "name": "",
+          "description": "Un escudo espectral flota cerca de ti durante el próximo minuto, otorgándote un bonificador de +2 a la CA e inmunidad a <em>Proyectil mágico</em>."
+        },
+        "CcoRr6YLJ3283cFl": {
+          "type": "text",
+          "name": "",
+          "description": "Puedes realizar una acción adicional este turno."
+        },
+        "Nm2XzcukMCkSNzDv": {
+          "type": "text",
+          "name": "",
+          "description": "Lanzas un conjuro aleatorio. Si el conjuro normalmente requiere concentración, en este caso no la requiere; el conjuro dura toda su duración. Tira [[/r 1d10]] para determinar el conjuro: con un 1, <em>Confusión</em>; con un 2, <em>Bola de fuego</em>; con un 3, <em>Nube de niebla</em>; con un 4, <em>Volar</em> (lanzado sobre una criatura aleatoria a 60 pies o menos de ti); con un 5, <em>Grasa</em>; con un 6, <em>Levitar</em> (lanzado sobre ti mismo); con un 7, <em>Proyectil mágico</em> (lanzado como un conjuro de nivel 5); con un 8, <em>Imagen múltiple</em>; con un 9, <em>Polimorfar</em> (lanzado sobre ti mismo), y si fallas la tirada de salvación te conviertes en una cabra (véase el apéndice B); con un 10, <em>Ver invisibilidad</em>."
+        },
+        "VCk19RIMhPGqrYXL": {
+          "type": "text",
+          "name": "",
+          "description": "Durante el próximo minuto, cualquier objeto inflamable no mágico que toques y que no esté siendo llevado o vestido por otra criatura estalla en llamas, recibe 1d4 de daño de Fuego y arde."
+        },
+        "pHE4h98GeX7d9guc": {
+          "type": "text",
+          "name": "",
+          "description": "Si mueres durante la próxima hora, revives inmediatamente como si fuera por el conjuro <em>Reencarnación</em>."
+        },
+        "Mc6j9kCS7dSiJm6L": {
+          "type": "text",
+          "name": "",
+          "description": "Tienes la condición de &amp;Reference[Frightened]{Asustado} hasta el final de tu siguiente turno. El DM determina el origen de tu miedo."
+        },
+        "V5If86DM2oyQE5Qm": {
+          "type": "text",
+          "name": "",
+          "description": "Te teletransportas hasta 60 pies a un espacio desocupado que puedas ver."
+        },
+        "aLcTc8jkrKXyt9VI": {
+          "type": "text",
+          "name": "",
+          "description": "Una criatura aleatoria a 60 pies o menos de ti tiene la condición de Envenenado durante [[/r 1d4]] horas."
+        },
+        "ezDlDVysCI4dPSE6": {
+          "type": "text",
+          "name": "",
+          "description": "Irradias Luz brillante en un radio de 30 pies durante el próximo minuto. Cualquier criatura que termine su turno a 5 pies o menos de ti tiene la condición de Cegado hasta el final de su siguiente turno."
+        },
+        "xpL6ORlQGSHA1roO": {
+          "type": "text",
+          "name": "",
+          "description": "Hasta tres criaturas de tu elección que puedas ver a 30 pies o menos de ti reciben [[/damage 1d10 type=necrotic]] de daño necrótico. Recuperas puntos de golpe iguales a la suma del daño necrótico causado."
+        },
+        "FAFipyNPV1TCVz42": {
+          "type": "text",
+          "name": "",
+          "description": "Hasta tres criaturas de tu elección que puedas ver a 30 pies o menos de ti reciben [[/damage 4d10 type=lightning]] de daño de relámpago."
+        },
+        "aCnFIMm99BRylDF8": {
+          "type": "text",
+          "name": "",
+          "description": "Tú y todas las criaturas a 30 pies o menos de ti tenéis vulnerabilidad al daño perforante durante el próximo minuto."
+        },
+        "ggDXMvmM94uFsMSd": {
+          "type": "text",
+          "name": "",
+          "description": "Tira [[/r 1d6]]: con un 1, recuperas [[/healing 2d10]]{2d10} puntos de golpe; con un 2, un aliado de tu elección a 300 pies o menos de ti recupera [[/healing 2d10]]{2d10} puntos de golpe; con un 3, recuperas tu espacio de conjuro gastado de nivel más bajo; con un 4, un aliado de tu elección a 300 pies o menos de ti recupera su espacio de conjuro gastado de nivel más bajo; con un 5, recuperas todos tus puntos de hechicería gastados; con un 6, todos los efectos de las filas 17-20 te afectan simultáneamente."
+        }
+      }
+    },
+    "phbWisdomDescrip": {
+      "name": "Sabiduría",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "results": {
+        "PUNQf8JjqyJSTLPr": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Sereno. <strong>Baja:</strong> Temerario."
+        },
+        "lViJl8oVbTjw0c7p": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Considerado. <strong>Baja:</strong> Distraído."
+        },
+        "VXbgRwEfQG8Co8yh": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Atento. <strong>Baja:</strong> Despistado."
+        },
+        "BdSVueLnUHsic2vY": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Alta:</strong> Cauto. <strong>Baja:</strong> Ingenuo."
+        }
+      }
+    }
+  }
+}

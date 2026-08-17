@@ -1,0 +1,694 @@
+{
+  "_meta": {
+    "source": "dnd-players-handbook.classes.json",
+    "output": "dnd-players-handbook.classes-v006.json",
+    "scope": "entries.*.description",
+    "notes": [
+      "Esta pasada corrige restos visibles EN/ES en descripciones, captions, cabeceras de tabla, labels enlazados y notas de Foundry.",
+      "No toca advancement.title, advancement.hint, activities.condition ni activities.target porque ya se resolvieron en fases anteriores.",
+      "La comprobación automática de patrones monitorizados devolvió 0 coincidencias residuales visibles."
+    ]
+  },
+  "summary": {
+    "changed_descriptions": 109,
+    "epic_boon_entries_fixed": 12,
+    "spellcasting_entries_fixed": 10,
+    "spell_table_entries_fixed": 15,
+    "foundry_note_entries_fixed": 74,
+    "remaining_monitored_english_patterns": 0
+  },
+  "changed_keys": [
+    {
+      "key": "phbbrbEpicBoon00",
+      "name": "Dádiva épica",
+      "orig_len": 325,
+      "new_len": 320
+    },
+    {
+      "key": "phbbrdEpicBoon00",
+      "name": "Dádiva épica",
+      "orig_len": 256,
+      "new_len": 256
+    },
+    {
+      "key": "phbbrdMagicalDis",
+      "name": "Descubrimientos Mágicos",
+      "orig_len": 930,
+      "new_len": 931
+    },
+    {
+      "key": "phbbrdMagicalSec",
+      "name": "Secretos Mágicos",
+      "orig_len": 950,
+      "new_len": 951
+    },
+    {
+      "key": "phbbrdSpellcasti",
+      "name": "Lanzamiento de Conjuros",
+      "orig_len": 3420,
+      "new_len": 3422
+    },
+    {
+      "key": "phbclcDivineInte",
+      "name": "Intervención Divina",
+      "orig_len": 755,
+      "new_len": 754
+    },
+    {
+      "key": "phbclcEpicBoon00",
+      "name": "Dádiva Épica",
+      "orig_len": 305,
+      "new_len": 308
+    },
+    {
+      "key": "phbclcImprovedWa",
+      "name": "Destello Protector Mejorado",
+      "orig_len": 677,
+      "new_len": 692
+    },
+    {
+      "key": "phbclcLifeSpells",
+      "name": "Conjuros del dominio de la vida",
+      "orig_len": 1580,
+      "new_len": 1585
+    },
+    {
+      "key": "phbclcLightSpell",
+      "name": "Conjuros del dominio de la luz",
+      "orig_len": 1540,
+      "new_len": 1545
+    },
+    {
+      "key": "phbclcSpellcasti",
+      "name": "Lanzamiento de Conjuros",
+      "orig_len": 3539,
+      "new_len": 3539
+    },
+    {
+      "key": "phbclcTrickerySp",
+      "name": "Conjuros del dominio del engaño",
+      "orig_len": 1553,
+      "new_len": 1558
+    },
+    {
+      "key": "phbclcWarGodsBle",
+      "name": "Bendición del Dios de la Guerra",
+      "orig_len": 702,
+      "new_len": 697
+    },
+    {
+      "key": "phbclcWarSpells0",
+      "name": "Conjuros del dominio de la guerra",
+      "orig_len": 1591,
+      "new_len": 1596
+    },
+    {
+      "key": "phbdrdEpicBoon00",
+      "name": "Dádiva Épica",
+      "orig_len": 315,
+      "new_len": 318
+    },
+    {
+      "key": "phbdrdLandsAid00",
+      "name": "Ayuda de la Tierra",
+      "orig_len": 985,
+      "new_len": 990
+    },
+    {
+      "key": "phbdrdLandSpells",
+      "name": "Conjuros del Círculo de la Tierra",
+      "orig_len": 3427,
+      "new_len": 3459
+    },
+    {
+      "key": "phbdrdMoonSpells",
+      "name": "Conjuros del Círculo de la Luna",
+      "orig_len": 1059,
+      "new_len": 1064
+    },
+    {
+      "key": "phbdrdNaturalRec",
+      "name": "Recuperación Natural",
+      "orig_len": 1249,
+      "new_len": 1268
+    },
+    {
+      "key": "phbdrdNaturesSan",
+      "name": "Santuario de la Naturaleza",
+      "orig_len": 1138,
+      "new_len": 1165
+    },
+    {
+      "key": "phbdrdNaturesWar",
+      "name": "Resguardo de la Naturaleza",
+      "orig_len": 834,
+      "new_len": 848
+    },
+    {
+      "key": "phbdrdSeaSpells0",
+      "name": "Conjuros del Círculo del Mar",
+      "orig_len": 1377,
+      "new_len": 1384
+    },
+    {
+      "key": "phbdrdSpellcasti",
+      "name": "Lanzamiento de conjuros",
+      "orig_len": 3426,
+      "new_len": 3428
+    },
+    {
+      "key": "phbdrdWildShape0",
+      "name": "Forma salvaje",
+      "orig_len": 4991,
+      "new_len": 4995
+    },
+    {
+      "key": "phbftrAdditional",
+      "name": "Estilo de lucha adicional",
+      "orig_len": 168,
+      "new_len": 174
+    },
+    {
+      "key": "phbftrCombatSupe",
+      "name": "Superioridad en combate",
+      "orig_len": 1497,
+      "new_len": 1501
+    },
+    {
+      "key": "phbftrEpicBoon00",
+      "name": "Don épico",
+      "orig_len": 320,
+      "new_len": 324
+    },
+    {
+      "key": "phbftrFightingSt",
+      "name": "Estilo de lucha",
+      "orig_len": 425,
+      "new_len": 432
+    },
+    {
+      "key": "phbftrPsionicPow",
+      "name": "Poder psiónico",
+      "orig_len": 3366,
+      "new_len": 3391
+    },
+    {
+      "key": "phbftrSecondWind",
+      "name": "Segundo aliento",
+      "orig_len": 924,
+      "new_len": 925
+    },
+    {
+      "key": "phbftrSpellcasti",
+      "name": "Lanzamiento de conjuros",
+      "orig_len": 2723,
+      "new_len": 2742
+    },
+    {
+      "key": "phbftrWeaponMast",
+      "name": "Maestría con armas",
+      "orig_len": 941,
+      "new_len": 942
+    },
+    {
+      "key": "phbinvLessonsoft",
+      "name": "Lecciones de los Primeros",
+      "orig_len": 450,
+      "new_len": 453
+    },
+    {
+      "key": "phbinvPactChain0",
+      "name": "Pacto de la cadena",
+      "orig_len": 1453,
+      "new_len": 1458
+    },
+    {
+      "key": "phbmnkDeflectAtt",
+      "name": "Desviar ataques",
+      "orig_len": 1281,
+      "new_len": 1294
+    },
+    {
+      "key": "phbmnkDeflectEne",
+      "name": "Desviar energía",
+      "orig_len": 595,
+      "new_len": 658
+    },
+    {
+      "key": "phbmnkEpicBoon00",
+      "name": "Dádiva épica",
+      "orig_len": 562,
+      "new_len": 566
+    },
+    {
+      "key": "phbmnkSlowFall00",
+      "name": "Caída lenta",
+      "orig_len": 421,
+      "new_len": 422
+    },
+    {
+      "key": "phbmnkUncannyMet",
+      "name": "Metabolismo insólito",
+      "orig_len": 646,
+      "new_len": 646
+    },
+    {
+      "key": "phbpdnEpicBoon00",
+      "name": "Don épico",
+      "orig_len": 478,
+      "new_len": 476
+    },
+    {
+      "key": "phbpdnFightingSt",
+      "name": "Estilo de combate",
+      "orig_len": 336,
+      "new_len": 337
+    },
+    {
+      "key": "phbpdnLayOnHands",
+      "name": "Imposición de manos",
+      "orig_len": 1063,
+      "new_len": 1069
+    },
+    {
+      "key": "phbpdnSpellcasti",
+      "name": "Lanzamiento de conjuros",
+      "orig_len": 2393,
+      "new_len": 2426
+    },
+    {
+      "key": "phbrgeCunningStr",
+      "name": "Golpe astuto",
+      "orig_len": 2128,
+      "new_len": 2131
+    },
+    {
+      "key": "phbrgeDeviousStr",
+      "name": "Golpes arteros",
+      "orig_len": 1699,
+      "new_len": 1700
+    },
+    {
+      "key": "phbrgeEnvenomWea",
+      "name": "Armas envenenadas",
+      "orig_len": 716,
+      "new_len": 716
+    },
+    {
+      "key": "phbrgeEpicBoon00",
+      "name": "Don épico",
+      "orig_len": 480,
+      "new_len": 478
+    },
+    {
+      "key": "phbrgeImprovedCu",
+      "name": "Golpe astuto mejorado",
+      "orig_len": 593,
+      "new_len": 594
+    },
+    {
+      "key": "phbrgeRogue00000",
+      "name": "Pícaro",
+      "orig_len": 3614,
+      "new_len": 3615
+    },
+    {
+      "key": "phbrgeSpellcasti",
+      "name": "Lanzamiento de conjuros",
+      "orig_len": 2973,
+      "new_len": 2988
+    },
+    {
+      "key": "phbrgeThievesCan",
+      "name": "Jerga de ladrones",
+      "orig_len": 556,
+      "new_len": 557
+    },
+    {
+      "key": "phbrgrEpicBoon00",
+      "name": "Don épico",
+      "orig_len": 474,
+      "new_len": 478
+    },
+    {
+      "key": "phbrgrFeyReinfor",
+      "name": "Refuerzos feéricos",
+      "orig_len": 750,
+      "new_len": 746
+    },
+    {
+      "key": "phbrgrFightingSt",
+      "name": "Estilo de lucha",
+      "orig_len": 334,
+      "new_len": 340
+    },
+    {
+      "key": "phbrgrMistyWande",
+      "name": "Viajero neblinoso",
+      "orig_len": 805,
+      "new_len": 801
+    },
+    {
+      "key": "phbrgrSpellcasti",
+      "name": "Lanzamiento de Conjuros",
+      "orig_len": 2608,
+      "new_len": 2634
+    },
+    {
+      "key": "phbrgrSpellsGloo",
+      "name": "Conjuros del Acechador Umbrío",
+      "orig_len": 1106,
+      "new_len": 1123
+    },
+    {
+      "key": "phbrgrTireless00",
+      "name": "Infatigable",
+      "orig_len": 908,
+      "new_len": 914
+    },
+    {
+      "key": "phbrgrWeaponMast",
+      "name": "Maestría con Armas",
+      "orig_len": 375,
+      "new_len": 375
+    },
+    {
+      "key": "phbscrBastionOfL",
+      "name": "Bastión de Ley",
+      "orig_len": 1091,
+      "new_len": 1104
+    },
+    {
+      "key": "phbscrClockworkC",
+      "name": "Cabalgata Mecánica",
+      "orig_len": 1288,
+      "new_len": 1314
+    },
+    {
+      "key": "phbscrDraconicSp",
+      "name": "Conjuros Dracónicos",
+      "orig_len": 1443,
+      "new_len": 1450
+    },
+    {
+      "key": "phbscrDragonComp",
+      "name": "Compañero Dragón",
+      "orig_len": 770,
+      "new_len": 766
+    },
+    {
+      "key": "phbscrDragonWing",
+      "name": "Alas de Dragón",
+      "orig_len": 821,
+      "new_len": 821
+    },
+    {
+      "key": "phbscrElementalA",
+      "name": "Afinidad Elemental",
+      "orig_len": 782,
+      "new_len": 784
+    },
+    {
+      "key": "phbscrEpicBoon00",
+      "name": "Dádiva Épica",
+      "orig_len": 483,
+      "new_len": 482
+    },
+    {
+      "key": "phbscrFontOfMagi",
+      "name": "Fuente de Magia",
+      "orig_len": 2106,
+      "new_len": 2166
+    },
+    {
+      "key": "phbscrInnateSorc",
+      "name": "Hechicería Innata",
+      "orig_len": 775,
+      "new_len": 775
+    },
+    {
+      "key": "phbscrMetamagic0",
+      "name": "Metamagia",
+      "orig_len": 870,
+      "new_len": 874
+    },
+    {
+      "key": "phbscrPsionicSor",
+      "name": "Hechicería Psiónica",
+      "orig_len": 738,
+      "new_len": 755
+    },
+    {
+      "key": "phbscrPsionicSpe",
+      "name": "Conjuros Psiónicos",
+      "orig_len": 1583,
+      "new_len": 1590
+    },
+    {
+      "key": "phbscrRestoreBal",
+      "name": "Restablecer el Equilibrio",
+      "orig_len": 481,
+      "new_len": 481
+    },
+    {
+      "key": "phbscrRevelation",
+      "name": "Revelación en la Carne",
+      "orig_len": 1694,
+      "new_len": 1694
+    },
+    {
+      "key": "phbscrSorcerer00",
+      "name": "Hechicero",
+      "orig_len": 3740,
+      "new_len": 3745
+    },
+    {
+      "key": "phbscrSorcerousR",
+      "name": "Restauración Hechicera",
+      "orig_len": 534,
+      "new_len": 534
+    },
+    {
+      "key": "phbscrSpellcasti",
+      "name": "Lanzamiento de Conjuros",
+      "orig_len": 3238,
+      "new_len": 3269
+    },
+    {
+      "key": "phbscrSpellsCloc",
+      "name": "Conjuros Mecánicos",
+      "orig_len": 1768,
+      "new_len": 1771
+    },
+    {
+      "key": "phbscrTamedSurge",
+      "name": "Oleada Domesticada",
+      "orig_len": 496,
+      "new_len": 496
+    },
+    {
+      "key": "phbscrTidesOfCha",
+      "name": "Mareas del Caos",
+      "orig_len": 490,
+      "new_len": 490
+    },
+    {
+      "key": "phbscrTranceOfOr",
+      "name": "Trance de Orden",
+      "orig_len": 883,
+      "new_len": 893
+    },
+    {
+      "key": "phbscrWarpingImp",
+      "name": "Implosión Deformante",
+      "orig_len": 814,
+      "new_len": 814
+    },
+    {
+      "key": "phbwlkArchfeySpe",
+      "name": "Conjuros del Archi feérico",
+      "orig_len": 1585,
+      "new_len": 1608
+    },
+    {
+      "key": "phbwlkBeguilingD",
+      "name": "Defensas Embaucadoras",
+      "orig_len": 1205,
+      "new_len": 1205
+    },
+    {
+      "key": "phbwlkClairvoyan",
+      "name": "Combatiente Clarividente",
+      "orig_len": 984,
+      "new_len": 984
+    },
+    {
+      "key": "phbwlkContactPat",
+      "name": "Contactar con el Patrón",
+      "orig_len": 743,
+      "new_len": 743
+    },
+    {
+      "key": "phbwlkDarkOnesOw",
+      "name": "Suerte del Oscuro",
+      "orig_len": 497,
+      "new_len": 497
+    },
+    {
+      "key": "phbwlkEldritchIn",
+      "name": "Invocaciones Sobrenaturales",
+      "orig_len": 1705,
+      "new_len": 1719
+    },
+    {
+      "key": "phbwlkEldritchMa",
+      "name": "Maestro Sobrenatural",
+      "orig_len": 385,
+      "new_len": 384
+    },
+    {
+      "key": "phbwlkEpicBoon00",
+      "name": "Dádiva Épica",
+      "orig_len": 478,
+      "new_len": 472
+    },
+    {
+      "key": "phbwlkFiendishRe",
+      "name": "Resiliencia Infernal",
+      "orig_len": 490,
+      "new_len": 490
+    },
+    {
+      "key": "phbwlkFiendSpell",
+      "name": "Conjuros del Infernal",
+      "orig_len": 1471,
+      "new_len": 1488
+    },
+    {
+      "key": "phbwlkHealingLig",
+      "name": "Luz Sanadora",
+      "orig_len": 892,
+      "new_len": 892
+    },
+    {
+      "key": "phbwlkHurlThroug",
+      "name": "Lanzar al Infierno",
+      "orig_len": 1068,
+      "new_len": 1068
+    },
+    {
+      "key": "phbwlkMagicalCun",
+      "name": "Astucia Mágica",
+      "orig_len": 530,
+      "new_len": 530
+    },
+    {
+      "key": "phbwlkMysticArca",
+      "name": "Arcanum Místico",
+      "orig_len": 681,
+      "new_len": 681
+    },
+    {
+      "key": "phbwlkPactMagic0",
+      "name": "Magia de Pacto",
+      "orig_len": 3809,
+      "new_len": 3852
+    },
+    {
+      "key": "phbwlkResilience",
+      "name": "Resiliencia Celestial",
+      "orig_len": 815,
+      "new_len": 833
+    },
+    {
+      "key": "phbwlkSearingVen",
+      "name": "Venganza Abrasadora",
+      "orig_len": 1007,
+      "new_len": 1007
+    },
+    {
+      "key": "phbwlkSpellsCele",
+      "name": "Conjuros Celestiales",
+      "orig_len": 1658,
+      "new_len": 1665
+    },
+    {
+      "key": "phbwlkSpellsGrea",
+      "name": "Conjuros del Gran Antiguo",
+      "orig_len": 1534,
+      "new_len": 1543
+    },
+    {
+      "key": "phbwlkStepsOfThe",
+      "name": "Pasos de las Hadas",
+      "orig_len": 1347,
+      "new_len": 1347
+    },
+    {
+      "key": "phbwlkWarlock000",
+      "name": "Brujo",
+      "orig_len": 3573,
+      "new_len": 3581
+    },
+    {
+      "key": "phbwzdArcaneWard",
+      "name": "Guarda arcana",
+      "orig_len": 2029,
+      "new_len": 2033
+    },
+    {
+      "key": "phbwzdEpicBoon00",
+      "name": "Don épico",
+      "orig_len": 479,
+      "new_len": 482
+    },
+    {
+      "key": "phbwzdProjectedW",
+      "name": "Guarda proyectada",
+      "orig_len": 603,
+      "new_len": 607
+    },
+    {
+      "key": "phbwzdSignatureS",
+      "name": "Conjuros distintivos",
+      "orig_len": 939,
+      "new_len": 950
+    },
+    {
+      "key": "phbwzdSpellcasti",
+      "name": "Lanzamiento de conjuros",
+      "orig_len": 4529,
+      "new_len": 4555
+    },
+    {
+      "key": "phbwzdSpellMaste",
+      "name": "Maestría en conjuros",
+      "orig_len": 1006,
+      "new_len": 1007
+    },
+    {
+      "key": "phbwzdWizard0000",
+      "name": "Mago",
+      "orig_len": 5149,
+      "new_len": 5154
+    }
+  ],
+  "spell_table_keys_rebuilt": [
+    "phbclcLifeSpells",
+    "phbclcLightSpell",
+    "phbclcTrickerySp",
+    "phbclcWarSpells0",
+    "phbdrdMoonSpells",
+    "phbdrdSeaSpells0",
+    "phbdrdLandSpells",
+    "phbrgrSpellsGloo",
+    "phbscrDraconicSp",
+    "phbscrPsionicSpe",
+    "phbscrSpellsCloc",
+    "phbwlkArchfeySpe",
+    "phbwlkFiendSpell",
+    "phbwlkSpellsCele",
+    "phbwlkSpellsGrea"
+  ],
+  "remaining_monitored_patterns": []
+}

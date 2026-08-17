@@ -1,0 +1,469 @@
+{
+  "source_en": "dnd-players-handbook.spells-en.v3.json",
+  "source_es": "dnd-players-handbook.spells.json",
+  "output": "dnd-players-handbook.spells.es.backfilled.from-en-v3.exact.json",
+  "patched_counts": {
+    "activities.name": 292,
+    "activities.target": 149,
+    "activities.range": 282,
+    "activities.duration": 312,
+    "activities.activation.condition": 21
+  },
+  "examples": {
+    "activities.name": [
+      {
+        "entry": "phbutlMagicalBer",
+        "spell": "Bayas Mágicas",
+        "activity_id": "dnd5eactivity000",
+        "en": "Heal",
+        "es": "Curar"
+      },
+      {
+        "entry": "phbsplAcidSplash",
+        "spell": "Salpicadura de ácido",
+        "activity_id": "eOJpSDmq0JkmzpAV",
+        "en": "Save",
+        "es": "Salvación"
+      },
+      {
+        "entry": "phbsplBladeWard0",
+        "spell": "Protección de hojas",
+        "activity_id": "1wca3rjsdb0agWqk",
+        "en": "Use",
+        "es": "Usar"
+      },
+      {
+        "entry": "phbsplChillTouch",
+        "spell": "Toque helado",
+        "activity_id": "mUy5EZouOr5kqvYN",
+        "en": "Attack",
+        "es": "Ataque"
+      },
+      {
+        "entry": "phbsplDruidcraft",
+        "spell": "Druidismo",
+        "activity_id": "q44z5qbBWBc0qUdc",
+        "en": "Use",
+        "es": "Usar"
+      },
+      {
+        "entry": "phbsplEldritchBl",
+        "spell": "Ráfaga sobrenatural",
+        "activity_id": "bs1cjAs0zaHB959h",
+        "en": "Attack",
+        "es": "Ataque"
+      },
+      {
+        "entry": "phbsplFireBolt00",
+        "spell": "Rayo de fuego",
+        "activity_id": "23hcoYMwc0GUIB6V",
+        "en": "Attack",
+        "es": "Ataque"
+      },
+      {
+        "entry": "phbsplFriends000",
+        "spell": "Amistad",
+        "activity_id": "3gorMLrUEsplkVYg",
+        "en": "Save",
+        "es": "Salvación"
+      },
+      {
+        "entry": "phbsplGuidance00",
+        "spell": "Guía",
+        "activity_id": "R6Fs3rsgXlgHPOFn",
+        "en": "Use",
+        "es": "Usar"
+      },
+      {
+        "entry": "phbsplLight00000",
+        "spell": "Luz",
+        "activity_id": "EnaiVH67oUJzyHsF",
+        "en": "Summon",
+        "es": "Invocar"
+      },
+      {
+        "entry": "phbsplMageHand00",
+        "spell": "Mano de mago",
+        "activity_id": "QdMC2s97UJKjUBoD",
+        "en": "Summon",
+        "es": "Invocar"
+      },
+      {
+        "entry": "phbsplMending000",
+        "spell": "Reparar",
+        "activity_id": "KWnXo7varYgjCDuk",
+        "en": "Use",
+        "es": "Usar"
+      }
+    ],
+    "activities.target": [
+      {
+        "entry": "phbsplAcidSplash",
+        "spell": "Salpicadura de ácido",
+        "activity_id": "eOJpSDmq0JkmzpAV",
+        "en": "5 sphere",
+        "es": "esfera de 5"
+      },
+      {
+        "entry": "phbsplDruidcraft",
+        "spell": "Druidismo",
+        "activity_id": "q44z5qbBWBc0qUdc",
+        "en": "5 cube",
+        "es": "cubo de 5"
+      },
+      {
+        "entry": "phbsplElementali",
+        "spell": "Elementalismo",
+        "activity_id": "NND0Ry2h5vSfZgq5",
+        "en": "5 cube",
+        "es": "cubo de 5"
+      },
+      {
+        "entry": "phbsplElementali",
+        "spell": "Elementalismo",
+        "activity_id": "8IholW9syQX6TFOg",
+        "en": "1 cube",
+        "es": "cubo de 1"
+      },
+      {
+        "entry": "phbsplThundercla",
+        "spell": "Chasquido atronador",
+        "activity_id": "wFsUpdqNAhDiA3Ve",
+        "en": "5 radius",
+        "es": "radio de 5"
+      },
+      {
+        "entry": "phbsplWordofRadi",
+        "spell": "Palabra Radiante",
+        "activity_id": "tpzk1l0LXtma8eff",
+        "en": "5 radius",
+        "es": "radio de 5"
+      },
+      {
+        "entry": "phbsplGate000000",
+        "spell": "Portal",
+        "activity_id": "rR2zwuw2IFFRTQhi",
+        "en": "20 wall",
+        "es": "muro de 20"
+      },
+      {
+        "entry": "phbsplGate000000",
+        "spell": "Portal",
+        "activity_id": "iUhxzsW99W33R6di",
+        "en": "5 circle",
+        "es": "círculo de 5"
+      },
+      {
+        "entry": "phbsplGate000000",
+        "spell": "Portal",
+        "activity_id": "B3wsBcXONvUm9pUR",
+        "en": "20 circle",
+        "es": "círculo de 20"
+      },
+      {
+        "entry": "phbsplGate000000",
+        "spell": "Portal",
+        "activity_id": "2RkjJD6gPT6nVMUO",
+        "en": "5 wall",
+        "es": "muro de 5"
+      },
+      {
+        "entry": "phbsplMeteorSwar",
+        "spell": "Lluvia de meteoritos",
+        "activity_id": "AaMd4MdvLxg32RGK",
+        "en": "40 sphere",
+        "es": "esfera de 40"
+      },
+      {
+        "entry": "phbsplPrismaticW",
+        "spell": "Muro prismático",
+        "activity_id": "fOYr1bgsB1VXROcm",
+        "en": "15 sphere",
+        "es": "esfera de 15"
+      }
+    ],
+    "activities.range": [
+      {
+        "entry": "phbsplAcidSplash",
+        "spell": "Salpicadura de ácido",
+        "activity_id": "eOJpSDmq0JkmzpAV",
+        "en": "60 ft",
+        "es": "60 pies"
+      },
+      {
+        "entry": "phbsplDancingLig",
+        "spell": "Luces danzantes",
+        "activity_id": "7uE4AFHftJsK3rYK",
+        "en": "120 ft",
+        "es": "120 pies"
+      },
+      {
+        "entry": "phbsplDancingLig",
+        "spell": "Luces danzantes",
+        "activity_id": "4a3L8r8Iobi24dBr",
+        "en": "60 ft",
+        "es": "60 pies"
+      },
+      {
+        "entry": "phbsplDruidcraft",
+        "spell": "Druidismo",
+        "activity_id": "q44z5qbBWBc0qUdc",
+        "en": "30 ft",
+        "es": "30 pies"
+      },
+      {
+        "entry": "phbsplEldritchBl",
+        "spell": "Ráfaga sobrenatural",
+        "activity_id": "bs1cjAs0zaHB959h",
+        "en": "120 ft",
+        "es": "120 pies"
+      },
+      {
+        "entry": "phbsplElementali",
+        "spell": "Elementalismo",
+        "activity_id": "NND0Ry2h5vSfZgq5",
+        "en": "30 ft",
+        "es": "30 pies"
+      },
+      {
+        "entry": "phbsplElementali",
+        "spell": "Elementalismo",
+        "activity_id": "8IholW9syQX6TFOg",
+        "en": "30 ft",
+        "es": "30 pies"
+      },
+      {
+        "entry": "phbsplFireBolt00",
+        "spell": "Rayo de fuego",
+        "activity_id": "23hcoYMwc0GUIB6V",
+        "en": "120 ft",
+        "es": "120 pies"
+      },
+      {
+        "entry": "phbsplFriends000",
+        "spell": "Amistad",
+        "activity_id": "3gorMLrUEsplkVYg",
+        "en": "10 ft",
+        "es": "10 pies"
+      },
+      {
+        "entry": "phbsplMageHand00",
+        "spell": "Mano de mago",
+        "activity_id": "QdMC2s97UJKjUBoD",
+        "en": "30 ft",
+        "es": "30 pies"
+      },
+      {
+        "entry": "phbsplMessage000",
+        "spell": "Mensaje",
+        "activity_id": "j0gd96TwtJYUr0EE",
+        "en": "120 ft",
+        "es": "120 pies"
+      },
+      {
+        "entry": "phbsplMindSliver",
+        "spell": "Astilla mental",
+        "activity_id": "pIHrgeAoBDsA7vv8",
+        "en": "60 ft",
+        "es": "60 pies"
+      }
+    ],
+    "activities.duration": [
+      {
+        "entry": "phbsplBladeWard0",
+        "spell": "Protección de hojas",
+        "activity_id": "1wca3rjsdb0agWqk",
+        "en": "1 minute",
+        "es": "1 minuto"
+      },
+      {
+        "entry": "phbsplDancingLig",
+        "spell": "Luces danzantes",
+        "activity_id": "7uE4AFHftJsK3rYK",
+        "en": "1 minute",
+        "es": "1 minuto"
+      },
+      {
+        "entry": "phbsplElementali",
+        "spell": "Elementalismo",
+        "activity_id": "8IholW9syQX6TFOg",
+        "en": "1 hour",
+        "es": "1 hora"
+      },
+      {
+        "entry": "phbsplFriends000",
+        "spell": "Amistad",
+        "activity_id": "3gorMLrUEsplkVYg",
+        "en": "1 minute",
+        "es": "1 minuto"
+      },
+      {
+        "entry": "phbsplGuidance00",
+        "spell": "Guía",
+        "activity_id": "R6Fs3rsgXlgHPOFn",
+        "en": "1 minute",
+        "es": "1 minuto"
+      },
+      {
+        "entry": "phbsplLight00000",
+        "spell": "Luz",
+        "activity_id": "EnaiVH67oUJzyHsF",
+        "en": "1 hour",
+        "es": "1 hora"
+      },
+      {
+        "entry": "phbsplMageHand00",
+        "spell": "Mano de mago",
+        "activity_id": "QdMC2s97UJKjUBoD",
+        "en": "1 minute",
+        "es": "1 minuto"
+      },
+      {
+        "entry": "phbsplMessage000",
+        "spell": "Mensaje",
+        "activity_id": "j0gd96TwtJYUr0EE",
+        "en": "1 round",
+        "es": "1 asalto"
+      },
+      {
+        "entry": "phbsplMindSliver",
+        "spell": "Astilla mental",
+        "activity_id": "pIHrgeAoBDsA7vv8",
+        "en": "1 round",
+        "es": "1 asalto"
+      },
+      {
+        "entry": "phbsplMinorIllus",
+        "spell": "Ilusión menor",
+        "activity_id": "XkQLfFVopYW3SasN",
+        "en": "1 minute",
+        "es": "1 minuto"
+      },
+      {
+        "entry": "phbsplPrestidigi",
+        "spell": "Prestidigitación",
+        "activity_id": "gbdxQQmWwEAL1zpH",
+        "en": "1 hour",
+        "es": "1 hora"
+      },
+      {
+        "entry": "phbsplProduceFla",
+        "spell": "Producir llama",
+        "activity_id": "MModRd17Oi6hhztj",
+        "en": "10 minute",
+        "es": "10 minutos"
+      }
+    ],
+    "activities.activation.condition": [
+      {
+        "entry": "phbsplCreateUnde",
+        "spell": "Crear no muertos",
+        "activity_id": "ExyqLKqLhGbaJVVd",
+        "en": "only at night",
+        "es": "solo por la noche"
+      },
+      {
+        "entry": "phbsplCreateUnde",
+        "spell": "Crear no muertos",
+        "activity_id": "BepVtap2tWyUwaxk",
+        "en": "only at night",
+        "es": "solo por la noche"
+      },
+      {
+        "entry": "phbsplBanishingS",
+        "spell": "Golpe desterrador",
+        "activity_id": "dnd5eactivity000",
+        "en": "immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+        "es": "inmediatamente después de impactar a una criatura con un arma cuerpo a cuerpo o un Golpe sin armas"
+      },
+      {
+        "entry": "phbsplStaggering",
+        "spell": "Castigo tambaleante",
+        "activity_id": "dnd5eactivity000",
+        "en": "immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+        "es": "inmediatamente después de impactar a una criatura con un arma cuerpo a cuerpo o un Golpe sin armas"
+      },
+      {
+        "entry": "phbsplBlindingSm",
+        "spell": "Castigo cegador",
+        "activity_id": "dnd5eactivity000",
+        "en": "immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+        "es": "inmediatamente después de impactar a una criatura con un arma cuerpo a cuerpo o un Golpe sin armas"
+      },
+      {
+        "entry": "phbsplCounterspe",
+        "spell": "Contraconjuro",
+        "activity_id": "dnd5eactivity000",
+        "en": "when you see a creature within range casting a spell with Verbal, Somatic, or Material components",
+        "es": "cuando veas a una criatura dentro del alcance lanzar un conjuro con componentes verbales, somáticos o materiales"
+      },
+      {
+        "entry": "phbsplLightningA",
+        "spell": "Flecha relampagueante",
+        "activity_id": "dnd5eactivity200",
+        "en": "immediately after hitting or missing a target with a ranged attack using a weapon",
+        "es": "inmediatamente después de impactar o fallar a un objetivo con un ataque a distancia con un arma"
+      },
+      {
+        "entry": "phbsplLightningA",
+        "spell": "Flecha relampagueante",
+        "activity_id": "dnd5eactivity000",
+        "en": "immediately after hitting or missing a target with a ranged attack using a weapon",
+        "es": "inmediatamente después de impactar o fallar a un objetivo con un ataque a distancia con un arma"
+      },
+      {
+        "entry": "phbsplShiningSmi",
+        "spell": "Castigo resplandeciente",
+        "activity_id": "dnd5eactivity000",
+        "en": "immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+        "es": "inmediatamente después de impactar a una criatura con un arma cuerpo a cuerpo o un Golpe sin armas"
+      },
+      {
+        "entry": "phbsplDivineSmit",
+        "spell": "Castigo divino",
+        "activity_id": "dnd5eactivity200",
+        "en": "Immediately after hitting a target with a Melee weapon or an Unarmed Strike",
+        "es": "Inmediatamente después de impactar a un objetivo con un arma cuerpo a cuerpo o un Golpe sin armas"
+      },
+      {
+        "entry": "phbsplDivineSmit",
+        "spell": "Castigo divino",
+        "activity_id": "dnd5eactivity000",
+        "en": "Immediately after hitting a target with a Melee weapon or an Unarmed Strike",
+        "es": "Inmediatamente después de impactar a un objetivo con un arma cuerpo a cuerpo o un Golpe sin armas"
+      },
+      {
+        "entry": "phbsplEnsnaringS",
+        "spell": "Golpe aprisionador",
+        "activity_id": "dnd5eactivity000",
+        "en": "Immediately after hitting a creature with a weapon",
+        "es": "Inmediatamente después de impactar a una criatura con un arma"
+      }
+    ]
+  },
+  "remaining_missing_vs_en_v3": {},
+  "name_map_used": {
+    "Use": "Usar",
+    "Save": "Salvación",
+    "Summon": "Invocar",
+    "Attack": "Ataque",
+    "Heal": "Curar",
+    "Damage": "Daño",
+    "Transform": "Transformar",
+    "Enchant": "Encantar"
+  },
+  "condition_map_used": {
+    "only at night": "solo por la noche",
+    "immediately after hitting a creature with a Melee weapon or an Unarmed Strike": "inmediatamente después de impactar a una criatura con un arma cuerpo a cuerpo o un Golpe sin armas",
+    "when you see a creature within range casting a spell with Verbal, Somatic, or Material components": "cuando veas a una criatura dentro del alcance lanzar un conjuro con componentes verbales, somáticos o materiales",
+    "immediately after hitting or missing a target with a ranged attack using a weapon": "inmediatamente después de impactar o fallar a un objetivo con un ataque a distancia con un arma",
+    "Immediately after hitting a target with a Melee weapon or an Unarmed Strike": "Inmediatamente después de impactar a un objetivo con un arma cuerpo a cuerpo o un Golpe sin armas",
+    "Immediately after hitting a creature with a weapon": "Inmediatamente después de impactar a una criatura con un arma",
+    "when you or a creature you can see within 60 feet of you falls": "cuando tú o una criatura que puedas ver a 60 pies o menos de ti caigáis",
+    "immediately after hitting a creature with a Ranged weapon": "inmediatamente después de impactar a una criatura con un arma a distancia",
+    "taking damage from a creature that you can see within 60 feet of yourself": "al recibir daño de una criatura que puedas ver a 60 pies o menos de ti",
+    "immediately after hitting a target with a Melee weapon or an Unarmed Strike": "inmediatamente después de impactar a un objetivo con un arma cuerpo a cuerpo o un Golpe sin armas",
+    "when you are hit by an attack roll or targeted by the Magic Missile spell": "cuando una tirada de ataque te impacte o seas objetivo del conjuro Proyectil mágico",
+    "a bit of fleece": "un poco de vellón"
+  }
+}

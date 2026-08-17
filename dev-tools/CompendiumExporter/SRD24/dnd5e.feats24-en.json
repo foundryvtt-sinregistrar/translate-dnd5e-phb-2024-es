@@ -1,0 +1,62 @@
+{
+  "label": "Feats",
+  "folders": {
+    "Epic Boon Feats": "Epic Boon Feats",
+    "Fighting Style Feats": "Fighting Style Feats",
+    "General Feats": "General Feats",
+    "Origin Feats": "Origin Feats"
+  },
+  "entries": {
+    "phbBoonofCombatP": {
+      "name": "Boon of Combat Prowess"
+    },
+    "phbBoonofDimensi": {
+      "name": "Boon of Dimensional Travel"
+    },
+    "phbBoonofFate000": {
+      "name": "Boon of Fate"
+    },
+    "phbBoonofIrresis": {
+      "name": "Boon of Irresistible Offense"
+    },
+    "phbBoonofSpellRe": {
+      "name": "Boon of Spell Recall"
+    },
+    "phbBoonofTruesig": {
+      "name": "Boon of Truesight"
+    },
+    "phbBoonoftheNigh": {
+      "name": "Boon of the Night Spirit"
+    },
+    "phbfstArchery000": {
+      "name": "Archery"
+    },
+    "phbfstDefense000": {
+      "name": "Defense"
+    },
+    "phbfstGreatWeapo": {
+      "name": "Great Weapon Fighting"
+    },
+    "phbfstTwoWeaponF": {
+      "name": "Two-Weapon Fighting"
+    },
+    "phbftAbilityScor": {
+      "name": "Ability Score Improvement"
+    },
+    "phbftAlert000000": {
+      "name": "Alert"
+    },
+    "phbftGrappler000": {
+      "name": "Grappler"
+    },
+    "phbftMagicInitia": {
+      "name": "Magic Initiate"
+    },
+    "phbftSavageAttac": {
+      "name": "Savage Attacker"
+    },
+    "phbftSkilled0000": {
+      "name": "Skilled"
+    }
+  }
+}

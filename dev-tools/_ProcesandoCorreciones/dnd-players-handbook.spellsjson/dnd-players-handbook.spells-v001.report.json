@@ -1,0 +1,70 @@
+{
+  "base_file": "dnd-players-handbook.spells.json",
+  "reference_en_file": "dnd-players-handbook.spells-en.json",
+  "version": "v001",
+  "summary": {
+    "entries_total": 392,
+    "activities_total": 538,
+    "entries_touched": 7,
+    "activity_converter_changed_to": "phb2024ActivitiesById",
+    "activation_condition_added": 538,
+    "description_chatFlavor_added": 538,
+    "plain_condition_removed": 33,
+    "plain_chatFlavor_removed": 4,
+    "nonempty_activation_condition_set_or_migrated": 4,
+    "nonempty_description_chatFlavor_set_or_migrated": 2,
+    "activity_names_corrected": 1,
+    "residual_plain_condition": 0,
+    "residual_plain_chatFlavor": 0,
+    "nested_condition_total": 538,
+    "nested_chatFlavor_total": 538,
+    "empty_activity_name_remaining": 292
+  },
+  "activity_names_corrected": [
+    {
+      "entry_id": "phbsplBestowCurs",
+      "activity_id": "fkQUKM8bxHgAUcg5",
+      "name": "Resistencia a la maldición"
+    }
+  ],
+  "conditions_changed": [
+    {
+      "entry_id": "phbsplWallofIce0",
+      "activity_id": "D8Q85bjeZgiFky5j",
+      "from": "creature moves through the wall for the first time on a turn",
+      "to": "una criatura atraviesa el muro por primera vez en un turno"
+    },
+    {
+      "entry_id": "phbsplWallofThor",
+      "activity_id": "dMiM7Qec4keU3w7B",
+      "from": "first time a creature enters or ends its turn in the wall",
+      "to": "la primera vez que una criatura entra en el muro o termina su turno en él"
+    },
+    {
+      "entry_id": "phbsplWeird00000",
+      "activity_id": "nuStSySOEkwOUnXf",
+      "from": "at the end of each affected creature's turn",
+      "to": "al final del turno de cada criatura afectada"
+    },
+    {
+      "entry_id": "phbsplYolandesRe",
+      "activity_id": "dzeoGwKOPG7PHbyE",
+      "from": "a creature is within the Emanation",
+      "to": "una criatura está dentro de la emanación"
+    }
+  ],
+  "chatFlavors_changed": [
+    {
+      "entry_id": "phbsplCallLightn",
+      "activity_id": "dnd5eactivity000",
+      "from": "",
+      "to": "Un rayo golpea un punto bajo la nube en un radio de 5 pies"
+    },
+    {
+      "entry_id": "phbsplWish000000",
+      "activity_id": "PXe5g4mjmAj7X4E7",
+      "from": "",
+      "to": "<em>Deseo</em> perdido con 1: [[/r 1d3cs1]]"
+    }
+  ]
+}

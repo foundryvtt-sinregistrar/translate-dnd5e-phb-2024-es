@@ -1,0 +1,124 @@
+{
+  "label": "Atributos raciales (SRD)",
+  "folders": {
+    "Dracónido": "Dracónido",
+    "Elfo": "Elfo",
+    "Enano": "Enano",
+    "Gnomo": "Gnomo",
+    "Humano": "Humano",
+    "Mediano": "Mediano",
+    "Orco": "Orco",
+    "Rasgos de Dracónido": "Rasgos de Dracónido",
+    "Rasgos de Elfo": "Rasgos de Elfo",
+    "Rasgos de Enano": "Rasgos de Enano",
+    "Rasgos de Gnomo": "Rasgos de Gnomo",
+    "Rasgos de Mediano": "Rasgos de Mediano",
+    "Rasgos de Orco": "Rasgos de Orco",
+    "Rasgos de Tiefling": "Rasgos de Tiefling",
+    "Tiefling": "Tiefling"
+  },
+  "entries": {
+    "0kUsT4sMUOr5FcoX": {
+      "name": "Ataques Salvajes"
+    },
+    "4v2PiBrAbqDizdSJ": {
+      "name": "Trance"
+    },
+    "7Yoo9hG0hfPSmBoC": {
+      "name": "Valiente"
+    },
+    "97c8i9Z28thvZuA8": {
+      "name": "Aguante Incansable"
+    },
+    "A69KxdH1renVPrQV": {
+      "name": "Alto Elfo"
+    },
+    "EHhr9umJ5kxJFCQH": {
+      "name": "Astucia Gnoma"
+    },
+    "GWPjKFeIthBBeCFJ": {
+      "name": "Sigiloso por Maturaleza"
+    },
+    "Hye5IZwPOSwV0qRR": {
+      "name": "Semielfo"
+    },
+    "JrUcwLR2aQC09iUM": {
+      "name": "Ataque de Aliento - Oropel"
+    },
+    "K4DNDcR6vngbp0pf": {
+      "name": "Dracónido"
+    },
+    "KL7wx9Q8XNJQir0k": {
+      "name": "Ataque de Aliento - Blanco"
+    },
+    "KVgvW5yhKcmQUanz": {
+      "name": "Ataque de Aliento - Azul"
+    },
+    "LOMdcNAGWh5xpfm4": {
+      "name": "Afortunado"
+    },
+    "NnSZlrsHCFeH3cCq": {
+      "name": "Ataque de Aliento - Negro"
+    },
+    "OQA1sHxKnSJq01dL": {
+      "name": "Saber del Artífice"
+    },
+    "PqxZgcJzp1VVgP8t": {
+      "name": "Agilidad de Mediano"
+    },
+    "TZtarkKs6cgGD7z2": {
+      "name": "Gnomo de las rocas"
+    },
+    "UQiRQUTBcsz8gZU1": {
+      "name": "Enano de las colinas"
+    },
+    "YPQQBZAuRiSwuBfh": {
+      "name": "Ataque de Aliento - Oro"
+    },
+    "ZgYBjYYfiUstQD6f": {
+      "name": "Mediano Piesligeros"
+    },
+    "aHTokZ151W0ASSmo": {
+      "name": "Tiefling"
+    },
+    "bFpLM0N3uTeHLdzu": {
+      "name": "Ataque de Aliento - Cobre"
+    },
+    "cnTbpPPeGW7vGjOV": {
+      "name": "Linaje Feérico"
+    },
+    "kB61JPKQrDBbSNU7": {
+      "name": "Ataque de Aliento - Rojo"
+    },
+    "koRPOLtj8XAFMwnW": {
+      "name": "Manitas"
+    },
+    "lXIxndsBaQglHBtO": {
+      "name": "Ataque de Aliento - Verde"
+    },
+    "mQPZDRbUhgYTbXKa": {
+      "name": "Afinidad con la Piedra"
+    },
+    "n5L000DkNBU6h2oJ": {
+      "name": "Semiorco"
+    },
+    "pAYTdRGftNr8AitK": {
+      "name": "Ataque de Aliento - Plata"
+    },
+    "pJzMSk9qYywYy65w": {
+      "name": "Ataque de Aliento - Bronce"
+    },
+    "q71Pe1F8RRtEJt8Q": {
+      "name": "Resistencia Infernal"
+    },
+    "ufysTkqet2Ctmtyi": {
+      "name": "Resistencia enana"
+    },
+    "wJc88B8OP1y1xzMw": {
+      "name": "Linaje Infernal"
+    },
+    "ydP3QzCmur55mtY2": {
+      "name": "Humano"
+    }
+  }
+}

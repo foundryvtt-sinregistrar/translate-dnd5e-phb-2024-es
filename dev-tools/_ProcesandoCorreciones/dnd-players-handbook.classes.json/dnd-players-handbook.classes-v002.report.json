@@ -1,0 +1,191 @@
+{
+  "source_es": "dnd-players-handbook.classes.json",
+  "source_en": "dnd-players-handbook.classes-en.json",
+  "output": "dnd-players-handbook.classes-v002.json",
+  "scope": "point_1_advancement_title_only",
+  "changes_applied": 167,
+  "blank_titles_left_untouched": 0,
+  "remaining_titles_equal_to_english": 0,
+  "examples": [
+    {
+      "entry_key": "phbbrdGlamour000",
+      "entry_name_es": "Colegio del Glamur",
+      "entry_name_en": "College of Glamour",
+      "advancement_id": "GIqTIyYPWRzuIyqW",
+      "en_title": "Beguiling Magic",
+      "old_es_title": "Beguiling Magic",
+      "new_es_title": "Magia embaucadora"
+    },
+    {
+      "entry_key": "phbbrdGlamour000",
+      "entry_name_es": "Colegio del Glamur",
+      "entry_name_en": "College of Glamour",
+      "advancement_id": "nP8NCPYVMtgCwhLl",
+      "en_title": "Mantle of Majesty",
+      "old_es_title": "Mantle of Majesty",
+      "new_es_title": "Manto de Majestad"
+    },
+    {
+      "entry_key": "phbbrdLore000000",
+      "entry_name_es": "Colegio del Saber",
+      "entry_name_en": "College of Lore",
+      "advancement_id": "zXNjqYhloLv46FqV",
+      "en_title": "Bonus Proficiencies",
+      "old_es_title": "Bonus Proficiencies",
+      "new_es_title": "Competencias adicionales"
+    },
+    {
+      "entry_key": "phbbrdValor00000",
+      "entry_name_es": "Colegio del Valor",
+      "entry_name_en": "College of Valor",
+      "advancement_id": "8krOiLIscFAfDhDV",
+      "en_title": "Martial Training",
+      "old_es_title": "Martial Training",
+      "new_es_title": "Entrenamiento Marcial"
+    },
+    {
+      "entry_key": "phbbrdWordsOfCre",
+      "entry_name_es": "Palabras de la Creación",
+      "entry_name_en": "Words of Creation",
+      "advancement_id": "tOHyKfroR3MU9nUq",
+      "en_title": "Words of Life and Death",
+      "old_es_title": "Words of Life and Death",
+      "new_es_title": "Palabras de vida y muerte"
+    },
+    {
+      "entry_key": "phbclcChannelDiv",
+      "entry_name_es": "Canalizar Divinidad",
+      "entry_name_en": "Channel Divinity",
+      "advancement_id": "uFauTQi3ls40bO1J",
+      "en_title": "Divine Spark Die Count",
+      "old_es_title": "Divine Spark Die Count",
+      "new_es_title": "Número de dados de chispa divina"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "14RcvdtbvXnTdR9P",
+      "en_title": "Divine Strike",
+      "old_es_title": "Divine Strike",
+      "new_es_title": "Golpe divino"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "2wUNkQzS4vL9nR6D",
+      "en_title": "Skill Proficiencies",
+      "old_es_title": "Skill Proficiencies",
+      "new_es_title": "Competencias en habilidades"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "C9ABIfTHZkeFpUva",
+      "en_title": "Blessed Strikes Choice",
+      "old_es_title": "Blessed Strikes Choice",
+      "new_es_title": "Elección de golpes benditos"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "FjHGiO7BkbHTcQ2J",
+      "en_title": "Cantrips Known",
+      "old_es_title": "Cantrips Known",
+      "new_es_title": "Trucos conocidos"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "GsYtOM3ismwNGVBK",
+      "en_title": "Epic Boon",
+      "old_es_title": "Epic Boon",
+      "new_es_title": "Don épico"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "ivrX9MYiE52lFZLI",
+      "en_title": "Channel Divinity Uses",
+      "old_es_title": "Channel Divinity Uses",
+      "new_es_title": "Usos de Canalizar divinidad"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "jMZmkkMc9XLsde4W",
+      "en_title": "Max Prepared Spells",
+      "old_es_title": "Max Prepared Conjuros",
+      "new_es_title": "Máximo de conjuros preparados"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "KfX42cnLxFc9gUxU",
+      "en_title": "Armor Training",
+      "old_es_title": "Armor Training",
+      "new_es_title": "Entrenamiento con armaduras"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "U6GGwY4ZKiXqXBQN",
+      "en_title": "Weapon Proficiencies",
+      "old_es_title": "Weapon Proficiencies",
+      "new_es_title": "Competencias con armas"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "V8GfnoZYTe1PLXPI",
+      "en_title": "Divine Order Choice",
+      "old_es_title": "Divine Order Choice",
+      "new_es_title": "Elección de orden divina"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "X3bKJF53QCfKsonV",
+      "en_title": "Blessed Strikes",
+      "old_es_title": "Blessed Strikes",
+      "new_es_title": "Golpes Bendecidos"
+    },
+    {
+      "entry_key": "phbclcCleric0000",
+      "entry_name_es": "Clérigo",
+      "entry_name_en": "Cleric",
+      "advancement_id": "Z9K5kHYMLvroIMpT",
+      "en_title": "Saving Throw Proficiencies",
+      "old_es_title": "Saving Throw Proficiencies",
+      "new_es_title": "Competencias en tiradas de salvación"
+    },
+    {
+      "entry_key": "phbclcLifeDomain",
+      "entry_name_es": "Dominio de la Vida",
+      "entry_name_en": "Life Domain",
+      "advancement_id": "1FttAn0lw9lBpofn",
+      "en_title": "Life Domain Spells",
+      "old_es_title": "Life Domain Conjuros",
+      "new_es_title": "Conjuros del dominio de la vida"
+    },
+    {
+      "entry_key": "phbclcLifeDomain",
+      "entry_name_es": "Dominio de la Vida",
+      "entry_name_en": "Life Domain",
+      "advancement_id": "iYrz7E0p8N6pp5Uy",
+      "en_title": "Life Domain Spells",
+      "old_es_title": "Life Domain Conjuros",
+      "new_es_title": "Conjuros del dominio de la vida"
+    }
+  ]
+}

@@ -1,0 +1,974 @@
+{
+  "label": "Spells (SRD)",
+  "folders": {
+    "1st Level": "1st Level",
+    "2nd Level": "2nd Level",
+    "3rd Level": "3rd Level",
+    "4th Level": "4th Level",
+    "5th Level": "5th Level",
+    "6th Level": "6th Level",
+    "7th Level": "7th Level",
+    "8th Level": "8th Level",
+    "9th Level": "9th Level",
+    "Cantrip": "Cantrip"
+  },
+  "entries": {
+    "04nMsTWkIFvkbXlY": {
+      "name": "Polymorph"
+    },
+    "0xmXiPiuYws1OGcX": {
+      "name": "Hunter's Mark"
+    },
+    "13uVuBQP6VaiSPvC": {
+      "name": "Water Breathing"
+    },
+    "15Fa6q1nH27XfbR8": {
+      "name": "Dispel Magic"
+    },
+    "1ADstb0Xec6HHRcU": {
+      "name": "Resilient Sphere"
+    },
+    "1Drt0SHxbEAHxprN": {
+      "name": "Conjure Animals"
+    },
+    "1LkZvINag7KqBmDR": {
+      "name": "Conjure Elemental"
+    },
+    "1N8dDMMgZ1h1YJ3B": {
+      "name": "Invisibility"
+    },
+    "1RzxKZzkQOoioxPj": {
+      "name": "Glibness"
+    },
+    "1nhIxh0DsJsntCfj": {
+      "name": "Knock"
+    },
+    "22dPoeXfaaAv4K3h": {
+      "name": "Hellish Rebuke"
+    },
+    "2IWiZAJtOGDoKjiz": {
+      "name": "Gaseous Form"
+    },
+    "2RC0EyvBLPH88PZF": {
+      "name": "Sunbeam"
+    },
+    "2VXGS206tuChoeXy": {
+      "name": "Speak with Plants"
+    },
+    "2skfDtglk1mGrb3l": {
+      "name": "Detect Poison and Disease"
+    },
+    "2yHXEcrRbadZDr5M": {
+      "name": "Heat Metal"
+    },
+    "30ZgXtijJVCxQk5N": {
+      "name": "Enthrall"
+    },
+    "34ddoYIrnOZ2GFYi": {
+      "name": "Mass Healing Word"
+    },
+    "35j2QIMmIk6aEdxj": {
+      "name": "Power Word Stun"
+    },
+    "3Lo9boi7P2ro6QV4": {
+      "name": "Hold Person"
+    },
+    "3MYDjS6k9IYL0aTj": {
+      "name": "Calm Emotions"
+    },
+    "3OZnNhunvRtPOQmH": {
+      "name": "Identify"
+    },
+    "3okM6Gn63zzEULkz": {
+      "name": "Wish"
+    },
+    "41JIhpDyM9Anm7cs": {
+      "name": "Magic Missile"
+    },
+    "42O2aNBW7vK90gTL": {
+      "name": "Planar Binding"
+    },
+    "4H6YgYdKgnX6ZQ8M": {
+      "name": "Acid Arrow"
+    },
+    "4dSvfvTy2ZIJ3K4k": {
+      "name": "Comprehend Languages"
+    },
+    "4smlOvpF5AQHcyg1": {
+      "name": "Contingency"
+    },
+    "4v2H3hHb3Ph9XLNd": {
+      "name": "Augury"
+    },
+    "5OGFdJw35QXp6mh6": {
+      "name": "Mass Suggestion"
+    },
+    "5SuJewoa1CRWaj1F": {
+      "name": "Burning Hands"
+    },
+    "5VhqFROQYjr1P9lp": {
+      "name": "Silence"
+    },
+    "5e1xTohkzqFqbYH4": {
+      "name": "Flame Strike"
+    },
+    "5eh2HFbS13078Y3H": {
+      "name": "Find Steed"
+    },
+    "64D1gNZ4hx7SWG2x": {
+      "name": "Forbiddance"
+    },
+    "64uo4fHriHLjRUrX": {
+      "name": "Meld into Stone"
+    },
+    "6HEEhLdJz32TL4Js": {
+      "name": "Foresight"
+    },
+    "6g3WLOZ2u0EbaLAd": {
+      "name": "Hypnotic Pattern"
+    },
+    "76C0FdcxlU8F9Rl2": {
+      "name": "Word of Recall"
+    },
+    "7Fw7Bf1k3xxDVr5L": {
+      "name": "Fabricate"
+    },
+    "7KjExw0kmuqERa7C": {
+      "name": "Storm of Vengeance"
+    },
+    "7UwUjJ6owIQkEPrs": {
+      "name": "Branding Smite"
+    },
+    "7buEm5KhI5lP8m1z": {
+      "name": "Guiding Bolt"
+    },
+    "7e3QXF10hLNDEdr6": {
+      "name": "False Life"
+    },
+    "7fFHlBk3UNX8gPKL": {
+      "name": "Control Water"
+    },
+    "7p9IuWrSWFgfyQo2": {
+      "name": "Alarm"
+    },
+    "7u2obDvuvtZBkTfq": {
+      "name": "Scorching Ray"
+    },
+    "7v06rdmUakoTk1LQ": {
+      "name": "Magic Mouth"
+    },
+    "82jM6qD9axLJsTrH": {
+      "name": "Illusory Script"
+    },
+    "8MICCMeOXT3aJUy9": {
+      "name": "Divine Favor"
+    },
+    "8PJAsHmbu6UgDHC0": {
+      "name": "Wind Walk"
+    },
+    "8RTDOt80u8aBv9qx": {
+      "name": "Alter Self"
+    },
+    "8aWtP5hcrmcEesBW": {
+      "name": "Teleportation Circle"
+    },
+    "8cse7rit0oswRPUP": {
+      "name": "Arcane Lock"
+    },
+    "8dzaICjGy6mTUaUr": {
+      "name": "Bless"
+    },
+    "8sgwRh8NUNkn9Vi0": {
+      "name": "Secret Chest"
+    },
+    "8zT7njvqbpXs4Cel": {
+      "name": "Spare the Dying"
+    },
+    "91Sw6vOIaO7U8DvM": {
+      "name": "Dominate Person"
+    },
+    "95K2aUhAGV9qXjnf": {
+      "name": "Bane"
+    },
+    "9eOZDBImVKxbeOyZ": {
+      "name": "Enhance Ability"
+    },
+    "9gYGkrL6qFTsE6fw": {
+      "name": "Spike Growth"
+    },
+    "9hQXdMSmerkTsHDe": {
+      "name": "Confusion"
+    },
+    "9kGrFXnLiRg3Xnbo": {
+      "name": "Regenerate"
+    },
+    "A3q2gTNqG6fvNGrv": {
+      "name": "Disguise Self"
+    },
+    "A4RsPuSvB9wFtz1j": {
+      "name": "Dimension Door"
+    },
+    "AGFMPAmuzwWO6Dfz": {
+      "name": "Raise Dead"
+    },
+    "AQsBc94ES7W7s7iG": {
+      "name": "Wall of Thorns"
+    },
+    "ATo0Eb63TDtnu6iA": {
+      "name": "Animate Objects"
+    },
+    "Advtckpz1B733bu9": {
+      "name": "Flame Blade"
+    },
+    "AoTTjapz1FsGOIZz": {
+      "name": "Delayed Blast Fireball"
+    },
+    "B0pnIcc52O6G8hi8": {
+      "name": "Longstrider"
+    },
+    "B2kbmgbA2WQR00kx": {
+      "name": "Symbol"
+    },
+    "BP3GCwa66IAw1yTG": {
+      "name": "Daylight"
+    },
+    "BQk5Row4NymMnUQl": {
+      "name": "Hideous Laughter"
+    },
+    "BV0mpbHh29IbbIj5": {
+      "name": "Create Food and Water"
+    },
+    "BYNvBJzHcF5VJhXw": {
+      "name": "Phantasmal Killer"
+    },
+    "Bnn9Nzajixvow9xi": {
+      "name": "Light"
+    },
+    "BrBZdCCrJRIVg7YX": {
+      "name": "Silent Image"
+    },
+    "CAxSzHWizrafT033": {
+      "name": "Dancing Lights"
+    },
+    "CKZTpZlxj7hjjo2H": {
+      "name": "Mage Armor"
+    },
+    "CjIq8Ed7bu3vVwT1": {
+      "name": "Contagion"
+    },
+    "CylBa7jR8DSbo8Z3": {
+      "name": "Zone of Truth"
+    },
+    "DGONTFbk5eORs5qv": {
+      "name": "Black Tentacles"
+    },
+    "DQzlB5Y3k791W5bH": {
+      "name": "See Invisibility"
+    },
+    "DUBgwHPakcLDkB6W": {
+      "name": "Tree Stride"
+    },
+    "E4NXux0RHvME1XgP": {
+      "name": "Create Undead"
+    },
+    "EOmsUcFQJTfG2oio": {
+      "name": "Fire Bolt"
+    },
+    "ERCv7yuRkQ0YjGx6": {
+      "name": "Reverse Gravity"
+    },
+    "Ek45cBpVXvJdv1Qy": {
+      "name": "Counterspell"
+    },
+    "Eon0jzGzQRNluTPQ": {
+      "name": "Antimagic Field"
+    },
+    "F0GsG0SJzsIOacwV": {
+      "name": "Lesser Restoration"
+    },
+    "FSMy6VAjDnXY9vWz": {
+      "name": "Gust of Wind"
+    },
+    "FjYE214HTERCRZNm": {
+      "name": "Flaming Sphere"
+    },
+    "GJ2WYm3SQFR0winH": {
+      "name": "Antipathy/Sympathy"
+    },
+    "GSvLWcdCZLQkilXT": {
+      "name": "Blink"
+    },
+    "GtGjNjPBgUHxGYAD": {
+      "name": "Sending"
+    },
+    "HBHbOGKNVVprSlwn": {
+      "name": "Disintegrate"
+    },
+    "HPvZm8YJO91k6Qdg": {
+      "name": "Finger of Death"
+    },
+    "HQfd7jJyULIoGxrZ": {
+      "name": "Telekinesis"
+    },
+    "I2LUSF5ogc7Bj62e": {
+      "name": "Speak with Dead"
+    },
+    "IBJmWjzbQGu7M4UX": {
+      "name": "Fog Cloud"
+    },
+    "ImlCJQwR1VL40Qem": {
+      "name": "Arcane Eye"
+    },
+    "Iv2qqSAT7OkXKPFx": {
+      "name": "Locate Animals or Plants"
+    },
+    "IyikgTEOTv701jgQ": {
+      "name": "Lightning Bolt"
+    },
+    "J3uILDYS7MiOfmTJ": {
+      "name": "Fire Storm"
+    },
+    "J6Jpw5XzB5aTeqnz": {
+      "name": "Plane Shift"
+    },
+    "JGT5bNqu9REL7Fuz": {
+      "name": "Find Familiar"
+    },
+    "JLTQyqXEaJDrTXyW": {
+      "name": "Acid Splash"
+    },
+    "JPwIEfgUPVebr5AH": {
+      "name": "Barkskin"
+    },
+    "JQyigMNPiDnGI18b": {
+      "name": "Geas"
+    },
+    "JVhKeanAXZH62DrF": {
+      "name": "Warding Bond"
+    },
+    "JYuRBwxpoFhXduvD": {
+      "name": "Time Stop"
+    },
+    "JbxsYXxSOTZbf9I0": {
+      "name": "Spiritual Weapon"
+    },
+    "KJRVzeMQXPj8Gtyx": {
+      "name": "Spider Climb"
+    },
+    "KeunEkg1JYbOCOhV": {
+      "name": "Circle of Death"
+    },
+    "KgEw3sDr39C6g8nY": {
+      "name": "Conjure Minor Elementals"
+    },
+    "KhwiSi9fwVfUPtku": {
+      "name": "Sleep"
+    },
+    "Kn7K5PtYUJAKZTTp": {
+      "name": "Purify Food and Drink"
+    },
+    "KrM3oHVv13RAALrS": {
+      "name": "Find Traps"
+    },
+    "L4J89JXqbKs6puEV": {
+      "name": "Teleport"
+    },
+    "LTDNWoFVJNLjiiNa": {
+      "name": "Arcane Sword"
+    },
+    "LWTUqKkUQdMAmOe0": {
+      "name": "Color Spray"
+    },
+    "LkvI11Uue774QBKZ": {
+      "name": "Cloudkill"
+    },
+    "LmRHHMtplpxr9fX6": {
+      "name": "Revivify"
+    },
+    "LrPvWHBPmiMQQsKB": {
+      "name": "Dominate Beast"
+    },
+    "MAxM77CDUu8dgIRQ": {
+      "name": "Protection from Poison"
+    },
+    "MBMaQLwoy05qzMJ3": {
+      "name": "Mislead"
+    },
+    "MCEpGpvovcXagwQS": {
+      "name": "Awaken"
+    },
+    "MImfWCzEPRMYD3Xp": {
+      "name": "Freezing Sphere"
+    },
+    "MK6gpQMeDFo0cP9f": {
+      "name": "Continual Flame"
+    },
+    "MOEmz9N0j0QPkKEE": {
+      "name": "Prayer of Healing"
+    },
+    "MRxldJd6C4bsBo3O": {
+      "name": "Levitate"
+    },
+    "MUO1uYN7JR1hm4dR": {
+      "name": "Thaumaturgy"
+    },
+    "Mzh95utKDPIrjiH8": {
+      "name": "Detect Evil and Good"
+    },
+    "N2UEFq8X5LRsLcOZ": {
+      "name": "Shapechange"
+    },
+    "NJgxf7pmSsBArIG7": {
+      "name": "Private Sanctum"
+    },
+    "NXWWWgHtWb7Nv21F": {
+      "name": "Tiny Hut"
+    },
+    "NmoRmM1mhuM3pqnY": {
+      "name": "Wall of Stone"
+    },
+    "ODhLKBxLnvvLOnw1": {
+      "name": "Ray of Enfeeblement"
+    },
+    "OVikYmSdHliAG2YD": {
+      "name": "Insect Plague"
+    },
+    "Opwh2PdX4runSBlm": {
+      "name": "Aid"
+    },
+    "P6f1PPKPd9BCb742": {
+      "name": "Compulsion"
+    },
+    "P7mF2MxSuVJwHRRY": {
+      "name": "Guidance"
+    },
+    "PQuEgKyCdovOvhqN": {
+      "name": "Etherealness"
+    },
+    "Pyzmm8R7rVsNAPsd": {
+      "name": "Mass Cure Wounds"
+    },
+    "QbQZKoXOgHWN06aa": {
+      "name": "True Polymorph"
+    },
+    "QbTxN5dWIbYZ4jLU": {
+      "name": "Chain Lightning"
+    },
+    "Qf6CAZkc7ms4ZY3e": {
+      "name": "Goodberry"
+    },
+    "QvGcdRUSNRKEQJlK": {
+      "name": "Stone Shape"
+    },
+    "ReMbjfeOKoSj3O79": {
+      "name": "Stoneskin"
+    },
+    "RpKjTlYASrfqUPVA": {
+      "name": "Cone of Cold"
+    },
+    "RvEqsD89Zvd5yex4": {
+      "name": "Arcanist's Magic Aura"
+    },
+    "S7VbUetIfVT7B6Eq": {
+      "name": "Darkness"
+    },
+    "SAj03P2WBDiWu7zu": {
+      "name": "Faithful Hound"
+    },
+    "SLxA9QhrggTz0taU": {
+      "name": "Hallow"
+    },
+    "SbSvZKkJASyk8jKo": {
+      "name": "Druidcraft"
+    },
+    "Sgjrf8qqv97CCWM4": {
+      "name": "Magic Weapon"
+    },
+    "SgrEKiC6dAtvy6Pz": {
+      "name": "Instant Summons"
+    },
+    "SleYkHovQ8NagmeV": {
+      "name": "Locate Object"
+    },
+    "Szvk5FEVQW3uhJi5": {
+      "name": "Haste"
+    },
+    "T1vpZLam7LezjToj": {
+      "name": "Divine Word"
+    },
+    "TIoadMIsUKD4edXi": {
+      "name": "Astral Projection"
+    },
+    "TfRzwEgBHHkCc6Ql": {
+      "name": "Irresistible Dance"
+    },
+    "TgHsuhNasPbhu8MO": {
+      "name": "Guardian of Faith"
+    },
+    "TkJ8Wtg1L7TZtspm": {
+      "name": "Dispel Evil and Good"
+    },
+    "TwlD4PLcltv7Xh7j": {
+      "name": "Stinking Cloud"
+    },
+    "UDUnlfPsOAbq2RSE": {
+      "name": "Blur"
+    },
+    "UJJu9c2UvCzVljiP": {
+      "name": "Web"
+    },
+    "UfHQhA54M4323gVO": {
+      "name": "Vampiric Touch"
+    },
+    "Utk1OQRwYkMkFRD3": {
+      "name": "Mage Hand"
+    },
+    "VtCXMdyM6mAdIJZb": {
+      "name": "Death Ward"
+    },
+    "VzgFzcmocr1X1cp4": {
+      "name": "Shillelagh"
+    },
+    "W4Qx5z0id6da0vqg": {
+      "name": "Legend Lore"
+    },
+    "WN2LWEljYU6QqnRH": {
+      "name": "Ice Storm"
+    },
+    "WTbOQBsarsL1LuXJ": {
+      "name": "Thunderwave"
+    },
+    "WahI41a3goVUg0x1": {
+      "name": "Enlarge/Reduce"
+    },
+    "Wl2vtJ4hCt2tpWfR": {
+      "name": "Weird"
+    },
+    "WmQpxfjZwF3MGUby": {
+      "name": "Globe of Invulnerability"
+    },
+    "WzvJ7G3cqvIubsLk": {
+      "name": "Greater Restoration"
+    },
+    "X3DrXgxjwI2dvkD6": {
+      "name": "Wall of Fire"
+    },
+    "X4c8xCkmF8U9HUMz": {
+      "name": "Mirror Image"
+    },
+    "X8w9EzYLGc4vQ1H2": {
+      "name": "Animal Messenger"
+    },
+    "XT7nzJmVGgv73uaf": {
+      "name": "Conjure Celestial"
+    },
+    "XXUDGFELgoskdOD0": {
+      "name": "Fear"
+    },
+    "XZhdgVK3cLoxNCQl": {
+      "name": "Remove Curse"
+    },
+    "XbwGq5kDJNvAxNXV": {
+      "name": "Gate"
+    },
+    "XqzXSKNR75ZdYTA9": {
+      "name": "Divination"
+    },
+    "XvbiNhNqXXIFisIy": {
+      "name": "Shocking Grasp"
+    },
+    "XzkJpE6XpZfKjODD": {
+      "name": "True Seeing"
+    },
+    "Y6oItIuhOJZ0i0FC": {
+      "name": "Mass Heal"
+    },
+    "Y7uWUO4yqUN0JKl0": {
+      "name": "Forcecage"
+    },
+    "YBda6nLKjxdT1LbS": {
+      "name": "Water Walk"
+    },
+    "YWtwzp6ZnQJMEmVW": {
+      "name": "Plant Growth"
+    },
+    "Z9p1vezIn95jw1Yw": {
+      "name": "Eldritch Blast"
+    },
+    "ZPd73HtKF3At11jh": {
+      "name": "Control Weather"
+    },
+    "ZRqu3Xh9FmlBCZGy": {
+      "name": "Eyebite"
+    },
+    "ZU9d6woBdUP8pIPt": {
+      "name": "Beacon of Hope"
+    },
+    "ZVnL9L8v1KC9TBF4": {
+      "name": "Imprisonment"
+    },
+    "ZrTc23tToJ0JpH2h": {
+      "name": "Jump"
+    },
+    "a2KJHCIbY5Mi4Dmn": {
+      "name": "Arcane Hand"
+    },
+    "a3XtAO5n2GrqiAh5": {
+      "name": "Create or Destroy Water"
+    },
+    "aL1F8fvYLtNzUbKu": {
+      "name": "Speak with Animals"
+    },
+    "aU62xVUBYkAQWIHv": {
+      "name": "Nondetection"
+    },
+    "ap4dmtshjEbwU3Ts": {
+      "name": "Rope Trick"
+    },
+    "arzCrMRgcNiQuh43": {
+      "name": "Command"
+    },
+    "avD5XUtkBPQQR97c": {
+      "name": "Fire Shield"
+    },
+    "bA2sk9eMKBeY7EPD": {
+      "name": "Programmed Illusion"
+    },
+    "bV3yun6MIuFj71Er": {
+      "name": "Moonbeam"
+    },
+    "bllEWfm9xfEKynhv": {
+      "name": "Mind Blank"
+    },
+    "bnjXlk13ZRJuf5d0": {
+      "name": "Floating Disk"
+    },
+    "cYI4RNNjI5GAmLhy": {
+      "name": "Find the Path"
+    },
+    "ccduLIvutyNqvkgv": {
+      "name": "Unseen Servant"
+    },
+    "cdrYKaFi98YWaBMw": {
+      "name": "Vicious Mockery"
+    },
+    "cg50KpBkBdPK6vPL": {
+      "name": "Clairvoyance"
+    },
+    "clwv2PWOcT822hlr": {
+      "name": "Maze"
+    },
+    "ctW81uiX56xZR2c5": {
+      "name": "Ray of Frost"
+    },
+    "czXrVRx6XYRWsHAi": {
+      "name": "Giant Insect"
+    },
+    "d54VDyFulD9xxY7J": {
+      "name": "Commune"
+    },
+    "d9MwcXi7Il3HROXd": {
+      "name": "Passwall"
+    },
+    "dEfSELiY1eO3cpX9": {
+      "name": "Conjure Woodland Beings"
+    },
+    "dLJhxDfeyOsc3zsY": {
+      "name": "Blade Barrier"
+    },
+    "dSTu1MaPhBqPITwM": {
+      "name": "Contact Other Plane"
+    },
+    "da0a1t2FqaTjRZGT": {
+      "name": "Freedom of Movement"
+    },
+    "dhqBY4TvVjxVmOZd": {
+      "name": "Sleet Storm"
+    },
+    "dl8YwvMboBqX2OC4": {
+      "name": "Resistance"
+    },
+    "dmvaMLFWFtv0qx0S": {
+      "name": "Power Word Kill"
+    },
+    "dp6xny4v8PDoIGjh": {
+      "name": "Commune with Nature"
+    },
+    "eCPQuQkIabFKTl9u": {
+      "name": "Produce Flame"
+    },
+    "eEpy1ONlXumKS1mp": {
+      "name": "Dominate Monster"
+    },
+    "eGMhwmuleAM46C6L": {
+      "name": "Prismatic Spray"
+    },
+    "ePhRKHXRE7l1sEoQ": {
+      "name": "Project Image"
+    },
+    "eS7XnnApoxRxYXPs": {
+      "name": "Charm Person"
+    },
+    "ehvmg9U9fcMEhE4z": {
+      "name": "Call Lightning"
+    },
+    "ej6wyY4G1gOcb1U6": {
+      "name": "Magic Jar"
+    },
+    "etgcR9wqmrhyZ0tx": {
+      "name": "Grease"
+    },
+    "ew6GA8dJy2spQmFW": {
+      "name": "Wind Wall"
+    },
+    "f38w5rd9SgdmWc6F": {
+      "name": "Mirage Arcane"
+    },
+    "fVbCxFRaORalHB20": {
+      "name": "Scrying"
+    },
+    "fkREcytuZ8sngWtC": {
+      "name": "Planar Ally"
+    },
+    "fzZnVKLmBMo2f5up": {
+      "name": "Wall of Ice"
+    },
+    "g2u9PYfqWQAyg9OI": {
+      "name": "Poison Spray"
+    },
+    "gMrWeG8fMDPRFiVe": {
+      "name": "Entangle"
+    },
+    "gXtzz9t1DTzJeLr4": {
+      "name": "Locate Creature"
+    },
+    "ge3Saet9zPTDyaoL": {
+      "name": "Heroism"
+    },
+    "ghXTfe7sgCbgf1Q8": {
+      "name": "Detect Magic"
+    },
+    "gopnZvS0c2jD5FP8": {
+      "name": "Tongues"
+    },
+    "gvdA9nPuWLck4tBl": {
+      "name": "Sanctuary"
+    },
+    "h830iyqParFleNqR": {
+      "name": "Clone"
+    },
+    "hDOENzjuj5WpLq7B": {
+      "name": "Animal Friendship"
+    },
+    "hJ6ZiA3fpoY8v9cp": {
+      "name": "Darkvision"
+    },
+    "hYCrN82dMJFuJODB": {
+      "name": "Feeblemind"
+    },
+    "hzK7FQya0BDjSmLE": {
+      "name": "Sunburst"
+    },
+    "icZokbgV1jIMpNCv": {
+      "name": "Message"
+    },
+    "j8NtLXOOJ3GAKF8I": {
+      "name": "Protection from Energy"
+    },
+    "j8S49Rea8b1640Zi": {
+      "name": "Holy Aura"
+    },
+    "jZ6JNykRtdQ90MOo": {
+      "name": "Shield of Faith"
+    },
+    "jccbeBIfLrqEZnDP": {
+      "name": "Simulacrum"
+    },
+    "jhhT9PsHy5A7EojO": {
+      "name": "Resurrection"
+    },
+    "jmfu8zj4zjjzUbeh": {
+      "name": "Prismatic Wall"
+    },
+    "kSPRpeIx3w3nihrF": {
+      "name": "Dream"
+    },
+    "kjmjY0zlE6IEiQVL": {
+      "name": "Mending"
+    },
+    "kozNy29b0X6exFhY": {
+      "name": "Flesh to Stone"
+    },
+    "ksaaTxIbKx2sJfia": {
+      "name": "Inflict Wounds"
+    },
+    "l9Ju5KE7bbn3WpTm": {
+      "name": "Hold Monster"
+    },
+    "lnaGnxMzpYnbw1uU": {
+      "name": "Creation"
+    },
+    "mF52ldF79Cr7wfQo": {
+      "name": "Meteor Swarm"
+    },
+    "mGGlcLdggHwcL7MG": {
+      "name": "True Strike"
+    },
+    "mbFw57uyfLkyiw5k": {
+      "name": "Seeming"
+    },
+    "mgFqi0ev8f7Ut19y": {
+      "name": "Heroes' Feast"
+    },
+    "n4JDcFKe5ikzYmAc": {
+      "name": "Gentle Repose"
+    },
+    "n9pJzTDsAwQxJVRl": {
+      "name": "Sacred Flame"
+    },
+    "nqBDWkVOfcGZt4YU": {
+      "name": "Faerie Fire"
+    },
+    "nslx2nT3p4lNkmdp": {
+      "name": "Major Image"
+    },
+    "o8Dh7fblk1d16tnO": {
+      "name": "Healing Word"
+    },
+    "o9ZCvuD2B1OTcubb": {
+      "name": "Wall of Force"
+    },
+    "oIzA2MEHwxhtQneU": {
+      "name": "Minor Illusion"
+    },
+    "ohqAIBg6de989CIo": {
+      "name": "Animal Shapes"
+    },
+    "oyE5nVppa5mde5gT": {
+      "name": "Animate Dead"
+    },
+    "pB7XVYwdGNcUG935": {
+      "name": "Glyph of Warding"
+    },
+    "pO4zGe5LmFIYqJiL": {
+      "name": "Bestow Curse"
+    },
+    "pRMvmknwLf2tdMTj": {
+      "name": "Pass without Trace"
+    },
+    "pV04y1iXoWiom6bp": {
+      "name": "Incendiary Cloud"
+    },
+    "pn4SnsFDvYDiE6rC": {
+      "name": "Magnificent Mansion"
+    },
+    "ppWAAEul0QHtm4er": {
+      "name": "Detect Thoughts"
+    },
+    "pub0OWVEB71XQx1n": {
+      "name": "Feather Fall"
+    },
+    "pxpb2eOB6bv4phAf": {
+      "name": "Banishment"
+    },
+    "pybg5MNc3lkerH4Y": {
+      "name": "Blight"
+    },
+    "qLeEXZDbW5y4bmLY": {
+      "name": "True Resurrection"
+    },
+    "qcYitWoSMTnKkzM1": {
+      "name": "Heal"
+    },
+    "r3243JU4AyQJyfX4": {
+      "name": "Modify Memory"
+    },
+    "s7nXgot5gGZVcMrv": {
+      "name": "Transport via Plants"
+    },
+    "sTIkQK7KuQNOyY0C": {
+      "name": "Hallucinatory Terrain"
+    },
+    "tEpDmYZNGc9f5OhJ": {
+      "name": "Greater Invisibility"
+    },
+    "tMH6Ivn4GmE1naMj": {
+      "name": "Harm"
+    },
+    "uAwtVZkiSTyP6ORB": {
+      "name": "Telepathic Bond"
+    },
+    "uCud2s4TjMfjiXUb": {
+      "name": "Spirit Guardians"
+    },
+    "uUWb1wZgtMou0TVP": {
+      "name": "Cure Wounds"
+    },
+    "udsLtG0BugXHR2JQ": {
+      "name": "Prestidigitation"
+    },
+    "vrN18tbTw7io5MWd": {
+      "name": "Chill Touch"
+    },
+    "wJKpSvSTbSkTjqyb": {
+      "name": "Shatter"
+    },
+    "wXzkqpeFP8eWgJzK": {
+      "name": "Antilife Shell"
+    },
+    "wpx42mtoZ5BmXRs1": {
+      "name": "Phantom Steed"
+    },
+    "wqfAVANuQonNBgnL": {
+      "name": "Misty Step"
+    },
+    "wvLbtemkH8gyBpdc": {
+      "name": "Sequester"
+    },
+    "x5JNBSyIBBZsjcGT": {
+      "name": "Earthquake"
+    },
+    "xNM9CzQQr2CieM4B": {
+      "name": "Demiplane"
+    },
+    "xmDBqZhRVrtLP8h2": {
+      "name": "Protection from Evil and Good"
+    },
+    "y8A4HfTwd93ypdEz": {
+      "name": "Magic Circle"
+    },
+    "yI0XWIgI0IGGsR3R": {
+      "name": "Move Earth"
+    },
+    "yN3XZZujhR4aVvPa": {
+      "name": "Conjure Fey"
+    },
+    "yfbK8gZqESlaoY5t": {
+      "name": "Fly"
+    },
+    "yqUDoxk4x0NWG5Bz": {
+      "name": "Slow"
+    },
+    "yw0tYQkOMCgKZ8Ur": {
+      "name": "Guards and Wards"
+    },
+    "z1mx84ONwkXKUZd7": {
+      "name": "Shield"
+    },
+    "zMAWdyc8UVb37BK4": {
+      "name": "Suggestion"
+    },
+    "zMEo5DKK8uxsuWnq": {
+      "name": "Reincarnate"
+    },
+    "zPGohqJRir6MyQ3U": {
+      "name": "Expeditious Retreat"
+    },
+    "ztgcdrWPshKRpFd0": {
+      "name": "Fireball"
+    },
+    "zwGsAv6kmwzYGhh3": {
+      "name": "Blindness/Deafness"
+    }
+  }
+}

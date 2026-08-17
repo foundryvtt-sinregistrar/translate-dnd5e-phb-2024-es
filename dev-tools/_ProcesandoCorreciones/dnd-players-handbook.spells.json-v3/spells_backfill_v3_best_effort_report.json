@@ -1,0 +1,274 @@
+{
+  "_meta": {
+    "method": "best_effort_backfill_from_validated_v3_examples_plus_conservative_name_inference",
+    "note": "Only exact structured fields (target/range/duration) confirmed in reviewed V3 snippets were backfilled. Activity names were completed conservatively from validated V3 patterns, project translation memory, and spell descriptions."
+  },
+  "counts": {
+    "activities.name": 292,
+    "activities.range": 8,
+    "activities.duration": 6,
+    "activities.target": 3
+  },
+  "examples": {
+    "activities.name": [
+      {
+        "entry": "phbArcaneGate000",
+        "activity": "Bx8jrZfYP0b7kYXV",
+        "value": "Crear puerta",
+        "source": "specific_arcane_gate"
+      },
+      {
+        "entry": "phbEvilAndGoodPr",
+        "activity": "zFTMr0vFdY214UIY",
+        "value": "Lanzar",
+        "source": "specific_protection"
+      },
+      {
+        "entry": "phbFaithfulHound",
+        "activity": "oXwEMXLXZLw2Ub0g",
+        "value": "Invocar",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbPrivateSanctu",
+        "activity": "MoyU67fLjbEiZLGE",
+        "value": "Lanzar",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbProtectionFro",
+        "activity": "rIHvDrlENxFLbUQw",
+        "value": "Lanzar",
+        "source": "specific_protection"
+      },
+      {
+        "entry": "phbsplAcidSplash",
+        "activity": "eOJpSDmq0JkmzpAV",
+        "value": "Salvación",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplAid0000000",
+        "activity": "2JEDs5yWXLOYGN9m",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplAnimalFrie",
+        "activity": "dnd5eactivity000",
+        "value": "Salvación",
+        "source": "save_pattern"
+      },
+      {
+        "entry": "phbsplAnimalMess",
+        "activity": "dnd5eactivity000",
+        "value": "Salvación",
+        "source": "save_pattern"
+      },
+      {
+        "entry": "phbsplAnimateDea",
+        "activity": "dnd5eactivity000",
+        "value": "Animar cadáveres",
+        "source": "specific_animate_dead"
+      },
+      {
+        "entry": "phbsplAnimateObj",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplAntilifeSh",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplAntimagicF",
+        "activity": "OxII9yaa3KpRduWZ",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplArcaneEye0",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplArcaneLock",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplArmsofHada",
+        "activity": "dnd5eactivity000",
+        "value": "Salvación",
+        "source": "save_pattern"
+      },
+      {
+        "entry": "phbsplAstralProj",
+        "activity": "YQhPsh74ZwPvYrWU",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplAugury0000",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplAwaken0000",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplBane000000",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplBanishment",
+        "activity": "dnd5eactivity000",
+        "value": "Salvación",
+        "source": "save_pattern"
+      },
+      {
+        "entry": "phbsplBarkskin00",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplBeaconofHo",
+        "activity": "dnd5eactivity000",
+        "value": "Curar",
+        "source": "heal_pattern"
+      },
+      {
+        "entry": "phbsplBeastSense",
+        "activity": "dnd5eactivity000",
+        "value": "Lanzar",
+        "source": "default"
+      },
+      {
+        "entry": "phbsplBefuddleme",
+        "activity": "TAVpYz6KXNk1xZi1",
+        "value": "Lanzar",
+        "source": "default"
+      }
+    ],
+    "activities.range": [
+      {
+        "entry": "phbFaithfulHound",
+        "activity": "oXwEMXLXZLw2Ub0g",
+        "value": "30 ft",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbFaithfulHound",
+        "activity": "vIOe9RHtAUBrnsR6",
+        "value": "30 ft",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbPrivateSanctu",
+        "activity": "MoyU67fLjbEiZLGE",
+        "value": "120 ft",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplAcidSplash",
+        "activity": "eOJpSDmq0JkmzpAV",
+        "value": "60 ft",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplFindSteed0",
+        "activity": "dnd5eactivity000",
+        "value": "30 ft",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplFindSteed0",
+        "activity": "o4YsONnsS8rOOEaS",
+        "value": "30 ft",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplFindTraps0",
+        "activity": "dnd5eactivity000",
+        "value": "120 ft",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplPrayerofHe",
+        "activity": "dnd5eactivity000",
+        "value": "30 ft",
+        "source": "manual_override"
+      }
+    ],
+    "activities.duration": [
+      {
+        "entry": "phbFaithfulHound",
+        "activity": "oXwEMXLXZLw2Ub0g",
+        "value": "8 hour",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbPrivateSanctu",
+        "activity": "MoyU67fLjbEiZLGE",
+        "value": "24 hour",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplBladeWard0",
+        "activity": "1wca3rjsdb0agWqk",
+        "value": "1 minute",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplFear000000",
+        "activity": "dnd5eactivity000",
+        "value": "1 minute",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplGuidance00",
+        "activity": "R6Fs3rsgXlgHPOFn",
+        "value": "1 minute",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplProtection",
+        "activity": "dnd5eactivity000",
+        "value": "1 hour",
+        "source": "manual_override"
+      }
+    ],
+    "activities.target": [
+      {
+        "entry": "phbPrivateSanctu",
+        "activity": "MoyU67fLjbEiZLGE",
+        "value": "100 cube",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplAcidSplash",
+        "activity": "eOJpSDmq0JkmzpAV",
+        "value": "5 sphere",
+        "source": "manual_override"
+      },
+      {
+        "entry": "phbsplFear000000",
+        "activity": "dnd5eactivity000",
+        "value": "30 cone",
+        "source": "manual_override"
+      }
+    ]
+  }
+}

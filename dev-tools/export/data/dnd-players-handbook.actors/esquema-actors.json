@@ -1,0 +1,67 @@
+{
+  "label": "Actors",
+  "mapping": {
+    "items": {
+      "path": "items",
+      "converter": "phb2024ActorFullById"
+    }
+  },
+  "folders": {
+    "Creatures": "Creatures",
+    "Example Characters": "Example Characters"
+  },
+  "entries": {
+    "actorId": {
+      "name": "Nombre del actor",
+      "description": "<p>...</p>",
+      "folder": "Nombre carpeta",
+      "biography": "<p>...</p>",
+      "details": {
+        "alignment": "",
+        "eyes": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "weight": "",
+        "gender": "",
+        "skin": "",
+        "age": "",
+        "ideal": "",
+        "bond": "",
+        "flaw": "",
+        "trait": "",
+        "appearance": ""
+      },
+      "effects": {
+        "effectId": {
+          "name": "Nombre efecto",
+          "description": "<p>...</p>"
+        }
+      },
+      "items": {
+        "itemId": {
+          "name": "Nombre item",
+          "description": "<p>...</p>",
+          "activities": {
+            "activityId": {
+              "name": "Nombre actividad",
+              "condition": "..."
+            }
+          },
+          "effects": {
+            "effectId": {
+              "name": "Nombre efecto",
+              "description": "<p>...</p>"
+            }
+          },
+          "advancement": {
+            "advancementId": {
+              "title": "Título",
+              "hint": "Pista"
+            }
+          }
+        }
+      }
+    }
+  }
+}

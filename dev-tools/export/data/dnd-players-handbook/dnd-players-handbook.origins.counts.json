@@ -1,0 +1,24 @@
+{
+  "id": "dnd-players-handbook.origins",
+  "fileName": "dnd-players-handbook.origins.json",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "phb2024ActivitiesById"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phb2024MergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phb2024AdvancementById"
+    }
+  },
+  "folders": {
+    "totalFolders": 13
+  },
+  "entries": {
+    "totalEntries": 79
+  }
+}

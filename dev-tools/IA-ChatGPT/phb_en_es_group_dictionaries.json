@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "id": "phb-en-es-group-dictionaries",
+    "title": "Diccionarios EN→ES por grupo (PHB)",
+    "created": "2026-03-03T13:45:34",
+    "timezone": "Europe/Madrid",
+    "sources": [
+      "Player's Handbook.pdf",
+      "Manual del Jugador.pdf"
+    ],
+    "notes": [
+      "Diccionarios pensados para agrupar/normalizar contenido en compendios dnd-players-handbook.*.json",
+      "Estructura: groups.{GROUP_NAME}.{EN_KEY} = ES_VALUE"
+    ]
+  },
+  "groups": {
+    "PHB_CLASSES_EN_ES": {
+      "Classes": "Clases",
+      "Barbarian": "Bárbaro",
+      "Bard": "Bardo",
+      "Cleric": "Clérigo",
+      "Druid": "Druida",
+      "Fighter": "Guerrero",
+      "Monk": "Monje",
+      "Paladin": "Paladín",
+      "Ranger": "Explorador",
+      "Rogue": "Pícaro",
+      "Sorcerer": "Hechicero",
+      "Warlock": "Brujo",
+      "Wizard": "Mago",
+      "Class Features": "Rasgos de Clase",
+      "Subclass Features": "Rasgos de Subclase"
+    },
+    "PHB_EQUIPMENT_EN_ES": {
+      "Equipment": "Equipo",
+      "Starting Equipment": "Equipo Inicial",
+      "Wealth": "Riqueza",
+      "Armor and Shields": "Armaduras y Escudos",
+      "Weapons": "Armas",
+      "Adventuring Gear": "Equipo de Aventureros",
+      "Tools": "Herramientas",
+      "Mounts and Vehicles": "Monturas y vehículos",
+      "Trade Goods": "Mercancías",
+      "Expenses": "Gastos",
+      "Trinkets": "Bagatelas"
+    },
+    "PHB_FEATS_EN_ES": {
+      "Customization Options": "Opciones de Personalización",
+      "Multiclassing": "Multiclase",
+      "Feats": "Dotes"
+    },
+    "PHB_ORIGINS_EN_ES": {
+      "Origins": "Orígenes",
+      "Races": "Razas",
+      "Backgrounds": "Trasfondos",
+      "Personality and Background": "Personalidad y Trasfondo",
+      "Dwarf": "Enano",
+      "Elf": "Elfo",
+      "Halfling": "Mediano",
+      "Human": "Humano",
+      "Dragonborn": "Dracónido",
+      "Gnome": "Gnomo",
+      "Half-Elf": "Semielfo",
+      "Half-Orc": "Semiorco",
+      "Tiefling": "Tiefling"
+    },
+    "PHB_SPELLS_EN_ES": {
+      "Spellcasting": "Lanzamiento de Conjuros",
+      "What Is a Spell?": "¿Qué es un conjuro?",
+      "Casting a Spell": "Lanzar un conjuro",
+      "Spells": "Conjuros",
+      "Spell Lists": "Listas de conjuros",
+      "Spell Descriptions": "Descripciones de conjuros",
+      "Bard Spells": "Conjuros de Bardo",
+      "Cleric Spells": "Conjuros de Clérigo",
+      "Druid Spells": "Conjuros de Druida",
+      "Paladin Spells": "Conjuros de Paladín",
+      "Ranger Spells": "Conjuros de Explorador",
+      "Sorcerer Spells": "Conjuros de Hechicero",
+      "Warlock Spells": "Conjuros de Brujo",
+      "Wizard Spells": "Conjuros de Mago",
+      "cantrip": "truco",
+      "spell": "conjuro",
+      "spell level": "nivel del conjuro",
+      "spell slot": "espacio de conjuro"
+    }
+  }
+}

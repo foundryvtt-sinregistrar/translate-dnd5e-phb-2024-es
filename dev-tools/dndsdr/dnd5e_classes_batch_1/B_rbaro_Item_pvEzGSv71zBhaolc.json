@@ -1,0 +1,720 @@
+{
+  "_id": "pvEzGSv71zBhaolc",
+  "name": "Bárbaro",
+  "type": "class",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Como bárbaro, obtienes los siguientes ragos de clase.</p><h3>Puntos de Golpe</h3><p><strong>Dados de Golpe:</strong> 1d12 por nivel de bárbaro<br /><strong>Puntos de Golpe a nivel 1:</strong> 12 + tu modificador por Constitución<br /><strong>Puntos de Golpe a niveles superiores:</strong> 1d12 (o 7) + tu modificador por Constitución por cada nivel de bárbaro por encima del primero</p><h3>Competencias</h3><p><strong>Armadura:</strong> Armaduras ligeras y medias, escudos<br /><strong>Armas:</strong> Armas sencillas y marciales<br /><strong>Herramientas:</strong> Ninguna<br /><strong>Tiradas de Salvación:</strong> Fuerza, Constitución<br /><strong>Habilidades:</strong> elige dos de entre Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia y Trato con Animales</p><h3>Equipo</h3><p>Además del equipo que obtengas por tu trasfondo, empiezas con el siguiente equipo:</p><ul><li>(a) un hacha a dos manos o (b) cualquier arma cuerpo a cuerpo marcial</li><li>(a) dos hachas de mano o (b) cualquier arma sencilla</li><li>Un paquete de explorador y cuatro jabalinas</li></ul><h1>El Bárbaro</h1><table border=\"0\"><thead><tr><td>Nivel</td><td>Bon. por competencia</td><td>Rasgos</td><td>No. furias</td><td>Daño por furia</td></tr></thead><tbody><tr><td>1</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Furia}, @UUID[Compendium.dnd5e.classfeatures.Item.SZbsNbaxFFGwBpNK]{Defensa sin Armadura}</td><td>2</td><td>+2</td></tr><tr><td>2</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SCVjqRdlZ9cvHVSR]{Ataque Temerario}, @UUID[Compendium.dnd5e.classfeatures.Item.vt31lWAULygEl7yk]{Sentir el Peligro}</td><td>2</td><td>+2</td></tr><tr><td>3</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.TH1QAf6YNGSeBVjT]{Senda Primordial}</td><td>3</td><td>+2</td></tr><tr><td>4</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>3</td><td>+2</td></tr><tr><td>5</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Ataque Adicional}, @UUID[Compendium.dnd5e.classfeatures.Item.Kl6zifJ5OmdHlOi2]{Movimiento Rápido}</td><td>3</td><td>+2</td></tr><tr><td>6</td><td>+3</td><td>Rasgo de Senda</td><td>4</td><td>+2</td></tr><tr><td>7</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NlXslw4yAqmKZWtN]{Instinto Salvaje}</td><td>4</td><td>+2</td></tr><tr><td>8</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>4</td><td>+2</td></tr><tr><td>9</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Crítico Brutal (1 dado)}</td><td>4</td><td>+3</td></tr><tr><td>10</td><td>+4</td><td>Rasgo de Senda</td><td>4</td><td>+3</td></tr><tr><td>11</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FqfmbPgxiyrWzhYk]{Furia Implacable}</td><td>4</td><td>+3</td></tr><tr><td>12</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>5</td><td>+3</td></tr><tr><td>13</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Crítico Brutal (2 dados)}</td><td>5</td><td>+3</td></tr><tr><td>14</td><td>+5</td><td>Rasgo de Senda</td><td>5</td><td>+3</td></tr><tr><td>15</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.l8tUhZ5Pecm9wz7I]{Furia Persistente}</td><td>5</td><td>+3</td></tr><tr><td>16</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>5</td><td>+4</td></tr><tr><td>17</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Crítico Brutal (3 dados)}</td><td>6</td><td>+4</td></tr><tr><td>18</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Q1exex5ALteprrPo]{Poderío Indómito}</td><td>6</td><td>+4</td></tr><tr><td>19</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>6</td><td>+4</td></tr><tr><td>20</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jVU4AgqfrFaqgXns]{Campeón Primordial}</td><td>Ilimitadas</td><td>+4</td></tr></tbody></table><h1>Senda Primordial</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.uGuDQX9Mz3oHNHkU]{Senda del Berserker}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "barbarian",
+    "levels": 1,
+    "advancement": [
+      {
+        "_id": "5jn0ekktgccyvvpw",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "title": ""
+      },
+      {
+        "_id": "fjwU0G5OtTZWOkib",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "sFas4Tifj7zKgmkY",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "CmX808i8HaWZ7VMx",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:str",
+            "saves:con"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "lD3JBViqmxFYu0kc",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:ani",
+                "skills:ath",
+                "skills:itm",
+                "skills:nat",
+                "skills:prc",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:shl"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "_id": "3ETNrLc8RQlHwNXP",
+        "classRestriction": "secondary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "amez6rlose3eoigo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.VoR0SUrNX5EJVPIO",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.SZbsNbaxFFGwBpNK",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Features"
+      },
+      {
+        "_id": "udl318k61boq0rnn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.SCVjqRdlZ9cvHVSR",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.vt31lWAULygEl7yk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Features"
+      },
+      {
+        "_id": "8y2ey740kizr4jb6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.TH1QAf6YNGSeBVjT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Features"
+      },
+      {
+        "_id": "uoexdq8totskritb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.XogoBnFWmCAHXppo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Kl6zifJ5OmdHlOi2",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Features"
+      },
+      {
+        "_id": "w6ceiqibcmzpcuy8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.NlXslw4yAqmKZWtN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Features"
+      },
+      {
+        "_id": "ty9si22p6pfwb3ow",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.L94gyvNpUhUe0rwh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Features"
+      },
+      {
+        "_id": "802xi5l50le3ntk8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.FqfmbPgxiyrWzhYk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Features"
+      },
+      {
+        "_id": "g9ut0x1ugm31gbhk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.l8tUhZ5Pecm9wz7I",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Features"
+      },
+      {
+        "_id": "so18afasiyobkpxy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Q1exex5ALteprrPo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Features"
+      },
+      {
+        "_id": "9hvtrqbg7d7zwg07",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.jVU4AgqfrFaqgXns",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Features"
+      },
+      {
+        "_id": "62svnflxsuad7oar",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "rages",
+          "type": "number",
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "3": {
+              "value": 3
+            },
+            "6": {
+              "value": 4
+            },
+            "12": {
+              "value": 5
+            },
+            "17": {
+              "value": 6
+            },
+            "20": {
+              "value": 999
+            }
+          },
+          "distance": {
+            "units": ""
+          }
+        },
+        "value": {},
+        "title": "Rages"
+      },
+      {
+        "_id": "t42incolsbuqn2ec",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "rage-damage",
+          "type": "number",
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "9": {
+              "value": 3
+            },
+            "16": {
+              "value": 4
+            }
+          },
+          "distance": {
+            "units": ""
+          }
+        },
+        "value": {},
+        "title": "Rage Damage"
+      },
+      {
+        "_id": "y0kr48pnq5doebeb",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "brutal-critical",
+          "type": "number",
+          "scale": {
+            "9": {
+              "value": 1
+            },
+            "13": {
+              "value": 2
+            },
+            "17": {
+              "value": 3
+            }
+          },
+          "distance": {
+            "units": ""
+          }
+        },
+        "value": {},
+        "title": "Brutal Critical Dice"
+      },
+      {
+        "_id": "dZHMy3530RPCjzvD",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": ""
+      },
+      {
+        "_id": "dBMWU3h8MBO4PcEm",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": ""
+      },
+      {
+        "_id": "nROeTbeO8vrGjqAp",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": ""
+      },
+      {
+        "_id": "prZMkvcCNoLvF4yB",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": ""
+      },
+      {
+        "_id": "puDaUsYrlks0z5gm",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": ""
+      },
+      {
+        "_id": "ok09058sgbpt0w6b",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "Primal Path"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "_id": "ibzIV7v9EHcUb8TP",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.1Lxk6kmoRhG8qQ0u",
+        "_id": "6fTt5110T0AI6UGu",
+        "group": "ibzIV7v9EHcUb8TP",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "martialM",
+        "_id": "4dE11X5bLs1OUNgg",
+        "group": "ibzIV7v9EHcUb8TP",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "OR",
+        "_id": "Qc9WbViMpWP8QWWY",
+        "group": "",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.eO7Fbv5WBk5zvGOc",
+        "_id": "YE3Asa2h2sLH52t6",
+        "group": "Qc9WbViMpWP8QWWY",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "_id": "hFCffUR4KAtVWSxs",
+        "group": "Qc9WbViMpWP8QWWY",
+        "sort": 700000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "AND",
+        "_id": "UYICcIEggAxtVjw9",
+        "group": "",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "_id": "tCQ3ARfynhsldy40",
+        "group": "UYICcIEggAxtVjw9",
+        "sort": 800000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": 4,
+        "key": "Compendium.dnd5e.items.Item.DWLMnODrnHn8IbAG",
+        "_id": "MzzYDxTlR3mkfPmC",
+        "group": "UYICcIEggAxtVjw9",
+        "sort": 900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "2d4 * 10",
+    "primaryAbility": {
+      "value": [],
+      "all": true
+    },
+    "hd": {
+      "denomination": "d12",
+      "spent": 0,
+      "additional": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": "ZTP0KiGOdRqUKVvZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Barbarian"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1725037371252,
+    "modifiedTime": 1725992280752,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null,
+    "compendiumSource": null
+  }
+}

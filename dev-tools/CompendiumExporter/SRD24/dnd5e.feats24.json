@@ -1,0 +1,62 @@
+{
+  "label": "Dotes",
+  "folders": {
+    "Dotes de bendición épica": "Dotes de bendición épica",
+    "Dotes de estilo de combate": "Dotes de estilo de combate",
+    "Dotes de origen": "Dotes de origen",
+    "Dotes generales": "Dotes generales"
+  },
+  "entries": {
+    "phbBoonofCombatP": {
+      "name": "Don de destreza en combate"
+    },
+    "phbBoonofDimensi": {
+      "name": "Don de viaje dimensional"
+    },
+    "phbBoonofFate000": {
+      "name": "Don del destino"
+    },
+    "phbBoonofIrresis": {
+      "name": "Don de ofensiva irresistible"
+    },
+    "phbBoonofSpellRe": {
+      "name": "Don de recuerdo de conjuros"
+    },
+    "phbBoonofTruesig": {
+      "name": "Don de visión veraz"
+    },
+    "phbBoonoftheNigh": {
+      "name": "Don del espíritu nocturno"
+    },
+    "phbfstArchery000": {
+      "name": "Tiro con arco"
+    },
+    "phbfstDefense000": {
+      "name": "Defensa"
+    },
+    "phbfstGreatWeapo": {
+      "name": "Combate con arma a dos manos"
+    },
+    "phbfstTwoWeaponF": {
+      "name": "Combate con dos armas"
+    },
+    "phbftAbilityScor": {
+      "name": "Mejora de puntuación de característica"
+    },
+    "phbftAlert000000": {
+      "name": "Alerta"
+    },
+    "phbftGrappler000": {
+      "name": "Luchador"
+    },
+    "phbftMagicInitia": {
+      "name": "Iniciado en la magia"
+    },
+    "phbftSavageAttac": {
+      "name": "Atacante salvaje"
+    },
+    "phbftSkilled0000": {
+      "name": "Hábil"
+    }
+  }
+}

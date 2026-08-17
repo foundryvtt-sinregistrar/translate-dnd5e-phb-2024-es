@@ -1,0 +1,16 @@
+{
+  "id": "dnd-players-handbook.tables",
+  "fileName": "dnd-players-handbook.tables.json",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "phb2024RollTableResultsById"
+    }
+  },
+  "folders": {
+    "totalFolders": 6
+  },
+  "entries": {
+    "totalEntries": 27
+  }
+}

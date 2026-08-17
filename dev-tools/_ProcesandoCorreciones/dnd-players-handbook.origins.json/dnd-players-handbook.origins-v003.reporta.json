@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "base": "dnd-players-handbook.origins-v002.json",
+    "output": "dnd-players-handbook.origins-v003.json"
+  },
+  "summary": {
+    "entries_modified": 15,
+    "total_changes": 17,
+    "wizard_parenthetical_fixed": 1,
+    "reference_labels_added": 10,
+    "plain_condition_fixes": 6
+  },
+  "changes": [
+    {
+      "entry": "phbbgSage0000000",
+      "field": "description",
+      "type": "text",
+      "from": "(Wizard)",
+      "to": "(Mago)"
+    },
+    {
+      "entry": "phbspDrow0000000",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Charmed",
+      "to": "Hechizado",
+      "count": 1
+    },
+    {
+      "entry": "phbspGoliath0000",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Prone",
+      "to": "Derribado",
+      "count": 1
+    },
+    {
+      "entry": "phbspGoliath0000",
+      "field": "description",
+      "type": "plain_condition",
+      "from": "Grappled",
+      "to": "Agarrado"
+    },
+    {
+      "entry": "phbspHalfling000",
+      "field": "description",
+      "type": "plain_condition",
+      "from": "Frightened",
+      "to": "Aterrorizado"
+    },
+    {
+      "entry": "phbspHighElf0000",
+      "field": "description",
+      "type": "plain_condition",
+      "from": "Charmed",
+      "to": "Hechizado"
+    },
+    {
+      "entry": "phbsptBrave00000",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Frightened",
+      "to": "Aterrorizado",
+      "count": 1
+    },
+    {
+      "entry": "phbsptCelestialR",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Frightened",
+      "to": "Aterrorizado",
+      "count": 1
+    },
+    {
+      "entry": "phbsptCelestialR",
+      "field": "description",
+      "type": "plain_condition",
+      "from": "Frightened",
+      "to": "Aterrorizado"
+    },
+    {
+      "entry": "phbsptFeyAncestr",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Charmed",
+      "to": "Hechizado",
+      "count": 1
+    },
+    {
+      "entry": "phbsptGiantAnces",
+      "field": "description",
+      "type": "plain_condition",
+      "from": "Prone",
+      "to": "Derribado"
+    },
+    {
+      "entry": "phbsptHillsTumbl",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Prone",
+      "to": "Derribado",
+      "count": 1
+    },
+    {
+      "entry": "phbsptNaturallyS",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Hide",
+      "to": "Esconderse",
+      "count": 1
+    },
+    {
+      "entry": "phbsptPowerfulBu",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Grappled",
+      "to": "Agarrado",
+      "count": 1
+    },
+    {
+      "entry": "phbsptResistance",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Resistance",
+      "to": "Resistencia",
+      "count": 1
+    },
+    {
+      "entry": "phbsptStonecunni",
+      "field": "description",
+      "type": "reference_label",
+      "token": "Tremorsense",
+      "to": "Sentido sísmico",
+      "count": 1
+    },
+    {
+      "entry": "phbspWoodElf0000",
+      "field": "description",
+      "type": "plain_condition",
+      "from": "Charmed",
+      "to": "Hechizado"
+    }
+  ]
+}

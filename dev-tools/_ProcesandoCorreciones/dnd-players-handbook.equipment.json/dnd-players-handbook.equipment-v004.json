@@ -1,0 +1,3879 @@
+{
+  "label": "Equipo",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "phb2024ActivitiesById"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phb2024MergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phb2024AdvancementById"
+    }
+  },
+  "folders": {
+    "Adventuring Gear": "Equipo de aventura",
+    "Ammunition": "Munición",
+    "Arcane Focus": "Foco arcano",
+    "Armor": "Armaduras",
+    "Artisan": "Artesano",
+    "Druidic Focus": "Foco druídico",
+    "Gaming Set": "Juegos",
+    "Heavy": "Pesada",
+    "Holy Symbol": "Símbolo sagrado",
+    "Light": "Ligera",
+    "Martial Melee": "Marcial cuerpo a cuerpo",
+    "Martial Ranged": "Marcial a distancia",
+    "Medium": "Intermedia",
+    "Musical Instrument": "Instrumento musical",
+    "Other": "Otros",
+    "Simple Melee": "Simple cuerpo a cuerpo",
+    "Simple Ranged": "Simple a distancia",
+    "Spellcasting Focuses": "Focos de conjuro",
+    "Star Maps": "Mapas estelares",
+    "Tools": "Herramientas",
+    "Weapons": "Armas"
+  },
+  "entries": {
+    "1NwTdI5LHEH5WThq": {
+      "name": "Manta",
+      "folder": "Adventuring Gear",
+      "description": "<p>Mientras estés envuelto en una manta, tienes ventaja en las tiradas de salvación contra el frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "2nlARB78sJo8Z2W6": {
+      "name": "Agua (pinta)",
+      "folder": "Adventuring Gear",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "367bsHMaHI1II4k9": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "5KMKEV07I25SVth0": {
+      "name": "Cuerda",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado] o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "5tEPJK0TLcjPvPNF": {
+      "name": "Odre de agua",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "67ScUFYRuMU0J2Wt": {
+      "name": "Agua (pinta)",
+      "folder": "Adventuring Gear",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "6iF0YQeRdYJMfPd7": {
+      "name": "Estuche para mapas o pergaminos",
+      "folder": "Adventuring Gear",
+      "description": "<p>Este estuche cilíndrico de cuero puede contener hasta diez hojas de papel enrolladas o cinco hojas de pergamino enrolladas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "6SKwUOHlYMst7M2z": {
+      "name": "Raciones",
+      "folder": "Adventuring Gear",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "8dJcpxveaFEzjK5C": {
+      "name": "Aceite",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura u objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "ABjsMdpDnWlkjbMq": {
+      "name": "Saco de dormir",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "aWEY8Xh0wfn69Q1w": {
+      "name": "Agua (pinta)",
+      "folder": "Adventuring Gear",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "D0567EygDF0Akvux": {
+      "name": "Pergamino",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una hoja de pergamino puede contener unas 250 palabras escritas a mano.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "DKYzehYrMUKiFDxt": {
+      "name": "Linterna de capucha",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una linterna de capucha proyecta luz brillante en un radio de 30 pies y luz tenue otros 30 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite. Como acción, puedes bajar la capucha, reduciendo la luz a luz tenue en un radio de 5 pies.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "EGuDt2xpscYtalmV": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "Ekz3r0UKJ261oBJj": {
+      "name": "Lámpara",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "etKzfLUMWikSsi3R": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "GDF2kmAUO8B5UEEJ": {
+      "name": "Campana",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando se hace sonar como acción de Utilizar, una campana produce un sonido que puede oírse hasta a 60 pies de distancia.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "gHOs5HRZJdnUwfng": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "gYKSyS7STTresmnS": {
+      "name": "Antorcha",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
+      "activities": {
+        "SouNhSdWdnznKCam": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "I6wPnS0Z1qcpXjdL": {
+      "name": "Pergamino",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una hoja de pergamino puede contener unas 250 palabras escritas a mano.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "It6m0vGGZwCf9E7r": {
+      "name": "Agua (pinta)",
+      "folder": "Adventuring Gear",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "iYwrPPLmuVD9eqfa": {
+      "name": "Abrojos",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes esparcir abrojos desde su bolsa para cubrir un área de 5 pies cuadrados a 5 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 15 o recibe 1 punto de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. Recuperar los abrojos lleva 10 minutos.</p>",
+      "activities": {
+        "G8upRnZw22jGWKWy": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "HsbtDDdiWhk4d7WB": {
+          "name": "Ralentizado"
+        }
+      },
+      "advancement": {}
+    },
+    "jLcAY4Oph8ZEniG2": {
+      "name": "Toga o hábito",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una toga o hábito tiene un significado vocacional o ceremonial. Algunos eventos y lugares solo admiten a personas que visten una toga o hábito con ciertos colores o símbolos.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "JpE7eqjwXw95Sai5": {
+      "name": "Aceite",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "KbVt56CK4ud3FUk3": {
+      "name": "Bolas de rodamiento",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entre en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufrir la condición &amp;Reference[Derribado]. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recuperar bolas de rodamiento</strong> concede otro uso de este objeto.</p></section>",
+      "activities": {
+        "FCoYqKd4jqXjHFNN": {
+          "name": "Esparcir bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "IKk7iQcYsjxDfnmk": {
+          "name": "Recuperar bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "zW4roNKVL8HcoNwV": {
+          "name": "Tropezado"
+        }
+      },
+      "advancement": {}
+    },
+    "KH8g5hD7Q6ZX1YqV": {
+      "name": "Saco de dormir",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "KUlBAAjJ9KmOCSsC": {
+      "name": "Lámpara",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "KZUoiZrigDbovEu7": {
+      "name": "Linterna de ojo de buey",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una linterna de ojo de buey proyecta luz brillante en un cono de 60 pies y luz tenue en otros 60 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "LfDewuKszszreg6i": {
+      "name": "Cuerda",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "llmXULupnKVHUGuE": {
+      "name": "Raciones",
+      "folder": "Adventuring Gear",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "LuLBFWwxjbNKU9FF": {
+      "name": "Odre de agua",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "nFFc8hnpFeiIhQWa": {
+      "name": "Raciones",
+      "folder": "Adventuring Gear",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "NmDigoAOjCENDrea": {
+      "name": "Campana",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando se hace sonar como acción de Utilizar, una campana produce un sonido que puede oírse hasta a 60 pies de distancia.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "nshr9PBVyB03T7wB": {
+      "name": "Agua bendita",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de agua bendita. Elige una criatura que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre 2d8 puntos de daño radiante si es un diablo o un no muerto.</p>",
+      "activities": {
+        "ArV3jMOIvfj5c5y9": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "oQRUfRQQjsMMXJhD": {
+      "name": "Disfraz",
+      "folder": "Adventuring Gear",
+      "description": "<p>Mientras lleves un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcCrystal000": {
+      "name": "Cristal",
+      "folder": "Arcane Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcOrb0000000": {
+      "name": "Orbe",
+      "folder": "Arcane Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcRod0000000": {
+      "name": "Cetro",
+      "folder": "Arcane Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcStaffalsoa": {
+      "name": "Bastón",
+      "folder": "Arcane Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>",
+      "activities": {
+        "5c4fPKVW51b3Ri3j": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcWand000000": {
+      "name": "Varita",
+      "folder": "Arcane Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagAcid0000000": {
+      "name": "Ácido",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una redoma de ácido. Elige una criatura u objeto que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre 2d6 puntos de daño de ácido.</p>",
+      "activities": {
+        "PnWlLChqr5JsfCJC": {
+          "name": "Lanzar ácido",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagAlchemistsF": {
+      "name": "Fuego alquímico",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de fuego alquímico. Elige una criatura u objeto que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre [[/damage 1d4 type=fire]] puntos de daño de fuego y empieza &amp;Reference[burning].</p>",
+      "activities": {
+        "NVclbplLi9uFhKQE": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "HL12olRyPOCmmMQ5": {
+          "name": "Ardiendo",
+          "description": "<p>Referencia de reglas: &amp;Reference[burning].</p>"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagAmmunitionV": {
+      "name": "Munición (varía)",
+      "folder": "Ammunition",
+      "description": "<p>La munición es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza. La tabla de Munición muestra los distintos tipos y la cantidad que obtienes al comprarlos. La tabla también indica el objeto que se usa normalmente para almacenar cada tipo; el contenedor debe comprarse por separado.</p><table><caption>Munición</caption><thead><tr><td>Tipo</td><td>Cantidad</td><td>Almacenamiento</td><td>Peso</td><td>Coste</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}</td><td>1 lb.</td><td>1 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</td><td>1½ lb.</td><td>1 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas, arma de fuego}</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td><td>2 lb.</td><td>3 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balas, honda}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Agujas}</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td><td>1 lb.</td><td>1 po</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagAntitoxin00": {
+      "name": "Antitoxina",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción adicional, puedes beber una redoma de antitoxina para obtener ventaja en las tiradas de salvación para evitar o terminar la condición Envenenado durante 1 hora.</p>",
+      "activities": {
+        "2TNbDh0n59svuGIx": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "DzWVacNiq6ggXbU9": {
+          "name": "Antitoxina"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagArcaneFocus": {
+      "name": "Foco arcano (varía)",
+      "folder": "Spellcasting Focuses",
+      "description": "<p>Un foco arcano adopta una de las formas de la tabla de Focos arcanos y está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><table><caption>Focos arcanos</caption><thead><tr><td>Foco</td><td>Peso</td><td>Coste</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td><td>1 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td><td>3 lb.</td><td>20 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Vara}</td><td>2 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Bastón} (también un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td><td>4 lb.</td><td>5 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Varita}</td><td>1 lb.</td><td>10 po</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBackpack000": {
+      "name": "Mochila",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una mochila contiene hasta 30 libras en 1 pie cúbico. También puede servir como alforja.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBallBearing": {
+      "name": "Bolas de rodamiento",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes esparcir las bolas de rodamiento desde su bolsa. Se expanden para cubrir un área de suelo llano de 10 pies cuadrados a 10 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 10 o sufre la condición &amp;Reference[Derribado]. Recuperar las bolas de rodamiento lleva 10 minutos.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Recuperar bolas de rodamiento</strong> concede otro uso de este objeto.</p></section>",
+      "activities": {
+        "FCoYqKd4jqXjHFNN": {
+          "name": "Esparcir bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "IKk7iQcYsjxDfnmk": {
+          "name": "Recuperar bolas de rodamiento",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "zW4roNKVL8HcoNwV": {
+          "name": "Tropezado"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagBarrel00000": {
+      "name": "Barril",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un barril contiene hasta 40 galones de líquido o hasta 4 pies cúbicos de productos secos.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBasket00000": {
+      "name": "Cesta",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una cesta contiene hasta 40 libras en 2 pies cúbicos.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBedroll0000": {
+      "name": "Saco de dormir",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un saco de dormir da cabida a una criatura Pequeña o Mediana. Mientras estés en un saco de dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBell0000000": {
+      "name": "Campana",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando se hace sonar como acción de Utilizar, una campana produce un sonido que puede oírse hasta a 60 pies de distancia.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBlanket0000": {
+      "name": "Manta",
+      "folder": "Adventuring Gear",
+      "description": "<p>Mientras estés envuelto en una manta, tienes ventaja en las tiradas de salvación contra el frío extremo (consulta la <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBlockandTac": {
+      "name": "Polipasto",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un polipasto te permite izar hasta cuatro veces el peso que podrías levantar normalmente.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBook0000000": {
+      "name": "Libro",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un libro contiene ficción o no ficción. Si consultas un libro de no ficción preciso sobre su tema, obtienes un bonificador de +5 a las pruebas de Inteligencia (Arcanos, Historia, Naturaleza o Religión) que realices sobre ese tema.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBottleGlass": {
+      "name": "Botella de cristal",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una botella de cristal contiene hasta 1½ pintas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBucket00000": {
+      "name": "Cubo",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un cubo contiene hasta medio pie cúbico de contenido.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBurglarsPac": {
+      "name": "Pack de ladrón",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un pack de ladrón contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de rodamiento}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con caperuza}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de aceite}, 5 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCaltrops000": {
+      "name": "Abrojos",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes esparcir abrojos desde su bolsa para cubrir un área de 5 pies cuadrados a 5 pies de ti. Una criatura que entra en esta zona por primera vez en un turno debe superar una tirada de salvación de Destreza CD 15 o recibe 1 punto de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. Recuperar los abrojos lleva 10 minutos.</p>",
+      "activities": {
+        "G8upRnZw22jGWKWy": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "HsbtDDdiWhk4d7WB": {
+          "name": "Ralentizado"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagCandle00000": {
+      "name": "Vela",
+      "folder": "Adventuring Gear",
+      "description": "<p>Durante 1 hora, una vela encendida emite luz brillante en un radio de 5 pies y luz tenue en otros 5 pies adicionales.</p>",
+      "activities": {
+        "8kldn9CuzuAz7dVb": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCantripScro": {
+      "name": "Pergamino de conjuro, truco",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un <em>Pergamino de conjuro</em> (truco) o @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{Pergamino de conjuro (nivel 1)} es un objeto mágico que contiene las palabras de un truco o un conjuro de nivel 1, respectivamente, determinados por el creador del pergamino. Si el conjuro está en la lista de conjuros de tu clase, puedes leer el pergamino y lanzar el conjuro usando su tiempo de lanzamiento normal y sin proporcionar componentes materiales.</p><p>Si el conjuro requiere una tirada de salvación o de ataque, la CD de salvación del conjuro es 13 y el bonificador de ataque es +5. El pergamino se desintegra cuando se completa el lanzamiento.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCaseCrossbo": {
+      "name": "Estuche para virotes de ballesta",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un estuche para virotes de ballesta contiene hasta 20 virotes.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCaseMaporSc": {
+      "name": "Estuche para mapas o pergaminos",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un estuche para mapas o pergaminos contiene hasta 10 hojas de papel o 5 hojas de pergamino.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagChain000000": {
+      "name": "Cadena",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes envolver una cadena alrededor de una criatura no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado] si superas una tirada de Fuerza (Atletismo) CD 13. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cadena, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 18. Romper la cadena requiere superar una tirada de Fuerza (Atletismo) CD 20 como acción.</p>",
+      "activities": {
+        "9eioXCinYhuRDmOd": {
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Jg400eyFy9mMETQa": {
+          "name": "Prueba para romper cadena",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "nkqvEiPdXCyiJ9ub": {
+          "name": "Prueba para enlazar con cadena",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagChest000000": {
+      "name": "Cofre",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un cofre contiene hasta 12 pies cúbicos de contenido.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagClimbersKit": {
+      "name": "Equipo de escalada",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un equipo de escalada incluye puntas para botas, guantes, pitones y un arnés. Como acción de Utilizar, puedes usar el equipo de escalada para anclarte; cuando lo haces, no puedes caer más de 25 pies desde el punto de anclaje y no puedes moverte a más de 25 pies de allí sin deshacer el anclaje como acción adicional.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagClothesFine": {
+      "name": "Ropa fina",
+      "folder": "Adventuring Gear",
+      "description": "<p>La ropa fina está hecha de telas caras y adornada con detalles de gran calidad artesanal. Algunos eventos y lugares solo admiten a personas que vistan estas ropas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagClothesTrav": {
+      "name": "Ropa de viajero",
+      "folder": "Adventuring Gear",
+      "description": "<p>La ropa de viajero son prendas resistentes diseñadas para viajar en diversos entornos.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagComponentPo": {
+      "name": "Bolsa de componentes",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una bolsa de componentes es hermética y está llena de compartimentos que contienen todos los componentes materiales sin coste de tus conjuros.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCostume0000": {
+      "name": "Disfraz",
+      "folder": "Adventuring Gear",
+      "description": "<p>Mientras lleves un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCrowbar0000": {
+      "name": "Palanca",
+      "folder": "Adventuring Gear",
+      "description": "<p>Usar una palanca te otorga ventaja en las pruebas de Fuerza en las que se pueda aplicar la palanca.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagDiplomatsPa": {
+      "name": "Pack de diplomático",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un pack de diplomático contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa fina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Estuches para mapas o pergaminos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de aceite}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagDruidicFocu": {
+      "name": "Foco druídico (varios)",
+      "folder": "Spellcasting Focuses",
+      "description": "<p>Un foco druídico adopta una de las formas de la tabla de Focos druídicos y está tallado, atado con cintas o pintado para canalizar magia primigenia. Un druida o un guardabosques puede usar dicho objeto como foco de conjuro.</p><table><caption>Focos druídicos</caption><thead><tr><td>Foco</td><td>Peso</td><td>Coste</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Rama de muérdago}</td><td>—</td><td>1 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Bastón de madera} (también un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td><td>4 lb.</td><td>5 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Varita de tejo}</td><td>1 lb.</td><td>10 po</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagDungeoneers": {
+      "name": "Pack de mazmorrero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un pack de mazmorrero contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, 2 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagEntertainer": {
+      "name": "Pack de artista",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un pack de artista contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de ojo de buey}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraces}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, 8 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 9 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagExplorersPa": {
+      "name": "Pack de explorador",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un pack de explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, 2 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagFlask000000": {
+      "name": "Redoma",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una redoma contiene hasta 1 pinta.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagGrapplingHo": {
+      "name": "Garfio de escalada",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes lanzar el garfio de escalada hacia una barandilla, un saliente u otro punto donde pueda engancharse a 50 pies de ti, y el garfio se engancha si superas una tirada de Destreza (Acrobacias) CD 13. Si ataste una cuerda al garfio, después puedes trepar por ella.</p>",
+      "activities": {
+        "X7mlPFWw8g4zsAmB": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHealersKit0": {
+      "name": "Kit de curandero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un kit de curandero tiene diez usos. Como acción de Utilizar, puedes gastar uno de sus usos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).</p>",
+      "activities": {
+        "bsWqOT06BB3Vb2hg": {
+          "name": "Estabilizar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHolySymbolV": {
+      "name": "Símbolo sagrado (varios)",
+      "folder": "Spellcasting Focuses",
+      "description": "<p>Un símbolo sagrado adopta una de las formas de la tabla de Símbolos sagrados y está enjoyado o pintado para canalizar magia divina. Un clérigo o un paladín puede usar un símbolo sagrado como foco de conjuro.</p><p>La tabla indica si un símbolo sagrado debe sostenerse en la mano, llevarse puesto, o ir sobre tela (como un tabardo o un estandarte) o un escudo.</p><table><caption>Símbolos sagrados</caption><thead><tr><td>Símbolo</td><td>Peso</td><td>Coste</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amuleto} (llevado o sostenido)</td><td>1 lb.</td><td>5 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblema} (llevado sobre tela o en un escudo)</td><td>—</td><td>5 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Relicario} (sostenido)</td><td>2 lb.</td><td>5 po</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHolyWater00": {
+      "name": "Agua bendita",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de agua bendita. Elige una criatura que puedas ver a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o sufre 2d8 puntos de daño radiante si es un diablo o un no muerto.</p>",
+      "activities": {
+        "ArV3jMOIvfj5c5y9": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHuntingTrap": {
+      "name": "Trampa de caza",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes colocar una trampa de caza, que es un anillo de acero dentado que se cierra cuando una criatura pisa una placa de presión en el centro. La trampa está sujeta por una cadena pesada a un objeto inmóvil, como un árbol o una estaca clavada en el suelo. Una criatura que pisa la placa debe superar una tirada de salvación de Destreza CD 13 o sufre 1d4 puntos de daño perforante y ve su velocidad reducida a 0 hasta el inicio de su siguiente turno. A partir de entonces, hasta que la criatura se libere de la trampa, su movimiento queda limitado por la longitud de la cadena (normalmente 3 pies). Una criatura puede usar su acción para hacer una prueba de Fuerza (Atletismo) CD 13, liberándose a sí misma u otra criatura a su alcance si tiene éxito. Cada tirada fallida inflige [[/damage 1 type=piercing]] de daño a la criatura atrapada.</p>",
+      "activities": {
+        "JjJCLmn9qZmCzlxX": {
+          "name": "Escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "tIsE5Y5S9TjOTs9C": {
+          "name": "",
+          "activation": {
+            "condition": "Pisa la placa"
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "9jl46RZ5GOjs9QlJ": {
+          "name": "Atrapado"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagInk00000000": {
+      "name": "Tinta",
+      "folder": "Adventuring Gear",
+      "description": "<p>La tinta viene en un frasco de 1 onza, suficiente para escribir unas 500 páginas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagInkPen00000": {
+      "name": "Pluma",
+      "folder": "Adventuring Gear",
+      "description": "<p>Usando tinta, una pluma se utiliza para escribir o dibujar.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagJug00000000": {
+      "name": "Jarra",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una jarra contiene hasta 1 galón.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLadder00000": {
+      "name": "Escalera",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una escalera mide 10 pies de altura. Debes trepar para moverte hacia arriba o hacia abajo por ella.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLamp0000000": {
+      "name": "Lámpara",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLanternBull": {
+      "name": "Linterna de ojo de buey",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una linterna de ojo de buey quema aceite como combustible para proyectar luz brillante en un cono de 60 pies y luz tenue en otros 60 pies adicionales.</p>",
+      "activities": {
+        "YuK3Zl78vcfJq0Gd": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLanternHood": {
+      "name": "Linterna de capucha",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una linterna de capucha quema aceite como combustible para proyectar luz brillante en un radio de 30 pies y luz tenue en otros 30 pies adicionales. Como acción adicional, puedes bajar la capucha, reduciendo la luz a luz tenue en un radio de 5 pies, o volver a subirla.</p>",
+      "activities": {
+        "IU6trhDShBQzMABE": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLock0000000": {
+      "name": "Cerradura",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una cerradura viene con una llave. Sin la llave, una criatura puede usar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de ladrón} para forzar esta cerradura con una tirada [[/tool thief dex 15]] con éxito.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagMagnifyingG": {
+      "name": "Lupa",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una lupa otorga ventaja en cualquier prueba de característica realizada para tasar o inspeccionar un objeto muy detallado. Encender un fuego con una lupa requiere una luz tan brillante como la luz del sol para enfocarla, yesca que pueda arder y unos 5 minutos para que el fuego prenda.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagManacles000": {
+      "name": "Grilletes",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes usar grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado] si superas una tirada de Destreza (Juego de manos) CD 13. Mientras esté engrilletada, una criatura tiene desventaja en las tiradas de ataque, y queda restringida si los grilletes están sujetos a una cadena o gancho fijado en su sitio. Escapar de los grilletes requiere superar una tirada de Destreza (Juego de manos) CD 20 como acción. Romperlos requiere superar una tirada de Fuerza (Atletismo) CD 25 como acción.</p><p>Cada juego de grilletes incluye una llave. Sin la llave, una criatura puede usar Thieves’ Tools para forzar la cerradura de los grilletes con una tirada [[/tool thief dex 15]] con éxito.</p>",
+      "activities": {
+        "HStudlka63uekHM2": {
+          "name": "Prueba para romper",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "IpcLYRMUOUk7dKpE": {
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "LPW3NsIFCn3pYMjY": {
+          "name": "Atar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "hKJK8c3uwhFNdn5m": {
+          "name": "Engrilletado"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagMap00000000": {
+      "name": "Mapa",
+      "folder": "Adventuring Gear",
+      "description": "<p>Si consultas un mapa preciso, obtienes un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para orientarte en el lugar que representa.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagMirror00000": {
+      "name": "Espejo",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un espejo de acero de mano es útil para el cuidado personal, pero también para mirar a la vuelta de las esquinas y reflejar luz como señal.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagNet00000000": {
+      "name": "Red",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una red. Elige una criatura que puedas ver a 15 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o adquiere la condición &amp;Reference[Apresado] hasta que escape. El objetivo tiene éxito automáticamente si es enorme o mayor.</p><p>Para escapar, el objetivo o una criatura a 5 pies de él debe gastar una acción para hacer una prueba [[/skill ath 10]], liberando a la criatura restringida si tiene éxito. Destruir la red (CA 10; 5 PG; inmunidad al daño contundente, veneno y psíquico) también libera al objetivo y pone fin al efecto.</p>",
+      "activities": {
+        "3u15g2fvhp6MyN5O": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "67ofG0FVqrrkAHKa": {
+          "name": "Atrapado en red"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagOil00000000": {
+      "name": "Aceite",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPaper000000": {
+      "name": "Papel",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una hoja de papel puede contener unas 250 palabras escritas a mano.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagParchment00": {
+      "name": "Pergamino",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una hoja de pergamino puede contener unas 250 palabras escritas a mano.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPerfume0000": {
+      "name": "Perfume",
+      "folder": "Adventuring Gear",
+      "description": "<p>El perfume viene en un frasco de 4 onzas. Durante 1 hora después de aplicarte perfume, tienes ventaja en las tiradas de Carisma (Persuasión) realizadas para influir en un humanoide indiferente a 5 pies de ti.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPoisonBasic": {
+      "name": "Veneno, básico",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción adicional, puedes usar una redoma de veneno básico para recubrir un arma o hasta tres piezas de munición. Una criatura que reciba daño perforante o cortante del arma o la munición envenenada sufre 1d4 puntos de daño de veneno adicionales. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que inflige daño, lo que ocurra antes.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo incluye una tirada para el daño de veneno.</p></section>",
+      "activities": {
+        "KLsqFTXAS8fnlaYs": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPole0000000": {
+      "name": "Pértiga",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una pértiga mide 10 pies de longitud. Puedes usarla para tocar algo a hasta 10 pies de distancia. Si debes hacer una prueba de Fuerza (Atletismo) como parte de un salto de altura o de longitud, puedes usar la pértiga para impulsarte, obteniendo ventaja en la prueba.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPotionofHea": {
+      "name": "Poción de curación",
+      "folder": "Adventuring Gear",
+      "description": "<p>Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura a 5 pies de ti. La criatura que bebe el fluido rojo mágico de esta redoma recupera 2d4 + 2 puntos de golpe.</p>",
+      "activities": {
+        "cNvH4obx5XJ2myYr": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPotIron0000": {
+      "name": "Olla de hierro",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una olla de hierro contiene hasta 1 galón.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPouch000000": {
+      "name": "Bolsa",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una bolsa contiene hasta 6 libras en una quinta parte de un pie cúbico.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPriestsPack": {
+      "name": "Pack de sacerdote",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un pack de sacerdote contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Agua bendita}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 7 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Toga o hábito} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagQuiver00000": {
+      "name": "Carcaj",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un carcaj contiene hasta 20 flechas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRamPortable": {
+      "name": "Ariete portátil",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes usar un ariete portátil para derribar puertas. Al hacerlo, obtienes un bonificador de +4 a la tirada de Fuerza. Otro personaje puede ayudarte a usar el ariete, dándote ventaja en esta tirada.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRations0000": {
+      "name": "Raciones",
+      "folder": "Adventuring Gear",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRobe0000000": {
+      "name": "Toga o hábito",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una toga o hábito tiene un significado vocacional o ceremonial. Algunos eventos y lugares solo admiten a personas que visten una toga o hábito con ciertos colores o símbolos.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRope0000000": {
+      "name": "Cuerda",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSack0000000": {
+      "name": "Saco",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un saco contiene hasta 30 libras en 1 pie cúbico.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagScholarsPac": {
+      "name": "Pack de erudito",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un pack de erudito contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 10 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagShovel00000": {
+      "name": "Pala",
+      "folder": "Adventuring Gear",
+      "description": "<p>Trabajando durante 1 hora, puedes usar una pala para cavar un agujero de 5 pies de lado en tierra o material similar.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSignalWhist": {
+      "name": "Silbato de señales",
+      "folder": "Adventuring Gear",
+      "description": "<p>Cuando se hace sonar como acción de Utilizar, un silbato de señales produce un sonido que puede oírse hasta a 600 pies de distancia.</p>",
+      "activities": {
+        "xBb5IRSNGtnimaeF": {
+          "name": "Silbar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSpellScroll": {
+      "name": "Pergamino de conjuro, nivel 1",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{Pergamino de conjuro (truco)} o <em>Pergamino de conjuro</em> (nivel 1) es un objeto mágico que contiene las palabras de un truco o de un conjuro de nivel 1, respectivamente, determinados por el creador del pergamino. Si el conjuro está en la lista de conjuros de tu clase, puedes leer el pergamino y lanzar el conjuro usando su tiempo de lanzamiento normal y sin proporcionar componentes materiales.</p><p>Si el conjuro requiere una tirada de salvación o de ataque, la CD de salvación del conjuro es 13 y el bonificador de ataque es +5. El pergamino se desintegra cuando se completa el lanzamiento.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSpikesIron0": {
+      "name": "Picos de hierro",
+      "folder": "Adventuring Gear",
+      "description": "<p>Los picos de hierro se venden en paquetes de diez. Como acción de Utilizar, puedes usar un objeto contundente, como un martillo ligero, para clavar un pico en madera, tierra o material similar. Puedes hacerlo para trabar una puerta o para atar después una cuerda o cadena al pico.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSpyglass100": {
+      "name": "Catalejo",
+      "folder": "Adventuring Gear",
+      "description": "<p>Los objetos vistos a través de un catalejo se ven ampliados al doble de su tamaño.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagString00000": {
+      "name": "Cuerda",
+      "folder": "Adventuring Gear",
+      "description": "<p>La cuerda mide 10 pies de longitud. Puedes atar un nudo en ella como acción de Utilizar.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagTent0000000": {
+      "name": "Tienda de campaña",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una tienda de campaña da cobijo hasta a dos criaturas Pequeñas o Medianas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagTinderbox00": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagTorch000000": {
+      "name": "Antorcha",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
+      "activities": {
+        "SouNhSdWdnznKCam": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagVial0000000": {
+      "name": "Frasco",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un frasco contiene hasta 4 onzas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagWaterskin00": {
+      "name": "Odre de agua",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoArrows0000": {
+      "name": "Flechas",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza. La tabla de Munición muestra los distintos tipos y la cantidad que obtienes al comprarlos. La tabla también indica el objeto que se usa normalmente para almacenar cada tipo; el contenedor debe comprarse por separado.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoBolts00000": {
+      "name": "Virotes",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza. La tabla de Munición muestra los distintos tipos y la cantidad que obtienes al comprarlos. La tabla también indica el objeto que se usa normalmente para almacenar cada tipo; el contenedor debe comprarse por separado.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoBulletsFir": {
+      "name": "Balas, arma de fuego",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza. La tabla de Munición muestra los distintos tipos y la cantidad que obtienes al comprarlos. La tabla también indica el objeto que se usa normalmente para almacenar cada tipo; el contenedor debe comprarse por separado.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoBulletsSli": {
+      "name": "Balas, honda",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza. La tabla de Munición muestra los distintos tipos y la cantidad que obtienes al comprarlos. La tabla también indica el objeto que se usa normalmente para almacenar cada tipo; el contenedor debe comprarse por separado.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoNeedles000": {
+      "name": "Agujas",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza. La tabla de Munición muestra los distintos tipos y la cantidad que obtienes al comprarlos. La tabla también indica el objeto que se usa normalmente para almacenar cada tipo; el contenedor debe comprarse por separado.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmBreastplat": {
+      "name": "Peto",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmChainMail0": {
+      "name": "Cota de mallas",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmChainShirt": {
+      "name": "Camisa de mallas",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmHalfPlateA": {
+      "name": "Armadura de media placa",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmHideArmor0": {
+      "name": "Armadura de pieles",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmLeatherArm": {
+      "name": "Armadura de cuero",
+      "folder": "Light",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmPaddedArmo": {
+      "name": "Armadura acolchada",
+      "folder": "Light",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmPlateArmor": {
+      "name": "Armadura de placas",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmRingMail00": {
+      "name": "Cota de anillas",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmScaleMail0": {
+      "name": "Cota de escamas",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmShield0000": {
+      "name": "Escudo",
+      "folder": "Armor",
+      "description": "<p>Solo obtienes el beneficio a la Clase de Armadura de un escudo si tienes competencia con él.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmSplintArmo": {
+      "name": "Armadura segmentada",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmStuddedLea": {
+      "name": "Armadura de cuero tachonado",
+      "folder": "Light",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbdfcSprigofmis": {
+      "name": "Ramito de muérdago",
+      "folder": "Druidic Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco druídico} adopta una de las formas de la tabla de focos druídicos y está tallado, atado con cintas o pintado para canalizar magia primigenia. Un druida o un guardabosques puede usar dicho objeto como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbdfcWoodenstaf": {
+      "name": "Bastón de madera",
+      "folder": "Druidic Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco druídico} adopta una de las formas de la tabla de focos druídicos y está tallado, atado con cintas o pintado para canalizar magia primigenia. Un druida o un guardabosques puede usar dicho objeto como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>",
+      "activities": {
+        "8F63re0OqRLG0LzQ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbdfcYewwand000": {
+      "name": "Varita de tejo",
+      "folder": "Druidic Focus",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco druídico} adopta una de las formas de la tabla de focos druídicos y está tallado, atado con cintas o pintado para canalizar magia primigenia. Un druida o un guardabosques puede usar dicho objeto como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstDice000000": {
+      "name": "Dados",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
+      "activities": {
+        "snf3qwCBELlFasdZ": {
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Xa5CnT6vqjbhgSpN": {
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstDragonches": {
+      "name": "Ajedrez dracónico",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
+      "activities": {
+        "HVVXAdVmahZwMWmn": {
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "NDaV33ElahCIeFGJ": {
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstPlayingcar": {
+      "name": "Cartas de juego",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
+      "activities": {
+        "el0b7gglRR0etmB0": {
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "X7yHLXqHjM0kC0Jw": {
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstThreedrago": {
+      "name": "Three-Dragon Ante",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir si alguien está haciendo trampas (CD 10) o ganar la partida (CD 20)</p>",
+      "activities": {
+        "EbM17Ylyo84xBjwb": {
+          "name": "Detectar trampas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "gUPVf8vkBC1YlPN0": {
+          "name": "Jugar para ganar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbhsyAmuletworn": {
+      "name": "Amuleto",
+      "folder": "Holy Symbol",
+      "description": "<p><em><strong>Requisito de uso: </strong>Llevado puesto o en la mano</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo sagrado} adopta una de las formas de la tabla de símbolos sagrados y está enjoyado o pintado para canalizar magia divina. Un clérigo o un paladín puede usar un símbolo sagrado como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbhsyEmblemborn": {
+      "name": "Emblema",
+      "folder": "Holy Symbol",
+      "description": "<p><em><strong>Requisito de uso: </strong>Sobre tela o en un escudo</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo sagrado} adopta una de las formas de la tabla de símbolos sagrados y está enjoyado o pintado para canalizar magia divina. Un clérigo o un paladín puede usar un símbolo sagrado como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbhsyReliquaryh": {
+      "name": "Relicario",
+      "folder": "Holy Symbol",
+      "description": "<p><em><strong>Requisito de uso: </strong>En la mano</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo sagrado} adopta una de las formas de la tabla de símbolos sagrados y está enjoyado o pintado para canalizar magia divina. Un clérigo o un paladín puede usar un símbolo sagrado como foco de conjuro.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbImprovisedWea": {
+      "name": "Arma improvisada",
+      "folder": "Weapons",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>",
+      "activities": {
+        "3N1e1qi6ahj2wveE": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusBagpipes00": {
+      "name": "Gaita",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "CC7piQjkR6p4CI1N": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "CJszIKH8JldMrgx8": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusDrum000000": {
+      "name": "Tambor",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "Gp0oZApy9ygRjom3": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "LqgwTSdc7UQxSuRf": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusDulcimer00": {
+      "name": "Dulcémele",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "4Kdc4kFSmsrhoBiB": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Kb811duGqW9XeVfD": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusFlute00000": {
+      "name": "Flauta",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "BJ2uJJ9CHUFOLnei": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "uOwGcYrrpv2U4tNt": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusHorn000000": {
+      "name": "Cuerno",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "8k3LD7TVIH6vvzi7": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "ijMZxlEipxTbukhT": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusLute000000": {
+      "name": "Laúd",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "SDxZp9JVBHGgAQUU": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "zlDJ7Llgwkqp2J9N": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusLyre000000": {
+      "name": "Lira",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "cSIpON2kKXcoCe1T": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "d6eRHAV6fceuC5FN": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusPanflute00": {
+      "name": "Flauta de Pan",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "7p2XS89osRnThY69": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "geguSdrqAMj6NlWb": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusShawm00000": {
+      "name": "Chirimía",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "3snlGseDtpUO13gU": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "ZWWjpnZKCCyH9e6P": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusViol000000": {
+      "name": "Viola",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)</p>",
+      "activities": {
+        "75CpViXTZBViOpNm": {
+          "name": "Tocar una melodía conocida",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Js5Arad9LXLyzU4s": {
+          "name": "Improvisar una canción",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapBoundI": {
+      "name": "Atlas encuadernado en ébano",
+      "folder": "Star Maps",
+      "description": "<p>Una colección de mapas encuadernados en una cubierta de ébano que puede usarse como foco de conjuro por los druidas del Círculo de las Estrellas. Es un objeto minúsculo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapCrysta": {
+      "name": "Cristal grabado",
+      "folder": "Star Maps",
+      "description": "<p>Un cristal grabado con motivos estelares que puede usarse como foco de conjuro por los druidas del Círculo de las Estrellas. Es un objeto minúsculo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapGlassD": {
+      "name": "Disco de cristal grabado",
+      "folder": "Star Maps",
+      "description": "<p>Un disco de cristal grabado con constelaciones que puede usarse como foco de conjuro por los druidas del Círculo de las Estrellas. Es un objeto minúsculo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapOwlbea": {
+      "name": "Piel de oso-lechuza repujada",
+      "folder": "Star Maps",
+      "description": "<p>Una piel de oso-lechuza repujada con símbolos estelares que puede usarse como foco de conjuro por los druidas del Círculo de las Estrellas. Es un objeto minúsculo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapScroll": {
+      "name": "Pergamino de constelaciones",
+      "folder": "Star Maps",
+      "description": "<p>Un pergamino con representaciones de constelaciones que puede usarse como foco de conjuro por los druidas del Círculo de las Estrellas. Es un objeto minúsculo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapStoneT": {
+      "name": "Tableta de piedra",
+      "folder": "Star Maps",
+      "description": "<p>Una tableta de piedra con finos orificios perforados que puede usarse como foco de conjuro por los druidas del Círculo de las Estrellas. Es un objeto minúsculo.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulAlchemists": {
+      "name": "Suministros de alquimista",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (CD 15) o encender un fuego (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Ácido}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Fuego de alquimista}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Bolsa de componentes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>",
+      "activities": {
+        "3tr6iV1buoI6GB27": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulBrewersSup": {
+      "name": "Suministros de cervecero",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar bebida envenenada (CD 15) o identificar alcohol (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}</p>",
+      "activities": {
+        "0jzVWvMqR981vABJ": {
+          "name": "Identificar alcohol",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "3OFmxXtcOkeG70rl": {
+          "name": "Detectar bebida envenenada",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCalligraph": {
+      "name": "Útiles de caligrafía",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto con adornos llamativos que dificultan su falsificación (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, <em>Pergamino de conjuro</em></p>",
+      "activities": {
+        "PVMIlNQvLAyrF4kP": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCarpenters": {
+      "name": "Herramientas de carpintero",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o forzar una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Gran garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barrel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pértiga}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Ariete portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>",
+      "activities": {
+        "FA1LisaMRSw353K6": {
+          "name": "Sellar o forzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCartograph": {
+      "name": "Herramientas de cartógrafo",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar un mapa de un área pequeña (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Mapa}</p>",
+      "activities": {
+        "Q3W6zdSkQt4HEpX8": {
+          "name": "Trazar un mapa",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCobblersTo": {
+      "name": "Herramientas de zapatero",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Modificar calzado para otorgar ventaja en la siguiente prueba de Destreza (Acrobacias) del portador (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Equipo de escalada}</p>",
+      "activities": {
+        "dnvBdyoNniSVN9Ky": {
+          "name": "Modificar calzado",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCooksUtens": {
+      "name": "Utensilios de cocina",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Mejorar el sabor de la comida (CD 10) o detectar comida estropeada o envenenada (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}</p>",
+      "activities": {
+        "CxQN6WZyRt5IGrNj": {
+          "name": "Mejorar sabor",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "XpIVwyE6VhHNBoae": {
+          "name": "Detectar comida estropeada o envenenada",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulDisguiseKi": {
+      "name": "Kit de disfraz",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Aplicar maquillaje (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz}</p>",
+      "activities": {
+        "SgFQStIx3w0ADo05": {
+          "name": "Aplicar maquillaje",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulForgeryKit": {
+      "name": "Kit de falsificación",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Imitar 10 palabras o menos de la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)</p>",
+      "activities": {
+        "HcOxYMy4gmRHLJiF": {
+          "name": "Duplicar sello de cera",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rIanv5IgN2QhpKSK": {
+          "name": "Imitar caligrafía",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulGlassblowe": {
+      "name": "Herramientas de soplador de vidrio",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Determinar qué ha contenido un objeto de vidrio en las últimas 24 horas (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Botella de cristal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Catalejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Frasco}</p>",
+      "activities": {
+        "Ah1G0WFrQCrH8Ct4": {
+          "name": "Determinar contenido previo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulHerbalismK": {
+      "name": "Kit de herboristería",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una planta (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Vela}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Kit de curandero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Poción de curación}</p>",
+      "activities": {
+        "EEn8IAiinlOlAluN": {
+          "name": "Identificar planta",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulJewelersTo": {
+      "name": "Herramientas de joyero",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Determinar el valor de una gema (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> Foco arcano, símbolo sagrado</p>",
+      "activities": {
+        "ghdkI4seBn7XykXx": {
+          "name": "Determinar valor",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulLeatherwor": {
+      "name": "Herramientas de curtidor",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Añadir un diseño a un objeto de cuero (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Honda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Látigo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Armadura de pieles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armadura de cuero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Armadura de cuero tachonado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Estuche para virotes de ballesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuche para mapas o pergaminos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}</p>",
+      "activities": {
+        "9GMvXIRK14ghlLel": {
+          "name": "Añadir diseño",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulMasonsTool": {
+      "name": "Herramientas de cantero",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Cincelar un símbolo o un agujero en piedra (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Aparejo de poleas}</p>",
+      "activities": {
+        "fEjYUIHLH9OahqE8": {
+          "name": "Cincelar un símbolo o un agujero",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulNavigators": {
+      "name": "Herramientas de navegante",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar una ruta (CD 10) o determinar la posición guiándose por las estrellas (CD 15)</p>",
+      "activities": {
+        "tbXPqxy6Ukm9WnSs": {
+          "name": "Trazar una ruta",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "TPOgnShxoZdAsFXc": {
+          "name": "Determinar posición guiándose por las estrellas",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulPaintersSu": {
+      "name": "Útiles de pintor",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Pintar una imagen reconocible de algo que hayas visto (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> Foco druídico, símbolo sagrado</p>",
+      "activities": {
+        "Zy0IXp9aMcAicN4l": {
+          "name": "Pintar una imagen reconocible",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulPoisonersK": {
+      "name": "Kit de venenos",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar un objeto envenenado (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Veneno, básico}</p>",
+      "activities": {
+        "LLPutFBLFtMUNR0H": {
+          "name": "Detectar objeto envenenado",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulPottersToo": {
+      "name": "Herramientas de alfarero",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia <strong>Peso:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Determinar qué ha contenido un objeto de cerámica en las últimas 24 horas (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jarra}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}</p>",
+      "activities": {
+        "Wf4qq2yDYECwuUBG": {
+          "name": "Determinar contenido previo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulSmithsTool": {
+      "name": "Herramientas de herrero",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar la apertura de una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> Cualquier arma cuerpo a cuerpo (excepto garrote, gran garrote, bastón y látigo), armadura media (excepto pieles), armadura pesada, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de rodamiento}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Cubo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Cadena}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas de arma de fuego}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Garfio}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Pitones de hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balas de honda}</p>",
+      "activities": {
+        "NkpANzY0LKUz2Vm0": {
+          "name": "Forzar apertura",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulThievesToo": {
+      "name": "Herramientas de ladrón",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una cerradura (CD 15) o desarmar una trampa (CD 15)</p>",
+      "activities": {
+        "4pIHxWxCdaF3Ieok": {
+          "name": "Forzar cerradura/desactivar trampa",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulTinkersToo": {
+      "name": "Herramientas de manitas",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Ensamblar un objeto minúsculo hecho de chatarra, que se deshace en 1 minuto (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Mosquete}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistola}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de ojo de buey}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Redoma}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con caperuza}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Trampa de caza}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Cerradura}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Grilletes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pala}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Silbato de señales}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}</p>",
+      "activities": {
+        "JSVBIHDQAhgJf1jV": {
+          "name": "Ensamblar un objeto minúsculo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulWeaversToo": {
+      "name": "Herramientas de tejedor",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Remendar un desgarro en la ropa (CD 10) o coser un diseño minúsculo (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Armadura acolchada}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Cesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropa fina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Red}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Toga o hábito}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Saco}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{Cordel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tienda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Ropa de viajero}</p>",
+      "activities": {
+        "UccmCl9KzcTB4zGS": {
+          "name": "Remendar o coser",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulWoodcarver": {
+      "name": "Herramientas de tallador de madera",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tallar un motivo en madera (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Gran garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, Armas a distancia (excepto pistola, mosquete y honda), foco arcano, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}, Foco druídico, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Agujas}</p>",
+      "activities": {
+        "BUtZN2MAxVTxHX0S": {
+          "name": "Tallar un motivo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbUnarmedStrike": {
+      "name": "Ataque sin armas",
+      "folder": "Weapons",
+      "description": "<p><em>Consulta: &amp;Reference[unarmedstrike]</em></p>",
+      "activities": {
+        "X96HnXRaVti0SXqJ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Z288a0QXgaNbdZmP": {
+          "name": "Agarrar/empujar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": "Intento de agarrar o empujar"
+          }
+        }
+      },
+      "effects": {
+        "bdG1d6kwc7F8Gbfg": {
+          "name": "Agarrado"
+        },
+        "SfM8X3xktY0PR0Kz": {
+          "name": "Derribado"
+        }
+      },
+      "advancement": {}
+    },
+    "phbWaterpint0000": {
+      "name": "Agua (pinta)",
+      "folder": "Adventuring Gear",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepBattleaxe0": {
+      "name": "Hacha de batalla",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "WkTYphqhrW8RuuUm": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepBlowgun000": {
+      "name": "Cerbatana",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "EXxkQF1AZxrd6c7A": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepClub000000": {
+      "name": "Garrote",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "tFtnW9SGsqxilkl5": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepDagger0000": {
+      "name": "Daga",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "3SJSAL3pv9gKkAM9": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepDart000000": {
+      "name": "Dardo",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "HXmVf11fhJVaDGRU": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepFlail00000": {
+      "name": "Mangual",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "9fA3ExXYUl4EvWHA": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGlaive0000": {
+      "name": "Guja",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "oz5daQHA5CwlHyhA": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGreataxe00": {
+      "name": "Gran hacha",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "ylhYxAHaTmE2223j": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGreatclub0": {
+      "name": "Gran garrote",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "amG8qOS4NKpbj2hY": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGreatsword": {
+      "name": "Espadón",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "zi3BW6RGO2ugOyXu": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHalberd000": {
+      "name": "Alabarda",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "ToaPTz56SpDo69SZ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHandaxe000": {
+      "name": "Hacha de mano",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "rkjuC3ZV4s9UpD0i": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHandCrossb": {
+      "name": "Ballesta de mano",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "CJjRI7JX8tziGFSo": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHeavyCross": {
+      "name": "Ballesta pesada",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "bZgdThKc69XEv43i": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepJavelin000": {
+      "name": "Jabalina",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "r1hUkUrLD8kqx8X0": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLance00000": {
+      "name": "Lanza de caballería",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "Fxtsz7mTZxBoZWRF": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLightCross": {
+      "name": "Ballesta ligera",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "UYlAFnNzdcc3L81u": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLightHamme": {
+      "name": "Martillo ligero",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "FHmD55OJjrFoBkHr": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLongbow000": {
+      "name": "Arco largo",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "b04WToYLVtgE03Dm": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLongsword0": {
+      "name": "Espada larga",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "BFZXotvvF4YaAKeT": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMace000000": {
+      "name": "Maza",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "KiHlb6kIDAvWmnhv": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMaul000000": {
+      "name": "Mazo",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "wVGKly5R472acaHj": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMorningsta": {
+      "name": "Lucero del alba",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "QIpweawAzbt4xw5h": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMusket0000": {
+      "name": "Mosquete",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "iNq67ySHyNX4jmSQ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepPike000000": {
+      "name": "Pica",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "HjEJjclqCeGjAymL": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepPistol0000": {
+      "name": "Pistola",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "Zyg4dqUmd4VkNdov": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepQuartersta": {
+      "name": "Bastón",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "XYVC9JOYrtFlLA1k": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepRapier0000": {
+      "name": "Estoque",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "0PGNisis4CVkSml5": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepScimitar00": {
+      "name": "Cimitarra",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "YOx3cikY6oPu6Ojh": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepShortbow00": {
+      "name": "Arco corto",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "XTpNEcni4iwfmaeA": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepShortsword": {
+      "name": "Espada corta",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "42jdrHDfDRCcYeL4": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepSickle0000": {
+      "name": "Hoz",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "ApQ85BtlIJDElLuu": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepSling00000": {
+      "name": "Honda",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "pJCR6dF3xxKAupNv": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepSpear00000": {
+      "name": "Lanza",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "HiR3FA2Uc0oOAHU9": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepTrident000": {
+      "name": "Tridente",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "qezzwsHRqu4rtKVW": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepWarhammer0": {
+      "name": "Martillo de guerra",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "jf99rIxqlwX1YLPc": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepWarPick000": {
+      "name": "Pico de guerra",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "aTON7UZlIvfSwpY8": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepWhip000000": {
+      "name": "Látigo",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "VC8ZaoZ7An8WUFf6": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phiPN9UzkXk3i5xh": {
+      "name": "Libro",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un libro contiene obras de ficción o de no ficción. Si consultas un libro de no ficción fiable sobre un tema, obtienes un bonificador de +5 a las tiradas de Inteligencia (Arcana, Historia, Naturaleza o Religión) que hagas sobre ese tema.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "pjxpIVbJEfOvM240": {
+      "name": "Ropas finas",
+      "folder": "Adventuring Gear",
+      "description": "<p>Conjunto de ropas diseñado específicamente para ser caro y que se note.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "PKHfz87DirOHUBHn": {
+      "name": "Antorcha",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una antorcha arde durante 1 hora, proyectando luz brillante en un radio de 20 pies y luz tenue en otros 20 pies adicionales. Cuando realizas la acción de Ataque, puedes atacar con la antorcha, utilizándola como un arma simple de combate cuerpo a cuerpo. Si impactas, el objetivo sufre 1 punto de daño de fuego.</p>",
+      "activities": {
+        "SouNhSdWdnznKCam": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "q6nVEb4XnTWxqA81": {
+      "name": "Aceite",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes rociar con aceite a una criatura, objeto o espacio, o usarlo como combustible, como se detalla a continuación.</p><p><strong>Rociar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes sustituir uno de tus ataques por lanzar un frasco de aceite. Elige una criatura u objeto a 20 pies o menos de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedar cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre [[/damage 5 type=fire]] puntos de daño adicionales por el aceite en llamas.</p><p><strong>Rociar un espacio.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área de 5 pies cuadrados a 5 pies o menos de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haberse encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine allí su turno. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Rociar área",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "Qgekp4euuB5S9tpe": {
+      "name": "Agua (pinta)",
+      "folder": "Adventuring Gear",
+      "description": "<p>Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consumir",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "QjcMSfmrMwjPoWKn": {
+      "name": "Palanca",
+      "folder": "Adventuring Gear",
+      "description": "<p>Usar una palanca te otorga ventaja en las pruebas de Fuerza en las que pueda aplicarse la palanca.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "rIuY5ZDJh6ctfUwG": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que guarda pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se utiliza para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "RqrWyXa9XkriaxTP": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "rvz6gQc3OcOMgIQz": {
+      "name": "Palanca",
+      "folder": "Adventuring Gear",
+      "description": "<p>Usar una palanca te da ventaja en las pruebas de Fuerza en las que pueda aprovecharse el efecto de palanca.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "rwITntQ6OAy0neX8": {
+      "name": "Aceite",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes rociar con aceite a una criatura, objeto o espacio, o usarlo como combustible, como se detalla a continuación.</p><p><strong>Rociar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes sustituir uno de tus ataques por lanzar un frasco de aceite. Elige una criatura u objeto a 20 pies o menos de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedar cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre [[/damage 5 type=fire]] puntos de daño adicionales por el aceite en llamas.</p><p><strong>Rociar un espacio.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área de 5 pies cuadrados a 5 pies o menos de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haberse encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine allí su turno. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Rociar área",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "rZATMqE6y9uD3uzz": {
+      "name": "Papel",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una hoja de papel puede contener unas 250 palabras manuscritas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "SKDkrz7KSUIfOnHE": {
+      "name": "Estuche para mapas o pergaminos",
+      "folder": "Adventuring Gear",
+      "description": "<p>Este estuche cilíndrico de cuero puede contener hasta diez hojas de papel enrolladas o cinco hojas de pergamino enrolladas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "SMj5QHHkDCdvkx35": {
+      "name": "Lámpara",
+      "folder": "Adventuring Gear",
+      "description": "<p>Una lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para proyectar luz brillante en un radio de 15 pies y luz tenue en otros 30 pies adicionales.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "SoNpADeVEx2DDZgB": {
+      "name": "Espejo",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un espejo de acero de mano es útil para el cuidado personal, pero también para mirar a la vuelta de las esquinas y reflejar luz como señal.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "ts2DfyhdfsR092Td": {
+      "name": "Vela",
+      "folder": "Adventuring Gear",
+      "description": "<p>Durante 1 hora, una vela encendida emite luz brillante en un radio de 5 pies y luz tenue en otros 5 pies adicionales.</p>",
+      "activities": {
+        "8kldn9CuzuAz7dVb": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "uBvsyY44RP4LJLzp": {
+      "name": "Pluma de tinta",
+      "folder": "Adventuring Gear",
+      "description": "<p>Usando tinta, una pluma de tinta se utiliza para escribir o dibujar.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "UEH4xJlj50S9ztbH": {
+      "name": "Tinta",
+      "folder": "Adventuring Gear",
+      "description": "<p>La tinta viene en un frasco de 1 onza, suficiente para escribir unas 500 páginas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "UOiM3icOTVhR3llN": {
+      "name": "Odre de agua",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "UPfmTzNgqi9QblZR": {
+      "name": "Raciones",
+      "folder": "Adventuring Gear",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "Ur2LYFqSdOgeWWF0": {
+      "name": "Aceite",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "VczW1tStT5y7No3b": {
+      "name": "Aceite",
+      "folder": "Adventuring Gear",
+      "description": "<p>Puedes empapar a una criatura, objeto o zona con aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una criatura u objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de aceite. Elige una criatura o un objeto a 20 pies de ti. El objetivo debe superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu bonificador de competencia) o quedará cubierto de aceite. Si el objetivo recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), sufre un daño adicional de [[/damage 5 type=fire]] por el aceite en llamas.</p><p><strong>Empapar una zona.</strong> Puedes usar la acción de Utilizar para verter un frasco de aceite sobre el suelo llano y cubrir un área cuadrada de 5 pies de lado a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de haber sido encendido (o 12 segundos) y causa 5 puntos de daño de fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve como combustible para lámparas y linternas. Una vez encendido, un frasco de aceite arde durante 6 horas en una lámpara o linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el aceite encendido (como acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Lanzar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Empapar zona",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "vi0j4PYnO596a2L1": {
+      "name": "Tinta",
+      "folder": "Adventuring Gear",
+      "description": "<p>La tinta se vende en frascos de 1 onza, que proporcionan suficiente tinta para escribir unas 500 páginas.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "X5XgogJLLydoKdrJ": {
+      "name": "Odre de agua",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un odre contiene hasta 4 pintas. Si no bebes suficiente agua, te arriesgas a &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "x8jC9e00t4cUYiKR": {
+      "name": "Cuerda",
+      "folder": "Adventuring Gear",
+      "description": "<p>Como acción de Utilizar, puedes atar un nudo con la cuerda si superas una tirada de Destreza (Juego de manos) CD 10. La cuerda puede romperse si se supera una tirada de Fuerza (Atletismo) CD 20.</p><p>Solo puedes atar a una criatura no dispuesta con la cuerda si la criatura tiene la condición &amp;Reference[Agarrado], &amp;Reference[Incapacitado], o &amp;Reference[Apresado]. Si las piernas de la criatura están atadas, la criatura queda restringida hasta que escape. Para escapar de la cuerda, la criatura debe, como acción, superar una tirada de Destreza (Acrobacias) CD 15.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Tirada para escapar",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Romper cuerda",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Atar nudo",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "x9BzTUcsOj6K6OJE": {
+      "name": "Pluma de tinta",
+      "folder": "Adventuring Gear",
+      "description": "<p>Usando tinta, una pluma de tinta se utiliza para escribir o dibujar.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "xP6OWuEaxQbDUfJV": {
+      "name": "Raciones",
+      "folder": "Adventuring Gear",
+      "description": "<p>Las raciones consisten en comida preparada para viajar, incluyendo cecina, fruta seca, galletas duras y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "YAXBQxHMEtJx6OuQ": {
+      "name": "Yesquero",
+      "folder": "Adventuring Gear",
+      "description": "<p>Un yesquero es un pequeño contenedor que contiene pedernal, una pieza de acero y yesca (normalmente un paño seco empapado en aceite ligero) que se usan para encender un fuego. Usarlo para encender una vela, lámpara, linterna o antorcha —o cualquier otra cosa con combustible expuesto— requiere una acción adicional. Encender cualquier otro fuego lleva 1 minuto.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Encender",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "yoRKNd2QddQp1XuX": {
+      "name": "Perfume",
+      "folder": "Adventuring Gear",
+      "description": "<p>El perfume viene en un vial de 4 onzas. Durante 1 hora tras aplicarte perfume, tienes ventaja en las pruebas de Carisma (Persuasión) hechas para influir en un humanoide indiferente que se encuentre a 5 pies o menos de ti.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    }
+  }
+}

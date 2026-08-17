@@ -1,0 +1,33 @@
+{
+  "source": "dnd-players-handbook.origins-v001.json",
+  "output": "dnd-players-handbook.origins-v002.json",
+  "entries_modified": 22,
+  "uuid_labels_corrected": 29,
+  "plain_text_replacements": 2,
+  "advancement_hints_corrected": 3,
+  "changed_entries": {
+    "phbbgAcolyte0000": "Acólito",
+    "phbbgArtisan0000": "Artesano",
+    "phbbgCharlatan00": "Taimador",
+    "phbbgCriminal000": "Criminal",
+    "phbbgEntertainer": "Artista",
+    "phbbgGuard000000": "Guardia",
+    "phbbgGuide000000": "Guía",
+    "phbbgMerchant000": "Mercader",
+    "phbbgNoble000000": "Noble",
+    "phbbgSage0000000": "Sabio",
+    "phbbgScribe00000": "Escriba",
+    "phbbgSoldier0000": "Soldado",
+    "phbbgWayfarer000": "Viajero",
+    "phbspChthonicTie": "Tiflin, ctónico",
+    "phbspHighElf0000": "Elfo, alto",
+    "phbspInfernalTie": "Tiflin, infernal",
+    "phbsptBreathWeap": "Arma de aliento",
+    "phbsptElvenLinea": "Linaje élfico",
+    "phbsptFiendishLe": "Legado infernal",
+    "phbsptGnomishLin": "Linaje gnómico",
+    "phbsptResourcefu": "Ingenioso",
+    "phbsptVersatile0": "Versátil"
+  },
+  "residual_pattern_hits": []
+}

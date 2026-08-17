@@ -1,0 +1,890 @@
+{
+  "_meta": {
+    "id": "dnd5e_es_normalization_map.core",
+    "version": 7,
+    "updated": "2026-02-28",
+    "target": {
+      "system": "foundryvtt",
+      "gameSystem": "dnd5e",
+      "majorVersions": [
+        "5.2.x",
+        "2024-rules-compatible"
+      ]
+    },
+    "intent": "Mapa de normalización ES para traducciones (términos canónicos + reglas de limpieza).",
+    "notes": [
+      "Pensado para pipelines de traducción de compendios (Babele) y normalización de descripciones HTML.",
+      "Preserva tokens/macros Foundry (@UUID[], &Reference[], [[/r ...]]) mediante patrones protegidos.",
+      "Incluye sustituciones literales (glosario) y reglas regex (p.ej. DC→CD, feet→pies).",
+      "Añadidas equivalencias EN→ES de nombres de conjuros (spells) proporcionadas por el usuario.",
+      "Añadidas equivalencias EN→ES para dotes/feats (a partir de listado ES→EN del usuario, invertido automáticamente).",
+      "Añadidas equivalencias EN→ES de nombres de criaturas/NPCs (monsters) proporcionadas por el usuario.",
+      "Detectados 1 conflictos de clave al mezclar con replacements global (guardados en style.pack_overrides.dnd5e.monsters).",
+      "Añadida protección de bloques <table>...</table> para permitir normalización tipográfica fuera de tablas.",
+      "Añadida protección de <table> y <h1-6> para permitir minúsculas en texto corrido sin afectar tablas/encabezados.",
+      "Añadida política de minúsculas en texto corrido para términos de sistema (acciones, descansos, características y condiciones), preservando tablas/encabezados mediante bloques protegidos.",
+      "Integrado bloque oficial Monsters A–Z (EN→ES) basado en SRD 5.2.1.",
+      "Integrado mapping de monstruos EN→ES (monsters_en_es.v5.json): añadidos 321, ya iguales 0, conflictos 0 (core mantiene prioridad).",
+      "v7: Política B (Title Case semántico ES) aplicada solo a campos estructurales: activities.name, advancement.title, effects.name (no afecta descripciones)."
+    ],
+    "conflicts": [
+      {
+        "key": "Tough",
+        "existing": "Duro",
+        "incoming": "Pendenciero",
+        "scope": "dnd5e.monsters"
+      }
+    ],
+    "generated_from": "normalization_core.v6.generated.integrated.json",
+    "generated_at_utc": "2026-02-28T14:19:09Z",
+    "patch_notes": [
+      "v6: Integración de reference_macros para rellenar/reemplazar {label} en &Reference sin tocar keys internas.",
+      "v6: Añadidas protecciones para macros @UUID, &Reference, @Embed, @JournalEntry.",
+      "v6: Embebido lookup_es de reference_keys_map: 38 entradas.",
+      "v6: Replacements cortos movidos a regex_rules con límites de palabra: 9.",
+      "v7: Añadida regla de estilo estructural: Title Case semántico ES para system.activities.*.name, system.advancement.*.title y effects.*.name."
+    ]
+  },
+  "protected": {
+    "patterns": [
+      {
+        "id": "uuid",
+        "pattern": "@UUID\\[[^\\]]+\\]"
+      },
+      {
+        "id": "reference",
+        "pattern": "&Reference\\[[^\\]]+\\]"
+      },
+      {
+        "id": "inline_roll",
+        "pattern": "\\[\\[/r[^\\]]*\\]\\]"
+      },
+      {
+        "id": "inline_roll_alt",
+        "pattern": "\\[\\[[^\\]]+\\]\\]"
+      },
+      {
+        "id": "compendium_link",
+        "pattern": "@Compendium\\[[^\\]]+\\]"
+      },
+      {
+        "id": "item_link",
+        "pattern": "@Item\\[[^\\]]+\\]"
+      },
+      {
+        "id": "actor_link",
+        "pattern": "@Actor\\[[^\\]]+\\]"
+      },
+      {
+        "id": "journal_link",
+        "pattern": "@JournalEntry\\[[^\\]]+\\]"
+      },
+      {
+        "id": "table_link",
+        "pattern": "@RollTable\\[[^\\]]+\\]"
+      },
+      {
+        "id": "spell_link",
+        "pattern": "@Spell\\[[^\\]]+\\]"
+      },
+      {
+        "id": "damage_roll",
+        "pattern": "\\[\\[\\s*\\d+d\\d+([+-]\\d+)?\\s*\\]\\]"
+      },
+      {
+        "id": "html_table_block",
+        "pattern": "<table\\b[^>]*>[\\s\\S]*?<\\/table>"
+      },
+      {
+        "id": "html_heading_block",
+        "pattern": "<h[1-6]\\b[^>]*>[\\s\\S]*?<\\/h[1-6]>"
+      },
+      {
+        "id": "html_pre_block",
+        "pattern": "<pre\\b[^>]*>[\\s\\S]*?<\\/pre>"
+      },
+      {
+        "id": "html_code_block",
+        "pattern": "<code\\b[^>]*>[\\s\\S]*?<\\/code>"
+      },
+      {
+        "id": "html_script_block",
+        "pattern": "<script\\b[^>]*>[\\s\\S]*?<\\/script>"
+      },
+      {
+        "id": "html_style_block",
+        "pattern": "<style\\b[^>]*>[\\s\\S]*?<\\/style>"
+      }
+    ],
+    "strategy": {
+      "placeholderPrefix": "__PROTECTED__",
+      "description": "Reemplaza coincidencias por placeholders antes de normalizar y restaura al final."
+    },
+    "regex": [
+      {
+        "id": "protect_uuid_macros",
+        "pattern": "@UUID\\[[^\\]]+\\]\\{[^}]*\\}",
+        "note": "Protege macros @UUID[...] {label} para evitar reemplazos por substring dentro del label y el token."
+      },
+      {
+        "id": "protect_reference_macros",
+        "pattern": "&(?:amp;)?Reference\\[[^\\]]+\\]\\{[^}]*\\}",
+        "note": "Protege &Reference[...] {label} (incluye &amp;Reference) para evitar corrupción del label."
+      },
+      {
+        "id": "protect_embed_macros",
+        "pattern": "@Embed\\[[^\\]]+\\](?:\\{[^}]*\\})?",
+        "note": "Protege @Embed[...] y su label opcional."
+      },
+      {
+        "id": "protect_journal_links",
+        "pattern": "@JournalEntry\\[[^\\]]+\\](?:\\{[^}]*\\})?",
+        "note": "Protege enlaces @JournalEntry[...] y label opcional."
+      }
+    ]
+  },
+  "regex_rules": [
+    {
+      "id": "strip_square_brackets",
+      "description": "Elimina texto entre corchetes [] (útil para glosarios con anotaciones).",
+      "pattern": "\\[[^\\]]*\\]",
+      "replacement": "",
+      "flags": "g"
+    },
+    {
+      "id": "dc_to_cd",
+      "description": "Normaliza DC → CD conservando el número.",
+      "pattern": "\\bDC\\s*(\\d+)\\b",
+      "replacement": "CD \\1",
+      "flags": "gi"
+    },
+    {
+      "id": "feet_to_pies",
+      "description": "Normaliza 'X feet' → 'X pies'.",
+      "pattern": "\\b(\\d+)\\s*feet\\b",
+      "replacement": "\\1 pies",
+      "flags": "gi"
+    },
+    {
+      "id": "ft_to_pies",
+      "description": "Normaliza 'X ft' → 'X pies'.",
+      "pattern": "\\b(\\d+)\\s*ft\\.?\\b",
+      "replacement": "\\1 pies",
+      "flags": "gi"
+    },
+    {
+      "id": "miles_to_millas",
+      "description": "Normaliza 'X mile(s)' → 'X milla(s)'.",
+      "pattern": "\\b(\\d+)\\s*miles?\\b",
+      "replacement": "\\1 milla(s)",
+      "flags": "gi"
+    },
+    {
+      "id": "inches_to_pulgadas",
+      "description": "Normaliza 'X inch(es)' → 'X pulgada(s)'.",
+      "pattern": "\\b(\\d+)\\s*inches?\\b",
+      "replacement": "\\1 pulgada(s)",
+      "flags": "gi"
+    },
+    {
+      "id": "pounds_to_libras",
+      "description": "Normaliza 'X lb(s)' y 'X pound(s)' → 'X libra(s)'.",
+      "pattern": "\\b(\\d+)\\s*(lbs?\\.?|pounds?)\\b",
+      "replacement": "\\1 libra(s)",
+      "flags": "gi"
+    },
+    {
+      "id": "level_x_spell",
+      "description": "Normaliza '1st-level' → 'de nivel 1' (inglés ordinal).",
+      "pattern": "\\b(\\d+)(st|nd|rd|th)-level\\b",
+      "replacement": "de nivel \\1",
+      "flags": "gi"
+    },
+    {
+      "id": "normalize_spaces",
+      "description": "Colapsa espacios duplicados.",
+      "pattern": "[ \\t]{2,}",
+      "replacement": " ",
+      "flags": "g"
+    },
+    {
+      "id": "bright_light_cap_es",
+      "description": "Normaliza 'luz brillante' a 'Luz brillante' (ES).",
+      "pattern": "\\b(luz)\\s+brillante\\b",
+      "replacement": "Luz brillante",
+      "flags": "gi"
+    },
+    {
+      "id": "dim_light_cap_es",
+      "description": "Normaliza 'luz tenue' a 'Luz tenue' (ES).",
+      "pattern": "\\b(luz)\\s+tenue\\b",
+      "replacement": "Luz tenue",
+      "flags": "gi"
+    },
+    {
+      "id": "puntos_de_golpe_cap_es",
+      "description": "Normaliza 'puntos de golpe' a 'Puntos de Golpe' (ES).",
+      "pattern": "\\bpuntos\\s+de\\s+golpe\\b",
+      "replacement": "Puntos de Golpe",
+      "flags": "gi"
+    },
+    {
+      "id": "lc_ability_fuerza",
+      "description": "Texto corrido: 'Fuerza' -> 'fuerza' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bFuerza\\b",
+      "replacement": "fuerza",
+      "flags": "g"
+    },
+    {
+      "id": "lc_ability_destreza",
+      "description": "Texto corrido: 'Destreza' -> 'destreza' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bDestreza\\b",
+      "replacement": "destreza",
+      "flags": "g"
+    },
+    {
+      "id": "lc_ability_constitución",
+      "description": "Texto corrido: 'Constitución' -> 'constitución' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bConstitución\\b",
+      "replacement": "constitución",
+      "flags": "g"
+    },
+    {
+      "id": "lc_ability_inteligencia",
+      "description": "Texto corrido: 'Inteligencia' -> 'inteligencia' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bInteligencia\\b",
+      "replacement": "inteligencia",
+      "flags": "g"
+    },
+    {
+      "id": "lc_ability_sabiduría",
+      "description": "Texto corrido: 'Sabiduría' -> 'sabiduría' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bSabiduría\\b",
+      "replacement": "sabiduría",
+      "flags": "g"
+    },
+    {
+      "id": "lc_ability_carisma",
+      "description": "Texto corrido: 'Carisma' -> 'carisma' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bCarisma\\b",
+      "replacement": "carisma",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_cegado",
+      "description": "Texto corrido: condición 'Cegado' -> 'cegado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bCegado\\b",
+      "replacement": "cegado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_ensordecido",
+      "description": "Texto corrido: condición 'Ensordecido' -> 'ensordecido' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bEnsordecido\\b",
+      "replacement": "ensordecido",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_asustado",
+      "description": "Texto corrido: condición 'Asustado' -> 'asustado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bAsustado\\b",
+      "replacement": "asustado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_hechizado",
+      "description": "Texto corrido: condición 'Hechizado' -> 'hechizado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bHechizado\\b",
+      "replacement": "hechizado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_agarrado",
+      "description": "Texto corrido: condición 'Agarrado' -> 'agarrado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bAgarrado\\b",
+      "replacement": "agarrado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_incapacitado",
+      "description": "Texto corrido: condición 'Incapacitado' -> 'incapacitado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bIncapacitado\\b",
+      "replacement": "incapacitado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_invisible",
+      "description": "Texto corrido: condición 'Invisible' -> 'invisible' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bInvisible\\b",
+      "replacement": "invisible",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_paralizado",
+      "description": "Texto corrido: condición 'Paralizado' -> 'paralizado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bParalizado\\b",
+      "replacement": "paralizado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_petrificado",
+      "description": "Texto corrido: condición 'Petrificado' -> 'petrificado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bPetrificado\\b",
+      "replacement": "petrificado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_envenenado",
+      "description": "Texto corrido: condición 'Envenenado' -> 'envenenado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bEnvenenado\\b",
+      "replacement": "envenenado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_derribado",
+      "description": "Texto corrido: condición 'Derribado' -> 'derribado' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bDerribado\\b",
+      "replacement": "derribado",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_restringido",
+      "description": "Texto corrido: condición 'Restringido' -> 'restringido' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bRestringido\\b",
+      "replacement": "restringido",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_aturdido",
+      "description": "Texto corrido: condición 'Aturdido' -> 'aturdido' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bAturdido\\b",
+      "replacement": "aturdido",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_inconsciente",
+      "description": "Texto corrido: condición 'Inconsciente' -> 'inconsciente' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bInconsciente\\b",
+      "replacement": "inconsciente",
+      "flags": "g"
+    },
+    {
+      "id": "lc_cond_agotamiento",
+      "description": "Texto corrido: condición 'Agotamiento' -> 'agotamiento' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bAgotamiento\\b",
+      "replacement": "agotamiento",
+      "flags": "g"
+    },
+    {
+      "id": "lc_tirada_de_iniciativa",
+      "description": "Texto corrido: 'Tirada de iniciativa' -> 'tirada de iniciativa' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bTirada\\s+de\\s+iniciativa\\b",
+      "replacement": "tirada de iniciativa",
+      "flags": "gi"
+    },
+    {
+      "id": "lc_dano",
+      "description": "Texto corrido: 'Daño' -> 'daño' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bDaño\\b",
+      "replacement": "daño",
+      "flags": "g"
+    },
+    {
+      "id": "lc_puntos_de_golpe_temporales",
+      "description": "Texto corrido: 'Puntos de Golpe temporales' -> 'puntos de golpe temporales' (fuera de tablas y encabezados si están protegidos).",
+      "pattern": "\\bPuntos\\s+de\\s+Golpe\\s+temporales\\b",
+      "replacement": "puntos de golpe temporales",
+      "flags": "gi"
+    },
+    {
+      "id": "reference_label_fill_decl",
+      "pattern": "&(?:amp;)?Reference\\[[^\\]]+\\](?:\\{[^}]*\\})?",
+      "replacement": "$0",
+      "flags": "g",
+      "note": "Declarativo: aplicar mapeo dinámico de {label} desde style.reference_macros.lookup_es."
+    },
+    {
+      "id": "wb_repl_Imp",
+      "pattern": "(?<!\\w)Imp(?!\\w)",
+      "replacement": "Diablillo",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Imp' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Oni",
+      "pattern": "(?<!\\w)Oni(?!\\w)",
+      "replacement": "Oni",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Oni' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Roc",
+      "pattern": "(?<!\\w)Roc(?!\\w)",
+      "replacement": "Roc",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Roc' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Spy",
+      "pattern": "(?<!\\w)Spy(?!\\w)",
+      "replacement": "Espía",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Spy' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Ape",
+      "pattern": "(?<!\\w)Ape(?!\\w)",
+      "replacement": "Simio",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Ape' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Bat",
+      "pattern": "(?<!\\w)Bat(?!\\w)",
+      "replacement": "Murciélago",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Bat' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Cat",
+      "pattern": "(?<!\\w)Cat(?!\\w)",
+      "replacement": "Gato",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Cat' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Owl",
+      "pattern": "(?<!\\w)Owl(?!\\w)",
+      "replacement": "Búho",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Owl' afecte a substrings (p.ej. Improved)."
+    },
+    {
+      "id": "wb_repl_Rat",
+      "pattern": "(?<!\\w)Rat(?!\\w)",
+      "replacement": "Rata",
+      "flags": "g",
+      "note": "Reemplazo con límites de palabra para evitar que 'Rat' afecte a substrings (p.ej. Improved)."
+    }
+  ],
+  "style": {
+    "capitalization": {
+      "bonusAction": "Acción adicional",
+      "longRest": "Descanso largo",
+      "shortRest": "Descanso corto",
+      "savingThrow": "Tirada de salvación",
+      "abilityCheck": "Prueba de característica",
+      "spellSlot": "Espacio de conjuro"
+    },
+    "abbreviations": {
+      "DC": "CD",
+      "AC": "CA",
+      "HP": "PG",
+      "DM": "DM",
+      "DMs": "DMs"
+    },
+    "keepTokensUntranslated": [
+      "@UUID[...]",
+      "&Reference[...]",
+      "[[/r ...]]",
+      "[[...]]"
+    ],
+    "pack_overrides": {
+      "dnd5e.monsters": {
+        "Tough": "Pendenciero"
+      }
+    },
+    "reference_macros": {
+      "enabled": true,
+      "behavior": "fill_or_replace_label_only",
+      "notes": [
+        "No modifica la key dentro de [...]. Solo rellena o reemplaza el {label} usando reference_keys_map.lookup.es.",
+        "Si no hay equivalencia en el mapa, no se toca el macro."
+      ],
+      "lookup_es": {
+        "Advantage": "Ventaja",
+        "Attack": "Atacar",
+        "Bonus": "Acciones adicionales",
+        "Bonus Action": "Acciones adicionales",
+        "controllingamount": "montura controlada",
+        "Cover": "Cobertura",
+        "Critical": "Golpe crítico",
+        "Critical Hits": "Golpe crítico",
+        "d20test": "Pruebas de d20",
+        "Damage": "Resistencia",
+        "damage": "Umbral de daño",
+        "Damage Resistance": "Resistencia",
+        "damage threshold": "Umbral de daño",
+        "damageResistance": "Resistencia",
+        "damageresistance": "Resistencia",
+        "damagevulnerability": "Vulnerabilidad",
+        "Disadvantage": "Desventaja",
+        "Exhaustion": "Agotamiento",
+        "Grappled": "Agarrado",
+        "Grappled apply=false": "Agarrado",
+        "hazards": "peligros",
+        "Hide": "Esconderse",
+        "inspiration": "Inspiración heroica",
+        "Jumping": "salto",
+        "OpportunityAttacks": "Ataque de oportunidad",
+        "opportunityattacks": "Ataque de oportunidad",
+        "Prone": "Derribado",
+        "Reaction": "Reacciones",
+        "reaction": "Reactions",
+        "schoolsofmagic": "Adivinación",
+        "Speed": "Velocidad",
+        "Study": "Study",
+        "Suffocating": "asfixiándose",
+        "suffocating": "asfixiándose",
+        "suffocating apply=false": "asfixiándose",
+        "Tremorsense": "Sentido de vibraciones",
+        "Unarmed": "Golpe sin arma",
+        "Unarmed Strike": "Golpe sin arma"
+      }
+    },
+    "field_transforms": {
+      "titleCaseEs": {
+        "mode": "es_semantic",
+        "stopwords": [
+          "de",
+          "del",
+          "la",
+          "las",
+          "los",
+          "el",
+          "en",
+          "con",
+          "por",
+          "para",
+          "y",
+          "o"
+        ],
+        "paths": [
+          "system.activities.*.name",
+          "system.advancement.*.title",
+          "effects.*.name"
+        ],
+        "description": "Aplica Title Case semántico (Tipo B) en español: capitaliza palabras salvo stopwords, preservando siglas. Diseñado para post-procesado JSON por converters."
+      }
+    }
+  },
+  "replacements": {
+    "Foundry Note": "Nota de Foundry",
+    "Spell Scroll": "Pergamino de conjuro",
+    "Spell Changes": "Cambios de conjuro",
+    "Apply Half Damage": "Aplicar mitad de daño",
+    "Apply": "Aplicar",
+    "Aboleth": "Aboleth",
+    "Air Elemental": "Elemental de aire",
+    "Animated Armor": "Armadura animada",
+    "Animated Flying Sword": "Animated Flying Sword",
+    "Animated Rug of Smothering": "Animated Rug of Smothering",
+    "Ankheg": "Ankheg",
+    "Assassin": "Asesino",
+    "Awakened Shrub": "Arbusto despertado",
+    "Awakened Tree": "Árbol despertado",
+    "Axe Beak": "Pico de hacha",
+    "Azer Sentinel": "Azer Sentinel",
+    "Balor": "Balor",
+    "Bandit": "Bandido",
+    "Bandit Captain": "Capitán bandido",
+    "Barbed Devil": "Diablo punzante",
+    "Basilisk": "Basilisco",
+    "Bearded Devil": "Diablo barbado",
+    "Behir": "Behir",
+    "Berserker": "Berserker",
+    "Black Dragon Wyrmling": "Cría de dragón negro",
+    "Young Black Dragon": "Dragón negro joven",
+    "Ancient Black Dragon": "Dragón negro anciano",
+    "Black Pudding": "Pudin negro",
+    "Blink Dog": "Perro intermitente",
+    "Blue Dragon Wyrmling": "Cría de dragón azul",
+    "Adult Blue Dragon": "Dragón azul adulto",
+    "Ancient Blue Dragon": "Dragón azul anciano",
+    "Bone Devil": "Diablo óseo",
+    "Brass Dragon Wyrmling": "Cría de dragón de oropel",
+    "Young Brass Dragon": "Dragón de oropel joven",
+    "Adult Brass Dragon": "Dragón de oropel adulto",
+    "Ancient Brass Dragon": "Dragón de oropel anciano",
+    "Bronze Dragon Wyrmling": "Cría de dragón de bronce",
+    "Young Bronze Dragon": "Dragón de bronce joven",
+    "Adult Bronze Dragon": "Dragón de bronce adulto",
+    "Ancient Bronze Dragon": "Dragón de bronce anciano",
+    "Bugbear Stalker": "Bugbear Stalker",
+    "Bugbear Warrior": "Bugbear Warrior",
+    "Bulette": "Bulette",
+    "Centaur Trooper": "Centaur Trooper",
+    "Chain Devil": "Diablo de la cadena",
+    "Chimera": "Quimera",
+    "Chuul": "Chuul",
+    "Clay Golem": "Gólem de arcilla",
+    "Cloaker": "Manto",
+    "Cloud Giant": "Gigante de las nubes",
+    "Cockatrice": "Cocatriz",
+    "Commoner": "Plebeyo",
+    "Copper Dragon Wyrmling": "Cría de dragón de cobre",
+    "Young Copper Dragon": "Dragón de cobre joven",
+    "Adult Copper Dragon": "Dragón de cobre adulto",
+    "Ancient Copper Dragon": "Dragón de cobre anciano",
+    "Couatl": "Couatl",
+    "Swarm of Crawling Claws": "Swarm of Crawling Claws",
+    "Cultist": "Sectario",
+    "Cultist Fanatic": "Cultist Fanatic",
+    "Darkmantle": "Mantoscuro",
+    "Death Dog": "Perro del inframundo",
+    "Deva": "Deva",
+    "Djinni": "Djinn",
+    "Doppelganger": "Doppelganger",
+    "Dragon Turtle": "Dragón tortuga",
+    "Dretch": "Dretch",
+    "Drider": "Draña",
+    "Druid": "Druida",
+    "Dryad": "Dríada",
+    "Earth Elemental": "Elemental de tierra",
+    "Efreeti": "Ifrit",
+    "Erinyes": "Erinia",
+    "Ettercap": "Ettercap",
+    "Ettin": "Ettin",
+    "Fire Elemental": "Elemental de fuego",
+    "Fire Giant": "Gigante del fuego",
+    "Flesh Golem": "Gólem de carne",
+    "Frost Giant": "Gigante de escarcha",
+    "Shrieker Fungus": "Shrieker Fungus",
+    "Violet Fungus": "Hongo violeta",
+    "Gargoyle": "Gárgola",
+    "Gelatinous Cube": "Cubo gelatinoso",
+    "Ghast": "Ghast",
+    "Ghost": "Fantasma",
+    "Ghoul": "Gul",
+    "Gibbering Mouther": "Bocón barbotante",
+    "Glabrezu": "Glabrezu",
+    "Gladiator": "Gladiador",
+    "Gnoll Warrior": "Gnoll Warrior",
+    "Goblin Minion": "Goblin Minion",
+    "Goblin Warrior": "Goblin Warrior",
+    "Gold Dragon Wyrmling": "Cría de dragón de oro",
+    "Young Gold Dragon": "Dragón de oro joven",
+    "Ancient Gold Dragon": "Dragón de oro anciano",
+    "Gorgon": "Gorgón",
+    "Gray Ooze": "Cieno gris",
+    "Green Dragon Wyrmling": "Cría de dragón verde",
+    "Young Green Dragon": "Dragón verde joven",
+    "Adult Green Dragon": "Dragón verde adulto",
+    "Ancient Green Dragon": "Dragón verde anciano",
+    "Green Hag": "Saga cetrina",
+    "Grick": "Grick",
+    "Griffon": "Grifo",
+    "Grimlock": "Grimlock",
+    "Guardian Naga": "Naga guardiana",
+    "Guard": "Guardia",
+    "Guard Captain": "Guard Captain",
+    "Half-Dragon": "Half-Dragon",
+    "Harpy": "Arpía",
+    "Hell Hound": "Sabueso infernal",
+    "Hezrou": "Hezrou",
+    "Hill Giant": "Gigante de las colinas",
+    "Hippogriff": "Hipogrifo",
+    "Hobgoblin Warrior": "Hobgoblin Warrior",
+    "Hobgoblin Captain": "Hobgoblin Captain",
+    "Homunculus": "Homúnculo",
+    "Horned Devil": "Diablo astado",
+    "Hydra": "Hidra",
+    "Ice Devil": "Diablo gélido",
+    "Incubus": "Incubus",
+    "Invisible Stalker": "Acechador invisible",
+    "Iron Golem": "Gólem de hierro",
+    "Knight": "Caballero",
+    "Kobold Warrior": "Kobold Warrior",
+    "Kraken": "Kraken",
+    "Lamia": "Lamia",
+    "Lemure": "Lémur",
+    "Lich": "Liche",
+    "Mage": "Mago",
+    "Archmage": "Archimago",
+    "Magmin": "Magmin",
+    "Manticore": "Mantícora",
+    "Marilith": "Marilith",
+    "Medusa": "Medusa",
+    "Dust Mephit": "Méfit de polvo",
+    "Ice Mephit": "Mephit de hielo",
+    "Magma Mephit": "Méfit de magma",
+    "Steam Mephit": "Mephit de vapor",
+    "Merfolk Skirmisher": "Merfolk Skirmisher",
+    "Merrow": "Merrow",
+    "Mimic": "Mimeto",
+    "Minotaur of Baphomet": "Minotaur of Baphomet",
+    "Mummy": "Momia",
+    "Mummy Lord": "Señor de las momias",
+    "Nalfeshnee": "Nalfeshnee",
+    "Night Hag": "Saga nocturna",
+    "Nightmare": "Pesadilla",
+    "Noble": "Noble",
+    "Ochre Jelly": "Gelatina ocre",
+    "Ogre": "Ogro",
+    "Otyugh": "Otyugh",
+    "Owlbear": "Oso lechuza",
+    "Pegasus": "Pegaso",
+    "Phase Spider": "Araña de fase",
+    "Pirate": "Pirate",
+    "Pirate Captain": "Pirate Captain",
+    "Pit Fiend": "Diablo de la sima",
+    "Planetar": "Planetar",
+    "Priest Acolyte": "Priest Acolyte",
+    "Priest": "Sacerdote",
+    "Pseudodragon": "Pseudodragón",
+    "Purple Worm": "Gusano púrpura",
+    "Quasit": "Quasit",
+    "Rakshasa": "Rakshasa",
+    "Red Dragon Wyrmling": "Cría de dragón rojo",
+    "Young Red Dragon": "Dragón rojo joven",
+    "Adult Red Dragon": "Dragón rojo adulto",
+    "Ancient Red Dragon": "Dragón rojo anciano",
+    "Remorhaz": "Remorhaz",
+    "Roper": "Lacero",
+    "Rust Monster": "Monstruo corrosivo",
+    "Sahuagin Warrior": "Sahuagin Warrior",
+    "Salamander": "Salamandra",
+    "Satyr": "Sátiro",
+    "Scout": "Batidor",
+    "Sea Hag": "Saga de los mares",
+    "Shadow": "Sombra",
+    "Shambling Mound": "Broza movediza",
+    "Shield Guardian": "Guardián escudo",
+    "Silver Dragon Wyrmling": "Cría de dragón de plata",
+    "Young Silver Dragon": "Dragón de plata joven",
+    "Adult Silver Dragon": "Dragón de plata adulto",
+    "Ancient Silver Dragon": "Dragón de plata anciano",
+    "Skeleton": "Esqueleto",
+    "Warhorse Skeleton": "Caballo de guerra esqueleto",
+    "Minotaur Skeleton": "Minotauro esqueleto",
+    "Solar": "Solar",
+    "Specter": "Espectro",
+    "Sphinx of Wonder": "Sphinx of Wonder",
+    "Sphinx of Lore": "Sphinx of Lore",
+    "Sphinx of Valor": "Sphinx of Valor",
+    "Spirit Naga": "Naga espiritual",
+    "Sprite": "Duende",
+    "Stirge": "Estirge",
+    "Stone Giant": "Gigante de piedra",
+    "Stone Golem": "Gólem de piedra",
+    "Storm Giant": "Gigante de las tormentas",
+    "Succubus": "Succubus",
+    "Tarrasque": "Tarasca",
+    "Tough": "Tough",
+    "Tough Boss": "Tough Boss",
+    "Treant": "Ent",
+    "Troll": "Trol",
+    "Troll Limb": "Troll Limb",
+    "Unicorn": "Uniconio",
+    "Vampire Familiar": "Vampire Familiar",
+    "Vampire Spawn": "Engendro vampírico",
+    "Vampire": "Vampiro",
+    "Vrock": "Vrock",
+    "Warrior Infantry": "Warrior Infantry",
+    "Warrior Veteran": "Warrior Veteran",
+    "Water Elemental": "Elemental de agua",
+    "Werebear": "Hombre oso",
+    "Wereboar": "Hombre jabalí",
+    "Wererat": "Hombre rata",
+    "Weretiger": "Hombre tigre",
+    "Werewolf": "Hombre lobo",
+    "White Dragon Wyrmling": "Cría de dragón blanco",
+    "Young White Dragon": "Dragón blanco joven",
+    "Ancient White Dragon": "Dragón blanco anciano",
+    "Wight": "Tumulario",
+    "Will-o’-Wisp": "Fuego fatuo",
+    "Winter Wolf": "Lobo invernal",
+    "Worg": "Huargo",
+    "Wraith": "Aparición",
+    "Wyvern": "Guiverno",
+    "Xorn": "Xorn",
+    "Zombie": "Zombi",
+    "Ogre Zombie": "Ogro zombi",
+    "Allosaurus": "Allosaurus",
+    "Ankylosaurus": "Ankylosaurus",
+    "Archelon": "Archelon",
+    "Baboon": "Babuino",
+    "Badger": "Tejón",
+    "Black Bear": "Oso negro",
+    "Blood Hawk": "Halcón sangriento",
+    "Boar": "Jabalí",
+    "Brown Bear": "Oso pardo",
+    "Camel": "Camello",
+    "Constrictor Snake": "Serpiente constrictora",
+    "Crab": "Cangrejo",
+    "Crocodile": "Cocodrilo",
+    "smaller creature, it has the Grappled condition (escape": "smaller creature, it has the Grappled condition (escape",
+    "Dire Wolf": "Lobo terrible",
+    "Draft Horse": "Caballo de tiro",
+    "Eagle": "Águila",
+    "Elephant": "Elefante",
+    "Flying Snake": "Serpiente voladora",
+    "Frog": "Rana",
+    "Giant Ape": "Simio gigante",
+    "Giant Badger": "Tejón gigante",
+    "Giant Bat": "Murciélago gigante",
+    "Giant Boar": "Jabalí gigante",
+    "Giant Centipede": "Ciempiés gigante",
+    "Giant Constrictor Snake": "Serpiente constrictora gigante",
+    "Giant Crab": "Cangrejo gigante",
+    "Giant Crocodile": "Cocodrilo gigante",
+    "Giant Eagle": "Águila gigante",
+    "Giant Elk": "Alce gigante",
+    "Giant Fire Beetle": "Escarabajo de fuego gigante",
+    "Giant Frog": "Rana gigante",
+    "Giant Goat": "Cabra gigante",
+    "Giant Hyena": "Hiena gigante",
+    "Giant Lizard": "Lagarto gigante",
+    "Giant Octopus": "Pulpo gigante",
+    "Giant Owl": "Búho gigante",
+    "Giant Rat": "Rata gigante",
+    "Giant Scorpion": "Escorpión gigante",
+    "Giant Seahorse": "Giant Seahorse",
+    "Giant Shark": "Tiburón gigante",
+    "Giant Spider": "Araña gigante",
+    "Giant Toad": "Sapo gigante",
+    "Giant Venomous Snake": "Giant Venomous Snake",
+    "Giant Vulture": "Buitre gigante",
+    "Giant Wasp": "Avispa gigante",
+    "Giant Weasel": "Comadreja gigante",
+    "Giant Wolf Spider": "Tarántula gigante",
+    "ability check": "ability check",
+    "Hawk": "Halcón",
+    "Hippopotamus": "Hippopotamus",
+    "Hunter Shark": "Tiburón cazador",
+    "Hyena": "Hiena",
+    "Killer Whale": "Orca",
+    "Lion": "León",
+    "Lizard": "Lagarto",
+    "Mammoth": "Mamut",
+    "Mastiff": "Mastín",
+    "Mule": "Mula",
+    "Octopus": "Pulpo",
+    "Panther": "Pantera",
+    "Piranha": "Piranha",
+    "Plesiosaurus": "Plesiosaurio",
+    "Polar Bear": "Oso polar",
+    "Pony": "Poni",
+    "Pteranodon": "Pteranodon",
+    "Raven": "Cuervo",
+    "Reef Shark": "Tiburón de arrecife",
+    "Rhinoceros": "Rinoceronte",
+    "Riding Horse": "Caballo de monta",
+    "Saber-Toothed Tiger": "Tigre dientes de sable",
+    "Scorpion": "Escorpión",
+    "Seahorse": "Seahorse",
+    "Spider": "Araña",
+    "Swarm of Bats": "Enjambre de murciélagos",
+    "Swarm of Insects": "Enjambre de insectos",
+    "Swarm of Piranhas": "Swarm of Piranhas",
+    "Swarm of Rats": "Enjambre de ratas",
+    "Swarm of Ravens": "Enjambre de cuervos",
+    "Swarm of Venomous Snakes": "Swarm of Venomous Snakes",
+    "Tiger": "Tigre",
+    "Triceratops": "Triceratops",
+    "Venomous Snake": "Venomous Snake",
+    "Vulture": "Buitre",
+    "Warhorse": "Caballo de guerra",
+    "Weasel": "Comadreja"
+  }
+}

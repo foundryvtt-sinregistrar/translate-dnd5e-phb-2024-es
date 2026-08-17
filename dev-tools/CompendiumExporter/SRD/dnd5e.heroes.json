@@ -1,0 +1,1185 @@
+{
+  "label": "Héroes de inicio",
+  "folders": {},
+  "entries": {
+    "125qFnXvT9z0iOic": {
+      "name": "Perrin (monje mediano)",
+      "tokenName": "Perrin (monje mediano)",
+      "items": {
+        "q4tr1vTU8RxtU1UZ": {
+          "name": "Sacerdote"
+        },
+        "O3ZjSw0GtAOPScHI": {
+          "name": "Mediano Piesligeros"
+        },
+        "FtOM4QiOW5MwgcS3": {
+          "name": "Afortunado"
+        },
+        "nmmihiqphHjoE8dl": {
+          "name": "Valiente"
+        },
+        "cWrETHzCRs1Ueqd3": {
+          "name": "Agilidad de Mediano"
+        },
+        "AArhiOrSkaQUnCZS": {
+          "name": "Sigiloso por Maturaleza"
+        },
+        "8Grf7ga6JcZF0X6x": {
+          "name": "Monje"
+        },
+        "CwgoTDXWCD7PknIN": {
+          "name": "Defensa sin Armadura"
+        },
+        "pchnXqd5C79fVlxy": {
+          "name": "Artes Marciales"
+        },
+        "YJ1P3PnFKHOdQpaP": {
+          "name": "Martillo"
+        },
+        "DDnxRCeYUhXstWU8": {
+          "name": "Yesquero"
+        },
+        "5skKSSB4ShHbKoc8": {
+          "name": "Cantimplora"
+        },
+        "dDuMscUuMI2bTdkj": {
+          "name": "Antorcha"
+        },
+        "nC6VcR5JAIbR4err": {
+          "name": "Barra de incienso"
+        },
+        "WeKJI3gPUAU52WAX": {
+          "name": "Dardo"
+        },
+        "1F73YcUHbZMgePAD": {
+          "name": "Ropas comunes"
+        },
+        "LQhGSEatJ3VK7oqW": {
+          "name": "Raciones"
+        },
+        "1kqMwSwjfErSFNvl": {
+          "name": "Bolsa"
+        },
+        "zF5L4xHnJBC7b2iM": {
+          "name": "Palanqueta"
+        },
+        "g7U3OAXVcoI4lwzf": {
+          "name": "Ataque sin armas"
+        },
+        "WcROGD590imVj9qp": {
+          "name": "Mochila"
+        },
+        "8UQanAvHUIHZXp0O": {
+          "name": "Pitón"
+        },
+        "irCoxLHje0eA6Qmu": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "GfKuJYLFfw00oW9R": {
+          "name": "Relicario"
+        },
+        "NsNcJBUG5ajbk7sG": {
+          "name": "Vestiduras"
+        },
+        "XbF0CTipyqbMKHsB": {
+          "name": "Devocionario"
+        },
+        "GYyovoNdU66nxOlX": {
+          "name": "Espada corta"
+        }
+      }
+    },
+    "2Pdtnswo8Nj2nafY": {
+      "name": "Randal (guerrero humano)",
+      "tokenName": "Randal (guerrero humano)",
+      "items": {
+        "r7UallZJjcIFsz8i": {
+          "name": "Apresador"
+        },
+        "iODPoFlvprdu59Ga": {
+          "name": "Watchman"
+        },
+        "VFOCTtbEvjeUHo6B": {
+          "name": "Variant Human"
+        },
+        "IMdfN9m0aSEgqbYt": {
+          "name": "Guerrero"
+        },
+        "mcMzTtxd6fvcIl58": {
+          "name": "Estilo de Combate"
+        },
+        "7r63kurEAM3GdEec": {
+          "name": "Tomar Aliento"
+        },
+        "WikxBVtWpucxRSue": {
+          "name": "Defensa"
+        },
+        "gta26ORvqC323k3r": {
+          "name": "Espada larga"
+        },
+        "7Wo9Qcdhwbyq9bsq": {
+          "name": "Martillo"
+        },
+        "ARtFVyx8fqe5XvpN": {
+          "name": "Yesquero"
+        },
+        "4c3saZuHGHXb8Qlg": {
+          "name": "Cantimplora"
+        },
+        "Di7LgeBsM42Mi6yF": {
+          "name": "Antorcha"
+        },
+        "1TqythtyZfsOOGeJ": {
+          "name": "Flecha"
+        },
+        "DHfjuHRMDDsyjBti": {
+          "name": "Arco largo"
+        },
+        "B2OSARI9hcSzaai9": {
+          "name": "Aljaba"
+        },
+        "ulOW5qzq7q2edJTP": {
+          "name": "Raciones"
+        },
+        "T8BW5LfQIDdur78q": {
+          "name": "Bolsa"
+        },
+        "UJASRXvyW3VTm5wn": {
+          "name": "Palanqueta"
+        },
+        "4uWprZzCVMbHmA40": {
+          "name": "Petate"
+        },
+        "wYUZWMKa6FntpIvv": {
+          "name": "Mochila"
+        },
+        "fzsNQ3GG8bJ8iofD": {
+          "name": "Pitón"
+        },
+        "UVMJHgIbTxTR0HcP": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "VTK7cdWAzOYl9fon": {
+          "name": "Utensilios de cocina"
+        },
+        "hkjHLyA2QOgfJgM7": {
+          "name": "Cuerno"
+        },
+        "rEwBQ75m41HeBYOs": {
+          "name": "Hacha de mano"
+        },
+        "yz7DxhEVWUzdQKm7": {
+          "name": "Cota de malla"
+        },
+        "u69KONMFqydKuk1H": {
+          "name": "Escudo"
+        }
+      }
+    },
+    "4Jsv5vYaJ1atUEDV": {
+      "name": "Zanna (maga gnoma)",
+      "tokenName": "Zanna (maga gnoma)",
+      "items": {
+        "5hEbhdZm1ozQ3B2g": {
+          "name": "Manitas"
+        },
+        "Nt4QsuSYvhIwSoO5": {
+          "name": "Scholar"
+        },
+        "hTIYCYd5l9PjPNUO": {
+          "name": "Gnomo de las rocas"
+        },
+        "rOHL1eSwwfo4Q4Mw": {
+          "name": "Astucia Gnoma"
+        },
+        "d3oMVcQqmvqU4rYT": {
+          "name": "Saber del Artífice"
+        },
+        "LIy4OAHvmzzZBX3q": {
+          "name": "Manitas"
+        },
+        "0oPFm6zn1i3inAem": {
+          "name": "Mago"
+        },
+        "4WVhXsAxPHVYGEHa": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "XdHNGZEzeUffTKQT": {
+          "name": "Recuperación Arcana"
+        },
+        "5wyx7z5cxsMerha7": {
+          "name": "Yesquero"
+        },
+        "8RwQgNOULLp5FUZU": {
+          "name": "Cantimplora"
+        },
+        "OaqottSKB4DfyJml": {
+          "name": "Antorcha"
+        },
+        "oIIkARYLBjQO8fII": {
+          "name": "Cuchillo pequeño"
+        },
+        "b9oUUlG520EAGH82": {
+          "name": "Pluma para escribir"
+        },
+        "KTAa3zMAxi1my7SH": {
+          "name": "Túnica"
+        },
+        "MSIbKCEoCzmcy7B8": {
+          "name": "Raciones"
+        },
+        "zGavZI1kWyEzNuaC": {
+          "name": "Bolsa"
+        },
+        "JiiDBVOSGZB5pn3j": {
+          "name": "Pergamino"
+        },
+        "IjqsGxn4Is2LEd0D": {
+          "name": "Libro de leyendas"
+        },
+        "1F9b0nul4MBBQG7t": {
+          "name": "Petate"
+        },
+        "aipbjBYnYxbXTdQt": {
+          "name": "Mochila"
+        },
+        "hoes4Yc1U7CYCo5H": {
+          "name": "Libro de conjuros"
+        },
+        "rlCl6ZpmfzjiEUcB": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "UhRaZPqD1obqIOUn": {
+          "name": "Botella de tinta"
+        },
+        "Su67tuX92M4JMyrM": {
+          "name": "Utensilios de cocina"
+        },
+        "6QwDbSy4DdJDWmSH": {
+          "name": "Saquito de componentes"
+        },
+        "WmTpVLcSdZVoDrWA": {
+          "name": "Bastón"
+        },
+        "CY5DepK0fPEZlqob": {
+          "name": "Proyectil mágico"
+        },
+        "M654WxRzK4iKr8hP": {
+          "name": "Alarma"
+        },
+        "ADStL8U8T5R9akvp": {
+          "name": "Luz"
+        },
+        "NV64CG1QBOT4YyF1": {
+          "name": "Armadura de mago"
+        },
+        "LyJ8I0LdCSPCWa0d": {
+          "name": "Descarga de fuego"
+        },
+        "PtJ6TyvPsRo0y1nq": {
+          "name": "Encontrar familiar"
+        },
+        "iXY1MRCzK0cZ14Kg": {
+          "name": "Dormir"
+        },
+        "lv88l3uAjrLKRZG0": {
+          "name": "Mano de mago"
+        },
+        "KswTUmrH37e6GsUI": {
+          "name": "Escudo"
+        }
+      }
+    },
+    "Dh1AA6w104V17V6w": {
+      "name": "Krusk (paladín semiorco)",
+      "tokenName": "Krusk (paladín semiorco)",
+      "items": {
+        "mmNOUJeTSbhakKbO": {
+          "name": "Amulet (Holy Symbol)"
+        },
+        "h9ta6MMHygQtSvhd": {
+          "name": "Love Letter"
+        },
+        "gfQ9BWSZtm6WJyZr": {
+          "name": "Local Champion"
+        },
+        "k1DGfhs1ZfnWZQaL": {
+          "name": "Semiorco"
+        },
+        "WBbDX9rHq98Tnimi": {
+          "name": "Aguante Incansable"
+        },
+        "B8MsTHgz7ooglEVG": {
+          "name": "Ataques Salvajes"
+        },
+        "00NeikN42J9spbqf": {
+          "name": "Paladín"
+        },
+        "r2wKhAitYHdCMCTd": {
+          "name": "Sentidos Divinos"
+        },
+        "hXdhD97eIEu4TZqT": {
+          "name": "Imponer las Manos"
+        },
+        "O8zxaD0RfSdc0hE9": {
+          "name": "Espada larga"
+        },
+        "dLZZeF4GdmnVzMPU": {
+          "name": "Yesquero"
+        },
+        "efhXrQbirl8VZyB4": {
+          "name": "Cantimplora"
+        },
+        "c2kXiYCCI3GoUOei": {
+          "name": "Antorcha"
+        },
+        "JRf1p7SRfgidLypC": {
+          "name": "Raciones"
+        },
+        "dxPcTaoaq9SXqphI": {
+          "name": "Petate"
+        },
+        "G9505KmrMSHBWf8g": {
+          "name": "Jabalina"
+        },
+        "ywNBNpv1C7BCgkex": {
+          "name": "Mochila"
+        },
+        "d4CmvW8R3FAjbWKu": {
+          "name": "Herramientas de herrero"
+        },
+        "jPU066t1jdacJtqh": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "9GZ9g4sWxCBmDAOQ": {
+          "name": "Utensilios de cocina"
+        },
+        "0uUSKFCkeEIm0CaD": {
+          "name": "Cota de malla"
+        },
+        "jTyfsfOKBhVQG2Tu": {
+          "name": "Escudo"
+        }
+      }
+    },
+    "Jw8DeuPjt1qpusdB": {
+      "name": "Sefris (brujo semielfo)",
+      "tokenName": "Sefris (brujo semielfo)",
+      "items": {
+        "8uFLMKLwRO7Y5Xl2": {
+          "name": "Burglar"
+        },
+        "HXPw0uc6V7RW9aUv": {
+          "name": "Semielfo"
+        },
+        "Tdogp6mS8Fnea1Th": {
+          "name": "Linaje Feérico"
+        },
+        "C9WQGiLT2XDJCjeS": {
+          "name": "Brujo"
+        },
+        "HNkO4u8EYXCrOWii": {
+          "name": "Patrón Sobrenatural"
+        },
+        "ASybES6cNcArfo9N": {
+          "name": "Magia del Pacto"
+        },
+        "NU6Z2f7Mf9GLXF9F": {
+          "name": "El Demonio"
+        },
+        "7VjDwCQSWcmnzmts": {
+          "name": "Bendición del Oscuro"
+        },
+        "IubeTOfNLUmhBHG0": {
+          "name": "Lista de Conjuros Ampliada"
+        },
+        "8ACDuwIl3rEpmuRz": {
+          "name": "Daga"
+        },
+        "DMZ8rrm0Fk6Vvohm": {
+          "name": "Yesquero"
+        },
+        "1WoJ4E2N3rkDLOxr": {
+          "name": "Cantimplora"
+        },
+        "2jWv0cmxuCMSjm5g": {
+          "name": "Antorcha"
+        },
+        "Bf1fINiUJsUhiBNY": {
+          "name": "Aljaba"
+        },
+        "qXVA6nFXwNYnR314": {
+          "name": "Ropas comunes"
+        },
+        "zRh2otWcN6pHluby": {
+          "name": "Raciones"
+        },
+        "kHsxMCIusnAw7yQM": {
+          "name": "Bolsa"
+        },
+        "J4mpLVwGFoHQPO23": {
+          "name": "Palanqueta"
+        },
+        "0pno1FSlE0Y0PYGO": {
+          "name": "Petate"
+        },
+        "nhSqzlz64JQkWt0O": {
+          "name": "Mochila"
+        },
+        "xuXH5lpQihUTH89r": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "6L8kQtf84FtnSOLf": {
+          "name": "Virote de ballesta"
+        },
+        "Jgwk8Xn9ImBYxv99": {
+          "name": "Utensilios de cocina"
+        },
+        "qUmbsPoMgJJkeuvP": {
+          "name": "Armadura de cuero"
+        },
+        "bOhHMNROgdaYr9vI": {
+          "name": "Ballesta ligera"
+        },
+        "izX26lwJr25QtPmF": {
+          "name": "Saquito de componentes"
+        },
+        "o0V5vtyO81ry34pK": {
+          "name": "Herramientas de ladrón"
+        },
+        "9u9XIMepTO55XIjU": {
+          "name": "Manos Ardientes"
+        },
+        "5Icng9OG78N6y6PT": {
+          "name": "Descarga sobrenatural"
+        },
+        "vIPAhNx55Fthm9R3": {
+          "name": "Orden imperiosa"
+        },
+        "j7GBS18d2Sa6Q8kJ": {
+          "name": "Toque helado"
+        }
+      }
+    },
+    "ZGDys30OS76uYaIO": {
+      "name": "Aoth (druida humano)",
+      "tokenName": "Aoth (druida humano)",
+      "items": {
+        "yZ0HzuMNz4aMWPYH": {
+          "name": "Druidic Focus: Cowbell"
+        },
+        "lMobFB5hSFEGtkrq": {
+          "name": "Recluse"
+        },
+        "FZiSrcZmUUelVbNW": {
+          "name": "Humano"
+        },
+        "bapuOCz7eZNdZ4Et": {
+          "name": "Druida"
+        },
+        "vlHZEirUBkXrOs1W": {
+          "name": "Druídico"
+        },
+        "CICEvmF4z3OxHSU4": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "ZritJCgD0JK3D9mt": {
+          "name": "Yesquero"
+        },
+        "c1OKgyDQrJBUYua2": {
+          "name": "Cantimplora"
+        },
+        "6fsrCWlnEEUEEFEI": {
+          "name": "Antorcha"
+        },
+        "hkfulS1mgoIib6Fp": {
+          "name": "Manta"
+        },
+        "MbaS2ogYI1KbtKLw": {
+          "name": "Estuche para pergaminos"
+        },
+        "h2fbeacwQuIMSOau": {
+          "name": "Ropas comunes"
+        },
+        "pmuHf0uXonVit1m0": {
+          "name": "Raciones"
+        },
+        "ycsXmoameW0PxPxn": {
+          "name": "Petate"
+        },
+        "wTztNWeUlhlns1VR": {
+          "name": "Mochila"
+        },
+        "9jqgCD0tSdwm68DS": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "v6gFAs077yQiyRoA": {
+          "name": "Utensilios de cocina"
+        },
+        "lv1NElGeb4AF3Fl8": {
+          "name": "Armadura de cuero"
+        },
+        "mzogRoFZkIMPl0Hc": {
+          "name": "Bastón"
+        },
+        "5Y7HeEypCimIIzX3": {
+          "name": "Útiles de herborista"
+        },
+        "Y7Bv598vCGC7yOae": {
+          "name": "Garrote"
+        },
+        "yNUfDXefj7BXUGU7": {
+          "name": "Detectar venenos y enfermedades"
+        },
+        "6EvDsPPXqWANhUSU": {
+          "name": "Zancada prodigiosa"
+        },
+        "jOzDyWrlr6ThZXPZ": {
+          "name": "Nube de oscurecimiento"
+        },
+        "XQeADFDsyQNyHaf8": {
+          "name": "Purificar comida y bebida"
+        },
+        "J1hVbuherz2tiGT6": {
+          "name": "Buenas bayas"
+        },
+        "jKqkRj3coiQM4R63": {
+          "name": "Saber Druidico"
+        },
+        "0ScXCaYzzyhWZttx": {
+          "name": "Shillelagh"
+        },
+        "r62jsF9Z2GyeuG9v": {
+          "name": "Ola atronadora"
+        },
+        "JYb389GcFpBYDUzE": {
+          "name": "Salto"
+        },
+        "Un2798EJAL0t2PRC": {
+          "name": "Crear o destruir agua"
+        },
+        "pF8dim6Hn9X9cSH3": {
+          "name": "Hablar con los animales"
+        },
+        "uwHgS93Wg63hDJzV": {
+          "name": "Hechizar persona"
+        },
+        "C20uvzZFjawarxYJ": {
+          "name": "Enmarañar"
+        },
+        "ryb9VqVV6cg4RJ6b": {
+          "name": "Detectar magia"
+        },
+        "TigHbrTaikkuXdw2": {
+          "name": "Encantar animal"
+        },
+        "UgL3DNv2bdncIr1j": {
+          "name": "Fuego feérico"
+        },
+        "UgMmOm1OP4CPaeGS": {
+          "name": "Palabra de curación"
+        },
+        "CpeS14876LLibniH": {
+          "name": "Curar heridas"
+        }
+      }
+    },
+    "bzlxBO5km3zCQA8G": {
+      "name": "Riswynn (pícara enana)",
+      "tokenName": "Riswynn (pícara enana)",
+      "items": {
+        "kLWeji1tfubIJvfT": {
+          "name": "Bureaucrat"
+        },
+        "NvLVKDjXT1tPk6r4": {
+          "name": "Enano de las colinas"
+        },
+        "0NoJXoWjNGa10THB": {
+          "name": "Resistencia enana"
+        },
+        "TaFYgu6nyZIXcUN3": {
+          "name": "Afinidad con la Piedra"
+        },
+        "C6beIadMtmp9t0Ym": {
+          "name": "Pícaro"
+        },
+        "HV4tjQ4I0YwofteT": {
+          "name": "Pericia"
+        },
+        "Hn3bI5L2gaHMLNb3": {
+          "name": "Ataque furtivo"
+        },
+        "J43jsAaIZ54qFAuW": {
+          "name": "Jerga de Ladrones"
+        },
+        "KZ6pv2Oqgkgjr5rQ": {
+          "name": "Daga"
+        },
+        "2NiyMqVLi252yjW7": {
+          "name": "Martillo"
+        },
+        "t6h7cvBg8HdaCSef": {
+          "name": "Yesquero"
+        },
+        "w7eDAc3dWCR4irTc": {
+          "name": "Cantimplora"
+        },
+        "DlmtRORaVFPORu7x": {
+          "name": "Antorcha"
+        },
+        "xQRryYoSEs6Hq6vT": {
+          "name": "Ropas de calidad"
+        },
+        "yLUvPaR9SEEQMeJ2": {
+          "name": "Flecha"
+        },
+        "iS4larVdEIBbLbrF": {
+          "name": "Aljaba"
+        },
+        "PlUYtw31ZP885rIC": {
+          "name": "Raciones"
+        },
+        "5HHUTz3z7HEQfZIQ": {
+          "name": "Bolsa"
+        },
+        "2XtdoKiFPhKvbFcl": {
+          "name": "Palanqueta"
+        },
+        "OdXwywt9vQa11MPL": {
+          "name": "Petate"
+        },
+        "df7IpmSKg7P9gt9J": {
+          "name": "Arco corto"
+        },
+        "rF8gwzNSeMCBNCzG": {
+          "name": "Mochila"
+        },
+        "SpPkaGF64gbqUeyz": {
+          "name": "Pitón"
+        },
+        "V4sidnhoWmGe9ZPi": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "HhZKGBhG6S7og4i0": {
+          "name": "Estoque"
+        },
+        "NQd6oHPeFT7ZYL85": {
+          "name": "Utensilios de cocina"
+        },
+        "iVRhe5aw8sbEha14": {
+          "name": "Armadura de cuero"
+        },
+        "FLSNmB3LnQqys43M": {
+          "name": "Herramientas de ladrón"
+        }
+      }
+    },
+    "cYD0wRXLW4B17aoY": {
+      "name": "Quillathe (explorador elfo)",
+      "tokenName": "Quillathe (explorador elfo)",
+      "items": {
+        "I5EK9j7jV6mrXt7K": {
+          "name": "Monster Hunter"
+        },
+        "Aw1q0cqOgyScbZkd": {
+          "name": "Alto Elfo"
+        },
+        "ANwFFbqeIEm4eVPq": {
+          "name": "Linaje Feérico"
+        },
+        "474ipDv33anADoyN": {
+          "name": "Trance"
+        },
+        "Fqh00slzQuYGC27H": {
+          "name": "Explorador"
+        },
+        "rhBykvSHTUxMYa6r": {
+          "name": "Enemigo Predilecto"
+        },
+        "4Eyrf9vW3g4Tf5Oy": {
+          "name": "Explorador Nato"
+        },
+        "bepau0IMDduTaWso": {
+          "name": "Yesquero"
+        },
+        "7BxO9VNvgGsoNAlA": {
+          "name": "Cantimplora"
+        },
+        "h3mmh0q0FGEFKRH1": {
+          "name": "Antorcha"
+        },
+        "G0JTk8XzOAcYnBFE": {
+          "name": "Flecha"
+        },
+        "BaAz7bLKRM72aW4P": {
+          "name": "Arco largo"
+        },
+        "7b7QRDNqLu0FxDRq": {
+          "name": "Aljaba"
+        },
+        "qHQn5UivU2pVgwSq": {
+          "name": "Raciones"
+        },
+        "cDKfqLQwAOpq1fXJ": {
+          "name": "Petate"
+        },
+        "pOGT5yPpJf0CtRe2": {
+          "name": "Mochila"
+        },
+        "yV1Azp4RmVg38nuD": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "ptmMOlC1oMBw8dQ2": {
+          "name": "Utensilios de cocina"
+        },
+        "MTdrfkxOSMj7uG7H": {
+          "name": "Armadura de cuero"
+        },
+        "hufvnJKAlyzJG6Do": {
+          "name": "Espada corta"
+        },
+        "A3OE0kR3uxAhNjTz": {
+          "name": "Prestidigitación"
+        }
+      }
+    },
+    "irWonyO6ZLh47sN7": {
+      "name": "Merric (bárbaro mediano)",
+      "tokenName": "Merric (bárbaro mediano)",
+      "items": {
+        "XIVdS0HZI5lOG5bx": {
+          "name": "Vigilante"
+        },
+        "RGZjddjd3HbR39wD": {
+          "name": "Mediano Piesligeros"
+        },
+        "yKdzupRNhbtpQNyd": {
+          "name": "Afortunado"
+        },
+        "pu50e2QGn8RAy1iw": {
+          "name": "Valiente"
+        },
+        "Pu3BoEwS3aMhhKsA": {
+          "name": "Agilidad de Mediano"
+        },
+        "cKdkwiXbwp1VVT9a": {
+          "name": "Sigiloso por Maturaleza"
+        },
+        "8q7gahMalAbKTx4Y": {
+          "name": "Bárbaro"
+        },
+        "AnS6HmWkKIBxPgMb": {
+          "name": "Furia"
+        },
+        "SfgUIeZgxtkm17Ls": {
+          "name": "Defensa sin Armadura (Bárbaro)"
+        },
+        "kn942lwC0HOAr3sK": {
+          "name": "Yesquero"
+        },
+        "RXzyzw1tx9VAbayv": {
+          "name": "Cantimplora"
+        },
+        "glDE9NU9RrYAKuFp": {
+          "name": "Hacha a dos manos"
+        },
+        "YWdXAdfWM7lju1JW": {
+          "name": "Antorcha"
+        },
+        "WEXKAaQCPLQeQVW8": {
+          "name": "Raciones"
+        },
+        "jK1BNCTqbLSV2xFc": {
+          "name": "Petate"
+        },
+        "VhXDOC3DfXopry1c": {
+          "name": "Jabalina"
+        },
+        "1j8AQoiqnkA2FjZA": {
+          "name": "Mochila"
+        },
+        "LJHqe7VEIN8D1Rcu": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "I640Jkga30Wx25Gp": {
+          "name": "Utensilios de cocina"
+        },
+        "jQGlvMSTD0lkqzYR": {
+          "name": "Hacha de mano"
+        }
+      }
+    },
+    "kfzBL0q1Y7LgGs2x": {
+      "name": "Akra (clérigo dracónido)",
+      "tokenName": "Akra (clérigo dracónido)",
+      "items": {
+        "Ra2Z1ujre76weR0i": {
+          "name": "Holy Symbol"
+        },
+        "UXJw0wVE7GCx6yzv": {
+          "name": "Sacerdote"
+        },
+        "eRfgJRQJdRPFSbf5": {
+          "name": "Dracónido"
+        },
+        "vWo0CO4uYJ8XRnRi": {
+          "name": "Ataque de Aliento - Blanco"
+        },
+        "PZNSd7pd1tmTdLmw": {
+          "name": "Clérigo"
+        },
+        "sYPnCIXmh7C72RMi": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "tUGnDwsGjGCMrxKX": {
+          "name": "Dominio Divino"
+        },
+        "AD9TpaN6zrfvZUwa": {
+          "name": "Dominio de la Vida"
+        },
+        "BVZ0RopCWd4K0oQy": {
+          "name": "Competencia Adicional"
+        },
+        "a9hkL9uYDaDoEx3U": {
+          "name": "Discípulo de la Vida"
+        },
+        "I4IpztlEmyuCZXPm": {
+          "name": "Yesquero"
+        },
+        "VIRpMXIVAZvNtAkn": {
+          "name": "Cantimplora"
+        },
+        "hnqo98S375ky0rb9": {
+          "name": "Antorcha"
+        },
+        "oK8XqVbKjsEdFv2H": {
+          "name": "Barra de incienso"
+        },
+        "yeiFeV1OIIzABau4": {
+          "name": "Aljaba"
+        },
+        "PrQWPjULUVIaAgEC": {
+          "name": "Ropas comunes"
+        },
+        "WZX5bXeFiAw2BEU9": {
+          "name": "Raciones"
+        },
+        "7LkXyfHK37OCjMp2": {
+          "name": "Bolsa"
+        },
+        "PQhZsZ0aknC54nku": {
+          "name": "Petate"
+        },
+        "nIi8xVV1Mq39IvY6": {
+          "name": "Mochila"
+        },
+        "nnVoqKcxlTu9bRfL": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "b4NGPmLUcMECcA3O": {
+          "name": "Virote de ballesta"
+        },
+        "wFS05FaRyBFIbjmH": {
+          "name": "Utensilios de cocina"
+        },
+        "WBL9RaW0MEEVU3fX": {
+          "name": "Cota de escamas"
+        },
+        "hutWJTfurJjNbSpG": {
+          "name": "Ballesta ligera"
+        },
+        "l3rWWzexDhcuyJO1": {
+          "name": "Vestiduras"
+        },
+        "5IL0OAFVk1aaLPBO": {
+          "name": "Devocionario"
+        },
+        "tnoOhcw37wWUhWzd": {
+          "name": "Escudo"
+        },
+        "El1gUMDZlAqGpbJ8": {
+          "name": "Detectar venenos y enfermedades"
+        },
+        "pZMrJb3AXiRYO5E8": {
+          "name": "Saeta guía"
+        },
+        "7LUJHpWpCzfMZI3D": {
+          "name": "Bendicion"
+        },
+        "9FrgmKwWCYPhlZ5w": {
+          "name": "Perdicion"
+        },
+        "BgMUGYECwuw8Ku7Z": {
+          "name": "Purificar comida y bebida"
+        },
+        "5yH69xkqge3u7to7": {
+          "name": "Taumaturgia"
+        },
+        "iJsjPtYrp8DFlyFe": {
+          "name": "Detectar el bien y el mal"
+        },
+        "aEmz3laQj2ZZiKSb": {
+          "name": "Guía"
+        },
+        "4eIHKWEqjM8bgjZy": {
+          "name": "Crear o destruir agua"
+        },
+        "IoHq7xEZpwhTKlDd": {
+          "name": "Orden imperiosa"
+        },
+        "a7IlF5H2ZPsB4VWm": {
+          "name": "Detectar magia"
+        },
+        "hQ1zxREvUlaNKQpz": {
+          "name": "Santuario"
+        },
+        "d56v9vczAXEgMhCY": {
+          "name": "Escudo de fe"
+        },
+        "oTVKQSbPDSaAvYXx": {
+          "name": "Inflingir heridas"
+        },
+        "P97npemu7j70IZAQ": {
+          "name": "Llama sagrada"
+        },
+        "HpjaVMLEU14tJG7y": {
+          "name": "Palabra de curación"
+        },
+        "LjT1wf4D38c9Ieuo": {
+          "name": "Curar heridas"
+        },
+        "4u9a0tOYl5CJYyZI": {
+          "name": "Protección contra el bien y el mal"
+        },
+        "iLKpfoGF7rGpvNWD": {
+          "name": "Maza"
+        }
+      }
+    },
+    "xT2C2Itv2XambDYp": {
+      "name": "Morthos (hechicera tiefling)",
+      "tokenName": "Morthos (hechicera tiefling)",
+      "items": {
+        "38phJIpUGf6pPv1e": {
+          "name": "Scholar"
+        },
+        "dXB7dmAyOHzDdKek": {
+          "name": "Tiefling"
+        },
+        "exSIz1TyfxviYAkK": {
+          "name": "Resistencia Infernal"
+        },
+        "cY4aXe5XplmPTCQg": {
+          "name": "Linaje Infernal"
+        },
+        "xL28YI8mIoQ9z3xH": {
+          "name": "Hechicero"
+        },
+        "e9lH7ahP8CU0uAg6": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "Na1MedxNSLf4CJAK": {
+          "name": "Origen Mágico"
+        },
+        "PRK1qENNEqBc8bxo": {
+          "name": "Linaje dracónico"
+        },
+        "tTTrzb514rmq0x1F": {
+          "name": "Ancestro Dragón"
+        },
+        "49Ny9GsyzqPwrI90": {
+          "name": "Resistencia Dracónica"
+        },
+        "6vCIgo9KoccgbwRI": {
+          "name": "Daga"
+        },
+        "B3UCVVumF5HePaaL": {
+          "name": "Yesquero"
+        },
+        "27wWLXm4kjSdXcEl": {
+          "name": "Cantimplora"
+        },
+        "9BCH27gEXJGWhI7T": {
+          "name": "Antorcha"
+        },
+        "7dRoa2j3TRPaHBYJ": {
+          "name": "Cuchillo pequeño"
+        },
+        "dCFMN3kfqGS9pP9S": {
+          "name": "Pluma para escribir"
+        },
+        "g5GPBIDOF10kKUJO": {
+          "name": "Túnica"
+        },
+        "CPzLDHkcrOlGkl74": {
+          "name": "Raciones"
+        },
+        "DTjYxoHTCHiPMyBN": {
+          "name": "Bolsa"
+        },
+        "uMlpzwRx212yTpIc": {
+          "name": "Pergamino"
+        },
+        "fJtxDpheKdb5lrLi": {
+          "name": "Libro de leyendas"
+        },
+        "SBaxchfR0Ziv2htL": {
+          "name": "Petate"
+        },
+        "P2nHHKUwLYBenRf0": {
+          "name": "Mochila"
+        },
+        "NueX3DdBm2HqT76c": {
+          "name": "Cuerda de cáñamo - 50 Pies"
+        },
+        "OUSbKJnaQq6LNF4C": {
+          "name": "Botella de tinta"
+        },
+        "HQzWS1lUPwKcxQtf": {
+          "name": "Utensilios de cocina"
+        },
+        "HkXn8S5OTc1pY4aH": {
+          "name": "Saquito de componentes"
+        },
+        "x9m2Rw5mZbupgKPq": {
+          "name": "Bastón"
+        },
+        "97D9k533t6YnAoRY": {
+          "name": "Orbe"
+        },
+        "qHQNgvJmuP9l3iPA": {
+          "name": "Manos Ardientes"
+        },
+        "P2zQlFQMdFwgJ5Mk": {
+          "name": "Disfrazarse"
+        },
+        "SpljfdxEMZbZfI43": {
+          "name": "Descarga de fuego"
+        },
+        "RI84w7ABSrbsvYus": {
+          "name": "Taumaturgia"
+        },
+        "dr1Uc7vpDN3hYzrm": {
+          "name": "Mensaje"
+        },
+        "cGF1e2k1MrCAPui5": {
+          "name": "Reparar"
+        },
+        "KkTW5WHbmwInMvyL": {
+          "name": "Ilusión menor"
+        }
+      }
+    },
+    "xVmbM44RXyI2Eqq3": {
+      "name": "Beiro (bardo semielfo)",
+      "tokenName": "Beiro (bardo semielfo)",
+      "items": {
+        "iWdMYgNBkGiajzc4": {
+          "name": "Musical Instrument: Lute"
+        },
+        "2Ejl2ovEUJg7swzL": {
+          "name": "Musical Instrument: Flute"
+        },
+        "6JFzrzKtJyhU12xi": {
+          "name": "Musical Instrument: Drum"
+        },
+        "pEDdh0i2HBhReeuU": {
+          "name": "Love Letter"
+        },
+        "VgrH5nkz2SER0YhR": {
+          "name": "Musician"
+        },
+        "Mmfz1ndrE8zwXsWT": {
+          "name": "Semielfo"
+        },
+        "9t0oaZailMjUceoS": {
+          "name": "Linaje Feérico"
+        },
+        "fDxJHhma7nbuVE9c": {
+          "name": "Bardo"
+        },
+        "FdUaY1D9UanTIzoS": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "sA9bxQRvP9wS18fr": {
+          "name": "Inspiración Bárdica"
+        },
+        "EkIeRO2vYW13oJbW": {
+          "name": "Daga"
+        },
+        "lIQ4rEAs0mF0Xddj": {
+          "name": "Papel"
+        },
+        "ydvLeKqfNoge1eJN": {
+          "name": "Cofre"
+        },
+        "EVVslkIQ2WzhgGGM": {
+          "name": "Ropas de calidad"
+        },
+        "cp4a1asuEGbtXsFx": {
+          "name": "Lacre"
+        },
+        "n0tZKBjRvnCqwQJF": {
+          "name": "Estuche para mapa o pergamino"
+        },
+        "tSx0s9rSOlreV640": {
+          "name": "Pluma para escribir"
+        },
+        "0dHfAtAVAmyw6UJr": {
+          "name": "Raciones"
+        },
+        "R8ixvfpaS4VGrVJ1": {
+          "name": "Bolsa"
+        },
+        "EYwUTWTzLS4JESvu": {
+          "name": "Disfraz - Ropa"
+        },
+        "5Yar6BpJpJYTFbKf": {
+          "name": "Mochila"
+        },
+        "CtVyWJa9mhJv7tgC": {
+          "name": "Útiles para disfrazarse"
+        },
+        "W26SJwfU9NQD8asV": {
+          "name": "Perfume"
+        },
+        "llAaO9rMzwPr6x9B": {
+          "name": "Jabón"
+        },
+        "tgeQ5j3TT9WrZXXy": {
+          "name": "Estoque"
+        },
+        "jm5MASDmYMMtWwRg": {
+          "name": "Botella de tinta"
+        },
+        "w3pbzZVTyM9iKCk4": {
+          "name": "Armadura de cuero"
+        },
+        "8EFRSg1cA9GKB67H": {
+          "name": "Aceite (frasco)"
+        },
+        "2WTERL3WlJUcj82I": {
+          "name": "Lámpara"
+        },
+        "puJFC8aHL60P8S7A": {
+          "name": "Disfrazarse"
+        },
+        "h7pWllesEmSKRSJ6": {
+          "name": "Risa horrible"
+        },
+        "CJGAifMCSi24SL5c": {
+          "name": "Luz"
+        },
+        "8faguw7IxAd4ZdRb": {
+          "name": "Mano de mago"
+        },
+        "PCcIZTkaRF749Y4z": {
+          "name": "Hechizar persona"
+        },
+        "cUWYVymOvaTyeKFQ": {
+          "name": "Heroísmo"
+        }
+      }
+    }
+  }
+}

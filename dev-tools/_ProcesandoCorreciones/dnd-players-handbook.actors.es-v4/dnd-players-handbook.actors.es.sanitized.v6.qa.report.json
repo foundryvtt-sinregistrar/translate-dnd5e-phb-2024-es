@@ -1,0 +1,523 @@
+{
+  "_meta": {
+    "id": "actors.qa.v6",
+    "target": "dnd-players-handbook.actors.es.sanitized.v5.json",
+    "generated_utc": "2026-03-23T00:00:00Z",
+    "scope": [
+      "macros &Reference",
+      "residuos EN visibles",
+      "condiciones de activities aún en inglés",
+      "consistencia de keys internas en &Reference",
+      "placeholders inline [[...]]"
+    ]
+  },
+  "summary": {
+    "broken_reference_macros": 0,
+    "exact_en_leftovers": 13,
+    "obvious_english_fragments": 14,
+    "reference_key_inconsistencies": 48,
+    "review_items_named_perfume": 2,
+    "exact_en_leftovers_actionable": 3,
+    "exact_en_leftovers_review_only": 10
+  },
+  "status": "action_required",
+  "findings": {
+    "broken_reference_macros": [],
+    "exact_en_leftovers": [
+      {
+        "path": "entries.phbInvisibleSens.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbmobFaithfulHo.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbmobPanther000.items.ddOOLlNTSnyTzlfq.description",
+        "value": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.name",
+        "value": "Quasit"
+      },
+      {
+        "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.name",
+        "value": "Noble"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.zhKbejFtCdHcLvg0.name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.name",
+        "value": "Criminal"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.MYuqmfnLZn23dvht.name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.2RDALbFPRpJ9lLQ8.activities.dnd5eactivity000.condition",
+        "value": "whenever you hit the target with an attack roll"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.name",
+        "value": "Aasimar"
+      },
+      {
+        "path": "entries.phbsplArcaneEye0.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbsplBigbysHand.items.phbaoiGraspingHa.activities.oVvdrmP4wv1oKWar.condition",
+        "value": "has a creature grappled"
+      },
+      {
+        "path": "entries.phbsplUnseenServ.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      }
+    ],
+    "obvious_english_fragments": [
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobBestialSpi.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobCelestialS.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobConstructS.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobDraconicSp.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu realiza un número de ataques de [[/item Rend]] igual a la mitad del nivel del conjuro (redondeando hacia abajo), y usa [[/item Breath Weapon]].</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobElementalS.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu realiza un número de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobFeySpirit0.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu realiza un número de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobFiendishSp.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobGiantInsec.items.phbaoiMultiattac.description",
+        "value": "<p>El insecto realiza un número de ataques igual a la mitad del nivel de este conjuro (redondeando hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "english_attack_macro_flag",
+        "path": "entries.phbmobPanther000.items.ddOOLlNTSnyTzlfq.description",
+        "value": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+      },
+      {
+        "code": "english_attack_macro_flag",
+        "path": "entries.phbmobTiger00000.items.FBFgFP2iirQ8hRLd.description",
+        "value": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Tumbado apply=false]{Derribado}.</p>"
+      },
+      {
+        "code": "inline_roll_label_number_of_attacks",
+        "path": "entries.phbmobUndeadSpir.items.phbaoiMultiattac.description",
+        "value": "<p>El espíritu hace un número de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>"
+      },
+      {
+        "code": "english_condition_hunters_mark",
+        "path": "entries.phbprgRanger0000.items.klDLuGyY3ayzsJ5s.activities.NQtVK0T5uwfMPGQL.condition",
+        "value": "when the currently marked target drops to 0 Puntos de golpe"
+      },
+      {
+        "code": "english_condition_hex",
+        "path": "entries.phbprgWarlock000.items.2RDALbFPRpJ9lLQ8.activities.dnd5eactivity000.condition",
+        "value": "whenever you hit the target with an attack roll"
+      },
+      {
+        "code": "english_condition_bigbys_hand",
+        "path": "entries.phbsplBigbysHand.items.phbaoiGraspingHa.activities.oVvdrmP4wv1oKWar.condition",
+        "value": "has a creature grappled"
+      }
+    ],
+    "reference_key_inconsistencies": [
+      {
+        "path": "entries.phbBeastoftheLan.items.VSfvWi5FOm2U6pfm.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbBeastoftheSea.items.LUOy5vzHMODQLZT3.description",
+        "key": "grappled",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbConjuredEarth.items.oJkALZTVLPy8TJSR.effects.i5T6yzxlsSnXxGGa.description",
+        "key": "Apresado apply=false",
+        "label": "Apresado",
+        "suggested_key": "Restrained apply=false"
+      },
+      {
+        "path": "entries.phbConjuredFireE.items.M6i0fFdNQmWKA4BZ.effects.BWZxm9qxlXDSF6Dy.description",
+        "key": "Apresado apply=false",
+        "label": "Apresado",
+        "suggested_key": "Restrained apply=false"
+      },
+      {
+        "path": "entries.phbConjuredWater.items.BeXR1DiQaXVIpgxp.effects.fwIobATMREr7g26x.description",
+        "key": "Apresado apply=false",
+        "label": "Apresado",
+        "suggested_key": "Restrained apply=false"
+      },
+      {
+        "path": "entries.phbelsMirthfulFe.items.phbaoiFeyStep000.effects.EiXyxkdcQN9Ui6pd.description",
+        "key": "charmed",
+        "label": "Hechizado",
+        "suggested_key": "Charmed"
+      },
+      {
+        "path": "entries.phbelsTricksyFey.items.phbaoiFeyStep000.description",
+        "key": "darkness",
+        "label": "Oscuridad",
+        "suggested_key": "Darkness"
+      },
+      {
+        "path": "entries.phbginGiantCenti.items.phbaoiVenomousSp.description",
+        "key": "Envenenado",
+        "label": "Envenenado",
+        "suggested_key": "Poisoned"
+      },
+      {
+        "path": "entries.phbginGiantCenti.items.phbaoiVenomousSp.effects.uUvxWKSj8qQRIbTK.description",
+        "key": "Envenenado",
+        "label": "Envenenado",
+        "suggested_key": "Poisoned"
+      },
+      {
+        "path": "entries.phbmobBoar000000.items.phbaoiGore000000.description",
+        "key": "Tumbado",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobBrownBear0.items.phbaoiClaw000000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobConstricto.items.phbaoiConstrict0.description",
+        "key": "grappled",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbmobCrocodile0.items.phbaoiBite000000.description",
+        "key": "grappled apply=false",
+        "label": "Agarrado",
+        "suggested_key": "Grappled apply=false"
+      },
+      {
+        "path": "entries.phbmobCrocodile0.items.phbaoiBite000000.effects.LtkZa9s0yWBlbnja.description",
+        "key": "Agarrado apply=false",
+        "label": "Agarrado",
+        "suggested_key": "Grappled apply=false"
+      },
+      {
+        "path": "entries.phbmobDireWolf00.items.phbaoiBite000000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobElephant00.items.phbaoiGore000000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobElk0000000.items.phbaoiRam0000000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobFeySpirit0.items.phbaoiTricksy000.description",
+        "key": "darkness",
+        "label": "Oscuridad",
+        "suggested_key": "Darkness"
+      },
+      {
+        "path": "entries.phbmobGiantCrab0.items.phbaoiClaw000000.description",
+        "key": "grappled",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbmobGiantGoat0.items.phbaoiRam0000000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobGiantInsec.items.phbaoiVenomousSp.description",
+        "key": "Envenenado apply=false",
+        "label": "Envenenado",
+        "suggested_key": "Poisoned apply=false"
+      },
+      {
+        "path": "entries.phbmobGiantInsec.items.phbaoiVenomousSp.effects.jVWtHTrlPNi4dpDi.description",
+        "key": "Envenenado apply=false",
+        "label": "Envenenado",
+        "suggested_key": "Poisoned apply=false"
+      },
+      {
+        "path": "entries.phbmobGiantSpide.items.phbaoiWebRecharg.description",
+        "key": "restrained",
+        "label": "Apresado",
+        "suggested_key": "Restrained"
+      },
+      {
+        "path": "entries.phbmobMastiff000.items.phbaoiBite000000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobTiger00000.items.FBFgFP2iirQ8hRLd.description",
+        "key": "Tumbado apply=false",
+        "label": "Derribado",
+        "suggested_key": "Prone apply=false"
+      },
+      {
+        "path": "entries.phbmobTiger00000.items.FBFgFP2iirQ8hRLd.effects.9A6Hpr7hApdISok9.description",
+        "key": "Tumbado apply=false",
+        "label": "Derribado",
+        "suggested_key": "Prone apply=false"
+      },
+      {
+        "path": "entries.phbmobUndeadSpir.items.phbaoiFesteringA.description",
+        "key": "Envenenado apply=false",
+        "label": "Envenenado",
+        "suggested_key": "Poisoned apply=false"
+      },
+      {
+        "path": "entries.phbmobWarhorse00.items.phbaoiHooves0000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbmobWolf000000.items.phbaoiBite000000.description",
+        "key": "prone",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbostFiend00000.items.phbaoiFellGlareF.description",
+        "key": "frightened",
+        "label": "Asustado",
+        "suggested_key": "Frightened"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.98rHJrXiyuCX36s2.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.DJyet31V2fyifika.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.fe2owFlcPQloVxAz.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgBarbarian0.items.spjpH2kYn7wPHbe6.description",
+        "key": "Tumbado",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbprgCleric0000.items.wCm876rs73aLspi8.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgDruid00000.items.lPLxJpOExOu738Kx.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgFighter000.items.j1CMUOdMfODOlzqe.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgMonk000000.items.c2LSt9haTsjNcKaR.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.dqV77Me9UZHAMC1g.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.QbYoldhl7H2rNv6J.description",
+        "key": "Tumbado",
+        "label": "Derribado",
+        "suggested_key": "Prone"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.vU5hCPtcGcZdmxFM.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.y2llYJ6e3eTGCUGZ.description",
+        "key": "Asustado",
+        "label": "Asustado",
+        "suggested_key": "Frightened"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.ens3JhM0K0V4RcIM.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbsplBigbysHand.items.phbaoiGraspingHa.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbsplConjuredEl.items.1sm4KQqflaDX7MEu.effects.NGnrAr3HdReYoTjS.description",
+        "key": "Apresado apply=false",
+        "label": "Apresado",
+        "suggested_key": "Restrained apply=false"
+      },
+      {
+        "path": "entries.phbsplConjuredFe.items.phbaoiAttackAtta.effects.sEpCnDgBAYjTuRgI.description",
+        "key": "Asustado apply=false",
+        "label": "Asustado",
+        "suggested_key": "Frightened apply=false"
+      },
+      {
+        "path": "entries.phbsplGraspingVi.items.phbaoiLevel4Conj.description",
+        "key": "Agarrado",
+        "label": "Agarrado",
+        "suggested_key": "Grappled"
+      },
+      {
+        "path": "entries.phbudsPutridSpir.items.phbaoiFesteringA.description",
+        "key": "Envenenado apply=false",
+        "label": "Envenenado",
+        "suggested_key": "Poisoned apply=false"
+      }
+    ],
+    "review_perfume": [
+      {
+        "path": "entries.phbprgBard000000.items.eaLNtaS12cgfCfcK.name",
+        "value": "Perfume"
+      },
+      {
+        "path": "entries.phbprgBard000000.items.I4eCE9B2a6cmgpVG.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> fuerza, destreza, carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMusician000]{Músico}</p><p><strong>Competencias en habilidades:</strong> Acrobacias e Interpretación</p><p><strong>Competencia con herramientas:</strong> <em>Elige un tipo de</em> <em>instrumento musical</em></p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Instrumento musical (el mismo de arriba), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropas de viajero}, 11 GP; o (B) 50 GP</p><p>Pasaste gran parte de tu juventud siguiendo ferias y carnavales itinerantes, realizando trabajos ocasionales para músicos y acróbatas a cambio de lecciones. Puede que aprendieras a caminar sobre la cuerda floja, a tocar el laúd con un estilo distintivo o a recitar poesía con dicción impecable. A día de hoy, vives para los aplausos y ansías el escenario.</p>"
+      },
+      {
+        "path": "entries.phbprgPaladin000.items.AlgMwiLEdzMFVU71.name",
+        "value": "Perfume"
+      },
+      {
+        "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> fuerza, inteligencia, carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Hábil}</p><p><strong>Competencias en habilidades:</strong> Historia y Persuasión</p><p><strong>Competencia con herramientas:</strong> <em>Elige un tipo de</em> <em>juego de azar</em> (consulta @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Juego de azar (el mismo de arriba), @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa fina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, 29 PO; o (B) 50 PO</p><p>Creciste en un castillo, rodeado de riqueza, poder y privilegios. Tu familia de pequeños aristócratas se aseguró de que recibieras una educación de primera clase, parte de la cual agradecías y parte de la cual detestabas. Tu tiempo en el castillo, especialmente las muchas horas que pasaste observando a tu familia en la corte, también te enseñó mucho sobre el liderazgo.</p>"
+      }
+    ],
+    "exact_en_leftovers_actionable": [
+      {
+        "path": "entries.phbmobPanther000.items.ddOOLlNTSnyTzlfq.description",
+        "value": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.2RDALbFPRpJ9lLQ8.activities.dnd5eactivity000.condition",
+        "value": "whenever you hit the target with an attack roll"
+      },
+      {
+        "path": "entries.phbsplBigbysHand.items.phbaoiGraspingHa.activities.oVvdrmP4wv1oKWar.condition",
+        "value": "has a creature grappled"
+      }
+    ],
+    "exact_en_leftovers_review_only": [
+      {
+        "path": "entries.phbInvisibleSens.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbmobFaithfulHo.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.name",
+        "value": "Quasit"
+      },
+      {
+        "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.name",
+        "value": "Noble"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.zhKbejFtCdHcLvg0.name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.name",
+        "value": "Criminal"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.MYuqmfnLZn23dvht.name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.name",
+        "value": "Aasimar"
+      },
+      {
+        "path": "entries.phbsplArcaneEye0.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbsplUnseenServ.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      }
+    ]
+  },
+  "recommended_v7_actions": [
+    "Traducir los placeholders inline {Number of attacks} → {Número de ataques}.",
+    "Traducir las condiciones de activities que siguen en inglés (Hunter's Mark, Hex, Bigby's Hand).",
+    "Normalizar las keys internas de &Reference a una forma canónica EN y dejar la traducción solo en {label}.",
+    "Decidir si 'Perfume' se mantiene como nombre propio de objeto o se traduce a 'Perfume'/'Perfume (frasco)' de forma coherente en todo el pack."
+  ]
+}

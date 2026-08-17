@@ -1,0 +1,181 @@
+{
+  "label": "Orígenes de personaje",
+  "folders": {
+    "Dracónido": "Dracónido",
+    "Elfo": "Elfo",
+    "Enano": "Enano",
+    "Especies": "Especies",
+    "Gnomo": "Gnomo",
+    "Goliat": "Goliat",
+    "Humano": "Humano",
+    "Mediano": "Mediano",
+    "Orco": "Orco",
+    "Rasgos": "Rasgos",
+    "Tiflin": "Tiflin",
+    "Trasfondos": "Trasfondos"
+  },
+  "entries": {
+    "phbbgAcolyte0000": {
+      "name": "Acólito"
+    },
+    "phbbgCriminal000": {
+      "name": "Criminal"
+    },
+    "phbbgSage0000000": {
+      "name": "Sabio"
+    },
+    "phbbgSoldier0000": {
+      "name": "Soldado"
+    },
+    "phbspAbyssalTief": {
+      "name": "Tiefling, abisal"
+    },
+    "phbspChthonicTie": {
+      "name": "Tiefling, ctónico"
+    },
+    "phbspDragonborn0": {
+      "name": "Dracónido"
+    },
+    "phbspDrow0000000": {
+      "name": "Elfo, drow"
+    },
+    "phbspDwarf000000": {
+      "name": "Enano"
+    },
+    "phbspForestGnome": {
+      "name": "Gnomo, del bosque"
+    },
+    "phbspGoliath0000": {
+      "name": "Goliat"
+    },
+    "phbspHalfling000": {
+      "name": "Mediano"
+    },
+    "phbspHighElf0000": {
+      "name": "Elfo, Alto"
+    },
+    "phbspHuman000000": {
+      "name": "Humano"
+    },
+    "phbspInfernalTie": {
+      "name": "Tiefling, Infernal"
+    },
+    "phbspOrc00000000": {
+      "name": "Orco"
+    },
+    "phbspRockGnome00": {
+      "name": "Gnomo, de las rocas"
+    },
+    "phbspWoodElf0000": {
+      "name": "Elfo, Silvano"
+    },
+    "phbsptAbyssalLeg": {
+      "name": "Legado Infernal, Abisal"
+    },
+    "phbsptAdrenaline": {
+      "name": "Arremetida de Adrenalina"
+    },
+    "phbsptBrave00000": {
+      "name": "Valentía"
+    },
+    "phbsptBreathWeap": {
+      "name": "Arma de Aliento"
+    },
+    "phbsptChthonicLe": {
+      "name": "Legado Infernal, Ctónico"
+    },
+    "phbsptCloudsJaun": {
+      "name": "Paso de Nube"
+    },
+    "phbsptDraconicFl": {
+      "name": "Vuelo dracónico"
+    },
+    "phbsptDrowElfLin": {
+      "name": "Linaje Élfico, Drow"
+    },
+    "phbsptDwarvenRes": {
+      "name": "Resistencia Enana"
+    },
+    "phbsptDwarvenTou": {
+      "name": "Robustez Enana"
+    },
+    "phbsptFeyAncestr": {
+      "name": "Ascendencia Feérica"
+    },
+    "phbsptFiresBurn0": {
+      "name": "Ardor del Fuego"
+    },
+    "phbsptForestGnom": {
+      "name": "Linaje Gnómico, del Bosque"
+    },
+    "phbsptFrostsChil": {
+      "name": "Escarcha Helada"
+    },
+    "phbsptGiantAnces": {
+      "name": "Ascendencia Gigante"
+    },
+    "phbsptGnomishCun": {
+      "name": "Astucia Gnómica"
+    },
+    "phbsptHalflingNi": {
+      "name": "Agilidad Mediana"
+    },
+    "phbsptHighElfLin": {
+      "name": "Linaje Élfico, Alto Elfo"
+    },
+    "phbsptHillsTumbl": {
+      "name": "Derribo de las Colinas"
+    },
+    "phbsptInfernalLe": {
+      "name": "Legado Infernal"
+    },
+    "phbsptKeenSenses": {
+      "name": "Sentidos Agudos"
+    },
+    "phbsptLargeForm0": {
+      "name": "Forma Grande"
+    },
+    "phbsptLuck000000": {
+      "name": "Suerte"
+    },
+    "phbsptNaturallyS": {
+      "name": "Sigiloso por Naturaleza"
+    },
+    "phbsptOtherworld": {
+      "name": "Presencia de Otro Mundo"
+    },
+    "phbsptPowerfulBu": {
+      "name": "constitución Poderosa"
+    },
+    "phbsptRelentless": {
+      "name": "Resistencia Implacable"
+    },
+    "phbsptResourcefu": {
+      "name": "Ingenioso"
+    },
+    "phbsptRockGnomeL": {
+      "name": "Linaje gnómico, de las rocas"
+    },
+    "phbsptSkillful00": {
+      "name": "Hábil"
+    },
+    "phbsptStonecunni": {
+      "name": "Afinidad con la piedra"
+    },
+    "phbsptStonesEndu": {
+      "name": "Resistencia pétrea"
+    },
+    "phbsptStormsThun": {
+      "name": "Trueno de la tormenta"
+    },
+    "phbsptTrance0000": {
+      "name": "Trance"
+    },
+    "phbsptVersatile0": {
+      "name": "Versátil"
+    },
+    "phbsptWoodElfLin": {
+      "name": "Linaje élfico, elfo del bosque"
+    }
+  }
+}

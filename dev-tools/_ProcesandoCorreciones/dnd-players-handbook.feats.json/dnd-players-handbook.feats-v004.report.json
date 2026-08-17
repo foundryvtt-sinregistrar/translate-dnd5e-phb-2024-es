@@ -1,0 +1,49 @@
+{
+  "base": "dnd-players-handbook.feats-v003.json",
+  "output": "dnd-players-handbook.feats-v004.json",
+  "changes_count": 5,
+  "changed_entries_count": 3,
+  "changes": [
+    {
+      "entry": "phbftTelekinetic",
+      "name": "Telequinético",
+      "type": "description",
+      "note": "Eliminar párrafo vacío inicial",
+      "old": "<p></p>",
+      "new": ""
+    },
+    {
+      "entry": "phbftTelekinetic",
+      "name": "Telequinético",
+      "type": "description",
+      "note": "Traducir label visible de actividad en nota de Foundry",
+      "old": "<strong>Telekinetic Shove</strong>",
+      "new": "<strong>Empujón telequinético</strong>"
+    },
+    {
+      "entry": "phbftAthlete0000",
+      "name": "Atleta",
+      "type": "description",
+      "note": "Traducir label visible de UI",
+      "old": "\"Edit\"",
+      "new": "\"Editar\""
+    },
+    {
+      "entry": "phbftAthlete0000",
+      "name": "Atleta",
+      "type": "description",
+      "note": "Traducir label visible de UI",
+      "old": "\"Walk\"",
+      "new": "\"Caminar\""
+    },
+    {
+      "entry": "phbftChef0000000",
+      "name": "Cocinero",
+      "type": "description",
+      "note": "Traducir label visible de UI",
+      "old": "\"Edit\"",
+      "new": "\"Editar\""
+    }
+  ],
+  "remaining_visible_phrases": []
+}

@@ -1,0 +1,303 @@
+{
+  "label": "Content",
+  "mapping": {
+    "pages": {
+      "path": "pages",
+      "converter": "phb2024JournalPagesById"
+    }
+  },
+  "folders": {
+    "Appendices": "Appendices",
+    "Chapter 1": "Chapter 1",
+    "Chapter 2": "Chapter 2",
+    "Chapter 3": "Chapter 3",
+    "Chapter 4": "Chapter 4",
+    "Chapter 5": "Chapter 5",
+    "Chapter 6": "Chapter 6",
+    "Chapter 7": "Chapter 7"
+  },
+  "entries": {
+    "phbAppendixCRule": {
+      "name": "Appendix C: Rules Glossary",
+      "folder": "Appendices",
+      "countkey": 155,
+      "pages": 155
+    },
+    "phbCh3ArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Chapter 3",
+      "countkey": 77,
+      "pages": 77
+    },
+    "phbCh7ArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Chapter 7",
+      "countkey": 44,
+      "pages": 44
+    },
+    "phbCh4ArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Chapter 4",
+      "countkey": 31,
+      "pages": 31
+    },
+    "phbAppendixDRule": {
+      "name": "Appendix D: Rule References",
+      "folder": "Appendices",
+      "countkey": 22,
+      "pages": 22
+    },
+    "phbSpells0000000": {
+      "name": "Spells",
+      "folder": "",
+      "countkey": 20,
+      "pages": 20
+    },
+    "phbBackgroundDes": {
+      "name": "Background Descriptions",
+      "folder": "Chapter 4",
+      "countkey": 17,
+      "pages": 17
+    },
+    "phbEquipment0000": {
+      "name": "Equipment",
+      "folder": "Chapter 6",
+      "countkey": 14,
+      "pages": 14
+    },
+    "phbCh1ArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Chapter 1",
+      "countkey": 13,
+      "pages": 13
+    },
+    "phbCh2ArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Chapter 2",
+      "countkey": 13,
+      "pages": 13
+    },
+    "phbCreatingAChar": {
+      "name": "Creating a Character",
+      "folder": "Chapter 2",
+      "countkey": 13,
+      "pages": 13
+    },
+    "phbCombat0000000": {
+      "name": "Combat",
+      "folder": "Chapter 1",
+      "countkey": 12,
+      "pages": 12
+    },
+    "phbDamageAndHeal": {
+      "name": "Damage and Healing",
+      "folder": "Chapter 1",
+      "countkey": 11,
+      "pages": 11
+    },
+    "phbSpeciesDescri": {
+      "name": "Species Descriptions",
+      "folder": "Chapter 4",
+      "countkey": 11,
+      "pages": 11
+    },
+    "phbCh5ArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Chapter 5",
+      "countkey": 10,
+      "pages": 10
+    },
+    "phbExploration00": {
+      "name": "Exploration",
+      "folder": "Chapter 1",
+      "countkey": 10,
+      "pages": 10
+    },
+    "phbChangelog0000": {
+      "name": "Player's Handbook Changelog",
+      "folder": "",
+      "countkey": 7,
+      "pages": 7
+    },
+    "phbAppendixBCrea": {
+      "name": "Appendix B: Creature Stat Blocks",
+      "folder": "Appendices",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbCh6ArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Chapter 6",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbD20Tests00000": {
+      "name": "D20 Tests",
+      "folder": "Chapter 1",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbFeats00000000": {
+      "name": "Feats",
+      "folder": "Chapter 5",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbFighter000000": {
+      "name": "Fighter",
+      "folder": "Chapter 3",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbPlayingTheGam": {
+      "name": "Playing the Game",
+      "folder": "Chapter 1",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbServices00000": {
+      "name": "Services",
+      "folder": "Chapter 6",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbSorcerer00000": {
+      "name": "Sorcerer",
+      "folder": "Chapter 3",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbWarlock000000": {
+      "name": "Warlock",
+      "folder": "Chapter 3",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbWelcomeToAdve": {
+      "name": "Welcome to Adventure",
+      "folder": "Chapter 1",
+      "countkey": 6,
+      "pages": 6
+    },
+    "phbAppArtHandout": {
+      "name": "Art Handouts",
+      "folder": "Appendices",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbAppendixATheM": {
+      "name": "Appendix A: The Multiverse",
+      "folder": "Appendices",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbBarbarian0000": {
+      "name": "Barbarian",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbBard000000000": {
+      "name": "Bard",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbCleric0000000": {
+      "name": "Cleric",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbDruid00000000": {
+      "name": "Druid",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbMonk000000000": {
+      "name": "Monk",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbPaladin000000": {
+      "name": "Paladin",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbRanger0000000": {
+      "name": "Ranger",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbRogue00000000": {
+      "name": "Rogue",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbWizard0000000": {
+      "name": "Wizard",
+      "folder": "Chapter 3",
+      "countkey": 5,
+      "pages": 5
+    },
+    "phbActions000000": {
+      "name": "Actions",
+      "folder": "Chapter 1",
+      "countkey": 4,
+      "pages": 4
+    },
+    "phbCraftingEquip": {
+      "name": "Crafting Equipment",
+      "folder": "Chapter 6",
+      "countkey": 4,
+      "pages": 4
+    },
+    "phbMagicItems000": {
+      "name": "Magic Items",
+      "folder": "Chapter 6",
+      "countkey": 4,
+      "pages": 4
+    },
+    "phbSocialInterac": {
+      "name": "Social Interaction",
+      "folder": "Chapter 1",
+      "countkey": 4,
+      "pages": 4
+    },
+    "phbCharacterOrig": {
+      "name": "Character Origins",
+      "folder": "Chapter 4",
+      "countkey": 3,
+      "pages": 3
+    },
+    "phbCredits000000": {
+      "name": "Credits",
+      "folder": "",
+      "countkey": 3,
+      "pages": 3
+    },
+    "phbMountsAndVehi": {
+      "name": "Mounts and Vehicles",
+      "folder": "Chapter 6",
+      "countkey": 3,
+      "pages": 3
+    },
+    "phbConditions000": {
+      "name": "Conditions",
+      "folder": "Chapter 1",
+      "countkey": 2,
+      "pages": 2
+    },
+    "phbCharacterClas": {
+      "name": "Character Classes",
+      "folder": "Chapter 3",
+      "countkey": 1,
+      "pages": 1
+    }
+  }
+}

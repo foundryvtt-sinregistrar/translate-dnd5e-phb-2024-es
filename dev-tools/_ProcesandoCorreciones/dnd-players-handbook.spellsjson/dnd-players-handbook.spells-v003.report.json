@@ -1,0 +1,440 @@
+{
+  "base": "dnd-players-handbook.spells-v002.json",
+  "changes": {
+    "status_reference_labels_added": 209,
+    "plain_text_replacements": {
+      "Hechizado (Charmed) -> Hechizado": 3,
+      "Aterrorizado (Frightened) -> Aterrorizado": 2,
+      "Derribado (Prone) -> Derribado": 1,
+      "Restringido (Restrained) -> Restringido": 1,
+      "Envenenado (Poisoned) -> Envenenado": 1,
+      "acción Correr (Dash) -> acción Correr": 1,
+      "condición Deafened -> condición Ensordecido": 1,
+      "condición Charmed -> condición Hechizado": 1,
+      "acción Dodge -> acción Esquivar": 4,
+      "condición Blinded -> condición Cegado": 1,
+      "condición Frightened -> condición Aterrorizado": 1,
+      "condición Incapacitated -> condición Incapacitado": 1,
+      "condición Unconscious -> condición Inconsciente": 1,
+      "condición Stunned -> condición Aturdido": 1,
+      "condición Prone -> condición Derribado": 2
+    },
+    "entries_modified": 99,
+    "description_fields_modified": 100,
+    "effect_description_fields_modified": 65
+  },
+  "changed_entries": [
+    {
+      "id": "phbEvilAndGoodPr",
+      "name": "Protección contra el Bien y el Mal"
+    },
+    {
+      "id": "phbsplAnimalFrie",
+      "name": "Amistad con los animales"
+    },
+    {
+      "id": "phbsplAntipathyS",
+      "name": "Antipatía/simpatía"
+    },
+    {
+      "id": "phbsplAstralProj",
+      "name": "Proyección astral"
+    },
+    {
+      "id": "phbsplAuraofPuri",
+      "name": "Aura de pureza"
+    },
+    {
+      "id": "phbsplAwaken0000",
+      "name": "Despertar"
+    },
+    {
+      "id": "phbsplBanishingS",
+      "name": "Golpe desterrador"
+    },
+    {
+      "id": "phbsplBanishment",
+      "name": "Destierro"
+    },
+    {
+      "id": "phbsplBlindingSm",
+      "name": "Castigo cegador"
+    },
+    {
+      "id": "phbsplBlindnessD",
+      "name": "Ceguera/sordera"
+    },
+    {
+      "id": "phbsplCalmEmotio",
+      "name": "Calmar emociones"
+    },
+    {
+      "id": "phbsplCharmMonst",
+      "name": "Hechizar monstruo"
+    },
+    {
+      "id": "phbsplCharmPerso",
+      "name": "Hechizar persona"
+    },
+    {
+      "id": "phbsplColorSpray",
+      "name": "Rociada de color"
+    },
+    {
+      "id": "phbsplCommand000",
+      "name": "Orden"
+    },
+    {
+      "id": "phbsplCompulsion",
+      "name": "Compulsión"
+    },
+    {
+      "id": "phbsplConjureEle",
+      "name": "Conjurar elemental"
+    },
+    {
+      "id": "phbsplConjureFey",
+      "name": "Conjurar feérico"
+    },
+    {
+      "id": "phbsplContactOth",
+      "name": "Contactar con otro plano"
+    },
+    {
+      "id": "phbsplContagion0",
+      "name": "Contagio"
+    },
+    {
+      "id": "phbsplDemiplane0",
+      "name": "Semiplano"
+    },
+    {
+      "id": "phbsplDispelEvil",
+      "name": "Disipar el bien y el mal"
+    },
+    {
+      "id": "phbsplDivineWord",
+      "name": "Palabra divina"
+    },
+    {
+      "id": "phbsplDominateBe",
+      "name": "Dominar bestia"
+    },
+    {
+      "id": "phbsplDominateMo",
+      "name": "Dominar monstruo"
+    },
+    {
+      "id": "phbsplDominatePe",
+      "name": "Dominar persona"
+    },
+    {
+      "id": "phbsplDream00000",
+      "name": "Sueño"
+    },
+    {
+      "id": "phbsplEarthquake",
+      "name": "Terremoto"
+    },
+    {
+      "id": "phbsplEnsnaringS",
+      "name": "Golpe aprisionador"
+    },
+    {
+      "id": "phbsplEntangle00",
+      "name": "Enredar"
+    },
+    {
+      "id": "phbsplEvardsBlac",
+      "name": "Tentáculos negros de Evard"
+    },
+    {
+      "id": "phbsplExpeditiou",
+      "name": "Retirada acelerada"
+    },
+    {
+      "id": "phbsplEyebite000",
+      "name": "Mirada letal"
+    },
+    {
+      "id": "phbsplFear000000",
+      "name": "Miedo"
+    },
+    {
+      "id": "phbsplFeignDeath",
+      "name": "Fingir muerte"
+    },
+    {
+      "id": "phbsplFleshtoSto",
+      "name": "Carne en piedra"
+    },
+    {
+      "id": "phbsplFountofMoo",
+      "name": "Fuente de luz lunar"
+    },
+    {
+      "id": "phbsplFreedomofM",
+      "name": "Libertad de movimiento"
+    },
+    {
+      "id": "phbsplFriends000",
+      "name": "Amistad"
+    },
+    {
+      "id": "phbsplGaseousFor",
+      "name": "Forma gaseosa"
+    },
+    {
+      "id": "phbsplGeas000000",
+      "name": "Mando"
+    },
+    {
+      "id": "phbsplGraspingVi",
+      "name": "Vid aferradora"
+    },
+    {
+      "id": "phbsplGrease0000",
+      "name": "Grasa"
+    },
+    {
+      "id": "phbsplGreaterRes",
+      "name": "Restauración mayor"
+    },
+    {
+      "id": "phbsplHallow0000",
+      "name": "Consagrar"
+    },
+    {
+      "id": "phbsplHaste00000",
+      "name": "Prisa"
+    },
+    {
+      "id": "phbsplHeal000000",
+      "name": "Sanar"
+    },
+    {
+      "id": "phbsplHeroesFeas",
+      "name": "Banquete de los héroes"
+    },
+    {
+      "id": "phbsplHoldPerson",
+      "name": "Inmovilizar persona"
+    },
+    {
+      "id": "phbsplHolyAura00",
+      "name": "Aura sagrada"
+    },
+    {
+      "id": "phbsplHungerofHa",
+      "name": "Hambre de Hadar"
+    },
+    {
+      "id": "phbsplHypnoticPa",
+      "name": "Patrón hipnótico"
+    },
+    {
+      "id": "phbsplImprisonme",
+      "name": "Prisión"
+    },
+    {
+      "id": "phbsplInvisibili",
+      "name": "Invisibilidad"
+    },
+    {
+      "id": "phbsplJallarzisS",
+      "name": "Tormenta de radiancia de Jallarzi"
+    },
+    {
+      "id": "phbsplLesserRest",
+      "name": "Restauración menor"
+    },
+    {
+      "id": "phbsplMagicCircl",
+      "name": "Círculo mágico"
+    },
+    {
+      "id": "phbsplMagicJar00",
+      "name": "Vasija mágica"
+    },
+    {
+      "id": "phbsplMassHeal00",
+      "name": "Sanar en masa"
+    },
+    {
+      "id": "phbsplMassSugges",
+      "name": "Sugerencia en masa"
+    },
+    {
+      "id": "phbsplMeldintoSt",
+      "name": "Fundirse con la piedra"
+    },
+    {
+      "id": "phbsplMindSpike0",
+      "name": "Púa mental"
+    },
+    {
+      "id": "phbsplMirrorImag",
+      "name": "Imagen múltiple"
+    },
+    {
+      "id": "phbsplMislead000",
+      "name": "Engaño"
+    },
+    {
+      "id": "phbsplModifyMemo",
+      "name": "Modificar memoria"
+    },
+    {
+      "id": "phbsplOtilukesFr",
+      "name": "Esfera congelante de Otiluke"
+    },
+    {
+      "id": "phbsplOttosIrres",
+      "name": "Danza irresistible de Otto"
+    },
+    {
+      "id": "phbsplPowerWordH",
+      "name": "Palabra de poder: curar"
+    },
+    {
+      "id": "phbsplPowerWordS",
+      "name": "Palabra de poder: aturdir"
+    },
+    {
+      "id": "phbsplPrismaticS",
+      "name": "Rociada prismática"
+    },
+    {
+      "id": "phbsplPrismaticW",
+      "name": "Muro prismático"
+    },
+    {
+      "id": "phbsplProtection",
+      "name": "Protección contra el veneno"
+    },
+    {
+      "id": "phbsplRayofSickn",
+      "name": "Rayo enfermizo"
+    },
+    {
+      "id": "phbsplSeeInvisib",
+      "name": "Ver lo invisible"
+    },
+    {
+      "id": "phbsplSequester0",
+      "name": "Recluir"
+    },
+    {
+      "id": "phbsplShiningSmi",
+      "name": "Castigo resplandeciente"
+    },
+    {
+      "id": "phbsplSilence000",
+      "name": "Silencio"
+    },
+    {
+      "id": "phbsplSleep00000",
+      "name": "Sueño"
+    },
+    {
+      "id": "phbsplSleetStorm",
+      "name": "Tormenta de aguanieve"
+    },
+    {
+      "id": "phbsplStaggering",
+      "name": "Castigo tambaleante"
+    },
+    {
+      "id": "phbsplStarryWisp",
+      "name": "Brizna estelar"
+    },
+    {
+      "id": "phbsplStinkingCl",
+      "name": "Nube apestosa"
+    },
+    {
+      "id": "phbsplStormofVen",
+      "name": "Tormenta de venganza"
+    },
+    {
+      "id": "phbsplSuggestion",
+      "name": "Sugerencia"
+    },
+    {
+      "id": "phbsplSummonBeas",
+      "name": "Invocar bestia"
+    },
+    {
+      "id": "phbsplSummonCele",
+      "name": "Invocar celestial"
+    },
+    {
+      "id": "phbsplSummonDrag",
+      "name": "Invocar dragón"
+    },
+    {
+      "id": "phbsplSummonUnde",
+      "name": "Invocar muerto viviente"
+    },
+    {
+      "id": "phbsplSunbeam000",
+      "name": "Rayo de sol"
+    },
+    {
+      "id": "phbsplSunburst00",
+      "name": "Estallido solar"
+    },
+    {
+      "id": "phbsplSymbol0000",
+      "name": "Símbolo"
+    },
+    {
+      "id": "phbsplTashasHide",
+      "name": "Carcajada horrible de Tasha"
+    },
+    {
+      "id": "phbsplTelekinesi",
+      "name": "Telequinesis"
+    },
+    {
+      "id": "phbsplThunderous",
+      "name": "Castigo atronador"
+    },
+    {
+      "id": "phbsplWeb0000000",
+      "name": "Telaraña"
+    },
+    {
+      "id": "phbsplWeird00000",
+      "name": "Pavor"
+    },
+    {
+      "id": "phbsplWindWalk00",
+      "name": "Caminar en el Viento"
+    },
+    {
+      "id": "phbsplWrathfulSm",
+      "name": "Castigo Airado"
+    },
+    {
+      "id": "phbsplYolandesRe",
+      "name": "Presencia Regia de Yolande"
+    }
+  ],
+  "remaining_checks": {
+    "(Prone)": 0,
+    "(Charmed)": 0,
+    "(Frightened)": 0,
+    "(Restrained)": 0,
+    "(Poisoned)": 0,
+    "acción Dodge": 0,
+    "condición Charmed": 0,
+    "condición Deafened": 0,
+    "condición Blinded": 0,
+    "condición Frightened": 0,
+    "condición Incapacitated": 0,
+    "condición Unconscious": 0,
+    "condición Stunned": 0,
+    "condición Prone": 0
+  }
+}

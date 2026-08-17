@@ -1,0 +1,1184 @@
+{
+  "label": "Monster Features",
+  "folders": {
+    "Actions": "Actions",
+    "Attacks": "Attacks",
+    "Legendary Actions": "Legendary Actions",
+    "Traits": "Traits"
+  },
+  "entries": {
+    "mmAbduct00000000": {
+      "name": "Abduct"
+    },
+    "mmAberrantGround": {
+      "name": "Aberrant Ground"
+    },
+    "mmAbyssalGlaive0": {
+      "name": "Abyssal Glaive"
+    },
+    "mmAcidAbsorption": {
+      "name": "Acid Absorption"
+    },
+    "mmAcidBreath0000": {
+      "name": "Acid Breath"
+    },
+    "mmAcidSpray00000": {
+      "name": "Acid Spray"
+    },
+    "mmAdhesive000000": {
+      "name": "Adhesive (Object Form Only)"
+    },
+    "mmAgile000000000": {
+      "name": "Agile"
+    },
+    "mmAirForm0000000": {
+      "name": "Air Form"
+    },
+    "mmAmorphous00000": {
+      "name": "Amorphous"
+    },
+    "mmAmphibious0000": {
+      "name": "Amphibious"
+    },
+    "mmAnimateTrees00": {
+      "name": "Animate Trees"
+    },
+    "mmAntennae000000": {
+      "name": "Antennae"
+    },
+    "mmAquaticCharge0": {
+      "name": "Aquatic Charge"
+    },
+    "mmArcaneBurst000": {
+      "name": "Arcane Burst"
+    },
+    "mmArcaneProwl000": {
+      "name": "Arcane Prowl"
+    },
+    "mmAttach00000000": {
+      "name": "Attach"
+    },
+    "mmAuraOfAuthorit": {
+      "name": "Aura of Authority"
+    },
+    "mmAversionToFire": {
+      "name": "Aversion to Fire"
+    },
+    "mmBalefulCommand": {
+      "name": "Baleful Command"
+    },
+    "mmBanish00000000": {
+      "name": "Banish"
+    },
+    "mmBarbedHide0000": {
+      "name": "Barbed Hide"
+    },
+    "mmBeak0000000000": {
+      "name": "Beak"
+    },
+    "mmBeaks000000000": {
+      "name": "Beaks"
+    },
+    "mmBeard000000000": {
+      "name": "Beard"
+    },
+    "mmBeastOfBurden0": {
+      "name": "Beast of Burden"
+    },
+    "mmBeguile0000000": {
+      "name": "Beguile"
+    },
+    "mmBerserk0000000": {
+      "name": "Berserk"
+    },
+    "mmBite0000000000": {
+      "name": "Bite"
+    },
+    "mmBites000000000": {
+      "name": "Bites"
+    },
+    "mmBladedArm00000": {
+      "name": "Bladed Arm"
+    },
+    "mmBlazingLight00": {
+      "name": "Blazing Light"
+    },
+    "mmBlindingBreath": {
+      "name": "Blinding Breath"
+    },
+    "mmBlindingGaze00": {
+      "name": "Blinding Gaze"
+    },
+    "mmBlindingSpittl": {
+      "name": "Blinding Spittle"
+    },
+    "mmBloodFrenzy000": {
+      "name": "Blood Frenzy"
+    },
+    "mmBloodiedFrenzy": {
+      "name": "Bloodied Frenzy"
+    },
+    "mmBloodiedFury00": {
+      "name": "Bloodied Fury"
+    },
+    "mmBlurredForm000": {
+      "name": "Blurred Form"
+    },
+    "mmBoneBow0000000": {
+      "name": "Bone Bow"
+    },
+    "mmBoneCudgel0000": {
+      "name": "Bone Cudgel"
+    },
+    "mmBoulder0000000": {
+      "name": "Boulder"
+    },
+    "mmBoulderToss000": {
+      "name": "Boulder Toss"
+    },
+    "mmBound000000000": {
+      "name": "Bound"
+    },
+    "mmBubbleDash0000": {
+      "name": "Bubble Dash"
+    },
+    "mmBurn0000000000": {
+      "name": "Burn"
+    },
+    "mmBurningHammer0": {
+      "name": "Burning Hammer"
+    },
+    "mmBurstofIngenui": {
+      "name": "Burst of Ingenuity"
+    },
+    "mmCacophony00000": {
+      "name": "Cacophony"
+    },
+    "mmCaptainsCharm0": {
+      "name": "Captain's Charm"
+    },
+    "mmCelestialResto": {
+      "name": "Celestial Restoration"
+    },
+    "mmChain000000000": {
+      "name": "Chain"
+    },
+    "mmChannelNegativ": {
+      "name": "Channel Negative Energy"
+    },
+    "mmCharge00000000": {
+      "name": "Charge"
+    },
+    "mmChargedTendril": {
+      "name": "Charged Tendril"
+    },
+    "mmChargingHorn00": {
+      "name": "Charging Horn"
+    },
+    "mmCharm000000000": {
+      "name": "Charm"
+    },
+    "mmChill000000000": {
+      "name": "Chill"
+    },
+    "mmClaw0000000000": {
+      "name": "Claw"
+    },
+    "mmClaws000000000": {
+      "name": "Claws"
+    },
+    "mmCloakedFlight0": {
+      "name": "Cloaked Flight"
+    },
+    "mmCloudOfInsects": {
+      "name": "Cloud of Insects"
+    },
+    "mmColdBreath0000": {
+      "name": "Cold Breath"
+    },
+    "mmColdGale000000": {
+      "name": "Cold Gale"
+    },
+    "mmCommandingPres": {
+      "name": "Commanding Presence"
+    },
+    "mmCompression000": {
+      "name": "Compression"
+    },
+    "mmConferFireResi": {
+      "name": "Confer Fire Resistance"
+    },
+    "mmConjureInferna": {
+      "name": "Conjure Infernal Chain"
+    },
+    "mmConstrict00000": {
+      "name": "Constrict"
+    },
+    "mmConsumeLife000": {
+      "name": "Consume Life"
+    },
+    "mmConsumeMemorie": {
+      "name": "Consume Memories"
+    },
+    "mmCorrosiveForm0": {
+      "name": "Corrosive Form"
+    },
+    "mmCorruptingTouc": {
+      "name": "Corrupting Touch"
+    },
+    "mmCovenMagic0000": {
+      "name": "Coven Magic"
+    },
+    "mmCreateSpecter0": {
+      "name": "Create Specter"
+    },
+    "mmCreateWhirlwin": {
+      "name": "Create Whirlwind"
+    },
+    "mmCrush000000000": {
+      "name": "Crush"
+    },
+    "mmCunningAction0": {
+      "name": "Cunning Action"
+    },
+    "mmCursedTouch000": {
+      "name": "Cursed Touch"
+    },
+    "mmDarknessAura00": {
+      "name": "Darkness Aura"
+    },
+    "mmDeadlyLeap0000": {
+      "name": "Deadly Leap"
+    },
+    "mmDeathBurst0000": {
+      "name": "Death Burst"
+    },
+    "mmDeathGlare0000": {
+      "name": "Death Glare"
+    },
+    "mmDeathThroes000": {
+      "name": "Death Throes"
+    },
+    "mmDeathlessAgili": {
+      "name": "Deathless Agility"
+    },
+    "mmDeathlessStrik": {
+      "name": "Deathless Strike"
+    },
+    "mmDeathlyTelepor": {
+      "name": "Deathly Teleport"
+    },
+    "mmDeflectMissile": {
+      "name": "Deflect Missile"
+    },
+    "mmDemonicRestora": {
+      "name": "Demonic Restoration"
+    },
+    "mmDestroyMetal00": {
+      "name": "Destroy Metal"
+    },
+    "mmDevilishClaw00": {
+      "name": "Devilish Claw"
+    },
+    "mmDiabolicalRest": {
+      "name": "Diabolical Restoration"
+    },
+    "mmDisruptLife000": {
+      "name": "Disrupt Life"
+    },
+    "mmDissolvingPseu": {
+      "name": "Dissolving Pseudopod"
+    },
+    "mmDivineAid00000": {
+      "name": "Divine Aid"
+    },
+    "mmDivineAwarenes": {
+      "name": "Divine Awareness"
+    },
+    "mmDominateMind00": {
+      "name": "Dominate Mind"
+    },
+    "mmDraconicOrigin": {
+      "name": "Draconic Origin"
+    },
+    "mmDragonsBreath0": {
+      "name": "Dragon's Breath"
+    },
+    "mmDrainingKiss00": {
+      "name": "Draining Kiss"
+    },
+    "mmDrainingSwipe0": {
+      "name": "Draining Swipe"
+    },
+    "mmDreadCommand00": {
+      "name": "Dread Command"
+    },
+    "mmDreadfulGlare0": {
+      "name": "Dreadful Glare"
+    },
+    "mmEarthGlide0000": {
+      "name": "Earth Glide"
+    },
+    "mmEldritchBurst0": {
+      "name": "Eldritch Burst"
+    },
+    "mmEldritchRestor": {
+      "name": "Eldritch Restoration"
+    },
+    "mmElementalResto": {
+      "name": "Elemental Restoration"
+    },
+    "mmEnchantingBow0": {
+      "name": "Enchanting Bow"
+    },
+    "mmEngulf00000000": {
+      "name": "Engulf"
+    },
+    "mmEntanglingRope": {
+      "name": "Entangling Rope"
+    },
+    "mmEnthrallingPan": {
+      "name": "Enthralling Panache"
+    },
+    "mmEphemeral00000": {
+      "name": "Ephemeral"
+    },
+    "mmEtherealJaunt0": {
+      "name": "Ethereal Jaunt"
+    },
+    "mmEtherealSight0": {
+      "name": "Ethereal Sight"
+    },
+    "mmEtherealStride": {
+      "name": "Ethereal Stride"
+    },
+    "mmEtherealness00": {
+      "name": "Etherealness"
+    },
+    "mmEvasion0000000": {
+      "name": "Evasion"
+    },
+    "mmExaltedRestora": {
+      "name": "Exalted Restoration"
+    },
+    "mmFearAura000000": {
+      "name": "Fear Aura"
+    },
+    "mmFetidCloud0000": {
+      "name": "Fetid Cloud"
+    },
+    "mmFiendishRestor": {
+      "name": "Fiendish Restoration"
+    },
+    "mmFiendishTouch0": {
+      "name": "Fiendish Touch"
+    },
+    "mmFieryBolt00000": {
+      "name": "Fiery Bolt"
+    },
+    "mmFieryMace00000": {
+      "name": "Fiery Mace"
+    },
+    "mmFieryRays00000": {
+      "name": "Fiery Rays"
+    },
+    "mmFireAbsorption": {
+      "name": "Fire Absorption"
+    },
+    "mmFireAura000000": {
+      "name": "Fire Aura"
+    },
+    "mmFireBreath0000": {
+      "name": "Fire Breath"
+    },
+    "mmFireForm000000": {
+      "name": "Fire Form"
+    },
+    "mmFist0000000000": {
+      "name": "Fist"
+    },
+    "mmFlameSpear0000": {
+      "name": "Flame Spear"
+    },
+    "mmFlameSword0000": {
+      "name": "Flame Sword"
+    },
+    "mmFlameWhip00000": {
+      "name": "Flame Whip"
+    },
+    "mmFling000000000": {
+      "name": "Fling"
+    },
+    "mmFlyby000000000": {
+      "name": "Flyby"
+    },
+    "mmFlyingSword000": {
+      "name": "Flying Sword"
+    },
+    "mmFogCloud000000": {
+      "name": "Fog Cloud"
+    },
+    "mmForceBolt00000": {
+      "name": "Force Bolt"
+    },
+    "mmForeleg0000000": {
+      "name": "Foreleg"
+    },
+    "mmFreeze00000000": {
+      "name": "Freeze"
+    },
+    "mmFreezingBurst0": {
+      "name": "Freezing Burst"
+    },
+    "mmFrighteningGaz": {
+      "name": "Frightening Gaze"
+    },
+    "mmFrightfulPrese": {
+      "name": "Frightful Presence"
+    },
+    "mmFrostAxe000000": {
+      "name": "Frost Axe"
+    },
+    "mmFrostBreath000": {
+      "name": "Frost Breath"
+    },
+    "mmGibbering00000": {
+      "name": "Gibbering"
+    },
+    "mmGigglingMagic0": {
+      "name": "Giggling Magic"
+    },
+    "mmGlare000000000": {
+      "name": "Glare"
+    },
+    "mmGore0000000000": {
+      "name": "Gore"
+    },
+    "mmGouge000000000": {
+      "name": "Gouge"
+    },
+    "mmGrab0000000000": {
+      "name": "Grab"
+    },
+    "mmGreatBow000000": {
+      "name": "Great Bow"
+    },
+    "mmGreaterMagicRe": {
+      "name": "Greater Magic Resistance"
+    },
+    "mmGuidingLight00": {
+      "name": "Guiding Light"
+    },
+    "mmHailOfBark0000": {
+      "name": "Hail of Bark"
+    },
+    "mmHammerThrow000": {
+      "name": "Hammer Throw"
+    },
+    "mmHarpoon0000000": {
+      "name": "Harpoon"
+    },
+    "mmHasten00000000": {
+      "name": "Hasten"
+    },
+    "mmHeartSight0000": {
+      "name": "Heart Sight"
+    },
+    "mmHeatAura000000": {
+      "name": "Heat Aura"
+    },
+    "mmHeatedBlade000": {
+      "name": "Heated Blade"
+    },
+    "mmHellfireSpellc": {
+      "name": "Hellfire Spellcasting"
+    },
+    "mmHellishRestora": {
+      "name": "Hellish Restoration"
+    },
+    "mmHoldBreath0000": {
+      "name": "Hold Breath"
+    },
+    "mmHolyBurst00000": {
+      "name": "Holy Burst"
+    },
+    "mmHolyMace000000": {
+      "name": "Holy Mace"
+    },
+    "mmHooves00000000": {
+      "name": "Hooves"
+    },
+    "mmHorrificVisage": {
+      "name": "Horrific Visage"
+    },
+    "mmHorrorNimbus00": {
+      "name": "Horror Nimbus"
+    },
+    "mmHurlFlame00000": {
+      "name": "Hurl Flame"
+    },
+    "mmIceSpear000000": {
+      "name": "Ice Spear"
+    },
+    "mmIceWalk0000000": {
+      "name": "Ice Walk"
+    },
+    "mmIceWall0000000": {
+      "name": "Ice Wall"
+    },
+    "mmIgnitedIllumin": {
+      "name": "Ignited Illumination"
+    },
+    "mmIllumination00": {
+      "name": "Illumination"
+    },
+    "mmIllusoryAppear": {
+      "name": "Illusory Appearance"
+    },
+    "mmImmutableForm0": {
+      "name": "Immutable Form"
+    },
+    "mmIncorporealMov": {
+      "name": "Incorporeal Movement"
+    },
+    "mmIncubusForm000": {
+      "name": "Incubus Form"
+    },
+    "mmInfernalGlaive": {
+      "name": "Infernal Glaive"
+    },
+    "mmInfernalSting0": {
+      "name": "Infernal Sting"
+    },
+    "mmInfernalTail00": {
+      "name": "Infernal Tail"
+    },
+    "mmInkCloud000000": {
+      "name": "Ink Cloud"
+    },
+    "mmInscrutable000": {
+      "name": "Inscrutable"
+    },
+    "mmInvisibility00": {
+      "name": "Invisibility"
+    },
+    "mmIronScent00000": {
+      "name": "Iron Scent"
+    },
+    "mmJumper00000000": {
+      "name": "Jumper"
+    },
+    "mmLash0000000000": {
+      "name": "Lash"
+    },
+    "mmLeap0000000000": {
+      "name": "Leap"
+    },
+    "mmLegendaryResis": {
+      "name": "Legendary Resistance"
+    },
+    "mmLifeDrain00000": {
+      "name": "Life Drain"
+    },
+    "mmLightSensitivi": {
+      "name": "Light Sensitivity"
+    },
+    "mmLightningAbsor": {
+      "name": "Lightning Absorption"
+    },
+    "mmLightningBlade": {
+      "name": "Lightning Blade"
+    },
+    "mmLightningBreat": {
+      "name": "Lightning Breath"
+    },
+    "mmLightningStorm": {
+      "name": "Lightning Storm"
+    },
+    "mmLightningStrik": {
+      "name": "Lightning Strike"
+    },
+    "mmLimitedAmphibi": {
+      "name": "Limited Amphibiousness"
+    },
+    "mmLoathsomeLimbs": {
+      "name": "Loathsome Limbs"
+    },
+    "mmLuringSong0000": {
+      "name": "Luring Song"
+    },
+    "mmMagicOfTheSpid": {
+      "name": "Magic of the Spider Queen"
+    },
+    "mmMagicResistanc": {
+      "name": "Magic Resistance"
+    },
+    "mmMagicRope00000": {
+      "name": "Magic Rope"
+    },
+    "mmMimicry0000000": {
+      "name": "Mimicry"
+    },
+    "mmMindInvasion00": {
+      "name": "Mind Invasion"
+    },
+    "mmMindJolt000000": {
+      "name": "Mind Jolt"
+    },
+    "mmMindrendingRoa": {
+      "name": "Mind-Rending Roar"
+    },
+    "mmMistyEscape000": {
+      "name": "Misty Escape"
+    },
+    "mmMistyStep00000": {
+      "name": "Misty Step"
+    },
+    "mmMoan0000000000": {
+      "name": "Moan"
+    },
+    "mmMockery0000000": {
+      "name": "Mockery"
+    },
+    "mmMucusCloud0000": {
+      "name": "Mucus Cloud"
+    },
+    "mmMultiattack000": {
+      "name": "Multiattack"
+    },
+    "mmMultipleHeads0": {
+      "name": "Multiple Heads"
+    },
+    "mmNecroticBow000": {
+      "name": "Necrotic Bow"
+    },
+    "mmNecroticRay000": {
+      "name": "Necrotic Ray"
+    },
+    "mmNecroticStrike": {
+      "name": "Necrotic Strike"
+    },
+    "mmNecroticSword0": {
+      "name": "Necrotic Sword"
+    },
+    "mmNeedleSword000": {
+      "name": "Needle Sword"
+    },
+    "mmNightmare00000": {
+      "name": "Nightmare"
+    },
+    "mmNightmareHaunt": {
+      "name": "Nightmare Haunting"
+    },
+    "mmNightmareRay00": {
+      "name": "Nightmare Ray"
+    },
+    "mmNimbleEscape00": {
+      "name": "Nimble Escape"
+    },
+    "mmNoxiousMiasma0": {
+      "name": "Noxious Miasma"
+    },
+    "mmOceanSpear0000": {
+      "name": "Ocean Spear"
+    },
+    "mmOnslaught00000": {
+      "name": "Onslaught"
+    },
+    "mmOozeCube000000": {
+      "name": "Ooze Cube"
+    },
+    "mmPackTactics000": {
+      "name": "Pack Tactics"
+    },
+    "mmPactBlade00000": {
+      "name": "Pact Blade"
+    },
+    "mmParalyzingBrea": {
+      "name": "Paralyzing Breath"
+    },
+    "mmParalyzingTent": {
+      "name": "Paralyzing Tentacles"
+    },
+    "mmParalyzingTouc": {
+      "name": "Paralyzing Touch"
+    },
+    "mmParry000000000": {
+      "name": "Parry"
+    },
+    "mmPetrifyingBite": {
+      "name": "Petrifying Bite"
+    },
+    "mmPetrifyingBrea": {
+      "name": "Petrifying Breath"
+    },
+    "mmPetrifyingGaze": {
+      "name": "Petrifying Gaze"
+    },
+    "mmPhantasms00000": {
+      "name": "Phantasms"
+    },
+    "mmPincer00000000": {
+      "name": "Pincer"
+    },
+    "mmPoisonBreath00": {
+      "name": "Poison Breath"
+    },
+    "mmPoisonBurst000": {
+      "name": "Poison Burst"
+    },
+    "mmPoisonRay00000": {
+      "name": "Poison Ray"
+    },
+    "mmPoisonousSpitt": {
+      "name": "Poisonous Spittle"
+    },
+    "mmPossession0000": {
+      "name": "Possession"
+    },
+    "mmPounce00000000": {
+      "name": "Pounce"
+    },
+    "mmProbingTelepat": {
+      "name": "Probing Telepathy"
+    },
+    "mmProboscis00000": {
+      "name": "Proboscis"
+    },
+    "mmProtection0000": {
+      "name": "Protection"
+    },
+    "mmProtectiveMagi": {
+      "name": "Protective Magic"
+    },
+    "mmProwl000000000": {
+      "name": "Prowl (Tiger or Hybrid Form Only)"
+    },
+    "mmPseudopod00000": {
+      "name": "Pseudopod"
+    },
+    "mmPsychicDrain00": {
+      "name": "Psychic Drain"
+    },
+    "mmPummel00000000": {
+      "name": "Pummel"
+    },
+    "mmPursuit0000000": {
+      "name": "Pursuit"
+    },
+    "mmQuickGrapple00": {
+      "name": "Quick Grapple"
+    },
+    "mmRadiantFlame00": {
+      "name": "Radiant Flame"
+    },
+    "mmRadiantHorn000": {
+      "name": "Radiant Horn"
+    },
+    "mmRadiantSword00": {
+      "name": "Radiant Sword"
+    },
+    "mmRadiantTelepor": {
+      "name": "Radiant Teleport"
+    },
+    "mmRake0000000000": {
+      "name": "Rake"
+    },
+    "mmRam00000000000": {
+      "name": "Ram"
+    },
+    "mmRampage0000000": {
+      "name": "Rampage"
+    },
+    "mmReactive000000": {
+      "name": "Reactive"
+    },
+    "mmReactiveHeads0": {
+      "name": "Reactive Heads"
+    },
+    "mmReadThoughts00": {
+      "name": "Read Thoughts"
+    },
+    "mmRedirectAttack": {
+      "name": "Redirect Attack"
+    },
+    "mmReel0000000000": {
+      "name": "Reel"
+    },
+    "mmReflectiveCara": {
+      "name": "Reflective Carapace"
+    },
+    "mmReflexiveAnten": {
+      "name": "Reflexive Antennae"
+    },
+    "mmRegeneration00": {
+      "name": "Regeneration"
+    },
+    "mmRend0000000000": {
+      "name": "Rend"
+    },
+    "mmRepulsionBreat": {
+      "name": "Repulsion Breath"
+    },
+    "mmRestlessTouch0": {
+      "name": "Restless Touch"
+    },
+    "mmRiposte0000000": {
+      "name": "Riposte"
+    },
+    "mmRitualSickle00": {
+      "name": "Ritual Sickle"
+    },
+    "mmRoar0000000000": {
+      "name": "Roar"
+    },
+    "mmRock0000000000": {
+      "name": "Rock"
+    },
+    "mmRockLaunch0000": {
+      "name": "Rock Launch"
+    },
+    "mmRottingFist000": {
+      "name": "Rotting Fist"
+    },
+    "mmRottingTouch00": {
+      "name": "Rotting Touch"
+    },
+    "mmRunningLeap000": {
+      "name": "Running Leap"
+    },
+    "mmScare000000000": {
+      "name": "Scare"
+    },
+    "mmScorchingSands": {
+      "name": "Scorching Sands"
+    },
+    "mmScratch0000000": {
+      "name": "Scratch"
+    },
+    "mmSearingFork000": {
+      "name": "Searing Fork"
+    },
+    "mmSenseMagic0000": {
+      "name": "Sense Magic"
+    },
+    "mmShadowStealth0": {
+      "name": "Shadow Stealth"
+    },
+    "mmShapeshift0000": {
+      "name": "Shape-Shift"
+    },
+    "mmSharkTelepathy": {
+      "name": "Shark Telepathy"
+    },
+    "mmShieldBash0000": {
+      "name": "Shield Bash"
+    },
+    "mmShieldedMind00": {
+      "name": "Shielded Mind"
+    },
+    "mmShimmeringShie": {
+      "name": "Shimmering Shield"
+    },
+    "mmShock000000000": {
+      "name": "Shock"
+    },
+    "mmShred000000000": {
+      "name": "Shred"
+    },
+    "mmShriek00000000": {
+      "name": "Shriek"
+    },
+    "mmSiegeMonster00": {
+      "name": "Siege Monster"
+    },
+    "mmSlam0000000000": {
+      "name": "Slam"
+    },
+    "mmSlash000000000": {
+      "name": "Slash"
+    },
+    "mmSlayingBow0000": {
+      "name": "Slaying Bow"
+    },
+    "mmSleep000000000": {
+      "name": "Sleep"
+    },
+    "mmSleepBreath000": {
+      "name": "Sleep Breath"
+    },
+    "mmSlow0000000000": {
+      "name": "Slow"
+    },
+    "mmSlowingBreath0": {
+      "name": "Slowing Breath"
+    },
+    "mmSmother0000000": {
+      "name": "Smother"
+    },
+    "mmSnakeHair00000": {
+      "name": "Snake Hair"
+    },
+    "mmSonicBoom00000": {
+      "name": "Sonic Boom"
+    },
+    "mmSoulBag0000000": {
+      "name": "Soul Bag"
+    },
+    "mmSpeakWithBeast": {
+      "name": "Speak with Beasts and Plants"
+    },
+    "mmSpellStoring00": {
+      "name": "Spell Storing"
+    },
+    "mmSpellcasting00": {
+      "name": "Spellcasting"
+    },
+    "mmSpiderClimb000": {
+      "name": "Spider Climb"
+    },
+    "mmSpiritJar00000": {
+      "name": "Spirit Jar"
+    },
+    "mmSpiritualWeapo": {
+      "name": "Spiritual Weapon"
+    },
+    "mmSplit000000000": {
+      "name": "Split"
+    },
+    "mmSpores00000000": {
+      "name": "Spores"
+    },
+    "mmStandingLeap00": {
+      "name": "Standing Leap"
+    },
+    "mmSteamBreath000": {
+      "name": "Steam Breath"
+    },
+    "mmStench00000000": {
+      "name": "Stench"
+    },
+    "mmSting000000000": {
+      "name": "Sting"
+    },
+    "mmStoneClub00000": {
+      "name": "Stone Club"
+    },
+    "mmStormBlade0000": {
+      "name": "Storm Blade"
+    },
+    "mmStormBolt00000": {
+      "name": "Storm Bolt"
+    },
+    "mmStormSword0000": {
+      "name": "Storm Sword"
+    },
+    "mmStunningScreec": {
+      "name": "Stunning Screech"
+    },
+    "mmSuccubusForm00": {
+      "name": "Succubus Form"
+    },
+    "mmSunlightSensit": {
+      "name": "Sunlight Sensitivity"
+    },
+    "mmSunlightWeakne": {
+      "name": "Sunlight Weakness"
+    },
+    "mmSwallow0000000": {
+      "name": "Swallow"
+    },
+    "mmSwarm000000000": {
+      "name": "Swarm"
+    },
+    "mmSwarmOfGraspin": {
+      "name": "Swarm of Grasping Hands"
+    },
+    "mmSwoop000000000": {
+      "name": "Swoop"
+    },
+    "mmTail0000000000": {
+      "name": "Tail"
+    },
+    "mmTailSpike00000": {
+      "name": "Tail Spike"
+    },
+    "mmTailStinger000": {
+      "name": "Tail Stinger"
+    },
+    "mmTailSwipe00000": {
+      "name": "Tail Swipe"
+    },
+    "mmTalons00000000": {
+      "name": "Talons"
+    },
+    "mmTelepathicBond": {
+      "name": "Telepathic Bond"
+    },
+    "mmTeleport000000": {
+      "name": "Teleport"
+    },
+    "mmTentacle000000": {
+      "name": "Tentacle"
+    },
+    "mmTentacleSlam00": {
+      "name": "Tentacle Slam"
+    },
+    "mmTentacles00000": {
+      "name": "Tentacles"
+    },
+    "mmThornBurst0000": {
+      "name": "Thorn Burst"
+    },
+    "mmThunderbolt000": {
+      "name": "Thunderbolt"
+    },
+    "mmThunderclap000": {
+      "name": "Thunderclap"
+    },
+    "mmThundercloud00": {
+      "name": "Thundercloud"
+    },
+    "mmThunderousBell": {
+      "name": "Thunderous Bellow"
+    },
+    "mmThunderousMace": {
+      "name": "Thunderous Mace"
+    },
+    "mmThunderousSlam": {
+      "name": "Thunderous Slam"
+    },
+    "mmTouch000000000": {
+      "name": "Touch"
+    },
+    "mmToxicInk000000": {
+      "name": "Toxic Ink"
+    },
+    "mmTraining000000": {
+      "name": "Training"
+    },
+    "mmTrample0000000": {
+      "name": "Trample"
+    },
+    "mmTramplingCharg": {
+      "name": "Trampling Charge"
+    },
+    "mmTransparent000": {
+      "name": "Transparent"
+    },
+    "mmTrashLob000000": {
+      "name": "Trash Lob"
+    },
+    "mmTreasureSense0": {
+      "name": "Treasure Sense"
+    },
+    "mmTreeClub000000": {
+      "name": "Tree Club"
+    },
+    "mmTreeStride0000": {
+      "name": "Tree Stride"
+    },
+    "mmTrollSpawn0000": {
+      "name": "Troll Spawn"
+    },
+    "mmTunneler000000": {
+      "name": "Tunneler"
+    },
+    "mmUmbralDagger00": {
+      "name": "Umbral Dagger"
+    },
+    "mmUndeadFortitud": {
+      "name": "Undead Fortitude"
+    },
+    "mmUndeadRestorat": {
+      "name": "Undead Restoration"
+    },
+    "mmUnicornsBlessi": {
+      "name": "Unicorn's Blessing"
+    },
+    "mmUnnervingGaze0": {
+      "name": "Unnerving Gaze"
+    },
+    "mmUnsettlingVisa": {
+      "name": "Unsettling Visage"
+    },
+    "mmVampireWeaknes": {
+      "name": "Vampire Weakness"
+    },
+    "mmVampiricConnec": {
+      "name": "Vampiric Connection"
+    },
+    "mmVanish00000000": {
+      "name": "Vanish"
+    },
+    "mmVerdantWisp000": {
+      "name": "Verdant Wisp"
+    },
+    "mmVileAppearance": {
+      "name": "Vile Appearance"
+    },
+    "mmVileSlime00000": {
+      "name": "Vile Slime"
+    },
+    "mmVineLash000000": {
+      "name": "Vine Lash"
+    },
+    "mmVineStaff00000": {
+      "name": "Vine Staff"
+    },
+    "mmVortex00000000": {
+      "name": "Vortex"
+    },
+    "mmWarCry00000000": {
+      "name": "War Cry"
+    },
+    "mmWaterBreathing": {
+      "name": "Water Breathing"
+    },
+    "mmWaterForm00000": {
+      "name": "Water Form"
+    },
+    "mmWaterSusceptib": {
+      "name": "Water Susceptibility"
+    },
+    "mmWeakeningBreat": {
+      "name": "Weakening Breath"
+    },
+    "mmWeb00000000000": {
+      "name": "Web"
+    },
+    "mmWebStrand00000": {
+      "name": "Web Strand"
+    },
+    "mmWebWalker00000": {
+      "name": "Web Walker"
+    },
+    "mmWeightOfYears0": {
+      "name": "Weight of Years"
+    },
+    "mmWhelm000000000": {
+      "name": "Whelm"
+    },
+    "mmWhirlwind00000": {
+      "name": "Whirlwind"
+    },
+    "mmWhirlwindOfSan": {
+      "name": "Whirlwind of Sand"
+    },
+    "mmWindSwipe00000": {
+      "name": "Wind Swipe"
+    },
+    "mmWishes00000000": {
+      "name": "Wishes"
+    },
+    "mmWitheringSword": {
+      "name": "Withering Sword"
+    },
+    "mmWitheringTouch": {
+      "name": "Withering Touch"
+    },
+    "mmWorldshakingMo": {
+      "name": "World-Shaking Movement"
+    }
+  }
+}

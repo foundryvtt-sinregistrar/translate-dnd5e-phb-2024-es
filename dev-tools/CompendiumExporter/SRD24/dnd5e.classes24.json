@@ -1,0 +1,791 @@
+{
+  "label": "Clases de personaje",
+  "folders": {
+    "Rasgos de Subclase": "Rasgos de Subclase",
+    "Rasgos de Clase": "Rasgos de Clase",
+    "Opciones de Metamagia": "Opciones de Metamagia",
+    "Guerrero de la Mano Abierta": "Guerrero de la Mano Abierta",
+    "Campeón": "Campeón",
+    "Opciones de Invocaciones Sobrenaturales": "Opciones de Invocaciones Sobrenaturales",
+    "Cazador": "Cazador",
+    "Círculo de la Tierra": "Círculo de la Tierra",
+    "Evocador": "Evocador",
+    "Saber": "Saber",
+    "Camino del Berserker": "Camino del Berserker",
+    "Ladrón": "Ladrón",
+    "Patrón Infernal": "Patrón Infernal",
+    "Dominio de la Vida": "Dominio de la Vida",
+    "Juramento de Devoción": "Juramento de Devoción",
+    "Hechicería Dracónica": "Hechicería Dracónica",
+    "Bárbaro": "Bárbaro",
+    "Paladín": "Paladín",
+    "Pícaro": "Pícaro",
+    "Mago": "Mago",
+    "Hechicero": "Hechicero",
+    "Explorador": "Explorador",
+    "Monje": "Monje",
+    "Guerrero": "Guerrero",
+    "Druida": "Druida",
+    "Clérigo": "Clérigo",
+    "Brujo": "Brujo",
+    "Bardo": "Bardo"
+  },
+  "entries": {
+    "Golpes benditos: Lanzamiento de conjuros potente": {
+      "name": "Golpes benditos: Lanzamiento de conjuros potente"
+    },
+    "Orden divina: Protector": {
+      "name": "Orden divina: Protector"
+    },
+    "Orden divina: Taumaturgo": {
+      "name": "Orden divina: Taumaturgo"
+    },
+    "Golpes benditos: Golpe divino": {
+      "name": "Golpes benditos: Golpe divino"
+    },
+    "Furia elemental: Lanzamiento de conjuros potente": {
+      "name": "Furia elemental: Lanzamiento de conjuros potente"
+    },
+    "Furia elemental: Golpe primordial": {
+      "name": "Furia elemental: Golpe primordial"
+    },
+    "Orden primordial: Mago": {
+      "name": "Orden primordial: Mago"
+    },
+    "Orden primordial: Guardián": {
+      "name": "Orden primordial: Guardián"
+    },
+    "Bárbaro": {
+      "name": "Bárbaro"
+    },
+    "Senda del berserker": {
+      "name": "Senda del berserker"
+    },
+    "Golpe brutal": {
+      "name": "Golpe brutal"
+    },
+    "Sentir el peligro": {
+      "name": "Sentir el peligro"
+    },
+    "Dote épica": {
+      "name": "Dote épica"
+    },
+    "Ataque adicional": {
+      "name": "Ataque adicional"
+    },
+    "Movimiento rápido": {
+      "name": "Movimiento rápido"
+    },
+    "Instinto feroz": {
+      "name": "Instinto feroz"
+    },
+    "Frenesí": {
+      "name": "Frenesí"
+    },
+    "Golpe brutal mejorado (2)": {
+      "name": "Golpe brutal mejorado (2)"
+    },
+    "Golpe brutal mejorado": {
+      "name": "Golpe brutal mejorado"
+    },
+    "Poderío Indómito": {
+      "name": "Poderío Indómito"
+    },
+    "Embestida instintiva": {
+      "name": "Embestida instintiva"
+    },
+    "Presencia intimidante": {
+      "name": "Presencia intimidante"
+    },
+    "Furia irracional": {
+      "name": "Furia irracional"
+    },
+    "Furia persistente": {
+      "name": "Furia persistente"
+    },
+    "Campeón primordial": {
+      "name": "Campeón primordial"
+    },
+    "Conocimiento primordial": {
+      "name": "Conocimiento primordial"
+    },
+    "Furia": {
+      "name": "Furia"
+    },
+    "Ataque temerario": {
+      "name": "Ataque temerario"
+    },
+    "Furia implacable": {
+      "name": "Furia implacable"
+    },
+    "Represalia": {
+      "name": "Represalia"
+    },
+    "Golpe sin armas": {
+      "name": "Golpe sin armas"
+    },
+    "Defensa sin armadura": {
+      "name": "Defensa sin armadura"
+    },
+    "Maestría con armas": {
+      "name": "Maestría con armas"
+    },
+    "Bardo": {
+      "name": "Bardo"
+    },
+    "Inspiración bárdica": {
+      "name": "Inspiración bárdica"
+    },
+    "Competencias adicionales": {
+      "name": "Competencias adicionales"
+    },
+    "Contracanto": {
+      "name": "Contracanto"
+    },
+    "Palabras hirientes": {
+      "name": "Palabras hirientes"
+    },
+    "Pericia": {
+      "name": "Pericia"
+    },
+    "Fuente de inspiración": {
+      "name": "Fuente de inspiración"
+    },
+    "Aprendiz de todo": {
+      "name": "Aprendiz de todo"
+    },
+    "Colegio del Saber": {
+      "name": "Colegio del Saber"
+    },
+    "Descubrimientos mágicos": {
+      "name": "Descubrimientos mágicos"
+    },
+    "Secretos mágicos": {
+      "name": "Secretos mágicos"
+    },
+    "Habilidad sin par": {
+      "name": "Habilidad sin par"
+    },
+    "Lanzamiento de conjuros": {
+      "name": "Lanzamiento de conjuros"
+    },
+    "Inspiración superior": {
+      "name": "Inspiración superior"
+    },
+    "Palabras de creación": {
+      "name": "Palabras de creación"
+    },
+    "Sanador bendito": {
+      "name": "Sanador bendito"
+    },
+    "Golpes benditos": {
+      "name": "Golpes benditos"
+    },
+    "Canalizar Divinidad": {
+      "name": "Canalizar Divinidad"
+    },
+    "Clérigo": {
+      "name": "Clérigo"
+    },
+    "Discípulo de la vida": {
+      "name": "Discípulo de la vida"
+    },
+    "Intervención divina": {
+      "name": "Intervención divina"
+    },
+    "Orden divina": {
+      "name": "Orden divina"
+    },
+    "Intervención divina superior": {
+      "name": "Intervención divina superior"
+    },
+    "Golpes benditos mejorados": {
+      "name": "Golpes benditos mejorados"
+    },
+    "Dominio de la Vida": {
+      "name": "Dominio de la Vida"
+    },
+    "Conjuros del Dominio de la Vida": {
+      "name": "Conjuros del Dominio de la Vida"
+    },
+    "Preservar vida": {
+      "name": "Preservar vida"
+    },
+    "Abrasmar no muertos": {
+      "name": "Abrasmar no muertos"
+    },
+    "Curación suprema": {
+      "name": "Curación suprema"
+    },
+    "Archidruida": {
+      "name": "Archidruida"
+    },
+    "Conjuros bestiales": {
+      "name": "Conjuros bestiales"
+    },
+    "Círculo de la Tierra": {
+      "name": "Círculo de la Tierra"
+    },
+    "Druida": {
+      "name": "Druida"
+    },
+    "Druídico": {
+      "name": "Druídico"
+    },
+    "Furia elemental": {
+      "name": "Furia elemental"
+    },
+    "Furia elemental mejorada": {
+      "name": "Furia elemental mejorada"
+    },
+    "Conjuros del Círculo de la Tierra": {
+      "name": "Conjuros del Círculo de la Tierra"
+    },
+    "Ayuda de la tierra": {
+      "name": "Ayuda de la tierra"
+    },
+    "Recuperación natural": {
+      "name": "Recuperación natural"
+    },
+    "Santuario de la naturaleza": {
+      "name": "Santuario de la naturaleza"
+    },
+    "Guardián de la naturaleza": {
+      "name": "Guardián de la naturaleza"
+    },
+    "Orden primordial": {
+      "name": "Orden primordial"
+    },
+    "Compañero salvaje": {
+      "name": "Compañero salvaje"
+    },
+    "Resurgimiento salvaje": {
+      "name": "Resurgimiento salvaje"
+    },
+    "Forma salvaje": {
+      "name": "Forma salvaje"
+    },
+    "Guerrero bendito": {
+      "name": "Guerrero bendito"
+    },
+    "Guerrero druídico": {
+      "name": "Guerrero druídico"
+    },
+    "Oleada de acción": {
+      "name": "Oleada de acción"
+    },
+    "Estilo de combate adicional": {
+      "name": "Estilo de combate adicional"
+    },
+    "Campeón": {
+      "name": "Campeón"
+    },
+    "Guerrero": {
+      "name": "Guerrero"
+    },
+    "Estilo de combate": {
+      "name": "Estilo de combate"
+    },
+    "Guerrero heroico": {
+      "name": "Guerrero heroico"
+    },
+    "Crítico mejorado": {
+      "name": "Crítico mejorado"
+    },
+    "Indomable": {
+      "name": "Indomable"
+    },
+    "Atleta notable": {
+      "name": "Atleta notable"
+    },
+    "Segundo aliento": {
+      "name": "Segundo aliento"
+    },
+    "Ataques estudiados": {
+      "name": "Ataques estudiados"
+    },
+    "Crítico superior": {
+      "name": "Crítico superior"
+    },
+    "Superviviente": {
+      "name": "Superviviente"
+    },
+    "Maestro táctico": {
+      "name": "Maestro táctico"
+    },
+    "Mente táctica": {
+      "name": "Mente táctica"
+    },
+    "Cambio táctico": {
+      "name": "Cambio táctico"
+    },
+    "Tres ataques adicionales": {
+      "name": "Tres ataques adicionales"
+    },
+    "Dos ataques adicionales": {
+      "name": "Dos ataques adicionales"
+    },
+    "Ráfaga agónica": {
+      "name": "Ráfaga agónica"
+    },
+    "Armadura de sombras": {
+      "name": "Armadura de sombras"
+    },
+    "Paso ascendente": {
+      "name": "Paso ascendente"
+    },
+    "Visión del diablo": {
+      "name": "Visión del diablo"
+    },
+    "Hoja devoradora": {
+      "name": "Hoja devoradora"
+    },
+    "Mente arcana": {
+      "name": "Mente arcana"
+    },
+    "Castigo arcano": {
+      "name": "Castigo arcano"
+    },
+    "Lanza arcana": {
+      "name": "Lanza arcana"
+    },
+    "Vigor infernal": {
+      "name": "Vigor infernal"
+    },
+    "Mirada de dos mentes": {
+      "name": "Mirada de dos mentes"
+    },
+    "Don de las profundidades": {
+      "name": "Don de las profundidades"
+    },
+    "Don de los protectores": {
+      "name": "Don de los protectores"
+    },
+    "Inversión del maestro de la cadena": {
+      "name": "Inversión del maestro de la cadena"
+    },
+    "Lecciones de los Primeros": {
+      "name": "Lecciones de los Primeros"
+    },
+    "Bebedor de vida": {
+      "name": "Bebedor de vida"
+    },
+    "Máscara de muchas caras": {
+      "name": "Máscara de muchas caras"
+    },
+    "Maestro de las formas infinitas": {
+      "name": "Maestro de las formas infinitas"
+    },
+    "Visiones brumosas": {
+      "name": "Visiones brumosas"
+    },
+    "Uno con las sombras": {
+      "name": "Uno con las sombras"
+    },
+    "Salto de otro mundo": {
+      "name": "Salto de otro mundo"
+    },
+    "Pacto de la hoja": {
+      "name": "Pacto de la hoja"
+    },
+    "Pacto de la cadena": {
+      "name": "Pacto de la cadena"
+    },
+    "Pacto del tomo": {
+      "name": "Pacto del tomo"
+    },
+    "Ráfaga repelente": {
+      "name": "Ráfaga repelente"
+    },
+    "Hoja sedienta": {
+      "name": "Hoja sedienta"
+    },
+    "Visiones de reinos lejanos": {
+      "name": "Visiones de reinos lejanos"
+    },
+    "Susurros de la tumba": {
+      "name": "Susurros de la tumba"
+    },
+    "Vista de bruja": {
+      "name": "Vista de bruja"
+    },
+    "Conjuro cuidadoso": {
+      "name": "Conjuro cuidadoso"
+    },
+    "Conjuro distante": {
+      "name": "Conjuro distante"
+    },
+    "Conjuro potenciado": {
+      "name": "Conjuro potenciado"
+    },
+    "Conjuro extendido": {
+      "name": "Conjuro extendido"
+    },
+    "Conjuro intensificado": {
+      "name": "Conjuro intensificado"
+    },
+    "Conjuro acelerado": {
+      "name": "Conjuro acelerado"
+    },
+    "Conjuro certero": {
+      "name": "Conjuro certero"
+    },
+    "Conjuro sutil": {
+      "name": "Conjuro sutil"
+    },
+    "Conjuro transmutado": {
+      "name": "Conjuro transmutado"
+    },
+    "Conjuro gemelo": {
+      "name": "Conjuro gemelo"
+    },
+    "Movimiento acrobático": {
+      "name": "Movimiento acrobático"
+    },
+    "Cuerpo y mente": {
+      "name": "Cuerpo y mente"
+    },
+    "Desviar ataques": {
+      "name": "Desviar ataques"
+    },
+    "Desviar energía": {
+      "name": "Desviar energía"
+    },
+    "Superviviente disciplinado": {
+      "name": "Superviviente disciplinado"
+    },
+    "Golpes potenciados": {
+      "name": "Golpes potenciados"
+    },
+    "Don épico": {
+      "name": "Don épico"
+    },
+    "Evasión": {
+      "name": "Evasión"
+    },
+    "Paso veloz": {
+      "name": "Paso veloz"
+    },
+    "Concentración intensificada": {
+      "name": "Concentración intensificada"
+    },
+    "Artes marciales": {
+      "name": "Artes marciales"
+    },
+    "Monje": {
+      "name": "Monje"
+    },
+    "Concentración del monje": {
+      "name": "Concentración del monje"
+    },
+    "Técnica de la mano abierta": {
+      "name": "Técnica de la mano abierta"
+    },
+    "Guerrero de la mano abierta": {
+      "name": "Guerrero de la mano abierta"
+    },
+    "Concentración perfecta": {
+      "name": "Concentración perfecta"
+    },
+    "Palma vibrante": {
+      "name": "Palma vibrante"
+    },
+    "Caída lenta": {
+      "name": "Caída lenta"
+    },
+    "Golpe aturdidor": {
+      "name": "Golpe aturdidor"
+    },
+    "Defensa superior": {
+      "name": "Defensa superior"
+    },
+    "Movimiento sin armadura": {
+      "name": "Movimiento sin armadura"
+    },
+    "Metabolismo insólito": {
+      "name": "Metabolismo insólito"
+    },
+    "Plenitud del cuerpo": {
+      "name": "Plenitud del cuerpo"
+    },
+    "Abjurar enemigos": {
+      "name": "Abjurar enemigos"
+    },
+    "Expansión del aura": {
+      "name": "Expansión del aura"
+    },
+    "Canalización divina": {
+      "name": "Canalización divina"
+    },
+    "Aura de valor": {
+      "name": "Aura de valor"
+    },
+    "Aura de devoción": {
+      "name": "Aura de devoción"
+    },
+    "Conjuros del Juramento de devoción": {
+      "name": "Conjuros del Juramento de devoción"
+    },
+    "Corcel fiel": {
+      "name": "Corcel fiel"
+    },
+    "Nimbus sagrado": {
+      "name": "Nimbus sagrado"
+    },
+    "Imposición de manos": {
+      "name": "Imposición de manos"
+    },
+    "Juramento de devoción": {
+      "name": "Juramento de devoción"
+    },
+    "Paladín": {
+      "name": "Paladín"
+    },
+    "Castigo del paladín": {
+      "name": "Castigo del paladín"
+    },
+    "Aura de protección": {
+      "name": "Aura de protección"
+    },
+    "Golpes radiantes": {
+      "name": "Golpes radiantes"
+    },
+    "Toque restaurador": {
+      "name": "Toque restaurador"
+    },
+    "Arma sagrada": {
+      "name": "Arma sagrada"
+    },
+    "Castigo de protección": {
+      "name": "Castigo de protección"
+    },
+    "Dominio de armas": {
+      "name": "Dominio de armas"
+    },
+    "Acción astuta": {
+      "name": "Acción astuta"
+    },
+    "Golpe astuto": {
+      "name": "Golpe astuto"
+    },
+    "Golpes taimados": {
+      "name": "Golpes taimados"
+    },
+    "Escurridizo": {
+      "name": "Escurridizo"
+    },
+    "Manos rápidas": {
+      "name": "Manos rápidas"
+    },
+    "Golpe astuto mejorado": {
+      "name": "Golpe astuto mejorado"
+    },
+    "Talento fiable": {
+      "name": "Talento fiable"
+    },
+    "Pícaro": {
+      "name": "Pícaro"
+    },
+    "Trabajo de segunda planta": {
+      "name": "Trabajo de segunda planta"
+    },
+    "Mente escurridiza": {
+      "name": "Mente escurridiza"
+    },
+    "Ataque furtivo": {
+      "name": "Ataque furtivo"
+    },
+    "Puntería firme": {
+      "name": "Puntería firme"
+    },
+    "Golpe de suerte": {
+      "name": "Golpe de suerte"
+    },
+    "Sigilo supremo": {
+      "name": "Sigilo supremo"
+    },
+    "Ladrón": {
+      "name": "Ladrón"
+    },
+    "Reflejos de ladrón": {
+      "name": "Reflejos de ladrón"
+    },
+    "Jerga de ladrones": {
+      "name": "Jerga de ladrones"
+    },
+    "Esquiva asombrosa": {
+      "name": "Esquiva asombrosa"
+    },
+    "Usar objeto mágico": {
+      "name": "Usar objeto mágico"
+    },
+    "Tácticas defensivas": {
+      "name": "Tácticas defensivas"
+    },
+    "Explorador diestro": {
+      "name": "Explorador diestro"
+    },
+    "Enemigo predilecto": {
+      "name": "Enemigo predilecto"
+    },
+    "Sentidos ferales": {
+      "name": "Sentidos ferales"
+    },
+    "Azote de enemigos": {
+      "name": "Azote de enemigos"
+    },
+    "Cazador": {
+      "name": "Cazador"
+    },
+    "Saber del cazador": {
+      "name": "Saber del cazador"
+    },
+    "Presa del cazador": {
+      "name": "Presa del cazador"
+    },
+    "Velo de la naturaleza": {
+      "name": "Velo de la naturaleza"
+    },
+    "Cazador preciso": {
+      "name": "Cazador preciso"
+    },
+    "Explorador": {
+      "name": "Explorador"
+    },
+    "Cazador implacable": {
+      "name": "Cazador implacable"
+    },
+    "Errante": {
+      "name": "Errante"
+    },
+    "Defensa superior del cazador": {
+      "name": "Defensa superior del cazador"
+    },
+    "Presa superior del cazador": {
+      "name": "Presa superior del cazador"
+    },
+    "Incansable": {
+      "name": "Incansable"
+    },
+    "Apoteosis arcana": {
+      "name": "Apoteosis arcana"
+    },
+    "Resiliencia dracónica": {
+      "name": "Resiliencia dracónica"
+    },
+    "Hechicería dracónica": {
+      "name": "Hechicería dracónica"
+    },
+    "Conjuros dracónicos": {
+      "name": "Conjuros dracónicos"
+    },
+    "Compañero dracónico": {
+      "name": "Compañero dracónico"
+    },
+    "Alas de dragón": {
+      "name": "Alas de dragón"
+    },
+    "Afinidad elemental": {
+      "name": "Afinidad elemental"
+    },
+    "Fuente de magia": {
+      "name": "Fuente de magia"
+    },
+    "Hechicería innata": {
+      "name": "Hechicería innata"
+    },
+    "Metamagia": {
+      "name": "Metamagia"
+    },
+    "Hechicero": {
+      "name": "Hechicero"
+    },
+    "Restauración hechiceril": {
+      "name": "Restauración hechiceril"
+    },
+    "Hechicería encarnada": {
+      "name": "Hechicería encarnada"
+    },
+    "Libro de las sombras": {
+      "name": "Libro de las sombras"
+    },
+    "Contactar con el patrón": {
+      "name": "Contactar con el patrón"
+    },
+    "Bendición del Oscuro": {
+      "name": "Bendición del Oscuro"
+    },
+    "Suerte propia del Oscuro": {
+      "name": "Suerte propia del Oscuro"
+    },
+    "Invocaciones arcanas": {
+      "name": "Invocaciones arcanas"
+    },
+    "Maestro arcano": {
+      "name": "Maestro arcano"
+    },
+    "Patrón infernal": {
+      "name": "Patrón infernal"
+    },
+    "Conjuros infernales": {
+      "name": "Conjuros infernales"
+    },
+    "Resiliencia infernal": {
+      "name": "Resiliencia infernal"
+    },
+    "Arrojar a través del Infierno": {
+      "name": "Arrojar a través del Infierno"
+    },
+    "Astucia mágica": {
+      "name": "Astucia mágica"
+    },
+    "Arcano místico": {
+      "name": "Arcano místico"
+    },
+    "Magia de pacto": {
+      "name": "Magia de pacto"
+    },
+    "Brujo": {
+      "name": "Brujo"
+    },
+    "Recuperación arcana": {
+      "name": "Recuperación arcana"
+    },
+    "Evocación potenciada": {
+      "name": "Evocación potenciada"
+    },
+    "Erudito en evocación": {
+      "name": "Erudito en evocación"
+    },
+    "Evocador": {
+      "name": "Evocador"
+    },
+    "Memorizar conjuro": {
+      "name": "Memorizar conjuro"
+    },
+    "Sobrecargar": {
+      "name": "Sobrecargar"
+    },
+    "Truco potente": {
+      "name": "Truco potente"
+    },
+    "Adepto a los rituales": {
+      "name": "Adepto a los rituales"
+    },
+    "Erudito": {
+      "name": "Erudito"
+    },
+    "Esculpir conjuros": {
+      "name": "Esculpir conjuros"
+    },
+    "Conjuros característicos": {
+      "name": "Conjuros característicos"
+    },
+    "Maestría de conjuros": {
+      "name": "Maestría de conjuros"
+    },
+    "Mago": {
+      "name": "Mago"
+    }
+  }
+}

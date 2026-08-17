@@ -1,0 +1,2640 @@
+{
+  "label": "Items (SRD)",
+  "folders": {
+    "Ammunition": "Ammunition",
+    "Armor": "Armor",
+    "Container": "Container",
+    "Equipment": "Equipment",
+    "Equipment Packs": "Equipment Packs",
+    "Food": "Food",
+    "Loot": "Loot",
+    "Poison": "Poison",
+    "Potion": "Potion",
+    "Ring": "Ring",
+    "Rod": "Rod",
+    "Scroll": "Scroll",
+    "Spellcasting Focus": "Spellcasting Focus",
+    "Tool": "Tool",
+    "Trinket": "Trinket",
+    "Wand": "Wand",
+    "Weapon": "Weapon"
+  },
+  "entries": {
+    "00BggOkChWztQx6R": {
+      "name": "Studded Leather Armor +3"
+    },
+    "07R6JFioylOCpVoL": {
+      "name": "Frost Brand Scimitar"
+    },
+    "09i8r1UmzDSKiZ9g": {
+      "name": "Glaive +1"
+    },
+    "0E565kQUBmndJ1a2": {
+      "name": "Dagger"
+    },
+    "0G5LSgbb5NTV4XC7": {
+      "name": "Ioun Stone of Strength"
+    },
+    "0LVFLPmsu1b2vf8E": {
+      "name": "Flail +1"
+    },
+    "0NoBBP3MMkvJlwZY": {
+      "name": "Candle"
+    },
+    "0ZBWwjFz3nIAXMLW": {
+      "name": "Jug"
+    },
+    "0d08g1i5WXnNrCNA": {
+      "name": "Tinker's Tools"
+    },
+    "0huCWvOncUsme84v": {
+      "name": "Paper"
+    },
+    "10ZP2Bu3vnCuYMIB": {
+      "name": "Longsword"
+    },
+    "14pNRT4sZy9rgvhb": {
+      "name": "Hammer"
+    },
+    "159agyOuBHCl2WKd": {
+      "name": "Adamantine Half Plate Armor"
+    },
+    "18fbyArtidKzON01": {
+      "name": "Wand of Magic Detection"
+    },
+    "1FSubnBpSTDmVaYV": {
+      "name": "Tinderbox"
+    },
+    "1J0dsxyKRhVXYQf5": {
+      "name": "Ring of Invisibility"
+    },
+    "1KMSpOSU0EliUBm2": {
+      "name": "Potion of Storm Giant Strength"
+    },
+    "1L5wkmbw0fmNAr38": {
+      "name": "Waterskin"
+    },
+    "1Lxk6kmoRhG8qQ0u": {
+      "name": "Greataxe"
+    },
+    "1PMaZR6CX8fUnOZd": {
+      "name": "Vicious Shortsword"
+    },
+    "1RwJWOAeyoideLKe": {
+      "name": "Orb of Dragonkind"
+    },
+    "1kihEfn9QppB34ee": {
+      "name": "Maul +2"
+    },
+    "1taRIMF9w7jpnonN": {
+      "name": "Wand of Magic Missiles"
+    },
+    "23y8FvWKf9YLcnBL": {
+      "name": "Chess Set"
+    },
+    "296Zgo9RhltWShE1": {
+      "name": "Stone of Good Luck (Luckstone)"
+    },
+    "29ZLE8PERtFVD3QU": {
+      "name": "Torch"
+    },
+    "29e6gHwWKNLaRUoz": {
+      "name": "Rope of Climbing"
+    },
+    "2BYm8to5KldN8eYu": {
+      "name": "Tome of Clear Thought"
+    },
+    "2CQnAvn06bncXPBt": {
+      "name": "Mace +3"
+    },
+    "2Lkub0qIwucWEfp3": {
+      "name": "Nine Lives Stealer Shortsword"
+    },
+    "2YNqk5zm9jDTvd7q": {
+      "name": "Sphere of Annihilation"
+    },
+    "2YbuclKfhDL0bU4u": {
+      "name": "Chest"
+    },
+    "2YdfjN1PIIrSHZii": {
+      "name": "War Pick"
+    },
+    "2cKJTN5Ki77oCrQn": {
+      "name": "Waterskin"
+    },
+    "2ksm2KXCY3vBHTAx": {
+      "name": "Robe of Useful Items"
+    },
+    "2mvXGvDmHHhzbT04": {
+      "name": "Horseshoes of a Zephyr"
+    },
+    "2veAOEyfbDJuxR8Y": {
+      "name": "Ring of Warmth"
+    },
+    "2wK9ImkAeG3Lzxa0": {
+      "name": "Scimitar +3"
+    },
+    "2wxqnjpnPmkpPCC5": {
+      "name": "Ring of Evasion"
+    },
+    "34YKlIJVVWLeBv7R": {
+      "name": "Potion of Cold Resistance"
+    },
+    "3ALOhh6JNInIK4o7": {
+      "name": "Necklace of Fireballs"
+    },
+    "3FNyS6DeCBZzFbqU": {
+      "name": "Vorpal Greatsword"
+    },
+    "3OXueEpvDDCVfGFA": {
+      "name": "Fine Clothes"
+    },
+    "3Q6rw9kAMf6F1SW5": {
+      "name": "Hand Crossbow +2"
+    },
+    "3TWT5bv3z5zGUZCe": {
+      "name": "Gauntlets of Ogre Power"
+    },
+    "3X7vdOjnCSpi40yn": {
+      "name": "Ring of Fire Resistance"
+    },
+    "3YH1o1Wa4gcdN3fh": {
+      "name": "Pike +3"
+    },
+    "3YSUIp4eFo26YxJr": {
+      "name": "Ball Bearings"
+    },
+    "3b0RvGi0TnTYpIxn": {
+      "name": "Stick of Incense"
+    },
+    "3c7JXOzsv55gqJS5": {
+      "name": "Arrow"
+    },
+    "3cymOVja8jXbzrdT": {
+      "name": "Longbow"
+    },
+    "3gynWO9sN4OLGMWD": {
+      "name": "Sling"
+    },
+    "3h3ZU6qmQs18FfkA": {
+      "name": "Mithral Chain Shirt"
+    },
+    "3nVvaHVfHsgwGlkL": {
+      "name": "Small Knife"
+    },
+    "3rCO8MTIdPGSW6IJ": {
+      "name": "Dart"
+    },
+    "3uEyuCfnAzGkwAn5": {
+      "name": "Sealing Wax"
+    },
+    "419eNv7xp2p7Xlo5": {
+      "name": "Blanket"
+    },
+    "41kYCmKq0PbGVKaM": {
+      "name": "Figurine of Wondrous Power (Ivory Goat of Travail)"
+    },
+    "44XNWmMGnwXn7bNW": {
+      "name": "Pearl of Power"
+    },
+    "466j8hy4AiENMHVQ": {
+      "name": "Plate Armor +3"
+    },
+    "46ikeR4RrSim6DsN": {
+      "name": "Talisman of the Sphere"
+    },
+    "4932CLHvjZYxOm4g": {
+      "name": "Exotic Saddle"
+    },
+    "4MeSq8KcF7KK7emF": {
+      "name": "Vicious Light Hammer"
+    },
+    "4MtQKPn9qMWCFjDA": {
+      "name": "Quiver"
+    },
+    "4ZiJsDTRA1GgcWKP": {
+      "name": "Potion of Stone Giant Strength"
+    },
+    "4sR5HOah6KwVPHOb": {
+      "name": "Wand of Web"
+    },
+    "50N8zf58FR4JWR05": {
+      "name": "Amulet of Proof against Detection and Location"
+    },
+    "59pjg8FGM4GG4Fdd": {
+      "name": "Dagger +1"
+    },
+    "5Jz5w7XJxgtlsx6K": {
+      "name": "Vicious Dagger"
+    },
+    "5KiRtMMSTnJmMtBr": {
+      "name": "Crystal Ball of Telepathy"
+    },
+    "5Rxo4K9cgpwgW9vZ": {
+      "name": "Wand of Enemy Detection"
+    },
+    "5SorTMl8NKDO9Yge": {
+      "name": "Ring of Poison Resistance"
+    },
+    "5fJn3LQ2eQG7luEO": {
+      "name": "Chalk"
+    },
+    "5m9ErO9In8Uc5yyf": {
+      "name": "Potion of Superior Healing"
+    },
+    "5mIeX824uMklU3xq": {
+      "name": "Map or Scroll Case"
+    },
+    "6067acDZGv7KNOkP": {
+      "name": "Elven Chain"
+    },
+    "62EaozKvcA0aSy2q": {
+      "name": "Spear +3"
+    },
+    "63nb14yQRJMc4bIn": {
+      "name": "Philter of Love"
+    },
+    "66UkbfH0PVwo4HgA": {
+      "name": "Robe of Stars"
+    },
+    "698gLyJ4JKVVMF53": {
+      "name": "Padded Armor of Resistance"
+    },
+    "69Dpr25pf4BjkHKb": {
+      "name": "Drum"
+    },
+    "6BybWxK5GcEzqcOV": {
+      "name": "Priest's Pack"
+    },
+    "6I5lt8KheTsAE4Zr": {
+      "name": "Sling +1"
+    },
+    "6JbrdSg5YYbs9ANm": {
+      "name": "Vicious Maul"
+    },
+    "6MDTnMG4Hcw7qZsy": {
+      "name": "Ioun Stone of Sustenance"
+    },
+    "6OIw31CDF6mAwFnd": {
+      "name": "Bolt of Slaying"
+    },
+    "6OYR11aJX2dEVtOj": {
+      "name": "Entertainer's Pack"
+    },
+    "6ai1pEde3iQX30Fr": {
+      "name": "Cubic Gate"
+    },
+    "6eMHIQ2CGKpjTtWC": {
+      "name": "Scroll Case"
+    },
+    "6n8J07mFo8xs11vS": {
+      "name": "Dancing Rapier"
+    },
+    "6ndqUhOySYVVQ5on": {
+      "name": "Halberd +2"
+    },
+    "6pjaQzbtxQTuQ4RW": {
+      "name": "Rod of Absorption"
+    },
+    "6rocoBx5jdzG1QQH": {
+      "name": "Healer's Kit"
+    },
+    "79zrBwqEp2MCJ1Bl": {
+      "name": "Ball Bearings"
+    },
+    "7FEcfqz1piPHN1tV": {
+      "name": "Ioun Stone of Greater Absorption"
+    },
+    "7FLs8qIGdOFnz9oL": {
+      "name": "Lantern of Revealing"
+    },
+    "7Yqbqg5EtVW16wfT": {
+      "name": "Barrel"
+    },
+    "7i4s9msZWpAw4Ynv": {
+      "name": "Dagger of Venom"
+    },
+    "7jEKkA9qbwJ3IuCb": {
+      "name": "Wand of Binding"
+    },
+    "7kVZo4DLBq22406E": {
+      "name": "Quarterstaff +2"
+    },
+    "7vqs5AqI4VCmuszx": {
+      "name": "Handy Haversack"
+    },
+    "7wY0389wscheFkIa": {
+      "name": "Scimitar of Speed"
+    },
+    "7ztvHyYJCcOOAWmR": {
+      "name": "Censer"
+    },
+    "84z9mVy1mCipUWEY": {
+      "name": "Breastplate +1"
+    },
+    "8ABk0XV76Hzq8Qul": {
+      "name": "Amulet of the Planes"
+    },
+    "8CaODbNQtxHGuVjn": {
+      "name": "Figurine of Wondrous Power (Ivory Goat of Terror)"
+    },
+    "8Fe9YSSe4ymQq8UM": {
+      "name": "Ink Pen"
+    },
+    "8GCEodUsTEEpBlO6": {
+      "name": "Robes"
+    },
+    "8KWz5DJbWUpNWniP": {
+      "name": "Explorer's Pack"
+    },
+    "8LZBOY5USLZ4ngDq": {
+      "name": "Greatsword +2"
+    },
+    "8MNDhKb1Q87QszOJ": {
+      "name": "Longsword of Sharpness"
+    },
+    "8MPnSrvEeZhPhtTi": {
+      "name": "Potion of Lightning Resistance"
+    },
+    "8N1GqcdroUpmM9dS": {
+      "name": "Warhammer +1"
+    },
+    "8NS6MSOdXtUqD7Ib": {
+      "name": "Carpenter's Tools"
+    },
+    "8PI1EL8xHLq4tXKr": {
+      "name": "Ring of Spell Turning"
+    },
+    "8RXjiddJ6VGyE7vB": {
+      "name": "Common Clothes"
+    },
+    "8W6ULfSqzuHh6Peg": {
+      "name": "Longbow +3"
+    },
+    "8d95YV1jHcxPygJ9": {
+      "name": "Rations"
+    },
+    "8dfhaa1g3VDjhtm3": {
+      "name": "Eyes of Charming"
+    },
+    "8l7M3zeqrU2vkA5h": {
+      "name": "Bit and Bridle"
+    },
+    "8tvhh5wqG5FRh3Sf": {
+      "name": "Caltrops"
+    },
+    "8wXB18E0oPAYFkqc": {
+      "name": "Heavy Crossbow +2"
+    },
+    "902yxeFDwavpm6cv": {
+      "name": "Shortsword of Life Stealing"
+    },
+    "9G9QGSPgpZDSsm37": {
+      "name": "Sledgehammer"
+    },
+    "9GSfMg0VOA2b4uFN": {
+      "name": "Spell Scroll 1st Level"
+    },
+    "9Ifr8fGvJ1bArzOW": {
+      "name": "Bag of Tricks (Grey)"
+    },
+    "9Mdes2tKt0cqsNTw": {
+      "name": "Nine Lives Stealer Scimitar"
+    },
+    "9UvWQTY5yIgkJmmb": {
+      "name": "Circlet of Blasting"
+    },
+    "9bWTRRDym06PzSAf": {
+      "name": "Pouch"
+    },
+    "9c0CHs90xqPw81iP": {
+      "name": "Parchment"
+    },
+    "9cIlRtKDtDXQtElf": {
+      "name": "Ring of Spell Storing"
+    },
+    "9eyZY9tL3fXD1Mbm": {
+      "name": "Dust of Sneezing and Choking"
+    },
+    "9jMQEm99q1ttAV1Q": {
+      "name": "Ioun Stone of Insight"
+    },
+    "9kfMsSweOBui0SC4": {
+      "name": "Rod of Security"
+    },
+    "9nxSHbqlDdngtuuz": {
+      "name": "Figurine of Wondrous Power (Onyx Dog)"
+    },
+    "9qOAoFw9dTXhJ1w0": {
+      "name": "Sling +2"
+    },
+    "9stfX2i2I1YPo8vx": {
+      "name": "Instant Fortress"
+    },
+    "9uT9SXy1Gb1jiiZX": {
+      "name": "Scale Mail +3"
+    },
+    "9v0TPDXNa9S7aNB4": {
+      "name": "Periapt of Health"
+    },
+    "A2i08i8gAFscm6hZ": {
+      "name": "Longbow +1"
+    },
+    "AChuumAYmts5uGFT": {
+      "name": "Vicious Sickle"
+    },
+    "ADH0UZ8bf7Op0dgf": {
+      "name": "Crystal Ball of True Seeing"
+    },
+    "AHn15T1TOuDFS0GH": {
+      "name": "Sickle +3"
+    },
+    "Ajyq6nGwF7FtLhDQ": {
+      "name": "Mace"
+    },
+    "AkyQyonZMVcvOrXU": {
+      "name": "Crowbar"
+    },
+    "Aq1rhgcgFnwu2T4I": {
+      "name": "Cloak of the Bat"
+    },
+    "AweD4kpKGM7Ilu3n": {
+      "name": "Ring of Regeneration"
+    },
+    "BNJmdttKvIwC08Pd": {
+      "name": "Sling Bullet +2"
+    },
+    "BQw5lyopqLmf8B6u": {
+      "name": "Chain Mail Armor of Resistance"
+    },
+    "BeKIrNIvNHRPQ4t5": {
+      "name": "Staff"
+    },
+    "BefbYlWbRYyy6R8s": {
+      "name": "Nine Lives Stealer Longsword"
+    },
+    "BjyTJn9oGvURWKJR": {
+      "name": "Manual of Bodily Health"
+    },
+    "BmWnprrj0QWQ1BL3": {
+      "name": "Quarterstaff +3"
+    },
+    "BnOCLuNWhVvzHLjl": {
+      "name": "Torch"
+    },
+    "BsyPV6eTNghT3Fho": {
+      "name": "Eyes of Minute Seeing"
+    },
+    "Bt7nIb37nU7Wxevx": {
+      "name": "Book of Lore"
+    },
+    "BwC8hZaNjO7IQc6K": {
+      "name": "Splint Armor +3"
+    },
+    "C05ytVXByOG8uBAc": {
+      "name": "Small Knife"
+    },
+    "C0MNXWA81ufzGlp5": {
+      "name": "Oil of Sharpness"
+    },
+    "CAZMwFBWp9VC0ZCg": {
+      "name": "Potion of Water Breathing"
+    },
+    "CG0LhGQtc3KOAeE1": {
+      "name": "Tinderbox"
+    },
+    "CI58LNiwrTpmWYMp": {
+      "name": "Figurine of Wondrous Power (Bronze Griffon)"
+    },
+    "CNVsvqfTbtcoHiEo": {
+      "name": "Candle"
+    },
+    "CNdDj8dsXVpRVpXt": {
+      "name": "Sack"
+    },
+    "CVMGOJWTO6TCybrH": {
+      "name": "Lance +2"
+    },
+    "CcTGZzQHejxEVLK1": {
+      "name": "Mithral Breastplate"
+    },
+    "CoUFHk5keIihsbYL": {
+      "name": "Flame Tongue Rapier"
+    },
+    "Ct9LR9Ft1FG4a6Y1": {
+      "name": "Potion of Mind Reading"
+    },
+    "CvzjhUy9ekRieR1A": {
+      "name": "Eversmoking Bottle"
+    },
+    "CwWbeQ6XyqFzbMYw": {
+      "name": "Book of Shadows"
+    },
+    "DEQkJiQdGyfmSNkV": {
+      "name": "Helm of Teleportation"
+    },
+    "DM7hzgL836ZyUFB1": {
+      "name": "Spell Scroll 4th Level"
+    },
+    "DMejWAc8r8YvDPP1": {
+      "name": "Halberd"
+    },
+    "DNOSEAvF4Oh1DlWy": {
+      "name": "Tinderbox"
+    },
+    "DSHi7yT6OUyDoCcu": {
+      "name": "Bracers of Defense"
+    },
+    "DSWvkerPQsusbqzJ": {
+      "name": "Tinderbox"
+    },
+    "DT02xK1DzxLNlVaI": {
+      "name": "Frost Brand Shortsword"
+    },
+    "DVXmyetZuvxbzAwW": {
+      "name": "Bedroll"
+    },
+    "DWLMnODrnHn8IbAG": {
+      "name": "Javelin"
+    },
+    "DWwBkOFuYf5VN3M2": {
+      "name": "Periapt of Wound Closure"
+    },
+    "DeK9uQvNJj3JzFwe": {
+      "name": "Carpet of Flying (4x6)"
+    },
+    "DevmObXWP9MfwE2c": {
+      "name": "Adamantine Breastplate"
+    },
+    "DizirD7eqjh8n95A": {
+      "name": "Maul"
+    },
+    "DnlQkH6Bpwkd5n5Y": {
+      "name": "Feather Token Anchor"
+    },
+    "Do3qeSHtBjUsmfvz": {
+      "name": "Rod of Alertness"
+    },
+    "DoSvjhRARhRqWZXg": {
+      "name": "Wand of Fireballs"
+    },
+    "DxIdfGoJEYQj8o3D": {
+      "name": "Bag of Tricks (Rust)"
+    },
+    "DxfCBU7uBoRNAnDm": {
+      "name": "Bedroll"
+    },
+    "E2h6sEe6FU2tnU96": {
+      "name": "Costume Clothes"
+    },
+    "E7c4zpWdYgkKDHGo": {
+      "name": "Luck Blade Scimitar"
+    },
+    "E9G4jALlSA96fKAN": {
+      "name": "Iron Bands of Binding"
+    },
+    "EC6ugXsfJZmjMNAj": {
+      "name": "Rations"
+    },
+    "EJFql4aNWHHJSxT9": {
+      "name": "Wand of Fear"
+    },
+    "EJVaAvNfCq6gn6VG": {
+      "name": "Helm of Telepathy"
+    },
+    "ER75WHewYN04Zp11": {
+      "name": "Belt of Hill Giant Strength"
+    },
+    "ET8Oo5vaTZqyb7rN": {
+      "name": "Breastplate +2"
+    },
+    "EU78dSbnr91QWZ7g": {
+      "name": "Halberd +3"
+    },
+    "EWdfUQriSabqDESm": {
+      "name": "Dart +2"
+    },
+    "EkTpM4Wbsrdqflzl": {
+      "name": "Trident +2"
+    },
+    "ElLfmohtIFMagr5f": {
+      "name": "Ring of Animal Influence"
+    },
+    "EveBprZPBjfZqXLt": {
+      "name": "Maul +1"
+    },
+    "EwG1EtmbgR3bM68U": {
+      "name": "Lyre"
+    },
+    "F0Df164Xv1gWcYt0": {
+      "name": "Warhammer"
+    },
+    "F3rQcaZvElNEiudk": {
+      "name": "Giant Slayer Handaxe"
+    },
+    "F65ANO66ckP8FDMa": {
+      "name": "Trident"
+    },
+    "F6GwSqjErX1u35Re": {
+      "name": "Bell"
+    },
+    "F6v3Q7dz1SlpLTMf": {
+      "name": "Staff of Thunder and Lightning"
+    },
+    "F8QpasPjLrw2POzE": {
+      "name": "Bag of Beans"
+    },
+    "FCxG64QUxsnF4Lis": {
+      "name": "Holy Avenger Greatsword"
+    },
+    "FF1ktpb2YSiyv896": {
+      "name": "Wooden Staff"
+    },
+    "FHUDEygUW7EWCDgA": {
+      "name": "Vicious Scimitar"
+    },
+    "FIDyR0kZnxGy7bj8": {
+      "name": "Oil of Slipperiness"
+    },
+    "FLoBS3UnFnZTSsSx": {
+      "name": "Chain Shirt +2"
+    },
+    "FZixEM5voQkH84xP": {
+      "name": "Studded Leather Armor +2"
+    },
+    "Fc6UfFNOnW80XMzi": {
+      "name": "Antitoxin"
+    },
+    "FeouSUPUlUhfgeRp": {
+      "name": "Staff of Charming"
+    },
+    "Fgkj11diTJJ7H3JC": {
+      "name": "Feather Token Whip"
+    },
+    "FhtjbeBeP4q5vTyc": {
+      "name": "Javelin +3"
+    },
+    "Fk78kNmp3OLX5EMC": {
+      "name": "Vicious Heavy Crossbow"
+    },
+    "FkDyLSpiynKTQZdi": {
+      "name": "Wings of Flying"
+    },
+    "FpLaviCom3XR1ckP": {
+      "name": "Vicious Greatsword"
+    },
+    "FqFmdzIBUSxFKKfi": {
+      "name": "Fine Clothes"
+    },
+    "FvNOwWbh5FXyX4xe": {
+      "name": "Alchemist's Fire"
+    },
+    "G3cqbejJpfB91VhP": {
+      "name": "Shawm"
+    },
+    "G5m5gYIx9VAUWC3J": {
+      "name": "Pan Flute"
+    },
+    "G7LqGzKR5ts0WlJ9": {
+      "name": "Hourglass"
+    },
+    "G9XQPNLlDXkpVxn1": {
+      "name": "Padded Armor +2"
+    },
+    "GJv6WkD7D2J6rP6M": {
+      "name": "Shortbow"
+    },
+    "GKQSxYvS3m9qKVac": {
+      "name": "Mithral Splint Armor"
+    },
+    "GP2bvHlxVi30OEmo": {
+      "name": "Figurine of Wondrous Power (Marble Elephant)"
+    },
+    "GcpXNc4dKUNw0Tk6": {
+      "name": "Wand of Paralysis"
+    },
+    "Gflnp29aEv5Lc1ZM": {
+      "name": "Cook's Utensils"
+    },
+    "GsuvwoekKZatfKwF": {
+      "name": "Unarmed Strike"
+    },
+    "GtKV1b5uqFQqpEni": {
+      "name": "Padded Armor"
+    },
+    "H6SIiRIig7OMM2Z0": {
+      "name": "Longsword +3"
+    },
+    "H8YCd689ezlD26aT": {
+      "name": "Backpack"
+    },
+    "HF32aZSVw4P0MR4K": {
+      "name": "Chain Shirt Armor of Resistance"
+    },
+    "HLEhnzLbpRbYdAHo": {
+      "name": "Elemental Gem of Water"
+    },
+    "HLhFCDGfI8EK7uV9": {
+      "name": "Boots of Levitation"
+    },
+    "HQJ8tiyyrJJSUSyF": {
+      "name": "Blowgun +3"
+    },
+    "HVpXIU0zZw0a4Fb7": {
+      "name": "Mithral Plate Armor"
+    },
+    "HY8duCwmvlXOruTG": {
+      "name": "Potion of Diminution"
+    },
+    "HZp69hhyNZUUCipF": {
+      "name": "Glass Bottle"
+    },
+    "HZsvDPmvysQKGzGy": {
+      "name": "Steel Mirror"
+    },
+    "HdC66U61pDOknaux": {
+      "name": "Club +3"
+    },
+    "HeDP6dL9daVT3uj2": {
+      "name": "Spear +2"
+    },
+    "HgFNy16VK0iJgpFx": {
+      "name": "Candle"
+    },
+    "HnIERWmmra74hSCw": {
+      "name": "Ring of Water Elemental Command"
+    },
+    "HnJqfKkYXIWo2sp9": {
+      "name": "Vicious Warhammer"
+    },
+    "HokQ1loVJTFxt27u": {
+      "name": "Vorpal Longsword"
+    },
+    "HpEEfZg9PRkXnMi4": {
+      "name": "Splint Armor +1"
+    },
+    "HqM7xtEgwV1l3HTZ": {
+      "name": "Sealing Wax"
+    },
+    "I0WocDSuNpGJayPb": {
+      "name": "Battleaxe"
+    },
+    "I5PWgE4IF40Iv9h4": {
+      "name": "Giant Slayer Rapier"
+    },
+    "I7cOsXsklWkzouHA": {
+      "name": "Vorpal Scimitar"
+    },
+    "IBhDAr7WkhWPYLVn": {
+      "name": "Disguise Kit"
+    },
+    "IGg1yAvcOyhIqzBi": {
+      "name": "Bedroll"
+    },
+    "IGwDN9gtYxCrlrCr": {
+      "name": "Elemental Gem of Earth"
+    },
+    "IPkf0XNowClwXnjQ": {
+      "name": "Longsword +1"
+    },
+    "IY5PveXrF7VoFlWg": {
+      "name": "Arrow +3"
+    },
+    "IeM5Ha2cg0RA99q3": {
+      "name": "Hide Armor +3"
+    },
+    "Ij6x7481ch3Z0rff": {
+      "name": "String, 10 ft."
+    },
+    "Ilyv71AeobM6AvIn": {
+      "name": "Defender Scimitar"
+    },
+    "IpBBqr0r7JanyVn0": {
+      "name": "Ring of Thunder Resistance"
+    },
+    "IrC5LPbWNxlAQoK7": {
+      "name": "Ring of Radiant Resistance"
+    },
+    "ItoGjtOtDOQ2noNM": {
+      "name": "Crystal Ball"
+    },
+    "IuVaBrq17AqxpXc4": {
+      "name": "Wand of the War Mage +3"
+    },
+    "J8gQdJJi5e8LmD7H": {
+      "name": "Rope of Entanglement"
+    },
+    "JDTO996oInbiZGHW": {
+      "name": "Breastplate +3"
+    },
+    "JFiSlgcm3uSSBM5t": {
+      "name": "Potion of Supreme Healing"
+    },
+    "JNkjtTxYmEC7W34O": {
+      "name": "Splint Armor of Resistance"
+    },
+    "JRJpKZyamkpa7awv": {
+      "name": "Robe of Scintillating Colors"
+    },
+    "Jj4iFQQGvckx8Wsj": {
+      "name": "Potion of Fire Resistance"
+    },
+    "JpwuGtFkfrGibQpP": {
+      "name": "Greatsword of Wounding"
+    },
+    "Jvf1NWFxcjfHnMQ5": {
+      "name": "Cloak of Elvenkind"
+    },
+    "JvoufrTkSDMsS9Sm": {
+      "name": "Chain (10 feet)"
+    },
+    "JwJf6M6HCSSMgKx3": {
+      "name": "Rations"
+    },
+    "JyYwliYiWEw2g0yJ": {
+      "name": "Ring of Feather Falling"
+    },
+    "K7h4LT03SNt2807z": {
+      "name": "Vicious Hand Crossbow"
+    },
+    "KA2P6I48iOWlnboO": {
+      "name": "Wand"
+    },
+    "KJYqNZgdkRwPmPMl": {
+      "name": "Rapier of Wounding"
+    },
+    "KJuLguMZCThrQOEx": {
+      "name": "Feed"
+    },
+    "KKWBLKQIWHtcpymp": {
+      "name": "Boots of Elvenkind"
+    },
+    "KhRhwADrTpol3yTx": {
+      "name": "Ring Mail +3"
+    },
+    "KndVe2insuctjIaj": {
+      "name": "Smith's Tools"
+    },
+    "KvIlZssYEtQ4bvSE": {
+      "name": "Warhammer +2"
+    },
+    "KyW8s4pCgPAkgTXI": {
+      "name": "Bell"
+    },
+    "L4PxYPtYca283sju": {
+      "name": "Scimitar of Wounding"
+    },
+    "L887NdWEP5NqHCrQ": {
+      "name": "Potion of Greater Healing"
+    },
+    "L9KBLub5vfb3mTDz": {
+      "name": "Ring of Fire Elemental Command"
+    },
+    "LBQWNqX6hZOKhQ8a": {
+      "name": "Potion of Radiant Resistance"
+    },
+    "LBajgahniRJbAgDr": {
+      "name": "Spellbook"
+    },
+    "LC5LsQOPwoHQW9Mi": {
+      "name": "Ring of Water Walking"
+    },
+    "LDuqUcosOK8Bf76S": {
+      "name": "Adamantine Splint Armor"
+    },
+    "LEC1wkaAUnWzDPDD": {
+      "name": "Javelin of Lightning"
+    },
+    "LECtCKWa0mt0Vy1U": {
+      "name": "Perfume"
+    },
+    "LHaqMvrx3PfSzWMQ": {
+      "name": "Bag of Tricks (Tan)"
+    },
+    "LZcpcR21nte4Yoe2": {
+      "name": "Handaxe +2"
+    },
+    "LdAj2ES9EzfnWcA1": {
+      "name": "Adamantine Scale Mail"
+    },
+    "LiOD83I4MIZlpoQQ": {
+      "name": "Hunting Trap"
+    },
+    "LpD064ilKEeFzVI8": {
+      "name": "Cloak of Displacement"
+    },
+    "Lr8aRsnia8hftPAb": {
+      "name": "Dagger +2"
+    },
+    "M28HYDCueaK7J8u8": {
+      "name": "Ring Mail +2"
+    },
+    "M5APnDW8bKQb7fHI": {
+      "name": "Shield of Missile Attraction"
+    },
+    "M5qkJ7erLqWYUHa0": {
+      "name": "Figurine of Wondrous Power (Obsidian Steed)"
+    },
+    "M8xM8BLK4tpUayEE": {
+      "name": "Iron Pot"
+    },
+    "MAwoj2suj6cvb9Ti": {
+      "name": "Universal Solvent"
+    },
+    "MCMSZrhcD40oMJ9v": {
+      "name": "Boots of Speed"
+    },
+    "MFd96UkSs5g9QO78": {
+      "name": "Dragon Slayer Shortsword"
+    },
+    "MLNzQUsVUi0PEV3i": {
+      "name": "Efficient Quiver"
+    },
+    "MOeFq5MLAQzVQC7z": {
+      "name": "Staff of the Python"
+    },
+    "MSO3JxK8578xSh6x": {
+      "name": "Chain Shirt +1"
+    },
+    "Minr6xegwoHFvAjG": {
+      "name": "Figurine of Wondrous Power (Golden Lions)"
+    },
+    "Mj8fTo5VZKJJ7uMv": {
+      "name": "Sling Bullet of Slaying"
+    },
+    "MnX9soPEMNsCtpv7": {
+      "name": "Hand Crossbow +1"
+    },
+    "Mt2WB1W9nDWO4d16": {
+      "name": "Glaive +2"
+    },
+    "N0in6FE8DQdZrHei": {
+      "name": "Riding Saddle"
+    },
+    "N8XNP3vjVZmM2r9S": {
+      "name": "Blowgun +1"
+    },
+    "NG8BlE2nwYJxCjWO": {
+      "name": "Animated Shield"
+    },
+    "NGVEouqK0I6J6jV5": {
+      "name": "Ioun Stone of Absorption"
+    },
+    "NM1dPyKwHw2DyUWA": {
+      "name": "Ring Mail +1"
+    },
+    "NRj0lC3SM03s1YB3": {
+      "name": "Belt of Cloud Giant Strength"
+    },
+    "NYIib9KEYDUFe9GY": {
+      "name": "Sling Bullet +1"
+    },
+    "Nd4r4hocpfu6fYDP": {
+      "name": "Prayer Wheel"
+    },
+    "NgwrqNa6kkgoPW2Q": {
+      "name": "Shield +1"
+    },
+    "NjTgPn2o0M1TGk93": {
+      "name": "Feather Token Tree"
+    },
+    "NmZMx2u6bHpRyGUa": {
+      "name": "Frost Brand Longsword"
+    },
+    "NrHboku9vJO5FGiY": {
+      "name": "Morningstar +2"
+    },
+    "NtdDkjmpdIMiX7I2": {
+      "name": "Dulcimer"
+    },
+    "O4YbkJkLlnsgUszZ": {
+      "name": "Spell Scroll 9th Level"
+    },
+    "OG4nBBydvmfWYXIk": {
+      "name": "Spear"
+    },
+    "OPbdSlrhkUDNpgcS": {
+      "name": "Wand of the War Mage +1"
+    },
+    "ORKf6RRcalrdD6Qp": {
+      "name": "Belt of Frost Giant Strength"
+    },
+    "OUGMoQYeJzxEcRvm": {
+      "name": "Nine Lives Stealer Rapier"
+    },
+    "OcjcplcUWH07Kn9k": {
+      "name": "Brazier of Commanding Fire Elementals"
+    },
+    "OjkIqlW2UpgFcjZa": {
+      "name": "Plate Armor"
+    },
+    "OojyyGfh91iViuMF": {
+      "name": "Rod"
+    },
+    "Or3kVfJ0Fbr33ARS": {
+      "name": "Greatclub +2"
+    },
+    "OwqRt1pVLhdMQa0d": {
+      "name": "Dwarven Plate"
+    },
+    "P31t6tGgt9aLAdYt": {
+      "name": "Piton"
+    },
+    "P5UuhUBZL59wZiCY": {
+      "name": "Rations"
+    },
+    "P8f9o36qxagW2uRW": {
+      "name": "Maul +3"
+    },
+    "PAXfmZ2ErDlCVy0N": {
+      "name": "Talisman of Ultimate Evil"
+    },
+    "PAa2EG5kzmqxcp46": {
+      "name": "Greataxe +3"
+    },
+    "PGL6aaM0wE5h0VN5": {
+      "name": "Totem"
+    },
+    "PKpftwMAn88gfLi7": {
+      "name": "Morningstar +1"
+    },
+    "PLkzJ310FzBnRrI5": {
+      "name": "Military Saddle"
+    },
+    "PRhtLbRLb9LjHZG7": {
+      "name": "Gloves of Swimming and Climbing"
+    },
+    "PUMfwyVUbtyxgYbD": {
+      "name": "Leatherworker's Tools"
+    },
+    "PV0sn2Nlr8CNn4W9": {
+      "name": "Magnifying Glass"
+    },
+    "PanSr5EbqlfpSvwK": {
+      "name": "Two-Person Tent"
+    },
+    "Q4Iy6hqREsbk9yG7": {
+      "name": "Ioun Stone of Agility"
+    },
+    "Q4jmng3i9Lb2nL5F": {
+      "name": "Manual of Quickness of Action"
+    },
+    "Q7E6MgPzVkwBeZ6l": {
+      "name": "Ring of Psychic Resistance"
+    },
+    "QB4CFMTLR6JlD7Kq": {
+      "name": "Greatsword of Sharpness"
+    },
+    "QKTyxoO0YDnAsbYe": {
+      "name": "Whip"
+    },
+    "QM3gdsL0eaAus7XT": {
+      "name": "Vicious Handaxe"
+    },
+    "QRCsxkCwWNwswL9o": {
+      "name": "Greatclub"
+    },
+    "QXmaarJ4X8P0C1HV": {
+      "name": "Hempen Rope (50 ft.)"
+    },
+    "QYJyQCnIQeLiMrmJ": {
+      "name": "Brass Horn of Valhalla"
+    },
+    "Qfi5Rsuun3reqYmf": {
+      "name": "Handaxe +1"
+    },
+    "QtmVEreNIWEVOoLR": {
+      "name": "Ring of Protection"
+    },
+    "Qy2aRjl4iQ8EmaT5": {
+      "name": "Diplomat's Pack"
+    },
+    "RDPFmUR9exTEXFc8": {
+      "name": "Boots of the Winterlands"
+    },
+    "REBWkTKe6lJaIkpn": {
+      "name": "Soap"
+    },
+    "RMi9efrW9ouHVLI2": {
+      "name": "Book"
+    },
+    "RbC0UCqAnQcIPIXZ": {
+      "name": "War Pick +2"
+    },
+    "RfEZvwcLwe6Ih0LQ": {
+      "name": "Greatsword +3"
+    },
+    "RiOeHR2qaYktz5Ys": {
+      "name": "Iron Spike"
+    },
+    "RmP0mYRn2J7K26rX": {
+      "name": "Heavy Crossbow"
+    },
+    "Rn9gt6JGULtx9Zvz": {
+      "name": "Chain Mail +1"
+    },
+    "RnuxdHUAIgxccVwj": {
+      "name": "Lance"
+    },
+    "S7AhpCPDBGUBbg7b": {
+      "name": "Rapier +1"
+    },
+    "S7TrIOlE600KIOUx": {
+      "name": "Dragon Slayer Rapier"
+    },
+    "SItCnYBqhzqBoaWG": {
+      "name": "Crossbow Bolt"
+    },
+    "SK2HATQ4abKUlV8i": {
+      "name": "Breastplate"
+    },
+    "STxsp9Ao3pS2T4gt": {
+      "name": "Studded Leather Armor +1"
+    },
+    "SXjs8JghAPBv7d6j": {
+      "name": "Dragon Slayer Longsword"
+    },
+    "ScxK8YNU5dWELhlQ": {
+      "name": "Ring of Force Resistance"
+    },
+    "Sj4zEvuGcSV6anKm": {
+      "name": "Heavy Crossbow +3"
+    },
+    "SpbjbMMoJiva2zOa": {
+      "name": "Shortsword of Wounding"
+    },
+    "SqTtbBCfiEsmZ36N": {
+      "name": "Bead of Force"
+    },
+    "SsAmWV6YBqeOFihT": {
+      "name": "Traveler's Clothes"
+    },
+    "SuQmsJfxyJl2hPcM": {
+      "name": "Whetstone"
+    },
+    "Sx5E6utixHdAbGNb": {
+      "name": "Acid (vial)"
+    },
+    "SypSoinJkES0o5FB": {
+      "name": "Glamoured Studded Leather"
+    },
+    "SztwZhbhZeCqyAes": {
+      "name": "Alchemist's Supplies"
+    },
+    "TIV3B1vbrVHIhQAm": {
+      "name": "Studded Leather Armor"
+    },
+    "TMqS62qjBCveT1Ss": {
+      "name": "Vicious Trident"
+    },
+    "TWFS1BtruQeE10BY": {
+      "name": "Stone of Controlling Earth Elementals"
+    },
+    "TZggpdbOYqOCG7mY": {
+      "name": "Alchemy Jug"
+    },
+    "TevMHicE3A70AlmP": {
+      "name": "Potion of Frost Giant Strength"
+    },
+    "TjWk2mpNXjDdfIDM": {
+      "name": "Carpet of Flying (6x9)"
+    },
+    "TmfaFUSZJAotndn9": {
+      "name": "Saddlebags"
+    },
+    "Tobce1hexTnDk4sV": {
+      "name": "Rapier"
+    },
+    "TqyvIglHDj5kfohR": {
+      "name": "Piton"
+    },
+    "TwYeck6buBZ602mg": {
+      "name": "Crystal Ball of Mind Reading"
+    },
+    "U4PI6l96QJUk6TGb": {
+      "name": "Eyes of the Eagle"
+    },
+    "U5fRz04JWgNS1WvK": {
+      "name": "Hempen Rope (50 ft.)"
+    },
+    "U74TPNQLJZbHJyCk": {
+      "name": "Robe of Eyes"
+    },
+    "UAXu4MNvAvaKz9JO": {
+      "name": "Battleaxe +1"
+    },
+    "UICmOXUKBmHp9o4y": {
+      "name": "Ink Bottle"
+    },
+    "ULL5nkyN3WzazI4l": {
+      "name": "Holy Avenger Scimitar"
+    },
+    "UOE8RGOpgv2oWIvM": {
+      "name": "Scholar's Pack"
+    },
+    "URun3vYrXKJJdAJe": {
+      "name": "Staff of Striking"
+    },
+    "UT8zCwmdXVQlBiyl": {
+      "name": "Leather Armor +2"
+    },
+    "UctSPehpKb4lJQGr": {
+      "name": "Vicious Club"
+    },
+    "UgnUJhu0tW1tLt7g": {
+      "name": "Feather Token Swan Boat"
+    },
+    "UkWdyJYQTfVX2cJW": {
+      "name": "Bullseye Lantern"
+    },
+    "UpHAWqwifZpiZzns": {
+      "name": "Adamantine Ring Mail"
+    },
+    "UrH3sMdnUDckIHJ6": {
+      "name": "Flail"
+    },
+    "Uv0ilmzbWvqmlCVH": {
+      "name": "Waterskin"
+    },
+    "UxkP6FvDzPbsIY6o": {
+      "name": "Manual of Golems"
+    },
+    "V13fjV5oSmvbRdgP": {
+      "name": "Mess Kit"
+    },
+    "V5UAjT3ed6sDNtgm": {
+      "name": "Crowbar"
+    },
+    "VGtyTdVLoWls8FL5": {
+      "name": "Scimitar +1"
+    },
+    "VHYy3ZsJNPUo1SIx": {
+      "name": "Scimitar +2"
+    },
+    "VQ6NWjWV37wiB29O": {
+      "name": "Wand of Secrets"
+    },
+    "VQAUcjn1qdwW3MeU": {
+      "name": "Vicious Light Crossbow"
+    },
+    "VRT5GEusTFstOZdF": {
+      "name": "Hide Armor of Resistance"
+    },
+    "VTc5McIjCm40KPIz": {
+      "name": "Plate Armor +2"
+    },
+    "Vm6SuX6TkDvSIVGr": {
+      "name": "Vicious Morningstar"
+    },
+    "VmcgAIsRCyrjBguC": {
+      "name": "Restorative Ointment"
+    },
+    "VwJjuNbBf2KHMPrY": {
+      "name": "Cloak of Arachnida"
+    },
+    "W1kDsFekjroIywuz": {
+      "name": "Studded Leather Armor of Resistance"
+    },
+    "WCafDVKITxwnlf2x": {
+      "name": "Spyglass"
+    },
+    "WFQS2vT8ddrFjTJg": {
+      "name": "Parchment"
+    },
+    "WLVQJVpCWiPkCAtZ": {
+      "name": "Staff of Healing"
+    },
+    "WNdN2mBF3O7ZNcMp": {
+      "name": "Spear +1"
+    },
+    "WO8DLfz3G2QZ5njs": {
+      "name": "Ring of Acid Resistance"
+    },
+    "WPWszFTGzmdIuDRJ": {
+      "name": "Flask of Holy Water"
+    },
+    "WWb4vAmh18sMAxfY": {
+      "name": "Flame Tongue Greatsword"
+    },
+    "WfqBg3yBNoJQtVEB": {
+      "name": "Shield +3"
+    },
+    "Wk7EOYoY3b2tgGoS": {
+      "name": "Deck of Illusions"
+    },
+    "WlPzuxaVnYzxzDEC": {
+      "name": "Whip +2"
+    },
+    "WnKWD1FuAFUE7f4v": {
+      "name": "Tome of Understanding"
+    },
+    "Wo2Dkh191C4VmLmg": {
+      "name": "Ring Mail Armor of Resistance"
+    },
+    "Wv7HzD6dv1P0q78N": {
+      "name": "Basket"
+    },
+    "WwdpHLXGX5r8uZu5": {
+      "name": "Leather Armor"
+    },
+    "X5knPtrQAT8GePJ4": {
+      "name": "Miner's Pick"
+    },
+    "X6PHssSGnwiJRgcx": {
+      "name": "Luck Blade Longsword"
+    },
+    "XAr1SR4POx5BAArk": {
+      "name": "Carpet of Flying (5x7)"
+    },
+    "XEH5YErAN1WSytln": {
+      "name": "Figurine of Wondrous Power (Serpentine Owl)"
+    },
+    "XGAWqtmhK6SYBL6A": {
+      "name": "Goggles of Night"
+    },
+    "XIpJkxbySJxm6hoU": {
+      "name": "Light Hammer +2"
+    },
+    "XJ8CG4UvLELCmOi2": {
+      "name": "Ring of Lightning Resistance"
+    },
+    "XJFqU9COdk4ycFa2": {
+      "name": "Hide Armor +2"
+    },
+    "XKnDE8DTrJxIkVCF": {
+      "name": "Padded Armor +3"
+    },
+    "XVK6TOL4sGItssAE": {
+      "name": "Light Hammer"
+    },
+    "XXLznzi3rlanMhTM": {
+      "name": "Crossbow Bolt +3"
+    },
+    "XY8b594Dn7plACLL": {
+      "name": "Dungeoneer's Pack"
+    },
+    "XZWHQ20ynJBK6xmU": {
+      "name": "Ring of Air Elemental Command"
+    },
+    "Xbq8CyXSRV358SfP": {
+      "name": "Oil of Etherealness"
+    },
+    "XdDp6CKh9qEvPTuS": {
+      "name": "Spell Scroll 2nd Level"
+    },
+    "XmnlF5fgIO3tg6TG": {
+      "name": "Scale Mail"
+    },
+    "XwqNHyox5OQQio8q": {
+      "name": "Carpet of Flying (3x5)"
+    },
+    "Y08Al2dMN8he1hFK": {
+      "name": "Light Hammer +3"
+    },
+    "Y9S75go1hLMXUD48": {
+      "name": "Brewer's Supplies"
+    },
+    "YFarUKR3OrM5raf5": {
+      "name": "Half Plate Armor +2"
+    },
+    "YG9QW0flem4SLL6A": {
+      "name": "Bag of Devouring"
+    },
+    "YHCmjsiXxZ9UdUhU": {
+      "name": "Navigator's Tools"
+    },
+    "YM4QueTsF3DL77mH": {
+      "name": "Rations"
+    },
+    "YM6bZNmpync83VFa": {
+      "name": "Giant Slayer Battleaxe"
+    },
+    "YS9CRHg2yQlOVi3j": {
+      "name": "Mithral Chain Mail"
+    },
+    "YeLz5OxRNxmvHJId": {
+      "name": "Ioun Stone of Intellect"
+    },
+    "YevPP0DZXgAcLmzv": {
+      "name": "Rapier +3"
+    },
+    "YfBwELTgPFHmQdHh": {
+      "name": "Jeweler's Tools"
+    },
+    "YjImJ3cVnArHH4ES": {
+      "name": "Winged Boots"
+    },
+    "YrkkHa6KN8a9o35k": {
+      "name": "Defender Rapier"
+    },
+    "YwS4pESpfsiq0JZv": {
+      "name": "Armor of Vulnerability"
+    },
+    "YwlHI3BVJapz4a3E": {
+      "name": "Playing Cards Set"
+    },
+    "Z0eO3TTpYA2hjwdd": {
+      "name": "Vicious Shortbow"
+    },
+    "Z7xno2zMzRtqqUIQ": {
+      "name": "Vicious Quarterstaff"
+    },
+    "Z9FBwEoMi6daDGRj": {
+      "name": "Flame Tongue Shortsword"
+    },
+    "ZKyhkS8ud2NpV7ng": {
+      "name": "Scimitar of Sharpness"
+    },
+    "ZLpj1bpnWlAFUEHE": {
+      "name": "Giant Slayer Scimitar"
+    },
+    "ZYEqOSY9BLZs2GPx": {
+      "name": "Bracers of Archery"
+    },
+    "ZcvU9rRb573NOywv": {
+      "name": "Longbow +2"
+    },
+    "ZdcEtbtU3VkuxIFE": {
+      "name": "Brooch of Shielding"
+    },
+    "Zf7kBZa5f4WBepn1": {
+      "name": "Ring of Earth Elemental Command"
+    },
+    "ZgXJE9pjvZLMCeHg": {
+      "name": "Slippers of Spider Climbing"
+    },
+    "ZjUOHSyND2VFXQeP": {
+      "name": "Crossbow Bolt +1"
+    },
+    "ZoUVmRA3HfAK2eZy": {
+      "name": "Candle of Invocation"
+    },
+    "ZwFCZDgQljlidzns": {
+      "name": "Leather Armor +3"
+    },
+    "a26LjC4QxP1oorXC": {
+      "name": "Headband of Intellect"
+    },
+    "a86F565Pjdzym1jH": {
+      "name": "Truth Serum"
+    },
+    "a8fe9d81BRW86cvP": {
+      "name": "Waterskin"
+    },
+    "aA7MbjnpHYoYvmuW": {
+      "name": "Ring of Swimming"
+    },
+    "aDEAwKwttl35dWaB": {
+      "name": "Scale Mail +1"
+    },
+    "aDHRuUs29SrumWfq": {
+      "name": "Bag of Holding"
+    },
+    "aEiM49V8vWpWw7rU": {
+      "name": "Net"
+    },
+    "aMnWi1WXWpxRHq4r": {
+      "name": "Potion of Climbing"
+    },
+    "aOrinPg7yuDZEuWr": {
+      "name": "Spell Scroll 8th Level"
+    },
+    "aXsfZvDCdpuv3Yvb": {
+      "name": "Arrow of Slaying"
+    },
+    "aa9KuBy4dst7WIW9": {
+      "name": "Horn"
+    },
+    "ac8IamT5vDrH1ZT8": {
+      "name": "Alms Box"
+    },
+    "akjpaK4TYkUZbGrN": {
+      "name": "Chain Mail +2"
+    },
+    "amRx3jOYlPeXEiAN": {
+      "name": "Light Crossbow +3"
+    },
+    "ap9prThUB2y9lDyj": {
+      "name": "Weaver's Tools"
+    },
+    "asUgQFrF1xYeNhtW": {
+      "name": "Sickle +1"
+    },
+    "azxwKFHrNmG3HpVy": {
+      "name": "Plate Armor of Resistance"
+    },
+    "b2l2ubCGSnmiTrm8": {
+      "name": "Shortsword +2"
+    },
+    "b46t42bMruQf9v3O": {
+      "name": "Mace of Terror"
+    },
+    "bAyr7j5Peq9wIJTa": {
+      "name": "Potion of Clairvoyance"
+    },
+    "bDZFQqLQE73cFB8c": {
+      "name": "Hempen Rope (50 ft.)"
+    },
+    "bEZOY6uvHRweMM56": {
+      "name": "Potion of Fire Giant Strength"
+    },
+    "bHbbIhbTzu4lYMRz": {
+      "name": "Holy Avenger Shortsword"
+    },
+    "bPFVfq81EsMNu6OQ": {
+      "name": "Wand of Lightning Bolts"
+    },
+    "bWI5i4RbyGKT6Eiq": {
+      "name": "Dagger +3"
+    },
+    "baoe3U5BfMMMxhCU": {
+      "name": "Viol"
+    },
+    "bcv7J9culilK68zp": {
+      "name": "Longsword +2"
+    },
+    "bod1dKzbAkAm21Ho": {
+      "name": "Staff of Swarming Insects"
+    },
+    "bq9YKwEHLQ7p7ric": {
+      "name": "Belt of Fire Giant Strength"
+    },
+    "bqZ6NTLDCUB98YjV": {
+      "name": "Potion of Gaseous Form"
+    },
+    "c0luemOP0iW8L23R": {
+      "name": "Potion of Psychic Resistance"
+    },
+    "cG3m4YlHfbQlLEOx": {
+      "name": "Forgery Kit"
+    },
+    "cGUPm15mLfhGDz2b": {
+      "name": "Dust of Disappearance"
+    },
+    "cI0UhWUux8gIzSHn": {
+      "name": "Chain Shirt +3"
+    },
+    "cKpJmsJmU8YaiuqG": {
+      "name": "Splint Armor"
+    },
+    "cQ94oKUZN8FDAI8U": {
+      "name": "Battleaxe +2"
+    },
+    "caEn3ixCUFBnHTx6": {
+      "name": "Staff of the Woodlands"
+    },
+    "ccm5xlWhx74d6lsK": {
+      "name": "Painter's Supplies"
+    },
+    "cmnBssaWWzWWm70C": {
+      "name": "Handaxe +3"
+    },
+    "ctKfjHjk9gs9UtZI": {
+      "name": "Potion of Speed"
+    },
+    "d58CvI0Fiav9Jjt1": {
+      "name": "Defender Shortsword"
+    },
+    "d5HNCmLIPCpPoX2w": {
+      "name": "Rod of Lordly Might"
+    },
+    "dG7iFak1YH1nXRpC": {
+      "name": "Vicious Battleaxe"
+    },
+    "dGnkwePemh7ovuDv": {
+      "name": "Ring of Mind Shielding"
+    },
+    "dJjdWdaZU30r1zx4": {
+      "name": "Plate Armor of Etherealness"
+    },
+    "dOZkW5MwvsMhnd08": {
+      "name": "Half Plate Armor +1"
+    },
+    "dP7jMKyHTTgVb3ii": {
+      "name": "Ink Bottle"
+    },
+    "dQxqcjDm0IxYusCV": {
+      "name": "Hat of Disguise"
+    },
+    "dRtb9Tg34NKX9mGF": {
+      "name": "Leather Armor of Resistance"
+    },
+    "dX8AxCh9o0A9CkT3": {
+      "name": "Morningstar"
+    },
+    "dXtZxlh2VKLCo1nA": {
+      "name": "Leather Armor +1"
+    },
+    "dZ9zWfhsIlabadKL": {
+      "name": "Holy Avenger Longsword"
+    },
+    "ddWvQRLmnnIS0eLF": {
+      "name": "Light Crossbow"
+    },
+    "dghpiMWDSUXtQf6X": {
+      "name": "Morningstar +3"
+    },
+    "dsjke4vPPsc9gsxH": {
+      "name": "Elemental Gem of Fire"
+    },
+    "ducaFdrqwLZ0l3c7": {
+      "name": "Flame Tongue Longsword"
+    },
+    "dvNzJqb7vq6oJlA2": {
+      "name": "Berserker Battleaxe"
+    },
+    "dwGxrGqkn2ppNaqs": {
+      "name": "Greatclub +1"
+    },
+    "e3XQygrXkzNvkDGF": {
+      "name": "Marvelous Pigments"
+    },
+    "e7JpVX2549vp9mgF": {
+      "name": "Vicious Spear"
+    },
+    "e98hfROZjztt7ccO": {
+      "name": "Feather Token Fan"
+    },
+    "eHGbr3rqRRxdBPLq": {
+      "name": "Chain Mail +3"
+    },
+    "eJOrPcAz9EcquyRQ": {
+      "name": "Flute"
+    },
+    "eJY20LOs3pOkRDPl": {
+      "name": "Block of Incense"
+    },
+    "eJtPBiZtr2pp6ynt": {
+      "name": "Crossbow Bolt Case"
+    },
+    "eKip69fExSYN661B": {
+      "name": "Vicious Glaive"
+    },
+    "eM5gEe4SEOvA2Y9t": {
+      "name": "Staff of Power"
+    },
+    "eMR6B4bIoJPUDJG8": {
+      "name": "Dust of Dryness"
+    },
+    "eO7Fbv5WBk5zvGOc": {
+      "name": "Handaxe"
+    },
+    "eQNXan0zp279jDtk": {
+      "name": "Immovable Rod"
+    },
+    "eQTKbhnpkrtXUfwN": {
+      "name": "Ladder (10-foot)"
+    },
+    "eTNc8XPtvZNe3yQs": {
+      "name": "Potion of Flying"
+    },
+    "eVbPkYjpl29RE2uW": {
+      "name": "Basic Poison"
+    },
+    "eZGmdOhaTWMicXPW": {
+      "name": "Component Pouch"
+    },
+    "ea4xclqsksEQB1QF": {
+      "name": "Abacus"
+    },
+    "ecz2fVDyAg8YgJGe": {
+      "name": "Pack Saddle"
+    },
+    "efluRemOguW2YeZY": {
+      "name": "Frost Brand Rapier"
+    },
+    "egJhGFU3v5OfjPNS": {
+      "name": "Shortbow +3"
+    },
+    "ejEt6hLQxOux04lS": {
+      "name": "Demon Armor"
+    },
+    "etA2SBgWwduCLgLT": {
+      "name": "Ring of Shooting Stars"
+    },
+    "evSCq83oPhR0ZK4y": {
+      "name": "Armor of Invulnerability"
+    },
+    "ewXgnWiYQhS8KArS": {
+      "name": "Ring of Three Wishes"
+    },
+    "f0I81P9k29Q1lV4S": {
+      "name": "Scale Mail Armor of Resistance"
+    },
+    "f3eF8EYq1rkqFwDP": {
+      "name": "Bag of Sand"
+    },
+    "f4w4GxBi0nYXmhX4": {
+      "name": "Rations"
+    },
+    "f5chGcpQCi1HYPQw": {
+      "name": "Potion of Poison Resistance"
+    },
+    "fC0lFK8P4RuhpfaU": {
+      "name": "Cartographer's Tools"
+    },
+    "fCRftM4QxEDkeu0a": {
+      "name": "Club +1"
+    },
+    "fCUZ7h8YYrs16UhX": {
+      "name": "Belt of Stone Giant Strength"
+    },
+    "fNMkFCOvMiW2Rh3t": {
+      "name": "Paper"
+    },
+    "fO1PuSOtZWLzEHqu": {
+      "name": "Scale Mail +2"
+    },
+    "fStHPOhuJvwEjzQh": {
+      "name": "Plate Armor +1"
+    },
+    "fWR9EFEjR0JtFdCC": {
+      "name": "Luck Blade Greatsword"
+    },
+    "fbC0Mg1a73wdFbqO": {
+      "name": "Scimitar"
+    },
+    "fbcQsOgWCjhEAGY7": {
+      "name": "Efreeti Bottle"
+    },
+    "feKHv3JUWZdSNKf0": {
+      "name": "Dragon Slayer Scimitar"
+    },
+    "fu7DJcrYWfGMeVt9": {
+      "name": "Blowgun +2"
+    },
+    "fvezXwRJ5PqUf5NN": {
+      "name": "Ring of Cold Resistance"
+    },
+    "g2dWN7PQiMRYWzyk": {
+      "name": "Quarterstaff"
+    },
+    "g8DG0jXlvfP3uTtZ": {
+      "name": "Vicious War Pick"
+    },
+    "g8fQZ1WyTz2bTtvA": {
+      "name": "Alms Box"
+    },
+    "gBQ8xqTA5f8wP5iu": {
+      "name": "Blowgun Needle"
+    },
+    "gLkbbUtGhQgYANM8": {
+      "name": "Arrow +2"
+    },
+    "gP1URGq3kVIIFHJ7": {
+      "name": "Reliquary"
+    },
+    "gSwpQacBLOJeLWrK": {
+      "name": "Vicious Mace"
+    },
+    "gTRFQLdVD1gsKtPi": {
+      "name": "Potion of Growth"
+    },
+    "gV671PZGnYoVZefN": {
+      "name": "Javelin +2"
+    },
+    "gVo3UbvwjFIiFR0c": {
+      "name": "Vicious Longbow"
+    },
+    "gYDMk3LWikIP5PmA": {
+      "name": "Shortbow +1"
+    },
+    "giU3yyZXvErjf78D": {
+      "name": "Dart +1"
+    },
+    "gpHgWLsD8k2yzbfR": {
+      "name": "Cape of the Mountebank"
+    },
+    "gwuffGC4JZ8BbStz": {
+      "name": "Berserker Handaxe"
+    },
+    "gyJ0imAckcWtCjyv": {
+      "name": "Club +2"
+    },
+    "h0XLhuUQ0vSnW3DU": {
+      "name": "Vicious Rapier"
+    },
+    "h8rS84jKsMHl9J1i": {
+      "name": "Ioun Stone of Awareness"
+    },
+    "hDF4RSCzMO8iI14x": {
+      "name": "Ioun Stone of Leadership"
+    },
+    "hFAVm9pTJDm0nu3g": {
+      "name": "Broom of Flying"
+    },
+    "hGrxC676XmlnS9y0": {
+      "name": "Cloak of the Manta Ray"
+    },
+    "hHX5qXva1ScCpBpL": {
+      "name": "Net +2"
+    },
+    "hJS8yEVkqgJjwfWa": {
+      "name": "Potter's Tools"
+    },
+    "hM84pZnpCqKfi8XH": {
+      "name": "Cobbler's Tools"
+    },
+    "hOzuSDqmOIOx8z3Z": {
+      "name": "Fishing Tackle"
+    },
+    "hSY1b8yi8JWw2blf": {
+      "name": "Boots of Striding and Springing"
+    },
+    "hWqImieUaLo08l9l": {
+      "name": "Feather Token Bird"
+    },
+    "hdUzXzVPonOQzW81": {
+      "name": "Greataxe +2"
+    },
+    "hdlBOEbEjiwUjTW5": {
+      "name": "Ring of Djinni Summoning"
+    },
+    "hf5j1meGsA33HkUj": {
+      "name": "Mirror of Life Trapping"
+    },
+    "hqVKZie7x9w3Kqds": {
+      "name": "Spell Scroll 3rd Level"
+    },
+    "hxfOtvFrY1PXHQN1": {
+      "name": "Ring of Telekinesis"
+    },
+    "i2puCDRaTxkuFfB4": {
+      "name": "Ring of Free Action"
+    },
+    "i3njMqHc689GvHDn": {
+      "name": "Ring of X-ray Vision"
+    },
+    "i4NeNZ30ycwPDHMx": {
+      "name": "Sickle"
+    },
+    "i89okN7GFTWHsvPy": {
+      "name": "Herbalism Kit"
+    },
+    "iB3gunzgxZ8xK6Z5": {
+      "name": "Talisman of Pure Good"
+    },
+    "iBuTM09KD9IoM5L8": {
+      "name": "Dice Set"
+    },
+    "iIuNqnpWCHrLEKWj": {
+      "name": "Net +3"
+    },
+    "iLt7wTWr4cJnQulJ": {
+      "name": "Figurine of Wondrous Power (Ivory Goat of Traveling)"
+    },
+    "iOMRrzfzFCfPGuD6": {
+      "name": "Bag of Sand"
+    },
+    "iRDmig2qZ7LdP0ug": {
+      "name": "Mithral Scale Mail"
+    },
+    "idtlcnIWgwVdvp31": {
+      "name": "Javelin +1"
+    },
+    "ig5DOQtQYJPXJId4": {
+      "name": "Ioun Stone of Fortitude"
+    },
+    "iiQxTvDOhPGW5spF": {
+      "name": "Amulet of Health"
+    },
+    "ijDzcDXfJAdj2uED": {
+      "name": "Heavy Crossbow +1"
+    },
+    "il2GNi8C0DvGLL9P": {
+      "name": "Poisoner's Kit"
+    },
+    "irtqrzaUCeshmTZp": {
+      "name": "Vestments"
+    },
+    "isKR904LkLaH4i6M": {
+      "name": "Vicious Halberd"
+    },
+    "izF3kmyFEVI5TWhp": {
+      "name": "Dart +3"
+    },
+    "j01YDOu2AolsRvdN": {
+      "name": "Oil Flask"
+    },
+    "j2ZGEwx8MhHZXds4": {
+      "name": "Belt of Dwarvenkind"
+    },
+    "jDTM1RjtZMu9YYL9": {
+      "name": "Oil Flask"
+    },
+    "jJU8vFhHLQeKe2wu": {
+      "name": "Gem of Seeing"
+    },
+    "jcQqI0pxLD2nNNQ4": {
+      "name": "Whip +3"
+    },
+    "jeoZmDD9fuQdvC77": {
+      "name": "Vicious Dart"
+    },
+    "jf0XMx2vfEZzZuD7": {
+      "name": "Mace +1"
+    },
+    "jhjo20QoiD5exf09": {
+      "name": "Calligrapher's Supplies"
+    },
+    "jlI44g90pp4VazBU": {
+      "name": "Block and Tackle"
+    },
+    "jmSC8I5awCoxNVv7": {
+      "name": "Giant Slayer Greataxe"
+    },
+    "jvKmgJYL33E8gev5": {
+      "name": "Ioun Stone of Reserve"
+    },
+    "k2B9P3gm2NGjJ1m0": {
+      "name": "Hide Armor +1"
+    },
+    "k3T7tpcdzDyVKlF4": {
+      "name": "Wand of the War Mage +2"
+    },
+    "kBVK2IiZYRkEYtcM": {
+      "name": "Greatsword +1"
+    },
+    "kHjpHTKex95ULxUX": {
+      "name": "Light Crossbow +1"
+    },
+    "kKGJjVVlJVoakWgQ": {
+      "name": "Potion of Force Resistance"
+    },
+    "kNlvoSTcdMqxJPmI": {
+      "name": "Battleaxe +3"
+    },
+    "kOYXMf4GTtD7OqbD": {
+      "name": "Dancing Scimitar"
+    },
+    "kTxi62RTrrdrIBr9": {
+      "name": "Holy Avenger Rapier"
+    },
+    "kdkpSZMUHGXGM15H": {
+      "name": "Signet Ring"
+    },
+    "khyjT3dKyoEOf4eA": {
+      "name": "Wand of Polymorph"
+    },
+    "kj5DNiBKasYWyuj6": {
+      "name": "Disguise Kit"
+    },
+    "kjTPoUeomTPWJ9h3": {
+      "name": "Adamantine Chain Shirt"
+    },
+    "kpDbCYgUivh7NApp": {
+      "name": "Spellguard Shield"
+    },
+    "kvD4ElYCfCKpjDeg": {
+      "name": "Dwarven Thrower"
+    },
+    "kx8DGQizmR5UI21R": {
+      "name": "Waterskin"
+    },
+    "l2T46xCqUbJvKE7A": {
+      "name": "War Pick +1"
+    },
+    "l3V7V8VCXpmAAysQ": {
+      "name": "Staff of the Magi"
+    },
+    "l794iywHk8Wc6Uvi": {
+      "name": "Book of Lore"
+    },
+    "l88FXiodYofrJT8a": {
+      "name": "Lance +1"
+    },
+    "lAcTZgNtpmks2Mo5": {
+      "name": "Potion of Cloud Giant Strength"
+    },
+    "lBg9CPRdpRhn4DO4": {
+      "name": "Mess Kit"
+    },
+    "lHS63sC6bypENNlR": {
+      "name": "Flask"
+    },
+    "lM5uo6R4gy8rJG5Y": {
+      "name": "Vicious Javelin"
+    },
+    "lN1VbnGFo3HNZXNb": {
+      "name": "Half Plate Armor of Resistance"
+    },
+    "lPsueMv4ZoXqCYf9": {
+      "name": "Wand of Wonder"
+    },
+    "lSd5QHnIJbKvP1bh": {
+      "name": "Apparatus of the Crab"
+    },
+    "lTfo6OVvAY2iJ4oq": {
+      "name": "Silver Horn of Valhalla"
+    },
+    "laVqttkGMW4B9654": {
+      "name": "Emblem"
+    },
+    "lccm5AjIk91aIHbi": {
+      "name": "Breastplate Armor of Resistance"
+    },
+    "lcqqW2vGF6P8nJ77": {
+      "name": "Whip +1"
+    },
+    "lg6oohwQndZT4Z0m": {
+      "name": "Censer"
+    },
+    "lsiR1hVfISlC5YoB": {
+      "name": "Staff of Fire"
+    },
+    "ltbDV5OitV0yrDFU": {
+      "name": "Torch"
+    },
+    "luTJgPXN5n0EN7iy": {
+      "name": "Vicious Whip"
+    },
+    "lvLrkAR7k8DS7J3W": {
+      "name": "Iron Flask"
+    },
+    "lvaMqEhfidfHDGf5": {
+      "name": "Cloak of Protection"
+    },
+    "m1hJnK7CHsaJB26v": {
+      "name": "Mace +2"
+    },
+    "m7I2KkwIWttQSElS": {
+      "name": "Tinderbox"
+    },
+    "m7RubLd1lUcMjYgY": {
+      "name": "Mace of Disruption"
+    },
+    "mE6rsbIJXAd4tr4e": {
+      "name": "Vestments"
+    },
+    "mGIwk9FwTAJB6qTn": {
+      "name": "Oathbow"
+    },
+    "mQVYcHmMSoCUnBnM": {
+      "name": "Bucket"
+    },
+    "mYFfH24uzuKh4IPS": {
+      "name": "Wind Fan"
+    },
+    "meJEfX3gZgtMX4x2": {
+      "name": "Vial"
+    },
+    "mhFBTY0egW8AeCHe": {
+      "name": "Potion of Hill Giant Strength"
+    },
+    "mkyltDYnuzNU3kmF": {
+      "name": "Greatclub +3"
+    },
+    "mr96Z8YTI490ExhP": {
+      "name": "Robe of the Archmagi"
+    },
+    "mtyw4NS1s7j2EJaD": {
+      "name": "Spell Scroll 7th Level"
+    },
+    "n1V07puo0RQxPGuF": {
+      "name": "Hide Armor"
+    },
+    "n7fm71CN7qDIBEKk": {
+      "name": "Adamantine Chain Mail"
+    },
+    "nAqDwI9GyXS1diiz": {
+      "name": "Horseshoes of Speed"
+    },
+    "nBFr5xTWeChM7xrb": {
+      "name": "Giant Slayer Greatsword"
+    },
+    "nL0Y0X8SjF58OmBM": {
+      "name": "Luck Blade Shortsword"
+    },
+    "nMtmxeYrbyFdv0bg": {
+      "name": "Figurine of Wondrous Power (Silver Raven)"
+    },
+    "nSNhjX5F7f86AW1a": {
+      "name": "Defender Greatsword"
+    },
+    "nXWdGtzi8DXDLLsL": {
+      "name": "Pitcher"
+    },
+    "nXWevqtV6p484N59": {
+      "name": "Potion of Animal Friendship"
+    },
+    "nY6CnKEHyJ5STgt5": {
+      "name": "Vicious Greataxe"
+    },
+    "nfIRTECQIG81CvM4": {
+      "name": "Club"
+    },
+    "nk2MH16KcZmKp7FQ": {
+      "name": "Ioun Stone of Mastery"
+    },
+    "nl7cc7Z1HpSHbUdQ": {
+      "name": "Halberd +1"
+    },
+    "nmuGH3OKdoMOwJqj": {
+      "name": "Hammer"
+    },
+    "nrvAo3TznyQrHS1t": {
+      "name": "War Pick +3"
+    },
+    "nsXZejlmgalj4he9": {
+      "name": "Ring Mail"
+    },
+    "nvhk1quD0Dg1ZtSH": {
+      "name": "Pipes of the Sewers"
+    },
+    "o4Irx3hHiD3FnPbL": {
+      "name": "Trident of Fish Command"
+    },
+    "oG4rvCuMstgl4Nez": {
+      "name": "Hand Crossbow +3"
+    },
+    "oN4Glcmi4BhdAI3k": {
+      "name": "Tome of Leadership and Influence"
+    },
+    "oNLfJNRQgUHpU8c7": {
+      "name": "Pipes of Haunting"
+    },
+    "oRrNK2H2vcN4Kp74": {
+      "name": "Hempen Rope (50 ft.)"
+    },
+    "oSarKEU8x1AupB6z": {
+      "name": "Deck of Many Things"
+    },
+    "oY8KbpGmB5H2Deoy": {
+      "name": "Silk Rope (50 ft.)"
+    },
+    "oYZNXHth1UYxPwVi": {
+      "name": "Periapt of Proof against Poison"
+    },
+    "odV5cq2HSLSCH69k": {
+      "name": "Prayer Book"
+    },
+    "orHjq3XDPz4eXcov": {
+      "name": "Dragon Slayer Greatsword"
+    },
+    "osLzOwQdPtrK3rQH": {
+      "name": "Shortsword"
+    },
+    "otYAEwhsANKHZAmk": {
+      "name": "Gloves of Missile Snaring"
+    },
+    "oxzUb5j1TMsccGW4": {
+      "name": "Mantle of Spell Resistance"
+    },
+    "oylFuuS3t1nqNKsM": {
+      "name": "Candle"
+    },
+    "ozYrQ5N4s81h35Fa": {
+      "name": "Vicious Blowgun"
+    },
+    "p01JzD9RpIOkJiqK": {
+      "name": "Rapier of Life Stealing"
+    },
+    "p2zChy24ZJdVqMSH": {
+      "name": "Chain Shirt"
+    },
+    "p9dtQU9wEZGumHSb": {
+      "name": "Vicious Greatclub"
+    },
+    "pC3202gDTy8G5i4r": {
+      "name": "Vicious Longsword"
+    },
+    "pG6dddIcb9NmPrdt": {
+      "name": "Longsword of Wounding"
+    },
+    "paqlMjggWkBIAeCe": {
+      "name": "Amulet"
+    },
+    "psoZaItkOScMVaHL": {
+      "name": "Oil Flask"
+    },
+    "q24QnImAicnT9Byd": {
+      "name": "Light Hammer +1"
+    },
+    "q3WqP3r2emnumyUF": {
+      "name": "Sling +3"
+    },
+    "q4RcCLeKviqgckqt": {
+      "name": "Waterskin"
+    },
+    "qBSEGJyHxdKIlBfj": {
+      "name": "Potion of Poison"
+    },
+    "qBydtUUIkv520DT7": {
+      "name": "Lute"
+    },
+    "qGH7YqWhi0tHisMi": {
+      "name": "Luck Blade Rapier"
+    },
+    "qGRN4wvZLJ8uITf2": {
+      "name": "Vicious Sling"
+    },
+    "qGfu1070HAllkO4W": {
+      "name": "Ink Bottle"
+    },
+    "qMGkmzfLHfXd7DiJ": {
+      "name": "Ring of Necrotic Resistance"
+    },
+    "qMzHmlmha8qMDnEF": {
+      "name": "Lamp"
+    },
+    "qRMQH8lRE42JkugE": {
+      "name": "Mithral Half Plate Armor"
+    },
+    "qVHCzgVvOZAtuk4N": {
+      "name": "Flame Tongue Scimitar"
+    },
+    "qVuZznv0MnIjDU70": {
+      "name": "Iron Horn of Valhalla"
+    },
+    "qWlXDEgqdmdZWoab": {
+      "name": "Shovel"
+    },
+    "qXcUKfCVxEvV3VU8": {
+      "name": "Decanter of Endless Water"
+    },
+    "qaSro7kFhxD6INbZ": {
+      "name": "Hand Crossbow"
+    },
+    "qcEiSj67zfbLvYdJ": {
+      "name": "Pike +2"
+    },
+    "qhdGVfT5j6u46mtk": {
+      "name": "Greataxe +1"
+    },
+    "qmuOeNsOKwkn6K8W": {
+      "name": "Vicious Flail"
+    },
+    "qw05Om9XWqTMoio2": {
+      "name": "Ring of the Ram"
+    },
+    "r8yK6SrWOz4hqF01": {
+      "name": "Vicious Lance"
+    },
+    "r97KnMO7Zxgfdh3P": {
+      "name": "Lance +3"
+    },
+    "rJKXDPikXSYXYgb5": {
+      "name": "Net +1"
+    },
+    "rLMflzmxpe8JGTOA": {
+      "name": "Chain Mail"
+    },
+    "rOG1OM2ihgPjOvFW": {
+      "name": "Glaive"
+    },
+    "rQ6sO7HDWzqMhSI3": {
+      "name": "Spell Scroll Cantrip"
+    },
+    "rRMaaGZ7qbzqMvoI": {
+      "name": "Bowl of Commanding Water Elementals"
+    },
+    "rTbVrNcwApnuTz5E": {
+      "name": "Glassblower's Tools"
+    },
+    "rTn4p9nJr4Aq2GPB": {
+      "name": "Potion of Invisibility"
+    },
+    "rY9sRFQp5CFSfsat": {
+      "name": "Helm of Comprehending Languages"
+    },
+    "rc9nkN6YOD7ogtEi": {
+      "name": "Glaive +3"
+    },
+    "rhGulc3gEJhnuP31": {
+      "name": "Helm of Brilliance"
+    },
+    "rvxGvcUzoQXVNbAu": {
+      "name": "Portable Hole"
+    },
+    "s2kQs21J3cFg7ZSs": {
+      "name": "Figurine of Wondrous Power (Ebony Fly)"
+    },
+    "s4fR8bxQGSt4wbH7": {
+      "name": "Cube of Force"
+    },
+    "sIiUbRJItYAs5gtA": {
+      "name": "Dancing Longsword"
+    },
+    "sJ9gfQnz2jdT6GAB": {
+      "name": "Soap"
+    },
+    "sP8CV5VNEcY1Yh1Q": {
+      "name": "Adamantine Plate Armor"
+    },
+    "sSs3hSzkKBMNBgTs": {
+      "name": "Shield"
+    },
+    "sXEkkTDXWQDUMzsC": {
+      "name": "Censer of Controlling Air Elementals"
+    },
+    "sdHSbitJxgTX6aDG": {
+      "name": "Greatsword of Life Stealing"
+    },
+    "setcTdSZ09rmsqMn": {
+      "name": "Warhammer +3"
+    },
+    "sfegfmo59MHJg2YC": {
+      "name": "Scimitar of Life Stealing"
+    },
+    "skUih6tBvcBbORzA": {
+      "name": "Mason's Tools"
+    },
+    "skoUe223EvRYGPL6": {
+      "name": "Medallion of Thoughts"
+    },
+    "sl6yiYSlqkHiVVSN": {
+      "name": "Shortsword +1"
+    },
+    "sqcerAMszpe3hwyI": {
+      "name": "Bronze Horn of Valhalla"
+    },
+    "srTRzwTfWKO5opOo": {
+      "name": "Portable Ram"
+    },
+    "stlFCpqW3ZuAftTi": {
+      "name": "Dancing Shortsword"
+    },
+    "szNhDWpks5BhEXhT": {
+      "name": "Ioun Stone of Regeneration"
+    },
+    "t5yP0d7YaKwuKKiH": {
+      "name": "Yew Wand"
+    },
+    "t7GfyRp3dB3lqS9i": {
+      "name": "Horn of Blasting"
+    },
+    "t8L7B0JWamsvxhui": {
+      "name": "Quarterstaff +1"
+    },
+    "tC0kcqZT9HHAO0PD": {
+      "name": "Pike"
+    },
+    "tEWhsb2lYF4uvF0z": {
+      "name": "Arrow +1"
+    },
+    "tFLmAPUDLxBY8jFO": {
+      "name": "Nine Lives Stealer Greatsword"
+    },
+    "tH5Rn0JVRG1zdmPa": {
+      "name": "Orb"
+    },
+    "tI3rWx4bxefNCexS": {
+      "name": "Spell Scroll 6th Level"
+    },
+    "tIwoSAGJlcuyiwaQ": {
+      "name": "Dragon Scale Mail"
+    },
+    "tJQXAJx92wL6GM1v": {
+      "name": "Mithral Ring Mail"
+    },
+    "tTqixDDmzAfs995G": {
+      "name": "Giant Slayer Shortsword"
+    },
+    "tWJLHIL6ZIZUez9k": {
+      "name": "Manacles"
+    },
+    "tfDxZIKDpOkz6pbx": {
+      "name": "Grappling Hook"
+    },
+    "thkvJ5QBRORIwkkV": {
+      "name": "Gem of Brightness"
+    },
+    "trmWAdUoR6Y2B7rA": {
+      "name": "Hooded Lantern"
+    },
+    "tt4WokZBZMGqgYm5": {
+      "name": "Shortbow +2"
+    },
+    "tut1jbW3UCsrUjCG": {
+      "name": "Pole"
+    },
+    "twRJhPtDQe1HceFt": {
+      "name": "Padded Armor +1"
+    },
+    "u4ewpAFZjLrWrmQv": {
+      "name": "Folding Boat"
+    },
+    "u5GmRCvAsCYoacLj": {
+      "name": "Map Case"
+    },
+    "uHL99JKLUpTKAbz8": {
+      "name": "Staff of Withering"
+    },
+    "uIHXYhnOwETlA5lT": {
+      "name": "Shortsword +3"
+    },
+    "uLY74ppOrTaWKwer": {
+      "name": "Rapier +2"
+    },
+    "uRoHwk1c8e5xJjkV": {
+      "name": "Sickle +2"
+    },
+    "uVm7MiB71QblfnoY": {
+      "name": "Ink Pen"
+    },
+    "uWUD93jwuO2Jxkti": {
+      "name": "Arrow-Catching Shield"
+    },
+    "uXOT4fYbgPY8DGdd": {
+      "name": "Crystal"
+    },
+    "uYniEJCeAuwUC4JY": {
+      "name": "Blanket"
+    },
+    "ug9bTGmTTEN7JwmP": {
+      "name": "Costume Clothes"
+    },
+    "ugzwHl8vYaPu2GNd": {
+      "name": "Climber's Kit"
+    },
+    "ukcKemEoTTRB9yLC": {
+      "name": "Defender Longsword"
+    },
+    "uuh4UH3Jx5CsFjdA": {
+      "name": "Perfume"
+    },
+    "uw6fINSmZ2j2o57A": {
+      "name": "Tankard"
+    },
+    "v4uNbmiz4ECTI89n": {
+      "name": "Ioun Stone of Protection"
+    },
+    "vJvb6fx3JVPmhG8x": {
+      "name": "Merchant's Scale"
+    },
+    "vZdLYfHlLcZqQ8zc": {
+      "name": "Chime of Opening"
+    },
+    "vmbB2SK6pQU2Vkzb": {
+      "name": "Rod of Rulership"
+    },
+    "vmymwrmE730l3pKh": {
+      "name": "Lamp"
+    },
+    "vpenjFjUyEBLLlUc": {
+      "name": "Trinket"
+    },
+    "vsgmACFYINloIdPm": {
+      "name": "Half Plate Armor"
+    },
+    "vuThcmO7MYlw5b9f": {
+      "name": "Trident +1"
+    },
+    "w56FIjFafs2rN6iK": {
+      "name": "Mace of Smiting"
+    },
+    "wBYmPQG3nZfD88aP": {
+      "name": "Belt of Storm Giant Strength"
+    },
+    "wGDDt17DpBcXPuUD": {
+      "name": "Hammer of Thunderbolts"
+    },
+    "wGKykLRS8UqChNXI": {
+      "name": "Dimensional Shackles"
+    },
+    "wNKYbKYwOHbA7SH8": {
+      "name": "Potion of Heroism"
+    },
+    "wNWK6yJMHG9ANqQV": {
+      "name": "Blowgun"
+    },
+    "wa1VF8TXHmkrrR35": {
+      "name": "Spell Scroll 5th Level"
+    },
+    "wgBKZNeRN1XsE9I7": {
+      "name": "Flail +3"
+    },
+    "wjHtGnd05SPdURqE": {
+      "name": "Hooded Lantern"
+    },
+    "wmedRPNenLVSUaT5": {
+      "name": "Piton"
+    },
+    "woWZ1sO5IUVGzo58": {
+      "name": "Thieves' Tools"
+    },
+    "wqVSRfkcTjuhvDyx": {
+      "name": "Necklace of Prayer Beads"
+    },
+    "wtctR6tCcYbQPiS0": {
+      "name": "Longsword of Life Stealing"
+    },
+    "wwNpAz2KMukovewN": {
+      "name": "Necklace of Adaptation"
+    },
+    "x12sDhylcf8843fT": {
+      "name": "Light Crossbow +2"
+    },
+    "x1GUgZYjMubaFavx": {
+      "name": "Crossbow Bolt +2"
+    },
+    "x7LfMrLafLKfemGH": {
+      "name": "Ring of Jumping"
+    },
+    "x9I9vdo4kafHDjcO": {
+      "name": "Sling Bullet +3"
+    },
+    "xDK9GQd2iqOGH8Sd": {
+      "name": "Sprig of Mistletoe"
+    },
+    "xEtBeZjJnkDXojQM": {
+      "name": "Staff of Frost"
+    },
+    "xKErqkLo4ASYr5EP": {
+      "name": "Woodcarver's Tools"
+    },
+    "xMkP8BmFzElcsMaR": {
+      "name": "Greatsword"
+    },
+    "xWQopgOHbS6LjsZm": {
+      "name": "Hammer"
+    },
+    "xbVpKtrQ6tJsPhXX": {
+      "name": "Half Plate Armor +3"
+    },
+    "xjRSY2ECcc9viSz3": {
+      "name": "Scarab of Protection"
+    },
+    "xjme5oSQZmdAy1fc": {
+      "name": "Well of Many Worlds"
+    },
+    "xsB7Y2WI476kvOt4": {
+      "name": "Burglar's Pack"
+    },
+    "xw2kL7Puwg4wfjW3": {
+      "name": "Giant Slayer Longsword"
+    },
+    "xw99pcqPBVwtMOLw": {
+      "name": "Potion of Necrotic Resistance"
+    },
+    "xwUWrV15s9jLnmfZ": {
+      "name": "Lock"
+    },
+    "xxRC1qTIGzGEvmkg": {
+      "name": "Block of Incense"
+    },
+    "xzZQIIxXjNJwNqnp": {
+      "name": "Shield +2"
+    },
+    "yUGNrsXMfsUKwsUg": {
+      "name": "Crowbar"
+    },
+    "ybeLtyIloDvKhDz8": {
+      "name": "Ink Pen"
+    },
+    "yiYCqmD5n08NftYk": {
+      "name": "Sun Blade"
+    },
+    "ykB6UKv5BuQnSRSL": {
+      "name": "Frost Brand Greatsword"
+    },
+    "ykefWXBjq3y6y9Se": {
+      "name": "Manual of Gainful Exercise"
+    },
+    "yoFff2zdTloKx1if": {
+      "name": "Pike +1"
+    },
+    "ytlsBjYsZ7OBSEBs": {
+      "name": "Potion of Healing"
+    },
+    "yxHi57T5mmVt0oDr": {
+      "name": "Bagpipes"
+    },
+    "z0lIRURcyDYt1kLK": {
+      "name": "Flail +2"
+    },
+    "z67d1DZzqDPmgEwP": {
+      "name": "Signal Whistle"
+    },
+    "z9SbsMIBZzuhZOqT": {
+      "name": "Sling Bullet"
+    },
+    "z9fFB1uaGJvcXTf7": {
+      "name": "Trident +3"
+    },
+    "zBX8LLC2CjC89Dzl": {
+      "name": "Potion of Thunder Resistance"
+    },
+    "zDJ4oEt5HArN1xmP": {
+      "name": "Elemental Gem of Air"
+    },
+    "zIpNJyuOxp2raizE": {
+      "name": "Splint Armor +2"
+    },
+    "zJ5LhDvTxYKzPIx4": {
+      "name": "Sovereign Glue"
+    },
+    "zSKorO6lwT7vs2uk": {
+      "name": "Berserker Greataxe"
+    },
+    "zWSB0NCllWaSVoNT": {
+      "name": "Dancing Greatsword"
+    },
+    "zgZkJAyFAfYmyn11": {
+      "name": "Potion of Acid Resistance"
+    },
+    "zibIgdxPz8QHSCg6": {
+      "name": "Vicious Pike"
+    }
+  }
+}

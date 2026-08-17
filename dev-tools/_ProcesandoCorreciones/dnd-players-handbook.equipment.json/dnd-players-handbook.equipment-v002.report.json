@@ -1,0 +1,362 @@
+{
+  "_meta": {
+    "source": "dnd-players-handbook.equipment-v001.json",
+    "generated": "2026-03-18T12:02:28.041535Z",
+    "version": "v002"
+  },
+  "summary": {
+    "entries_total": 258,
+    "description_entries_modified": 52,
+    "effects_name_modified": 0,
+    "effects_description_modified": 0,
+    "uuid_label_replacements_total": 180,
+    "uuid_label_replacements_unique": 89,
+    "plain_text_replacements_total": 88,
+    "plain_text_replacements_unique": 30
+  },
+  "top_uuid_label_replacements": [
+    [
+      "Oil",
+      9
+    ],
+    [
+      "Tinderbox",
+      8
+    ],
+    [
+      "Pouch",
+      7
+    ],
+    [
+      "Backpack",
+      7
+    ],
+    [
+      "Quarterstaff",
+      6
+    ],
+    [
+      "Rations",
+      6
+    ],
+    [
+      "Arcane Focus",
+      5
+    ],
+    [
+      "Waterskin",
+      5
+    ],
+    [
+      "Ammunition",
+      5
+    ],
+    [
+      "Rope",
+      4
+    ],
+    [
+      "Lamp",
+      4
+    ],
+    [
+      "Quiver",
+      3
+    ],
+    [
+      "Bell",
+      3
+    ],
+    [
+      "Crowbar",
+      3
+    ],
+    [
+      "Ink",
+      3
+    ],
+    [
+      "Parchment",
+      3
+    ],
+    [
+      "Bedroll",
+      3
+    ],
+    [
+      "Druidic Focus",
+      3
+    ],
+    [
+      "Holy Symbol",
+      3
+    ],
+    [
+      "Arrows",
+      2
+    ],
+    [
+      "Bolts",
+      2
+    ],
+    [
+      "Case",
+      2
+    ],
+    [
+      "Needles",
+      2
+    ],
+    [
+      "Ball Bearings",
+      2
+    ],
+    [
+      "Hooded Lantern",
+      2
+    ],
+    [
+      "flasks of Oil",
+      2
+    ],
+    [
+      "Chest",
+      2
+    ],
+    [
+      "Fine Clothes",
+      2
+    ],
+    [
+      "Paper",
+      2
+    ],
+    [
+      "Caltrops",
+      2
+    ],
+    [
+      "Torches",
+      2
+    ],
+    [
+      "Bullseye Lantern",
+      2
+    ],
+    [
+      "Mirror",
+      2
+    ],
+    [
+      "Blanket",
+      2
+    ],
+    [
+      "Robe",
+      2
+    ],
+    [
+      "Ink Pen",
+      2
+    ],
+    [
+      "Antitoxin",
+      2
+    ],
+    [
+      "Club",
+      2
+    ],
+    [
+      "Greatclub",
+      2
+    ],
+    [
+      "Bullets, Firearm",
+      1
+    ]
+  ],
+  "top_plain_text_replacements": [
+    [
+      " GP",
+      15
+    ],
+    [
+      ", and ",
+      9
+    ],
+    [
+      " days of ",
+      5
+    ],
+    [
+      "Storage:",
+      5
+    ],
+    [
+      " is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.",
+      5
+    ],
+    [
+      "Druidic Focus",
+      4
+    ],
+    [
+      " flasks of ",
+      4
+    ],
+    [
+      "Quarterstaff",
+      3
+    ],
+    [
+      "<td>Weight</td>",
+      3
+    ],
+    [
+      "<td>Cost</td>",
+      3
+    ],
+    [
+      "<em>Spell Scroll</em>",
+      3
+    ],
+    [
+      "Spell Scroll",
+      3
+    ],
+    [
+      " sheets of ",
+      3
+    ],
+    [
+      "Recover Ball Bearings",
+      2
+    ],
+    [
+      "<td>Focus</td>",
+      2
+    ],
+    [
+      "also a",
+      2
+    ],
+    [
+      "Druidic Focuses",
+      2
+    ],
+    [
+      "Holy Symbols",
+      2
+    ],
+    [
+      "held)",
+      2
+    ],
+    [
+      "Arcane Focuses",
+      1
+    ],
+    [
+      "<em>Spell Scroll</em> (Cantrip)",
+      1
+    ],
+    [
+      "<td>Symbol</td>",
+      1
+    ],
+    [
+      "worn or held",
+      1
+    ],
+    [
+      "borne on fabric or a Shield",
+      1
+    ],
+    [
+      "This feature includes a roll for the Poison damage.",
+      1
+    ],
+    [
+      "Foundry Note",
+      1
+    ],
+    [
+      "<em>Spell Scroll</em> (Level 1)",
+      1
+    ],
+    [
+      "Arcane Focus, Holy Symbol",
+      1
+    ],
+    [
+      "Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor",
+      1
+    ],
+    [
+      "Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, ",
+      1
+    ]
+  ],
+  "changed_entries": [
+    "Ekz3r0UKJ261oBJj",
+    "KUlBAAjJ9KmOCSsC",
+    "KbVt56CK4ud3FUk3",
+    "SMj5QHHkDCdvkx35",
+    "phbafcCrystal000",
+    "phbafcOrb0000000",
+    "phbafcRod0000000",
+    "phbafcStaffalsoa",
+    "phbafcWand000000",
+    "phbagAmmunitionV",
+    "phbagArcaneFocus",
+    "phbagBallBearing",
+    "phbagBurglarsPac",
+    "phbagCantripScro",
+    "phbagDiplomatsPa",
+    "phbagDruidicFocu",
+    "phbagDungeoneers",
+    "phbagEntertainer",
+    "phbagExplorersPa",
+    "phbagHolySymbolV",
+    "phbagLamp0000000",
+    "phbagPoisonBasic",
+    "phbagPriestsPack",
+    "phbagScholarsPac",
+    "phbagSpellScroll",
+    "phbamoArrows0000",
+    "phbamoBolts00000",
+    "phbamoBulletsFir",
+    "phbamoBulletsSli",
+    "phbamoNeedles000",
+    "phbdfcSprigofmis",
+    "phbdfcWoodenstaf",
+    "phbdfcYewwand000",
+    "phbhsyAmuletworn",
+    "phbhsyEmblemborn",
+    "phbhsyReliquaryh",
+    "phbtulAlchemists",
+    "phbtulBrewersSup",
+    "phbtulCalligraph",
+    "phbtulCarpenters",
+    "phbtulCartograph",
+    "phbtulCooksUtens",
+    "phbtulHerbalismK",
+    "phbtulJewelersTo",
+    "phbtulLeatherwor",
+    "phbtulMasonsTool",
+    "phbtulPaintersSu",
+    "phbtulPottersToo",
+    "phbtulSmithsTool",
+    "phbtulTinkersToo",
+    "phbtulWeaversToo",
+    "phbtulWoodcarver"
+  ],
+  "residual_non_uuid_patterns": {},
+  "notes": [
+    "Se han traducido labels visibles de @UUID sin tocar las rutas objetivo de los UUID.",
+    "Se han limpiado notas de Foundry y varios bloques de descripcion que seguian en ingles.",
+    "No se han modificado effects.name ni effects.description en esta pasada.",
+    "Permanece &Reference[Prone] en dos entradas; se deja sin tocar por no fijar aqui la etiqueta oficial del estado."
+  ]
+}

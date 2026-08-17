@@ -1,0 +1,29 @@
+{
+  "name": "string",
+  "description": "string",
+  "folder": "string",
+  "activities": {
+    "<activityId>": {
+      "name": "string",
+      "target": "string",
+      "activation": {
+        "condition": "string"
+      },
+      "description": {
+        "chatFlavor": "string"
+      }
+    }
+  },
+  "effects": {
+    "<effectId>": {
+      "name": "string",
+      "description": "string"
+    }
+  },
+  "advancement": {
+    "<advancementId>": {
+      "title": "string",
+      "hint": "string"
+    }
+  }
+}

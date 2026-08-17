@@ -1,0 +1,242 @@
+{
+  "_meta": {
+    "base": "dnd-players-handbook.content-v003.json",
+    "output": "dnd-players-handbook.content-v004.json",
+    "total_changes": 27,
+    "entries_modified": 5
+  },
+  "summary": {
+    "page_name_changes": 7,
+    "text_changes": 19,
+    "caption_changes": 1
+  },
+  "entries_modified": {
+    "phbAppendixCRule": 8,
+    "phbFighter000000": 3,
+    "phbCh4ArtHandout": 3,
+    "phbChangelog0000": 12,
+    "phbCharacterClas": 1
+  },
+  "changes": [
+    {
+      "entry": "phbAppendixCRule",
+      "page": "BMoxmXB8pX6bOBus",
+      "field": "name",
+      "old": "Challenge Rating",
+      "new": "Valor de desafío",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "nteEPAs5mlT6Z0Fl",
+      "field": "name",
+      "old": "Save",
+      "new": "Salvación",
+      "count": 1
+    },
+    {
+      "entry": "phbFighter000000",
+      "page": "oIre3TldjyfnGzQr",
+      "field": "name",
+      "old": "Champion",
+      "new": "Campeón",
+      "count": 1
+    },
+    {
+      "entry": "phbFighter000000",
+      "page": "ny3PA46G1H96t35Q",
+      "field": "name",
+      "old": "Battle Master",
+      "new": "Maestro de batalla",
+      "count": 1
+    },
+    {
+      "entry": "phbFighter000000",
+      "page": "rWPprptKcZe6MPiR",
+      "field": "name",
+      "old": "Psi Warrior",
+      "new": "Guerrero psiónico",
+      "count": 1
+    },
+    {
+      "entry": "phbCh4ArtHandout",
+      "page": "vGhCVOnkSn0srDpE",
+      "field": "name",
+      "old": "Tiefling",
+      "new": "Tiflin",
+      "count": 1
+    },
+    {
+      "entry": "phbCh4ArtHandout",
+      "page": "xNpHqtg3FpmRpP4O",
+      "field": "name",
+      "old": "Tieflings jugando a las cartas",
+      "new": "Tiflins jugando a las cartas",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "BMoxmXB8pX6bOBus",
+      "field": "text",
+      "old": "Challenge Rating (CR)",
+      "new": "Valor de desafío (CR)",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "nteEPAs5mlT6Z0Fl",
+      "field": "text",
+      "old": "Save es otro nombre para tirada de salvación (Saving Throw).",
+      "new": "Salvación es otro nombre para tirada de salvación (Saving Throw).",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "NcSh8lVwlfk58VAO",
+      "field": "text",
+      "old": "(Long Salto)",
+      "new": "(salto largo)",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "St3ANvrKOgxECnTn",
+      "field": "text",
+      "old": "Tiny, Small, Medium, Large, Huge o Gargantuan",
+      "new": "Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco",
+      "count": 1
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "St3ANvrKOgxECnTn",
+      "field": "text",
+      "old": "Challenge Rating",
+      "new": "Valor de desafío",
+      "count": 2
+    },
+    {
+      "entry": "phbAppendixCRule",
+      "page": "VtyVX7M159v6UVqG",
+      "field": "text",
+      "old": "Death Save",
+      "new": "salvación contra la muerte",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "HCMp3uslRjZaV54z",
+      "field": "text",
+      "old": "{Healing Luz}",
+      "new": "{Luz Sanadora}",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "field": "text",
+      "old": "\"Survivor\" del Champion",
+      "new": "\"Superviviente\" del Campeón",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "field": "text",
+      "old": "\"Defy Death\"",
+      "new": "\"Desafiar a la muerte\"",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "field": "text",
+      "old": "\"Criminal\" (Origen)",
+      "new": "\"Criminal\" (trasfondo)",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "field": "text",
+      "old": "(antes \"Save\")",
+      "new": "(antes \"Salvación\")",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "field": "text",
+      "old": "\"Bonus Action Save\"",
+      "new": "\"Salvación como acción adicional\"",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "HCMp3uslRjZaV54z",
+      "field": "text",
+      "old": "<strong>Save vs. Push</strong>",
+      "new": "<strong>Salvación contra empujón</strong>",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "X4MrKbD8f4PUnX37",
+      "field": "text",
+      "old": "Battle Master",
+      "new": "Maestro de batalla",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "X4MrKbD8f4PUnX37",
+      "field": "text",
+      "old": "<strong>Save vs. Push</strong>",
+      "new": "<strong>Salvación contra empujón</strong>",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "X4MrKbD8f4PUnX37",
+      "field": "text",
+      "old": "{Healing Luz}",
+      "new": "{Luz Sanadora}",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "Fkg7NaKjmJtvRgy1",
+      "field": "text",
+      "old": "Tiefling infernal",
+      "new": "tiflin infernal",
+      "count": 1
+    },
+    {
+      "entry": "phbCh4ArtHandout",
+      "page": "kfb2P1ZEUszRMWwC",
+      "field": "caption",
+      "old": "Tiefling infernal, tiefling ctónico y tiefling abisal.",
+      "new": "tiflin infernal, tiflin ctónico y tiflin abisal.",
+      "count": 1
+    },
+    {
+      "entry": "phbCharacterClas",
+      "page": "jlSMyO89AI0ZtQjd",
+      "field": "text",
+      "old": "Psi Warrior",
+      "new": "Guerrero psiónico",
+      "count": 1
+    },
+    {
+      "entry": "phbChangelog0000",
+      "page": "329Lnbzx1ji9Nil7",
+      "field": "text",
+      "old": "\"Cast and Save\"",
+      "new": "\"Lanzar y salvación\"",
+      "count": 1
+    }
+  ],
+  "notes": [
+    "Se han priorizado correcciones seguras de nombres de página y residuos editoriales visibles.",
+    "No se han tocado referencias técnicas donde el inglés forma parte de la clave interna pero no del texto visible."
+  ]
+}

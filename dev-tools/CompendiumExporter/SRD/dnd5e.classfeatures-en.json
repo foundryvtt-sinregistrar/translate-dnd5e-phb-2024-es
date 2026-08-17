@@ -1,0 +1,752 @@
+{
+  "label": "Class & Subclass Features (SRD)",
+  "folders": {
+    "Barbarian": "Barbarian",
+    "Barbarian Features": "Barbarian Features",
+    "Bard": "Bard",
+    "Bard Features": "Bard Features",
+    "Champion Features": "Champion Features",
+    "Circle of the Land Features": "Circle of the Land Features",
+    "Cleric": "Cleric",
+    "Cleric Features": "Cleric Features",
+    "College of Lore Features": "College of Lore Features",
+    "Draconic Bloodline Features": "Draconic Bloodline Features",
+    "Druid": "Druid",
+    "Druid Features": "Druid Features",
+    "Eldritch Invocations": "Eldritch Invocations",
+    "Fighter": "Fighter",
+    "Fighter Features": "Fighter Features",
+    "Fighting Styles": "Fighting Styles",
+    "Hunter Features": "Hunter Features",
+    "Life Domain Features": "Life Domain Features",
+    "Metamagic": "Metamagic",
+    "Monk": "Monk",
+    "Monk Features": "Monk Features",
+    "Oath of Devotion Features": "Oath of Devotion Features",
+    "Paladin": "Paladin",
+    "Paladin Features": "Paladin Features",
+    "Path of the Berserker Features": "Path of the Berserker Features",
+    "Ranger": "Ranger",
+    "Ranger Features": "Ranger Features",
+    "Rogue": "Rogue",
+    "Rogue Features": "Rogue Features",
+    "School of Evocation Features": "School of Evocation Features",
+    "Shared Features": "Shared Features",
+    "Sorcerer": "Sorcerer",
+    "Sorcerer Features": "Sorcerer Features",
+    "The Fiend Features": "The Fiend Features",
+    "Thief Features": "Thief Features",
+    "Warlock": "Warlock",
+    "Warlock Features": "Warlock Features",
+    "Way of the Open Hand Features": "Way of the Open Hand Features",
+    "Wizard": "Wizard",
+    "Wizard Features": "Wizard Features"
+  },
+  "entries": {
+    "01pcLg6PRu5zGrsb": {
+      "name": "Cunning Action"
+    },
+    "06NVMYf58Z76O85O": {
+      "name": "Protection"
+    },
+    "0C04rwyvoknvFYiy": {
+      "name": "Eldritch Master"
+    },
+    "0Jgf8fYY2ExwgQpN": {
+      "name": "Mindless Rage"
+    },
+    "10b6z2W1txNkrGP7": {
+      "name": "Ki"
+    },
+    "1DY8w3CXeD7PHDXF": {
+      "name": "Whirlwind Attack"
+    },
+    "1dJHU48yNqn3lcfx": {
+      "name": "Ranger Archetype"
+    },
+    "2fyuw7MiCnocDeAU": {
+      "name": "Agonizing Blast"
+    },
+    "3647zjKSE9zFwOXc": {
+      "name": "Dragon Wings"
+    },
+    "3CaP1vFHVR8LgHjx": {
+      "name": "Foe Slayer"
+    },
+    "3FB25qKxmkmxcxuC": {
+      "name": "Land's Stride"
+    },
+    "3Nc6u9pyStByuJsm": {
+      "name": "Great Weapon Fighting"
+    },
+    "3VDZGs5Ug3hIE322": {
+      "name": "Font of Inspiration"
+    },
+    "3jwFt3hSqDswBlOH": {
+      "name": "Empty Body"
+    },
+    "3sN91lT1R3oxcDKd": {
+      "name": "Devil's Sight"
+    },
+    "3sYPftQKnbbVnHrh": {
+      "name": "Expertise"
+    },
+    "4IHsIcBhAVDt8QjY": {
+      "name": "Expanded Spell List"
+    },
+    "4UOgxzr83vFuUash": {
+      "name": "Supreme Healing"
+    },
+    "4Vpj9vCOB37GtXk6": {
+      "name": "Favored Enemy"
+    },
+    "5MwNlVZK7m6VolOH": {
+      "name": "Flurry of Blows"
+    },
+    "5gx1O0sxK08awEO9": {
+      "name": "Colossus Slayer"
+    },
+    "5zPmHPQUne7RDfaU": {
+      "name": "Cutting Words"
+    },
+    "61kXR1sniXHjvN17": {
+      "name": "Beast Speech"
+    },
+    "653ZHbNcmm7ZGXbw": {
+      "name": "Indomitable"
+    },
+    "65ReXU4ZWqcSs3Cm": {
+      "name": "Gaze of Two Minds"
+    },
+    "68bYIOvx6rIqnlOW": {
+      "name": "Bonus Proficiency"
+    },
+    "6VBXkjjBgjSpNElh": {
+      "name": "Sculpt Spells"
+    },
+    "7D2EkLdISwShEDlN": {
+      "name": "Diamond Soul"
+    },
+    "7O85kj6uDEG5NzUE": {
+      "name": "Empowered Evocation"
+    },
+    "7flZKruSSu6dHg6D": {
+      "name": "Ki-Empowered Strikes"
+    },
+    "7pyZjz5vlUWV01qQ": {
+      "name": "Uncanny Dodge"
+    },
+    "7uzJ2JkmsdRGLra3": {
+      "name": "Evocation Savant"
+    },
+    "7zlTRRXT1vWSBGjX": {
+      "name": "Multiattack"
+    },
+    "80USV8ZFPIahpLd0": {
+      "name": "Roguish Archetype"
+    },
+    "8M7uOPhbTxoxxJSo": {
+      "name": "Channel Divinity"
+    },
+    "8MlxM2nEfE3Q0EVk": {
+      "name": "Eldritch Invocations"
+    },
+    "8YwPFv3UAPjWVDNf": {
+      "name": "Archery"
+    },
+    "8fbZt2Qh7ZttwIan": {
+      "name": "Natural Explorer"
+    },
+    "8zciiglzEOZo7DDN": {
+      "name": "Otherworldly Leap"
+    },
+    "9UZ2WjUF2k58CQug": {
+      "name": "Fiendish Resilience"
+    },
+    "9Uh7uTDNZ04oTJsL": {
+      "name": "Metamagic"
+    },
+    "9dSSa68mIPoX2ezA": {
+      "name": "Pact of the Blade"
+    },
+    "AEWr9EMxy5gj4ZFT": {
+      "name": "Arcane Tradition"
+    },
+    "ANE5gjojvhNEagzz": {
+      "name": "Holy Nimbus"
+    },
+    "C5fzaOBc6HxyOWRn": {
+      "name": "Land's Stride"
+    },
+    "C6sHdDGmCMo0cYHd": {
+      "name": "Horde Breaker"
+    },
+    "CFIYXDmbmSP8BXjN": {
+      "name": "Book of Ancient Secrets"
+    },
+    "CkbbAckeCtyHXEnL": {
+      "name": "Frenzy"
+    },
+    "DPN2Gfk8yi1Z5wp7": {
+      "name": "Sneak Attack"
+    },
+    "DZpAa3LzMNBexbmX": {
+      "name": "Distant Spell"
+    },
+    "DhU2dWCNnX78TstR": {
+      "name": "Vanish"
+    },
+    "DjXi0IkCTbJx1gsp": {
+      "name": "Mire the Mind"
+    },
+    "Dop1RcU5UdhSVLYS": {
+      "name": "Grappler"
+    },
+    "E8ozg8avUVOX9N7u": {
+      "name": "Divine Sense"
+    },
+    "EZsonMThTNLZq35j": {
+      "name": "Dragon Ancestor"
+    },
+    "Ei1Oh4UAA2E30jcD": {
+      "name": "Supreme Sneak"
+    },
+    "EuX1kJNIw1F68yus": {
+      "name": "Nature's Sanctuary"
+    },
+    "F2lEKSmOY0NUruzY": {
+      "name": "Sorcerous Restoration"
+    },
+    "FAk41RPCTcvCk6KI": {
+      "name": "Improved Divine Smite"
+    },
+    "FGrbXs6Ku5qxFK5G": {
+      "name": "Second-Story Work"
+    },
+    "FqfmbPgxiyrWzhYk": {
+      "name": "Relentless Rage"
+    },
+    "GBYN5rH4nh1ocRlY": {
+      "name": "Superior Inspiration"
+    },
+    "Gsha4bl0apxqspFy": {
+      "name": "Draconic Presence"
+    },
+    "Ho7dVxBlOYFlfBHk": {
+      "name": "Fighting Style"
+    },
+    "ILhzFHiRrqgQ9dFJ": {
+      "name": "Bard College"
+    },
+    "IWpe0Y9uAStHGiH1": {
+      "name": "Empowered Spell"
+    },
+    "Ic1CSjvbWKudVUv9": {
+      "name": "Pact of the Chain"
+    },
+    "JfFfHTeIszx1hNRx": {
+      "name": "Spell Mastery"
+    },
+    "Jv0zu4BtUi8bFCqJ": {
+      "name": "Dark One's Blessing"
+    },
+    "KQz9bqxVkXjDl8gK": {
+      "name": "Slow Fall"
+    },
+    "KfnUyjUWAk0bAAus": {
+      "name": "One With Shadows"
+    },
+    "Kl6zifJ5OmdHlOi2": {
+      "name": "Fast Movement"
+    },
+    "KygHql3cTj4IRrvZ": {
+      "name": "Bewitching Whispers"
+    },
+    "L7nJSRosos8sHJH9": {
+      "name": "Elusive"
+    },
+    "L94gyvNpUhUe0rwh": {
+      "name": "Brutal Critical"
+    },
+    "LBKChJY5n02Afhnq": {
+      "name": "Font of Magic"
+    },
+    "LhRm1EeUMvp2EWhV": {
+      "name": "Thief's Reflexes"
+    },
+    "LzJ5ayHt0OlSVGxi": {
+      "name": "Druidic"
+    },
+    "M2DxVsgLeZgXOznT": {
+      "name": "Aura of Devotion"
+    },
+    "M6VSMzVtKPhh8B0i": {
+      "name": "Intimidating Presence"
+    },
+    "MW1ExvBLm8Hg82aA": {
+      "name": "Draconic Resilience"
+    },
+    "MYM908WLZ1lVvA1u": {
+      "name": "Pact of the Tome"
+    },
+    "MhJfdBl1B7PdU4oZ": {
+      "name": "Mask of Many Faces"
+    },
+    "Mm64SKAHJWYecgXS": {
+      "name": "Uncanny Dodge"
+    },
+    "NMy4piwXIpLjYbRE": {
+      "name": "Destroy Undead"
+    },
+    "NlXslw4yAqmKZWtN": {
+      "name": "Feral Instinct"
+    },
+    "NqWyHE7Rpw9lyKWu": {
+      "name": "Use Magic Device"
+    },
+    "OQSb0bO1yDI4aiMx": {
+      "name": "Dark One's Own Luck"
+    },
+    "OTvrJSJSUgAwXrWX": {
+      "name": "Nature's Ward"
+    },
+    "OdrvL3afwLOPeuYZ": {
+      "name": "Lay on Hands"
+    },
+    "Phy02H5x0TKHd7T3": {
+      "name": "Chains of Carceri"
+    },
+    "Q1exex5ALteprrPo": {
+      "name": "Indomitable Might"
+    },
+    "Q7mOdk4b1lgjcptF": {
+      "name": "Wholeness of Body"
+    },
+    "QBVmY56RMQuh6C8h": {
+      "name": "Feral Senses"
+    },
+    "QBk1RsuTIEF4GEBC": {
+      "name": "Dreadful Word"
+    },
+    "QEuH5TeBN4PPYT2g": {
+      "name": "Ascendant Step"
+    },
+    "Qb391hakCfmH4w8p": {
+      "name": "Twinned Spell"
+    },
+    "QnRKYXb2bXpnNd2k": {
+      "name": "Minions of Chaos"
+    },
+    "QwgfIpCN8VWfoUtX": {
+      "name": "Pact Boon"
+    },
+    "SCVjqRdlZ9cvHVSR": {
+      "name": "Reckless Attack"
+    },
+    "SEJmsjkEhdAZ90ki": {
+      "name": "Countercharm"
+    },
+    "SZbsNbaxFFGwBpNK": {
+      "name": "Unarmored Defense (Barbarian)"
+    },
+    "StfmqK1twVfukpa0": {
+      "name": "Giant Killer"
+    },
+    "T6u5z8ZTX6UftXqE": {
+      "name": "Divine Strike"
+    },
+    "TDglPcxIVEzvVSgK": {
+      "name": "Patient Defense"
+    },
+    "TH1QAf6YNGSeBVjT": {
+      "name": "Primal Path"
+    },
+    "U7BIPVPsptBmwsnV": {
+      "name": "Cleansing Touch"
+    },
+    "UAvV7N7T4zJhxdfI": {
+      "name": "Unarmored Defense"
+    },
+    "V4pwFxlwHtNeB4w9": {
+      "name": "Slippery Mind"
+    },
+    "VUtSLeCzFubGXmGx": {
+      "name": "Overchannel"
+    },
+    "VoR0SUrNX5EJVPIO": {
+      "name": "Rage"
+    },
+    "WgQrqjmeyMqDzVt3": {
+      "name": "Defensive Tactics"
+    },
+    "Xa2MLUJGCReJ28B7": {
+      "name": "Sculptor of Flesh"
+    },
+    "Xf763cJoDHPPWSGG": {
+      "name": "Stand Against the Tide"
+    },
+    "XjuGBeB8Y0C3A5D4": {
+      "name": "Tongue of the Sun and Moon"
+    },
+    "XogoBnFWmCAHXppo": {
+      "name": "Extra Attack"
+    },
+    "YN9xm6MCvse4Y60u": {
+      "name": "Reliable Talent"
+    },
+    "YgLQV1O849wE5TgM": {
+      "name": "Improved Critical"
+    },
+    "YiK59gWSlcQ6Mbdz": {
+      "name": "Circle Spells"
+    },
+    "YpiLQEKGalROn7iJ": {
+      "name": "Channel Divinity"
+    },
+    "ZHJyYrqMYSLub4RY": {
+      "name": "Purity of Spirit"
+    },
+    "ZdwGlsJNtc7pGFCd": {
+      "name": "Channel Divinity: Turn the Unholy"
+    },
+    "ZmC31XKS4YNENnoc": {
+      "name": "Stillness of Mind"
+    },
+    "a0Sq88dgnREcIMfl": {
+      "name": "Superior Hunter's Defense"
+    },
+    "a4P4DNMmH8CqSNkC": {
+      "name": "Evasion"
+    },
+    "aCUmlnHlUPHS0rdu": {
+      "name": "Hurl Through Hell"
+    },
+    "aQLg7BWdRnm4Hr9S": {
+      "name": "Expertise"
+    },
+    "aVKH6TLn1AG9hPSA": {
+      "name": "Superior Critical"
+    },
+    "alUqO6c6OEKFQJdb": {
+      "name": "Armor of Shadows"
+    },
+    "aonJ2YjkqkYB9WYB": {
+      "name": "Magical Secrets"
+    },
+    "ax8M0X0q1GGWM26j": {
+      "name": "Martial Archetype"
+    },
+    "bbUEsCPTLzbbwK6o": {
+      "name": "Eldritch Sight"
+    },
+    "bqWA7t9pDELbNRkp": {
+      "name": "Purity of Body"
+    },
+    "cVDEQo0ow1WJT7Wl": {
+      "name": "Timeless Body"
+    },
+    "carGDhkIdoduTC0I": {
+      "name": "Aura of Protection"
+    },
+    "cmRCL9T9UgRYOj1c": {
+      "name": "Sorcerous Origins"
+    },
+    "dHu1yzIjD38BvGGd": {
+      "name": "Remarkable Athlete"
+    },
+    "dTSV0xZMpY5CxkRk": {
+      "name": "Sign of Ill Omen"
+    },
+    "dY9yrqkyEDuF0CG2": {
+      "name": "Divine Health"
+    },
+    "e0uTcFPpgxjIyUW9": {
+      "name": "Arcane Recovery"
+    },
+    "e9ytGikyLFgwZ5wi": {
+      "name": "Bonus Proficiencies"
+    },
+    "eGxoNmSMWKNzChCO": {
+      "name": "Unarmed Strike"
+    },
+    "eNvpIaSnJUdF8fHl": {
+      "name": "Beguiling Influence"
+    },
+    "eVXqHn0ojWrEuYGU": {
+      "name": "Divine Intervention"
+    },
+    "evEWCpE5MYgr5RRW": {
+      "name": "Potent Cantrip"
+    },
+    "ezWijmCnlnQ9ZRX2": {
+      "name": "Jack of All Trades"
+    },
+    "fXa0DMhoVLtbBu9l": {
+      "name": "Subtle Spell"
+    },
+    "fbExzwNwEAl2kW9c": {
+      "name": "Fighting Style"
+    },
+    "fjsBk7zxoAbLf8ZI": {
+      "name": "Blindsense"
+    },
+    "gDH8PMrKvLHaNmEI": {
+      "name": "Timeless Body"
+    },
+    "gFjxo01hAN4c9hDG": {
+      "name": "Whispers of the Grave"
+    },
+    "ga3dt2zrCn2MHK8R": {
+      "name": "Fast Hands"
+    },
+    "gbNo5eVPaqr8IVKL": {
+      "name": "Spellcasting"
+    },
+    "h1gM8SH3BNRtFevE": {
+      "name": "Quivering Palm"
+    },
+    "hCop9uJrWhF1QPb4": {
+      "name": "Dueling"
+    },
+    "hEymt45rICi4f9eL": {
+      "name": "Channel Divinity: Preserve Life"
+    },
+    "he8RpPXwSl2lVSIk": {
+      "name": "Song of Rest"
+    },
+    "hpLNiGq7y67d2EHA": {
+      "name": "Bardic Inspiration"
+    },
+    "i6tPm3FNK13Ftc9v": {
+      "name": "Spellcasting"
+    },
+    "iQxLNydNLlCHNKbp": {
+      "name": "Open Hand Technique"
+    },
+    "id0gmGvzNZBEdzbx": {
+      "name": "Fiendish Vigor"
+    },
+    "ihoQHsmVZlyDbPhX": {
+      "name": "Spellcasting"
+    },
+    "ip4bvmGoz3qkoqes": {
+      "name": "Archdruid"
+    },
+    "ipG5yx1tRNmeJfSH": {
+      "name": "Survivor"
+    },
+    "jF8AFfEMICIJnAkR": {
+      "name": "Disciple of Life"
+    },
+    "jTXHaK0vvT5DV3uO": {
+      "name": "Otherworldly Patron"
+    },
+    "jVU4AgqfrFaqgXns": {
+      "name": "Primal Champion"
+    },
+    "k5DU0mMuYVHejiqz": {
+      "name": "Misty Visions"
+    },
+    "k5M8gsl7MMcdjOjs": {
+      "name": "Voice of the Chain Master"
+    },
+    "kYJsED0rqqqUcgKz": {
+      "name": "Additional Fighting Style"
+    },
+    "kaHcUGiwi8AtfZIm": {
+      "name": "Primeval Awareness"
+    },
+    "l50hjTxO2r0iecKw": {
+      "name": "Martial Arts"
+    },
+    "l7W6JB9yWLLLtQKP": {
+      "name": "Volley"
+    },
+    "l8tUhZ5Pecm9wz7I": {
+      "name": "Persistent Rage"
+    },
+    "lEZKbWaVrSljRa9n": {
+      "name": "Eyes of the Rune Keeper"
+    },
+    "lT8GsPOPgRzDC3QJ": {
+      "name": "Bonus Cantrip"
+    },
+    "laVHAIOKIsUeezWd": {
+      "name": "Evasion"
+    },
+    "lxfdjLer3uKjyZqU": {
+      "name": "Master of Myriad Forms"
+    },
+    "mHcSjcHJ8oZu3hkb": {
+      "name": "Two-Weapon Fighting"
+    },
+    "mQNPg89YIs7g5tG4": {
+      "name": "Perfect Self"
+    },
+    "myBu3zi5eYvQIcuy": {
+      "name": "Additional Magical Secrets"
+    },
+    "mzweVbnsJPQiVkAe": {
+      "name": "Deflect Missiles"
+    },
+    "nJA3ISVmyj3uPRVM": {
+      "name": "Fighting Style"
+    },
+    "nTjmWbyHweXuIqwc": {
+      "name": "Second Wind"
+    },
+    "nUrZDi6QN1YjwAr6": {
+      "name": "Signature Spells"
+    },
+    "nViGf6bZ6DQAJhkw": {
+      "name": "Quickened Spell"
+    },
+    "nahSkBO6LH4HkpaT": {
+      "name": "Aura of Courage"
+    },
+    "ohwfuwnvuoBWlSQr": {
+      "name": "Thieves' Cant"
+    },
+    "olAqNsUTIef9x8xC": {
+      "name": "Sacred Oath"
+    },
+    "oygRF3ZjTv2T7z0Y": {
+      "name": "Spellcasting"
+    },
+    "pAQMJU5R9SGUmzHU": {
+      "name": "Escape the Horde"
+    },
+    "pJADgAxxefgcATWr": {
+      "name": "Thirsting Blade"
+    },
+    "pquwueEMweRhiWaq": {
+      "name": "Peerless Skill"
+    },
+    "pvRc6GAu1ok6zihC": {
+      "name": "Stunning Strike"
+    },
+    "q9g1MLXuLZyxjQMg": {
+      "name": "Extra Attack"
+    },
+    "r01WtcxTg4yTHm9m": {
+      "name": "Eldritch Spear"
+    },
+    "r0unvWK0lPsDthDx": {
+      "name": "Hide in Plain Sight"
+    },
+    "r91UIgwFdHwkXdia": {
+      "name": "Channel Divinity: Turn Undead"
+    },
+    "rBDZLatuoolT2FUW": {
+      "name": "Tranquility"
+    },
+    "rQhWDaMHMn7iU4f2": {
+      "name": "Stroke of Luck"
+    },
+    "rdBPd6CwqXT64iJM": {
+      "name": "Repelling Blast"
+    },
+    "rhbwDZ9XNTmdkX2u": {
+      "name": "Thief of Five Fates"
+    },
+    "rtpQdX77dYWbDIOH": {
+      "name": "Monastic Tradition"
+    },
+    "s0Cc2zcX0JzIgam5": {
+      "name": "Ability Score Improvement"
+    },
+    "sPy2OLoN7JaAcMl4": {
+      "name": "Ability Score Improvement"
+    },
+    "slelvrm83v9UAKZU": {
+      "name": "Multiattack Defense"
+    },
+    "snsjxGfmzWfZR5Nh": {
+      "name": "Witch Sight"
+    },
+    "swK0r5TOIxredxWS": {
+      "name": "Wild Shape"
+    },
+    "tNG2qi9zhmXEkecA": {
+      "name": "Heightened Spell"
+    },
+    "tQxlKyAx9sgPrbgj": {
+      "name": "Extended Spell"
+    },
+    "u4NLajXETJhJU31v": {
+      "name": "Spellcasting"
+    },
+    "u6Du2P9s81SWuGbi": {
+      "name": "Druid Circle"
+    },
+    "u6xV3Ki3TXRrD7zg": {
+      "name": "Spellcasting"
+    },
+    "v4gKwLhAq9vuqza7": {
+      "name": "Spellcasting"
+    },
+    "v7MxFuTAgOsmxZCD": {
+      "name": "Ability Score Improvement"
+    },
+    "vt31lWAULygEl7yk": {
+      "name": "Danger Sense"
+    },
+    "wKdRtFsvGfMKQHLY": {
+      "name": "Natural Recovery"
+    },
+    "wrxIW5sDfmGr3u5s": {
+      "name": "Hunter's Prey"
+    },
+    "x637K2Icp2ZFM1TB": {
+      "name": "Divine Domain"
+    },
+    "x6IJZwr6f0SGral7": {
+      "name": "Pact Magic"
+    },
+    "x6eEZ9GUsuOcEa3G": {
+      "name": "Elemental Affinity"
+    },
+    "xF1VTcJ3AdkbTsdQ": {
+      "name": "Action Surge"
+    },
+    "xNN0JMKqlG4hKVYu": {
+      "name": "Channel Divinity: Sacred Weapon"
+    },
+    "xvgPu1O57DgXCM86": {
+      "name": "Beast Spells"
+    },
+    "xzD9zlRP6dUxCtCl": {
+      "name": "Retaliation"
+    },
+    "ySMPQ6zNSlvkrl2f": {
+      "name": "Divine Smite"
+    },
+    "yrSFIGTaQOH2PFRI": {
+      "name": "Step of the Wind"
+    },
+    "yv49QN6Bzqs0ecCs": {
+      "name": "Blessed Healer"
+    },
+    "zB77V8BcCJvWVxck": {
+      "name": "Mystic Arcanum"
+    },
+    "zCeqyQ8uIPNdYJSW": {
+      "name": "Unarmored Movement"
+    },
+    "zElYrOcCFFMhB6Xl": {
+      "name": "Careful Spell"
+    },
+    "zSlV0O2rQMdoq6pB": {
+      "name": "Defense"
+    },
+    "zUIAzBnyt0NDvVXb": {
+      "name": "Lifedrinker"
+    },
+    "zYIdNAjqRyhS6qWs": {
+      "name": "Visions of Distant Realms"
+    },
+    "zbHu0NvHuII8lR7W": {
+      "name": "Steel Will"
+    }
+  }
+}

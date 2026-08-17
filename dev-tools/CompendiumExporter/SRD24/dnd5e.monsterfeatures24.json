@@ -1,0 +1,1184 @@
+{
+  "label": "Rasgos de monstruos",
+  "folders": {
+    "Acciones": "Acciones",
+    "Acciones legendarias": "Acciones legendarias",
+    "Ataques": "Ataques",
+    "Rasgos": "Rasgos"
+  },
+  "entries": {
+    "mmAbduct00000000": {
+      "name": "Abducir"
+    },
+    "mmAberrantGround": {
+      "name": "Terreno aberrante"
+    },
+    "mmAbyssalGlaive0": {
+      "name": "Guja abisal"
+    },
+    "mmAcidAbsorption": {
+      "name": "Absorción de ácido"
+    },
+    "mmAcidBreath0000": {
+      "name": "Aliento ácido"
+    },
+    "mmAcidSpray00000": {
+      "name": "Rociada ácida"
+    },
+    "mmAdhesive000000": {
+      "name": "Adhesivo (solo en forma de objeto)"
+    },
+    "mmAgile000000000": {
+      "name": "Ágil"
+    },
+    "mmAirForm0000000": {
+      "name": "Forma de aire"
+    },
+    "mmAmorphous00000": {
+      "name": "Amorfo"
+    },
+    "mmAmphibious0000": {
+      "name": "Anfibio"
+    },
+    "mmAnimateTrees00": {
+      "name": "Animar árboles"
+    },
+    "mmAntennae000000": {
+      "name": "Antenas"
+    },
+    "mmAquaticCharge0": {
+      "name": "Carga acuática"
+    },
+    "mmArcaneBurst000": {
+      "name": "Estallido arcano"
+    },
+    "mmArcaneProwl000": {
+      "name": "Acecho arcano"
+    },
+    "mmAttach00000000": {
+      "name": "Aferrar"
+    },
+    "mmAuraOfAuthorit": {
+      "name": "Aura de autoridad"
+    },
+    "mmAversionToFire": {
+      "name": "Aversión al fuego"
+    },
+    "mmBalefulCommand": {
+      "name": "Orden funesta"
+    },
+    "mmBanish00000000": {
+      "name": "Desterrar"
+    },
+    "mmBarbedHide0000": {
+      "name": "Piel espinosa"
+    },
+    "mmBeak0000000000": {
+      "name": "Pico"
+    },
+    "mmBeaks000000000": {
+      "name": "Picos"
+    },
+    "mmBeard000000000": {
+      "name": "Barba"
+    },
+    "mmBeastOfBurden0": {
+      "name": "Bestia de carga"
+    },
+    "mmBeguile0000000": {
+      "name": "Seducir"
+    },
+    "mmBerserk0000000": {
+      "name": "Frenesí"
+    },
+    "mmBite0000000000": {
+      "name": "Mordisco"
+    },
+    "mmBites000000000": {
+      "name": "Mordiscos"
+    },
+    "mmBladedArm00000": {
+      "name": "Brazo con cuchilla"
+    },
+    "mmBlazingLight00": {
+      "name": "Luz cegadora"
+    },
+    "mmBlindingBreath": {
+      "name": "Aliento cegador"
+    },
+    "mmBlindingGaze00": {
+      "name": "Mirada cegadora"
+    },
+    "mmBlindingSpittl": {
+      "name": "Salivazo cegador"
+    },
+    "mmBloodFrenzy000": {
+      "name": "Frenesí sanguinario"
+    },
+    "mmBloodiedFrenzy": {
+      "name": "Frenesí estando maltrecho"
+    },
+    "mmBloodiedFury00": {
+      "name": "Furia estando maltrecho"
+    },
+    "mmBlurredForm000": {
+      "name": "Forma borrosa"
+    },
+    "mmBoneBow0000000": {
+      "name": "Arco de hueso"
+    },
+    "mmBoneCudgel0000": {
+      "name": "Garrote de hueso"
+    },
+    "mmBoulder0000000": {
+      "name": "Roca"
+    },
+    "mmBoulderToss000": {
+      "name": "Lanzar roca"
+    },
+    "mmBound000000000": {
+      "name": "Vinculado"
+    },
+    "mmBubbleDash0000": {
+      "name": "Impulso de burbuja"
+    },
+    "mmBurn0000000000": {
+      "name": "Quemar"
+    },
+    "mmBurningHammer0": {
+      "name": "Martillo ardiente"
+    },
+    "mmBurstofIngenui": {
+      "name": "Estallido de ingenio"
+    },
+    "mmCacophony00000": {
+      "name": "Cacofonía"
+    },
+    "mmCaptainsCharm0": {
+      "name": "Encanto del capitán"
+    },
+    "mmCelestialResto": {
+      "name": "Restauración celestial"
+    },
+    "mmChain000000000": {
+      "name": "Cadena"
+    },
+    "mmChannelNegativ": {
+      "name": "Canalizar energía negativa"
+    },
+    "mmCharge00000000": {
+      "name": "Carga"
+    },
+    "mmChargedTendril": {
+      "name": "Tentáculo cargado"
+    },
+    "mmChargingHorn00": {
+      "name": "Cuerno a la carga"
+    },
+    "mmCharm000000000": {
+      "name": "Hechizar"
+    },
+    "mmChill000000000": {
+      "name": "Escalofrío"
+    },
+    "mmClaw0000000000": {
+      "name": "Garra"
+    },
+    "mmClaws000000000": {
+      "name": "Garras"
+    },
+    "mmCloakedFlight0": {
+      "name": "Vuelo velado"
+    },
+    "mmCloudOfInsects": {
+      "name": "Nube de insectos"
+    },
+    "mmColdBreath0000": {
+      "name": "Aliento de frío"
+    },
+    "mmColdGale000000": {
+      "name": "Vendaval gélido"
+    },
+    "mmCommandingPres": {
+      "name": "Presencia imperiosa"
+    },
+    "mmCompression000": {
+      "name": "Compresión"
+    },
+    "mmConferFireResi": {
+      "name": "Conferir resistencia al fuego"
+    },
+    "mmConjureInferna": {
+      "name": "Conjurar cadena infernal"
+    },
+    "mmConstrict00000": {
+      "name": "Constriñir"
+    },
+    "mmConsumeLife000": {
+      "name": "Consumir vida"
+    },
+    "mmConsumeMemorie": {
+      "name": "Consumir recuerdos"
+    },
+    "mmCorrosiveForm0": {
+      "name": "Forma corrosiva"
+    },
+    "mmCorruptingTouc": {
+      "name": "Toque corruptor"
+    },
+    "mmCovenMagic0000": {
+      "name": "Magia de aquelarre"
+    },
+    "mmCreateSpecter0": {
+      "name": "Crear espectro"
+    },
+    "mmCreateWhirlwin": {
+      "name": "Crear torbellino"
+    },
+    "mmCrush000000000": {
+      "name": "Aplastar"
+    },
+    "mmCunningAction0": {
+      "name": "Acción astuta"
+    },
+    "mmCursedTouch000": {
+      "name": "Toque maldito"
+    },
+    "mmDarknessAura00": {
+      "name": "Aura de oscuridad"
+    },
+    "mmDeadlyLeap0000": {
+      "name": "Salto mortal"
+    },
+    "mmDeathBurst0000": {
+      "name": "Explosión mortal"
+    },
+    "mmDeathGlare0000": {
+      "name": "Mirada mortal"
+    },
+    "mmDeathThroes000": {
+      "name": "Estertores de muerte"
+    },
+    "mmDeathlessAgili": {
+      "name": "Agilidad imperecedera"
+    },
+    "mmDeathlessStrik": {
+      "name": "Golpe imperecedero"
+    },
+    "mmDeathlyTelepor": {
+      "name": "Teletransporte mortífero"
+    },
+    "mmDeflectMissile": {
+      "name": "Desviar proyectil"
+    },
+    "mmDemonicRestora": {
+      "name": "Restauración demoníaca"
+    },
+    "mmDestroyMetal00": {
+      "name": "Destruir metal"
+    },
+    "mmDevilishClaw00": {
+      "name": "Garra diabólica"
+    },
+    "mmDiabolicalRest": {
+      "name": "Restauración diabólica"
+    },
+    "mmDisruptLife000": {
+      "name": "Perturbar la vida"
+    },
+    "mmDissolvingPseu": {
+      "name": "Pseudópodo disolvente"
+    },
+    "mmDivineAid00000": {
+      "name": "Ayuda divina"
+    },
+    "mmDivineAwarenes": {
+      "name": "Consciencia divina"
+    },
+    "mmDominateMind00": {
+      "name": "Dominar mente"
+    },
+    "mmDraconicOrigin": {
+      "name": "Origen dracónico"
+    },
+    "mmDragonsBreath0": {
+      "name": "Aliento de dragón"
+    },
+    "mmDrainingKiss00": {
+      "name": "Beso drenador"
+    },
+    "mmDrainingSwipe0": {
+      "name": "Zarpazo drenador"
+    },
+    "mmDreadCommand00": {
+      "name": "Orden aterradora"
+    },
+    "mmDreadfulGlare0": {
+      "name": "Mirada espantosa"
+    },
+    "mmEarthGlide0000": {
+      "name": "Earth Glide"
+    },
+    "mmEldritchBurst0": {
+      "name": "Estallido sobrenatural"
+    },
+    "mmEldritchRestor": {
+      "name": "Restauración sobrenatural"
+    },
+    "mmElementalResto": {
+      "name": "Restauración elemental"
+    },
+    "mmEnchantingBow0": {
+      "name": "Arco encantador"
+    },
+    "mmEngulf00000000": {
+      "name": "Engullir"
+    },
+    "mmEntanglingRope": {
+      "name": "Cuerda enredadora"
+    },
+    "mmEnthrallingPan": {
+      "name": "Galantería fascinante"
+    },
+    "mmEphemeral00000": {
+      "name": "Efímero"
+    },
+    "mmEtherealJaunt0": {
+      "name": "Salto etéreo"
+    },
+    "mmEtherealSight0": {
+      "name": "Vista etérea"
+    },
+    "mmEtherealStride": {
+      "name": "Zancada etérea"
+    },
+    "mmEtherealness00": {
+      "name": "Eteriedad"
+    },
+    "mmEvasion0000000": {
+      "name": "Evasión"
+    },
+    "mmExaltedRestora": {
+      "name": "Restauración exaltada"
+    },
+    "mmFearAura000000": {
+      "name": "Aura de miedo"
+    },
+    "mmFetidCloud0000": {
+      "name": "Nube fétida"
+    },
+    "mmFiendishRestor": {
+      "name": "Restauración infernal"
+    },
+    "mmFiendishTouch0": {
+      "name": "Toque infernal"
+    },
+    "mmFieryBolt00000": {
+      "name": "Proyectil ígneo"
+    },
+    "mmFieryMace00000": {
+      "name": "Maza ígnea"
+    },
+    "mmFieryRays00000": {
+      "name": "Rayos ígneos"
+    },
+    "mmFireAbsorption": {
+      "name": "Absorción de fuego"
+    },
+    "mmFireAura000000": {
+      "name": "Aura de fuego"
+    },
+    "mmFireBreath0000": {
+      "name": "Aliento de fuego"
+    },
+    "mmFireForm000000": {
+      "name": "Forma ígnea"
+    },
+    "mmFist0000000000": {
+      "name": "Puño"
+    },
+    "mmFlameSpear0000": {
+      "name": "Lanza llameante"
+    },
+    "mmFlameSword0000": {
+      "name": "Espada llameante"
+    },
+    "mmFlameWhip00000": {
+      "name": "Látigo de llamas"
+    },
+    "mmFling000000000": {
+      "name": "Lanzar"
+    },
+    "mmFlyby000000000": {
+      "name": "Pasada volando"
+    },
+    "mmFlyingSword000": {
+      "name": "Espada voladora"
+    },
+    "mmFogCloud000000": {
+      "name": "Nube de niebla"
+    },
+    "mmForceBolt00000": {
+      "name": "Proyectil de fuerza"
+    },
+    "mmForeleg0000000": {
+      "name": "Pata delantera"
+    },
+    "mmFreeze00000000": {
+      "name": "Congelar"
+    },
+    "mmFreezingBurst0": {
+      "name": "Explosión gélida"
+    },
+    "mmFrighteningGaz": {
+      "name": "Mirada aterradora"
+    },
+    "mmFrightfulPrese": {
+      "name": "Presencia aterradora"
+    },
+    "mmFrostAxe000000": {
+      "name": "Hacha de escarcha"
+    },
+    "mmFrostBreath000": {
+      "name": "Aliento de escarcha"
+    },
+    "mmGibbering00000": {
+      "name": "Balbuceo incoherente"
+    },
+    "mmGigglingMagic0": {
+      "name": "Magia risueña"
+    },
+    "mmGlare000000000": {
+      "name": "Mirada"
+    },
+    "mmGore0000000000": {
+      "name": "Embiste"
+    },
+    "mmGouge000000000": {
+      "name": "Desgarrar"
+    },
+    "mmGrab0000000000": {
+      "name": "Agarrar"
+    },
+    "mmGreatBow000000": {
+      "name": "Arco grande"
+    },
+    "mmGreaterMagicRe": {
+      "name": "Resistencia mágica superior"
+    },
+    "mmGuidingLight00": {
+      "name": "Luz guía"
+    },
+    "mmHailOfBark0000": {
+      "name": "Granizada de corteza"
+    },
+    "mmHammerThrow000": {
+      "name": "Lanzamiento de martillo"
+    },
+    "mmHarpoon0000000": {
+      "name": "Arpón"
+    },
+    "mmHasten00000000": {
+      "name": "Acelerar"
+    },
+    "mmHeartSight0000": {
+      "name": "Visión del corazón"
+    },
+    "mmHeatAura000000": {
+      "name": "Aura de calor"
+    },
+    "mmHeatedBlade000": {
+      "name": "Hoja al rojo"
+    },
+    "mmHellfireSpellc": {
+      "name": "Lanzamiento de conjuros de fuego infernal"
+    },
+    "mmHellishRestora": {
+      "name": "Restauración infernal"
+    },
+    "mmHoldBreath0000": {
+      "name": "Aguantar la respiración"
+    },
+    "mmHolyBurst00000": {
+      "name": "Explosión sagrada"
+    },
+    "mmHolyMace000000": {
+      "name": "Maza sagrada"
+    },
+    "mmHooves00000000": {
+      "name": "Pezuñas"
+    },
+    "mmHorrificVisage": {
+      "name": "Apariencia horripilante"
+    },
+    "mmHorrorNimbus00": {
+      "name": "Nimbus de horror"
+    },
+    "mmHurlFlame00000": {
+      "name": "Arrojar llama"
+    },
+    "mmIceSpear000000": {
+      "name": "Lanza de hielo"
+    },
+    "mmIceWalk0000000": {
+      "name": "Caminar sobre hielo"
+    },
+    "mmIceWall0000000": {
+      "name": "Muro de hielo"
+    },
+    "mmIgnitedIllumin": {
+      "name": "Iluminación encendida"
+    },
+    "mmIllumination00": {
+      "name": "Iluminación"
+    },
+    "mmIllusoryAppear": {
+      "name": "Apariencia ilusoria"
+    },
+    "mmImmutableForm0": {
+      "name": "Forma inmutable"
+    },
+    "mmIncorporealMov": {
+      "name": "Movimiento incorpóreo"
+    },
+    "mmIncubusForm000": {
+      "name": "Forma de íncubo"
+    },
+    "mmInfernalGlaive": {
+      "name": "Guja infernal"
+    },
+    "mmInfernalSting0": {
+      "name": "Aguijón infernal"
+    },
+    "mmInfernalTail00": {
+      "name": "Cola infernal"
+    },
+    "mmInkCloud000000": {
+      "name": "Nube de tinta"
+    },
+    "mmInscrutable000": {
+      "name": "Inescrutable"
+    },
+    "mmInvisibility00": {
+      "name": "Invisibilidad"
+    },
+    "mmIronScent00000": {
+      "name": "Olfato de hierro"
+    },
+    "mmJumper00000000": {
+      "name": "Saltador"
+    },
+    "mmLash0000000000": {
+      "name": "Latigazo"
+    },
+    "mmLeap0000000000": {
+      "name": "Salto"
+    },
+    "mmLegendaryResis": {
+      "name": "Resistencia legendaria"
+    },
+    "mmLifeDrain00000": {
+      "name": "Drenar vida"
+    },
+    "mmLightSensitivi": {
+      "name": "Sensibilidad a la luz"
+    },
+    "mmLightningAbsor": {
+      "name": "Absorción de relámpagos"
+    },
+    "mmLightningBlade": {
+      "name": "Hoja relampagueante"
+    },
+    "mmLightningBreat": {
+      "name": "Aliento de relámpagos"
+    },
+    "mmLightningStorm": {
+      "name": "Tormenta de relámpagos"
+    },
+    "mmLightningStrik": {
+      "name": "Golpe de relámpago"
+    },
+    "mmLimitedAmphibi": {
+      "name": "Anfibio limitado"
+    },
+    "mmLoathsomeLimbs": {
+      "name": "Extremidades repugnantes"
+    },
+    "mmLuringSong0000": {
+      "name": "Canto seductor"
+    },
+    "mmMagicOfTheSpid": {
+      "name": "Magia de la Reina Araña"
+    },
+    "mmMagicResistanc": {
+      "name": "Resistencia a la magia"
+    },
+    "mmMagicRope00000": {
+      "name": "Cuerda mágica"
+    },
+    "mmMimicry0000000": {
+      "name": "Imitación"
+    },
+    "mmMindInvasion00": {
+      "name": "Invasión mental"
+    },
+    "mmMindJolt000000": {
+      "name": "Sacudida mental"
+    },
+    "mmMindrendingRoa": {
+      "name": "Rugido que desgarra la mente"
+    },
+    "mmMistyEscape000": {
+      "name": "Escape brumoso"
+    },
+    "mmMistyStep00000": {
+      "name": "Paso brumoso"
+    },
+    "mmMoan0000000000": {
+      "name": "Gemido"
+    },
+    "mmMockery0000000": {
+      "name": "Mofa"
+    },
+    "mmMucusCloud0000": {
+      "name": "Nube de mucosidad"
+    },
+    "mmMultiattack000": {
+      "name": "Multiataque"
+    },
+    "mmMultipleHeads0": {
+      "name": "Cabezas múltiples"
+    },
+    "mmNecroticBow000": {
+      "name": "Arco necrótico"
+    },
+    "mmNecroticRay000": {
+      "name": "Rayo necrótico"
+    },
+    "mmNecroticStrike": {
+      "name": "Golpe necrótico"
+    },
+    "mmNecroticSword0": {
+      "name": "Espada necrótica"
+    },
+    "mmNeedleSword000": {
+      "name": "Espada aguja"
+    },
+    "mmNightmare00000": {
+      "name": "Pesadilla"
+    },
+    "mmNightmareHaunt": {
+      "name": "Acecho de pesadillas"
+    },
+    "mmNightmareRay00": {
+      "name": "Rayo de pesadilla"
+    },
+    "mmNimbleEscape00": {
+      "name": "Escape ágil"
+    },
+    "mmNoxiousMiasma0": {
+      "name": "Miasma nocivo"
+    },
+    "mmOceanSpear0000": {
+      "name": "Lanza oceánica"
+    },
+    "mmOnslaught00000": {
+      "name": "Acometida"
+    },
+    "mmOozeCube000000": {
+      "name": "Cubo de cieno"
+    },
+    "mmPackTactics000": {
+      "name": "Tácticas de manada"
+    },
+    "mmPactBlade00000": {
+      "name": "Hoja de pacto"
+    },
+    "mmParalyzingBrea": {
+      "name": "Aliento paralizante"
+    },
+    "mmParalyzingTent": {
+      "name": "Tentáculos paralizantes"
+    },
+    "mmParalyzingTouc": {
+      "name": "Toque paralizante"
+    },
+    "mmParry000000000": {
+      "name": "Parada"
+    },
+    "mmPetrifyingBite": {
+      "name": "Mordisco petrificante"
+    },
+    "mmPetrifyingBrea": {
+      "name": "Aliento petrificante"
+    },
+    "mmPetrifyingGaze": {
+      "name": "Mirada petrificante"
+    },
+    "mmPhantasms00000": {
+      "name": "Fantasmas"
+    },
+    "mmPincer00000000": {
+      "name": "Pinza"
+    },
+    "mmPoisonBreath00": {
+      "name": "Aliento venenoso"
+    },
+    "mmPoisonBurst000": {
+      "name": "Explosión venenosa"
+    },
+    "mmPoisonRay00000": {
+      "name": "Rayo venenoso"
+    },
+    "mmPoisonousSpitt": {
+      "name": "Saliva venenosa"
+    },
+    "mmPossession0000": {
+      "name": "Posesión"
+    },
+    "mmPounce00000000": {
+      "name": "Arremetida"
+    },
+    "mmProbingTelepat": {
+      "name": "Telepatía inquisitiva"
+    },
+    "mmProboscis00000": {
+      "name": "Probóscide"
+    },
+    "mmProtection0000": {
+      "name": "Protección"
+    },
+    "mmProtectiveMagi": {
+      "name": "Magia protectora"
+    },
+    "mmProwl000000000": {
+      "name": "Acechar (solo forma de tigre o híbrida)"
+    },
+    "mmPseudopod00000": {
+      "name": "Pseudópodo"
+    },
+    "mmPsychicDrain00": {
+      "name": "Drenaje psíquico"
+    },
+    "mmPummel00000000": {
+      "name": "Machaque"
+    },
+    "mmPursuit0000000": {
+      "name": "Persecución"
+    },
+    "mmQuickGrapple00": {
+      "name": "Agarre rápido"
+    },
+    "mmRadiantFlame00": {
+      "name": "Llama radiante"
+    },
+    "mmRadiantHorn000": {
+      "name": "Cuerno radiante"
+    },
+    "mmRadiantSword00": {
+      "name": "Espada radiante"
+    },
+    "mmRadiantTelepor": {
+      "name": "Teletransporte radiante"
+    },
+    "mmRake0000000000": {
+      "name": "Desgarrar"
+    },
+    "mmRam00000000000": {
+      "name": "Embiste"
+    },
+    "mmRampage0000000": {
+      "name": "Desenfreno"
+    },
+    "mmReactive000000": {
+      "name": "Reactivo"
+    },
+    "mmReactiveHeads0": {
+      "name": "Cabezas reactivas"
+    },
+    "mmReadThoughts00": {
+      "name": "Leer pensamientos"
+    },
+    "mmRedirectAttack": {
+      "name": "Redirigir ataque"
+    },
+    "mmReel0000000000": {
+      "name": "Recoger"
+    },
+    "mmReflectiveCara": {
+      "name": "Caparazón reflectante"
+    },
+    "mmReflexiveAnten": {
+      "name": "Antenas reflejas"
+    },
+    "mmRegeneration00": {
+      "name": "Regeneración"
+    },
+    "mmRend0000000000": {
+      "name": "Desgarrón"
+    },
+    "mmRepulsionBreat": {
+      "name": "Aliento repulsivo"
+    },
+    "mmRestlessTouch0": {
+      "name": "Toque inquieto"
+    },
+    "mmRiposte0000000": {
+      "name": "Respuesta"
+    },
+    "mmRitualSickle00": {
+      "name": "Hoz ritual"
+    },
+    "mmRoar0000000000": {
+      "name": "Rugido"
+    },
+    "mmRock0000000000": {
+      "name": "Roca"
+    },
+    "mmRockLaunch0000": {
+      "name": "Lanzar roca"
+    },
+    "mmRottingFist000": {
+      "name": "Puño putrefacto"
+    },
+    "mmRottingTouch00": {
+      "name": "Toque putrefacto"
+    },
+    "mmRunningLeap000": {
+      "name": "Salto con carrera"
+    },
+    "mmScare000000000": {
+      "name": "Asustar"
+    },
+    "mmScorchingSands": {
+      "name": "Arenas abrasadoras"
+    },
+    "mmScratch0000000": {
+      "name": "Arañar"
+    },
+    "mmSearingFork000": {
+      "name": "Horca abrasadora"
+    },
+    "mmSenseMagic0000": {
+      "name": "Sentir magia"
+    },
+    "mmShadowStealth0": {
+      "name": "Sigilo en las sombras"
+    },
+    "mmShapeshift0000": {
+      "name": "Cambio de forma"
+    },
+    "mmSharkTelepathy": {
+      "name": "Telepatía con tiburones"
+    },
+    "mmShieldBash0000": {
+      "name": "Golpe con escudo"
+    },
+    "mmShieldedMind00": {
+      "name": "Mente protegida"
+    },
+    "mmShimmeringShie": {
+      "name": "Escudo centelleante"
+    },
+    "mmShock000000000": {
+      "name": "Descarga"
+    },
+    "mmShred000000000": {
+      "name": "Despedazar"
+    },
+    "mmShriek00000000": {
+      "name": "Chillido"
+    },
+    "mmSiegeMonster00": {
+      "name": "Monstruo de asedio"
+    },
+    "mmSlam0000000000": {
+      "name": "Golpe"
+    },
+    "mmSlash000000000": {
+      "name": "Cuchillada"
+    },
+    "mmSlayingBow0000": {
+      "name": "Arco exterminador"
+    },
+    "mmSleep000000000": {
+      "name": "Dormir"
+    },
+    "mmSleepBreath000": {
+      "name": "Aliento somnífero"
+    },
+    "mmSlow0000000000": {
+      "name": "Lentitud"
+    },
+    "mmSlowingBreath0": {
+      "name": "Aliento ralentizador"
+    },
+    "mmSmother0000000": {
+      "name": "Asfixiar"
+    },
+    "mmSnakeHair00000": {
+      "name": "Cabellera de serpientes"
+    },
+    "mmSonicBoom00000": {
+      "name": "Estampido sónico"
+    },
+    "mmSoulBag0000000": {
+      "name": "Bolsa de almas"
+    },
+    "mmSpeakWithBeast": {
+      "name": "Hablar con bestias y plantas"
+    },
+    "mmSpellStoring00": {
+      "name": "Almacenamiento de conjuros"
+    },
+    "mmSpellcasting00": {
+      "name": "Conjuración"
+    },
+    "mmSpiderClimb000": {
+      "name": "Trepar como araña"
+    },
+    "mmSpiritJar00000": {
+      "name": "Jarra espiritual"
+    },
+    "mmSpiritualWeapo": {
+      "name": "Arma espiritual"
+    },
+    "mmSplit000000000": {
+      "name": "Dividirse"
+    },
+    "mmSpores00000000": {
+      "name": "Esporas"
+    },
+    "mmStandingLeap00": {
+      "name": "Salto desde parado"
+    },
+    "mmSteamBreath000": {
+      "name": "Aliento de vapor"
+    },
+    "mmStench00000000": {
+      "name": "Hedor"
+    },
+    "mmSting000000000": {
+      "name": "Aguijón"
+    },
+    "mmStoneClub00000": {
+      "name": "Garrote de piedra"
+    },
+    "mmStormBlade0000": {
+      "name": "Hoja de tormenta"
+    },
+    "mmStormBolt00000": {
+      "name": "Rayo de tormenta"
+    },
+    "mmStormSword0000": {
+      "name": "Espada de tormenta"
+    },
+    "mmStunningScreec": {
+      "name": "Chirrido aturdidor"
+    },
+    "mmSuccubusForm00": {
+      "name": "Forma de súcubo"
+    },
+    "mmSunlightSensit": {
+      "name": "Sensibilidad a la luz del sol"
+    },
+    "mmSunlightWeakne": {
+      "name": "Debilidad a la luz del sol"
+    },
+    "mmSwallow0000000": {
+      "name": "Tragar"
+    },
+    "mmSwarm000000000": {
+      "name": "Enjambre"
+    },
+    "mmSwarmOfGraspin": {
+      "name": "Enjambre de manos que agarran"
+    },
+    "mmSwoop000000000": {
+      "name": "Picado"
+    },
+    "mmTail0000000000": {
+      "name": "Cola"
+    },
+    "mmTailSpike00000": {
+      "name": "Púa caudal"
+    },
+    "mmTailStinger000": {
+      "name": "Aguijón caudal"
+    },
+    "mmTailSwipe00000": {
+      "name": "Coletazo"
+    },
+    "mmTalons00000000": {
+      "name": "Garras"
+    },
+    "mmTelepathicBond": {
+      "name": "Vínculo telepático"
+    },
+    "mmTeleport000000": {
+      "name": "Teletransporte"
+    },
+    "mmTentacle000000": {
+      "name": "Tentáculo"
+    },
+    "mmTentacleSlam00": {
+      "name": "Golpe de tentáculo"
+    },
+    "mmTentacles00000": {
+      "name": "Tentáculos"
+    },
+    "mmThornBurst0000": {
+      "name": "Estallido de espinas"
+    },
+    "mmThunderbolt000": {
+      "name": "Rayo atronador"
+    },
+    "mmThunderclap000": {
+      "name": "Trueno"
+    },
+    "mmThundercloud00": {
+      "name": "Nube atronadora"
+    },
+    "mmThunderousBell": {
+      "name": "Bramido atronador"
+    },
+    "mmThunderousMace": {
+      "name": "Maza atronadora"
+    },
+    "mmThunderousSlam": {
+      "name": "Golpe atronador"
+    },
+    "mmTouch000000000": {
+      "name": "Toque"
+    },
+    "mmToxicInk000000": {
+      "name": "Tinta tóxica"
+    },
+    "mmTraining000000": {
+      "name": "Adiestramiento"
+    },
+    "mmTrample0000000": {
+      "name": "Pisotear"
+    },
+    "mmTramplingCharg": {
+      "name": "Carga arrolladora"
+    },
+    "mmTransparent000": {
+      "name": "Transparente"
+    },
+    "mmTrashLob000000": {
+      "name": "Lanzamiento de basura"
+    },
+    "mmTreasureSense0": {
+      "name": "Sentido del tesoro"
+    },
+    "mmTreeClub000000": {
+      "name": "Garrote de árbol"
+    },
+    "mmTreeStride0000": {
+      "name": "Paso arbóreo"
+    },
+    "mmTrollSpawn0000": {
+      "name": "Engendro de trol"
+    },
+    "mmTunneler000000": {
+      "name": "Excavador"
+    },
+    "mmUmbralDagger00": {
+      "name": "Daga umbría"
+    },
+    "mmUndeadFortitud": {
+      "name": "Fortaleza no muerta"
+    },
+    "mmUndeadRestorat": {
+      "name": "Restauración no muerta"
+    },
+    "mmUnicornsBlessi": {
+      "name": "Bendición del unicornio"
+    },
+    "mmUnnervingGaze0": {
+      "name": "Mirada inquietante"
+    },
+    "mmUnsettlingVisa": {
+      "name": "Rostro perturbador"
+    },
+    "mmVampireWeaknes": {
+      "name": "Debilidad vampírica"
+    },
+    "mmVampiricConnec": {
+      "name": "Conexión vampírica"
+    },
+    "mmVanish00000000": {
+      "name": "Desvanecerse"
+    },
+    "mmVerdantWisp000": {
+      "name": "Fuego fatuo verdescente"
+    },
+    "mmVileAppearance": {
+      "name": "Apariencia vil"
+    },
+    "mmVileSlime00000": {
+      "name": "Baba vil"
+    },
+    "mmVineLash000000": {
+      "name": "Latigazo de vid"
+    },
+    "mmVineStaff00000": {
+      "name": "Bastón de vid"
+    },
+    "mmVortex00000000": {
+      "name": "Vórtice"
+    },
+    "mmWarCry00000000": {
+      "name": "Grito de guerra"
+    },
+    "mmWaterBreathing": {
+      "name": "Respirar bajo el agua"
+    },
+    "mmWaterForm00000": {
+      "name": "Forma acuosa"
+    },
+    "mmWaterSusceptib": {
+      "name": "Susceptibilidad al agua"
+    },
+    "mmWeakeningBreat": {
+      "name": "Aliento debilitador"
+    },
+    "mmWeb00000000000": {
+      "name": "Telaraña"
+    },
+    "mmWebStrand00000": {
+      "name": "Hilo de telaraña"
+    },
+    "mmWebWalker00000": {
+      "name": "Caminante de telarañas"
+    },
+    "mmWeightOfYears0": {
+      "name": "Peso de los años"
+    },
+    "mmWhelm000000000": {
+      "name": "Arrollar"
+    },
+    "mmWhirlwind00000": {
+      "name": "Torbellino"
+    },
+    "mmWhirlwindOfSan": {
+      "name": "Torbellino de arena"
+    },
+    "mmWindSwipe00000": {
+      "name": "Tajo de viento"
+    },
+    "mmWishes00000000": {
+      "name": "Deseos"
+    },
+    "mmWitheringSword": {
+      "name": "Espada marchitante"
+    },
+    "mmWitheringTouch": {
+      "name": "Toque marchitante"
+    },
+    "mmWorldshakingMo": {
+      "name": "Movimiento sacude-mundos"
+    }
+  }
+}

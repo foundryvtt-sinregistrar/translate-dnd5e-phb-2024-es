@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "base_source": "dnd-players-handbook.classes.json",
+    "supplemental_source_for_targets": "dnd-players-handbook.classes-v009.json",
+    "generated_files": [
+      "dnd-players-handbook.classes-v010.json",
+      "converters.v002.js"
+    ]
+  },
+  "classes_changes": {
+    "advancement_title_changes_count": 193,
+    "advancement_title_replacements": {
+      "daño de furia -> Daño de furia": 1,
+      "Rasgos de Subclase -> Rasgos de subclase": 137,
+      "Rasgos de Clase -> Rasgos de clase": 51,
+      "Dádiva Épica -> Dádiva épica": 1,
+      "Competencias en Habilidades -> Competencias en habilidades": 1,
+      "Competencias con Armas -> Competencias con armas": 1,
+      "Trucos Conocidos -> Trucos conocidos": 1
+    },
+    "typo_fixes_count": 1,
+    "typo_fixes_preview": [
+      {
+        "path": "entries.phbbrbBranchesOf.description",
+        "from": "<p>Sempre que una criatura que puedas ver comience su turno a 30 pies o menos de ti mientras tu Furia está activa, puedes usar una Reacción ",
+        "to": "<p>Siempre que una criatura que puedas ver comience su turno a 30 pies o menos de ti mientras tu Furia está activa, puedes usar una Reacción"
+      }
+    ],
+    "target_restored_from_spanish_count": 3,
+    "target_restored_preview": [
+      {
+        "entry": "phbbrbDivineFury",
+        "activity": "LAMSQQ3i8NNzanUw",
+        "from": "First creature you hit with a weapon or an Unarmed Strike",
+        "to": "Primera criatura que golpees con un arma o un golpe sin armas"
+      },
+      {
+        "entry": "phbbrbDivineFury",
+        "activity": "wtC08LDH1A38krl7",
+        "from": "First creature you hit with a weapon or an Unarmed Strike",
+        "to": "Primera criatura que golpees con un arma o un golpe sin armas"
+      },
+      {
+        "entry": "phbclcChannelDiv",
+        "activity": "aOptL5pMaj3WtR8S",
+        "from": "Undead of your choice",
+        "to": "Muertos vivientes a tu elección"
+      }
+    ]
+  },
+  "converter_changes": {
+    "added_import": "phb2024ActivitiesById",
+    "registered_converter": "phb2024ActivitiesById"
+  }
+}

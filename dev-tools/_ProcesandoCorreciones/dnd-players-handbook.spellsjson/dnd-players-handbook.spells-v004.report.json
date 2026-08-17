@@ -1,0 +1,247 @@
+{
+  "changed_entries_count": 58,
+  "changed_fields_count": 67,
+  "changed_entries": [
+    "phbPrivateSanctu",
+    "phbsplAnimateObj",
+    "phbsplBanishment",
+    "phbsplBestowCurs",
+    "phbsplBlur000000",
+    "phbsplClairvoyan",
+    "phbsplCommunewit",
+    "phbsplConjureMin",
+    "phbsplConjureWoo",
+    "phbsplContinualF",
+    "phbsplCreateUnde",
+    "phbsplDarkness00",
+    "phbsplDarkvision",
+    "phbsplDetectEvil",
+    "phbsplDispelEvil",
+    "phbsplDivineSmit",
+    "phbsplDivineWord",
+    "phbsplEntangle00",
+    "phbsplEvardsBlac",
+    "phbsplEyebite000",
+    "phbsplFaerieFire",
+    "phbsplFear000000",
+    "phbsplFindFamili",
+    "phbsplFindSteed0",
+    "phbsplFogCloud00",
+    "phbsplForbiddanc",
+    "phbsplFreedomofM",
+    "phbsplGiantInsec",
+    "phbsplGrease0000",
+    "phbsplGreaterRes",
+    "phbsplGuardsandW",
+    "phbsplHallow0000",
+    "phbsplHungerofHa",
+    "phbsplIceStorm00",
+    "phbsplIllusorySc",
+    "phbsplIncendiary",
+    "phbsplInsectPlag",
+    "phbsplLeomundsTi",
+    "phbsplMirageArca",
+    "phbsplMirrorImag",
+    "phbsplPrayerofHe",
+    "phbsplPrismaticW",
+    "phbsplShield0000",
+    "phbsplShiningSmi",
+    "phbsplSleetStorm",
+    "phbsplSpeakwithP",
+    "phbsplStinkingCl",
+    "phbsplStormofVen",
+    "phbsplSummonAber",
+    "phbsplSummonCons",
+    "phbsplSummonElem",
+    "phbsplSummonFey0",
+    "phbsplSummonFien",
+    "phbsplSunburst00",
+    "phbsplWeb0000000",
+    "phbsplWindWalk00",
+    "phbsplWitchBolt0",
+    "phbsplYolandesRe"
+  ],
+  "top_changes": [
+    [
+      "text:(Fey)->(Feérico)",
+      11
+    ],
+    [
+      "ref:Dodge",
+      9
+    ],
+    [
+      "text:(Fiend)->(Infernal)",
+      9
+    ],
+    [
+      "cleanup:Infernal (Infernal)->Infernal",
+      9
+    ],
+    [
+      "cleanup:Ser feérico (Feérico)->Ser feérico",
+      8
+    ],
+    [
+      "ref:DifficultTerrain",
+      7
+    ],
+    [
+      "text:(Undead)->(No muerto)",
+      6
+    ],
+    [
+      "ref:difficultterrain",
+      5
+    ],
+    [
+      "ref:truesight",
+      4
+    ],
+    [
+      "cleanup:No muerto (No muerto)->No muerto",
+      4
+    ],
+    [
+      "ref:dimlight",
+      4
+    ],
+    [
+      "ref:Dash",
+      4
+    ],
+    [
+      "cleanup:Seres feéricos (Feérico)->Seres feéricos",
+      3
+    ],
+    [
+      "ref:heavilyobscured",
+      3
+    ],
+    [
+      "ref:HeavilyObscured",
+      3
+    ],
+    [
+      "ref:BrightLight",
+      3
+    ],
+    [
+      "ref:blindsight",
+      2
+    ],
+    [
+      "ref:darkness",
+      2
+    ],
+    [
+      "ref:darkvision",
+      2
+    ],
+    [
+      "text:(Fiends)->(Infernales)",
+      2
+    ],
+    [
+      "ref:dash",
+      2
+    ],
+    [
+      "ref:Darkness",
+      2
+    ],
+    [
+      "ref:totalcover",
+      2
+    ],
+    [
+      "ref:Darkvision",
+      1
+    ],
+    [
+      "text:(Gargantuan)->(Gargantuesco)",
+      1
+    ],
+    [
+      "ref:Disengage",
+      1
+    ],
+    [
+      "ref:brightlight",
+      1
+    ],
+    [
+      "cleanup:Infernales (Infernales)->Infernales",
+      1
+    ],
+    [
+      "ref:Exhaustion",
+      1
+    ],
+    [
+      "ref:LightlyObscured",
+      1
+    ],
+    [
+      "ref:Truesight",
+      1
+    ],
+    [
+      "ref:shortrest",
+      1
+    ],
+    [
+      "ref:DimLight",
+      1
+    ],
+    [
+      "text:Magic Missile->Proyectil mágico",
+      1
+    ],
+    [
+      "ref:concentration",
+      1
+    ],
+    [
+      "ref:dodge",
+      1
+    ],
+    [
+      "ref:lightlyobscured",
+      1
+    ],
+    [
+      "ref:prone",
+      1
+    ]
+  ],
+  "remaining_unlabeled_refs_for_mapped_keys": {
+    "Darkvision": 1,
+    "Dodge": 9,
+    "truesight": 4,
+    "blindsight": 2,
+    "DifficultTerrain": 7,
+    "Disengage": 1,
+    "brightlight": 1,
+    "dimlight": 4,
+    "darkness": 2,
+    "darkvision": 2,
+    "difficultterrain": 5,
+    "Dash": 4,
+    "dash": 2,
+    "heavilyobscured": 3,
+    "prone": 4,
+    "Exhaustion": 1,
+    "HeavilyObscured": 3,
+    "Darkness": 2,
+    "LightlyObscured": 1,
+    "Truesight": 1,
+    "shortrest": 1,
+    "BrightLight": 3,
+    "DimLight": 1,
+    "concentration": 1,
+    "dodge": 1,
+    "lightlyobscured": 1,
+    "totalcover": 2
+  }
+}

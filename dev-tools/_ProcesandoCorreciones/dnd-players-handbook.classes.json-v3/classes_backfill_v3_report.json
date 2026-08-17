@@ -1,0 +1,78 @@
+{
+  "source_es": "dnd-players-handbook.classes.json",
+  "source_en": "dnd-players-handbook.classes-en.v3.json",
+  "output": "dnd-players-handbook.classes.es.backfilled.from-en-v3.json",
+  "stats": {
+    "entry.folder_filled": 522,
+    "advancement.title_filled": 83,
+    "activity.name_filled": 90,
+    "activity.range_filled": 78,
+    "activity.activation.condition_filled": 29,
+    "activity.target_filled": 22,
+    "activity.duration_filled": 38
+  },
+  "post_check": {
+    "activity.target_empty": 316,
+    "activity.range_empty": 293,
+    "activity.duration_empty": 341,
+    "activity.activation.condition_empty": 232
+  },
+  "translation_sources_used": {
+    "group_dictionary": "phb_en_es_group_dictionaries.json",
+    "glossary": "glossary_unified.json",
+    "normalization": "normalization_core.v7.generated.integrated.json",
+    "spells_en": "dnd-players-handbook.spells-en.json",
+    "spells_es": "dnd-players-handbook.spells.json"
+  },
+  "manual_translation_maps": {
+    "activity_name_manual": {
+      "Attack": "Ataque",
+      "Save": "Salvación",
+      "Heal": "Curar",
+      "Use": "Usar",
+      "Damage": "Daño",
+      "Transform": "Transformar",
+      "Summon": "Invocar",
+      "Enchant": "Encantar"
+    },
+    "adv_title_manual": {
+      "Ability Score Improvement": "Mejora de característica",
+      "Subclass": "Subclase",
+      "Hit Points": "Puntos de golpe",
+      "Grant Items": "Conceder objetos",
+      "Epic Boon": "Don épico",
+      "Skills": "Habilidades",
+      "Saving Throws": "Tiradas de salvación",
+      "Damage Resistances": "Resistencias al daño"
+    },
+    "condition_manual": {
+      "When you hit a creature with an attack roll": "Cuando golpeas a una criatura con una tirada de ataque",
+      "Whenever a creature you can see starts its turn within 30 feet of you while your Raging": "Siempre que una criatura que puedas ver comience su turno a 30 pies o menos de ti mientras estás en Furia",
+      "After casting an enchantment or illusion spell using a spell slot": "Después de lanzar un conjuro de encantamiento o ilusión usando un espacio de conjuro",
+      "You or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition": "Tú o una criatura a 30 pies o menos de ti falla una tirada de salvación contra un efecto que aplica la condición Encantado o Asustado",
+      "When you fail an ability check or attack roll": "Cuando fallas una prueba de característica o una tirada de ataque",
+      "Deal damage with any Cleric cantrip": "Inflige daño con cualquier truco de Clérigo",
+      "Once per turn when you hit a target with a Wild Shape form's attack": "Una vez por turno, cuando golpeas a un objetivo con un ataque de una forma de Forma salvaje",
+      "Once per turn when you hit a creature with your pact weapon": "Una vez por turno, cuando golpeas a una criatura con tu arma del pacto",
+      "Once per turn when you hit a creature with an Unarmed Strike and deal damage": "Una vez por turno, cuando golpeas a una criatura con un Golpe sin armas e infliges daño",
+      "Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike": "Una vez por turno, cuando golpeas a una criatura con un arma de Monje o un Golpe sin armas",
+      "At the start of your turn": "Al comienzo de tu turno",
+      "When you make a Charisma (Intimidation, Performance, or Persuasion) check": "Cuando haces una prueba de Carisma (Intimidación, Interpretación o Persuasión)",
+      "When another creature damages you with a melee attack roll": "Cuando otra criatura te inflige daño con una tirada de ataque cuerpo a cuerpo",
+      "When you miss with an attack roll": "Cuando fallas con una tirada de ataque",
+      "When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check": "Cuando haces una prueba de Inteligencia (Historia o Investigación) o una prueba de Sabiduría (Perspicacia)",
+      "Immediately after you cast Divine Smite": "Inmediatamente después de lanzar Castigo divino",
+      "When you are reduced to 0 Hit Points": "Cuando eres reducido a 0 puntos de golpe",
+      "When you take the Attack action": "Cuando realizas la acción de Ataque",
+      "Your Sneak Attack hits any target during the first round": "Tu Ataque furtivo golpea a cualquier objetivo durante la primera ronda",
+      "When you hit a creature with a weapon": "Cuando golpeas a una criatura con un arma",
+      "Once per turn when you hit a creature with a weapon": "Una vez por turno, cuando golpeas a una criatura con un arma",
+      "When you form a telepathic bond using Awakened Mind": "Cuando formas un vínculo telepático usando Mente despierta",
+      "When you reduce an enemy to 0 Hit Points or  an enemy within 10 feet of you is reduced to 0 Hit Points": "Cuando reduces a un enemigo a 0 puntos de golpe o un enemigo a 10 pies o menos de ti es reducido a 0 puntos de golpe",
+      "When you or an ally within 60 feet of you is about to make a Death Saving Throw": "Cuando tú o un aliado a 60 pies o menos de ti está a punto de hacer una tirada de salvación contra la muerte",
+      "Whenever you cast a Wizard spell from the Evocation school": "Siempre que lanzas un conjuro de Mago de la escuela de Evocación"
+    },
+    "hint_manual": {}
+  },
+  "untranslated_remaining": {}
+}

@@ -1,0 +1,124 @@
+{
+  "label": "Races (SRD)",
+  "folders": {
+    "Dragonborn": "Dragonborn",
+    "Dragonborn Features": "Dragonborn Features",
+    "Dwarf": "Dwarf",
+    "Dwarf Features": "Dwarf Features",
+    "Elf": "Elf",
+    "Elf Features": "Elf Features",
+    "Gnome": "Gnome",
+    "Gnome Features": "Gnome Features",
+    "Halfling": "Halfling",
+    "Halfling Features": "Halfling Features",
+    "Human": "Human",
+    "Orc": "Orc",
+    "Orc Features": "Orc Features",
+    "Tiefling": "Tiefling",
+    "Tiefling Features": "Tiefling Features"
+  },
+  "entries": {
+    "0kUsT4sMUOr5FcoX": {
+      "name": "Savage Attacks"
+    },
+    "4v2PiBrAbqDizdSJ": {
+      "name": "Trance"
+    },
+    "7Yoo9hG0hfPSmBoC": {
+      "name": "Brave"
+    },
+    "97c8i9Z28thvZuA8": {
+      "name": "Relentless Endurance"
+    },
+    "A69KxdH1renVPrQV": {
+      "name": "High Elf"
+    },
+    "EHhr9umJ5kxJFCQH": {
+      "name": "Gnome Cunning"
+    },
+    "GWPjKFeIthBBeCFJ": {
+      "name": "Naturally Stealthy"
+    },
+    "Hye5IZwPOSwV0qRR": {
+      "name": "Half-Elf"
+    },
+    "JrUcwLR2aQC09iUM": {
+      "name": "Breath Weapon - Brass"
+    },
+    "K4DNDcR6vngbp0pf": {
+      "name": "Dragonborn"
+    },
+    "KL7wx9Q8XNJQir0k": {
+      "name": "Breath Weapon - White"
+    },
+    "KVgvW5yhKcmQUanz": {
+      "name": "Breath Weapon - Blue"
+    },
+    "LOMdcNAGWh5xpfm4": {
+      "name": "Lucky"
+    },
+    "NnSZlrsHCFeH3cCq": {
+      "name": "Breath Weapon - Black"
+    },
+    "OQA1sHxKnSJq01dL": {
+      "name": "Artificer's Lore"
+    },
+    "PqxZgcJzp1VVgP8t": {
+      "name": "Halfling Nimbleness"
+    },
+    "TZtarkKs6cgGD7z2": {
+      "name": "Rock Gnome"
+    },
+    "UQiRQUTBcsz8gZU1": {
+      "name": "Hill Dwarf"
+    },
+    "YPQQBZAuRiSwuBfh": {
+      "name": "Breath Weapon - Gold"
+    },
+    "ZgYBjYYfiUstQD6f": {
+      "name": "Lightfoot Halfling"
+    },
+    "aHTokZ151W0ASSmo": {
+      "name": "Tiefling"
+    },
+    "bFpLM0N3uTeHLdzu": {
+      "name": "Breath Weapon - Copper"
+    },
+    "cnTbpPPeGW7vGjOV": {
+      "name": "Fey Ancestry"
+    },
+    "kB61JPKQrDBbSNU7": {
+      "name": "Breath Weapon - Red"
+    },
+    "koRPOLtj8XAFMwnW": {
+      "name": "Tinker"
+    },
+    "lXIxndsBaQglHBtO": {
+      "name": "Breath Weapon - Green"
+    },
+    "mQPZDRbUhgYTbXKa": {
+      "name": "Stonecunning"
+    },
+    "n5L000DkNBU6h2oJ": {
+      "name": "Half-Orc"
+    },
+    "pAYTdRGftNr8AitK": {
+      "name": "Breath Weapon - Silver"
+    },
+    "pJzMSk9qYywYy65w": {
+      "name": "Breath Weapon - Bronze"
+    },
+    "q71Pe1F8RRtEJt8Q": {
+      "name": "Hellish Resistance"
+    },
+    "ufysTkqet2Ctmtyi": {
+      "name": "Dwarven Resilience"
+    },
+    "wJc88B8OP1y1xzMw": {
+      "name": "Infernal Legacy"
+    },
+    "ydP3QzCmur55mtY2": {
+      "name": "Human"
+    }
+  }
+}

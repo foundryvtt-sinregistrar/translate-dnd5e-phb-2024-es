@@ -1,0 +1,141 @@
+{
+  "base": "dnd-players-handbook.feats-v001.json",
+  "changes": {},
+  "effect_names_changed": [
+    {
+      "entry": "phbftSkulker0000",
+      "effect": "6moNnOl0izLMgVNl",
+      "old": "Fog of War",
+      "new": "Niebla de guerra"
+    },
+    {
+      "entry": "phbftSkulker0000",
+      "effect": "UISGaeQxKRgJJuG0",
+      "old": "Skulker",
+      "new": "Merodeador"
+    },
+    {
+      "entry": "phbftSpeedy00000",
+      "effect": "WYPFLhnW9s8fCt1r",
+      "old": "Speedy",
+      "new": "Veloz"
+    },
+    {
+      "entry": "phbftTavernBrawl",
+      "effect": "mgi62SkDMKDd0wFf",
+      "old": "Tavern Brawler",
+      "new": "Buscapleitos de taberna"
+    },
+    {
+      "entry": "phbftTough000000",
+      "effect": "CjombUT8lnLUfySB",
+      "old": "Tough",
+      "new": "Duro"
+    },
+    {
+      "entry": "phbftWarCaster00",
+      "effect": "gKKDiaGFwszZNCHr",
+      "old": "War Caster",
+      "new": "Lanzador de guerra"
+    },
+    {
+      "entry": "phbftPoisoner000",
+      "effect": "wa9lV5GjGSo4Z2QR",
+      "old": "Envenenado (Dex)",
+      "new": "Envenenado (Des)"
+    }
+  ],
+  "effect_descriptions_changed": [
+    {
+      "entry": "phbftPoisoner000",
+      "effect": "GlmRAYe77KR5E58J",
+      "old": "<p>When a creature takes damage from the poisoned item, that creature must succeed on a [[/save ability=con]] saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the &amp;Reference[Poisoned] condition until the end of your next turn.</p>",
+      "new": "<p>Cuando una criatura reciba daño del objeto envenenado, esa criatura debe superar una tirada de salvación de [[/save ability=con]] (CD 8 más el modificador de la característica aumentada por esta dote y tu bonificador de competencia) o sufrir 2d8 puntos de daño de veneno y tener la condición de &amp;Reference[Poisoned]{envenenado} hasta el final de tu siguiente turno.</p>"
+    },
+    {
+      "entry": "phbftPoisoner000",
+      "effect": "wa9lV5GjGSo4Z2QR",
+      "old": "<p>When a creature takes damage from the poisoned item, that creature must succeed on a [[/save ability=con]] saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the &amp;Reference[Poisoned] condition until the end of your next turn.</p>",
+      "new": "<p>Cuando una criatura reciba daño del objeto envenenado, esa criatura debe superar una tirada de salvación de [[/save ability=con]] (CD 8 más el modificador de la característica aumentada por esta dote y tu bonificador de competencia) o sufrir 2d8 puntos de daño de veneno y tener la condición de &amp;Reference[Poisoned]{envenenado} hasta el final de tu siguiente turno.</p>"
+    },
+    {
+      "entry": "phbftSkulker0000",
+      "effect": "6moNnOl0izLMgVNl",
+      "old": "<p><strong>Fog of War.</strong> You exploit the distractions of battle, gaining Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat.</p>",
+      "new": "<p><strong>Niebla de guerra.</strong> Aprovechas las distracciones de la batalla, obteniendo Ventaja en cualquier prueba de Destreza (Sigilo) que hagas como parte de la acción Esconderse durante el combate.</p>"
+    }
+  ],
+  "entry_descriptions_changed": [
+    "phbBoonofEnergyR",
+    "phbBoonofFate000",
+    "phbBoonofFortitu",
+    "phbBoonofIrresis",
+    "phbBoonofRecover",
+    "phbBoonofSpeed00",
+    "phbBoonofSpellRe",
+    "phbBoonoftheNigh",
+    "phbBoonofTruesig",
+    "phbfstArchery000",
+    "phbfstBlindFight",
+    "phbfstDefense000",
+    "phbfstDueling000",
+    "phbfstGreatWeapo",
+    "phbfstIntercepti",
+    "phbfstProtection",
+    "phbfstThrownWeap",
+    "phbfstTwoWeaponF",
+    "phbfstUnarmedFig",
+    "phbftActor000000",
+    "phbftAlert000000",
+    "phbftAthlete0000",
+    "phbftCharger0000",
+    "phbftChef0000000",
+    "phbftCrafter0000",
+    "phbftCrossbowExp",
+    "phbftCrusher0000",
+    "phbftDefensiveDu",
+    "phbftDualWielder",
+    "phbftDurable0000",
+    "phbftElementalAd",
+    "phbftFeyTouched0",
+    "phbftGrappler000",
+    "phbftGreatWeapon",
+    "phbftHealer00000",
+    "phbftHeavilyArmo",
+    "phbftHeavyArmorM",
+    "phbftInspiringLe",
+    "phbftLightlyArmo",
+    "phbftLucky000000",
+    "phbftMageSlayer0",
+    "phbftMagicInitia",
+    "phbftMartialWeap",
+    "phbftMediumArmor",
+    "phbftModeratelyA",
+    "phbftMountedComb",
+    "phbftPiercer0000",
+    "phbftRitualCaste",
+    "phbftSentinel000",
+    "phbftShieldMaste",
+    "phbftSkulker0000",
+    "phbftSlasher0000",
+    "phbftSpeedy00000",
+    "phbftSpellSniper",
+    "phbftTavernBrawl",
+    "phbftTelekinetic",
+    "phbftTelepathic0",
+    "phbftTough000000",
+    "phbftWarCaster00"
+  ],
+  "summary": {
+    "effect_names_changed": 7,
+    "effect_descriptions_changed": 3,
+    "entry_descriptions_changed": 59,
+    "remaining_obvious_english_in_entry_descriptions": 0,
+    "remaining_obvious_english_in_effects_visible_text": 2
+  },
+  "notes": [
+    "Base usada: feats-v001.",
+    "Se priorizan correcciones visibles en effects.name, effects.description y description.",
+    "Los residuos detectados en effects tras la comprobación final corresponden a referencias técnicas internas como &Reference[Poisoned]{envenenado}, cuyo texto visible ya está en español."
+  ]
+}

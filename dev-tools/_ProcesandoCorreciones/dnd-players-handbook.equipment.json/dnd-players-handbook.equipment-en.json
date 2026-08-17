@@ -1,0 +1,3879 @@
+{
+  "label": "Equipment",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "phb2024ActivitiesById"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phb2024MergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phb2024AdvancementById"
+    }
+  },
+  "folders": {
+    "Adventuring Gear": "Adventuring Gear",
+    "Ammunition": "Ammunition",
+    "Arcane Focus": "Arcane Focus",
+    "Armor": "Armor",
+    "Artisan": "Artisan",
+    "Druidic Focus": "Druidic Focus",
+    "Gaming Set": "Gaming Set",
+    "Heavy": "Heavy",
+    "Holy Symbol": "Holy Symbol",
+    "Light": "Light",
+    "Martial Melee": "Martial Melee",
+    "Martial Ranged": "Martial Ranged",
+    "Medium": "Medium",
+    "Musical Instrument": "Musical Instrument",
+    "Other": "Other",
+    "Simple Melee": "Simple Melee",
+    "Simple Ranged": "Simple Ranged",
+    "Spellcasting Focuses": "Spellcasting Focuses",
+    "Star Maps": "Star Maps",
+    "Tools": "Tools",
+    "Weapons": "Weapons"
+  },
+  "entries": {
+    "1NwTdI5LHEH5WThq": {
+      "name": "Blanket",
+      "folder": "Adventuring Gear",
+      "description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "2nlARB78sJo8Z2W6": {
+      "name": "Water (Pint)",
+      "folder": "Adventuring Gear",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consume",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "367bsHMaHI1II4k9": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "5KMKEV07I25SVth0": {
+      "name": "Rope",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Escape Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Burst Rope",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Tie Knot",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "5tEPJK0TLcjPvPNF": {
+      "name": "Waterskin",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "67ScUFYRuMU0J2Wt": {
+      "name": "Water (Pint)",
+      "folder": "Adventuring Gear",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consume",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "6iF0YQeRdYJMfPd7": {
+      "name": "Map or Scroll Case",
+      "folder": "Adventuring Gear",
+      "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "6SKwUOHlYMst7M2z": {
+      "name": "Rations",
+      "folder": "Adventuring Gear",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "8dJcpxveaFEzjK5C": {
+      "name": "Oil",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Douse Space",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "ABjsMdpDnWlkjbMq": {
+      "name": "Bedroll",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "aWEY8Xh0wfn69Q1w": {
+      "name": "Water (Pint)",
+      "folder": "Adventuring Gear",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consume",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "D0567EygDF0Akvux": {
+      "name": "Parchment",
+      "folder": "Adventuring Gear",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "DKYzehYrMUKiFDxt": {
+      "name": "Hooded Lantern",
+      "folder": "Adventuring Gear",
+      "description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "EGuDt2xpscYtalmV": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "Ekz3r0UKJ261oBJj": {
+      "name": "Lamp",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "etKzfLUMWikSsi3R": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "GDF2kmAUO8B5UEEJ": {
+      "name": "Bell",
+      "folder": "Adventuring Gear",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "gHOs5HRZJdnUwfng": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "gYKSyS7STTresmnS": {
+      "name": "Torch",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>",
+      "activities": {
+        "SouNhSdWdnznKCam": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "I6wPnS0Z1qcpXjdL": {
+      "name": "Parchment",
+      "folder": "Adventuring Gear",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "It6m0vGGZwCf9E7r": {
+      "name": "Water (Pint)",
+      "folder": "Adventuring Gear",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consume",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "iYwrPPLmuVD9eqfa": {
+      "name": "Caltrops",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>",
+      "activities": {
+        "G8upRnZw22jGWKWy": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "HsbtDDdiWhk4d7WB": {
+          "name": "Slowed"
+        }
+      },
+      "advancement": {}
+    },
+    "jLcAY4Oph8ZEniG2": {
+      "name": "Robe",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "JpE7eqjwXw95Sai5": {
+      "name": "Oil",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Douse Space",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "KbVt56CK4ud3FUk3": {
+      "name": "Ball Bearings",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
+      "activities": {
+        "FCoYqKd4jqXjHFNN": {
+          "name": "Spill Ball Bearings",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "IKk7iQcYsjxDfnmk": {
+          "name": "Recover Ball Bearings",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "zW4roNKVL8HcoNwV": {
+          "name": "Tripped"
+        }
+      },
+      "advancement": {}
+    },
+    "KH8g5hD7Q6ZX1YqV": {
+      "name": "Bedroll",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "KUlBAAjJ9KmOCSsC": {
+      "name": "Lamp",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "KZUoiZrigDbovEu7": {
+      "name": "Bullseye Lantern",
+      "folder": "Adventuring Gear",
+      "description": "<p>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "LfDewuKszszreg6i": {
+      "name": "Rope",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Escape Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Burst Rope",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Tie Knot",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "llmXULupnKVHUGuE": {
+      "name": "Rations",
+      "folder": "Adventuring Gear",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "LuLBFWwxjbNKU9FF": {
+      "name": "Waterskin",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "nFFc8hnpFeiIhQWa": {
+      "name": "Rations",
+      "folder": "Adventuring Gear",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "NmDigoAOjCENDrea": {
+      "name": "Bell",
+      "folder": "Adventuring Gear",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "nshr9PBVyB03T7wB": {
+      "name": "Holy Water",
+      "folder": "Adventuring Gear",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>",
+      "activities": {
+        "ArV3jMOIvfj5c5y9": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "oQRUfRQQjsMMXJhD": {
+      "name": "Costume",
+      "folder": "Adventuring Gear",
+      "description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcCrystal000": {
+      "name": "Crystal",
+      "folder": "Arcane Focus",
+      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcOrb0000000": {
+      "name": "Orb",
+      "folder": "Arcane Focus",
+      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcRod0000000": {
+      "name": "Rod",
+      "folder": "Arcane Focus",
+      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcStaffalsoa": {
+      "name": "Staff",
+      "folder": "Arcane Focus",
+      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>",
+      "activities": {
+        "5c4fPKVW51b3Ri3j": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbafcWand000000": {
+      "name": "Wand",
+      "folder": "Arcane Focus",
+      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagAcid0000000": {
+      "name": "Acid",
+      "folder": "Adventuring Gear",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.</p>",
+      "activities": {
+        "PnWlLChqr5JsfCJC": {
+          "name": "Throw Acid",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagAlchemistsF": {
+      "name": "Alchemist's Fire",
+      "folder": "Adventuring Gear",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist’s Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take [[/damage 1d4 type=fire]] damage and start &amp;Reference[burning].</p>",
+      "activities": {
+        "NVclbplLi9uFhKQE": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "HL12olRyPOCmmMQ5": {
+          "name": "Burning.",
+          "description": "<p>Rules reference: &amp;Reference[burning].</p>"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagAmmunitionV": {
+      "name": "Ammunition (Varies)",
+      "folder": "Ammunition",
+      "description": "<p>Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case}</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Bullets, Firearm}</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Bullets, Sling}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>1 lb.</td><td>1 GP</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagAntitoxin00": {
+      "name": "Antitoxin",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.</p>",
+      "activities": {
+        "2TNbDh0n59svuGIx": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "DzWVacNiq6ggXbU9": {
+          "name": "Antitoxin"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagArcaneFocus": {
+      "name": "Arcane Focus (Varies)",
+      "folder": "Spellcasting Focuses",
+      "description": "<p>An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><table><caption>Arcane Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Crystal}</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orb}</td><td>3 lb.</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Rod}</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff} (also a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBackpack000": {
+      "name": "Backpack",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBallBearing": {
+      "name": "Ball Bearings",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
+      "activities": {
+        "FCoYqKd4jqXjHFNN": {
+          "name": "Spill Ball Bearings",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "IKk7iQcYsjxDfnmk": {
+          "name": "Recover Ball Bearings",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "zW4roNKVL8HcoNwV": {
+          "name": "Tripped"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagBarrel00000": {
+      "name": "Barrel",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBasket00000": {
+      "name": "Basket",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Basket holds up to 40 pounds within 2 cubic feet.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBedroll0000": {
+      "name": "Bedroll",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBell0000000": {
+      "name": "Bell",
+      "folder": "Adventuring Gear",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBlanket0000": {
+      "name": "Blanket",
+      "folder": "Adventuring Gear",
+      "description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBlockandTac": {
+      "name": "Block and Tackle",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Block and Tackle allows you to hoist up to four times the weight you can normally lift.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBook0000000": {
+      "name": "Book",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBottleGlass": {
+      "name": "Bottle, Glass",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Glass Bottle holds up to 1½ pints.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBucket00000": {
+      "name": "Bucket",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Bucket holds up to half a cubic foot of contents.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagBurglarsPac": {
+      "name": "Burglar's Pack",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Burglar’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCaltrops000": {
+      "name": "Caltrops",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>",
+      "activities": {
+        "G8upRnZw22jGWKWy": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "HsbtDDdiWhk4d7WB": {
+          "name": "Slowed"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagCandle00000": {
+      "name": "Candle",
+      "folder": "Adventuring Gear",
+      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
+      "activities": {
+        "8kldn9CuzuAz7dVb": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCantripScro": {
+      "name": "Spell Scroll, Cantrip",
+      "folder": "Adventuring Gear",
+      "description": "<p>A <em>Spell Scroll</em> (Cantrip) or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{Spell Scroll (Level 1)} is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll’s creator. If the spell is on your class’s spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCaseCrossbo": {
+      "name": "Case, Crossbow Bolt",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Crossbow Bolt Case holds up to 20 Bolts.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCaseMaporSc": {
+      "name": "Case, Map or Scroll",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagChain000000": {
+      "name": "Chain",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Strength (Athletics) check. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.</p>",
+      "activities": {
+        "9eioXCinYhuRDmOd": {
+          "name": "Escape Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Jg400eyFy9mMETQa": {
+          "name": "Burst Chain Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "nkqvEiPdXCyiJ9ub": {
+          "name": "Wrap Chain Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagChest000000": {
+      "name": "Chest",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Chest holds up to 12 cubic feet of contents.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagClimbersKit": {
+      "name": "Climber's Kit",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Climber’s Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber’s Kit to anchor yourself; when you do, you can’t fall more than 25 feet from the anchor point, and you can’t move more than 25 feet from there without undoing the anchor as a Bonus Action.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagClothesFine": {
+      "name": "Clothes, Fine",
+      "folder": "Adventuring Gear",
+      "description": "<p>Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagClothesTrav": {
+      "name": "Clothes, Traveler's",
+      "folder": "Adventuring Gear",
+      "description": "<p>Traveler’s Clothes are resilient garments designed for travel in various environments.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagComponentPo": {
+      "name": "Component Pouch",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCostume0000": {
+      "name": "Costume",
+      "folder": "Adventuring Gear",
+      "description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagCrowbar0000": {
+      "name": "Crowbar",
+      "folder": "Adventuring Gear",
+      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagDiplomatsPa": {
+      "name": "Diplomat's Pack",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Diplomat’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pens}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Map or Scroll Cases}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper}, 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagDruidicFocu": {
+      "name": "Druidic Focus (Varies)",
+      "folder": "Spellcasting Focuses",
+      "description": "<p>A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><table><caption>Druidic Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Sprig of mistletoe}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Wooden staff} (also a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Yew wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagDungeoneers": {
+      "name": "Dungeoneer's Pack",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Dungeoneer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, 2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagEntertainer": {
+      "name": "Entertainer's Pack",
+      "folder": "Adventuring Gear",
+      "description": "<p>An Entertainer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, 8 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 9 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagExplorersPa": {
+      "name": "Explorer's Pack",
+      "folder": "Adventuring Gear",
+      "description": "<p>An Explorer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, 2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagFlask000000": {
+      "name": "Flask",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Flask holds up to 1 pint.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagGrapplingHo": {
+      "name": "Grappling Hook",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.</p>",
+      "activities": {
+        "X7mlPFWw8g4zsAmB": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHealersKit0": {
+      "name": "Healer's Kit",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Healer’s Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.</p>",
+      "activities": {
+        "bsWqOT06BB3Vb2hg": {
+          "name": "Stabilize",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHolySymbolV": {
+      "name": "Holy Symbol (Varies)",
+      "folder": "Spellcasting Focuses",
+      "description": "<p>A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p><p>The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.</p><table><caption>Holy Symbols</caption><thead><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amulet} (worn or held)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblem} (borne on fabric or a Shield)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Reliquary} (held)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHolyWater00": {
+      "name": "Holy Water",
+      "folder": "Adventuring Gear",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>",
+      "activities": {
+        "ArV3jMOIvfj5c5y9": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagHuntingTrap": {
+      "name": "Hunting Trap",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals [[/damage 1 type=piercing]] damage to the trapped creature.</p>",
+      "activities": {
+        "JjJCLmn9qZmCzlxX": {
+          "name": "Escape",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "tIsE5Y5S9TjOTs9C": {
+          "name": "",
+          "activation": {
+            "condition": "Steps on the plate"
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "9jl46RZ5GOjs9QlJ": {
+          "name": "Trapped"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagInk00000000": {
+      "name": "Ink",
+      "folder": "Adventuring Gear",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagInkPen00000": {
+      "name": "Ink Pen",
+      "folder": "Adventuring Gear",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagJug00000000": {
+      "name": "Jug",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Jug holds up to 1 gallon.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLadder00000": {
+      "name": "Ladder",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Ladder is 10 feet tall. You must climb to move up or down it.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLamp0000000": {
+      "name": "Lamp",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLanternBull": {
+      "name": "Lantern, Bullseye",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.</p>",
+      "activities": {
+        "YuK3Zl78vcfJq0Gd": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLanternHood": {
+      "name": "Lantern, Hooded",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.</p>",
+      "activities": {
+        "IU6trhDShBQzMABE": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagLock0000000": {
+      "name": "Lock",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Lock comes with a key. Without the key, a creature can use @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools} to pick this Lock with a successful [[/tool thief dex 15]] check.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagMagnifyingG": {
+      "name": "Magnifying Glass",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagManacles000": {
+      "name": "Manacles",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p><p>Each set of Manacles comes with a key. Without the key, a creature can use Thieves’ Tools to pick the Manacles’ lock with a successful [[/tool thief dex 15]] check.</p>",
+      "activities": {
+        "HStudlka63uekHM2": {
+          "name": "Burst Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "IpcLYRMUOUk7dKpE": {
+          "name": "Escape Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "LPW3NsIFCn3pYMjY": {
+          "name": "Bind",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "hKJK8c3uwhFNdn5m": {
+          "name": "Manacled"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagMap00000000": {
+      "name": "Map",
+      "folder": "Adventuring Gear",
+      "description": "<p>If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagMirror00000": {
+      "name": "Mirror",
+      "folder": "Adventuring Gear",
+      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagNet00000000": {
+      "name": "Net",
+      "folder": "Adventuring Gear",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the &amp;Reference[Restrained] condition until it escapes. The target succeeds automatically if it is Huge or larger.</p><p>To escape, the target or a creature within 5 feet of it must take an action to make a [[/skill ath 10]] check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.</p>",
+      "activities": {
+        "3u15g2fvhp6MyN5O": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "67ofG0FVqrrkAHKa": {
+          "name": "Caught in Net"
+        }
+      },
+      "advancement": {}
+    },
+    "phbagOil00000000": {
+      "name": "Oil",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Douse Space",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPaper000000": {
+      "name": "Paper",
+      "folder": "Adventuring Gear",
+      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagParchment00": {
+      "name": "Parchment",
+      "folder": "Adventuring Gear",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPerfume0000": {
+      "name": "Perfume",
+      "folder": "Adventuring Gear",
+      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPoisonBasic": {
+      "name": "Poison, Basic",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a roll for the Poison damage.</p></section>",
+      "activities": {
+        "KLsqFTXAS8fnlaYs": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPole0000000": {
+      "name": "Pole",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPotionofHea": {
+      "name": "Potion of Healing",
+      "folder": "Adventuring Gear",
+      "description": "<p>This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.</p>",
+      "activities": {
+        "cNvH4obx5XJ2myYr": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPotIron0000": {
+      "name": "Pot, Iron",
+      "folder": "Adventuring Gear",
+      "description": "<p>An Iron Pot holds up to 1 gallon.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPouch000000": {
+      "name": "Pouch",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagPriestsPack": {
+      "name": "Priest's Pack",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Priest’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Holy Water}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 7 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagQuiver00000": {
+      "name": "Quiver",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Quiver holds up to 20 Arrows.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRamPortable": {
+      "name": "Ram, Portable",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRations0000": {
+      "name": "Rations",
+      "folder": "Adventuring Gear",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRobe0000000": {
+      "name": "Robe",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagRope0000000": {
+      "name": "Rope",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Escape Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Burst Rope",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Tie Knot",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSack0000000": {
+      "name": "Sack",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Sack holds up to 30 pounds within 1 cubic foot.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagScholarsPac": {
+      "name": "Scholar's Pack",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Scholar’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Book}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 10 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagShovel00000": {
+      "name": "Shovel",
+      "folder": "Adventuring Gear",
+      "description": "<p>Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSignalWhist": {
+      "name": "Signal Whistle",
+      "folder": "Adventuring Gear",
+      "description": "<p>When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.</p>",
+      "activities": {
+        "xBb5IRSNGtnimaeF": {
+          "name": "Whistle",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSpellScroll": {
+      "name": "Spell Scroll, Level 1",
+      "folder": "Adventuring Gear",
+      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{Spell Scroll (Cantrip)} or <em>Spell Scroll</em> (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll’s creator. If the spell is on your class’s spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSpikesIron0": {
+      "name": "Spikes, Iron",
+      "folder": "Adventuring Gear",
+      "description": "<p>Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagSpyglass100": {
+      "name": "Spyglass",
+      "folder": "Adventuring Gear",
+      "description": "<p>Objects viewed through a Spyglass are magnified to twice their size.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagString00000": {
+      "name": "String",
+      "folder": "Adventuring Gear",
+      "description": "<p>String is 10 feet long. You can tie a knot in it as a Utilize action.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagTent0000000": {
+      "name": "Tent",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tent sleeps up to two Small or Medium creatures.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagTinderbox00": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagTorch000000": {
+      "name": "Torch",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>",
+      "activities": {
+        "SouNhSdWdnznKCam": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagVial0000000": {
+      "name": "Vial",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Vial holds up to 4 ounces.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbagWaterskin00": {
+      "name": "Waterskin",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoArrows0000": {
+      "name": "Arrows",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoBolts00000": {
+      "name": "Bolts",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoBulletsFir": {
+      "name": "Bullets, Firearm",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoBulletsSli": {
+      "name": "Bullets, Sling",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbamoNeedles000": {
+      "name": "Needles",
+      "folder": "Ammunition",
+      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmBreastplat": {
+      "name": "Breastplate",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmChainMail0": {
+      "name": "Chain Mail",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmChainShirt": {
+      "name": "Chain Shirt",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmHalfPlateA": {
+      "name": "Half Plate Armor",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmHideArmor0": {
+      "name": "Hide Armor",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmLeatherArm": {
+      "name": "Leather Armor",
+      "folder": "Light",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmPaddedArmo": {
+      "name": "Padded Armor",
+      "folder": "Light",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmPlateArmor": {
+      "name": "Plate Armor",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmRingMail00": {
+      "name": "Ring Mail",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmScaleMail0": {
+      "name": "Scale Mail",
+      "folder": "Medium",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmShield0000": {
+      "name": "Shield",
+      "folder": "Armor",
+      "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmSplintArmo": {
+      "name": "Splint Armor",
+      "folder": "Heavy",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbarmStuddedLea": {
+      "name": "Studded Leather Armor",
+      "folder": "Light",
+      "description": "",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbdfcSprigofmis": {
+      "name": "Sprig of mistletoe",
+      "folder": "Druidic Focus",
+      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbdfcWoodenstaf": {
+      "name": "Wooden staff",
+      "folder": "Druidic Focus",
+      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>",
+      "activities": {
+        "8F63re0OqRLG0LzQ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbdfcYewwand000": {
+      "name": "Yew wand",
+      "folder": "Druidic Focus",
+      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstDice000000": {
+      "name": "Dice",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
+      "activities": {
+        "snf3qwCBELlFasdZ": {
+          "name": "Catch Cheating",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Xa5CnT6vqjbhgSpN": {
+          "name": "Play to Win",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstDragonches": {
+      "name": "Dragonchess",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
+      "activities": {
+        "HVVXAdVmahZwMWmn": {
+          "name": "Play to Win",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "NDaV33ElahCIeFGJ": {
+          "name": "Catch Cheating",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstPlayingcar": {
+      "name": "Playing Cards",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
+      "activities": {
+        "el0b7gglRR0etmB0": {
+          "name": "Play to Win",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "X7yHLXqHjM0kC0Jw": {
+          "name": "Catch Cheating",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbgstThreedrago": {
+      "name": "Three-dragon ante",
+      "folder": "Gaming Set",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
+      "activities": {
+        "EbM17Ylyo84xBjwb": {
+          "name": "Catch Cheating",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "gUPVf8vkBC1YlPN0": {
+          "name": "Play to Win",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbhsyAmuletworn": {
+      "name": "Amulet",
+      "folder": "Holy Symbol",
+      "description": "<p><em><strong>Usage Requirement: </strong>Worn or held</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbhsyEmblemborn": {
+      "name": "Emblem",
+      "folder": "Holy Symbol",
+      "description": "<p><em><strong>Usage Requirement: </strong>Borne on fabric or a Shield</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbhsyReliquaryh": {
+      "name": "Reliquary",
+      "folder": "Holy Symbol",
+      "description": "<p><em><strong>Usage Requirement: </strong>Held</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbImprovisedWea": {
+      "name": "Improvised Weapon",
+      "folder": "Weapons",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>",
+      "activities": {
+        "3N1e1qi6ahj2wveE": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusBagpipes00": {
+      "name": "Bagpipes",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "CC7piQjkR6p4CI1N": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "CJszIKH8JldMrgx8": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusDrum000000": {
+      "name": "Drum",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "Gp0oZApy9ygRjom3": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "LqgwTSdc7UQxSuRf": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusDulcimer00": {
+      "name": "Dulcimer",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "4Kdc4kFSmsrhoBiB": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Kb811duGqW9XeVfD": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusFlute00000": {
+      "name": "Flute",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "BJ2uJJ9CHUFOLnei": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "uOwGcYrrpv2U4tNt": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusHorn000000": {
+      "name": "Horn",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "8k3LD7TVIH6vvzi7": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "ijMZxlEipxTbukhT": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusLute000000": {
+      "name": "Lute",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "SDxZp9JVBHGgAQUU": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "zlDJ7Llgwkqp2J9N": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusLyre000000": {
+      "name": "Lyre",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "cSIpON2kKXcoCe1T": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "d6eRHAV6fceuC5FN": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusPanflute00": {
+      "name": "Pan Flute",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "7p2XS89osRnThY69": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "geguSdrqAMj6NlWb": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusShawm00000": {
+      "name": "Shawm",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "3snlGseDtpUO13gU": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "ZWWjpnZKCCyH9e6P": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbmusViol000000": {
+      "name": "Viol",
+      "folder": "Musical Instrument",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
+      "activities": {
+        "75CpViXTZBViOpNm": {
+          "name": "Play a Known Tune",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Js5Arad9LXLyzU4s": {
+          "name": "Improvise a Song",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapBoundI": {
+      "name": "Ebony-bound Atlas",
+      "folder": "Star Maps",
+      "description": "<p>A collection of maps bound in an ebony cover that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapCrysta": {
+      "name": "Engraved Crystal",
+      "folder": "Star Maps",
+      "description": "<p>A crystal engraved with starry patterns that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapGlassD": {
+      "name": "Etched Glass Disk",
+      "folder": "Star Maps",
+      "description": "<p>A glass disk etched with constellations that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapOwlbea": {
+      "name": "Tooled Owlbear Hide",
+      "folder": "Star Maps",
+      "description": "<p>An owlbear hide tooled with stellar symbols that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapScroll": {
+      "name": "Constellations Scroll",
+      "folder": "Star Maps",
+      "description": "<p>A scroll bearing depictions of constellations that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbStarMapStoneT": {
+      "name": "Stone Tablet",
+      "folder": "Star Maps",
+      "description": "<p>A stone tablet with fine holes drilled through it that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulAlchemists": {
+      "name": "Alchemist's Supplies",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a substance (DC 15), or start a fire (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acid}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Alchemist’s Fire}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Component Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>",
+      "activities": {
+        "3tr6iV1buoI6GB27": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulBrewersSup": {
+      "name": "Brewer's Supplies",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect poisoned drink (DC 15), or identify alcohol (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}</p>",
+      "activities": {
+        "0jzVWvMqR981vABJ": {
+          "name": "Identify Alcohol",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "3OFmxXtcOkeG70rl": {
+          "name": "Detect Poisoned Drink",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCalligraph": {
+      "name": "Calligrapher's Supplies",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Write text with impressive flourishes that guard against forgery (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>",
+      "activities": {
+        "PVMIlNQvLAyrF4kP": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCarpenters": {
+      "name": "Carpenter's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Seal or pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barrel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Portable Ram}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</p>",
+      "activities": {
+        "FA1LisaMRSw353K6": {
+          "name": "Seal or Pry Open",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCartograph": {
+      "name": "Cartographer's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Draft a map of a small area (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Map}</p>",
+      "activities": {
+        "Q3W6zdSkQt4HEpX8": {
+          "name": "Draft a Map",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCobblersTo": {
+      "name": "Cobbler's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Climber’s Kit}</p>",
+      "activities": {
+        "dnvBdyoNniSVN9Ky": {
+          "name": "Modify Footwear",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulCooksUtens": {
+      "name": "Cook's Utensils",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Improve food’s flavor (DC 10), or detect spoiled or poisoned food (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}</p>",
+      "activities": {
+        "CxQN6WZyRt5IGrNj": {
+          "name": "Improve Flavor",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "XpIVwyE6VhHNBoae": {
+          "name": "Detect Spoiled or Poisoned Food",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulDisguiseKi": {
+      "name": "Disguise Kit",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Apply makeup (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}</p>",
+      "activities": {
+        "SgFQStIx3w0ADo05": {
+          "name": "Apply Makeup",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulForgeryKit": {
+      "name": "Forgery Kit",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)</p>",
+      "activities": {
+        "HcOxYMy4gmRHLJiF": {
+          "name": "Duplicate Wax Seal",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rIanv5IgN2QhpKSK": {
+          "name": "Mimic Handwriting",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulGlassblowe": {
+      "name": "Glassblower's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern what a glass object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Magnifying Glass}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Spyglass}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial}</p>",
+      "activities": {
+        "Ah1G0WFrQCrH8Ct4": {
+          "name": "Discern Previous Contents",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulHerbalismK": {
+      "name": "Herbalism Kit",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a plant (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion of Healing}</p>",
+      "activities": {
+        "EEn8IAiinlOlAluN": {
+          "name": "Identify Plant",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulJewelersTo": {
+      "name": "Jeweler's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern a gem’s value (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> Arcane Focus, Holy Symbol</p>",
+      "activities": {
+        "ghdkI4seBn7XykXx": {
+          "name": "Discern Value",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulLeatherwor": {
+      "name": "Leatherworker's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Add a design to a leather item (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Sling}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Whip}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Hide Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Map or Scroll Case}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}</p>",
+      "activities": {
+        "9GMvXIRK14ghlLel": {
+          "name": "Add Design",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulMasonsTool": {
+      "name": "Mason's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Chisel a symbol or hole in stone (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}</p>",
+      "activities": {
+        "fEjYUIHLH9OahqE8": {
+          "name": "Chisel a Symbol or Hole",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulNavigators": {
+      "name": "Navigator's Tools",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p>",
+      "activities": {
+        "tbXPqxy6Ukm9WnSs": {
+          "name": "Plot a Course",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "TPOgnShxoZdAsFXc": {
+          "name": "Determine Position by Stargazing",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulPaintersSu": {
+      "name": "Painter's Supplies",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Paint a recognizable image of something you’ve seen (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> Druidic Focus, Holy Symbol</p>",
+      "activities": {
+        "Zy0IXp9aMcAicN4l": {
+          "name": "Paint a Recognizable Image",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulPoisonersK": {
+      "name": "Poisoner's Kit",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Basic Poison}</p>",
+      "activities": {
+        "LLPutFBLFtMUNR0H": {
+          "name": "Detect Poisoned Object",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulPottersToo": {
+      "name": "Potter's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern what a ceramic object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jug}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}</p>",
+      "activities": {
+        "Wf4qq2yDYECwuUBG": {
+          "name": "Discern Previous Contents",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulSmithsTool": {
+      "name": "Smith's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Firearm Bullets}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Iron Spikes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Sling Bullets}</p>",
+      "activities": {
+        "NkpANzY0LKUz2Vm0": {
+          "name": "Pry Open",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulThievesToo": {
+      "name": "Thieves' Tools",
+      "folder": "Other",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>",
+      "activities": {
+        "4pIHxWxCdaF3Ieok": {
+          "name": "Pick a Lock/Disarm a Trap",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulTinkersToo": {
+      "name": "Tinker's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Musket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flask}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Lock}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Signal Whistle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}</p>",
+      "activities": {
+        "JSVBIHDQAhgJf1jV": {
+          "name": "Assemble a Tiny Item",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulWeaversToo": {
+      "name": "Weaver's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Padded Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Sack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{String}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tent}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}</p>",
+      "activities": {
+        "UccmCl9KzcTB4zGS": {
+          "name": "Mend or Sew",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbtulWoodcarver": {
+      "name": "Woodcarver's Tools",
+      "folder": "Artisan",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Carve a pattern in wood (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}, Druidic Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</p>",
+      "activities": {
+        "BUtZN2MAxVTxHX0S": {
+          "name": "Carve Pattern",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbUnarmedStrike": {
+      "name": "Unarmed Strike",
+      "folder": "Weapons",
+      "description": "<p><em>See: &amp;Reference[unarmedstrike]</em></p>",
+      "activities": {
+        "X96HnXRaVti0SXqJ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Z288a0QXgaNbdZmP": {
+          "name": "Grapple/Shove",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": "Grapple or Shove attempt"
+          }
+        }
+      },
+      "effects": {
+        "bdG1d6kwc7F8Gbfg": {
+          "name": "Grappled"
+        },
+        "SfM8X3xktY0PR0Kz": {
+          "name": "Prone"
+        }
+      },
+      "advancement": {}
+    },
+    "phbWaterpint0000": {
+      "name": "Water (Pint)",
+      "folder": "Adventuring Gear",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consume",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepBattleaxe0": {
+      "name": "Battleaxe",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "WkTYphqhrW8RuuUm": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepBlowgun000": {
+      "name": "Blowgun",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "EXxkQF1AZxrd6c7A": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepClub000000": {
+      "name": "Club",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "tFtnW9SGsqxilkl5": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepDagger0000": {
+      "name": "Dagger",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "3SJSAL3pv9gKkAM9": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepDart000000": {
+      "name": "Dart",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "HXmVf11fhJVaDGRU": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepFlail00000": {
+      "name": "Flail",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "9fA3ExXYUl4EvWHA": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGlaive0000": {
+      "name": "Glaive",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "oz5daQHA5CwlHyhA": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGreataxe00": {
+      "name": "Greataxe",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "ylhYxAHaTmE2223j": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGreatclub0": {
+      "name": "Greatclub",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "amG8qOS4NKpbj2hY": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepGreatsword": {
+      "name": "Greatsword",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "zi3BW6RGO2ugOyXu": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHalberd000": {
+      "name": "Halberd",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "ToaPTz56SpDo69SZ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHandaxe000": {
+      "name": "Handaxe",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "rkjuC3ZV4s9UpD0i": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHandCrossb": {
+      "name": "Hand Crossbow",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "CJjRI7JX8tziGFSo": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepHeavyCross": {
+      "name": "Heavy Crossbow",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "bZgdThKc69XEv43i": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepJavelin000": {
+      "name": "Javelin",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "r1hUkUrLD8kqx8X0": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLance00000": {
+      "name": "Lance",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "Fxtsz7mTZxBoZWRF": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLightCross": {
+      "name": "Light Crossbow",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "UYlAFnNzdcc3L81u": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLightHamme": {
+      "name": "Light Hammer",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "FHmD55OJjrFoBkHr": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLongbow000": {
+      "name": "Longbow",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "b04WToYLVtgE03Dm": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepLongsword0": {
+      "name": "Longsword",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "BFZXotvvF4YaAKeT": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMace000000": {
+      "name": "Mace",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "KiHlb6kIDAvWmnhv": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMaul000000": {
+      "name": "Maul",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "wVGKly5R472acaHj": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMorningsta": {
+      "name": "Morningstar",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "QIpweawAzbt4xw5h": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepMusket0000": {
+      "name": "Musket",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "iNq67ySHyNX4jmSQ": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepPike000000": {
+      "name": "Pike",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "HjEJjclqCeGjAymL": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepPistol0000": {
+      "name": "Pistol",
+      "folder": "Martial Ranged",
+      "description": "",
+      "activities": {
+        "Zyg4dqUmd4VkNdov": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepQuartersta": {
+      "name": "Quarterstaff",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "XYVC9JOYrtFlLA1k": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepRapier0000": {
+      "name": "Rapier",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "0PGNisis4CVkSml5": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepScimitar00": {
+      "name": "Scimitar",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "YOx3cikY6oPu6Ojh": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepShortbow00": {
+      "name": "Shortbow",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "XTpNEcni4iwfmaeA": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepShortsword": {
+      "name": "Shortsword",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "42jdrHDfDRCcYeL4": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepSickle0000": {
+      "name": "Sickle",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "ApQ85BtlIJDElLuu": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepSling00000": {
+      "name": "Sling",
+      "folder": "Simple Ranged",
+      "description": "",
+      "activities": {
+        "pJCR6dF3xxKAupNv": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepSpear00000": {
+      "name": "Spear",
+      "folder": "Simple Melee",
+      "description": "",
+      "activities": {
+        "HiR3FA2Uc0oOAHU9": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepTrident000": {
+      "name": "Trident",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "qezzwsHRqu4rtKVW": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepWarhammer0": {
+      "name": "Warhammer",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "jf99rIxqlwX1YLPc": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepWarPick000": {
+      "name": "War Pick",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "aTON7UZlIvfSwpY8": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbwepWhip000000": {
+      "name": "Whip",
+      "folder": "Martial Melee",
+      "description": "",
+      "activities": {
+        "VC8ZaoZ7An8WUFf6": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phiPN9UzkXk3i5xh": {
+      "name": "Book",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "pjxpIVbJEfOvM240": {
+      "name": "Fine Clothes",
+      "folder": "Adventuring Gear",
+      "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "PKHfz87DirOHUBHn": {
+      "name": "Torch",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>",
+      "activities": {
+        "SouNhSdWdnznKCam": {
+          "name": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "q6nVEb4XnTWxqA81": {
+      "name": "Oil",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Douse Space",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "Qgekp4euuB5S9tpe": {
+      "name": "Water (Pint)",
+      "folder": "Adventuring Gear",
+      "description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "Consume",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "QjcMSfmrMwjPoWKn": {
+      "name": "Crowbar",
+      "folder": "Adventuring Gear",
+      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "rIuY5ZDJh6ctfUwG": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "RqrWyXa9XkriaxTP": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "rvz6gQc3OcOMgIQz": {
+      "name": "Crowbar",
+      "folder": "Adventuring Gear",
+      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "rwITntQ6OAy0neX8": {
+      "name": "Oil",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Douse Space",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "rZATMqE6y9uD3uzz": {
+      "name": "Paper",
+      "folder": "Adventuring Gear",
+      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "SKDkrz7KSUIfOnHE": {
+      "name": "Map or Scroll Case",
+      "folder": "Adventuring Gear",
+      "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "SMj5QHHkDCdvkx35": {
+      "name": "Lamp",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "SoNpADeVEx2DDZgB": {
+      "name": "Mirror",
+      "folder": "Adventuring Gear",
+      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "ts2DfyhdfsR092Td": {
+      "name": "Candle",
+      "folder": "Adventuring Gear",
+      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
+      "activities": {
+        "8kldn9CuzuAz7dVb": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "uBvsyY44RP4LJLzp": {
+      "name": "Ink Pen",
+      "folder": "Adventuring Gear",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "UEH4xJlj50S9ztbH": {
+      "name": "Ink",
+      "folder": "Adventuring Gear",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "UOiM3icOTVhR3llN": {
+      "name": "Waterskin",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "UPfmTzNgqi9QblZR": {
+      "name": "Rations",
+      "folder": "Adventuring Gear",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "Ur2LYFqSdOgeWWF0": {
+      "name": "Oil",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Douse Space",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "VczW1tStT5y7No3b": {
+      "name": "Oil",
+      "folder": "Adventuring Gear",
+      "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "Throw",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "Douse Space",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "vi0j4PYnO596a2L1": {
+      "name": "Ink",
+      "folder": "Adventuring Gear",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "X5XgogJLLydoKdrJ": {
+      "name": "Waterskin",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "x8jC9e00t4cUYiKR": {
+      "name": "Rope",
+      "folder": "Adventuring Gear",
+      "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
+      "activities": {
+        "5q6tX1T7ONDvgJiA": {
+          "name": "Escape Check",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "Burst Rope",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        },
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "Tie Knot",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "x9BzTUcsOj6K6OJE": {
+      "name": "Ink Pen",
+      "folder": "Adventuring Gear",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "xP6OWuEaxQbDUfJV": {
+      "name": "Rations",
+      "folder": "Adventuring Gear",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "YAXBQxHMEtJx6OuQ": {
+      "name": "Tinderbox",
+      "folder": "Adventuring Gear",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "Light",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "yoRKNd2QddQp1XuX": {
+      "name": "Perfume",
+      "folder": "Adventuring Gear",
+      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    }
+  }
+}

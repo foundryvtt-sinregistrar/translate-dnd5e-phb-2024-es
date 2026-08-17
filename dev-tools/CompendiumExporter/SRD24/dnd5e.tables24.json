@@ -1,0 +1,1049 @@
+{
+  "label": "Tablas aleatorias ",
+  "folders": {
+    "Atributos de objetos conscientes": "Atributos de objetos conscientes",
+    "Baraja misteriosa": "Baraja misteriosa",
+    "Bolsa de trucos": "Bolsa de trucos",
+    "Conjuros": "Conjuros",
+    "Crear un personaje": "Crear un personaje",
+    "Detalles de monstruos": "Detalles de monstruos",
+    "Linajes reencarnados": "Linajes reencarnados",
+    "Objetos mágicos": "Objetos mágicos",
+    "Rareza aleatoria de objeto mágico por nivel": "Rareza aleatoria de objeto mágico por nivel",
+    "Tablas específicas de objetos": "Tablas específicas de objetos"
+  },
+  "entries": {
+    "dmg1116RandomMag": {
+      "name": "Nivel 11-16",
+      "description": "",
+      "results": {
+        "1-11": "Común",
+        "12-34": "Poco común",
+        "35-70": "Raro",
+        "71-93": "Muy raro",
+        "94-100": "Legendario"
+      }
+    },
+    "dmg13CardDeckOfM": {
+      "name": "Baraja misteriosa: 13 cartas",
+      "description": "",
+      "results": {
+        "1-8": "Euryale",
+        "9-16": "Flames",
+        "17-24": "Jester",
+        "25-32": "Key",
+        "33-40": "Knight",
+        "41-48": "Moon",
+        "49-56": "Rogue",
+        "57-64": "Ruin",
+        "65-72": "Skull",
+        "73-80": "Star",
+        "81-88": "Sun",
+        "89-96": "Throne",
+        "97-100": "Void"
+      }
+    },
+    "dmg14RandomMagic": {
+      "name": "Nivel 1-4",
+      "description": "",
+      "results": {
+        "1-54": "Común",
+        "55-91": "Poco común",
+        "92-100": "Raro"
+      }
+    },
+    "dmg1720RandomMag": {
+      "name": "Nivel 17-20",
+      "description": "",
+      "results": {
+        "1-20": "Raro",
+        "21-64": "Muy raro",
+        "65-100": "Legendario"
+      }
+    },
+    "dmg22CardDeckOfM": {
+      "name": "Baraja misteriosa: 22 cartas",
+      "description": "",
+      "results": {
+        "1-5": "Balance",
+        "6-10": "Comet",
+        "11-14": "Donjon",
+        "15-18": "Euryale",
+        "19-23": "Fates",
+        "24-27": "Flames",
+        "28-31": "Fool",
+        "32-36": "Gem",
+        "37-41": "Jester",
+        "42-46": "Key",
+        "47-51": "Knight",
+        "52-56": "Moon",
+        "57-60": "Puzzle",
+        "61-64": "Rogue",
+        "65-68": "Ruin",
+        "69-73": "Sage",
+        "74-77": "Skull",
+        "78-82": "Star",
+        "83-87": "Sun",
+        "88-91": "Talons",
+        "92-96": "Throne",
+        "97-100": "Void"
+      }
+    },
+    "dmg510RandomMagi": {
+      "name": "Nivel 5-10",
+      "description": "",
+      "results": {
+        "1-30": "Común",
+        "31-81": "Poco común",
+        "82-98": "Raro",
+        "99-100": "Muy raro"
+      }
+    },
+    "dmgAmuletOfThePl": {
+      "name": "Amuleto de los Planos: Destino",
+      "description": "",
+      "results": {
+        "1-60": "Ubicación aleatoria en el plano que hayas nombrado",
+        "61-70": "Ubicación aleatoria en un Plano Interior determinada tirando [[/r 1d6]]: con 1, el Plano del Aire; con 2, el Plano de la Tierra; con 3, el Plano del Fuego; con 4, el Plano del Agua; con 5, el Feywild; con 6, el Shadowfell",
+        "71-80": "Ubicación aleatoria en un Plano Exterior determinada tirando [[/r 1d8]]: con 1, Arbórea; con 2, Arcadia; con 3, las Tierras de las Bestias; con 4, Bitopía; con 5, Elíseo; con 6, Mechanus; con 7, Monte Celestia; con 8, Ysgard",
+        "81-90": "Ubicación aleatoria en un Plano Exterior determinada tirando [[/r 1d8]]: con 1, el Abismo; con 2, Aqueronte; con 3, Carceri; con 4, Gehenna; con 5, Hades; con 6, Limbo; con 7, los Nueve Infiernos; con 8, Pandemonium",
+        "91-100": "Ubicación aleatoria en el Plano Astral"
+      }
+    },
+    "dmgArmorOfResist": {
+      "name": "Armadura de resistencia: Tipo",
+      "description": "",
+      "results": {
+        "1-1": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.YreDFSu9z9mGCWt1]",
+        "6-6": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.CfxFdUSiXkOUXym6]",
+        "2-2": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.LTByr2rsRPBLLOA0]",
+        "7-7": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.VST1qNRu1dHDzkD2]",
+        "3-3": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.MqubvD3XEwB7DRST]",
+        "8-8": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.mmp5O2pZOxJUc2vq]",
+        "4-4": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.lsPKUk288Jkvahsp]",
+        "9-9": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.jyWNVNHLYdxvCOQz]",
+        "5-5": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.18IZ8X8zpDXyN33T]",
+        "10-10": "@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.cbsuJ2tdbBuT5e8U]"
+      }
+    },
+    "dmgBagOfBeansEff": {
+      "name": "Bolsa de judías: Efecto",
+      "description": "",
+      "results": {
+        "1-1": "[[/r 5d4#Setas]] setas brotan. Si una criatura come una seta, tira [[/r 1d2#Efecto secundario de la seta]]{cualquier dado}. Con resultado impar, quien la comió debe superar una [[/save ability=con dc=15 format=long]] o sufrir [[/damage 5d6 type=poison]] de daño y tener la condición &amp;Reference[Poisoned] durante 1 hora. Con resultado par, quien la comió obtiene [[/healing 5d6 type=temphp]] durante 1 hora.",
+        "2-10": "Un géiser entra en erupción y expulsa agua, cerveza, mayonesa, té, vinagre, vino o aceite (a elección del DM) 30 pies en el aire durante [[/r 1d4#Duración del géiser (minutos)]] minutos.",
+        "11-20": "Brote un @UUID[Compendium.dnd5e.actors24.Actor.mmTreant00000000]{Treant}. Tira [[/r 1d2#Alineamiento del Treant]]{cualquier dado}. Con resultado impar, el treant es Caótico Malvado. Con resultado par, es Caótico Bueno.",
+        "21-30": "Se alza una estatua de piedra animada pero inmóvil con tu apariencia, que profiere amenazas verbales contra ti. Si te alejas y otros se acercan, los describirá como el más vil de los villanos y les indicará que te busquen y ataquen. Si estás en el mismo plano de existencia que la estatua, esta sabe dónde te encuentras. La estatua se vuelve inerte tras 24 horas.",
+        "31-40": "Aparece una hoguera de llamas verdes que arde durante 24 horas o hasta que se apague.",
+        "41-50": "Brotan tres @UUID[Compendium.dnd5e.actors24.Actor.mmShriekerFungus]{Shrieker Fungi}.",
+        "51-60": "[[/r 1d4 + 4#Sapos rosa brillante]] sapos rosa brillante @UUID[Compendium.dnd5e.actors24.Actor.mmFrog0000000000]{sapos} salen arrastrándose. Cuando un sapo es tocado, se transforma en un monstruo Grande o menor a elección del DM que actúa conforme a su alineamiento y naturaleza. El monstruo permanece 1 minuto y luego desaparece en una nube de humo rosa brillante.",
+        "61-70": "Un hambriento @UUID[Compendium.dnd5e.actors24.Actor.mmBulette0000000]{Bulette} emerge del suelo y ataca.",
+        "71-80": "Crece un árbol frutal. Tiene [[/r 1d10 + 20#Piezas de fruta]] frutos, [[/gmr 1d8#Frutas que actúan como Pociones]] de los cuales actúan como pociones determinadas aleatoriamente. El árbol desaparece tras 1 hora. La fruta recolectada permanece, conservando su magia durante 30 días.",
+        "81-90": "Aparece un nido con [[/r 1d4 + 3#Huevos multicolores]] huevos multicolores. Toda criatura que coma un huevo realiza una [[/save ability=con dc=20 format=long]]. Con éxito, aumenta permanentemente en 1 su puntuación de característica más baja (elegida al azar entre las más bajas). Con fallo, sufre [[/damage 10d6 type=force]] de daño por una explosión interna.",
+        "91-95": "Una pirámide con base cuadrada de 60 pies irrumpe hacia arriba. En su interior hay una cámara funeraria que contiene una @UUID[Compendium.dnd5e.actors24.Actor.mmMummy000000000]{Mummy}, un @UUID[Compendium.dnd5e.actors24.Actor.mmMummyLord00000]{Mummy Lord} u otro No muerto a elección del DM. Su sarcófago contiene tesoro a elección del DM.",
+        "96-100": "Brota una gigantesca planta trepadora que crece hasta la altura que determine el DM. Su cima conduce a donde el DM decida, como una gran vista, el castillo de un gigante de las nubes u otro plano de existencia."
+      }
+    },
+    "dmgCandleOfInvoc": {
+      "name": "Vela de invocación: Destino en Plano Exterior",
+      "description": "",
+      "results": {
+        "1-5": "Abismo",
+        "55-59": "Gehenna",
+        "6-10": "Aqueronte",
+        "60-64": "Hades",
+        "11-17": "Arbórea",
+        "65-69": "Limbo",
+        "18-25": "Arcadia",
+        "70-77": "Mechanus",
+        "26-33": "Tierras de las Bestias",
+        "78-85": "Monte Celestia",
+        "34-41": "Bitopía",
+        "86-90": "Nueve Infiernos",
+        "42-46": "Carceri",
+        "91-95": "Pandemonium",
+        "47-54": "Elíseo",
+        "96-100": "Ysgard"
+      }
+    },
+    "dmgCarpetOfFlyin": {
+      "name": "Alfombra voladora: Tamaño, capacidad y velocidad",
+      "description": "",
+      "results": {
+        "1-20": "3 × 5 pies | Capacidad 200 lb. | Velocidad de vuelo 80 pies",
+        "21-55": "4 × 6 pies | Capacidad 400 lb. | Velocidad de vuelo 60 pies",
+        "56-80": "5 × 7 pies | Capacidad 600 lb. | Velocidad de vuelo 40 pies",
+        "81-100": "6 × 9 pies | Capacidad 800 lb. | Velocidad de vuelo 30 pies"
+      }
+    },
+    "dmgDeckOfIllusio": {
+      "name": "Baraja de ilusiones",
+      "description": "<p>Stat blocks for these creatures (except the card drawer) appear in Monsters.</p>",
+      "results": {
+        "1-3": "@UUID[Compendium.dnd5e.actors24.Actor.mmAdultRedDragon]{Adult Red Dragon}",
+        "4-6": "@UUID[Compendium.dnd5e.actors24.Actor.mmArchmage000000]{Archmage}",
+        "7-9": "@UUID[Compendium.dnd5e.actors24.Actor.mmAssassin000000]{Assassin}",
+        "10-12": "@UUID[Compendium.dnd5e.actors24.Actor.mmBanditCaptain0]{Bandit Captain}",
+        "13-15": "@UUID[Compendium.dnd5e.actors24.Actor.mmBasilisk000000]{Basilisk}",
+        "16-18": "@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}",
+        "19-21": "@UUID[Compendium.dnd5e.actors24.Actor.mmBugbearWarrior]{Bugbear Warrior}",
+        "22-24": "@UUID[Compendium.dnd5e.actors24.Actor.mmCloudGiant0000]{Cloud Giant}",
+        "25-27": "@UUID[Compendium.dnd5e.actors24.Actor.mmDruid000000000]{Druid}",
+        "28-30": "@UUID[Compendium.dnd5e.actors24.Actor.mmErinyes0000000]{Erinyes}",
+        "31-33": "@UUID[Compendium.dnd5e.actors24.Actor.mmEttin000000000]{Ettin}",
+        "34-36": "@UUID[Compendium.dnd5e.actors24.Actor.mmFireGiant00000]{Fire Giant}",
+        "37-39": "@UUID[Compendium.dnd5e.actors24.Actor.mmFrostGiant0000]{Frost Giant}",
+        "40-42": "@UUID[Compendium.dnd5e.actors24.Actor.mmGnollWarrior00]{Gnoll Warrior}",
+        "43-45": "@UUID[Compendium.dnd5e.actors24.Actor.mmGoblinWarrior0]{Goblin Warrior}",
+        "46-48": "@UUID[Compendium.dnd5e.actors24.Actor.mmGuardianNaga00]{Guardian Naga}",
+        "49-51": "@UUID[Compendium.dnd5e.actors24.Actor.mmHillGiant00000]{Hill Giant}",
+        "52-54": "@UUID[Compendium.dnd5e.actors24.Actor.mmHobgoblinWarri]{Hobgoblin Warrior}",
+        "55-57": "@UUID[Compendium.dnd5e.actors24.Actor.mmIncubus0000000]{Incubus}",
+        "58-60": "@UUID[Compendium.dnd5e.actors24.Actor.mmIronGolem00000]{Iron Golem}",
+        "61-63": "@UUID[Compendium.dnd5e.actors24.Actor.mmKnight00000000]{Knight}",
+        "64-66": "@UUID[Compendium.dnd5e.actors24.Actor.mmKoboldWarrior0]{Kobold Warrior}",
+        "67-69": "@UUID[Compendium.dnd5e.actors24.Actor.mmLich0000000000]{Lich}",
+        "70-72": "@UUID[Compendium.dnd5e.actors24.Actor.mmMedusa00000000]{Medusa}",
+        "73-75": "@UUID[Compendium.dnd5e.actors24.Actor.mmNightHag000000]{Night Hag}",
+        "76-78": "@UUID[Compendium.dnd5e.actors24.Actor.mmOgre0000000000]{Ogre}",
+        "79-81": "@UUID[Compendium.dnd5e.actors24.Actor.mmOni00000000000]{Oni}",
+        "82-84": "@UUID[Compendium.dnd5e.actors24.Actor.mmPriest00000000]{Priest}",
+        "85-87": "@UUID[Compendium.dnd5e.actors24.Actor.mmSuccubus000000]{Succubus}",
+        "88-90": "@UUID[Compendium.dnd5e.actors24.Actor.mmTroll000000000]{Troll}",
+        "91-93": "@UUID[Compendium.dnd5e.actors24.Actor.mmWarriorVeteran]{Veteran Warrior}",
+        "94-96": "@UUID[Compendium.dnd5e.actors24.Actor.mmWyvern00000000]{Wyvern}",
+        "97-100": "Quien roba la carta"
+      }
+    },
+    "dmgEfreetiBottle": {
+      "name": "Botella de efreeti",
+      "description": "<p>The first time the @UUID[Compendium.dnd5e.equipment24.Item.dmgEfreetiBottle]{bottle} is opened, the DM rolls on the following table to determine what happens.</p>",
+      "results": {
+        "1-1": "El efreeti te ataca. Tras luchar durante 5 asaltos, desaparece y la botella pierde su magia.",
+        "2-9": "El efreeti entiende tus idiomas y obedece tus órdenes durante 1 hora, tras lo cual regresa a la botella y un nuevo tapón lo contiene. El tapón no puede retirarse durante 24 horas. Las dos siguientes veces que se abra la botella ocurre el mismo efecto. Si se abre una cuarta vez, el efreeti escapa y desaparece, y la botella pierde su magia.",
+        "10-10": "El efreeti entiende tus idiomas y puede lanzar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> una vez por ti. Desaparece al conceder el deseo o tras 1 hora, y la botella pierde su magia."
+      }
+    },
+    "dmgGrayBagOfTric": {
+      "name": "Bolsa gris de trucos",
+      "description": "",
+      "results": {
+        "1-1": "Weasel",
+        "2-2": "Giant Rat",
+        "3-3": "Badger",
+        "4-4": "Boar",
+        "5-5": "Panther",
+        "6-6": "Giant Badger",
+        "7-7": "Dire Wolf",
+        "8-8": "Giant Elk"
+      }
+    },
+    "dmgHatOfManySpel": {
+      "name": "Sombrero de muchos conjuros",
+      "description": "",
+      "results": {
+        "1-50": "Lanzas un conjuro aleatorio determinado tirando [[/r 1d10]]: con 1, @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} (efecto de agrandar); con 2, Enlarge/Reduce (efecto de reducir); con 3, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}; con 4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; con 5, @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}; con 6, @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} (lanzado sobre ti); con 7, @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt}; con 8, @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force}; con 9, @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}; con 10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}.",
+        "51-55": "Tienes la condición &amp;Reference[Stunned] hasta el final de tu siguiente turno, creyendo que acaba de ocurrir algo increíble.",
+        "56-60": "Un enjambre inofensivo de mariposas llena un Cubo de 10 pies a 30 pies o menos de ti. El enjambre se dispersa tras 1 minuto.",
+        "61-65": "Sacas un objeto no mágico del sombrero. Tira [[/r 1d4]] para determinar el objeto: con 1, un vial de @UUID[Compendium.dnd5e.equipment24.Item.phbagAcid0000000]{Acid}; con 2, una @UUID[Compendium.dnd5e.equipment24.Item.phbagAlchemistsF]{flask of Alchemist’s Fire}; con 3, una @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}; con 4, una @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torch} encendida.",
+        "66-70": "Sufres un ataque de “mareo mágico” y tienes la condición &amp;Reference[Poisoned] durante 1 hora.",
+        "71-75": "Tienes la condición &amp;Reference[Petrified] hasta el final de tu siguiente turno.",
+        "76-80": "Sacas un objeto no mágico del sombrero. Tira [[/r 1d4]] para determinar el objeto: con 1, una @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}; con 2, una @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope} con un @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook} atado a un extremo; con 3, una bolsa de @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}; con 4, una gema con valor de 50 po.",
+        "81-85": "Una criatura aparece en un espacio desocupado lo más cerca posible de ti. La criatura no está bajo tu control y actúa como lo haría normalmente, y desaparece tras 1 hora o cuando cae a 0 Puntos de Golpe. Tira [[/r 1d4]] para determinar la criatura: con 1, un @UUID[Compendium.dnd5e.actors24.Actor.mmCamel000000000]{Camel}; con 2, una @UUID[Compendium.dnd5e.actors24.Actor.mmConstrictorSna]{Constrictor Snake}; con 3, un @UUID[Compendium.dnd5e.actors24.Actor.mmElephant000000]{Elephant}; con 4, una @UUID[Compendium.dnd5e.actors24.Actor.mmMule0000000000]{Mule}.",
+        "86-90": "Un Hostil @UUID[Compendium.dnd5e.actors24.Actor.PcZ0QjIG6bHpffp9]{Swarm of Bats} sale volando del sombrero, ocupa tu espacio y te ataca.",
+        "91-95": "Se abre en un espacio desocupado a 30 pies o menos de ti un portal vertical, de 10 pies de diámetro, bidireccional, hacia otro plano de existencia, y permanece abierto hasta el final de tu siguiente turno. El DM determina adónde conduce.",
+        "96-100": "Sacas un objeto mágico del sombrero. Tira [[/r 1d6]] para determinar su rareza: con 1–3, Común; con 4–5, Poco común; con 6, Raro. El DM elige el objeto, que desaparece tras 1 hora si no se consume o destruye antes."
+      }
+    },
+    "dmgHornOfValhall": {
+      "name": "Cuerno de Valhalla: Tipo y requisito",
+      "description": "",
+      "results": {
+        "1-40": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSilverHornOfV]{Plata} (2 espíritus); Sin requisito",
+        "41-75": "@UUID[Compendium.dnd5e.equipment24.Item.dmgBrassHornOfVa]{Latón} (3 espíritus); Competencia con todas las armas Sencillas",
+        "76-90": "@UUID[Compendium.dnd5e.equipment24.Item.dmgBronzeHornOfV]{Bronce} (4 espíritus); Entrenamiento con todas las armaduras Intermedias",
+        "91-100": "@UUID[Compendium.dnd5e.equipment24.Item.dmgIronHornOfVal]{Hierro} (5 espíritus); Competencia con todas las armas Marciales"
+      }
+    },
+    "dmgIronFlaskCont": {
+      "name": "Contenido del frasco de hierro",
+      "description": "",
+      "results": {
+        "1-50": "Ninguna criatura",
+        "51-51": "Arcanaloth",
+        "52-54": "@UUID[Compendium.dnd5e.actors24.Actor.mmBoneDevil00000]{Diablo óseo}",
+        "55-56": "Cambión",
+        "57-58": "Dao",
+        "59-59": "@UUID[Compendium.dnd5e.actors24.Actor.mmDeva0000000000]{Deva}",
+        "60-61": "@UUID[Compendium.dnd5e.actors24.Actor.mmDjinni00000000]{Djinn}",
+        "62-63": "@UUID[Compendium.dnd5e.actors24.Actor.mmEfreeti0000000]{Ifrit}",
+        "64-65": "@UUID[Compendium.dnd5e.actors24.Actor.mmErinyes0000000]{Erinia}",
+        "66-67": "Fomoriano",
+        "68-68": "Caballero githyanki",
+        "69-69": "Zerth githzerai",
+        "70-71": "@UUID[Compendium.dnd5e.actors24.Actor.mmGlabrezu000000]{Glabrezu}",
+        "72-74": "@UUID[Compendium.dnd5e.actors24.Actor.mmHezrou00000000]{Hezrou}",
+        "75-75": "@UUID[Compendium.dnd5e.actors24.Actor.mmIncubus0000000]{Íncubo}",
+        "76-77": "@UUID[Compendium.dnd5e.actors24.Actor.mmInvisibleStalk]{Acechador invisible}",
+        "78-79": "Marid",
+        "80-80": "@UUID[Compendium.dnd5e.actors24.Actor.mmMarilith000000]{Marilith}",
+        "81-82": "Mezzoloth",
+        "83-84": "@UUID[Compendium.dnd5e.actors24.Actor.mmNalfeshnee0000]{Nalfeshnee}",
+        "85-86": "@UUID[Compendium.dnd5e.actors24.Actor.mmNightHag000000]{Saga nocturna}",
+        "87-88": "Nycaloth",
+        "89-89": "@UUID[Compendium.dnd5e.actors24.Actor.mmPlanetar000000]{Planetar}",
+        "90-91": "Slaad rojo",
+        "92-93": "@UUID[Compendium.dnd5e.actors24.Actor.mmSalamander0000]{Salamandra}",
+        "94-94": "@UUID[Compendium.dnd5e.actors24.Actor.mmSolar000000000]{Solar}",
+        "95-95": "@UUID[Compendium.dnd5e.actors24.Actor.mmSuccubus000000]{Súcubo}",
+        "96-96": "Ultroloth",
+        "97-99": "@UUID[Compendium.dnd5e.actors24.Actor.mmVrock000000000]{Vrock}",
+        "100-100": "@UUID[Compendium.dnd5e.actors24.Actor.mmXorn0000000000]{Xorn}"
+      }
+    },
+    "dmgManualOfGolem": {
+      "name": "Manual de gólems: tipo, tiempo y coste",
+      "description": "",
+      "results": {
+        "1-5": "<strong>Gólem:</strong> Gólem de arcilla<br /><strong>Tiempo:</strong> 30 días<br /><strong>Coste:</strong> 65,000 GP",
+        "6-17": "<strong>Gólem:</strong> Gólem de carne<br /><strong>Tiempo:</strong> 60 días<br /><strong>Coste:</strong> 50,000 GP",
+        "18-18": "<strong>Gólem:</strong> Gólem de hierro<br /><strong>Tiempo:</strong> 120 días<br /><strong>Coste:</strong> 100,000 GP",
+        "19-20": "<strong>Gólem:</strong> Gólem de piedra<br /><strong>Tiempo:</strong> 90 días<br /><strong>Coste:</strong> 80,000 GP"
+      }
+    },
+    "dmgNecklaceOfPra": {
+      "name": "Collar de plegarias: tipo de cuenta",
+      "description": "",
+      "results": {
+        "1-6": "Cuenta de bendición: @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bendición}",
+        "7-12": "Cuenta de curación: @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar heridas} (versión de nivel 2)",
+        "13-16": "Cuenta de favor: @UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Restablecimiento mayor}",
+        "17-18": "Cuenta de castigo: @UUID[Compendium.dnd5e.spells24.Item.phbsplShiningSmi]{Castigo resplandeciente}",
+        "19-19": "Cuenta de invocación: @UUID[Compendium.dnd5e.spells24.Item.phbsplGuardianof]{Guardián de la fe}",
+        "20-20": "Cuenta de viajar con el viento: @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWalk00]{Viajar con el viento}"
+      }
+    },
+    "dmgPotionMiscibi": {
+      "name": "Miscibilidad de pociones",
+      "description": "",
+      "results": {
+        "1-1": "Ambas pociones pierden sus efectos y la mezcla crea una explosión mágica en una esfera de 5 pies de radio centrada en sí misma. Cada criatura en esa área sufre [[/damage 4d10 type=force]] de daño.",
+        "2-8": "Ambas pociones pierden sus efectos y la mezcla se convierte en un veneno ingerido de tu elección (ver @UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000.JournalEntryPage.UfAEdm3LbTzvQHC5]{Veneno}).",
+        "9-15": "Ambas pociones pierden sus efectos.",
+        "16-25": "Una poción pierde su efecto.",
+        "26-35": "Ambas pociones funcionan, pero sus efectos numéricos y duraciones se reducen a la mitad. Si una poción no tiene efectos numéricos ni duración, en su lugar pierde su efecto.",
+        "36-90": "Ambas pociones funcionan con normalidad.",
+        "91-99": "Ambas pociones funcionan, pero los efectos numéricos y la duración de una de ellas se <span>duplican</span>. Si ninguna de las pociones tiene nada que duplicar de este modo, funcionan con normalidad.",
+        "100-100": "Solo funciona una poción, pero sus efectos son permanentes. Elige el efecto más simple para hacerlo permanente o el que parezca más divertido. Por ejemplo, una Poción de curación podría aumentar el máximo de Puntos de golpe del bebedor en [[/roll 2d4 + 2]], o una Poción de invisibilidad podría otorgar la condición Invisible indefinidamente. A discreción del DM, un conjuro de Disipar magia o magia similar podría terminar este efecto duradero."
+      }
+    },
+    "dmgPotionOfResis": {
+      "name": "Poción de resistencia: tipo",
+      "description": "",
+      "results": {
+        "1-1": "Ácido",
+        "2-2": "Frío",
+        "3-3": "Fuego",
+        "4-4": "Fuerza",
+        "5-5": "Relámpago",
+        "6-6": "Necrótico",
+        "7-7": "Veneno",
+        "8-8": "Psíquico",
+        "9-9": "Radiante",
+        "10-10": "Trueno"
+      }
+    },
+    "dmgQuaalsFeather": {
+      "name": "Fichas de pluma",
+      "description": "",
+      "results": {
+        "1-20": "@UUID[Compendium.dnd5e.equipment24.Item.dmgAnchorQuaalsF]{Ancla (Poco común)}",
+        "21-35": "@UUID[Compendium.dnd5e.equipment24.Item.dmgBirdQuaalsFea]{Pájaro (Raro)}",
+        "36-50": "@UUID[Compendium.dnd5e.equipment24.Item.dmgFanQuaalsFeat]{Abanico (Poco común)}",
+        "51-65": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSwanBoatQuaal]{Barco cisne (Raro)}",
+        "66-90": "@UUID[Compendium.dnd5e.equipment24.Item.dmgTreeQuaalsFea]{Árbol (Poco común)}",
+        "91-100": "@UUID[Compendium.dnd5e.equipment24.Item.dmgWhipQuaalsFea]{Látigo (Raro)}"
+      }
+    },
+    "dmgRingOfResista": {
+      "name": "Anillo de resistencia: tipo de daño y gema",
+      "description": "",
+      "results": {
+        "1-1": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.dBl3gfYXWn7YguDb]{Ácido (Perla)}",
+        "2-2": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.P5fYc9OEg5GKGgkR]{Fuego (Granate)}",
+        "3-3": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.8IIAYzI3gqAJIBYo]{Fuego (Granate)}",
+        "4-4": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.ivnRnslXhD6UZH0L]{Fuerza (Zafiro)}",
+        "5-5": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.96wcenml9tk62g37]{Relámpago (Citrino)}",
+        "6-6": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]{Necrótico (Azabache)}",
+        "7-7": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]{Veneno (Amatista)}",
+        "8-8": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.ls5HwdyGS36zGNsf]{Psíquico (Jade)}",
+        "9-9": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.zgCVJEc1e9dCj7Ut]{Radiante (Topacio)}",
+        "10-10": "@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista.ActiveEffect.JA9aLSXZ6W3O0W9l]{Trueno (Espinela)}"
+      }
+    },
+    "dmgRobeOfUsefulI": {
+      "name": "Túnica de objetos útiles",
+      "description": "",
+      "results": {
+        "1-8": "Bolsa de [[/award 100GP]]",
+        "9-15": "Cofre de plata (1 pie de largo, 6 pulgadas de ancho y de fondo) por valor de 500 GP",
+        "16-22": "Puerta de hierro (de hasta 10 pies de ancho y 10 pies de alto, atrancada por el lado que elijas), que puedes colocar en una abertura que puedas alcanzar; se adapta a la abertura, fijándose y creando bisagras por sí misma",
+        "23-30": "10 gemas por valor de 100 GP cada una",
+        "31-44": "Escalera de madera (24 pies de largo)",
+        "45-51": "@UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Caballo de montar} con una silla de montar",
+        "52-59": "Foso abierto (un Cubo de 10 pies), que puedes colocar en el suelo a 10 pies o menos de ti",
+        "60-68": "4 @UUID[Compendium.dnd5e.equipment24.Item.phbagPotionofHea]{Pociones de curación}",
+        "69-75": "@UUID[Compendium.dnd5e.actors24.Actor.phbmobRowboat000]{Bote de remos} (12 pies de largo)",
+        "76-83": "Pergamino de conjuro que contiene un conjuro de nivel 1, 2 o 3 (a tu elección)",
+        "84-90": "2 @UUID[Compendium.dnd5e.actors24.Actor.mmMastiff0000000]{Mastines}",
+        "91-96": "Ventana (2 pies por 4 pies, hasta 2 pies de fondo), que puedes colocar sobre una superficie vertical que puedas alcanzar",
+        "97-100": "@UUID[Compendium.dnd5e.equipment24.Item.phbagRamPortable]"
+      }
+    },
+    "dmgRustBagOfTric": {
+      "name": "Bolsa de trucos rojiza",
+      "description": "",
+      "results": {
+        "1-1": "Rat",
+        "2-2": "Owl",
+        "3-3": "Mastiff",
+        "4-4": "Goat",
+        "5-5": "Giant Goat",
+        "6-6": "Giant Boar",
+        "7-7": "Lion",
+        "8-8": "Brown Bear"
+      }
+    },
+    "dmgSenAlignment0": {
+      "name": "Alineamiento",
+      "description": "",
+      "results": {
+        "1-15": "Legal bueno",
+        "16-35": "Neutral bueno",
+        "36-50": "Caótico bueno",
+        "51-63": "Legal neutral",
+        "64-73": "Neutral",
+        "74-85": "Caótico neutral",
+        "86-89": "Legal malvado",
+        "90-96": "Neutral malvado",
+        "97-100": "Caótico malvado"
+      }
+    },
+    "dmgSenCommunicat": {
+      "name": "Comunicación",
+      "description": "",
+      "results": {
+        "1-6": "El objeto se comunica transmitiendo emociones a la criatura que lo porta o lo empuña&lt;.",
+        "7-9": "El objeto habla uno o más idiomas.",
+        "10-10": "El objeto habla uno o más idiomas. Además, puede comunicarse telepáticamente con cualquier criatura que lo porte o lo empuñe."
+      }
+    },
+    "dmgSenSenses0000": {
+      "name": "Sentidos",
+      "description": "",
+      "results": {
+        "1-1": "Oído y visión normal hasta 30 pies",
+        "2-2": "Oído y visión normal hasta 60 pies",
+        "3-3": "Oído y visión normal hasta 120 pies",
+        "4-4": "Oído y Visión en la oscuridad hasta 120 pies"
+      }
+    },
+    "dmgSenSpecialPur": {
+      "name": "Propósito especial",
+      "description": "",
+      "results": {
+        "1-1": "<strong>Alineado.</strong> El objeto busca derrotar o destruir a quienes tengan un alineamiento diametralmente opuesto. Un objeto así nunca es Neutral.",
+        "2-2": "<strong>Azote.</strong> El objeto busca frustrar o destruir a criaturas de un tipo concreto, como Constructos, Infernales o Muertos vivientes.",
+        "3-3": "<strong>Buscador de su creador.</strong> El objeto busca a su creador y quiere entender por qué fue creado.",
+        "4-4": "<strong>Buscador del destino.</strong> El objeto cree que él y su portador tienen papeles clave que desempeñar en eventos futuros.",
+        "5-5": "<strong>Destructor.</strong> El objeto ansía la destrucción e incita a su usuario a luchar de forma arbitraria.",
+        "6-6": "<strong>Buscador de gloria.</strong> El objeto busca renombre como el mayor objeto mágico del mundo, logrando fama o notoriedad para su usuario.",
+        "7-7": "<strong>Buscador de conocimiento.</strong> El objeto ansía saber o está decidido a resolver un misterio, aprender un secreto o desentrañar una profecía críptica.",
+        "8-8": "<strong>Protector.</strong> El objeto busca defender a un tipo concreto de criatura, como elfos u hombres lobo.",
+        "9-9": "<strong>Buscador de alma gemela.</strong> El objeto busca otro objeto mágico inteligente, quizá uno que sea similar a él.",
+        "10-10": "<strong>Templario.</strong> El objeto busca defender a los sirvientes e intereses de una deidad concreta."
+      }
+    },
+    "dmgSlayingAmmuni": {
+      "name": "Munición de matanza: Tipo de criatura",
+      "description": "",
+      "results": {
+        "1-10": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.4GIkMFeZQHZnfjvq]",
+        "11-15": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.70bFeuTndNorjLBe]",
+        "16-20": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.o4aDyFCK0ekd9w8j]",
+        "21-25": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.AvExH8PizzJN0jSM]",
+        "26-35": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.VRMET3XgPTjBG91L]",
+        "36-45": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.ku2JX8rDga8GUBul]",
+        "46-50": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.ZssaQ07jWS7jFiej]",
+        "51-60": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.3JnW3nSByOVKu1LW]",
+        "61-70": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.ulADMO3yope7gn5R]",
+        "71-75": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.MKSR9zEe2s3qVILa]",
+        "76-80": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.cFNisqoGRSTHYDI4]",
+        "81-85": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.3mSYXVx987sezjuS]",
+        "86-90": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.BsXM9mDyGJ1R754S]",
+        "91-100": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni.ActiveEffect.4NXhqKrNtDQjBcc8]"
+      }
+    },
+    "dmgSphereOfAnnih": {
+      "name": "Resultados de interacción con la esfera de aniquilación",
+      "description": "",
+      "results": {
+        "1-50": "La esfera se destruye.",
+        "51-85": "La esfera atraviesa el portal o entra en el espacio extradimensional.",
+        "86-100": "Una grieta espacial envía la esfera, y a todas las criaturas y objetos a 180 pies o menos de ella, a un plano de existencia aleatorio."
+      }
+    },
+    "dmgTanBagOfTrick": {
+      "name": "Bolsa canela de trucos",
+      "description": "",
+      "results": {
+        "1-1": "Jackal",
+        "2-2": "Ape",
+        "3-3": "Baboon",
+        "4-4": "Axe Beak",
+        "5-5": "Black Bear",
+        "6-6": "Giant Weasel",
+        "7-7": "Giant Hyena",
+        "8-8": "Tiger"
+      }
+    },
+    "dmgWandOfWonderE": {
+      "name": "Efectos de la vara de maravillas",
+      "description": "<p>A roll table of effects for the @UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfWonder0]{Wand of Wonder} which implements the effects as activities where possible.</p>",
+      "results": {
+        "1-20": "Lanzas un conjuro cuyo origen es el punto elegido. Tira 1d10 para determinar el conjuro: con 1–2, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Oscuridad}; con 3–4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fuego feérico}; con 5–6, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de fuego}; con 7–8, @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Lentitud}; con 9–10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Nube apestosa}.",
+        "21-25": "No ocurre nada en el punto de origen elegido. En su lugar, tienes la condición &amp;Reference[Stunned] hasta el inicio de tu siguiente turno, creyendo que acaba de ocurrir algo increíble.",
+        "26-30": "Lanzas @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Ráfaga de viento}. La Línea creada por el conjuro se extiende desde ti hasta el punto de origen elegido.",
+        "31-35": "No ocurre nada en el punto de origen elegido. En su lugar, sufres [[/damage 1d6 type=psychic]] de daño.",
+        "36-40": "Cae una lluvia intensa durante 1 minuto en un Cilindro de 120 pies de alto y 60 pies de radio centrado en el punto de origen elegido. Durante ese tiempo, el área de efecto está &amp;Reference[Lightly Obscured].",
+        "41-45": "Una nube de 600 mariposas gigantes llena un Cilindro de 60 pies de alto y 30 pies de radio centrado en el punto de origen elegido. Las mariposas permanecen 10 minutos, durante los cuales el área de efecto está &amp;Reference[Heavily Obscured].",
+        "46-50": "Lanzas @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Rayo relampagueante}. La Línea creada por el conjuro se extiende desde ti hasta el punto de origen elegido.",
+        "51-55": "La criatura más cercana al punto de origen elegido aumenta de tamaño como si le hubieras lanzado @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Agrandar/Reducir}. Si el objetivo no eres tú y no puede verse afectado por ese conjuro, tú pasas a ser el objetivo en su lugar.",
+        "56-60": "Aparece una criatura formada mágicamente en un espacio desocupado lo más cerca posible del punto de origen elegido. La criatura no está bajo tu control, actúa como lo haría normalmente y desaparece tras 1 hora o cuando cae a 0 Puntos de Golpe. Tira [[/r 1d4]] para determinar qué criatura aparece. Con 1, aparece un Rinoceronte; con 2, aparece un Elefante; con 3–4, aparece una Rata.",
+        "61-64": "La hierba cubre un círculo de terreno de 60 pies de radio, con el centro de ese círculo lo más cerca posible del punto de origen elegido. La hierba que ya exista crece hasta diez veces su tamaño normal y permanece crecida en exceso durante 1 minuto.",
+        "65-68": "Un objeto a elección del DM desaparece hacia el Plano Etéreo. El objeto no puede estar vestido ni portado, debe estar a 120 pies o menos del punto de origen elegido y no puede medir más de 10 pies en ninguna dimensión. Si no hay objetos así dentro del alcance, no ocurre nada.",
+        "69-72": "No ocurre nada en el punto de origen elegido. En su lugar, encoges como si te hubieras lanzado @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Agrandar/Reducir} a ti mismo y permaneces así durante 1 minuto.",
+        "73-77": "Le brotan hojas a la criatura más cercana al punto de origen elegido. Salvo que se arranquen, las hojas se vuelven marrones y caen tras 24 horas.",
+        "78-82": "No ocurre nada en el punto de origen elegido. En su lugar, un estallido de luz centelleante, colorida, se extiende desde ti en una Emanación de 30 pies. Cada criatura en el área debe superar una tirada de salvación [[/save con 15]] o tener la condición &amp;Reference[Blinded] durante 1 minuto. Una criatura repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma si tiene éxito.",
+        "83-87": "No ocurre nada en el punto de origen elegido. En su lugar, te lanzas @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidad} a ti mismo.",
+        "88-92": "No ocurre nada en el punto de origen elegido. En su lugar, una corriente de [[/r 1d4*10 #Gemas]] gemas, cada una con valor de 1 GP, sale disparada de la punta de la vara en una Línea de 30 pies de largo y 5 pies de ancho hacia el punto de origen elegido. Cada gema inflige [[/damage 1 type=bludgeoning]] de daño, y el daño total de las gemas se divide por igual entre todas las criaturas en la Línea.",
+        "93-97": "Lanzas @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polimorfar}, teniendo como objetivo a la criatura más cercana al punto de origen elegido. Tira [[/r 1d4]] para determinar la nueva forma del objetivo. Con 1, la nueva forma es un Oso negro; con 2, la nueva forma es una Avispa gigante; con 3–4, la nueva forma es una Rana.",
+        "98-100": "La criatura más cercana al punto de origen elegido realiza una tirada de salvación [[/save con 15]]. Con un fallo, la criatura tiene la condición &amp;Reference[Restrained] y comienza a convertirse en piedra. Mientras esté Restringida de este modo, repite la salvación al final de su siguiente turno. Con éxito, el efecto termina. Con un fallo, la criatura tiene la condición &amp;Reference[Petrified] en lugar de la condición Restringida. La petrificación dura hasta que la criatura sea liberada por el conjuro @UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Restablecimiento mayor} o magia similar."
+      }
+    },
+    "mmAnimatedObject": {
+      "name": "Catalizadores de objeto animado",
+      "description": "<p>The Object Was Animated By …</p>",
+      "results": {
+        "1-1": "Un Celestial o Infernal usa el objeto para proteger o atormentar a un mortal.",
+        "2-2": "Una combinación de magia y tecnología, como alquimia o ciencia alienígena.",
+        "3-3": "La esencia de alguien transformado por un embaucador sobrenatural.",
+        "4-4": "Feéricos como parte de sus juegos o artimañas.",
+        "5-5": "Un usuario de magia que necesita un guardián o sirviente.",
+        "6-6": "Casualidad: el objeto adquiere una apariencia de vida tras cien años de uso.",
+        "7-7": "La canción de un instrumento mágico.",
+        "8-8": "Un espíritu que posee el objeto.",
+        "9-9": "Magia salvaje, un conjuro que salió mal o un Artefacto caótico.",
+        "10-10": "La voluntad de un poderoso ser psíquico."
+      }
+    },
+    "mmBanditMotivati": {
+      "name": "Motivaciones de bandido",
+      "description": "<p>The Bandit …</p>",
+      "results": {
+        "1-1": "Solo lucha contra opresores.",
+        "2-2": "Es un exsoldado al que su nación descartó y ahora toma lo que le prometieron.",
+        "3-3": "Forma parte de una banda que considera enemigos a quienes no pertenecen a ella.",
+        "4-4": "Sirve con vacilación a un líder villanesco.",
+        "5-5": "Trabaja en secreto para un gobierno o un gobernante regional para sembrar el caos.",
+        "6-6": "Toma lo que necesita para sobrevivir."
+      }
+    },
+    "mmCultSymbols000": {
+      "name": "Símbolos de culto",
+      "description": "",
+      "results": {
+        "1-1": "<strong>El símbolo es</strong> un signo alquímico",
+        "2-2": "<strong>El símbolo es</strong> un animal",
+        "3-3": "<strong>El símbolo es</strong> un cuerpo celeste",
+        "4-4": "<strong>El símbolo es</strong> el icono de una deidad",
+        "5-5": "<strong>El símbolo es</strong> un elemento",
+        "6-6": "<strong>El símbolo es</strong> un ojo",
+        "7-7": "<strong>El símbolo es</strong> una forma geométrica",
+        "8-8": "<strong>El símbolo es</strong> una letra o un número",
+        "9-9": "<strong>El símbolo es</strong> parte de un monstruo",
+        "10-10": "<strong>El símbolo es</strong> una calavera"
+      }
+    },
+    "mmCultSymbolsDep": {
+      "name": "Símbolos de culto - Representaciones",
+      "description": "",
+      "results": {
+        "1-1": "<strong>Representado como</strong> Un calendario o un mapa",
+        "2-2": "<strong>Representado como</strong> Un blasón o heráldica",
+        "3-3": "<strong>Representado como</strong> Un diagrama elaborado",
+        "4-4": "<strong>Representado como</strong> Una imagen metafórica",
+        "5-5": "<strong>Representado como</strong> Un ser místico",
+        "6-6": "<strong>Representado como</strong> Parte de una ecuación",
+        "7-7": "<strong>Representado como</strong> Un patrón repetitivo",
+        "8-8": "<strong>Representado como</strong> Una serie de arañazos",
+        "9-9": "<strong>Representado como</strong> Un pictograma sencillo",
+        "10-10": "<strong>Representado como</strong> Un arma o una herramienta"
+      }
+    },
+    "mmCultistAgendas": {
+      "name": "Agendas de cultista",
+      "description": "<p>The Cultist Strives To …</p>",
+      "results": {
+        "1-1": "Provocar el fin de un orden dominante, de una era o del mundo.",
+        "2-2": "Expandir su fe mediante control mental o coacción sobrenatural.",
+        "3-3": "Quemar las cómodas mentiras de la realidad, revelando verdades olvidadas o terribles.",
+        "4-4": "Provocar cambios globales, como hundir la tierra o despertar volcanes.",
+        "5-5": "Rehacer la vida a gran escala, alterando los cuerpos de otras criaturas o de seres espirituales.",
+        "6-6": "Invocar a su deidad o a su heraldo, arma o reino en su mundo."
+      }
+    },
+    "mmDoppelgangerDe": {
+      "name": "Engaños de doppelganger",
+      "description": "<p>The Doppelganger Schemes To …</p>",
+      "results": {
+        "1-1": "Sembrar el caos en el templo de una deidad que lo maldijo a vivir sin una forma verdadera.",
+        "2-2": "Ocultar pruebas de una vasta conspiración.",
+        "3-3": "Controlar una comunidad mediante el miedo haciéndose pasar por una figura legendaria aterradora.",
+        "4-4": "Suplantar a un noble para disfrutar de un estilo de vida decadente.",
+        "5-5": "Espiar a magos para aprender cómo completar su propia creación mágica fallida.",
+        "6-6": "Ocupar una posición influyente, actuando como agente durmiente para una invasión de doppelgangers."
+      }
+    },
+    "mmFireElementalC": {
+      "name": "Composición de elemental de fuego",
+      "description": "<p>The Fire Elemental’s Body Features …</p>",
+      "results": {
+        "1-1": "Gases supercalentados y coloridos.",
+        "2-2": "Una columna de llamas diabólicas o divinas.",
+        "3-3": "Formas crepitantes que parecen animales, infernales, esqueletos, duendecillos u otros seres.",
+        "4-4": "Llamas predominantemente blancas, azules o de un color más inusual.",
+        "5-5": "La forma de un humanoide sereno o atormentado.",
+        "6-6": "Humo que forma figuras o símbolos inquietantes.",
+        "7-7": "Hollín que huele a cedro, clavo, incienso o carne quemada.",
+        "8-8": "Remolinos de brasas y escombros ardientes."
+      }
+    },
+    "mmGelatinousCube": {
+      "name": "Restos en el cubo gelatinoso",
+      "description": "<p>Floating in the Gelatinous Cube Is A …</p>",
+      "results": {
+        "1-1": "Un cofre o un mímico recientemente atrapado.",
+        "2-2": "Una colección de burbujas o piedras que parecen ojos.",
+        "3-3": "La llave de una puerta o cofre cercano.",
+        "4-4": "Un arma notable que necesita reparación.",
+        "5-5": "El esqueleto de un aventurero famoso.",
+        "6-6": "Una tablilla con un mensaje misterioso."
+      }
+    },
+    "mmIncubusNightma": {
+      "name": "Pesadillas de íncubo",
+      "description": "<p>The Incubus’s Victim Has Dreams Of …</p>",
+      "results": {
+        "1-1": "Un familiar o figura de autoridad enfadada.",
+        "2-2": "Ser perseguido a través de la naturaleza salvaje.",
+        "3-3": "Ser devorado por animales o monstruos.",
+        "4-4": "Caer, ahogarse o asfixiarse.",
+        "5-5": "Una humillación pública devastadora.",
+        "6-6": "Un intruso sombrío o una silueta monstruosa.",
+        "7-7": "Un acontecimiento traumático del pasado.",
+        "8-8": "Un visitante con un mensaje inquietante o enigmático."
+      }
+    },
+    "mmMageRoles00000": {
+      "name": "Roles de mago",
+      "description": "<p>The Mage Is …</p>",
+      "results": {
+        "1-1": "Un astrónomo que extrae magia de las estrellas.",
+        "2-2": "Un autor que escribe sobre lo oculto.",
+        "3-3": "Un ingeniero arcano que crea maravillas.",
+        "4-4": "Un oráculo que interpreta presagios.",
+        "5-5": "Un prodigio con una notable herencia mágica.",
+        "6-6": "Un psiónico cuyos poderes se manifiestan como conjuros.",
+        "7-7": "Un erudito que investiga saberes antiguos.",
+        "8-8": "Un adivino que asesora a gobernantes.",
+        "9-9": "Un mago de guerra que ayuda a los soldados en batalla.",
+        "10-10": "Una bruja que comparte sabiduría secreta."
+      }
+    },
+    "mmMinotaurMazes0": {
+      "name": "Laberintos de minotauro",
+      "description": "<p>The Minotaur of Baphomet Lurks In …</p>",
+      "results": {
+        "1-1": "Una mina o alcantarilla de varios niveles.",
+        "2-2": "Múltiples laberintos conectados por portales mágicos.",
+        "3-3": "Un pantano venenoso con senderos laberínticos.",
+        "4-4": "Las ruinas de un palacio o templo enterrado."
+      }
+    },
+    "mmOwlbearDenFeat": {
+      "name": "Características de guarida de oso lechuza",
+      "description": "<p>An Owlbear Den Contains …</p>",
+      "results": {
+        "1-1": "Pruebas de ocupantes anteriores, como bandidos, lobos o dragones.",
+        "2-2": "Montones de egagrópilas regurgitadas con monedas u otros tesoros incrustados.",
+        "3-3": "Un nido con 1d6 huevos de oso lechuza.",
+        "4-4": "Pasadizos bajo tierra o a través de árboles huecos."
+      }
+    },
+    "mmPseudodragonTr": {
+      "name": "Caprichos de pseudodragón",
+      "description": "<p>The Pseudodragon Wants …</p>",
+      "results": {
+        "1-1": "Accesorios llamativos que pueda llevar puestos.",
+        "2-2": "Recuerdos de un amigo o amo perdido.",
+        "3-3": "Delicatessen extravagantes, como tortillas de huevo de pico de hacha o queso de leche de mamut.",
+        "4-4": "Las posesiones de un hermano, rival o amo.",
+        "5-5": "Regalos brillantes, desde gemas hasta conchas de abulón.",
+        "6-6": "Ropa de cama suave y muñecos de peluche.",
+        "7-7": "El postre característico de un cocinero concreto.",
+        "8-8": "Tratamientos de belleza que consumen mucho tiempo.",
+        "9-9": "Escuchar un cuento antes de dormir o su canción favorita.",
+        "10-10": "Trofeos y títulos rimbombantes."
+      }
+    },
+    "mmShadowShapes00": {
+      "name": "Formas sombrías",
+      "description": "<p>The Shadow Appears As …</p>",
+      "results": {
+        "1-1": "Un acechador distorsionado que merodea por el bosque.",
+        "2-2": "Un infernal que habita cerca de un lugar de ritual maligno.",
+        "3-3": "Manos que se aferran y que atormentan la casa de un avaro.",
+        "4-4": "Un siniestro personaje de cuento que sigue a quienes pronuncian su nombre.",
+        "5-5": "Su objetivo, actuando en una inquietante pantomima.",
+        "6-6": "Un sacerdote ominoso que merodea en un lugar profanado."
+      }
+    },
+    "mmSkeletonPantom": {
+      "name": "Pantomimas de esqueleto",
+      "description": "<p>Left to Its Own Devices, the Skeleton …</p>",
+      "results": {
+        "1-1": "Lleva bandejas de comida o correspondencia antiquísima a la cripta de su difunto amo.",
+        "2-2": "Entrena eternamente en combate con otros esqueletos, aunque quede reducido a astillas animadas.",
+        "3-3": "Imita las formas en que se entretenía en vida, como actuar, bailar o leer.",
+        "4-4": "Realiza una tarea habitual, como limpiar, cocinar, minar o rezar.",
+        "5-5": "Repite sus últimos momentos de vida.",
+        "6-6": "Hace guardia en el puesto que protegía en vida."
+      }
+    },
+    "mmStirgeRoosts00": {
+      "name": "Dormideros de stirge",
+      "description": "<p>Between Hunts, the Stirge Lurks In …</p>",
+      "results": {
+        "1-1": "El ático o el mobiliario de un edificio en ruinas.",
+        "2-2": "Una cueva o una grieta estrecha.",
+        "3-3": "Un árbol hueco o una espesura.",
+        "4-4": "Los restos de una criatura gigantesca muerta."
+      }
+    },
+    "mmStoneGolemOrde": {
+      "name": "Órdenes de gólem de piedra",
+      "description": "<p>The Stone Golem Follows Orders To …</p>",
+      "results": {
+        "1-1": "Permitir el paso solo a quienes vistan atuendo ritual.",
+        "2-2": "Lanzar Lentitud y ayudar a detener a cualquiera que toque una reliquia preciada de la ciudad.",
+        "3-3": "Destruir una presa o un puente por orden de quien porte el medallón de autoridad de un gobernante.",
+        "4-4": "Obedecer a quien coloque un blasón faltante en su pecho y luego desactivarse durante un año.",
+        "5-5": "Revelar un pasadizo oculto a quienes reciten las últimas palabras de un líder.",
+        "6-6": "Vigilar y combatir al tipo de monstruo que mató al héroe al que se asemeja."
+      }
+    },
+    "mmSuccubusTempta": {
+      "name": "Tentaciones de súcubo",
+      "description": "<p>The Succubus Manipulates Its Target By …</p>",
+      "results": {
+        "1-1": "Adoptar la forma de un ser querido perdido.",
+        "2-2": "Hechizar a alguien cercano a su objetivo.",
+        "3-3": "Aislarlo de sus seres queridos.",
+        "4-4": "Manipular los acontecimientos para provocar una fortuna inesperada.",
+        "5-5": "Hacerse pasar por un subordinado adulador.",
+        "6-6": "Adoptar la forma de alguien que necesita protección."
+      }
+    },
+    "mmVampireResting": {
+      "name": "Lugares de descanso de vampiro",
+      "description": "<p>The Vampire’s Resting Place Is …</p>",
+      "results": {
+        "1-1": "Entre las raíces de un árbol muerto.",
+        "2-2": "En el fondo de una poza estancada.",
+        "3-3": "Un ataúd lleno de tierra de tumba.",
+        "4-4": "Una gran vasija llena de sangre o vinagre.",
+        "5-5": "Un espacio accesible solo mediante cambio de forma.",
+        "6-6": "Dentro de una estatua o armadura."
+      }
+    },
+    "mmWarriorRoles00": {
+      "name": "Roles de guerrero",
+      "description": "<p>The Warrior Is …</p>",
+      "results": {
+        "1-1": "Un guardaespaldas que protege a un noble.",
+        "2-2": "Un oficial de caballería con una montura inusual.",
+        "3-3": "Un cruzado que lucha por una causa divina.",
+        "4-4": "Un duelista que afirma ser invencible.",
+        "5-5": "Un guardián de puerta que hace preguntas sin sentido.",
+        "6-6": "Un veterano curtido que entrena a nuevos reclutas.",
+        "7-7": "Un cazador experto en dar caza a tipos concretos de monstruos.",
+        "8-8": "Un general retirado cansado de la guerra.",
+        "9-9": "Un voluntario con un arma improvisada.",
+        "10-10": "Un joven mercenario que intenta demostrar su habilidad."
+      }
+    },
+    "mmWraithManifest": {
+      "name": "Manifestaciones de espectro",
+      "description": "<p>The Wraith Embodies …</p>",
+      "results": {
+        "1-1": "La magia blasfema de un lugar maldito.",
+        "2-2": "El mal exorcizado de un villano redimido.",
+        "3-3": "Un villano legendario que regresa una vez por siglo.",
+        "4-4": "El miedo de los lugareños ante una superstición o leyenda.",
+        "5-5": "El recuerdo de una tragedia.",
+        "6-6": "Una idea profana o un saber vil.",
+        "7-7": "El tormento de una o más almas sufrientes.",
+        "8-8": "La ferocidad de un Artefacto profano.",
+        "9-9": "Los sueños viles de un dios dormido.",
+        "10-10": "La voracidad de un reino hambriento de vida, como el Shadowfell o el Plano Negativo."
+      }
+    },
+    "phbElvenLineage0": {
+      "name": "Linaje élfico",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+      "results": {
+        "1-1": "Elf, Drow",
+        "2-2": "Elf, High",
+        "3-3": "Elf, Wood"
+      }
+    },
+    "phbFiendishLegac": {
+      "name": "Legado infernal",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
+      "results": {
+        "1-1": "Tiefling, Abyssal",
+        "2-2": "Tiefling, Chthonic",
+        "3-3": "Tiefling, Infernal"
+      }
+    },
+    "phbGnomishLineag": {
+      "name": "Linaje gnómico",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+      "results": {
+        "1-1": "Gnome, Forest",
+        "2-2": "Gnome, Rock"
+      }
+    },
+    "phbPrismaticLaye": {
+      "name": "Capas prismáticas",
+      "description": "",
+      "results": {
+        "1-1": "<p><em>Salvación fallida:</em> [[/damage 12d6 fire]] de daño de fuego.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p><p><em>Efectos adicionales:</em> Los ataques a distancia no mágicos no pueden atravesar esta capa, que se destruye si recibe al menos 25 de daño de frío.</p>",
+        "2-2": "<p><em>Salvación fallida:</em> [[/damage 12d6 acid]] de daño de ácido.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p><p><em>Efectos adicionales:</em> Los ataques a distancia mágicos no pueden atravesar esta capa, que se destruye con un viento fuerte (como el creado por <em>Gust of Wind</em>).</p>",
+        "3-3": "<p><em>Salvación fallida:</em> [[/damage 12d6 lightning]] de daño de relámpago.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p><p><em>Efectos adicionales:</em> La capa se destruye si recibe al menos 60 de daño de fuerza.</p>",
+        "4-4": "<p><em>Salvación fallida:</em> [[/damage 12d6 poison]] de daño de veneno.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p><p><em>Efectos adicionales:</em> Un conjuro <em>Passwall</em>, u otro conjuro de nivel igual o superior que pueda abrir un portal en una superficie sólida, destruye esta capa.</p>",
+        "5-5": "<p><em>Salvación fallida:</em> [[/damage 12d6 cold]] de daño de frío.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p><p><em>Efectos adicionales:</em> La capa se destruye si recibe al menos 25 de daño de fuego.</p>",
+        "6-6": "<p><em>Salvación fallida:</em> El objetivo tiene la condición &amp;Reference[Restrained] y realiza una [[/save con]] tirada de salvación al final de cada uno de sus turnos. Si tiene éxito tres veces, la condición termina. Si falla tres veces, obtiene la condición &amp;Reference[Petrified] hasta que sea liberado por un efecto como el conjuro <em>Greater Restoration</em>. Los éxitos y fallos no tienen que ser consecutivos; lleva la cuenta hasta que el objetivo reúna tres del mismo tipo.</p><p><em>Efectos adicionales:</em> No se pueden lanzar conjuros a través de esta capa, que se destruye con la Luz brillante emitida por el conjuro <em>Daylight</em>.</p>",
+        "7-7": "<p><em>Salvación fallida:</em> El objetivo tiene la condición &amp;Reference[Blinded] y realiza una [[/save wis]] tirada de salvación al comienzo de tu siguiente turno. Con éxito, la condición termina. Con un fallo, la condición termina y la criatura se teletransporta a otro plano de existencia (a elección del DM).</p><p><em>Efectos adicionales:</em> Esta capa se destruye con <em>Dispel Magic</em>.</p>"
+      }
+    },
+    "phbPrismaticRays": {
+      "name": "Rayos prismáticos",
+      "description": "",
+      "results": {
+        "1-1": "<p><em>Salvación fallida:</em> [[/damage 12d6 fire]] de daño de fuego.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p>",
+        "2-2": "<p><em>Salvación fallida:</em> [[/damage 12d6]] de daño de ácido.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p>",
+        "3-3": "<p><em>Salvación fallida:</em> [[/damage 12d6 lightning]] de daño de relámpago.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p>",
+        "4-4": "<p><em>Salvación fallida:</em> [[/damage 12d6 poison]] de daño de veneno.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p>",
+        "5-5": "<p><em>Salvación fallida:</em> [[/damage 12d6 cold]] de daño de frío.</p><p><em>Salvación exitosa:</em> La mitad de daño.</p>",
+        "6-6": "<p><em>Salvación fallida:</em> El objetivo tiene la condición &amp;Reference[Restrained] y realiza una [[/save con]] tirada de salvación al final de cada uno de sus turnos. Si tiene éxito tres veces, la condición termina. Si falla tres veces, obtiene la condición &amp;Reference[Petrified] hasta que sea liberado por un efecto como el conjuro <em>Greater Restoration</em>. Los éxitos y fallos no tienen que ser consecutivos; lleva la cuenta hasta reunir tres del mismo tipo.</p>",
+        "7-7": "<p><em>Salvación fallida:</em> El objetivo tiene la condición &amp;Reference[Blinded] y realiza una [[/save wis]] tirada de salvación al comienzo de tu siguiente turno. Con éxito, la condición termina. Con un fallo, la condición termina y la criatura se teletransporta a otro plano de existencia (a elección del DM).</p>",
+        "8-8": "<p>El objetivo es alcanzado por dos rayos. Tira dos veces, repitiendo cualquier resultado de 8.</p>"
+      }
+    },
+    "phbStandardLangu": {
+      "name": "Idiomas estándar",
+      "description": "",
+      "results": {
+        "1-1": "Sub-Languages Table"
+      }
+    },
+    "phbStartingTrink": {
+      "name": "Baratijas",
+      "description": "",
+      "results": {
+        "1-1": "Una mano momificada de goblin",
+        "2-2": "Un cristal que brilla tenuemente a la luz de la luna",
+        "3-3": "Una moneda de oro acuñada en una tierra desconocida",
+        "4-4": "Un diario escrito en un idioma que no conoces",
+        "5-5": "Un anillo de latón que nunca se empaña",
+        "6-6": "Una vieja pieza de ajedrez hecha de vidrio",
+        "7-7": "Un par de dados de tabas, cada uno con un símbolo de calavera en la cara donde normalmente habría seis puntos",
+        "8-8": "Un pequeño ídolo que representa a una criatura de pesadilla y que te provoca sueños inquietantes cuando duermes cerca de él",
+        "9-9": "Un mechón de cabello de alguien",
+        "10-10": "La escritura de propiedad de una parcela de tierra en un reino desconocido para ti",
+        "11-11": "Un bloque de 1 onza hecho de un material desconocido",
+        "12-12": "Una pequeña muñeca de tela atravesada por agujas",
+        "13-13": "Un diente de una bestia desconocida",
+        "14-14": "Una enorme escama, quizá de dragón",
+        "15-15": "Una pluma verde brillante",
+        "16-16": "Una antigua carta de adivinación con tu retrato",
+        "17-17": "Una esfera de vidrio llena de humo en movimiento",
+        "18-18": "Un huevo de 1 libra con una cáscara de color rojo brillante",
+        "19-19": "Una pipa que sopla burbujas",
+        "20-20": "Un frasco de vidrio que contiene un trozo de carne flotando en líquido de conservación",
+        "21-21": "Una caja de música creada por gnomos que reproduce una canción que recuerdas vagamente de tu infancia",
+        "22-22": "Una estatuilla de madera de un mediano con aire autosatisfecho",
+        "23-23": "Una esfera de latón grabada con extrañas runas",
+        "24-24": "Un disco de piedra multicolor",
+        "25-25": "Un icono de plata con forma de cuervo",
+        "26-26": "Una bolsa que contiene cuarenta y siete dientes, uno de ellos podrido",
+        "27-27": "Un fragmento de obsidiana que siempre se siente cálido al tacto",
+        "28-28": "Una garra de dragón colgada de un collar de cuero",
+        "29-29": "Un par de calcetines viejos",
+        "30-30": "Un libro en blanco cuyas páginas se niegan a retener tinta, tiza, grafito o cualquier otra marca",
+        "31-31": "Una insignia de plata con forma de estrella de cinco puntas",
+        "32-32": "Un cuchillo que perteneció a un pariente",
+        "33-33": "Un vial de vidrio lleno de recortes de uñas",
+        "34-34": "Un dispositivo metálico rectangular con dos pequeñas copas metálicas en un extremo que produce chispas cuando se moja",
+        "35-35": "Un guante blanco con lentejuelas del tamaño adecuado para un humano",
+        "36-36": "Un chaleco con cien diminutos bolsillos",
+        "37-37": "Una piedra sin peso",
+        "38-38": "Un dibujo de un goblin",
+        "39-39": "Un vial de vidrio vacío que huele a perfume",
+        "40-40": "Una gema que parece un trozo de carbón cuando la examina cualquiera que no seas tú",
+        "41-41": "Un trozo de tela de un viejo estandarte",
+        "42-42": "Una insignia de rango de un legionario de una legión perdida",
+        "43-43": "Una campanilla de plata sin badajo",
+        "44-44": "Un canario mecánico dentro de una lámpara",
+        "45-45": "Un cofre en miniatura tallado para que parezca tener numerosas patas en la base",
+        "46-46": "Un duendecillo muerto dentro de una botella de vidrio transparente",
+        "47-47": "Una lata metálica sin abertura que suena como si estuviera llena de líquido, arena, arañas o vidrio roto (a tu elección)",
+        "48-48": "Una esfera de vidrio llena de agua en la que nada un pez dorado mecánico",
+        "49-49": "Una cuchara de plata con una M grabada en el mango",
+        "50-50": "Un silbato hecho de madera de color dorado",
+        "51-51": "Un escarabajo muerto del tamaño de tu mano",
+        "52-52": "Dos soldados de juguete, uno de ellos sin cabeza",
+        "53-53": "Una pequeña caja llena de botones de distintos tamaños",
+        "54-54": "Una vela que no puede encenderse",
+        "55-55": "Una jaula en miniatura sin puerta",
+        "56-56": "Una llave antigua",
+        "57-57": "Un mapa del tesoro indescifrable",
+        "58-58": "La empuñadura de una espada rota",
+        "59-59": "Una pata de conejo",
+        "60-60": "Un ojo de vidrio",
+        "61-61": "Un camafeo que representa a una persona de aspecto horrible",
+        "62-62": "Una calavera de plata del tamaño de una moneda",
+        "63-63": "Una máscara de alabastro",
+        "64-64": "Un cono de incienso negro pegajoso que huele mal",
+        "65-65": "Un gorro de dormir que te concede sueños agradables cuando lo llevas puesto",
+        "66-66": "Un único abrojo hecho de hueso",
+        "67-67": "La montura de un monóculo de oro sin lente",
+        "68-68": "Un cubo de 1 pulgada, cada cara de un color diferente",
+        "69-69": "Un pomo de puerta de cristal",
+        "70-70": "Un paquete lleno de polvo rosa",
+        "71-71": "Un fragmento de una hermosa canción, escrito como notas musicales en dos trozos de pergamino",
+        "72-72": "Un pendiente de plata con forma de lágrima que contiene una lágrima real",
+        "73-73": "Una cáscara de huevo pintada con escenas de miseria con inquietante detalle",
+        "74-74": "Un abanico que, al desplegarse, muestra un gato adormilado",
+        "75-75": "Un conjunto de flautas de hueso",
+        "76-76": "Un trébol de cuatro hojas prensado dentro de un libro sobre modales y etiqueta",
+        "77-77": "Una hoja de pergamino en la que está dibujado un artilugio mecánico",
+        "78-78": "Una vaina ornamentada que no encaja con ninguna hoja que hayas encontrado",
+        "79-79": "Una invitación a una fiesta donde ocurrió un asesinato",
+        "80-80": "Un pentáculo de bronce con un grabado de la cabeza de una rata en el centro",
+        "81-81": "Un pañuelo púrpura bordado con el nombre de un archimago",
+        "82-82": "La mitad de un plano de planta de un templo, un castillo u otra estructura",
+        "83-83": "Un trozo de tela doblado que, al desplegarse, se convierte en una elegante gorra",
+        "84-84": "Un recibo de depósito en un banco de una ciudad lejana",
+        "85-85": "Un diario al que le faltan siete páginas",
+        "86-86": "Una tabaquera de plata vacía con la inscripción «sueños» en la tapa",
+        "87-87": "Un símbolo sagrado de hierro dedicado a un dios desconocido",
+        "88-88": "Un libro sobre el ascenso y caída de un héroe legendario, con el último capítulo ausente",
+        "89-89": "Un vial de sangre de dragón",
+        "90-90": "Una flecha antigua de diseño élfico",
+        "91-91": "Una aguja que nunca se dobla",
+        "92-92": "Un broche ornamentado de diseño enano",
+        "93-93": "Una botella de vino vacía con una hermosa etiqueta que dice: «The Wizard of Wines Winery, Red Dragon Crush, 331422-W»",
+        "94-94": "Una tesela de mosaico con una superficie vidriada multicolor",
+        "95-95": "Un ratón petrificado",
+        "96-96": "Una bandera pirata negra adornada con una calavera de dragón y tibias cruzadas",
+        "97-97": "Un diminuto cangrejo o araña mecánica que se mueve cuando no está siendo observado",
+        "98-98": "Un tarro de vidrio que contiene manteca con una etiqueta que dice: «Grasa de grifo»",
+        "99-99": "Una caja de madera con base de cerámica que contiene un gusano vivo con una cabeza en cada extremo del cuerpo",
+        "100-100": "Una urna de metal que contiene las cenizas de un héroe"
+      }
+    },
+    "phbSublanguageTa": {
+      "name": "Tabla de subidiomas",
+      "description": "",
+      "results": {
+        "1-1": "<strong>Idioma:</strong> Lengua de signos común. <strong>Origen:</strong> Sigil.",
+        "2-2": "<strong>Idioma:</strong> Dracónico. <strong>Origen:</strong> Dragones.",
+        "3-4": "<strong>Idioma:</strong> Enano. <strong>Origen:</strong> Enanos.",
+        "5-6": "<strong>Idioma:</strong> Élfico. <strong>Origen:</strong> Elfos.",
+        "7-7": "<strong>Idioma:</strong> Gigante. <strong>Origen:</strong> Gigantes.",
+        "8-8": "<strong>Idioma:</strong> Gnómico. <strong>Origen:</strong> Gnomos.",
+        "9-9": "<strong>Idioma:</strong> Goblin. <strong>Origen:</strong> Goblinoides.",
+        "10-11": "<strong>Idioma:</strong> Mediano. <strong>Origen:</strong> Medianos.",
+        "12-12": "<strong>Idioma:</strong> Orco. <strong>Origen:</strong> Orcos."
+      }
+    },
+    "phbgenCardinalDi": {
+      "name": "Puntos cardinales",
+      "description": "",
+      "results": {
+        "1-1": "Norte",
+        "2-2": "Este",
+        "3-3": "Sur",
+        "4-4": "Oeste"
+      }
+    },
+    "phbsplConfusionB": {
+      "name": "Comportamiento de Confusión",
+      "description": "<p>Behavior for the Turn</p>",
+      "results": {
+        "1-1": "Cardinal Directions",
+        "2-6": "El objetivo no se mueve ni realiza acciones.",
+        "7-8": "El objetivo no se mueve y realiza la acción de Ataque para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria a su alcance. Si no hay ninguna a su alcance, no realiza ninguna acción.",
+        "9-10": "El objetivo elige su comportamiento."
+      }
+    },
+    "phbsplReincarnat": {
+      "name": "Especie reencarnada",
+      "description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>",
+      "results": {
+        "1-1": "Aasimar",
+        "2-2": "Dragonborn",
+        "3-3": "Dwarf",
+        "6-6": "Goliath",
+        "7-7": "Halfling",
+        "8-8": "Human",
+        "9-9": "Orc",
+        "4-4": "Elven Lineage",
+        "10-10": "Fiendish Legacy",
+        "5-5": "Gnomish Lineage"
+      }
+    },
+    "phbsplTeleportMi": {
+      "name": "Pifia de Teletransporte",
+      "description": "<p><strong>Mishap damage:</strong> [[/damage 3d10 type=force]]</p><p><strong>Off target distance:</strong> [[/r 2d12#Miles]]{2d12 miles} [[/r 1d8#Direction]]{Direction}</p>",
+      "results": {
+        "1-100": "<strong>Objeto vinculado:</strong> En el objetivo",
+        "1-5": "<strong>Muy familiar:</strong> Pifia",
+        "6-13": "<strong>Muy familiar:</strong> Área similar",
+        "14-24": "<strong>Muy familiar:</strong> Fuera del objetivo",
+        "25-100": "<strong>Muy familiar:</strong> En el objetivo",
+        "1-33": "<strong>Visto de pasada:</strong> Pifia",
+        "34-43": "<strong>Visto de pasada:</strong> Área similar",
+        "44-53": "<strong>Visto o descrito:</strong> Área similar",
+        "54-73": "<strong>Visto o descrito:</strong> Fuera del objetivo",
+        "1-43": "<strong>Visto o descrito:</strong> Pifia",
+        "74-100": "<strong>Visto o descrito:</strong> En el objetivo",
+        "1-50": "<strong>Destino falso:</strong> Pifia",
+        "51-100": "<strong>Destino falso:</strong> Área similar"
+      }
+    }
+  }
+}

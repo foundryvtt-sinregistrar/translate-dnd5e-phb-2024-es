@@ -1,0 +1,1027 @@
+{
+  "_meta": {
+    "source": "dnd-players-handbook.content.json",
+    "base_compared_with": "dnd-players-handbook.content-en.json",
+    "version": "v001"
+  },
+  "summary": {
+    "entries_changed": 26,
+    "page_fields_changed": 130,
+    "uuid_label_replacements": 766,
+    "reference_replacements": 10,
+    "global_replacements": 13,
+    "specific_patches": 6,
+    "extra_manual_fixes": 4
+  },
+  "changed_entries": [
+    "phbActions000000",
+    "phbAppendixATheM",
+    "phbAppendixCRule",
+    "phbBackgroundDes",
+    "phbBarbarian0000",
+    "phbBard000000000",
+    "phbChangelog0000",
+    "phbCharacterClas",
+    "phbCleric0000000",
+    "phbCombat0000000",
+    "phbConditions000",
+    "phbCraftingEquip",
+    "phbDruid00000000",
+    "phbEquipment0000",
+    "phbExploration00",
+    "phbFeats00000000",
+    "phbFighter000000",
+    "phbMountsAndVehi",
+    "phbPaladin000000",
+    "phbPlayingTheGam",
+    "phbRanger0000000",
+    "phbRogue00000000",
+    "phbSorcerer00000",
+    "phbSpeciesDescri",
+    "phbSpells0000000",
+    "phbWarlock000000"
+  ],
+  "changed_pages": [
+    {
+      "entry_id": "phbActions000000",
+      "page_id": "69IzOHUyHlEqHA48",
+      "page_name": "Una cosa cada vez"
+    },
+    {
+      "entry_id": "phbActions000000",
+      "page_id": "nLHvph6iAlDVom9f",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbAppendixATheM",
+      "page_id": "a2sV7VHUWTNW5wgO",
+      "page_name": "Los Planos Exteriores"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "0r3UkdVTPBHa78ea",
+      "page_name": "Competencia"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "2Uvc5myrDs18Cf19",
+      "page_name": "Golpe sin armas"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "3RRDH9XNKf1LHgWl",
+      "page_name": "Truco"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "4i3G895hy99piand",
+      "page_name": "incapacitado"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "53c9JMqckHagYYB5",
+      "page_name": "Nadar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "5hyEitPd1Kb27fP5",
+      "page_name": "Peligro"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "9SzoRkB9GUlofZEB",
+      "page_name": "Dados de Puntos de Golpe"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "a4CjDIEMeSbRaEjA",
+      "page_name": "Trepar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "be7g0q1xBAwb8drv",
+      "page_name": "Visión verdadera"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "BMoxmXB8pX6bOBus",
+      "page_name": "Challenge Rating"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "DksBBFbqPY2FCReT",
+      "page_name": "Puntos de experiencia"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "EIknqkxeOWwz7Qk5",
+      "page_name": "Habilidad"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "EjbXjvyQAMlDyANI",
+      "page_name": "aturdido"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "EjR3KL7KLTwjWBS0",
+      "page_name": "Acción adicional"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "FZFvLNOX0lHaHZ1k",
+      "page_name": "Deshidratación"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "gTBHin4uKrs9cjjW",
+      "page_name": "Monstruo"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "HBCtsDayuQfxwqV9",
+      "page_name": "Entrenamiento con armadura"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "HiJGoeVyu4nhm6a3",
+      "page_name": "Levitar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "hTXYRfVTvcL9LYiB",
+      "page_name": "Hoja de personaje"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "iIIDUsmSOkL0xNzF",
+      "page_name": "Magia"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "IiOTDqJ2YtRPmuFE",
+      "page_name": "Conjuro"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "j4c5BbPA97hDIgoY",
+      "page_name": "Personaje jugador"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "jxgi4EtQj7G0LkD9",
+      "page_name": "Campaña"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "lCwPWK4ODxw2IV1x",
+      "page_name": "Caída"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "lvs9RRDi1UA1Lff8",
+      "page_name": "Ventaja"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "mPBGM1vguT5IPzxT",
+      "page_name": "Ardiendo"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "NGmwolHLA5ppbIZY",
+      "page_name": "Descanso largo"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "nI9tN6Oq7fCV7hcA",
+      "page_name": "Preparar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "niL3uQqxKnfsgmDI",
+      "page_name": "Por día"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "NSU7TjeJbJ0vVQaZ",
+      "page_name": "Velocidad"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "nteEPAs5mlT6Z0Fl",
+      "page_name": "Save"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "OhSIWaQ61dOp7S8M",
+      "page_name": "Reacción"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "On6Sg3vUokAkXBB5",
+      "page_name": "Área de efecto"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "OP0YhS6iOm4yfPIt",
+      "page_name": "Muerto"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "P2NwvmLhmPGu7iQB",
+      "page_name": "Ataque con arma"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "PjXBMVcEaWuKjder",
+      "page_name": "Dejar inconsciente a una criatura"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "PyQgGFRDNLr0DznN",
+      "page_name": "Objeto"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "q6Bs0h1U9weuUqHk",
+      "page_name": "Ritual"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "qOKtJt8CB2qRaTNA",
+      "page_name": "puntos de golpe temporales"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "qt6cd0mBRQhsElwd",
+      "page_name": "Criatura"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "rqhOsUY4wWa1oHTy",
+      "page_name": "Esconderse"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "RXTLVpAwcGm1qtKf",
+      "page_name": "Romper objetos"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "SGPAyMHJnd0MZC31",
+      "page_name": "Cambio de forma"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "sh9GYVdAi8hfH1ru",
+      "page_name": "Puntos de Golpe"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "SsIXfzS2ZttwAaKj",
+      "page_name": "Acción"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "St3ANvrKOgxECnTn",
+      "page_name": "Bloque de estadísticas"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "UDlogfdiT2uYEZz4",
+      "page_name": "Utilizar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "UIKLZmiLuENHk1wn",
+      "page_name": "Condición"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "UY4RGoKw9rOeazur",
+      "page_name": "Oscuridad"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "VNSwzt3GIwcM3Iil",
+      "page_name": "Personaje no jugador (PNJ)"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "wDGTuzKQunNrnkC8",
+      "page_name": "Velocidad de nado"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "YSLWJcQCP6kzsPql",
+      "page_name": "Sujetando"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "YwNA2I9Rzi4p8kjr",
+      "page_name": "Tamaño"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "zRZl7vdjzjqpazxn",
+      "page_name": "Arrastrarse"
+    },
+    {
+      "entry_id": "phbBackgroundDes",
+      "page_id": "lXqvtf9mIp8RYjFr",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbBarbarian0000",
+      "page_id": "0NPflCZJaxFKhpXu",
+      "page_name": "Senda del Árbol del Mundo"
+    },
+    {
+      "entry_id": "phbBarbarian0000",
+      "page_id": "DZftqg73PEeRWY4J",
+      "page_name": "Senda del Corazón Salvaje"
+    },
+    {
+      "entry_id": "phbBarbarian0000",
+      "page_id": "GvRPKO7EAbXB7TXM",
+      "page_name": "Senda del bersérker"
+    },
+    {
+      "entry_id": "phbBarbarian0000",
+      "page_id": "JZkVWnkmB47BwtLi",
+      "page_name": "Senda del Fanático"
+    },
+    {
+      "entry_id": "phbBarbarian0000",
+      "page_id": "z2RxKBICH6e6SkUT",
+      "page_name": "Bárbaro"
+    },
+    {
+      "entry_id": "phbBard000000000",
+      "page_id": "AK8mgYdk1zOiIU0w",
+      "page_name": "Colegio del Saber"
+    },
+    {
+      "entry_id": "phbBard000000000",
+      "page_id": "iAZwiVfhgi8KdNAD",
+      "page_name": "Colegio del Valor"
+    },
+    {
+      "entry_id": "phbBard000000000",
+      "page_id": "PPMt7mHlvqyFQ1mw",
+      "page_name": "Colegio de Danza"
+    },
+    {
+      "entry_id": "phbBard000000000",
+      "page_id": "V8pqIWlaL9GhY61t",
+      "page_name": "Bardo"
+    },
+    {
+      "entry_id": "phbBard000000000",
+      "page_id": "ysmyEb6Euh5WLuA2",
+      "page_name": "Colegio del Encanto"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "Fkg7NaKjmJtvRgy1",
+      "page_name": "1.1.2"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "HCMp3uslRjZaV54z",
+      "page_name": "1.3.0"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "NUqrkSNeRfwLrcTq",
+      "page_name": "2.1.0"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "X4MrKbD8f4PUnX37",
+      "page_name": "1.4.0"
+    },
+    {
+      "entry_id": "phbCharacterClas",
+      "page_id": "jlSMyO89AI0ZtQjd",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbCleric0000000",
+      "page_id": "acPyA6A4DQBSnuZB",
+      "page_name": "Clérigo"
+    },
+    {
+      "entry_id": "phbCleric0000000",
+      "page_id": "aGYpgynZ3nkBCPaT",
+      "page_name": "Dominio de la Vida"
+    },
+    {
+      "entry_id": "phbCleric0000000",
+      "page_id": "G4wCgd6yslvpvKyN",
+      "page_name": "Dominio del Engaño"
+    },
+    {
+      "entry_id": "phbCleric0000000",
+      "page_id": "r6CueEIytzMeRwwo",
+      "page_name": "Dominio de la Guerra"
+    },
+    {
+      "entry_id": "phbCombat0000000",
+      "page_id": "E9fzdKGx4UxrtOG7",
+      "page_name": "Movimiento y posición"
+    },
+    {
+      "entry_id": "phbConditions000",
+      "page_id": "BuIBCfux6QYAah3q",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbCraftingEquip",
+      "page_id": "IBY1k8SwRJgBSuEK",
+      "page_name": "Fabricar objetos no mágicos"
+    },
+    {
+      "entry_id": "phbCraftingEquip",
+      "page_id": "n47iwiqPFPn2zRqX",
+      "page_name": "Preparar pociones de curación"
+    },
+    {
+      "entry_id": "phbDruid00000000",
+      "page_id": "HEtjvqXrKrZNyl8x",
+      "page_name": "Círculo de la Luna"
+    },
+    {
+      "entry_id": "phbDruid00000000",
+      "page_id": "QaSOPbllchjZ0UUG",
+      "page_name": "Círculo de las Estrellas"
+    },
+    {
+      "entry_id": "phbDruid00000000",
+      "page_id": "S1X2oB04w8E9Zo30",
+      "page_name": "Círculo del Mar"
+    },
+    {
+      "entry_id": "phbDruid00000000",
+      "page_id": "UCOh3zlvGxyk5jLr",
+      "page_name": "Druida"
+    },
+    {
+      "entry_id": "phbDruid00000000",
+      "page_id": "Ysgeru1iCA7CCe3x",
+      "page_name": "Círculo de la Tierra"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "adlJqek4sIyJePKO",
+      "page_name": "Tabla de armaduras"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "cfhVAnmKmLQ5RUmD",
+      "page_name": "Tabla de equipo de aventura"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "flJnTPWIwTrAzqTi",
+      "page_name": "Armadura"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "GCvg8n7Q7ltSPRxe",
+      "page_name": "Otras herramientas"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "xIDcbjgXOndS8zRl",
+      "page_name": "Lista de equipo de aventura"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "z1wx4cNO7AfqyNof",
+      "page_name": "Tabla de armas"
+    },
+    {
+      "entry_id": "phbExploration00",
+      "page_id": "kkgGDm3VQW8EGsnV",
+      "page_name": "Equipo de aventura"
+    },
+    {
+      "entry_id": "phbFeats00000000",
+      "page_id": "GxfrwkJbrIvn7reC",
+      "page_name": "Dotes de don épico"
+    },
+    {
+      "entry_id": "phbFeats00000000",
+      "page_id": "otAeQs0TLHYIBNuj",
+      "page_name": "Dotes de origen"
+    },
+    {
+      "entry_id": "phbFeats00000000",
+      "page_id": "sbHImaCB8ZMEHYkb",
+      "page_name": "Dotes de estilo de combate"
+    },
+    {
+      "entry_id": "phbFeats00000000",
+      "page_id": "uvu3wNdG3Czms2dL",
+      "page_name": "Descripciones de dotes"
+    },
+    {
+      "entry_id": "phbFeats00000000",
+      "page_id": "xOnod0XYqxamI66Y",
+      "page_name": "Dotes generales"
+    },
+    {
+      "entry_id": "phbFighter000000",
+      "page_id": "Ihf36UhEn91djWwP",
+      "page_name": "Opciones de maniobra"
+    },
+    {
+      "entry_id": "phbFighter000000",
+      "page_id": "oIre3TldjyfnGzQr",
+      "page_name": "Champion"
+    },
+    {
+      "entry_id": "phbFighter000000",
+      "page_id": "wDELe3k25FQvYdrq",
+      "page_name": "Guerrero"
+    },
+    {
+      "entry_id": "phbMountsAndVehi",
+      "page_id": "oXm4zg000veQxNUk",
+      "page_name": "Vehículos grandes"
+    },
+    {
+      "entry_id": "phbMountsAndVehi",
+      "page_id": "zivUMCaCPRLSXGNI",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbPaladin000000",
+      "page_id": "A34CXe4HdzXHoBEl",
+      "page_name": "Paladín"
+    },
+    {
+      "entry_id": "phbPaladin000000",
+      "page_id": "dw8zIx4aur7rRtx3",
+      "page_name": "Juramento de devoción"
+    },
+    {
+      "entry_id": "phbPaladin000000",
+      "page_id": "Mqzx5l1xSfqU1Nun",
+      "page_name": "Juramento de los antiguos"
+    },
+    {
+      "entry_id": "phbPaladin000000",
+      "page_id": "SkezCP76yjrx4cwL",
+      "page_name": "Juramento de gloria"
+    },
+    {
+      "entry_id": "phbPaladin000000",
+      "page_id": "uWOP3pIZ4bWX0oE6",
+      "page_name": "Juramento de venganza"
+    },
+    {
+      "entry_id": "phbPlayingTheGam",
+      "page_id": "hgDr94CWfS8WxtsX",
+      "page_name": "¿Jugador o Dungeon Master?"
+    },
+    {
+      "entry_id": "phbRanger0000000",
+      "page_id": "3M6p7GyZeEPBlYOv",
+      "page_name": "Errante feérico"
+    },
+    {
+      "entry_id": "phbRanger0000000",
+      "page_id": "80h94evzbL3MwLk1",
+      "page_name": "Cazador"
+    },
+    {
+      "entry_id": "phbRanger0000000",
+      "page_id": "9Y6m5wyW2K8LUqzp",
+      "page_name": "Señor de las Bestias"
+    },
+    {
+      "entry_id": "phbRanger0000000",
+      "page_id": "fgzoeAJE4EEUSOYQ",
+      "page_name": "Explorador"
+    },
+    {
+      "entry_id": "phbRogue00000000",
+      "page_id": "gJV8iDqdNhRMLi5r",
+      "page_name": "Pícaro"
+    },
+    {
+      "entry_id": "phbRogue00000000",
+      "page_id": "ktzTbf5xQEp9qm2c",
+      "page_name": "Cuchilla del alma"
+    },
+    {
+      "entry_id": "phbSorcerer00000",
+      "page_id": "fsqRUA4acVXH4I3O",
+      "page_name": "Hechicero"
+    },
+    {
+      "entry_id": "phbSorcerer00000",
+      "page_id": "h9Qhn4HyJyAnK5b9",
+      "page_name": "Hechicería dracónica"
+    },
+    {
+      "entry_id": "phbSorcerer00000",
+      "page_id": "Uk7haOmnUX48CBuY",
+      "page_name": "Hechicería de relojería"
+    },
+    {
+      "entry_id": "phbSorcerer00000",
+      "page_id": "XSkwrMRz9FDvovd1",
+      "page_name": "Opciones de metamagia"
+    },
+    {
+      "entry_id": "phbSorcerer00000",
+      "page_id": "z7c2nyg00fI0CpxD",
+      "page_name": "Hechicería de magia salvaje"
+    },
+    {
+      "entry_id": "phbSorcerer00000",
+      "page_id": "zqwAE59wEiY1bbtm",
+      "page_name": "Hechicería aberrante"
+    },
+    {
+      "entry_id": "phbSpeciesDescri",
+      "page_id": "7iLsgz6RUQJVpUsH",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbSpeciesDescri",
+      "page_id": "h9oGyt2Wh9mp0xbg",
+      "page_name": "Elfo"
+    },
+    {
+      "entry_id": "phbSpeciesDescri",
+      "page_id": "xiCNZr3S4OmJezyv",
+      "page_name": "Tiflin"
+    },
+    {
+      "entry_id": "phbSpells0000000",
+      "page_id": "9gz1xBZF5YsMScrk",
+      "page_name": "Componentes"
+    },
+    {
+      "entry_id": "phbSpells0000000",
+      "page_id": "b2QVn25z2N1ykWpf",
+      "page_name": "Obtener conjuros"
+    },
+    {
+      "entry_id": "phbSpells0000000",
+      "page_id": "ujhsaI8nVkjXwMHD",
+      "page_name": "Efectos"
+    },
+    {
+      "entry_id": "phbWarlock000000",
+      "page_id": "4km6CWhHArWi0klF",
+      "page_name": "Patrón infernal"
+    },
+    {
+      "entry_id": "phbWarlock000000",
+      "page_id": "FA4hxx49eazhISIt",
+      "page_name": "Opciones de invocaciones sobrenaturales"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "iIIDUsmSOkL0xNzF",
+      "field": "text",
+      "page_name": "Magia"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "GCvg8n7Q7ltSPRxe",
+      "field": "text",
+      "page_name": "Otras herramientas"
+    },
+    {
+      "entry_id": "phbMountsAndVehi",
+      "page_id": "zivUMCaCPRLSXGNI",
+      "field": "text",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbSpeciesDescri",
+      "page_id": "xiCNZr3S4OmJezyv",
+      "field": "text",
+      "page_name": "Tiflin"
+    }
+  ],
+  "residual_hits_sample": {
+    "Outer Plane": [
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "OP0YhS6iOm4yfPIt",
+        "field": "text"
+      }
+    ],
+    "Darkness": [
+      {
+        "entry_id": "phbSpeciesDescri",
+        "page_id": "h9oGyt2Wh9mp0xbg",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSpeciesDescri",
+        "page_id": "xiCNZr3S4OmJezyv",
+        "field": "text"
+      }
+    ],
+    "Search": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "69IzOHUyHlEqHA48",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "ySj4gYZ4ADZoia7R",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSocialInterac",
+        "page_id": "Cs8ij3IkT7xRhP15",
+        "field": "text"
+      }
+    ],
+    "Study": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "Nuz0Wx4a4aAPcC34",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbChangelog0000",
+        "page_id": "329Lnbzx1ji9Nil7",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSpells0000000",
+        "page_id": "ujhsaI8nVkjXwMHD",
+        "field": "text"
+      }
+    ],
+    "Utilize": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "69IzOHUyHlEqHA48",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "UDlogfdiT2uYEZz4",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSpeciesDescri",
+        "page_id": "BKZ4ViHHUMxaqPz4",
+        "field": "text"
+      }
+    ],
+    "Three-Dragon Ante": [
+      {
+        "entry_id": "phbEquipment0000",
+        "page_id": "GCvg8n7Q7ltSPRxe",
+        "field": "text"
+      }
+    ],
+    "Attack": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "eNvzQabiTqTtfzis",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "gxjZq9Df96FZIl6y",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "IL73rq9BlQowdon7",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "P2NwvmLhmPGu7iQB",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "w1AGsemFERfjqWNx",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbChangelog0000",
+        "page_id": "329Lnbzx1ji9Nil7",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbChangelog0000",
+        "page_id": "X4MrKbD8f4PUnX37",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbCharacterClas",
+        "page_id": "jlSMyO89AI0ZtQjd",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbCombat0000000",
+        "page_id": "gOLiYqsAJ4E2JpDK",
+        "field": "text"
+      }
+    ],
+    "Dash": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "6l6nBKip4LqB1sCU",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSpeciesDescri",
+        "page_id": "qUxclCvBClnEafEY",
+        "field": "text"
+      }
+    ],
+    "Disengage": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "w1AGsemFERfjqWNx",
+        "field": "text"
+      }
+    ],
+    "Dodge": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "3YJIuyCMmuUrfmuX",
+        "field": "text"
+      }
+    ],
+    "Help": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "69IzOHUyHlEqHA48",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "5S8i59qskkd9GGcJ",
+        "field": "text"
+      }
+    ],
+    "Influence": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "69IzOHUyHlEqHA48",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "4V59Q1dlWjNhpJGo",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSocialInterac",
+        "page_id": "9LRNZCkYL93PbLsb",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSocialInterac",
+        "page_id": "Cs8ij3IkT7xRhP15",
+        "field": "text"
+      }
+    ],
+    "Ready": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "nI9tN6Oq7fCV7hcA",
+        "field": "text"
+      }
+    ],
+    "Magic": [
+      {
+        "entry_id": "phbActions000000",
+        "page_id": "nLHvph6iAlDVom9f",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "CpD1zLLviYjS9FBX",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbChangelog0000",
+        "page_id": "329Lnbzx1ji9Nil7",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbChangelog0000",
+        "page_id": "oaTqoAOtt6NpdqaV",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbCharacterClas",
+        "page_id": "jlSMyO89AI0ZtQjd",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbFeats00000000",
+        "page_id": "otAeQs0TLHYIBNuj",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbFeats00000000",
+        "page_id": "uvu3wNdG3Czms2dL",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSorcerer00000",
+        "page_id": "z7c2nyg00fI0CpxD",
+        "field": "description"
+      },
+      {
+        "entry_id": "phbSpells0000000",
+        "page_id": "7moTWd8pOCzvlES1",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSpells0000000",
+        "page_id": "YSB1QtxZW2BI9f4Y",
+        "field": "text"
+      }
+    ],
+    "&amp;Reference mientras": [
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "rqhOsUY4wWa1oHTy",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbAppendixCRule",
+        "page_id": "YkuKTIH2YaYW8lTS",
+        "field": "text"
+      },
+      {
+        "entry_id": "phbSpells0000000",
+        "page_id": "7moTWd8pOCzvlES1",
+        "field": "text"
+      }
+    ]
+  }
+}

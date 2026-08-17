@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "input": "dnd-players-handbook.actors.es.sanitized.v2.json",
+    "reference_en": "dnd-players-handbook.actors-en-v4.json",
+    "output": "dnd-players-handbook.actors.es.sanitized.v3.json",
+    "report_type": "semantic_manual_review_v3"
+  },
+  "automatic_fixes_applied": {
+    "total": 196,
+    "categories": {
+      "uuid_label_translation": 88,
+      "reference_reconstruction_from_en": 109,
+      "caption_translation": 16
+    },
+    "sample": [
+      {
+        "path": "entries.phbBeastoftheLan.items.VSfvWi5FOm2U6pfm.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d8 + 2 + tu modificador de sabiduría de daño contundente, perforante o cortante (a tu elección cuando convoques a la bestia). Si la bestia se ha movido al menos 20 pies en línea recta hacia el objetivo antes del impacto, el objetivo recibe 1d6 de daño adicional del mismo tipo y tiene la condición &amp;Reference si es una criatura Grande o más pequeña.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Nota de Foundry</strong></p><p>Las actividades de <strong>Ataque</strong> y <strong>Ataque de carga</strong> te permitirán elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p><p>La actividad de <strong>Ataque de carga</strong> incluye el daño adicional.</p></section>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d8 + 2 + tu modificador de sabiduría de daño contundente, perforante o cortante (a tu elección cuando convoques a la bestia). Si la bestia se ha movido al menos 20 pies en línea recta hacia el objetivo antes del impacto, el objetivo recibe 1d6 de daño adicional del mismo tipo y tiene la condición &amp;Reference[prone]{Derribado} si es una criatura Grande o más pequeña.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Nota de Foundry</strong></p><p>Las actividades de <strong>Ataque</strong> y <strong>Ataque de carga</strong> te permitirán elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p><p>La actividad de <strong>Ataque de carga</strong> incluye el daño adicional.</p></section>"
+      },
+      {
+        "path": "entries.phbBeastoftheSea.items.LUOy5vzHMODQLZT3.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d6 + 2 + tu modificador de sabiduría de daño contundente o perforante (a tu elección cuando convoques a la bestia), y el objetivo tiene la condición &amp;Reference (la CD para escapar es igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Nota de Foundry</strong></p><p>La actividad de <strong>Ataque</strong> te permitirá elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p></section>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> El bonificador es igual a tu modificador de ataque de conjuros, alcance 5 pies. <em>Impacto:</em> 1d6 + 2 + tu modificador de sabiduría de daño contundente o perforante (a tu elección cuando convoques a la bestia), y el objetivo tiene la condición &amp;Reference[grappled]{Agarrado} (la CD para escapar es igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Nota de Foundry</strong></p><p>La actividad de <strong>Ataque</strong> te permitirá elegir el tipo de daño en el cuadro de tirada. Deberías elegir un tipo de daño y usarlo de forma consistente hasta que vuelvas a invocar a tu compañero.</p></section>"
+      },
+      {
+        "path": "entries.phbConjuredEarth.items.oJkALZTVLPy8TJSR.effects.i5T6yzxlsSnXxGGa.description",
+        "before": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>",
+        "after": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+      },
+      {
+        "path": "entries.phbConjuredFireE.items.M6i0fFdNQmWKA4BZ.effects.BWZxm9qxlXDSF6Dy.description",
+        "before": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>",
+        "after": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+      },
+      {
+        "path": "entries.phbConjuredWater.items.BeXR1DiQaXVIpgxp.effects.fwIobATMREr7g26x.description",
+        "before": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>",
+        "after": "<p>Al comienzo de cada uno de sus turnos, el objetivo de &amp;Reference[Restrained apply=false]{Apresado} repite la tirada de salvación [[/save ability=dex]]. Si falla, el objetivo sufre 4d8 (más 2d8 por cada nivel de espacio de conjuro por encima de 5) de daño del tipo del espíritu. Si tiene éxito, el objetivo no queda Restringido por el espíritu.</p>"
+      },
+      {
+        "path": "entries.phbelsMirthfulFe.items.phbaoiFeyStep000.description",
+        "before": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Jovial.</strong> <em>Tirada de salvación de Sabiduría:</em> la CD es igual a tu CD de salvación de conjuro; una criatura que el espíritu pueda ver a 10 pies o menos de sí mismo. <em>Fallo:</em> el objetivo queda &amp;Reference por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>",
+        "after": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Jovial.</strong> <em>Tirada de salvación de Sabiduría:</em> la CD es igual a tu CD de salvación de conjuro; una criatura que el espíritu pueda ver a 10 pies o menos de sí mismo. <em>Fallo:</em> el objetivo queda &amp;Reference[charmed apply=false]{Hechizado} por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>"
+      },
+      {
+        "path": "entries.phbelsMirthfulFe.items.phbaoiFeyStep000.effects.EiXyxkdcQN9Ui6pd.description",
+        "before": "<p>El objetivo queda &amp;Reference por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>",
+        "after": "<p>El objetivo queda &amp;Reference[charmed]{Hechizado} por ti y el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>"
+      },
+      {
+        "path": "entries.phbelsTricksyFey.items.phbaoiFeyStep000.description",
+        "before": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Travieso.</strong> El espíritu llena un Cubo de 10 pies a 5 pies o menos de él con &amp;Reference mágicas, que duran hasta el final de su siguiente turno.</p>",
+        "after": "<p>El espíritu se teletransporta mágicamente hasta 30 pies a un espacio desocupado que pueda ver. Luego ocurre el siguiente efecto, basado en el estado de ánimo elegido del espíritu:</p><p><strong>Travieso.</strong> El espíritu llena un Cubo de 10 pies a 5 pies o menos de él con &amp;Reference[darkness]{Oscuridad} mágicas, que duran hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.phbmobBrownBear0.items.phbaoiClaw000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference si es Enorme o más pequeño.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Enorme o más pequeño.</p>"
+      },
+      {
+        "path": "entries.phbmobConstricto.items.phbaoiConstrict0.description",
+        "before": "<p><em>Tirada de salvación de fuerza:</em> CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 5 pies. <em>Fracaso:</em> 7 (3d4) de daño contundente, y el objetivo tiene la condición &amp;Reference (CD 12 para escapar).</p>",
+        "after": "<p><em>Tirada de salvación de fuerza:</em> CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 5 pies. <em>Fracaso:</em> 7 (3d4) de daño contundente, y el objetivo tiene la condición &amp;Reference[grappled]{Agarrado} (CD 12 para escapar).</p>"
+      },
+      {
+        "path": "entries.phbmobCrocodile0.items.phbaoiBite000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference (CD 12 para escapar). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +4, alcance 5 pies. <em>Impacto:</em> 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[grappled apply=false]{Agarrado} (CD 12 para escapar). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[restrained apply=false]{Apresado}.</p>"
+      },
+      {
+        "path": "entries.phbmobCrocodile0.items.phbaoiBite000000.effects.LtkZa9s0yWBlbnja.description",
+        "before": "<p>Mientras &amp;Reference[Agarrado apply=false]{Agarrado} (CD 12 para escapar), el objetivo tiene la condición &amp;Reference.</p>",
+        "after": "<p>Mientras &amp;Reference[Agarrado apply=false]{Agarrado} (CD 12 para escapar), el objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado}.</p>"
+      },
+      {
+        "path": "entries.phbmobDireWolf00.items.phbaoiBite000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto: </em>8 (1d10 + 3) de daño perforante, y el objetivo tiene la condición &amp;Reference si es Enorme o más pequeño.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto: </em>8 (1d10 + 3) de daño perforante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Enorme o más pequeño.</p>"
+      },
+      {
+        "path": "entries.phbmobElephant00.items.phbaoiGore000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+8, alcance 5 pies. <em>Impacto:</em> 15 (2d8 + 6) de daño perforante. Si el elefante se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo también tiene la condición &amp;Reference.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+8, alcance 5 pies. <em>Impacto:</em> 15 (2d8 + 6) de daño perforante. Si el elefante se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo también tiene la condición &amp;Reference[prone]{Derribado}.</p>"
+      },
+      {
+        "path": "entries.phbmobElk0000000.items.phbaoiRam0000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si el alce se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si el alce se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 3 (1d6) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference[prone]{Derribado}.</p>"
+      },
+      {
+        "path": "entries.phbmobFeySpirit0.items.phbaoiMirthful00.description",
+        "before": "<p><em>Tirada de salvación de sabiduría:</em> la CD es igual a tu CD de salvación de conjuros, una criatura que el espíritu pueda ver a 10 pies de él. <em>Fracaso:</em> El objetivo queda &amp;Reference por ti y por el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>",
+        "after": "<p><em>Tirada de salvación de sabiduría:</em> la CD es igual a tu CD de salvación de conjuros, una criatura que el espíritu pueda ver a 10 pies de él. <em>Fracaso:</em> El objetivo queda &amp;Reference[charmed apply=false]{Hechizado} por ti y por el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>"
+      },
+      {
+        "path": "entries.phbmobFeySpirit0.items.phbaoiMirthful00.effects.2jWAwI42pUyh2z6L.description",
+        "before": "<p>El objetivo queda &amp;Reference por ti y por el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>",
+        "after": "<p>El objetivo queda &amp;Reference[charmed apply=false]{Hechizado} por ti y por el espíritu durante 1 minuto o hasta que el objetivo reciba cualquier daño.</p>"
+      },
+      {
+        "path": "entries.phbmobFeySpirit0.items.phbaoiTricksy000.description",
+        "before": "<p>El espíritu llena un Cubo de 10 pies dentro de 5 pies de él con &amp;Reference mágica, que dura hasta el final de su siguiente turno.</p>",
+        "after": "<p>El espíritu llena un Cubo de 10 pies dentro de 5 pies de él con &amp;Reference[darkness]{Oscuridad} mágica, que dura hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.phbmobGiantCrab0.items.phbaoiClaw000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto:</em> 4 (1d6 + 1) de daño contundente. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference (CD 11 para escapar). El cangrejo tiene dos pinzas, cada una de las cuales puede sujetar a un objetivo.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+3, alcance 5 pies. <em>Impacto:</em> 4 (1d6 + 1) de daño contundente. Si el objetivo es Mediano o más pequeño, tiene la condición &amp;Reference[grappled]{Agarrado} (CD 11 para escapar). El cangrejo tiene dos pinzas, cada una de las cuales puede sujetar a un objetivo.</p>"
+      },
+      {
+        "path": "entries.phbmobGiantGoat0.items.phbaoiRam0000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si la cabra se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 5 (2d4) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +5, alcance 5 pies. <em>Impacto: </em>6 (1d6 + 3) de daño contundente. Si la cabra se ha movido al menos 20 pies en línea recta hacia el objetivo inmediatamente antes del impacto, el objetivo recibe 5 (2d4) puntos de daño contundente adicionales y, si es Enorme o más pequeño, tiene la condición &amp;Reference[prone]{Derribado}.</p>"
+      },
+      {
+        "path": "entries.phbmobGiantInsec.items.phbaoiVenomousSp.description",
+        "before": "<p><em>Tirada de salvación de constitución:</em> tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 10 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference hasta el comienzo del siguiente turno del insecto.</p>",
+        "after": "<p><em>Tirada de salvación de constitución:</em> tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 10 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+      },
+      {
+        "path": "entries.phbmobGiantInsec.items.phbaoiVenomousSp.effects.jVWtHTrlPNi4dpDi.description",
+        "before": "<p>El objetivo tiene la condición &amp;Reference hasta el comienzo del siguiente turno del insecto.</p>",
+        "after": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el comienzo del siguiente turno del insecto.</p>"
+      },
+      {
+        "path": "entries.phbmobGiantSpide.items.phbaoiWebRecharg.description",
+        "before": "<p><em>Tirada de salvación de destreza:</em> CD 13, una criatura que la araña pueda ver a 60 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference hasta que la telaraña sea destruida (CA 10; PG 5; Vulnerabilidad al daño de fuego; Inmunidad al daño de veneno y psíquico).</p>",
+        "after": "<p><em>Tirada de salvación de destreza:</em> CD 13, una criatura que la araña pueda ver a 60 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[restrained]{Apresado} hasta que la telaraña sea destruida (CA 10; PG 5; Vulnerabilidad al daño de fuego; Inmunidad al daño de veneno y psíquico).</p>"
+      },
+      {
+        "path": "entries.phbmobLion000000.items.phbaoiRoar000000.description",
+        "before": "<p><em>Tirada de salvación de sabiduría:</em> CD 11, una criatura a 15 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference hasta el comienzo del siguiente turno del león.</p>",
+        "after": "<p><em>Tirada de salvación de sabiduría:</em> CD 11, una criatura a 15 pies. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[frightened apply=false]{Asustado} hasta el comienzo del siguiente turno del león.</p>"
+      },
+      {
+        "path": "entries.phbmobLion000000.items.phbaoiRoar000000.effects.0oNa4hABXN7AZ6sk.description",
+        "before": "<p>El objetivo tiene la condición &amp;Reference hasta el comienzo del siguiente turno del león.</p>",
+        "after": "<p>El objetivo tiene la condición &amp;Reference[frightened apply=false]{Asustado} hasta el comienzo del siguiente turno del león.</p>"
+      },
+      {
+        "path": "entries.phbmobMastiff000.items.phbaoiBite000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante, y el objetivo tiene la condición &amp;Reference si es Grande o más pequeño.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> +3, alcance 5 pies. <em>Impacto: </em>4 (1d6 + 1) de daño perforante, y el objetivo tiene la condición &amp;Reference[prone]{Derribado} si es Grande o más pequeño.</p>"
+      },
+      {
+        "path": "entries.phbmobOctopus000.items.phbaoiInkCloud1D.description",
+        "before": "<p><em>Disparador:</em> Una criatura termina su turno a 5 pies del pulpo mientras está bajo el agua. <em>Respuesta:</em> El pulpo suelta tinta que llena un Cubo de 5 pies centrado en él, y el pulpo se mueve hasta su velocidad de nado. El Cubo está &amp;Reference durante 1 minuto o hasta que una fuerte corriente o un efecto similar disperse la tinta.</p>",
+        "after": "<p><em>Disparador:</em> Una criatura termina su turno a 5 pies del pulpo mientras está bajo el agua. <em>Respuesta:</em> El pulpo suelta tinta que llena un Cubo de 5 pies centrado en él, y el pulpo se mueve hasta su velocidad de nado. El Cubo está &amp;Reference[heavilyobscured]{Muy oscura} durante 1 minuto o hasta que una fuerte corriente o un efecto similar disperse la tinta.</p>"
+      },
+      {
+        "path": "entries.phbmobOtherworld.items.phbaoiFellGlareF.description",
+        "before": "<p><em>Tirada de salvación de sabiduría:</em> la CD es igual a tu CD de salvación de conjuros, una criatura a 60 pies que el corcel pueda ver. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference hasta el final de tu siguiente turno.</p>",
+        "after": "<p><em>Tirada de salvación de sabiduría:</em> la CD es igual a tu CD de salvación de conjuros, una criatura a 60 pies que el corcel pueda ver. <em>Fracaso:</em> El objetivo tiene la condición &amp;Reference[frightened apply=false]{Asustado} hasta el final de tu siguiente turno.</p>"
+      },
+      {
+        "path": "entries.phbmobPanther000.items.WPYOASQsAeqc5wOx.description",
+        "before": "<p class=\"feature\">La [[lookup @name lowercase]] realiza la acción &amp;Reference o &amp;Reference[Hide]{Esconderse}.</p>",
+        "after": "<p class=\"feature\">La [[lookup @name lowercase]] realiza la acción &amp;Reference[Disengage]{Retirarse} o &amp;Reference[Hide]{Esconderse}.</p>"
+      },
+      {
+        "path": "entries.phbmobPseudodrag.items.phbaoiSting00000.description",
+        "before": "<p><em>Tirada de salvación de constitución:</em> CD 12, una criatura que el seudodragón pueda ver a 5 pies. <em>Fallo:</em> 5 (2d4 + 2) de daño por veneno, y el objetivo tiene la condición &amp;Reference durante 1 hora. <em>Fallo por 5 o más:</em> El objetivo envenenado también tiene la condición &amp;Reference hasta que reciba daño o hasta que otra criatura use una acción para despertarlo.</p>",
+        "after": "<p><em>Tirada de salvación de constitución:</em> CD 12, una criatura que el seudodragón pueda ver a 5 pies. <em>Fallo:</em> 5 (2d4 + 2) de daño por veneno, y el objetivo tiene la condición &amp;Reference[poisoned apply=false]{Envenenado} durante 1 hora. <em>Fallo por 5 o más:</em> El objetivo envenenado también tiene la condición &amp;Reference[unconscious apply=false]{Inconsciente} hasta que reciba daño o hasta que otra criatura use una acción para despertarlo.</p>"
+      },
+      {
+        "path": "entries.phbmobPseudodrag.items.phbaoiSting00000.effects.cMugjhNOxZa8Pg6h.description",
+        "before": "<p><em>Fallo por 5 o más:</em> El objetivo envenenado también tiene la condición &amp;Reference hasta que reciba daño o hasta que otra criatura use una acción para despertarlo.</p>",
+        "after": "<p><em>Fallo por 5 o más:</em> El objetivo envenenado también tiene la condición &amp;Reference[unconscious apply=false]{Inconsciente} hasta que reciba daño o hasta que otra criatura use una acción para despertarlo.</p>"
+      },
+      {
+        "path": "entries.phbmobPseudodrag.items.phbaoiSting00000.effects.w66XW3gMJLHNlhWo.description",
+        "before": "<p>El objetivo tiene la condición &amp;Reference durante 1 hora.</p>",
+        "after": "<p>El objetivo tiene la condición &amp;Reference[poisoned apply=false]{Envenenado} durante 1 hora.</p>"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.items.phbaoiRend000000.description",
+        "before": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference hasta el inicio del siguiente turno del quasit.</p>",
+        "after": "<p><em>Tirada de ataque cuerpo a cuerpo: </em>+5, alcance 5 pies. <em>Impacto:</em> 5 (1d4 + 3) de daño cortante, y el objetivo tiene la condición &amp;Reference[poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno del quasit.</p>"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.items.phbaoiRend000000.effects.uflCaAMP5sGRN1hC.description",
+        "before": "<p>El objetivo tiene la condición &amp;Reference hasta el inicio del siguiente turno del quasit.</p>",
+        "after": "<p>El objetivo tiene la condición &amp;Reference[poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno del quasit.</p>"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.items.phbaoiScare1Day0.description",
+        "before": "<p><em>Tirada de salvación de sabiduría:</em> CD 10, una criatura a 20 pies. <em>Fallo:</em> El objetivo tiene la condición &amp;Reference. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvación, terminando el efecto sobre sí mismo en un éxito. Tras 1 minuto, tiene éxito automáticamente.</p>",
+        "after": "<p><em>Tirada de salvación de sabiduría:</em> CD 10, una criatura a 20 pies. <em>Fallo:</em> El objetivo tiene la condición &amp;Reference[frightened apply=false]{Asustado}. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvación, terminando el efecto sobre sí mismo en un éxito. Tras 1 minuto, tiene éxito automáticamente.</p>"
+      },
+      {
+        "path": "entries.phbmobSprite0000.items.phbaoiEnchanting.description",
+        "before": "<p><em>Tirada de ataque a distancia: </em>+6, alcance 40/160 pies. <em>Impacto:</em> 1 de daño perforante, y el objetivo tiene la condición &amp;Reference hasta el inicio del siguiente turno del duende.</p>",
+        "after": "<p><em>Tirada de ataque a distancia: </em>+6, alcance 40/160 pies. <em>Impacto:</em> 1 de daño perforante, y el objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} hasta el inicio del siguiente turno del duende.</p>"
+      },
+      {
+        "path": "entries.phbmobSprite0000.items.phbaoiEnchanting.effects.XfW9tdqal2Htc8z3.description",
+        "before": "<p>El objetivo tiene la condición &amp;Reference hasta el inicio del siguiente turno del duende.</p>",
+        "after": "<p>El objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} hasta el inicio del siguiente turno del duende.</p>"
+      },
+      {
+        "path": "entries.phbmobTiger00000.items.FBFgFP2iirQ8hRLd.description",
+        "before": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference.</p>",
+        "after": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
+      },
+      {
+        "path": "entries.phbmobTiger00000.items.FBFgFP2iirQ8hRLd.effects.9A6Hpr7hApdISok9.description",
+        "before": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference.</p>",
+        "after": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
+      },
+      {
+        "path": "entries.phbmobTiger00000.items.pf3PDGh40olHVQqI.description",
+        "before": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference o &amp;Reference[Hide]{Esconderse}.</p>",
+        "after": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference[Disengage]{Retirarse} o &amp;Reference[Hide]{Esconderse}.</p>"
+      }
+    ]
+  },
+  "remaining_manual_review": {
+    "broken_reference_count": 0,
+    "uuid_label_or_english_fragment_count": 6,
+    "semantic_review_names_count": 18,
+    "broken_reference": [],
+    "uuid_label_or_english_fragment": [
+      {
+        "path": "entries.phbprgFighter000.items.8jWxAwM0A9lpspWN.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> fuerza, destreza, constitución</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac]{Atacante salvaje}</p><p><strong>Competencias en habilidades:</strong> Atletismo e Intimidación</p><p><strong>Competencia con herramientas:</strong> <em>Elige un tipo de</em> <em>juego de azar</em> (consulta @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter 6})</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Lanza}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Arco corto}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}, juego de azar (igual que arriba), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Kit de curandero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler’s Clothes}, 14 GP; o (B) 50 GP</p><p>Comenzaste tu entrenamiento para la guerra en cuanto alcanzaste la edad adulta y conservas muy pocos recuerdos de tu vida antes de tomar las armas. La batalla está en tu sangre. A veces te sorprendes realizando de forma refleja los ejercicios de combate básicos que aprendiste primero. Con el tiempo, pusiste ese entrenamiento en práctica en el campo de batalla, protegiendo el reino al hacer la guerra.</p>"
+      },
+      {
+        "path": "entries.phbprgMonk000000.items.2cLlxPh1dvJ76dvY.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> destreza, constitución, sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la magia} (Druida)</p><p><strong>Competencias en habilidades:</strong> Sigilo y Supervivencia</p><p><strong>Competencia con herramientas:</strong> Herramientas de cartógrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Arco corto}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCartograph]{Herramientas de cartógrafo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tienda de campaña}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler’s Clothes}, 3 GP; o (B) 50 GP</p><p>Creciste al aire libre, lejos de las tierras civilizadas. Tu hogar era cualquier lugar donde decidieras extender tu saco de dormir. Hay maravillas en la naturaleza —monstruos extraños, bosques y arroyos prístinos, ruinas cubiertas de vegetación de grandes salones antaño pisados por gigantes— y aprendiste a valerte por ti mismo mientras las explorabas. De vez en cuando guiabas a sacerdotes de la naturaleza amistosos que te enseñaron los fundamentos de canalizar la magia salvaje.</p>"
+      },
+      {
+        "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> fuerza, inteligencia, carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Hábil}</p><p><strong>Competencias en habilidades:</strong> Historia y Persuasión</p><p><strong>Competencia con herramientas:</strong> <em>Elige un tipo de</em> <em>juego de azar</em> (consulta @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter 6})</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Juego de azar (el mismo de arriba), @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, 29 PO; o (B) 50 PO</p><p>Creciste en un castillo, rodeado de riqueza, poder y privilegios. Tu familia de pequeños aristócratas se aseguró de que recibieras una educación de primera clase, parte de la cual agradecías y parte de la cual detestabas. Tu tiempo en el castillo, especialmente las muchas horas que pasaste observando a tu familia en la corte, también te enseñó mucho sobre el liderazgo.</p>"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.XisqpTwG3m4b8ouV.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> destreza, sabiduría, carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Afortunado}</p><p><strong>Competencias en habilidades:</strong> Perspicacia y Sigilo</p><p><strong>Competencia con herramientas:</strong> Herramientas de ladrón</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daga}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de ladrón}, juego de azar (cualquiera), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler’s Clothes}, 16 PO; o (B) 50 PO</p><p>Creciste en las calles rodeado de otros desdichados como tú; algunos eran amigos y otros rivales. Dormías donde podías e ibas haciendo trabajos ocasionales a cambio de comida. A veces, cuando el hambre se volvía insoportable, recurrías al robo. Aun así, nunca perdiste el orgullo ni abandonaste la esperanza. El destino aún no ha terminado contigo.</p>"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> destreza, constitución, carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Hábil}</p><p><strong>Competencias en habilidades:</strong> Engaño y Juego de manos</p><p><strong>Competencia con herramientas:</strong> kit de falsificación</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Kit de falsificación}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, 15 GP; o (B) 50 GP</p><p>En cuanto tuviste edad suficiente para pedir una jarra de cerveza, pronto tenías un taburete favorito en cada taberna en un radio de diez millas desde el lugar donde naciste. Mientras recorrías el circuito de tabernas y tugurios, aprendiste a aprovecharte de los incautos que buscaban una mentira reconfortante o dos; quizá una poción falsa o registros de linaje falsificados.</p>"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.description",
+        "value": "<p><strong>Puntuaciones de característica:</strong> destreza, inteligencia, sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Hábil}</p><p><strong>Competencias en habilidades:</strong> Investigación y Percepción</p><p><strong>Competencia con herramientas:</strong> suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Útiles de caligrafía}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} (3 frascos), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (12 hojas), 23 GP; o (B) 50 GP</p><p>Pasaste tus años de formación en un scriptorium, un monasterio dedicado a la preservación del conocimiento o una agencia gubernamental, donde aprendiste a escribir con letra clara y a producir textos de gran calidad. Tal vez redactabas documentos oficiales o copiabas tomos de literatura. Puede que tengas cierta habilidad como escritor de poesía, narrativa o investigación académica. Por encima de todo, prestas una atención minuciosa al detalle, lo que te ayuda a evitar introducir errores en los documentos que copias y creas.</p>"
+      }
+    ],
+    "semantic_review_names": [
+      {
+        "path": "entries.phbInvisibleSens.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbmobFaithfulHo.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.name",
+        "value": "Quasit"
+      },
+      {
+        "path": "entries.phbprgPaladin000.description",
+        "value": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000]{Paladín}</td><td>Defensa</td><td>Fuerza y Carisma</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspOrc00000000]{Orco}</td><td>Enano, Orco</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPaladin000]{Paladín}</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Sentencioso</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>"
+      },
+      {
+        "path": "entries.phbprgPaladin000.biography",
+        "value": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000]{Paladín}</td><td>Defensa</td><td>Fuerza y Carisma</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspOrc00000000]{Orco}</td><td>Enano, Orco</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPaladin000]{Paladín}</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Sentencioso</td></tr><tr><td>Bueno</td><td>Honesto</td></tr></tbody></table>"
+      },
+      {
+        "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.name",
+        "value": "Noble"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.gYlNEEiCsBQ0H2Ka.description",
+        "value": "<p>Creado por el dios Corellon, los primeros elfos podían cambiar de forma a voluntad. Perdieron esta capacidad cuando Corellon los maldijo por conspirar con la deidad Lolth, que intentó sin éxito usurpar el dominio de Corellon. Cuando Lolth fue arrojada al Abismo, la mayoría de los elfos la repudiaron y obtuvieron el perdón de Corellon, pero aquello que él les había arrebatado se perdió para siempre.</p><p>Al ya no poder cambiar de forma a voluntad, los elfos se retiraron al Feywild, donde su aflicción se vio profundizada por la influencia de ese plano. Con el tiempo, la curiosidad llevó a muchos de ellos a explorar otros planos de existencia, incluidos mundos del Plano Material.</p><p>Los elfos tienen orejas puntiagudas y carecen de vello facial y corporal. Viven alrededor de 750 años y no duermen, sino que entran en trance cuando necesitan descansar. En ese estado, permanecen conscientes de su entorno mientras se sumergen en recuerdos y meditaciones.</p><p>Un entorno transforma sutilmente a los elfos después de habitarlo durante un milenio o más y les otorga ciertos tipos de magia. Los drow, los altos elfos y los elfos de los bosques son ejemplos de elfos que han sido transformados de este modo.</p><h3 data-anchor=\"wood-elves\">Elfos de los bosques</h3><p>Los elfos de los bosques llevan en su interior la magia de los bosques primigenios. Se les conoce por muchos otros nombres, incluidos elfos salvajes, elfos verdes y elfos forestales. Los grugach son elfos de los bosques retirados del escenario Greyhawk, mientras que los kagonesti y los tairnadal son elfos de los bosques de los escenarios Dragonlance y Eberron, respectivamente.</p><h3 data-anchor=\"elf-traits\">Rasgos de elfo</h3><p><strong>Tipo de criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (unos 5–6 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como elfo, tienes estos rasgos especiales.</p><p><strong>Visión en la oscuridad. </strong>Tienes visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Linaje élfico. </strong>Perteneces a un linaje que te concede habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar espacio de conjuro y recuperas la capacidad de lanzarlo de ese modo cuando terminas un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu característica de lanzamiento de conjuros para los hechizos que lanzas con este rasgo (elige la característica cuando selecciones el linaje).</p><h3>Rasgos del linaje de elfo de los bosques</h3><table><thead><tr><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>Tu velocidad aumenta a 35 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidismo}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{Paso largo}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Paso sin rastro}</p></td></tr></tbody></table><p><strong>Ascendencia feérica.</strong> Tienes ventaja en las tiradas de salvación que hagas para evitar o terminar la condición Hechizado.</p><p><strong>Sentidos agudos.</strong> Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir y la magia no puede hacer que duermas. Puedes completar un descanso largo en 4 horas si pasas esas horas en una meditación en trance, durante la cual mantienes la consciencia.</p>"
+      },
+      {
+        "path": "entries.phbprgRanger0000.items.zhKbejFtCdHcLvg0.name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgRogue00000.description",
+        "value": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000]{Pícaro}</td><td>Sigilo</td><td>Destreza</td><td>Baja</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminal}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHalfling000]{Mediano}</td><td>Lengua de signos común, mediano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Pícaro}</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Leal</td></tr><tr><td>Malvado</td><td>Deshonesto</td></tr></tbody></table>"
+      },
+      {
+        "path": "entries.phbprgRogue00000.biography",
+        "value": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000]{Pícaro}</td><td>Sigilo</td><td>Destreza</td><td>Baja</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminal}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHalfling000]{Mediano}</td><td>Lengua de signos común, mediano</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Pícaro}</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Leal</td></tr><tr><td>Malvado</td><td>Deshonesto</td></tr></tbody></table>"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.name",
+        "value": "Criminal"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.description",
+        "value": "<p>Creados por el dios Corellon, los primeros elfos podían cambiar de forma a voluntad. Perdieron esta habilidad cuando Corellon los maldijo por conspirar con la deidad Lolth, que intentó sin éxito usurpar el dominio de Corellon. Cuando Lolth fue arrojada al Abismo, la mayoría de los elfos la renegaron y ganaron el perdón de Corellon, pero aquello que Corellon les había arrebatado se perdió para siempre.</p><p>Incapaces ya de cambiar de forma a voluntad, los elfos se retiraron al Feywild, donde su pesar se acentuó por la influencia de ese plano. Con el tiempo, la curiosidad llevó a muchos de ellos a explorar otros planos de existencia, incluidos mundos del Plano Material.</p><p>Los elfos tienen orejas puntiagudas y carecen de vello facial y corporal. Viven alrededor de 750 años, y no duermen, sino que entran en un trance cuando necesitan descansar. En ese estado, permanecen conscientes de su entorno mientras se sumergen en recuerdos y meditaciones.</p><p>Un entorno transforma sutilmente a los elfos después de que lo habiten durante un milenio o más, y les otorga ciertos tipos de magia. Los drow, los altos elfos y los elfos silvanos son ejemplos de elfos transformados de este modo.</p><h3 data-anchor=\"drow\">Drow</h3><p>Los drow suelen habitar en la Infraoscuridad y han sido moldeados por ella. Algunos drow, tanto individuos como sociedades enteras, evitan por completo la Infraoscuridad, pero siguen llevando su magia en la sangre. En el entorno de Eberron, por ejemplo, los drow habitan en selvas tropicales y ruinas ciclópeas en el continente de Xen’drik.</p><h3 data-anchor=\"elf-traits\">Rasgos de elfo</h3><p><strong>Tipo de criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (unos 5–6 pies de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como elfo, tienes estos rasgos especiales.</p><p><strong>Visión en la oscuridad.</strong> Tienes Visión en la oscuridad con un alcance de 60 pies.</p><p><strong>Linhaje élfico.</strong> Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin espacio de conjuro, y recuperas la capacidad de lanzarlo de ese modo cuando terminas un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu característica de lanzamiento de conjuros para los conjuros que lanzas con este rasgo (elige la característica cuando selecciones el linaje).</p><h3>Rasgos del linaje drow</h3><table><thead><tr><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>El alcance de tu Visión en la oscuridad aumenta a 120 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Luces danzantes}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Fuego feérico}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}</p></td></tr></tbody></table><p><strong>Ascendencia feérica.</strong> Tienes ventaja en las tiradas de salvación que hagas para evitar o terminar la condición &amp;Reference[Charmed]{Hechizado}.</p><p><strong>Sentidos agudos.</strong> Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir y la magia no puede hacerte dormir. Puedes completar un descanso largo en 4 horas si pasas esas horas en una meditación similar a un trance, durante la cual mantienes la consciencia.</p><div><p></p></div>"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.MYuqmfnLZn23dvht.name",
+        "value": "Trance"
+      },
+      {
+        "path": "entries.phbprgWizard0000.description",
+        "value": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Mago}</td><td>Libros de conjuros</td><td>Inteligencia</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Escriba}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspAasimar0000]{Aasimar}</td><td>Dragónico, lengua de signos común</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Mago}</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Metódico</td></tr><tr><td>Neutral</td><td>Egoísta</td></tr></tbody></table>"
+      },
+      {
+        "path": "entries.phbprgWizard0000.biography",
+        "value": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Paso 1: Elige una clase}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Preferencias</th><th scope=\"col\">Característica principal</th><th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Mago}</td><td>Libros de conjuros</td><td>Inteligencia</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Paso 2: Determina el origen}</caption><thead><tr><th scope=\"col\">Trasfondo</th><th scope=\"col\">Especie</th><th scope=\"col\">Elige idiomas</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Escriba}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspAasimar0000]{Aasimar}</td><td>Dragónico, lengua de signos común</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Paso 3: Determina las puntuaciones de característica}</caption><thead><tr><th scope=\"col\">Clase</th><th scope=\"col\">Fue.</th><th scope=\"col\">Des.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Sab.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Mago}</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Paso 4: Elige un alineamiento}</caption><thead><tr><th scope=\"col\">Alineamiento</th><th scope=\"col\">Personalidad</th></tr></thead><tbody><tr><td>Legal</td><td>Metódico</td></tr><tr><td>Neutral</td><td>Egoísta</td></tr></tbody></table>"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.name",
+        "value": "Aasimar"
+      },
+      {
+        "path": "entries.phbsplArcaneEye0.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      },
+      {
+        "path": "entries.phbsplUnseenServ.effects.dnd5einvisible00.name",
+        "value": "Invisible"
+      }
+    ]
+  },
+  "recommendations": [
+    "Revisar manualmente los nombres que coinciden con el EN pero pueden ser válidos en español dentro del proyecto, como Aasimar, Trance, Noble, Criminal, Quasit o Invisible.",
+    "Validar si los labels de equipo enlazado por @UUID deben seguir exactamente el nombre del compendio equipment.json o si en actors deben admitirse alias contextuales.",
+    "Hacer una pasada final de estilo para condiciones: Derribado/Tumbado y capitalización de nombres y rasgos."
+  ]
+}

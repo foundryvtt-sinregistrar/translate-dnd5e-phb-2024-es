@@ -1,0 +1,53 @@
+{
+  "label": "Equipment",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "phb2024ActivitiesById"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phb2024MergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phb2024AdvancementById"
+    }
+  },
+  "folders": {
+    "...": "..."
+  },
+  "entries": {
+    "entryId": {
+      "name": "",
+      "description": "",
+      "folder": "",
+      "activities": {
+        "activityId": {
+          "name": "",
+          "target": "",
+          "range": "",
+          "duration": "",
+          "activation": {
+            "condition": ""
+          },
+          "description": {
+            "chatFlavor": ""
+          }
+        }
+      },
+      "effects": {
+        "effectId": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "advancement": {
+        "advancementId": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    }
+  }
+}

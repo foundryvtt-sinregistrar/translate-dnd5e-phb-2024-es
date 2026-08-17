@@ -1,0 +1,134 @@
+{
+  "input": "dnd-players-handbook.actors.es.sanitized.v1.json",
+  "base": "dnd-players-handbook.actors.es.sanitized.v2.json",
+  "reference": "dnd-players-handbook.actors-en-v4.json",
+  "changed": {
+    "total": 22,
+    "byField": {
+      "description": 3,
+      "advancement.title": 6,
+      "advancement.hint": 13
+    },
+    "byPath": [
+      {
+        "path": "entries.phbmobImp0000000.items.oHafKbzbqYGiL4i1.effects.9svfDetqjhsFP3ey.description",
+        "before": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
+        "after": "<p>El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.</p>"
+      },
+      {
+        "path": "entries.phbmobQuasit0000.items.7wNdT95XqhyGOpBd.effects.9svfDetqjhsFP3ey.description",
+        "before": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
+        "after": "<p>El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.</p>"
+      },
+      {
+        "path": "entries.phbmobSprite0000.items.lO6diOZO5FReftK6.effects.9svfDetqjhsFP3ey.description",
+        "before": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>",
+        "after": "<p>El conjuro termina antes de tiempo inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.</p>"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.S1H3INPWaAiRkB6G.title",
+        "before": "Scholar",
+        "after": "Erudito"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.advancement.B7jCbkEdf3zoFrDK.title",
+        "before": "Aasimar Traits",
+        "after": "Rasgos de aasimar"
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.TFT8UNrGYn8Ythyd.advancement.Tr6LRsr28KaxnVD2.title",
+        "before": "Aasimar Traits",
+        "after": "Rasgos de aasimar"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.18x2qczDE0MerZfa.title",
+        "before": "Drow Traits",
+        "after": "Rasgos de drow"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.hIn6cR8fRweVWhTp.title",
+        "before": "Drow Traits",
+        "after": "Rasgos de drow"
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.LWGXpgeZc3PwUgTg.title",
+        "before": "Drow Traits",
+        "after": "Rasgos de drow"
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.AhwkVFcqeRPgX61K.advancement.8gFHAigaFboVUSgH.hint",
+        "before": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
+        "after": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Constitución y Carisma; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
+      },
+      {
+        "path": "entries.phbprgRogue00000.items.RhxlY3leVRlza6JE.advancement.IHbn6EXoBfxHdj7c.hint",
+        "before": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below.",
+        "after": "Aprendiste varios idiomas en las comunidades donde ejerciste tus talentos de bribón. Conoces la Jerga de Ladrones y otro idioma a tu elección, que puedes escoger de los idiomas que aparecen a continuación."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.hQXwXSN3FST3i9vr.advancement.nIaa61I4SSnwAQvz.hint",
+        "before": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options.",
+        "after": "Como tu magia fluye desde tu interior, puedes alterar tus conjuros para adaptarlos a tus necesidades; obtienes dos opciones de Metamagia."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.18x2qczDE0MerZfa.hint",
+        "before": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
+        "after": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu característica para el lanzamiento de conjuros."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.hIn6cR8fRweVWhTp.hint",
+        "before": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
+        "after": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu característica para el lanzamiento de conjuros."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.i9vfO0SyEmw01Grn.advancement.LWGXpgeZc3PwUgTg.hint",
+        "before": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability.",
+        "after": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu característica para el lanzamiento de conjuros."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.advancement.O7OAEMhJm2ecXudR.hint",
+        "before": "Your background grants you proficiency in Deception and Sleight of Hand. It also grants you proficiency in Forgery Kit.",
+        "after": "Tu trasfondo te otorga competencia en Engaño y Juego de manos. También te otorga competencia con el kit de falsificación."
+      },
+      {
+        "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.advancement.ozyZYuICa8mqTjA0.hint",
+        "before": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
+        "after": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Constitución y Carisma; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.advancement.kDI6zoUamHzFTvHG.hint",
+        "before": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
+        "after": "Tu trasfondo te permite aumentar tus puntuaciones de Inteligencia, Sabiduría y Carisma; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
+      },
+      {
+        "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.advancement.Lk1ScjOCqRDtX2Tg.hint",
+        "before": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies.",
+        "after": "Tu trasfondo te otorga competencia en Perspicacia y Religión. También te otorga competencia con los suministros de calígrafo."
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.advancement.S1H3INPWaAiRkB6G.hint",
+        "before": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency. You have Expertise in the chosen skill.",
+        "after": "Mientras estudiabas magia, también te especializaste en otro campo de estudio. Elige una de las siguientes habilidades en la que tengas competencia. Obtienes Pericia en la habilidad elegida."
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.advancement.ihi9jqhIMh3y3uaU.hint",
+        "before": "Your background allows you to increase your Dexterity, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.",
+        "after": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Inteligencia y Sabiduría; aumenta una de ellas en 2 y otra distinta en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede hacer que una puntuación supere 20."
+      },
+      {
+        "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.advancement.uwnus2OqHl8XwTbO.hint",
+        "before": "Your background grants you proficiency in Investigation and Perception. It also grants you proficiency with Calligrapher's Supplies.",
+        "after": "Tu trasfondo te otorga competencia en Investigación y Percepción. También te otorga competencia con los suministros de calígrafo."
+      }
+    ]
+  },
+  "pendingSameAsEnglish": {
+    "total": 0,
+    "byField": {},
+    "items": []
+  },
+  "brokenReferencesRemaining": {
+    "total": 0,
+    "items": []
+  }
+}

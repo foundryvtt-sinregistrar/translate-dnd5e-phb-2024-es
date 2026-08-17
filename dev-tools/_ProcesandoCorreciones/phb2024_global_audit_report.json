@@ -1,0 +1,484 @@
+{
+  "summary": [
+    {
+      "compendium": "actors",
+      "entries": 146,
+      "es_mapping": {
+        "items": {
+          "path": "items",
+          "converter": "phb2024ActorFullById"
+        }
+      },
+      "uuid_label_mismatches": 192,
+      "suspicious_hits": 44
+    },
+    {
+      "compendium": "classes",
+      "entries": 522,
+      "es_mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "uuid_label_mismatches": 9,
+      "suspicious_hits": 31
+    },
+    {
+      "compendium": "content",
+      "entries": 47,
+      "es_mapping": {
+        "pages": {
+          "path": "pages",
+          "converter": "phb2024JournalPagesById"
+        }
+      },
+      "uuid_label_mismatches": 0,
+      "suspicious_hits": 44
+    },
+    {
+      "compendium": "equipment",
+      "entries": 258,
+      "es_mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "uuid_label_mismatches": 2,
+      "suspicious_hits": 1
+    },
+    {
+      "compendium": "feats",
+      "entries": 77,
+      "es_mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "uuid_label_mismatches": 0,
+      "suspicious_hits": 14
+    },
+    {
+      "compendium": "origins",
+      "entries": 79,
+      "es_mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "activities"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "uuid_label_mismatches": 128,
+      "suspicious_hits": 22
+    },
+    {
+      "compendium": "spells",
+      "entries": 392,
+      "es_mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "activities"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "uuid_label_mismatches": 32,
+      "suspicious_hits": 164
+    },
+    {
+      "compendium": "tables",
+      "entries": 27,
+      "es_mapping": {},
+      "uuid_label_mismatches": 0,
+      "suspicious_hits": 7
+    }
+  ],
+  "activity_schema": {
+    "classes": {
+      "es": {
+        "activities": 379,
+        "activation.condition": 379,
+        "description.chatFlavor": 379,
+        "activation.condition.nonempty": 118,
+        "description.chatFlavor.nonempty": 2
+      },
+      "en": {
+        "activities": 379,
+        "activation.condition": 379,
+        "description.chatFlavor": 379,
+        "activation.condition.nonempty": 147,
+        "description.chatFlavor.nonempty": 2
+      }
+    },
+    "feats": {
+      "es": {
+        "activities": 48,
+        "activation.condition": 48,
+        "activation.condition.nonempty": 18,
+        "description.chatFlavor": 48,
+        "description.chatFlavor.nonempty": 2
+      },
+      "en": {
+        "activities": 48,
+        "activation.condition": 48,
+        "activation.condition.nonempty": 18,
+        "description.chatFlavor": 48,
+        "description.chatFlavor.nonempty": 2
+      }
+    },
+    "equipment": {
+      "es": {
+        "activities": 177,
+        "activation.condition": 177,
+        "description.chatFlavor": 177,
+        "activation.condition.nonempty": 1,
+        "description.chatFlavor.nonempty": 1
+      },
+      "en": {
+        "activities": 177,
+        "activation.condition": 177,
+        "description.chatFlavor": 177,
+        "activation.condition.nonempty": 1,
+        "description.chatFlavor.nonempty": 1
+      }
+    },
+    "origins": {
+      "es": {
+        "activities": 28,
+        "condition.flat": 5,
+        "condition.flat.nonempty": 5
+      },
+      "en": {
+        "activities": 28
+      }
+    },
+    "spells": {
+      "es": {
+        "activities": 538,
+        "condition.flat": 33,
+        "condition.flat.nonempty": 33,
+        "chatFlavor.flat": 4,
+        "chatFlavor.flat.nonempty": 4
+      },
+      "en": {
+        "activities": 538,
+        "activation.condition": 538,
+        "description.chatFlavor": 538,
+        "activation.condition.nonempty": 33,
+        "description.chatFlavor.nonempty": 6
+      }
+    }
+  },
+  "uuid_label_mismatch_counts": {
+    "actors": 192,
+    "classes": 9,
+    "equipment": 2,
+    "origins": 128,
+    "spells": 32
+  },
+  "uuid_label_mismatch_samples": {
+    "actors": [
+      {
+        "path": "entries.phbprgFighter000.biography",
+        "label": "Fighter",
+        "expected_es": "Guerrero",
+        "target": "Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000"
+      },
+      {
+        "path": "entries.phbprgFighter000.biography",
+        "label": "Soldier",
+        "expected_es": "Soldado",
+        "target": "Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000"
+      },
+      {
+        "path": "entries.phbprgFighter000.biography",
+        "label": "Dwarf",
+        "expected_es": "Enano",
+        "target": "Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000"
+      },
+      {
+        "path": "entries.phbprgFighter000.biography",
+        "label": "Fighter",
+        "expected_es": "Guerrero",
+        "target": "Compendium.dnd-players-handbook.classes.Item.phbftrFighter000"
+      },
+      {
+        "path": "entries.phbprgFighter000.items.8jWxAwM0A9lpspWN.description",
+        "label": "Spear",
+        "expected_es": "Lanza",
+        "target": "Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000"
+      }
+    ],
+    "classes": [
+      {
+        "path": "entries.phbbrdBardicInsp.description",
+        "label": "Font of Inspiration",
+        "expected_es": "Fuente de inspiración",
+        "target": "Compendium.dnd-players-handbook.classes.Item.phbbrdFontOfInsp"
+      },
+      {
+        "path": "entries.phbDivineStrike0.description",
+        "label": "Improved Blessed Strikes",
+        "expected_es": "Golpes Bendecidos Mejorados",
+        "target": "Compendium.dnd-players-handbook.classes.Item.phbclcImprovedBl"
+      },
+      {
+        "path": "entries.phbdrdWrathOfThe.description",
+        "label": "Aquatic Affinity",
+        "expected_es": "Afinidad Acuática",
+        "target": "Compendium.dnd-players-handbook.classes.Item.phbdrdAquaticAff"
+      },
+      {
+        "path": "entries.phbFuryPrimalStr.description",
+        "label": "Improved Elemental Fury",
+        "expected_es": "Furia Elemental Mejorada",
+        "target": "Compendium.dnd-players-handbook.classes.Item.phbdrdImprovedEl"
+      },
+      {
+        "path": "entries.phbinvPactTome00.description",
+        "label": "Book of Shadows",
+        "expected_es": "Libro de las Sombras",
+        "target": "Compendium.dnd-players-handbook.classes.Item.phbwlkBookOfShad"
+      }
+    ],
+    "content": [],
+    "equipment": [
+      {
+        "path": "entries.phbtulCarpenters.description",
+        "label": "Barrel",
+        "expected_es": "Barril",
+        "target": "Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000"
+      },
+      {
+        "path": "entries.phbtulCarpenters.description",
+        "label": "Ladder",
+        "expected_es": "Escalera",
+        "target": "Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000"
+      }
+    ],
+    "feats": [],
+    "origins": [
+      {
+        "path": "entries.phbbgAcolyte0000.description",
+        "label": "Magic Initiate",
+        "expected_es": "Iniciado en la magia",
+        "target": "Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia"
+      },
+      {
+        "path": "entries.phbbgAcolyte0000.description",
+        "label": "Book",
+        "expected_es": "Libro",
+        "target": "Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000"
+      },
+      {
+        "path": "entries.phbbgAcolyte0000.description",
+        "label": "Parchment",
+        "expected_es": "Pergamino",
+        "target": "Compendium.dnd-players-handbook.equipment.Item.phbagParchment00"
+      },
+      {
+        "path": "entries.phbbgAcolyte0000.description",
+        "label": "Robe",
+        "expected_es": "Toga o hábito",
+        "target": "Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000"
+      },
+      {
+        "path": "entries.phbbgArtisan0000.description",
+        "label": "Crafter",
+        "expected_es": "Artesano",
+        "target": "Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000"
+      }
+    ],
+    "spells": [
+      {
+        "path": "entries.phbsplAntimagicF.description",
+        "label": "Dispel Magic",
+        "expected_es": "Disipar magia",
+        "target": "Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi"
+      },
+      {
+        "path": "entries.phbsplBefuddleme.description",
+        "label": "Greater Restoration",
+        "expected_es": "Restauración mayor",
+        "target": "Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes"
+      },
+      {
+        "path": "entries.phbsplBefuddleme.description",
+        "label": "Heal",
+        "expected_es": "Sanar",
+        "target": "Compendium.dnd-players-handbook.spells.Item.phbsplHeal000000"
+      },
+      {
+        "path": "entries.phbsplBefuddleme.description",
+        "label": "Wish",
+        "expected_es": "Deseo",
+        "target": "Compendium.dnd-players-handbook.spells.Item.phbsplWish000000"
+      },
+      {
+        "path": "entries.phbsplBefuddleme.effects.KjjRlnccDwmAY7gG.description",
+        "label": "Greater Restoration",
+        "expected_es": "Restauración mayor",
+        "target": "Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes"
+      }
+    ],
+    "tables": []
+  },
+  "suspicious_token_counts": {
+    "actors": {
+      "Incapacitated": 4,
+      "Opportunity Attack": 4,
+      "Poisoned": 2,
+      "Invisible": 4,
+      "Prone": 4,
+      "Grappled": 15,
+      "Unconscious": 2,
+      "Charmed": 1,
+      "Foundry Note": 1,
+      "Total Beams": 1,
+      "Aasimar": 5,
+      "Ritual": 1
+    },
+    "classes": {
+      "Opportunity Attack": 1,
+      "Prone": 6,
+      "Save": 4,
+      "Incapacitated": 4,
+      "Ritual": 2,
+      "Truesight": 2,
+      "Frightened": 3,
+      "Charmed": 3,
+      "Restrained": 1,
+      "Poisoned": 1,
+      "Unconscious": 2,
+      "Blinded": 1,
+      "Grappled": 1
+    },
+    "content": {
+      "Search": 1,
+      "Study": 1,
+      "Invisible": 5,
+      "Incapacitated": 2,
+      "Dash": 2,
+      "Frightened": 1,
+      "Restrained": 2,
+      "Stunned": 1,
+      "Ritual": 8,
+      "Prone": 4,
+      "Exhaustion": 2,
+      "Poisoned": 1,
+      "Charmed": 2,
+      "Disengage": 1,
+      "Grappled": 3,
+      "Aasimar": 7,
+      "Deafened": 1
+    },
+    "equipment": {
+      "Three-Dragon Ante": 1
+    },
+    "feats": {
+      "Grappled": 3,
+      "Invisible": 1,
+      "Incapacitated": 2,
+      "Prone": 2,
+      "Dash": 1,
+      "Poisoned": 4,
+      "Ritual": 1
+    },
+    "origins": {
+      "Aasimar": 6,
+      "Charmed": 4,
+      "Grappled": 2,
+      "Frightened": 3,
+      "Tiefling": 5,
+      "Prone": 2
+    },
+    "spells": {
+      "Charmed": 29,
+      "Study": 2,
+      "Darkvision": 1,
+      "Dodge": 13,
+      "Frightened": 8,
+      "Invisible": 18,
+      "Unconscious": 8,
+      "Incapacitated": 8,
+      "Blinded": 18,
+      "blindsight": 2,
+      "Truesight": 3,
+      "Prone": 9,
+      "Restrained": 13,
+      "DifficultTerrain": 3,
+      "Disengage": 1,
+      "Poisoned": 8,
+      "Total Beams": 1,
+      "difficultterrain": 5,
+      "Dash": 1,
+      "Grappled": 2,
+      "HeavilyObscured": 2,
+      "Stunned": 4,
+      "shortrest": 1,
+      "Magic Missile": 2,
+      "Deafened": 2
+    },
+    "tables": {
+      "Tiefling": 3,
+      "Aasimar": 1,
+      "Incapacitated": 1,
+      "Invisible": 1,
+      "Frightened": 1
+    }
+  },
+  "priorities": {
+    "Crítico": [
+      "Subir origins.json al esquema nuevo de activities y cambiar su converter a phb2024ActivitiesById.",
+      "Integrar spells-v004 como nueva base de spells.json, porque el base analizado aún arrastra el modelo viejo y muchos labels EN.",
+      "Añadir mapping.results a tables.json para alinearlo con tables-en.json y phb2024RollTableResultsById."
+    ],
+    "Alto": [
+      "Revisar UUID labels aún en inglés en actors.json y origins.json.",
+      "Actualizar classes.json y equipment.json con los remates finales que ya hiciste en v010/v005 si todavía no están volcados en la base."
+    ],
+    "Medio": [
+      "Uniformar los -en para que usen el mismo converter que la base ES cuando ya hay activities anidadas (por ejemplo classes-en).",
+      "Pasada final editorial en content.json para nombres propios/criterios (Aasimar, Tiflin/Tiefling, Noble, Criminal, etc.)."
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "source_es": "dnd-players-handbook.feats.json",
+  "source_en": "dnd-players-handbook.feats-en.json",
+  "output": "dnd-players-handbook.feats-v001.json",
+  "mapping_converter_changed": {
+    "from": "activities",
+    "to": "phb2024ActivitiesById"
+  },
+  "stats": {
+    "activities_processed": 48,
+    "flat_conditions_removed": 18,
+    "empty_chatFlavor_added": 46,
+    "empty_activation_conditions_added": 30,
+    "flat_chatFlavor_removed": 2,
+    "activity_names_fixed": 6,
+    "remaining_flat_condition": 0,
+    "remaining_flat_chatFlavor": 0
+  },
+  "name_overrides": [
+    {
+      "entry_id": "phbftTavernBrawl",
+      "activity_id": "aO76iIZ67GrBQ3bG",
+      "from": "Enhanced Unarmed Strike",
+      "to": "Golpe sin armas mejorado"
+    },
+    {
+      "entry_id": "phbftTelekinetic",
+      "activity_id": "1oLYl9lh4sX6sPaH",
+      "from": "Telekinetic Shove: Charisma",
+      "to": "Empujón telequinético: Carisma"
+    },
+    {
+      "entry_id": "phbftTelekinetic",
+      "activity_id": "fRiTsQ2k0pnpD8zE",
+      "from": "Telekinetic Shove: Intelligence",
+      "to": "Empujón telequinético: Inteligencia"
+    },
+    {
+      "entry_id": "phbftTelekinetic",
+      "activity_id": "Iv9n7kKwgumygkg1",
+      "from": "Telekinetic Shove: Wisdom",
+      "to": "Empujón telequinético: Sabiduría"
+    },
+    {
+      "entry_id": "phbftTelepathic0",
+      "activity_id": "2BzR6ssA64uASGKO",
+      "from": "Telepathic Utterance",
+      "to": "Locución telepática"
+    },
+    {
+      "entry_id": "phbftTelepathic0",
+      "activity_id": "ORIaLA3zLyMaP7Tb",
+      "from": "Expend Use",
+      "to": "Gastar uso"
+    }
+  ],
+  "condition_migrations": [
+    {
+      "entry_id": "phbBoonofDimensi",
+      "activity_id": "2nds7MCSvJOeZ3Ar",
+      "from_flat": "Inmediatamente después de realizar la acción de Ataque",
+      "to_nested": "Inmediatamente después de realizar la acción de Ataque"
+    },
+    {
+      "entry_id": "phbBoonofEnergyR",
+      "activity_id": "vjZUyHXkFxNgcvoS",
+      "from_flat": "Cada vez que termines un Descanso prolongado",
+      "to_nested": "Cada vez que termines un Descanso prolongado"
+    },
+    {
+      "entry_id": "phbBoonofFate000",
+      "activity_id": "BSFYZ98EvNknWsaE",
+      "from_flat": "Cuando tú u otra criatura a 60 pies o menos de ti tengáis éxito o falléis en una Prueba de d20",
+      "to_nested": "Cuando tú u otra criatura a 60 pies o menos de ti tengáis éxito o falléis en una Prueba de d20"
+    },
+    {
+      "entry_id": "phbBoonofFortitu",
+      "activity_id": "MoDJcgbHc7p7fm8w",
+      "from_flat": "Cada vez que recuperes puntos de golpe",
+      "to_nested": "Cada vez que recuperes puntos de golpe"
+    },
+    {
+      "entry_id": "phbBoonofRecover",
+      "activity_id": "Ir62HahPS9t1dkkL",
+      "from_flat": "Cuando fueras a ver tus puntos de golpe reducidos a 0",
+      "to_nested": "Cuando fueras a ver tus puntos de golpe reducidos a 0"
+    },
+    {
+      "entry_id": "phbBoonofSpellRe",
+      "activity_id": "mN72GMXgdNXQJhJN",
+      "from_flat": "Cada vez que lances un conjuro con un espacio de conjuro de nivel 1-4",
+      "to_nested": "Cada vez que lances un conjuro con un espacio de conjuro de nivel 1-4"
+    },
+    {
+      "entry_id": "phbfstIntercepti",
+      "activity_id": "Hjm3PZRt6NdVXiFa",
+      "from_flat": "Cuando una criatura que puedas ver impacta a otra criatura a 5 pies o menos de ti con una tirada de ataque",
+      "to_nested": "Cuando una criatura que puedas ver impacta a otra criatura a 5 pies o menos de ti con una tirada de ataque"
+    },
+    {
+      "entry_id": "phbfstProtection",
+      "activity_id": "8RRNln3LeSbeDlnn",
+      "from_flat": "Cuando una criatura que puedas ver ataque a un objetivo que no seas tú dentro de un radio de 5 pies",
+      "to_nested": "Cuando una criatura que puedas ver ataque a un objetivo que no seas tú dentro de un radio de 5 pies"
+    },
+    {
+      "entry_id": "phbfstUnarmedFig",
+      "activity_id": "q8pY6NPJFdU3lsUf",
+      "from_flat": "Al comienzo de cada uno de tus turnos",
+      "to_nested": "Al comienzo de cada uno de tus turnos"
+    },
+    {
+      "entry_id": "phbftCharger0000",
+      "activity_id": "54afnEMKfBkQaByQ",
+      "from_flat": "Si te desplazas al menos 10 pies en línea recta inmediatamente antes de impactar a un objetivo con un ataque cuerpo a cuerpo",
+      "to_nested": "Si te desplazas al menos 10 pies en línea recta inmediatamente antes de impactar a un objetivo con un ataque cuerpo a cuerpo"
+    },
+    {
+      "entry_id": "phbftChef0000000",
+      "activity_id": "6vsKRFLzGqufmuFZ",
+      "from_flat": "Como parte de un Descanso breve",
+      "to_nested": "Como parte de un Descanso breve"
+    },
+    {
+      "entry_id": "phbftGreatWeapon",
+      "activity_id": "nmwSlK1gwZ1nfxKa",
+      "from_flat": "Cuando impactes a una criatura con un arma que tenga la propiedad Pesada como parte de la acción de Ataque en tu turno",
+      "to_nested": "Cuando impactes a una criatura con un arma que tenga la propiedad Pesada como parte de la acción de Ataque en tu turno"
+    },
+    {
+      "entry_id": "phbftInspiringLe",
+      "activity_id": "DST39MwqoyULejQy",
+      "from_flat": "Cuando termines un Descanso breve o prolongado",
+      "to_nested": "Cuando termines un Descanso breve o prolongado"
+    },
+    {
+      "entry_id": "phbftInspiringLe",
+      "activity_id": "wL4wi4NYy6PXnIbY",
+      "from_flat": "Cuando termines un Descanso breve o prolongado",
+      "to_nested": "Cuando termines un Descanso breve o prolongado"
+    },
+    {
+      "entry_id": "phbftLucky000000",
+      "activity_id": "DEX2YgxfqdMse2bT",
+      "from_flat": "Cuando tires un d20 para una prueba de d20",
+      "to_nested": "Cuando tires un d20 para una prueba de d20"
+    },
+    {
+      "entry_id": "phbftLucky000000",
+      "activity_id": "jBTnM51FdGwjlBuK",
+      "from_flat": "Cuando una criatura tire un d20 para una tirada de ataque contra ti",
+      "to_nested": "Cuando una criatura tire un d20 para una tirada de ataque contra ti"
+    },
+    {
+      "entry_id": "phbftMageSlayer0",
+      "activity_id": "hPeMN85cO9DEPDCI",
+      "from_flat": "Cuando falles una tirada de salvación de Inteligencia, Sabiduría o Carisma",
+      "to_nested": "Cuando falles una tirada de salvación de Inteligencia, Sabiduría o Carisma"
+    },
+    {
+      "entry_id": "phbftShieldMaste",
+      "activity_id": "VjSe0vA0dmGhNDAA",
+      "from_flat": "Si impactas a una criatura a 5 pies de ti con un arma cuerpo a cuerpo como parte de la acción de Ataque",
+      "to_nested": "Si impactas a una criatura a 5 pies de ti con un arma cuerpo a cuerpo como parte de la acción de Ataque"
+    }
+  ],
+  "chatFlavor_migrations": [
+    {
+      "entry_id": "phbftPoisoner000",
+      "activity_id": "1LxGBXRwkTWITv4U",
+      "from_flat": "&Reference[poisoned] al fallar",
+      "to_nested": "&Reference[poisoned] al fallar"
+    },
+    {
+      "entry_id": "phbftPoisoner000",
+      "activity_id": "iaJzudcnWJzOyPU4",
+      "from_flat": "&Reference[poisoned] al fallar",
+      "to_nested": "&Reference[poisoned] al fallar"
+    }
+  ],
+  "remaining_activity_names_equal_to_en": []
+}

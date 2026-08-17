@@ -1,0 +1,16 @@
+{
+  "id": "dnd-players-handbook.actors",
+  "fileName": "dnd-players-handbook.actors.json",
+  "mapping": {
+    "items": {
+      "path": "items",
+      "converter": "phb2024ActorFullById"
+    }
+  },
+  "folders": {
+    "totalFolders": 20
+  },
+  "entries": {
+    "totalEntries": 146
+  }
+}

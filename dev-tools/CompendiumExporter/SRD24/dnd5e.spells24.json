@@ -1,0 +1,1041 @@
+{
+  "label": "Conjuros",
+  "folders": {
+    "Nivel 1": "Nivel 1",
+    "Nivel 2": "Nivel 2",
+    "Nivel 3": "Nivel 3",
+    "Nivel 4": "Nivel 4",
+    "Nivel 5": "Nivel 5",
+    "Nivel 6": "Nivel 6",
+    "Nivel 7": "Nivel 7",
+    "Nivel 8": "Nivel 8",
+    "Nivel 9": "Nivel 9",
+    "Objetos suplementarios": "Objetos suplementarios",
+    "Trucos": "Trucos"
+  },
+  "entries": {
+    "phbEvilAndGoodPr": {
+      "name": "Protección contra el bien y el mal"
+    },
+    "phbFaithfulHound": {
+      "name": "Mastín fiel de Mordenkainen"
+    },
+    "phbMagnificentMa": {
+      "name": "Mansión magnífica de Mordenkainen"
+    },
+    "phbPhantasmalFor": {
+      "name": "Fuerza fantasmal"
+    },
+    "phbPrivateSanctu": {
+      "name": "Sanctasanctórum privado de Mordenkainen"
+    },
+    "phbProtectionFro": {
+      "name": "Protección contra energía"
+    },
+    "phbSanctuary0000": {
+      "name": "Santuario"
+    },
+    "phbsplAcidSplash": {
+      "name": "Salpicadura ácida"
+    },
+    "phbsplAid0000000": {
+      "name": "Auxilio"
+    },
+    "phbsplAlarm00000": {
+      "name": "Alarma"
+    },
+    "phbsplAlterSelf0": {
+      "name": "Alterar el propio aspecto"
+    },
+    "phbsplAnimalFrie": {
+      "name": "Encantar animal"
+    },
+    "phbsplAnimalMess": {
+      "name": "Mensajero animal"
+    },
+    "phbsplAnimalShap": {
+      "name": "Aspectos animales"
+    },
+    "phbsplAnimateDea": {
+      "name": "Animar a los muertos"
+    },
+    "phbsplAnimateObj": {
+      "name": "Animar objetos"
+    },
+    "phbsplAntilifeSh": {
+      "name": "Caparazón antivida"
+    },
+    "phbsplAntimagicF": {
+      "name": "Campo antimagia"
+    },
+    "phbsplAntipathyS": {
+      "name": "Antipatía/simpatía"
+    },
+    "phbsplArcaneEye0": {
+      "name": "Ojo arcano"
+    },
+    "phbsplArcaneLock": {
+      "name": "Cerradura arcana"
+    },
+    "phbsplArcaneVigo": {
+      "name": "Vigor arcano"
+    },
+    "phbsplAstralProj": {
+      "name": "Proyección astral"
+    },
+    "phbsplAugury0000": {
+      "name": "Augurio"
+    },
+    "phbsplAuraofLife": {
+      "name": "Aura de vida"
+    },
+    "phbsplAwaken0000": {
+      "name": "Despertar"
+    },
+    "phbsplBane000000": {
+      "name": "Perdicion"
+    },
+    "phbsplBanishment": {
+      "name": "Destierro"
+    },
+    "phbsplBarkskin00": {
+      "name": "Piel Robliza"
+    },
+    "phbsplBeaconofHo": {
+      "name": "Señal de esperanza"
+    },
+    "phbsplBefuddleme": {
+      "name": "Ofuscación"
+    },
+    "phbsplBestowCurs": {
+      "name": "Imponer maldición"
+    },
+    "phbsplBigbysHand": {
+      "name": "Mano de Bigby"
+    },
+    "phbsplBladeBarri": {
+      "name": "Barrera de cuchillas"
+    },
+    "phbsplBless00000": {
+      "name": "Bendición"
+    },
+    "phbsplBlight0000": {
+      "name": "Marchitar"
+    },
+    "phbsplBlindnessD": {
+      "name": "Sordera/Ceguera"
+    },
+    "phbsplBlink00000": {
+      "name": "Desplazamiento"
+    },
+    "phbsplBlur000000": {
+      "name": "Contorno borroso"
+    },
+    "phbsplBurningHan": {
+      "name": "Manos ardientes"
+    },
+    "phbsplCallLightn": {
+      "name": "Llamar al relámpagos"
+    },
+    "phbsplCalmEmotio": {
+      "name": "Calmar emociones"
+    },
+    "phbsplChainLight": {
+      "name": "Relampago en cadena"
+    },
+    "phbsplCharmMonst": {
+      "name": "Hechizar monstruo"
+    },
+    "phbsplCharmPerso": {
+      "name": "Hechizar persona"
+    },
+    "phbsplChillTouch": {
+      "name": "Toque helado"
+    },
+    "phbsplChromaticO": {
+      "name": "Orbe cromático"
+    },
+    "phbsplCircleofDe": {
+      "name": "Círculo de muerte"
+    },
+    "phbsplClairvoyan": {
+      "name": "Clarividencia"
+    },
+    "phbsplClone00000": {
+      "name": "Clon"
+    },
+    "phbsplCloudkill0": {
+      "name": "Nube aniquiladora"
+    },
+    "phbsplColorSpray": {
+      "name": "Rociada de color"
+    },
+    "phbsplCommand000": {
+      "name": "Orden imperiosa"
+    },
+    "phbsplCommune000": {
+      "name": "Comunión"
+    },
+    "phbsplCommunewit": {
+      "name": "Comunión con la naturaleza"
+    },
+    "phbsplComprehend": {
+      "name": "Entender idiomas"
+    },
+    "phbsplCompulsion": {
+      "name": "Compulsión"
+    },
+    "phbsplConeofCold": {
+      "name": "Cono de frío"
+    },
+    "phbsplConfusion0": {
+      "name": "Confusión"
+    },
+    "phbsplConjureAni": {
+      "name": "Conjurar animales"
+    },
+    "phbsplConjureCel": {
+      "name": "Conjurar celestial"
+    },
+    "phbsplConjureEle": {
+      "name": "Conjurar elemental"
+    },
+    "phbsplConjureFey": {
+      "name": "Conjurar feérico"
+    },
+    "phbsplConjureMin": {
+      "name": "Conjurar elementales menores"
+    },
+    "phbsplConjureWoo": {
+      "name": "Conjurar seres del bosque"
+    },
+    "phbsplContactOth": {
+      "name": "Contactar con otro plano"
+    },
+    "phbsplContagion0": {
+      "name": "Contagio"
+    },
+    "phbsplContingenc": {
+      "name": "Contingencia"
+    },
+    "phbsplContinualF": {
+      "name": "Llama permanente"
+    },
+    "phbsplControlWat": {
+      "name": "Controlar agua"
+    },
+    "phbsplControlWea": {
+      "name": "Controlar el clima"
+    },
+    "phbsplCounterspe": {
+      "name": "Contrahechizo"
+    },
+    "phbsplCreateFood": {
+      "name": "Crear comida y agua"
+    },
+    "phbsplCreateUnde": {
+      "name": "Crear muerto viviente"
+    },
+    "phbsplCreateorDe": {
+      "name": "Crear o destruir agua"
+    },
+    "phbsplCreation00": {
+      "name": "Creación"
+    },
+    "phbsplCureWounds": {
+      "name": "Curar heridas"
+    },
+    "phbsplDancingLig": {
+      "name": "Luces danzantes"
+    },
+    "phbsplDarkness00": {
+      "name": "Oscuridad"
+    },
+    "phbsplDarkvision": {
+      "name": "Visión en la oscuridad"
+    },
+    "phbsplDaylight00": {
+      "name": "Luz del día"
+    },
+    "phbsplDeathWard0": {
+      "name": "Guarda contra la muerte"
+    },
+    "phbsplDelayedBla": {
+      "name": "Bola de fuego de explosión retardada"
+    },
+    "phbsplDemiplane0": {
+      "name": "Semiplano"
+    },
+    "phbsplDetectEvil": {
+      "name": "Detectar el bien y el mal"
+    },
+    "phbsplDetectMagi": {
+      "name": "Detectar magia"
+    },
+    "phbsplDetectPois": {
+      "name": "Detectar venenos y enfermedades"
+    },
+    "phbsplDetectThou": {
+      "name": "Detectar pensamientos"
+    },
+    "phbsplDimensionD": {
+      "name": "Puerta dimensional"
+    },
+    "phbsplDisguiseSe": {
+      "name": "Disfrazarse"
+    },
+    "phbsplDisintegra": {
+      "name": "Desintegrar"
+    },
+    "phbsplDispelEvil": {
+      "name": "Disipar el bien y el mal"
+    },
+    "phbsplDispelMagi": {
+      "name": "Disipar magia"
+    },
+    "phbsplDissonantW": {
+      "name": "Susurros discordantes"
+    },
+    "phbsplDivination": {
+      "name": "Adivinación"
+    },
+    "phbsplDivineFavo": {
+      "name": "Favor divino"
+    },
+    "phbsplDivineSmit": {
+      "name": "Castigo divino"
+    },
+    "phbsplDivineWord": {
+      "name": "Palabra divina"
+    },
+    "phbsplDominateBe": {
+      "name": "Dominar bestia"
+    },
+    "phbsplDominateMo": {
+      "name": "Dominar monstruo"
+    },
+    "phbsplDominatePe": {
+      "name": "Dominar persona"
+    },
+    "phbsplDragonsBre": {
+      "name": "Aliento de dragón"
+    },
+    "phbsplDrawmijsIn": {
+      "name": "Invocación instantánea"
+    },
+    "phbsplDream00000": {
+      "name": "Ensueño"
+    },
+    "phbsplDruidcraft": {
+      "name": "Saber Druidico"
+    },
+    "phbsplEarthquake": {
+      "name": "Terremoto"
+    },
+    "phbsplEldritchBl": {
+      "name": "Descarga sobrenatural"
+    },
+    "phbsplElementali": {
+      "name": "Elementalismo"
+    },
+    "phbsplEnhanceAbi": {
+      "name": "Potenciar característica"
+    },
+    "phbsplEnlargeRed": {
+      "name": "Agrandar/Reducir"
+    },
+    "phbsplEnsnaringS": {
+      "name": "Castigo apresador"
+    },
+    "phbsplEntangle00": {
+      "name": "Enmarañar"
+    },
+    "phbsplEnthrall00": {
+      "name": "Embelesar"
+    },
+    "phbsplEtherealne": {
+      "name": "Excursion eterea"
+    },
+    "phbsplEvardsBlac": {
+      "name": "Tentáculos negros"
+    },
+    "phbsplExpeditiou": {
+      "name": "Retirada expeditiva"
+    },
+    "phbsplEyebite000": {
+      "name": "Mal del ojo"
+    },
+    "phbsplFabricate0": {
+      "name": "Fabricar"
+    },
+    "phbsplFaerieFire": {
+      "name": "Fuego feérico"
+    },
+    "phbsplFalseLife0": {
+      "name": "Falsa vida"
+    },
+    "phbsplFear000000": {
+      "name": "Terror"
+    },
+    "phbsplFeatherFal": {
+      "name": "Caída de pluma"
+    },
+    "phbsplFindFamili": {
+      "name": "Encontrar familiar"
+    },
+    "phbsplFindSteed0": {
+      "name": "Hallar corcel"
+    },
+    "phbsplFindTraps0": {
+      "name": "Detectar trampas"
+    },
+    "phbsplFindthePat": {
+      "name": "Encontrar el camino"
+    },
+    "phbsplFingerofDe": {
+      "name": "Dedo de la muerte"
+    },
+    "phbsplFireBolt00": {
+      "name": "Descarga de fuego"
+    },
+    "phbsplFireShield": {
+      "name": "Escudo de fuego"
+    },
+    "phbsplFireStorm0": {
+      "name": "Tormenta de fuego"
+    },
+    "phbsplFireball00": {
+      "name": "Bola de fuego"
+    },
+    "phbsplFlameBlade": {
+      "name": "Hoja de fuego"
+    },
+    "phbsplFlameStrik": {
+      "name": "Castigo flamígero"
+    },
+    "phbsplFlamingSph": {
+      "name": "Esfera de llamas"
+    },
+    "phbsplFleshtoSto": {
+      "name": "De la carne a la piedra"
+    },
+    "phbsplFly0000000": {
+      "name": "Volar"
+    },
+    "phbsplFogCloud00": {
+      "name": "Nube de oscurecimiento"
+    },
+    "phbsplForbiddanc": {
+      "name": "Prohibición"
+    },
+    "phbsplForcecage0": {
+      "name": "Jaula de fuerza"
+    },
+    "phbsplForesight0": {
+      "name": "Presagio"
+    },
+    "phbsplFreedomofM": {
+      "name": "Libertad de movimiento"
+    },
+    "phbsplGaseousFor": {
+      "name": "Forma gaseosa"
+    },
+    "phbsplGate000000": {
+      "name": "Portal"
+    },
+    "phbsplGeas000000": {
+      "name": "Geas"
+    },
+    "phbsplGentleRepo": {
+      "name": "Dulce descanso"
+    },
+    "phbsplGiantInsec": {
+      "name": "Insecto gigante"
+    },
+    "phbsplGlibness00": {
+      "name": "Labia"
+    },
+    "phbsplGlobeofInv": {
+      "name": "Globo de invulnerabilidad"
+    },
+    "phbsplGlyphofWar": {
+      "name": "Glifo custodio"
+    },
+    "phbsplGoodberry0": {
+      "name": "Buenas bayas"
+    },
+    "phbsplGrease0000": {
+      "name": "Grasa"
+    },
+    "phbsplGreaterInv": {
+      "name": "Invisibilidad mejorada"
+    },
+    "phbsplGreaterRes": {
+      "name": "Restablecimiento mayor"
+    },
+    "phbsplGuardianof": {
+      "name": "Guardián de la fe"
+    },
+    "phbsplGuardsandW": {
+      "name": "Guardas y guardias"
+    },
+    "phbsplGuidance00": {
+      "name": "Guía"
+    },
+    "phbsplGuidingBol": {
+      "name": "Saeta guía"
+    },
+    "phbsplGustofWind": {
+      "name": "Ráfaga de viento"
+    },
+    "phbsplHallow0000": {
+      "name": "Consagrar"
+    },
+    "phbsplHallucinat": {
+      "name": "Terreno alucinatorio"
+    },
+    "phbsplHarm000000": {
+      "name": "Dañar"
+    },
+    "phbsplHaste00000": {
+      "name": "Acelerar"
+    },
+    "phbsplHeal000000": {
+      "name": "Curar"
+    },
+    "phbsplHealingWor": {
+      "name": "Palabra de curación"
+    },
+    "phbsplHeatMetal0": {
+      "name": "Calentar metal"
+    },
+    "phbsplHellishReb": {
+      "name": "Reprensión infernal"
+    },
+    "phbsplHeroesFeas": {
+      "name": "Festín de los héroes"
+    },
+    "phbsplHeroism000": {
+      "name": "Heroísmo"
+    },
+    "phbsplHex0000000": {
+      "name": "Maleficio"
+    },
+    "phbsplHoldMonste": {
+      "name": "Inmovilizar monstruo"
+    },
+    "phbsplHoldPerson": {
+      "name": "Inmovilizar persona"
+    },
+    "phbsplHolyAura00": {
+      "name": "Aura sagrada"
+    },
+    "phbsplHuntersMar": {
+      "name": "Marca del cazador"
+    },
+    "phbsplHypnoticPa": {
+      "name": "Patrón hipnótico"
+    },
+    "phbsplIceKnife00": {
+      "name": "Cuchillo de hielo"
+    },
+    "phbsplIceStorm00": {
+      "name": "Tormenta de hielo"
+    },
+    "phbsplIdentify00": {
+      "name": "Identificar"
+    },
+    "phbsplIllusorySc": {
+      "name": "Texto ilusorio"
+    },
+    "phbsplImprisonme": {
+      "name": "Cautiverio"
+    },
+    "phbsplIncendiary": {
+      "name": "Nube incendiaria"
+    },
+    "phbsplInflictWou": {
+      "name": "Infligir heridas"
+    },
+    "phbsplInsectPlag": {
+      "name": "Plaga de insectos"
+    },
+    "phbsplInvisibili": {
+      "name": "Invisibilidad"
+    },
+    "phbsplJump000000": {
+      "name": "Salto"
+    },
+    "phbsplKnock00000": {
+      "name": "Abrir"
+    },
+    "phbsplLegendLore": {
+      "name": "Conocer las leyendas"
+    },
+    "phbsplLeomundsSe": {
+      "name": "Cofre oculto"
+    },
+    "phbsplLeomundsTi": {
+      "name": "Pequeña choza"
+    },
+    "phbsplLesserRest": {
+      "name": "Restablecimiento menor"
+    },
+    "phbsplLevitate00": {
+      "name": "Levitar"
+    },
+    "phbsplLight00000": {
+      "name": "Luz"
+    },
+    "phbsplLightningB": {
+      "name": "Relámpago"
+    },
+    "phbsplLocateAnim": {
+      "name": "Localizar animales o plantas"
+    },
+    "phbsplLocateCrea": {
+      "name": "Localizar criatura"
+    },
+    "phbsplLocateObje": {
+      "name": "Localizar objeto"
+    },
+    "phbsplLongstride": {
+      "name": "Zancada prodigiosa"
+    },
+    "phbsplMageArmor0": {
+      "name": "Armadura de mago"
+    },
+    "phbsplMageHand00": {
+      "name": "Mano de mago"
+    },
+    "phbsplMagicCircl": {
+      "name": "Mano de mago"
+    },
+    "phbsplMagicJar00": {
+      "name": "Urna mágica"
+    },
+    "phbsplMagicMissi": {
+      "name": "Proyectil mágico"
+    },
+    "phbsplMagicMouth": {
+      "name": "Boca mágica"
+    },
+    "phbsplMagicWeapo": {
+      "name": "Arma mágica"
+    },
+    "phbsplMajorImage": {
+      "name": "Imagen mayor"
+    },
+    "phbsplMassCureWo": {
+      "name": "Curar heridas en masa"
+    },
+    "phbsplMassHeal00": {
+      "name": "Curar en masa"
+    },
+    "phbsplMassHealin": {
+      "name": "Palabra de curación en masa"
+    },
+    "phbsplMassSugges": {
+      "name": "Sugestión en masa"
+    },
+    "phbsplMaze000000": {
+      "name": "Laberinto"
+    },
+    "phbsplMeldintoSt": {
+      "name": "Fundirse con la piedra"
+    },
+    "phbsplMelfsAcidA": {
+      "name": "Flecha ácida"
+    },
+    "phbsplMending000": {
+      "name": "Reparar"
+    },
+    "phbsplMessage000": {
+      "name": "Mensaje"
+    },
+    "phbsplMeteorSwar": {
+      "name": "Tormenta de meteoritos"
+    },
+    "phbsplMindBlank0": {
+      "name": "Mente en blanco"
+    },
+    "phbsplMindSpike0": {
+      "name": "Clavo mental"
+    },
+    "phbsplMinorIllus": {
+      "name": "Ilusión menor"
+    },
+    "phbsplMirageArca": {
+      "name": "Espejismo arcano"
+    },
+    "phbsplMirrorImag": {
+      "name": "Imagen múltiple"
+    },
+    "phbsplMislead000": {
+      "name": "Engañar"
+    },
+    "phbsplMistyStep0": {
+      "name": "Paso brumoso"
+    },
+    "phbsplModifyMemo": {
+      "name": "Alterar los recuerdos"
+    },
+    "phbsplMoonbeam00": {
+      "name": "Rayo de luna"
+    },
+    "phbsplMoveEarth0": {
+      "name": "Mover la tierra"
+    },
+    "phbsplNondetecti": {
+      "name": "Indetectable"
+    },
+    "phbsplNystulsMag": {
+      "name": "Aura mágica de arcanista"
+    },
+    "phbsplOtilukesFr": {
+      "name": "Esfera congelante"
+    },
+    "phbsplOtilukesRe": {
+      "name": "Esfera elástica"
+    },
+    "phbsplOttosIrres": {
+      "name": "Baile irresistible"
+    },
+    "phbsplPasswall00": {
+      "name": "Pasamuros"
+    },
+    "phbsplPasswithou": {
+      "name": "Pasar sin rastro"
+    },
+    "phbsplPhantasmal": {
+      "name": "Asesino fantasmal"
+    },
+    "phbsplPhantomSte": {
+      "name": "Corcel fantasma"
+    },
+    "phbsplPlanarAlly": {
+      "name": "Aliado planar"
+    },
+    "phbsplPlanarBind": {
+      "name": "Atadura planar"
+    },
+    "phbsplPlaneShift": {
+      "name": "Desplazamiento entre planos"
+    },
+    "phbsplPlantGrowt": {
+      "name": "Crecimiento vegetal"
+    },
+    "phbsplPoisonSpra": {
+      "name": "Rociada venenosa"
+    },
+    "phbsplPolymorph0": {
+      "name": "Polimorfar"
+    },
+    "phbsplPowerWordH": {
+      "name": "Palabra de poder: sanar"
+    },
+    "phbsplPowerWordK": {
+      "name": "Palabra de poder: matar"
+    },
+    "phbsplPowerWordS": {
+      "name": "Palabra de poder: aturdir"
+    },
+    "phbsplPrayerofHe": {
+      "name": "Plegaria de curación"
+    },
+    "phbsplPrestidigi": {
+      "name": "Prestidigitación"
+    },
+    "phbsplPrismaticS": {
+      "name": "Rociada prismática"
+    },
+    "phbsplPrismaticW": {
+      "name": "Muro prismático"
+    },
+    "phbsplProduceFla": {
+      "name": "Crear llama"
+    },
+    "phbsplProgrammed": {
+      "name": "Ilusión programada"
+    },
+    "phbsplProjectIma": {
+      "name": "Proyectar imagen"
+    },
+    "phbsplProtection": {
+      "name": "Protección contra veneno"
+    },
+    "phbsplPurifyFood": {
+      "name": "Purificar comida y bebida"
+    },
+    "phbsplRaiseDead0": {
+      "name": "Alzar a los muertos"
+    },
+    "phbsplRarysTelep": {
+      "name": "Enlace telepático"
+    },
+    "phbsplRayofEnfee": {
+      "name": "Rayo debilitador"
+    },
+    "phbsplRayofFrost": {
+      "name": "Rayo de escarcha"
+    },
+    "phbsplRayofSickn": {
+      "name": "Rayo nauseabundo"
+    },
+    "phbsplRegenerate": {
+      "name": "Regenerar"
+    },
+    "phbsplReincarnat": {
+      "name": "Reencarnar"
+    },
+    "phbsplRemoveCurs": {
+      "name": "Levantar maldición"
+    },
+    "phbsplResistance": {
+      "name": "Resistencia"
+    },
+    "phbsplResurrecti": {
+      "name": "Resurrección"
+    },
+    "phbsplReverseGra": {
+      "name": "Invertir la gravedad"
+    },
+    "phbsplRevivify00": {
+      "name": "Revivir"
+    },
+    "phbsplRopeTrick0": {
+      "name": "Truco de la cuerda"
+    },
+    "phbsplSacredFlam": {
+      "name": "Llama sagrada"
+    },
+    "phbsplScorchingR": {
+      "name": "Rayo abrasador"
+    },
+    "phbsplScrying000": {
+      "name": "Escudriñar"
+    },
+    "phbsplSearingSmi": {
+      "name": "Castigo abrasador"
+    },
+    "phbsplSeeInvisib": {
+      "name": "Ver invisibilidad"
+    },
+    "phbsplSeeming000": {
+      "name": "Apariencia"
+    },
+    "phbsplSending000": {
+      "name": "Recado"
+    },
+    "phbsplSequester0": {
+      "name": "Recluirdo"
+    },
+    "phbsplShapechang": {
+      "name": "Cambiar de forma"
+    },
+    "phbsplShatter000": {
+      "name": "Hacer añicos"
+    },
+    "phbsplShield0000": {
+      "name": "Escudo"
+    },
+    "phbsplShieldofFa": {
+      "name": "Escudo de fe"
+    },
+    "phbsplShillelagh": {
+      "name": "Shillelagh"
+    },
+    "phbsplShiningSmi": {
+      "name": "Castigo brillante"
+    },
+    "phbsplShockingGr": {
+      "name": "Agarre electrizante"
+    },
+    "phbsplSilence000": {
+      "name": "Silencio"
+    },
+    "phbsplSilentImag": {
+      "name": "Imagen silenciosa"
+    },
+    "phbsplSimulacrum": {
+      "name": "Simulacro"
+    },
+    "phbsplSleep00000": {
+      "name": "Dormir"
+    },
+    "phbsplSleetStorm": {
+      "name": "Tormenta de aguanieve"
+    },
+    "phbsplSlow000000": {
+      "name": "Ralentizar"
+    },
+    "phbsplSorcerousB": {
+      "name": "Estallido mágico"
+    },
+    "phbsplSparetheDy": {
+      "name": "Piedad con los moribundos"
+    },
+    "phbsplSpeakwithA": {
+      "name": "Hablar con los animales"
+    },
+    "phbsplSpeakwithD": {
+      "name": "Hablar con los muertos"
+    },
+    "phbsplSpeakwithP": {
+      "name": "Hablar con las plantas"
+    },
+    "phbsplSpiderClim": {
+      "name": "Trepar cual arácnido"
+    },
+    "phbsplSpikeGrowt": {
+      "name": "Crecimiento espinoso"
+    },
+    "phbsplSpiritGuar": {
+      "name": "Espíritus guardianes"
+    },
+    "phbsplSpiritualW": {
+      "name": "Arma espiritual"
+    },
+    "phbsplStarryWisp": {
+      "name": "Voluta estelar"
+    },
+    "phbsplStinkingCl": {
+      "name": "Nube apestosa"
+    },
+    "phbsplStoneShape": {
+      "name": "Moldear la piedra"
+    },
+    "phbsplStoneskin0": {
+      "name": "Piel pétrea"
+    },
+    "phbsplStormofVen": {
+      "name": "Tormenta de la venganza"
+    },
+    "phbsplSuggestion": {
+      "name": "Sugestión"
+    },
+    "phbsplSummonDrag": {
+      "name": "Invocar dragón"
+    },
+    "phbsplSunbeam000": {
+      "name": "Rayo solar"
+    },
+    "phbsplSunburst00": {
+      "name": "Explosión solar"
+    },
+    "phbsplSymbol0000": {
+      "name": "Símbolo"
+    },
+    "phbsplTashasHide": {
+      "name": "Risa horrible"
+    },
+    "phbsplTelekinesi": {
+      "name": "Telequinesis"
+    },
+    "phbsplTeleport00": {
+      "name": "Teletransporte"
+    },
+    "phbsplTeleportat": {
+      "name": "Círculo de teletransportación"
+    },
+    "phbsplTensersFlo": {
+      "name": "Disco flotante"
+    },
+    "phbsplThaumaturg": {
+      "name": "Taumaturgia"
+    },
+    "phbsplThunderwav": {
+      "name": "Ola atronadora"
+    },
+    "phbsplTimeStop00": {
+      "name": "Parar el tiempo"
+    },
+    "phbsplTongues000": {
+      "name": "Don de lenguas"
+    },
+    "phbsplTransportv": {
+      "name": "Viajar mediante plantas"
+    },
+    "phbsplTreeStride": {
+      "name": "Paso arbóreo"
+    },
+    "phbsplTruePolymo": {
+      "name": "Polimorfar verdadero"
+    },
+    "phbsplTrueResurr": {
+      "name": "Resurrección verdadera"
+    },
+    "phbsplTrueSeeing": {
+      "name": "Visión veraz"
+    },
+    "phbsplTrueStrike": {
+      "name": "Impacto certero"
+    },
+    "phbsplTsunami000": {
+      "name": "Tsunami"
+    },
+    "phbsplUnseenServ": {
+      "name": "Sirviente invisible"
+    },
+    "phbsplVampiricTo": {
+      "name": "Toque vampírico"
+    },
+    "phbsplViciousMoc": {
+      "name": "Burla dañina"
+    },
+    "phbsplVitriolicS": {
+      "name": "Esfera vitriólica"
+    },
+    "phbsplWallofFire": {
+      "name": "Muro de fuego"
+    },
+    "phbsplWallofForc": {
+      "name": "Muro de fuerza"
+    },
+    "phbsplWallofIce0": {
+      "name": "Muro de hielo"
+    },
+    "phbsplWallofSton": {
+      "name": "Muro de piedra"
+    },
+    "phbsplWallofThor": {
+      "name": "Muro de espinas"
+    },
+    "phbsplWardingBon": {
+      "name": "Vínculo protector"
+    },
+    "phbsplWaterBreat": {
+      "name": "Respirar bajo el agua"
+    },
+    "phbsplWaterWalk0": {
+      "name": "Caminar sobre las aguas"
+    },
+    "phbsplWeb0000000": {
+      "name": "Telaraña"
+    },
+    "phbsplWeird00000": {
+      "name": "Terror abyecto"
+    },
+    "phbsplWindWalk00": {
+      "name": "Viajar con el viento"
+    },
+    "phbsplWindWall00": {
+      "name": "Muro de viento"
+    },
+    "phbsplWish000000": {
+      "name": "Deseo"
+    },
+    "phbsplWordofReca": {
+      "name": "Palabra de regreso"
+    },
+    "phbsplZoneofTrut": {
+      "name": "Zona de la verdad"
+    },
+    "phbswdMordenkain": {
+      "name": "Espada de Mordenkainen"
+    },
+    "phbutlMagicalBer": {
+      "name": "Buenas bayas"
+    }
+  }
+}

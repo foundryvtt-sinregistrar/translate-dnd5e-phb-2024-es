@@ -1,0 +1,1201 @@
+{
+  "label": "Actors",
+  "mapping": {
+    "items": {
+      "path": "items",
+      "converter": "phb2024ActorFullById"
+    }
+  },
+  "folders": {
+    "Aberrant Spirits": "Aberrant Spirits",
+    "Animated Objects": "Animated Objects",
+    "Bestial Spirits": "Bestial Spirits",
+    "Celestial Spirits": "Celestial Spirits",
+    "Companions": "Companions",
+    "Conjurations": "Conjurations",
+    "Conjured Elementals": "Conjured Elementals",
+    "Construct Spirits": "Construct Spirits",
+    "Creatures": "Creatures",
+    "Elemental Spirits": "Elemental Spirits",
+    "Example Characters": "Example Characters",
+    "Fey Spirits": "Fey Spirits",
+    "Fiendish Spirits": "Fiendish Spirits",
+    "Giant Insects": "Giant Insects",
+    "Otherworldly Steeds": "Otherworldly Steeds",
+    "Primal Companions": "Primal Companions",
+    "Summon Templates": "Summon Templates",
+    "Summons": "Summons",
+    "Undead Spirits": "Undead Spirits",
+    "Vehicles": "Vehicles"
+  },
+  "entries": {
+    "phbprgWarlock000": {
+      "name": "Warlock",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000]{Warlock}</td><td>Occult lore</td><td>Charisma</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgAcolyte0000]{Acolyte}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspRockGnome00]{Gnome, Rock}</td><td>Dwarvish, Gnomish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{Warlock}</td><td>8</td><td>14</td><td>13</td><td>12</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Laconic and Disinterested</td></tr></tbody></table>",
+      "countkey": 41,
+      "effects": 0,
+      "items": 41
+    },
+    "phbprgDruid00000": {
+      "name": "Druid",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbDruid00000000]{Druid}</td><td>Nature</td><td>Wisdom</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgFarmer00000]{Farmer}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHuman000000]{Human}</td><td>Elvish, Halfling</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdDruid00000]{Druid}</td><td>8</td><td>12</td><td>14</td><td>13</td><td>15</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Disinterested</td></tr><tr><td>Good</td><td>Honest</td></tr></tbody></table>",
+      "countkey": 38,
+      "effects": 0,
+      "items": 38
+    },
+    "phbprgRanger0000": {
+      "name": "Ranger",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000]{Ranger}</td><td>Survival</td><td>Dexterity and Wisdom</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgWayfarer000]{Wayfarer}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspWoodElf0000]{Elf, Wood}</td><td>Gnomish, Elvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Ranger}</td><td>12</td><td>15</td><td>13</td><td>8</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Chaotic</td><td>Self-absorbed</td></tr><tr><td>Good</td><td>Honest</td></tr></tbody></table>",
+      "countkey": 38,
+      "effects": 0,
+      "items": 38
+    },
+    "phbprgCleric0000": {
+      "name": "Cleric",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCleric0000000]{Cleric}</td><td>Gods</td><td>Wisdom</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuard000000]{Guard}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Dwarf}</td><td>Common Sign Language, Dwarvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric0000]{Cleric}</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Loyal</td></tr><tr><td>Good</td><td>Helpful</td></tr></tbody></table>",
+      "countkey": 36,
+      "effects": 0,
+      "items": 36
+    },
+    "phbprgWizard0000": {
+      "name": "Wizard",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Wizard}</td><td>Spellbooks</td><td>Intelligence</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Scribe}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspAasimar0000]{Aasimar}</td><td>Draconic, Common Sign Language</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Wizard}</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Methodical</td></tr><tr><td>Neutral</td><td>Selfish</td></tr></tbody></table>",
+      "countkey": 36,
+      "effects": 0,
+      "items": 36
+    },
+    "phbprgBard000000": {
+      "name": "Bard",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000]{Bard}</td><td>Performing</td><td>Charisma</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgEntertainer]{Entertainer}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspChthonicTie]{Tiefling, Chthonic}</td><td>Halfling, Giant</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBard000000]{Bard}</td><td>8</td><td>14</td><td>12</td><td>13</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Selfish</td></tr><tr><td>Evil</td><td>Greedy</td></tr></tbody></table>",
+      "countkey": 35,
+      "effects": 0,
+      "items": 35
+    },
+    "phbprgRogue00000": {
+      "name": "Rogue",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000]{Rogue}</td><td>Stealth</td><td>Dexterity</td><td>Low</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminal}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHalfling000]{Halfling}</td><td>Common Sign Language, Halfling</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Rogue}</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Loyal</td></tr><tr><td>Evil</td><td>Dishonest</td></tr></tbody></table>",
+      "countkey": 35,
+      "effects": 0,
+      "items": 35
+    },
+    "phbprgSorcerer00": {
+      "name": "Sorcerer",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000]{Sorcerer}</td><td>Power</td><td>Charisma</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCharlatan00]{Charlatan}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDrow0000000]{Elf, Drow}</td><td>Giant, Elvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{Sorcerer}</td><td>10</td><td>13</td><td>14</td><td>8</td><td>12</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Chaotic</td><td>Impulsive</td></tr><tr><td>Neutral</td><td>Laconic</td></tr></tbody></table>",
+      "countkey": 33,
+      "effects": 0,
+      "items": 33
+    },
+    "phbprgFighter000": {
+      "name": "Fighter",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000]{Fighter}</td><td>Weapons</td><td>Strength or Dexterity</td><td>Low</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000]{Soldier}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Dwarf}</td><td>Orc, Dwarvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrFighter000]{Fighter}</td><td>15</td><td>14</td><td>13</td><td>8</td><td>10</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Pragmatic</td></tr><tr><td>Good</td><td>Kind</td></tr></tbody></table>",
+      "countkey": 32,
+      "effects": 0,
+      "items": 32
+    },
+    "phbprgMonk000000": {
+      "name": "Monk",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMonk000000000]{Monk}</td><td>Unarmed combat</td><td>Dexterity and Wisdom</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuide000000]{Guide}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDragonborn0]{Dragonborn}</td><td>Dwarvish, Draconic</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMonk000000]{Monk}</td><td>12</td><td>15</td><td>13</td><td>10</td><td>14</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Methodical</td></tr><tr><td>Neutral</td><td>Laconic</td></tr></tbody></table><p></p>",
+      "countkey": 30,
+      "effects": 0,
+      "items": 30
+    },
+    "phbprgBarbarian0": {
+      "name": "Barbarian",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000]{Barbarian}</td><td>Battle</td><td>Strength</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSailor00000]{Sailor}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspGoliath0000]{Goliath}</td><td>Giant, Goblin</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbBarbarian0]{Barbarian}</td><td>15</td><td>13</td><td>14</td><td>10</td><td>12</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Chaotic</td><td>Rebellious</td></tr><tr><td>Evil</td><td>Vengeful</td></tr></tbody></table>",
+      "countkey": 26,
+      "effects": 0,
+      "items": 26
+    },
+    "phbprgPaladin000": {
+      "name": "Paladin",
+      "folder": "Example Characters",
+      "biography": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000]{Paladin}</td><td>Defense</td><td>Strength and Charisma</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspOrc00000000]{Orc}</td><td>Dwarvish, Orc</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPaladin000]{Paladin}</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Judgmental</td></tr><tr><td>Good</td><td>Honest</td></tr></tbody></table>",
+      "countkey": 26,
+      "effects": 0,
+      "items": 26
+    },
+    "phbmobFiendishSp": {
+      "name": "Fiendish Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "countkey": 7,
+      "effects": 0,
+      "items": 7
+    },
+    "phbmobAberrantSp": {
+      "name": "Aberrant Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "countkey": 6,
+      "effects": 0,
+      "items": 6
+    },
+    "phbmobImp0000000": {
+      "name": "Imp",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 6,
+      "effects": 0,
+      "items": 6
+    },
+    "phbmobQuasit0000": {
+      "name": "Quasit",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 6,
+      "effects": 0,
+      "items": 6
+    },
+    "phbmobUndeadSpir": {
+      "name": "Undead Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "countkey": 6,
+      "effects": 0,
+      "items": 6
+    },
+    "phbmobBestialSpi": {
+      "name": "Bestial Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "countkey": 5,
+      "effects": 0,
+      "items": 5
+    },
+    "phbmobConstructS": {
+      "name": "Construct Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "countkey": 5,
+      "effects": 0,
+      "items": 5
+    },
+    "phbmobFeySpirit0": {
+      "name": "Fey Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "countkey": 5,
+      "effects": 0,
+      "items": 5
+    },
+    "phbmobGiantInsec": {
+      "name": "Giant Insect",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "countkey": 5,
+      "effects": 0,
+      "items": 5
+    },
+    "phbmobLion000000": {
+      "name": "Lion",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 5,
+      "effects": 0,
+      "items": 5
+    },
+    "phbmobOtherworld": {
+      "name": "Otherworldly Steed",
+      "folder": "Otherworldly Steeds",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "countkey": 5,
+      "effects": 0,
+      "items": 5
+    },
+    "phbmobSprite0000": {
+      "name": "Sprite",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 5,
+      "effects": 0,
+      "items": 5
+    },
+    "phbbesBestialWat": {
+      "name": "Bestial Water Spirit",
+      "folder": "Bestial Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbfisDemonSpiri": {
+      "name": "Demon Spirit",
+      "folder": "Fiendish Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbfisDevilSpiri": {
+      "name": "Devil Spirit",
+      "folder": "Fiendish Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbginGiantCenti": {
+      "name": "Giant Centipede",
+      "folder": "Giant Insects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbginGiantSpide": {
+      "name": "Giant Spider",
+      "folder": "Giant Insects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbmobCelestialS": {
+      "name": "Celestial Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbmobDraconicSp": {
+      "name": "Draconic Spirit",
+      "folder": "Summons",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbmobGiantSpide": {
+      "name": "Giant Spider",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbmobOctopus000": {
+      "name": "Octopus",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbmobPseudodrag": {
+      "name": "Pseudodragon",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbsplBigbysHand": {
+      "name": "Bigby's Hand",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplBigbysHand caption=false]</p>",
+      "countkey": 4,
+      "effects": 0,
+      "items": 4
+    },
+    "phbBeastoftheSea": {
+      "name": "Beast of the Sea",
+      "folder": "Primal Companions",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbBeastoftheSky": {
+      "name": "Beast of the Sky",
+      "folder": "Primal Companions",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbInvisibleSens": {
+      "name": "Invisible Sensor",
+      "folder": "Conjurations",
+      "biography": "",
+      "countkey": 3,
+      "effects": 3,
+      "items": 0
+    },
+    "phbabsMindFlayer": {
+      "name": "Mind Flayer Spirit",
+      "folder": "Aberrant Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbabsSlaadSpiri": {
+      "name": "Slaad Spirit",
+      "folder": "Aberrant Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbbesBestialAir": {
+      "name": "Bestial Air Spirit",
+      "folder": "Bestial Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbbesBestialLan": {
+      "name": "Bestial Land Spirit",
+      "folder": "Bestial Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbcesAngelSpiri": {
+      "name": "Avenger Spirit",
+      "folder": "Celestial Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbcesDefenderSp": {
+      "name": "Defender Spirit",
+      "folder": "Celestial Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbcosClayConstr": {
+      "name": "Clay Construct Spirit",
+      "folder": "Construct Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbcosMetalConst": {
+      "name": "Metal Construct Spirit",
+      "folder": "Construct Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbcosStoneConst": {
+      "name": "Stone Construct Spirit",
+      "folder": "Construct Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbelsAirElement": {
+      "name": "Air Elemental Spirit",
+      "folder": "Elemental Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbelsFireElemen": {
+      "name": "Fire Elemental Spirit",
+      "folder": "Elemental Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbelsFumingFeyS": {
+      "name": "Fuming Fey Spirit",
+      "folder": "Fey Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbelsMirthfulFe": {
+      "name": "Mirthful Fey Spirit",
+      "folder": "Fey Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbelsTricksyFey": {
+      "name": "Tricksy Fey Spirit",
+      "folder": "Fey Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbelsWaterEleme": {
+      "name": "Water Elemental Spirit",
+      "folder": "Elemental Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbfisYugolothSp": {
+      "name": "Yugoloth Spirit",
+      "folder": "Fiendish Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbginGiantWasp0": {
+      "name": "Giant Wasp",
+      "folder": "Giant Insects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobApe0000000": {
+      "name": "Ape",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobBrownBear0": {
+      "name": "Brown Bear",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobElementalS": {
+      "name": "Elemental Spirit",
+      "folder": "Summon Templates",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobElephant00": {
+      "name": "Elephant",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobFrog000000": {
+      "name": "Frog",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobGiantSeaho": {
+      "name": "Giant Seahorse",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobReefShark0": {
+      "name": "Reef Shark",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobSphinxofWo": {
+      "name": "Sphinx of Wonder",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbmobSpider0000": {
+      "name": "Spider",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbostCelestial0": {
+      "name": "Celestial Steed",
+      "folder": "Otherworldly Steeds",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbostFey0000000": {
+      "name": "Fey Steed",
+      "folder": "Otherworldly Steeds",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbostFiend00000": {
+      "name": "Fiend Steed",
+      "folder": "Otherworldly Steeds",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbudsGhostlySpi": {
+      "name": "Ghostly Spirit",
+      "folder": "Undead Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbudsPutridSpir": {
+      "name": "Putrid Spirit",
+      "folder": "Undead Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "countkey": 3,
+      "effects": 0,
+      "items": 3
+    },
+    "phbBeastoftheLan": {
+      "name": "Beast of the Land",
+      "folder": "Primal Companions",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbabsBeholderki": {
+      "name": "Beholderkin Spirit",
+      "folder": "Aberrant Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbelsEarthEleme": {
+      "name": "Earth Elemental Spirit",
+      "folder": "Elemental Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobBlackBear0": {
+      "name": "Black Bear",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobBoar000000": {
+      "name": "Boar",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobCat0000000": {
+      "name": "Cat",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobConstricto": {
+      "name": "Constrictor Snake",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobCrab000000": {
+      "name": "Crab",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobCrocodile0": {
+      "name": "Crocodile",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobDireWolf00": {
+      "name": "Dire Wolf",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobFaithfulHo": {
+      "name": "Faithful Hound",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbFaithfulHound caption=false]</p>",
+      "countkey": 2,
+      "effects": 1,
+      "items": 1
+    },
+    "phbmobGiantCrab0": {
+      "name": "Giant Crab",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobLizard0000": {
+      "name": "Lizard",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobMule000000": {
+      "name": "Mule",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobOwl0000000": {
+      "name": "Owl",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobPanther000": {
+      "name": "Panther",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobRat0000000": {
+      "name": "Rat",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobRaven00000": {
+      "name": "Raven",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobSkeleton00": {
+      "name": "Skeleton",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobSlaadTadpo": {
+      "name": "Slaad Tadpole",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobTiger00000": {
+      "name": "Tiger",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobWolf000000": {
+      "name": "Wolf",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbmobZombie0000": {
+      "name": "Zombie",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbsplArcaneEye0": {
+      "name": "Arcane Eye",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0 caption=false]</p>",
+      "countkey": 2,
+      "effects": 1,
+      "items": 1
+    },
+    "phbsplFlamingSph": {
+      "name": "Flaming Sphere",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFlamingSph caption=false]</p>",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbudsSkeletalSp": {
+      "name": "Skeletal Spirit",
+      "folder": "Undead Spirits",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>",
+      "countkey": 2,
+      "effects": 0,
+      "items": 2
+    },
+    "phbConjuredEarth": {
+      "name": "Conjured Earth Elemental",
+      "folder": "Conjured Elementals",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbConjuredFireE": {
+      "name": "Conjured Fire Elemental",
+      "folder": "Conjured Elementals",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbConjuredWater": {
+      "name": "Conjured Water Elemental",
+      "folder": "Conjured Elementals",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbSpectralAnima": {
+      "name": "Conjured Animals",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbhaoAnimatedOb": {
+      "name": "Huge Animated Object",
+      "folder": "Animated Objects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phblaoAnimatedOb": {
+      "name": "Large Animated Object",
+      "folder": "Animated Objects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmaoAnimatedOb": {
+      "name": "Medium Animated Object",
+      "folder": "Animated Objects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobBadger0000": {
+      "name": "Badger",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobBat0000000": {
+      "name": "Bat",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobCamel00000": {
+      "name": "Camel",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobDraftHorse": {
+      "name": "Draft Horse",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobElk0000000": {
+      "name": "Elk",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobGiantBadge": {
+      "name": "Giant Badger",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobGiantGoat0": {
+      "name": "Giant Goat",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobGiantWease": {
+      "name": "Giant Weasel",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobGoat000000": {
+      "name": "Goat",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobHawk000000": {
+      "name": "Hawk",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobMastiff000": {
+      "name": "Mastiff",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobPony000000": {
+      "name": "Pony",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobRidingHors": {
+      "name": "Riding Horse",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobScorpion00": {
+      "name": "Scorpion",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobVenomousSn": {
+      "name": "Venomous Snake",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobWarhorse00": {
+      "name": "Warhorse",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbmobWeasel0000": {
+      "name": "Weasel",
+      "folder": "Creatures",
+      "biography": "",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsaoAnimatedOb": {
+      "name": "Small Animated Object",
+      "folder": "Animated Objects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplConjuredEl": {
+      "name": "Conjured Air Elemental",
+      "folder": "Conjured Elementals",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplConjuredFe": {
+      "name": "Conjured Fey",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureFey caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplFloatingDi": {
+      "name": "Floating Disk",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplTensersFlo caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplGraspingVi": {
+      "name": "Grasping Vine",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGraspingVi caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplGuardianof": {
+      "name": "Guardian of Faith",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplMordSword0": {
+      "name": "Mordenkainen’s Sword",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbswdMordenkain caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplSpiritualW": {
+      "name": "Spiritual Weapon",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbsplUnseenServ": {
+      "name": "Unseen Servant",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplUnseenServ caption=false]</p>",
+      "countkey": 1,
+      "effects": 1,
+      "items": 0
+    },
+    "phbsumPhantomSte": {
+      "name": "Phantom Steed",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "phbtaoAnimatedOb": {
+      "name": "Tiny Animated Object",
+      "folder": "Animated Objects",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "countkey": 1,
+      "effects": 0,
+      "items": 1
+    },
+    "VBTtG9kjHNQstG0a": {
+      "name": "Airship",
+      "folder": "Vehicles",
+      "biography": "<p><strong>Speed:</strong> 8 mph</p><p><strong>Crew:</strong> 10</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 1</p><p><strong>AC:</strong> 13</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 40,000 GP</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbDuplicate0000": {
+      "name": "Duplicate",
+      "folder": "Conjurations",
+      "biography": "",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbiluCreature00": {
+      "name": "Illusory Creature",
+      "folder": "Conjurations",
+      "biography": "",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbiluObject0000": {
+      "name": "Illusory Object",
+      "folder": "Conjurations",
+      "biography": "",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbiluSensory000": {
+      "name": "Illusory Phenomenon",
+      "folder": "Conjurations",
+      "biography": "",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbmobGalley0000": {
+      "name": "Galley",
+      "folder": "Vehicles",
+      "biography": "<p><strong>Speed:</strong> 4 mph</p><p><strong>Crew:</strong> 80</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 150</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 30,000 GP</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbmobKeelboat00": {
+      "name": "Keelboat",
+      "folder": "Vehicles",
+      "biography": "<p><strong>Speed:</strong> 1 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 1/2</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 100</p><p><strong>Damage Threshold:</strong> 10</p><p><strong>Cost:</strong> 3,000 GP</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbmobLongship00": {
+      "name": "Longship",
+      "folder": "Vehicles",
+      "biography": "<p><strong>Speed:</strong> 3 mph</p><p><strong>Crew:</strong> 40</p><p><strong>Passengers:</strong> 150</p><p><strong>Cargo (Tons):</strong> 10</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbmobRowboat000": {
+      "name": "Rowboat",
+      "folder": "Vehicles",
+      "biography": "<p><strong>Speed:</strong> 1 1/2 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> 3</p><p><strong>Cargo (Tons):</strong> —</p><p><strong>AC:</strong> 11</p><p><strong>HP:</strong> 50</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 50 GP</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbmobSailingShi": {
+      "name": "Sailing Ship",
+      "folder": "Vehicles",
+      "biography": "<p><strong>Speed:</strong> 2 mph</p><p><strong>Crew:</strong> 20</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 100</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbmobWarship000": {
+      "name": "Warship",
+      "folder": "Vehicles",
+      "biography": "<p><strong>Speed:</strong> 2 1/2 mph</p><p><strong>Crew:</strong> 60</p><p><strong>Passengers:</strong> 60</p><p><strong>Cargo (Tons):</strong> 200</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 25,000 GP</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbsplLight00000": {
+      "name": "Light",
+      "folder": "Conjurations",
+      "biography": "",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbsplMageHand00": {
+      "name": "Mage Hand",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00 caption=false]</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbsplMediumDanc": {
+      "name": "Dancing Light (Medium)",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbsplSecretChes": {
+      "name": "Secret Chest",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplLeomundsSe caption=false]</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    },
+    "phbsplTinyDancin": {
+      "name": "Dancing Light (Tiny)",
+      "folder": "Conjurations",
+      "biography": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>",
+      "countkey": 0,
+      "effects": 0,
+      "items": 0
+    }
+  }
+}

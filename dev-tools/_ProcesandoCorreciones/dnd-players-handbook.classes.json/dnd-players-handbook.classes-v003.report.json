@@ -1,0 +1,378 @@
+{
+  "_meta": {
+    "source": "dnd-players-handbook.classes.json",
+    "base_version": "user-updated classes.json after previous corrections",
+    "output": "dnd-players-handbook.classes-v003.json",
+    "pass": "v003",
+    "scope": [
+      "entries.*.advancement.*.hint"
+    ],
+    "notes": [
+      "This pass only updates advancement hints.",
+      "Descriptions, advancement.title, activities.condition and other fields were left intact.",
+      "Hints with full English text were translated.",
+      "Hints already in Spanish but with mixed English terms/tables were normalized."
+    ]
+  },
+  "stats": {
+    "advancement_total": 643,
+    "hints_total_nonempty_before": 68,
+    "hints_total_nonempty_after": 68,
+    "hints_modified": 50,
+    "full_english_or_mixed_exact_translations": 18,
+    "mixed_term_normalizations": 32,
+    "remaining_obvious_english_markers_in_hints": 0
+  },
+  "modified_entries": [
+    {
+      "entry": "phbclcCleric0000",
+      "advancement_id": "C9ABIfTHZkeFpUva",
+      "title": "Elección de golpes benditos",
+      "old_hint": "Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Clérigo subclass in an older book, use only the option you choose for this feature).",
+      "new_hint": "El poder divino te infunde en la batalla. Obtienes una de las siguientes opciones a tu elección (si obtienes cualquiera de estas opciones de una subclase de clérigo de un libro anterior, usa solo la opción que elijas para este rasgo)."
+    },
+    {
+      "entry": "phbclcCleric0000",
+      "advancement_id": "V8GfnoZYTe1PLXPI",
+      "title": "Elección de orden divina",
+      "old_hint": "You have dedicated yourself to one of the following sacred roles of your choice.",
+      "new_hint": "Te has dedicado a uno de los siguientes roles sagrados a tu elección."
+    },
+    {
+      "entry": "phbdrdCirstars00",
+      "advancement_id": "1Y24WIRrOmw0JaX3",
+      "title": "Star Map: Guía",
+      "old_hint": "This conjuro can only be used when you have a Star Map.",
+      "new_hint": "Este conjuro solo puede usarse cuando tienes un Mapa estelar."
+    },
+    {
+      "entry": "phbdrdCirstars00",
+      "advancement_id": "ThaY6sBrlNds7ugg",
+      "title": "Star Map: Saeta guía",
+      "old_hint": "This conjuro can only be used when you have a Star Map.",
+      "new_hint": "Este conjuro solo puede usarse cuando tienes un Mapa estelar."
+    },
+    {
+      "entry": "phbdrdDruid00000",
+      "advancement_id": "fwwJ7sF6UAsgWaLf",
+      "title": "Druídico",
+      "old_hint": "You know Druidic, the secret language of Druids.",
+      "new_hint": "Conoces el druídico, el lenguaje secreto de los druidas."
+    },
+    {
+      "entry": "phbdrdDruid00000",
+      "advancement_id": "HYDmnuNUbI5liP08",
+      "title": "Furia Elemental",
+      "old_hint": "The might of the elements flows through you. You gain one of the following options of your choice.",
+      "new_hint": "El poder de los elementos fluye a través de ti. Obtienes una de las siguientes opciones a tu elección."
+    },
+    {
+      "entry": "phbdrdDruid00000",
+      "advancement_id": "NpBpNlHOO43gMD0U",
+      "title": "Orden primigenia",
+      "old_hint": "You have dedicated yourself to one of the following sacred roles of your choice.",
+      "new_hint": "Te has dedicado a uno de los siguientes roles sagrados a tu elección."
+    },
+    {
+      "entry": "phbdrdDruid00000",
+      "advancement_id": "W0d3c6X31SgnFFYM",
+      "title": "Furia Elemental",
+      "old_hint": "The might of the elements flows through you. You gain one of the following options of your choice.",
+      "new_hint": "El poder de los elementos fluye a través de ti. Obtienes una de las siguientes opciones a tu elección."
+    },
+    {
+      "entry": "phbftrPsiWarrior",
+      "advancement_id": "ZcYeA3tYEs1kJDXQ",
+      "title": "Mente protegida",
+      "old_hint": "You have Resistencia to Psychic damage.",
+      "new_hint": "Tienes resistencia al daño psíquico."
+    },
+    {
+      "entry": "phbrgeAssassin00",
+      "advancement_id": "DUvYYdPtc0kH5wEg",
+      "title": "Herramientas del asesino",
+      "old_hint": "You gain a Disguise Kit and a Envenenador’s Kit.",
+      "new_hint": "Obtienes un kit de disfraz y un kit de envenenador."
+    },
+    {
+      "entry": "phbrgeAssassin00",
+      "advancement_id": "rvg1VPVkuaZrsvIx",
+      "title": "Herramientas del asesino",
+      "old_hint": "You gain a Disguise Kit and a Envenenador’s Kit.",
+      "new_hint": "Obtienes un kit de disfraz y un kit de envenenador."
+    },
+    {
+      "entry": "phbrgeRogue00000",
+      "advancement_id": "4doj2kFD8sIYiX8X",
+      "title": "Pericia",
+      "old_hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.",
+      "new_hint": "Obtienes Pericia en dos de tus competencias en habilidades a tu elección. Se recomienda Juego de manos y Sigilo si tienes competencia en ellas."
+    },
+    {
+      "entry": "phbrgeRogue00000",
+      "advancement_id": "FiaNLovfP6tnY4tD",
+      "title": null,
+      "old_hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.",
+      "new_hint": "Tu mente astuta es excepcionalmente difícil de controlar. Obtienes competencia en las tiradas de salvación de Sabiduría y Carisma."
+    },
+    {
+      "entry": "phbrgeRogue00000",
+      "advancement_id": "IHbn6EXoBfxHdj7c",
+      "title": "Jerga de ladrones",
+      "old_hint": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages below.",
+      "new_hint": "Aprendiste varios idiomas en las comunidades donde desarrollaste tus talentos de pícaro. Conoces la jerga de ladrones y otro idioma a tu elección, que puedes escoger de los idiomas que aparecen abajo."
+    },
+    {
+      "entry": "phbrgeRogue00000",
+      "advancement_id": "sqWH6tnUg7jiGaEj",
+      "title": "Pericia",
+      "old_hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.",
+      "new_hint": "Obtienes Pericia en dos de tus competencias en habilidades a tu elección. Se recomienda Juego de manos y Sigilo si tienes competencia en ellas."
+    },
+    {
+      "entry": "phbrgeSoulknife0",
+      "advancement_id": "ETTPZOwazQk1UcG3",
+      "title": "Hoja psíquica",
+      "old_hint": "You are granted a Psychic Blade which can be used for your Psychic Blades features.",
+      "new_hint": "Se te concede una Hoja psíquica que puede usarse para tus rasgos de Hojas psíquicas."
+    },
+    {
+      "entry": "phbrgeSoulknife0",
+      "advancement_id": "vzAj9DVM39AAA9WA",
+      "title": "Poder psiónico",
+      "old_hint": "You harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel certain powers you have from this subclass.",
+      "new_hint": "Albergas en tu interior una fuente de energía psiónica. Está representada por tus Dados de energía psiónica, que alimentan ciertos poderes que obtienes de esta subclase."
+    },
+    {
+      "entry": "phbrgrGloomStalk",
+      "advancement_id": "xYj1TbCoy8ytnnRt",
+      "title": "Mente de hierro",
+      "old_hint": "You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).",
+      "new_hint": "Obtienes competencia en las tiradas de salvación de Sabiduría. Si ya tienes esta competencia, obtienes en su lugar competencia en las tiradas de salvación de Inteligencia o Carisma (a tu elección)."
+    },
+    {
+      "entry": "phbscrAberrantSo",
+      "advancement_id": "95l89DjDmfOveRqc",
+      "title": "Conjuros Psiónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Psionic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros psiónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrAberrantSo",
+      "advancement_id": "9lP9Ee1unLYDkeea",
+      "title": "Defensas Psíquicas",
+      "old_hint": "Tienes Resistencia al daño Psíquico.",
+      "new_hint": "Tienes resistencia al daño psíquico."
+    },
+    {
+      "entry": "phbscrAberrantSo",
+      "advancement_id": "DH72uZ2fwewi1EVS",
+      "title": "Conjuros Psiónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Psionic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros psiónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrAberrantSo",
+      "advancement_id": "jBjE9Y5Zmp3J0IMx",
+      "title": "Conjuros Psiónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Psionic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros psiónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrAberrantSo",
+      "advancement_id": "nP2TU1SccvkzMo14",
+      "title": "Conjuros Psiónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Psionic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros psiónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrClockworkS",
+      "advancement_id": "gZdhCjwmNRmmDAPc",
+      "title": "Conjuros Mecánicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Clockwork Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros mecánicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrClockworkS",
+      "advancement_id": "JXUMHu3oFtc8rIwP",
+      "title": "Conjuros Mecánicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Clockwork Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros mecánicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrClockworkS",
+      "advancement_id": "mKRSKUKVV76neRuG",
+      "title": "Conjuros Mecánicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Clockwork Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros mecánicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrClockworkS",
+      "advancement_id": "w0jokQ4iwaUNPKxf",
+      "title": "Conjuros Mecánicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Clockwork Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros mecánicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrDraconicSo",
+      "advancement_id": "8UnvG3X4TR3MpCGe",
+      "title": null,
+      "old_hint": "Tu magia dracónica tiene afinidad con un tipo de daño asociado a los dragones. Elige uno de esos tipos: Acid, Cold, Fire, Lightning o Poison.\n \n Tienes Resistencia a ese tipo de daño.",
+      "new_hint": "Tu magia dracónica tiene afinidad con un tipo de daño asociado a los dragones. Elige uno de esos tipos: ácido, frío, fuego, relámpago o veneno.\n\nTienes resistencia a ese tipo de daño."
+    },
+    {
+      "entry": "phbscrDraconicSo",
+      "advancement_id": "EgVTydL5IkLS1uph",
+      "title": "Conjuros Dracónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Draconic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros dracónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrDraconicSo",
+      "advancement_id": "nQwB2GYHgvg5IRhf",
+      "title": "Conjuros Dracónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Draconic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros dracónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrDraconicSo",
+      "advancement_id": "VLhcXqbjyXnCbXTP",
+      "title": "Conjuros Dracónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Draconic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros dracónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbscrDraconicSo",
+      "advancement_id": "zKCculAFWxVPXhnA",
+      "title": "Conjuros Dracónicos",
+      "old_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Draconic Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "Cuando alcanzas un nivel de Hechicero especificado en la tabla de Conjuros dracónicos, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkArchfeyPat",
+      "advancement_id": "bFu7dUk5WXoufvkh",
+      "title": "Conjuros del Archi feérico",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del archifeérico, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkArchfeyPat",
+      "advancement_id": "JqqeZi5bGQvsP74C",
+      "title": "Conjuros del Archi feérico",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del archifeérico, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkArchfeyPat",
+      "advancement_id": "o1Zb3KBtglaGyrZe",
+      "title": "Conjuros del Archi feérico",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del archifeérico, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkArchfeyPat",
+      "advancement_id": "qUyFKC99QZmVzrQ6",
+      "title": "Defensas Embaucadoras",
+      "old_hint": "Tu patrón te enseña a proteger tu mente y tu cuerpo. Eres inmune a la condición Charmed.",
+      "new_hint": "Tu patrón te enseña a proteger tu mente y tu cuerpo. Eres inmune a la condición Hechizado."
+    },
+    {
+      "entry": "phbwlkArchfeyPat",
+      "advancement_id": "XWpjuAP1TvQYCgAv",
+      "title": "Conjuros del Archi feérico",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del archifeérico, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkCelestialP",
+      "advancement_id": "BEKwlVvIuM5wT6F8",
+      "title": "Conjuros Celestiales",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros celestiales, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkCelestialP",
+      "advancement_id": "dzR6GXxtkE33n4o5",
+      "title": "Alma Radiante",
+      "old_hint": "Tu vínculo con tu patrón te permite servir de conducto para la energía radiante. Tienes Resistencia al daño Radiante.",
+      "new_hint": "Tu vínculo con tu patrón te permite servir de conducto para la energía radiante. Tienes resistencia al daño radiante."
+    },
+    {
+      "entry": "phbwlkCelestialP",
+      "advancement_id": "Q6fRCH5lSSWbH5vU",
+      "title": "Conjuros Celestiales",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros celestiales, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkCelestialP",
+      "advancement_id": "UFqhl5CIv7nbMz8E",
+      "title": "Conjuros Celestiales",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros celestiales, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkCelestialP",
+      "advancement_id": "X1b0MgwadVZlucAF",
+      "title": "Conjuros Celestiales",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Archfey Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros celestiales, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkFiendPatro",
+      "advancement_id": "Aqu6VkaM9Z70GTtM",
+      "title": "Conjuros del Infernal",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Fiend Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del infernal, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkFiendPatro",
+      "advancement_id": "BL0KO6NHMdWDzORz",
+      "title": "Conjuros del Infernal",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Fiend Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del infernal, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkFiendPatro",
+      "advancement_id": "HI0odgqJuVranhPH",
+      "title": "Conjuros del Infernal",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Fiend Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del infernal, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkFiendPatro",
+      "advancement_id": "RQGbS50hbBG90d1e",
+      "title": "Conjuros del Infernal",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Fiend Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del infernal, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkGreatOldOn",
+      "advancement_id": "DDHUugD2NaiN7EPr",
+      "title": "Conjuros del Gran Antiguo",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Great Old One Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del Gran Antiguo, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkGreatOldOn",
+      "advancement_id": "jfnWwUamgADyAfmd",
+      "title": "Conjuros del Gran Antiguo",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Great Old One Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del Gran Antiguo, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkGreatOldOn",
+      "advancement_id": "P1WZnglOVdRxuub3",
+      "title": "Conjuros del Gran Antiguo",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Great Old One Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del Gran Antiguo, a partir de entonces siempre tienes preparados los conjuros indicados."
+    },
+    {
+      "entry": "phbwlkGreatOldOn",
+      "advancement_id": "VwabaZ3sqLv7cl0H",
+      "title": "Conjuros del Gran Antiguo",
+      "old_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla Great Old One Conjuros, a partir de entonces siempre tienes preparados los conjuros indicados.",
+      "new_hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de Brujo especificado en la tabla de Conjuros del Gran Antiguo, a partir de entonces siempre tienes preparados los conjuros indicados."
+    }
+  ]
+}

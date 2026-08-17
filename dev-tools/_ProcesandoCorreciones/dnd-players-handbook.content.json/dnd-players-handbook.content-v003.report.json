@@ -1,0 +1,335 @@
+{
+  "changes_total": 149,
+  "entries_modified": 18,
+  "pages_modified": 45,
+  "uuid_label_replacements": {
+    "Airship -> Aeronave": 2,
+    "Galley -> Galera": 2,
+    "Keelboat -> Barco de quilla": 2,
+    "Longship -> Navío largo": 2,
+    "Rowboat -> Bote de remos": 2,
+    "Sailing Ship -> Barco de vela": 2,
+    "Warship -> Buque de guerra": 2,
+    "Proficiency -> Competencia": 1,
+    "Ghostly Spirit -> Espíritu fantasmal": 2,
+    "Putrid Spirit -> Espíritu pútrido": 2,
+    "Skeletal Spirit -> Espíritu esquelético": 2,
+    "Bestial Air Spirit -> Espíritu bestial aéreo": 2,
+    "Bestial Water Spirit -> Espíritu bestial acuático": 1,
+    "Dance -> Baile": 1,
+    "Glamour -> Glamur": 1,
+    "Lore -> Conocimiento": 1,
+    "Battle Master -> Maestro de batalla": 1,
+    "Champion -> Campeón": 1,
+    "Ammunition -> Munición": 1,
+    "Arcane Focus -> Foco arcano": 1,
+    "Druidic Focus -> Foco druídico": 1,
+    "Holy Symbol -> Símbolo sagrado": 1,
+    "Camel -> Camello": 1,
+    "Elephant -> Elefante": 1,
+    "Mastiff -> Mastín": 1,
+    "Mule -> Mula": 1,
+    "Pony -> Poni": 1,
+    "Warhorse -> Caballo de guerra": 1
+  },
+  "manual_replacements": {
+    "(Unarmed Strike) -> ": 4,
+    "<strong>Grapple.</strong> -> <strong>Sujetar.</strong>": 1,
+    "<strong>daño.</strong> -> <strong>Daño.</strong>": 3,
+    "Embestir (Shove) -> Embestir": 1,
+    "@UUID[.MQIZ1zRLWRcNOtPN]{invisible} -> @UUID[.MQIZ1zRLWRcNOtPN]{Invisible}": 2,
+    "(Opportunity Attack) -> ": 1,
+    "(Prone) -> ": 2,
+    "(Unconscious) -> ": 1,
+    "&amp;Reference y &amp;Reference[Prone]{Derribado} -> &amp;Reference[Incapacitated]{Incapacitado} y &amp;Reference[Prone]{Derribado}": 1,
+    "(Grappled) -> ": 1,
+    "(grapple) -> ": 1,
+    "condición Grappled -> condición Sujetado": 2,
+    "<caption>Damage Types</caption> -> <caption>Tipos de daño</caption>": 1,
+    "<th><p>Type</p></th> -> <th><p>Tipo</p></th>": 1,
+    "<th><p>Examples</p></th> -> <th><p>Ejemplos</p></th>": 1,
+    "<td><p>Acid</p></td><td><p>Corrosive liquids, digestive enzymes</p></td> -> <td><p>Ácido</p></td><td><p>Líquidos corrosivos, enzimas digestivas</p></td>": 1,
+    "<td><p>Bludgeoning</p></td><td><p>Blunt objects, constriction, falling</p></td> -> <td><p>Contundente</p></td><td><p>Objetos romos, constricción, caídas</p></td>": 1,
+    "<td><p>Cold</p></td><td><p>Freezing water, icy blasts</p></td> -> <td><p>Frío</p></td><td><p>Agua helada, ráfagas gélidas</p></td>": 1,
+    "<td><p>Fire</p></td><td><p>Flames, unbearable heat</p></td> -> <td><p>Fuego</p></td><td><p>Llamas, calor insoportable</p></td>": 1,
+    "<td><p>Force</p></td><td><p>Pure magical energy</p></td> -> <td><p>Fuerza</p></td><td><p>Energía mágica pura</p></td>": 1,
+    "<td><p>Lightning</p></td><td><p>Electricity</p></td> -> <td><p>Relámpago</p></td><td><p>Electricidad</p></td>": 1,
+    "<td><p>Necrotic</p></td><td><p>Life-draining energy</p></td> -> <td><p>Necrótico</p></td><td><p>Energía que drena la vida</p></td>": 1,
+    "<td><p>Piercing</p></td><td><p>Fangs, puncturing objects</p></td> -> <td><p>Perforante</p></td><td><p>Colmillos, objetos punzantes</p></td>": 1,
+    "<td><p>Poison</p></td><td><p>Toxic gas, venom</p></td> -> <td><p>Veneno</p></td><td><p>Gas tóxico, veneno</p></td>": 1,
+    "<td><p>Psychic</p></td><td><p>Mind-rending energy</p></td> -> <td><p>Psíquico</p></td><td><p>Energía que desgarra la mente</p></td>": 1,
+    "<td><p>Radiant</p></td><td><p>Holy energy, searing radiation</p></td> -> <td><p>Radiante</p></td><td><p>Energía sagrada, radiación abrasadora</p></td>": 1,
+    "<td><p>Slashing</p></td><td><p>Claws, cutting objects</p></td> -> <td><p>Cortante</p></td><td><p>Garras, objetos cortantes</p></td>": 1,
+    "<td><p>Thunder</p></td><td><p>Concussive sound</p></td> -> <td><p>Trueno</p></td><td><p>Sonido concusivo</p></td>": 1,
+    "\"Edit\" -> \"Editar\"": 4,
+    "\"Duplicate\" -> \"Duplicar\"": 6,
+    "\"Remove advancement changes\" -> \"Eliminar cambios de avance\"": 3,
+    "\"Delete\" -> \"Eliminar\"": 3,
+    "College of Dance -> Colegio de Danza": 1,
+    "Dazzling Footwork -> Juegos de pies deslumbrantes": 1,
+    "Pact Magic -> Magia de Pacto": 1,
+    "Alchemist's Fire -> Fuego alquímico": 1,
+    "Expanding and Replacing a Spellbook -> Ampliar y reemplazar un libro de conjuros": 1,
+    "\"Bludgeoning\" -> \"Contundente\"": 1,
+    "@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN]{invisible} -> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN]{Invisible}": 1,
+    "pestaña Details -> pestaña Detalles": 1,
+    ">Add Species< -> >Añadir especie<": 1,
+    ">Select< -> >Seleccionar<": 1,
+    ">Add Background< -> >Añadir trasfondo<": 1,
+    ">Add Class< -> >Añadir clase<": 1,
+    "cleanup_spacing_and_ui_terms": 1,
+    "(Bludgeoning) -> ": 1,
+    "{Volar Speed} -> {Velocidad de vuelo}": 2,
+    "{Barbarians} -> {Bárbaros}": 1,
+    "{Clerics} -> {Clérigos}": 1,
+    "<span class=\"reference\"><em class=\"fas fa-list\"> </em> Features</span> -> <span class=\"reference\"><em class=\"fas fa-list\"> </em> Rasgos</span>": 2,
+    "{Druids} -> {Druidas}": 1,
+    "{Woodcarver’s Tools} -> {Herramientas de tallador de madera}": 2,
+    "{Weaver’s Tools} -> {Herramientas de tejedor}": 2,
+    "{Fighters} -> {Guerreros}": 1,
+    "{Paladins} -> {Paladines}": 1,
+    "{Rangers} -> {Exploradores}": 1,
+    "Core Explorador Traits -> Rasgos básicos del explorador": 1,
+    "Explorador Features -> Rasgos del explorador": 2,
+    "Hit Point Die -> Dado de Puntos de Golpe": 3,
+    "{Rogues} -> {Pícaros}": 1,
+    "Core Pícaro Traits -> Rasgos básicos del pícaro": 1,
+    "Pícaro Features -> Rasgos del pícaro": 2,
+    "Thieves’ Herramientas -> Herramientas de ladrón": 1,
+    "{Sorcerers} -> {Hechiceros}": 1,
+    "Core Hechicero Traits -> Rasgos básicos del hechicero": 1,
+    "Hechicero Features -> Rasgos del hechicero": 2,
+    "Swim Speed -> Velocidad de nado": 3,
+    "Climb Speed -> Velocidad de trepar": 5,
+    "Burrow Speed -> Velocidad de excavación": 2,
+    "Volar Speed -> Velocidad de vuelo": 5,
+    "\"Unarmed Strike\" -> \"Golpe sin armas\"": 1
+  },
+  "changed_pages": [
+    {
+      "entry_id": "phbAppendixBCrea",
+      "page_id": "M5R4JXxYjPB5cRq0",
+      "page_name": "Varios"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "2Uvc5myrDs18Cf19",
+      "page_name": "Golpe sin armas"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "53c9JMqckHagYYB5",
+      "page_name": "Nadar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "69nu4Sk3V5O15GFf",
+      "page_name": "Pericia"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "Dyw6b9rQIdbkIIQD",
+      "page_name": "Armas improvisadas"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "KbQ1k0OIowtZeQgp",
+      "page_name": "Sujetado"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "NSU7TjeJbJ0vVQaZ",
+      "page_name": "Velocidad"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "QxCrRcgMdUd3gfzz",
+      "page_name": "derribado"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "UIKLZmiLuENHk1wn",
+      "page_name": "Condición"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "W8uJrd1D8NeOuawp",
+      "page_name": "Tirada de ataque"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "YSLWJcQCP6kzsPql",
+      "page_name": "Sujetando"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "Za4Q2V2fpuIMkSXH",
+      "page_name": "Tipos de daño"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "a4CjDIEMeSbRaEjA",
+      "page_name": "Trepar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "be7g0q1xBAwb8drv",
+      "page_name": "Visión verdadera"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "eNvzQabiTqTtfzis",
+      "page_name": "Ataques de oportunidad"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "fZCRaKEJd4KoQCqH",
+      "page_name": "inconsciente"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "g7DDgHsdjxZUqGD2",
+      "page_name": "Velocidad de excavación"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "ozHhbP8JVHCJAx0b",
+      "page_name": "Volar"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "pBcRxpYx5FCVGThO",
+      "page_name": "Velocidad de vuelo"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "wDGTuzKQunNrnkC8",
+      "page_name": "Velocidad de nado"
+    },
+    {
+      "entry_id": "phbAppendixCRule",
+      "page_id": "xoQXfwUFahXBoiur",
+      "page_name": "Velocidad de trepar"
+    },
+    {
+      "entry_id": "phbBarbarian0000",
+      "page_id": "z2RxKBICH6e6SkUT",
+      "page_name": "Bárbaro"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "329Lnbzx1ji9Nil7",
+      "page_name": "2.0.0"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "HCMp3uslRjZaV54z",
+      "page_name": "1.3.0"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "NUqrkSNeRfwLrcTq",
+      "page_name": "2.1.0"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "X4MrKbD8f4PUnX37",
+      "page_name": "1.4.0"
+    },
+    {
+      "entry_id": "phbChangelog0000",
+      "page_id": "oaTqoAOtt6NpdqaV",
+      "page_name": "1.2.0"
+    },
+    {
+      "entry_id": "phbCharacterClas",
+      "page_id": "jlSMyO89AI0ZtQjd",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbCleric0000000",
+      "page_id": "acPyA6A4DQBSnuZB",
+      "page_name": "Clérigo"
+    },
+    {
+      "entry_id": "phbCombat0000000",
+      "page_id": "E9fzdKGx4UxrtOG7",
+      "page_name": "Movimiento y posición"
+    },
+    {
+      "entry_id": "phbConditions000",
+      "page_id": "BuIBCfux6QYAah3q",
+      "page_name": "Visión general"
+    },
+    {
+      "entry_id": "phbCreatingAChar",
+      "page_id": "l4eqkEUGLVS2jBhO",
+      "page_name": "Crea tu personaje"
+    },
+    {
+      "entry_id": "phbDruid00000000",
+      "page_id": "UCOh3zlvGxyk5jLr",
+      "page_name": "Druida"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "cfhVAnmKmLQ5RUmD",
+      "page_name": "Tabla de equipo de aventura"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "dWQ2ZTLOuKr3PMAx",
+      "page_name": "Armas"
+    },
+    {
+      "entry_id": "phbEquipment0000",
+      "page_id": "ibFcHkHH1icuT3l8",
+      "page_name": "Herramientas de artesano"
+    },
+    {
+      "entry_id": "phbFeats00000000",
+      "page_id": "GxfrwkJbrIvn7reC",
+      "page_name": "Dotes de don épico"
+    },
+    {
+      "entry_id": "phbFeats00000000",
+      "page_id": "otAeQs0TLHYIBNuj",
+      "page_name": "Dotes de origen"
+    },
+    {
+      "entry_id": "phbFighter000000",
+      "page_id": "wDELe3k25FQvYdrq",
+      "page_name": "Guerrero"
+    },
+    {
+      "entry_id": "phbMountsAndVehi",
+      "page_id": "NVPIUDJEdFDaErTg",
+      "page_name": "Monturas y carga"
+    },
+    {
+      "entry_id": "phbMountsAndVehi",
+      "page_id": "oXm4zg000veQxNUk",
+      "page_name": "Vehículos grandes"
+    },
+    {
+      "entry_id": "phbPaladin000000",
+      "page_id": "A34CXe4HdzXHoBEl",
+      "page_name": "Paladín"
+    },
+    {
+      "entry_id": "phbRanger0000000",
+      "page_id": "fgzoeAJE4EEUSOYQ",
+      "page_name": "Explorador"
+    },
+    {
+      "entry_id": "phbRogue00000000",
+      "page_id": "gJV8iDqdNhRMLi5r",
+      "page_name": "Pícaro"
+    },
+    {
+      "entry_id": "phbSorcerer00000",
+      "page_id": "fsqRUA4acVXH4I3O",
+      "page_name": "Hechicero"
+    }
+  ]
+}

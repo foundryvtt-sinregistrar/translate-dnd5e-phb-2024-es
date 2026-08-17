@@ -1,0 +1,188 @@
+{
+  "_meta": {
+    "source": "dnd-players-handbook.classes-v003.json",
+    "output": "dnd-players-handbook.classes-v004.json",
+    "phase": "v004 - activities.condition",
+    "changes_count": 65,
+    "unique_source_conditions_changed": 46,
+    "residual_suspicious_conditions": 0
+  },
+  "changed_conditions_examples": [
+    {
+      "entry_key": "phbbrdTandemFoot",
+      "entry_name": "Paso al Unísono",
+      "activity_key": "dnd5eactivity000",
+      "from": "Cuando tires iniciativa y no estés Incapacitated.",
+      "to": "Cuando tires iniciativa y no estés incapacitado."
+    },
+    {
+      "entry_key": "phbmmoCarefulSpe",
+      "entry_name": "Conjuro cuidadoso",
+      "activity_key": "jD3THRjOL2ILRYuM",
+      "from": "When you cast a conjuro that forces other creatures to make a saving throw",
+      "to": "Cuando lances un conjuro que obligue a otras criaturas a hacer una tirada de salvación"
+    },
+    {
+      "entry_key": "phbmmoDistantSpe",
+      "entry_name": "Conjuro distante",
+      "activity_key": "WMoNZCe0IyHlRLM4",
+      "from": "When you cast a conjuro that has a range of at least 5 pies or when you cast a conjuro that has a range of Touch",
+      "to": "Cuando lances un conjuro con un alcance de al menos 5 pies o cuando lances un conjuro con alcance de toque"
+    },
+    {
+      "entry_key": "phbmmoEmpoweredS",
+      "entry_name": "Conjuro potenciado",
+      "activity_key": "NkEwJOEFigqsdbZy",
+      "from": "When you roll damage for a conjuro",
+      "to": "Cuando tires el daño de un conjuro"
+    },
+    {
+      "entry_key": "phbmmoExtendedSp",
+      "entry_name": "Conjuro prolongado",
+      "activity_key": "WGQHGHweOlSpZDHp",
+      "from": "When you cast a conjuro that has a duration of 1 minute or longer",
+      "to": "Cuando lances un conjuro cuya duración sea de 1 minuto o más"
+    },
+    {
+      "entry_key": "phbmmoHeightened",
+      "entry_name": "Conjuro intensificado",
+      "activity_key": "uHwIuPfMDD9sxVa9",
+      "from": "When you cast a conjuro that forces a creature to make a saving throw",
+      "to": "Cuando lances un conjuro que obligue a una criatura a hacer una tirada de salvación"
+    },
+    {
+      "entry_key": "phbmmoQuickenedS",
+      "entry_name": "Conjuro acelerado",
+      "activity_key": "leFbHb9SZwDix2TU",
+      "from": "When you cast a conjuro that has a casting time of an action",
+      "to": "Cuando lances un conjuro cuyo tiempo de lanzamiento sea una acción"
+    },
+    {
+      "entry_key": "phbmmoSeekingSpe",
+      "entry_name": "Conjuro certero",
+      "activity_key": "vudKvHh2PbAiDXSE",
+      "from": "When you make an attack roll for a conjuro and miss",
+      "to": "Cuando hagas una tirada de ataque para un conjuro y falles"
+    },
+    {
+      "entry_key": "phbmmoSubtleSpel",
+      "entry_name": "Conjuro sutil",
+      "activity_key": "9jWUnfRzs0TqKWC2",
+      "from": "When you cast a conjuro",
+      "to": "Cuando lances un conjuro"
+    },
+    {
+      "entry_key": "phbmmoTransmuted",
+      "entry_name": "Conjuro transmutado",
+      "activity_key": "FT1V43gRA47fCA51",
+      "from": "When you cast a conjuro that deals Acid, Cold, Fire, Lightning, Poison, or Thunder damage",
+      "to": "Cuando lances un conjuro que inflija daño de ácido, frío, fuego, relámpago, veneno o trueno"
+    },
+    {
+      "entry_key": "phbmmoTwinnedSpe",
+      "entry_name": "Conjuro duplicado",
+      "activity_key": "WsG9JmGU7gRGiTRq",
+      "from": "When you cast a conjuro that can be upcast to target an additional creature",
+      "to": "Cuando lances un conjuro que pueda lanzarse con un espacio superior para elegir como objetivo a una criatura adicional"
+    },
+    {
+      "entry_key": "phbmnkCloakOfSha",
+      "entry_name": "Manto de sombras",
+      "activity_key": "PCabpSdfoEUocWya",
+      "from": "While entirely within Dim Luz or Oscuridad",
+      "to": "Mientras estés por completo en Luz tenue u Oscuridad"
+    },
+    {
+      "entry_key": "phbmnkDeflectAtt",
+      "entry_name": "Desviar ataques",
+      "activity_key": "dJv36KHyIVsbD00p",
+      "from": "If you reduce the damage to 0",
+      "to": "Si reduces el daño a 0"
+    },
+    {
+      "entry_key": "phbmnkDeflectAtt",
+      "entry_name": "Desviar ataques",
+      "activity_key": "rQwRKkuZ7WhnB7v7",
+      "from": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage",
+      "to": "Cuando una tirada de ataque te impacte y su daño incluya daño contundente, perforante o cortante"
+    },
+    {
+      "entry_key": "phbmnkDeflectEne",
+      "entry_name": "Desviar energía",
+      "activity_key": "AnEiO80Ga3etD595",
+      "from": "If you reduce the damage to 0",
+      "to": "Si reduces el daño a 0"
+    },
+    {
+      "entry_key": "phbmnkDeflectEne",
+      "entry_name": "Desviar energía",
+      "activity_key": "F7NbTRmkUTDDZxj7",
+      "from": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage",
+      "to": "Cuando una tirada de ataque te impacte y su daño incluya daño contundente, perforante o cortante"
+    },
+    {
+      "entry_key": "phbmnkElementalA",
+      "entry_name": "Armonización elemental",
+      "activity_key": "vUWH2QBMG6gewncl",
+      "from": "When you deal Elemental Strike damage",
+      "to": "Cuando inflijas daño de Golpe elemental"
+    },
+    {
+      "entry_key": "phbmnkElementalE",
+      "entry_name": "Epítome elemental",
+      "activity_key": "a5WGe405dvalmJKa",
+      "from": "Once on each of your turns when you hit with an Unarmed Strike",
+      "to": "Una vez en cada uno de tus turnos, cuando impactes con un golpe sin armas"
+    },
+    {
+      "entry_key": "phbmnkElementalE",
+      "entry_name": "Epítome elemental",
+      "activity_key": "dgweOd8lDt6TRI0e",
+      "from": "When you use your Step of the Wind",
+      "to": "Cuando uses tu Paso del viento"
+    },
+    {
+      "entry_key": "phbmnkElementalE",
+      "entry_name": "Epítome elemental",
+      "activity_key": "qE2UY5XJjYB5wZ1t",
+      "from": "While your Elemental Attunement is active",
+      "to": "Mientras tu Armonización elemental esté activa"
+    },
+    {
+      "entry_key": "phbmnkHeightened",
+      "entry_name": "Enfoque intensificado",
+      "activity_key": "x5fBC7ybAnr79AxK",
+      "from": "When you expend a Focus Point to use Patient Defensa",
+      "to": "Cuando gastes un punto de enfoque para usar Defensa paciente"
+    },
+    {
+      "entry_key": "phbmnkOpenHandTe",
+      "entry_name": "Técnica de la mano abierta",
+      "activity_key": "1jdSaWanuRrdkVs3",
+      "from": "Whenever you hit a creature with an attack granted by your Flurry of Blows",
+      "to": "Siempre que impactes a una criatura con un ataque otorgado por tu Ráfaga de golpes"
+    },
+    {
+      "entry_key": "phbmnkOpenHandTe",
+      "entry_name": "Técnica de la mano abierta",
+      "activity_key": "5Qgc0K3TfuonkPIG",
+      "from": "Whenever you hit a creature with an attack granted by your Flurry of Blows",
+      "to": "Siempre que impactes a una criatura con un ataque otorgado por tu Ráfaga de golpes"
+    },
+    {
+      "entry_key": "phbmnkOpenHandTe",
+      "entry_name": "Técnica de la mano abierta",
+      "activity_key": "XoaS0RtDCGAqrQsf",
+      "from": "Whenever you hit a creature with an attack granted by your Flurry of Blows",
+      "to": "Siempre que impactes a una criatura con un ataque otorgado por tu Ráfaga de golpes"
+    },
+    {
+      "entry_key": "phbmnkPhysicians",
+      "entry_name": "Toque del médico",
+      "activity_key": "BW0d7xkRsDuv075E",
+      "from": "Once per turn when you hit a creature with an Unarmed Strike and deal damage",
+      "to": "Una vez por turno, cuando impactes a una criatura con un golpe sin armas y le causes daño"
+    }
+  ],
+  "residual_suspicious_conditions_examples": []
+}

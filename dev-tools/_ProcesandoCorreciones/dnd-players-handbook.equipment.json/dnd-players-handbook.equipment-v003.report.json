@@ -1,0 +1,92 @@
+{
+  "base_file": "dnd-players-handbook.equipment-v002.json",
+  "output_file": "dnd-players-handbook.equipment-v003.json",
+  "generated_at": "2026-03-18T12:16:32.239794",
+  "changes": {
+    "description_reference_macros_translated": 21,
+    "entries_modified": 9,
+    "by_reference": {
+      "Grappled": 6,
+      "Incapacitated": 6,
+      "Restrained": 7,
+      "Prone": 2
+    }
+  },
+  "changed_entries": [
+    {
+      "entry_id": "5KMKEV07I25SVth0",
+      "name": "Cuerda",
+      "reference_replacements": {
+        "Grappled": 1,
+        "Incapacitated": 1,
+        "Restrained": 1
+      }
+    },
+    {
+      "entry_id": "KbVt56CK4ud3FUk3",
+      "name": "Bolas de rodamiento",
+      "reference_replacements": {
+        "Prone": 1
+      }
+    },
+    {
+      "entry_id": "LfDewuKszszreg6i",
+      "name": "Cuerda",
+      "reference_replacements": {
+        "Grappled": 1,
+        "Incapacitated": 1,
+        "Restrained": 1
+      }
+    },
+    {
+      "entry_id": "phbagBallBearing",
+      "name": "Bolas de rodamiento",
+      "reference_replacements": {
+        "Prone": 1
+      }
+    },
+    {
+      "entry_id": "phbagChain000000",
+      "name": "Cadena",
+      "reference_replacements": {
+        "Grappled": 1,
+        "Incapacitated": 1,
+        "Restrained": 1
+      }
+    },
+    {
+      "entry_id": "phbagManacles000",
+      "name": "Grilletes",
+      "reference_replacements": {
+        "Grappled": 1,
+        "Incapacitated": 1,
+        "Restrained": 1
+      }
+    },
+    {
+      "entry_id": "phbagNet00000000",
+      "name": "Red",
+      "reference_replacements": {
+        "Restrained": 1
+      }
+    },
+    {
+      "entry_id": "phbagRope0000000",
+      "name": "Cuerda",
+      "reference_replacements": {
+        "Grappled": 1,
+        "Incapacitated": 1,
+        "Restrained": 1
+      }
+    },
+    {
+      "entry_id": "x8jC9e00t4cUYiKR",
+      "name": "Cuerda",
+      "reference_replacements": {
+        "Grappled": 1,
+        "Incapacitated": 1,
+        "Restrained": 1
+      }
+    }
+  ]
+}

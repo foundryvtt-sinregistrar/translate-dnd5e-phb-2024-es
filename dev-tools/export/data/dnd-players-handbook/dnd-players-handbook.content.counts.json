@@ -1,0 +1,16 @@
+{
+  "id": "dnd-players-handbook.content",
+  "fileName": "dnd-players-handbook.content.json",
+  "mapping": {
+    "pages": {
+      "path": "pages",
+      "converter": "phb2024JournalPagesById"
+    }
+  },
+  "folders": {
+    "totalFolders": 8
+  },
+  "entries": {
+    "totalEntries": 47
+  }
+}

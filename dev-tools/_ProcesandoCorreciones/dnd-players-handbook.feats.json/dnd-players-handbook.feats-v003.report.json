@@ -1,0 +1,29 @@
+{
+  "base": "dnd-players-handbook.feats-v002.json",
+  "output": "dnd-players-handbook.feats-v003.json",
+  "changes": {
+    "advancement_titles_changed": 0,
+    "advancement_title_noop_confirmed": 65,
+    "uuid_labels_replaced": 13,
+    "descriptions_changed": 10,
+    "activity_chatFlavor_changed": 2,
+    "effect_descriptions_changed": 0,
+    "entries_touched_count": 10,
+    "entries_touched": [
+      "phbBoonofEnergyR",
+      "phbBoonoftheNigh",
+      "phbfstBlessedWar",
+      "phbfstDruidicWar",
+      "phbftFeyTouched0",
+      "phbftMagicInitia",
+      "phbftPoisoner000",
+      "phbftTavernBrawl",
+      "phbftTelekinetic",
+      "phbftTelepathic0"
+    ],
+    "advancement_hints_changed": 2
+  },
+  "residual_watchlist": [
+    "Guidance"
+  ]
+}

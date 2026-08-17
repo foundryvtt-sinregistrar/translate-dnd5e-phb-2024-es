@@ -1,0 +1,494 @@
+{
+  "_meta": {
+    "generated_at": "2026-03-17T15:48:10Z",
+    "source_file": "dnd-players-handbook.classes.json",
+    "output_file": "dnd-players-handbook.classes-v005.json",
+    "scope": "entries.*.activities.*.target",
+    "version": "v005"
+  },
+  "summary": {
+    "targets_seen": 41,
+    "unique_targets_seen": 29,
+    "targets_changed": 41,
+    "unique_patterns_changed": 29,
+    "remaining_suspect_targets": 0
+  },
+  "unique_target_replacements": [
+    {
+      "old": "Ally who can see or hear you",
+      "new": "Aliado que pueda verte u oírte",
+      "count": 1
+    },
+    {
+      "old": "Can see or hear you",
+      "new": "Que pueda verte u oírte",
+      "count": 2
+    },
+    {
+      "old": "Creature you can see",
+      "new": "Criatura que puedas ver",
+      "count": 1
+    },
+    {
+      "old": "Creatures you can see",
+      "new": "Criaturas que puedas ver",
+      "count": 2
+    },
+    {
+      "old": "First creature you hit with a weapon or an Unarmed Strike",
+      "new": "Primera criatura que golpees con un arma o un golpe sin armas",
+      "count": 2
+    },
+    {
+      "old": "Isn't behind Total Cover",
+      "new": "Que no esté tras cobertura total",
+      "count": 2
+    },
+    {
+      "old": "Larger or smaller",
+      "new": "Grande o más pequeña",
+      "count": 1
+    },
+    {
+      "old": "Primal Companion",
+      "new": "Compañero primordial",
+      "count": 2
+    },
+    {
+      "old": "Primal Companion that has died within the last hour",
+      "new": "Compañero primordial que haya muerto en la última hora",
+      "count": 1
+    },
+    {
+      "old": "Primal Companion's Attack features",
+      "new": "Rasgos de Ataque del compañero primordial",
+      "count": 1
+    },
+    {
+      "old": "That you can see",
+      "new": "Que puedas ver",
+      "count": 2
+    },
+    {
+      "old": "That you choose",
+      "new": "Que elijas",
+      "count": 1
+    },
+    {
+      "old": "Touch",
+      "new": "Toque",
+      "count": 1
+    },
+    {
+      "old": "Undead",
+      "new": "Muertos vivientes",
+      "count": 1
+    },
+    {
+      "old": "Undead of your choice",
+      "new": "Muertos vivientes a tu elección",
+      "count": 1
+    },
+    {
+      "old": "Unoccupied",
+      "new": "Espacio desocupado",
+      "count": 2
+    },
+    {
+      "old": "Unoccupied space",
+      "new": "Espacio desocupado",
+      "count": 4
+    },
+    {
+      "old": "When you a hit a creature with an attack roll using a weapon once per turn",
+      "new": "Cuando golpees a una criatura con una tirada de ataque usando un arma, una vez por turno",
+      "count": 2
+    },
+    {
+      "old": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape",
+      "new": "Cuando golpees a una criatura con una tirada de ataque usando un arma o con un ataque de forma de bestia mientras estés en Forma salvaje",
+      "count": 1
+    },
+    {
+      "old": "Within 5 pies of the duplicate",
+      "new": "A 5 pies o menos del duplicado",
+      "count": 1
+    },
+    {
+      "old": "You can see",
+      "new": "Que puedas ver",
+      "count": 2
+    },
+    {
+      "old": "You can see when you gain the points",
+      "new": "Que puedas ver cuando obtengas los puntos",
+      "count": 1
+    },
+    {
+      "old": "Your duplicate",
+      "new": "Tu duplicado",
+      "count": 1
+    },
+    {
+      "old": "Your familiar",
+      "new": "Tu familiar",
+      "count": 1
+    },
+    {
+      "old": "bonded weapon",
+      "new": "Arma vinculada",
+      "count": 1
+    },
+    {
+      "old": "currently unbound weapon",
+      "new": "Arma no vinculada actualmente",
+      "count": 1
+    },
+    {
+      "old": "hit by elemental damage from imbued strike",
+      "new": "Criatura golpeada por daño elemental de Golpe imbuido",
+      "count": 1
+    },
+    {
+      "old": "within 10 pies of you",
+      "new": "A 10 pies o menos de ti",
+      "count": 1
+    },
+    {
+      "old": "within 30 pies",
+      "new": "A 30 pies o menos",
+      "count": 1
+    }
+  ],
+  "changes": [
+    {
+      "entry_key": "phbbrbDivineFury",
+      "entry_name": "Furia divina",
+      "activity_key": "LAMSQQ3i8NNzanUw",
+      "activity_name": "Furia divina necrótica",
+      "old_target": "First creature you hit with a weapon or an Unarmed Strike",
+      "new_target": "Primera criatura que golpees con un arma o un golpe sin armas"
+    },
+    {
+      "entry_key": "phbbrbDivineFury",
+      "entry_name": "Furia divina",
+      "activity_key": "wtC08LDH1A38krl7",
+      "activity_name": "Furia divina radiante",
+      "old_target": "First creature you hit with a weapon or an Unarmed Strike",
+      "new_target": "Primera criatura que golpees con un arma o un golpe sin armas"
+    },
+    {
+      "entry_key": "phbbrbTravelAlon",
+      "entry_name": "Viajar por el Árbol",
+      "activity_key": "mh4XxabSpGFITcO2",
+      "activity_name": "Teletransporte ampliado",
+      "old_target": "within 10 pies of you",
+      "new_target": "A 10 pies o menos de ti"
+    },
+    {
+      "entry_key": "phbbrdTandemFoot",
+      "entry_name": "Paso al Unísono",
+      "activity_key": "dnd5eactivity000",
+      "activity_name": "Bonificador a Iniciativa",
+      "old_target": "Ally who can see or hear you",
+      "new_target": "Aliado que pueda verte u oírte"
+    },
+    {
+      "entry_key": "phbclcChannelDiv",
+      "entry_name": "Canalizar Divinidad",
+      "activity_key": "aOptL5pMaj3WtR8S",
+      "activity_name": "Expulsar muertos vivientes",
+      "old_target": "Undead of your choice",
+      "new_target": "Muertos vivientes a tu elección"
+    },
+    {
+      "entry_key": "phbclcImprovedDu",
+      "entry_name": "Duplicidad Mejorada",
+      "activity_key": "dnd5eactivity000",
+      "activity_name": "Ilusión sanadora",
+      "old_target": "Within 5 pies of the duplicate",
+      "new_target": "A 5 pies o menos del duplicado"
+    },
+    {
+      "entry_key": "phbclcInvokeDupl",
+      "entry_name": "Invocar Duplicidad",
+      "activity_key": "VYaBlCeCIurkfcUZ",
+      "activity_name": "Mover duplicado",
+      "old_target": "within 30 pies",
+      "new_target": "A 30 pies o menos"
+    },
+    {
+      "entry_key": "phbclcSearUndead",
+      "entry_name": "Chamuscado de Muertos Vivientes",
+      "activity_key": "fW3U8L8Ca9a6O9Wx",
+      "activity_name": "Canalizar divinidad: Expulsar muertos vivientes",
+      "old_target": "Undead",
+      "new_target": "Muertos vivientes"
+    },
+    {
+      "entry_key": "phbclcTricksters",
+      "entry_name": "Transposición del Embaucador",
+      "activity_key": "dnd5eactivity000",
+      "activity_name": "Transponer",
+      "old_target": "Your duplicate",
+      "new_target": "Tu duplicado"
+    },
+    {
+      "entry_key": "phbDivineStrike0",
+      "entry_name": "Golpes benditos: Golpe divino",
+      "activity_key": "MbCGfaQAeW2rzNWb",
+      "activity_name": "Golpe divino radiante",
+      "old_target": "When you a hit a creature with an attack roll using a weapon once per turn",
+      "new_target": "Cuando golpees a una criatura con una tirada de ataque usando un arma, una vez por turno"
+    },
+    {
+      "entry_key": "phbDivineStrike0",
+      "entry_name": "Golpes benditos: Golpe divino",
+      "activity_key": "uYVz8MBW0EZ2X0zD",
+      "activity_name": "Golpe divino necrótico",
+      "old_target": "When you a hit a creature with an attack roll using a weapon once per turn",
+      "new_target": "Cuando golpees a una criatura con una tirada de ataque usando un arma, una vez por turno"
+    },
+    {
+      "entry_key": "phbdrdMoonlightS",
+      "entry_name": "Paso a la Luz de la Luna",
+      "activity_key": "dnd5eactivity000",
+      "activity_name": "Transportarse",
+      "old_target": "Unoccupied space",
+      "new_target": "Espacio desocupado"
+    },
+    {
+      "entry_key": "phbftrKnowYourEn",
+      "entry_name": "Conoce a tu enemigo",
+      "activity_key": "wLW7ki9v7rDBxW1k",
+      "activity_name": "Discernir fortalezas y debilidades",
+      "old_target": "Creature you can see",
+      "new_target": "Criatura que puedas ver"
+    },
+    {
+      "entry_key": "phbftrWarBond000",
+      "entry_name": "Vínculo de guerra",
+      "activity_key": "eul9Wm3isSjjMORh",
+      "activity_name": "Invocar arma",
+      "old_target": "bonded weapon",
+      "new_target": "Arma vinculada"
+    },
+    {
+      "entry_key": "phbftrWarBond000",
+      "entry_name": "Vínculo de guerra",
+      "activity_key": "Zrpvke0w6MeFeerZ",
+      "activity_name": "Vincular con arma",
+      "old_target": "currently unbound weapon",
+      "new_target": "Arma no vinculada actualmente"
+    },
+    {
+      "entry_key": "phbFuryPrimalStr",
+      "entry_name": "Furia elemental: Golpe primigenio",
+      "activity_key": "lHdiTksQmeJBFrf7",
+      "activity_name": "Golpe primigenio",
+      "old_target": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape",
+      "new_target": "Cuando golpees a una criatura con una tirada de ataque usando un arma o con un ataque de forma de bestia mientras estés en Forma salvaje"
+    },
+    {
+      "entry_key": "phbinvGazeofTwoM",
+      "entry_name": "Mirada de dos mentes",
+      "activity_key": "TqjZeWzJpT25ZX8s",
+      "activity_name": "Mirada de dos mentes",
+      "old_target": "Touch",
+      "new_target": "Toque"
+    },
+    {
+      "entry_key": "phbinvInvestment",
+      "entry_name": "Inversión del amo de la cadena",
+      "activity_key": "fHEY2QcPTBaT4lBF",
+      "activity_name": "Imbuir con resistencia",
+      "old_target": "Your familiar",
+      "new_target": "Tu familiar"
+    },
+    {
+      "entry_key": "phbmnkDeflectAtt",
+      "entry_name": "Desviar ataques",
+      "activity_key": "dJv36KHyIVsbD00p",
+      "activity_name": "Redirigir",
+      "old_target": "Isn't behind Total Cover",
+      "new_target": "Que no esté tras cobertura total"
+    },
+    {
+      "entry_key": "phbmnkDeflectEne",
+      "entry_name": "Desviar energía",
+      "activity_key": "AnEiO80Ga3etD595",
+      "activity_name": "Redirigir",
+      "old_target": "Isn't behind Total Cover",
+      "new_target": "Que no esté tras cobertura total"
+    },
+    {
+      "entry_key": "phbmnkElementalA",
+      "entry_name": "Armonización elemental",
+      "activity_key": "vUWH2QBMG6gewncl",
+      "activity_name": "Salvación elemental",
+      "old_target": "hit by elemental damage from imbued strike",
+      "new_target": "Criatura golpeada por daño elemental de Golpe imbuido"
+    },
+    {
+      "entry_key": "phbmnkImprovedSh",
+      "entry_name": "Paso sombrío mejorado",
+      "activity_key": "wUptpPoTTmYwEHTe",
+      "activity_name": "Paso sombrío mejorado",
+      "old_target": "Unoccupied space",
+      "new_target": "Espacio desocupado"
+    },
+    {
+      "entry_key": "phbmnkShadowStep",
+      "entry_name": "Paso sombrío",
+      "activity_key": "Q1ZC1so4EDE9EyV7",
+      "activity_name": "Paso sombrío",
+      "old_target": "Unoccupied space",
+      "new_target": "Espacio desocupado"
+    },
+    {
+      "entry_key": "phbmnvCommanders",
+      "entry_name": "Golpe del comandante",
+      "activity_key": "spcp6PQ8947Ds4Qg",
+      "activity_name": "Ataque dirigido",
+      "old_target": "Can see or hear you",
+      "new_target": "Que pueda verte u oírte"
+    },
+    {
+      "entry_key": "phbmnvManeuverin",
+      "entry_name": "Ataque de maniobra",
+      "activity_key": "JpsQYtXEwkR4OZn7",
+      "activity_name": "Maniobrar",
+      "old_target": "Can see or hear you",
+      "new_target": "Que pueda verte u oírte"
+    },
+    {
+      "entry_key": "phbrgeCunningStr",
+      "entry_name": "Golpe astuto",
+      "activity_key": "dWcCw1vTWRMx4YzD",
+      "activity_name": "Derribar",
+      "old_target": "Larger or smaller",
+      "new_target": "Grande o más pequeña"
+    },
+    {
+      "entry_key": "phbrgePsionicPow",
+      "entry_name": "Poder psiónico",
+      "activity_key": "doKz9cXC8vEqV8TG",
+      "activity_name": "Susurros psíquicos (gratuito)",
+      "old_target": "Creatures you can see",
+      "new_target": "Criaturas que puedas ver"
+    },
+    {
+      "entry_key": "phbrgePsionicPow",
+      "entry_name": "Poder psiónico",
+      "activity_key": "UJRfxrJ9qUnsJBPp",
+      "activity_name": "Susurros psíquicos",
+      "old_target": "Creatures you can see",
+      "new_target": "Criaturas que puedas ver"
+    },
+    {
+      "entry_key": "phbrgeSoulBlades",
+      "entry_name": "Hojas del alma",
+      "activity_key": "KyFxvisMIoL1OXRa",
+      "activity_name": "Teletransportación psíquica",
+      "old_target": "Unoccupied space",
+      "new_target": "Espacio desocupado"
+    },
+    {
+      "entry_key": "phbrgrExceptiona",
+      "entry_name": "Entrenamiento excepcional",
+      "activity_key": "me8v2ec00BryjJyK",
+      "activity_name": "Ordenar al compañero",
+      "old_target": "Primal Companion",
+      "new_target": "Compañero primordial"
+    },
+    {
+      "entry_key": "phbrgrExceptiona",
+      "entry_name": "Entrenamiento excepcional",
+      "activity_key": "XUK2CSbRYnpEgB5J",
+      "activity_name": "Entrenar compañero",
+      "old_target": "Primal Companion's Attack features",
+      "new_target": "Rasgos de Ataque del compañero primordial"
+    },
+    {
+      "entry_key": "phbrgrPrimalComp",
+      "entry_name": "Compañero primordial",
+      "activity_key": "2yp6Wab81zhE5XAj",
+      "activity_name": "Invocar compañero",
+      "old_target": "Unoccupied",
+      "new_target": "Espacio desocupado"
+    },
+    {
+      "entry_key": "phbrgrPrimalComp",
+      "entry_name": "Compañero primordial",
+      "activity_key": "Jtr7GXnCHb85xHg8",
+      "activity_name": "Ordenar",
+      "old_target": "Primal Companion",
+      "new_target": "Compañero primordial"
+    },
+    {
+      "entry_key": "phbrgrPrimalComp",
+      "entry_name": "Compañero primordial",
+      "activity_key": "nmuppQvpw52aVeaf",
+      "activity_name": "Restaurar compañero",
+      "old_target": "Primal Companion that has died within the last hour",
+      "new_target": "Compañero primordial que haya muerto en la última hora"
+    },
+    {
+      "entry_key": "phbrgrShadowyDod",
+      "entry_name": "Esquiva Sombría",
+      "activity_key": "0DMuCuULnpS5lIR5",
+      "activity_name": "Esquiva Sombría",
+      "old_target": "Unoccupied",
+      "new_target": "Espacio desocupado"
+    },
+    {
+      "entry_key": "phbscrRestoreBal",
+      "entry_name": "Restablecer el Equilibrio",
+      "activity_key": "nx7BmSJnY8WZV8Mv",
+      "activity_name": "Evitar Ventaja/Desventaja",
+      "old_target": "You can see",
+      "new_target": "Que puedas ver"
+    },
+    {
+      "entry_key": "phbscrTelepathic",
+      "entry_name": "Discurso Telepático",
+      "activity_key": "wA0tk32liOOVBDHy",
+      "activity_name": "Discurso Telepático",
+      "old_target": "You can see",
+      "new_target": "Que puedas ver"
+    },
+    {
+      "entry_key": "phbwlkMistyEscap",
+      "entry_name": "Escape Brumoso",
+      "activity_key": "kj8zIhPbjs4UIHtc",
+      "activity_name": "Paso Pavoroso",
+      "old_target": "That you choose",
+      "new_target": "Que elijas"
+    },
+    {
+      "entry_key": "phbwlkResilience",
+      "entry_name": "Resiliencia Celestial",
+      "activity_key": "RcOD8an5PifIcVfn",
+      "activity_name": "PG de Criaturas Elegidas",
+      "old_target": "You can see when you gain the points",
+      "new_target": "Que puedas ver cuando obtengas los puntos"
+    },
+    {
+      "entry_key": "phbwlkStepsOfThe",
+      "entry_name": "Pasos de las Hadas",
+      "activity_key": "QUbshQXhUDQqlu2s",
+      "activity_name": "Paso Refrescante",
+      "old_target": "That you can see",
+      "new_target": "Que puedas ver"
+    },
+    {
+      "entry_key": "phbwzdProjectedW",
+      "entry_name": "Guarda proyectada",
+      "activity_key": "THaODa86JJaeoWfL",
+      "activity_name": "Proyectar guarda",
+      "old_target": "That you can see",
+      "new_target": "Que puedas ver"
+    }
+  ],
+  "remaining_suspect_targets": []
+}

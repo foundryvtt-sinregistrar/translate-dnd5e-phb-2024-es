@@ -1,0 +1,977 @@
+{
+  "_id": "7WJp9vhi6F6SlAFa",
+  "name": "Brujo",
+  "type": "class",
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Como brujo, obtienes los siguientes ragos de clase.</p><h3>Puntos de Golpe</h3><p><strong>Dados de Golpe:</strong> 1d8 por nivel de brujo<br /><strong>Puntos de Golpe a nivel 1:</strong> 8 + tu modificador por Constitución<br /><strong>Puntos de Golpe a niveles superiores:</strong> 1d8 (o 5) + tu modificador por Constitución por cada nivel de brujo por encima del primero</p><h3>Competencias</h3><p><strong>Armadura:</strong> armaduras ligeras<br /><strong>Armas:</strong> armas sencillas<br /><strong>Herramientas:</strong> Ninguna<br /><strong>Tiradas de Salvación:</strong> Sabiduría, Carisma<br /><strong>Habilidades:</strong> escoge dos de entre Conocimiento Arcano, Engaño, Historia, Intimidación, Investigación, Naturaleza y Religión</p><h3>Equipo</h3><p>Además del equipo que obtengas por tu trasfondo, empiezas con el siguiente equipo:</p><ul><li>(a) una ballesta ligera y 20 virotes o (b) cualquier arma sencilla</li><li>(a) un saquito de componentes o (b) un canalizador arcano</li><li>(a) un paquete de erudito o (b) un paquete de explorador de mazmorras</li><li>Armadura de cuero, cualquier arma sencilla y dos dagas</li></ul><h1>El Brujo</h1><table><thead><tr><td>Nivel</td><td>Bon. por competencia</td><td>Rasgos</td><td>Invocaciones conocidas</td></tr></thead><tbody><tr><td>1</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jTXHaK0vvT5DV3uO]{Patrón Sobrenatural}, @UUID[Compendium.dnd5e.classfeatures.Item.x6IJZwr6f0SGral7]{Magia del Pacto}</td><td>̶</td></tr><tr><td>2</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.8MlxM2nEfE3Q0EVk]{Invocaciones Sobrenaturales}</td><td>2</td></tr><tr><td>3</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QwgfIpCN8VWfoUtX]{Beneficio del Pacto}</td><td>2</td></tr><tr><td>4</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>2</td></tr><tr><td>5</td><td>+3</td><td>Conjuros de Nivel 3, +1 Invocación</td><td>3</td></tr><tr><td>6</td><td>+3</td><td>Rasgo de Patrón Sobrenatural</td><td>3</td></tr><tr><td>7</td><td>+3</td><td>Conjuros de Nivel 4, +1 Invocación</td><td>4</td></tr><tr><td>8</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>4</td></tr><tr><td>9</td><td>+4</td><td>Conjuros de Nivel 5, +1 Invocación</td><td>5</td></tr><tr><td>10</td><td>+4</td><td>Rasgo de Patrón Sobrenatural</td><td>5</td></tr><tr><td>11</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Místico (nivel 6)}</td><td>5</td></tr><tr><td>12</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}, +1 Invocación</td><td>6</td></tr><tr><td>13</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Místico (nivel 7)}</td><td>6</td></tr><tr><td>14</td><td>+5</td><td>Rasgo de Patrón Sobrenatural</td><td>6</td></tr><tr><td>15</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Místico (nivel 8)}, +1 Invocación</td><td>7</td></tr><tr><td>16</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>7</td></tr><tr><td>17</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Místico (nivel 9)}</td><td>7</td></tr><tr><td>18</td><td>+6</td><td>+1 Invocación</td><td>8</td></tr><tr><td>19</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Mejora de Característica}</td><td>8</td></tr><tr><td>20</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.0C04rwyvoknvFYiy]{Maestro Sobrenatural}</td><td>8</td></tr></tbody></table><hr /><h3>Tu Beneficio del Pacto</h3><p>Cada opción de Beneficio del Pacto crea una criatura u objeto especial que refleja la naturaleza de tu patrón.</p><p><em><strong>Pacto de la Cadena.</strong></em> Tu familiar es más astuto de lo normal. Su forma natural puede ser un reflejo de tu patrón. Los duendes y los pseudodragones están vinculados con el Señor Feérico y los diablillos y quasits con el Infernal.</p><p><em><strong>Pacto del Filo.</strong></em> Si sirves al Infernal, tu arma podría tomar la forma de un hacha fabricada con metal negro y adornada con filigranas imitando llamas.</p><p><em><strong>Pacto del Grimorio.</strong></em> Tu Libro de las Sombras podría ser un pesado tomo encuadernado en piel de demonio con remaches de hierro, que contuviera en su interior magia de conjuración y abundantes saberes prohibidos, relativos a las regiones más siniestras del cosmos, un obsequio del Infernal.</p><hr /><h1>Patrones Sobrenaturales</h1><p>Los seres que sirven de patrones a los brujos son poderosos habitantes de otros planos de existencia. No son dioses, pero su poder es prácticamente equivalente al de una deidad. Cada patrón da a sus brujos acceso a poderes e invocaciones diferentes y espera favores considerables a cambio.</p><p>Algunos patrones coleccionan brujos, otorgando conocimientos místicos libremente y presumiendo de su capacidad para atar mortales a su voluntad. Otros solo conceden sus dones a regañadientes. Es posible que incluso elijan a un único brujo. Aquellos brujos que comparten patrón pueden ver al resto de siervos de su amo como aliados, hermanos o rivales.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.WPFVBg589uI8iOMH]{El Infernal}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "warlock",
+    "levels": 1,
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "title": "Hit Points",
+        "icon": "systems/dnd5e/icons/svg/hit-points.svg",
+        "_id": "Xdh0dw6w16k5xFbX"
+      },
+      {
+        "_id": "BTAE9XqCBbyv4O8P",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "25XLH7yn1R41rKlk",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "H0U9QH2KQj0lIrDK",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "4DBaeL7SR77vUp6F",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:dec",
+                "skills:his",
+                "skills:itm",
+                "skills:inv",
+                "skills:nat",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.jTXHaK0vvT5DV3uO",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.x6IJZwr6f0SGral7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Features",
+        "_id": "SikU7aSV7VqT2FPB"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.8MlxM2nEfE3Q0EVk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Features",
+        "_id": "11NYHMcme54WJHuU"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.QwgfIpCN8VWfoUtX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Features",
+        "_id": "buIwQBGbWz96fhau"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.zB77V8BcCJvWVxck",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Features",
+        "_id": "eJpkbBgde3FQyJ7s"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.0C04rwyvoknvFYiy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Features",
+        "_id": "98N1iW9C8krNSPuJ"
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "2": {
+              "count": 2,
+              "replacement": false
+            },
+            "5": {
+              "count": 1,
+              "replacement": false
+            },
+            "7": {
+              "count": 1,
+              "replacement": false
+            },
+            "9": {
+              "count": 1,
+              "replacement": false
+            },
+            "12": {
+              "count": 1,
+              "replacement": false
+            },
+            "15": {
+              "count": 1,
+              "replacement": false
+            },
+            "18": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.2fyuw7MiCnocDeAU"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.alUqO6c6OEKFQJdb"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.QEuH5TeBN4PPYT2g"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.61kXR1sniXHjvN17"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.eNvpIaSnJUdF8fHl"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.KygHql3cTj4IRrvZ"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.CFIYXDmbmSP8BXjN"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Phy02H5x0TKHd7T3"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.3sN91lT1R3oxcDKd"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.QBk1RsuTIEF4GEBC"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.bbUEsCPTLzbbwK6o"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.r01WtcxTg4yTHm9m"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.lEZKbWaVrSljRa9n"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.id0gmGvzNZBEdzbx"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.65ReXU4ZWqcSs3Cm"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.zUIAzBnyt0NDvVXb"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.MhJfdBl1B7PdU4oZ"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.lxfdjLer3uKjyZqU"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.QnRKYXb2bXpnNd2k"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.DjXi0IkCTbJx1gsp"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.k5DU0mMuYVHejiqz"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.KfnUyjUWAk0bAAus"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.8zciiglzEOZo7DDN"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.rdBPd6CwqXT64iJM"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Xa2MLUJGCReJ28B7"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.dTSV0xZMpY5CxkRk"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.rhbwDZ9XNTmdkX2u"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.pJADgAxxefgcATWr"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.zYIdNAjqRyhS6qWs"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.k5M8gsl7MMcdjOjs"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.gFjxo01hAN4c9hDG"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.snsjxGfmzWfZR5Nh"
+            }
+          ],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          },
+          "restriction": {
+            "type": "class",
+            "subtype": "eldritchInvocation",
+            "level": "",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Eldritch Invocations",
+        "_id": "3iQ0rp3fm10XWLJ4",
+        "hint": "If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class."
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.9dSSa68mIPoX2ezA"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Ic1CSjvbWKudVUv9"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.MYM908WLZ1lVvA1u"
+            }
+          ],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          },
+          "restriction": {
+            "type": "class",
+            "subtype": "pact",
+            "level": "",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Pact Boon",
+        "_id": "mwFfObsz7bZQjFl1"
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "11": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "6",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Mystic Arcanum (6th level)",
+        "_id": "XtoK5DVOTjQ7PJ3H",
+        "hint": "Choose one 6th-level spell from the warlock spell list as this arcanum."
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "13": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "7",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Mystic Arcanum (7th level)",
+        "_id": "6TfqypKVuWsAprw7",
+        "hint": "Choose one 7th-level spell from the warlock spell list as this arcanum."
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "15": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "8",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Mystic Arcanum (8th level)",
+        "_id": "qFhNGSirvpbXMSwo",
+        "hint": "Choose one 8th-level spell from the warlock spell list as this arcanum."
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "17": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "9",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Mystic Arcanum (9th level)",
+        "_id": "zTE0N2sPRw039qCl",
+        "hint": "Choose one 9th-level spell from the warlock spell list as this arcanum."
+      },
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "cantrips-known",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "4": {
+              "value": 3
+            },
+            "10": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "Cantrips Known",
+        "_id": "IXXGQe1feA5cBsOH"
+      },
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "spells-known",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "2": {
+              "value": 3
+            },
+            "3": {
+              "value": 4
+            },
+            "4": {
+              "value": 5
+            },
+            "5": {
+              "value": 6
+            },
+            "6": {
+              "value": 7
+            },
+            "7": {
+              "value": 8
+            },
+            "8": {
+              "value": 9
+            },
+            "9": {
+              "value": 10
+            },
+            "11": {
+              "value": 11
+            },
+            "13": {
+              "value": 12
+            },
+            "15": {
+              "value": 13
+            },
+            "17": {
+              "value": 14
+            },
+            "19": {
+              "value": 15
+            }
+          }
+        },
+        "value": {},
+        "title": "Spells Known",
+        "_id": "zfiyBsaOuE359vfA"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "Ability Score Improvement",
+        "_id": "9tW2ZcVYgy8c3ucN"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "Ability Score Improvement",
+        "_id": "QH0eaxybQeeDjRan"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "Ability Score Improvement",
+        "_id": "Gz5OR2HizUVLjnrv"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "Ability Score Improvement",
+        "_id": "lx0PINdjgWtIMbQU"
+      },
+      {
+        "_id": "puDaUsYrlks0z5gm",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": ""
+      },
+      {
+        "_id": "vibumq2vxjl9tmk4",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 1,
+        "title": "Otherworldly Patron"
+      }
+    ],
+    "spellcasting": {
+      "progression": "pact",
+      "ability": "cha",
+      "preparation": {
+        "formula": ""
+      }
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "_id": "RPQn8qHHgFuv8iuq",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "AND",
+        "_id": "MLmgWE8HTNyYUVCm",
+        "group": "RPQn8qHHgFuv8iuq",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.ddWvQRLmnnIS0eLF",
+        "_id": "0iXaDK1xGY1kplbv",
+        "group": "MLmgWE8HTNyYUVCm",
+        "sort": 700000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": 20,
+        "key": "Compendium.dnd5e.items.Item.SItCnYBqhzqBoaWG",
+        "_id": "bbVJesyEsqU9erZD",
+        "group": "MLmgWE8HTNyYUVCm",
+        "sort": 800000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "_id": "K2etijekPhdrNlkA",
+        "group": "RPQn8qHHgFuv8iuq",
+        "sort": 900000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "OR",
+        "_id": "Hmu9UVm2FLx8a0hP",
+        "group": "",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.eZGmdOhaTWMicXPW",
+        "_id": "5gYnVm0OTjAAMqd0",
+        "group": "Hmu9UVm2FLx8a0hP",
+        "sort": 1000000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "focus",
+        "count": null,
+        "key": "arcane",
+        "_id": "nZok8xigEnLcyWLP",
+        "group": "Hmu9UVm2FLx8a0hP",
+        "sort": 1100000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "OR",
+        "_id": "A8YnFghs57uPBOZi",
+        "group": "",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.UOE8RGOpgv2oWIvM",
+        "_id": "8GBnQwCSWcyuS3Dv",
+        "group": "A8YnFghs57uPBOZi",
+        "sort": 1150000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "_id": "M9kOyGGBcpwUMfB8",
+        "group": "A8YnFghs57uPBOZi",
+        "sort": 1200000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "AND",
+        "_id": "KpUKt82Z6u8PNDMB",
+        "group": "",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5",
+        "_id": "E2VaqJAjcdI3qT9J",
+        "group": "KpUKt82Z6u8PNDMB",
+        "sort": 1300000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "_id": "U9v5V8RRZyxGGP0S",
+        "group": "KpUKt82Z6u8PNDMB",
+        "sort": 1400000,
+        "requiresProficiency": false
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "_id": "SKxshPIZaGUIe0hL",
+        "group": "KpUKt82Z6u8PNDMB",
+        "sort": 1500000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "4d4 * 10",
+    "primaryAbility": {
+      "value": [],
+      "all": true
+    },
+    "hd": {
+      "denomination": "d8",
+      "spent": 0,
+      "additional": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": "pmsbVoRR2UHOAFR2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Warlock"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.0",
+    "createdTime": 1725037370732,
+    "modifiedTime": 1753389144716,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null,
+    "compendiumSource": null
+  }
+}

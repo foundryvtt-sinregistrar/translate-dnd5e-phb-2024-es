@@ -1,0 +1,1956 @@
+{
+  "label": "Equipo",
+  "folders": {
+    "Anillos": "Anillos",
+    "Armadura": "Armadura",
+    "Armas": "Armas",
+    "Artesano": "Artesano",
+    "Bastones": "Bastones",
+    "Bolsas de trucos": "Bolsas de trucos",
+    "Cartas de baraja misteriosa": "Cartas de baraja misteriosa",
+    "Cinturones de fuerza de gigante": "Cinturones de fuerza de gigante",
+    "Consumibles": "Consumibles",
+    "Contenedores": "Contenedores",
+    "Cuernos de Valhalla": "Cuernos de Valhalla",
+    "Curación": "Curación",
+    "Equipo": "Equipo",
+    "Equipo de aventurero": "Equipo de aventurero",
+    "Fichas de pluma": "Fichas de pluma",
+    "Figurillas": "Figurillas",
+    "Foco arcano": "Foco arcano",
+    "Foco druídico": "Foco druídico",
+    "Focos de conjuro": "Focos de conjuro",
+    "Gemas elementales": "Gemas elementales",
+    "Herramientas": "Herramientas",
+    "Instrumento musical": "Instrumento musical",
+    "Intermedia": "Intermedia",
+    "Juegos de azar": "Juegos de azar",
+    "Ligera": "Ligera",
+    "Marcial (a distancia)": "Marcial (a distancia)",
+    "Marcial (cuerpo a cuerpo)": "Marcial (cuerpo a cuerpo)",
+    "Munición": "Munición",
+    "Mágico": "Mágico",
+    "Otros": "Otros",
+    "Pergaminos": "Pergaminos",
+    "Pergaminos de conjuro": "Pergaminos de conjuro",
+    "Pesada": "Pesada",
+    "Piedras ioun": "Piedras ioun",
+    "Pociones": "Pociones",
+    "Pociones de fuerza de gigante": "Pociones de fuerza de gigante",
+    "Sencilla (a distancia)": "Sencilla (a distancia)",
+    "Sencilla (cuerpo a cuerpo)": "Sencilla (cuerpo a cuerpo)",
+    "Suplementario": "Suplementario",
+    "Símbolo sagrado": "Símbolo sagrado",
+    "Trampas": "Trampas",
+    "Varas": "Varas",
+    "Varitas": "Varitas",
+    "Venenos": "Venenos"
+  },
+  "entries": {
+    "1NwTdI5LHEH5WThq": {
+      "name": "Manta"
+    },
+    "2nlARB78sJo8Z2W6": {
+      "name": "Agua (pinta)"
+    },
+    "367bsHMaHI1II4k9": {
+      "name": "Caja de yesca"
+    },
+    "5KMKEV07I25SVth0": {
+      "name": "Cuerda"
+    },
+    "5tEPJK0TLcjPvPNF": {
+      "name": "Odre"
+    },
+    "67ScUFYRuMU0J2Wt": {
+      "name": "Agua (pinta)"
+    },
+    "6SKwUOHlYMst7M2z": {
+      "name": "Raciones"
+    },
+    "8dJcpxveaFEzjK5C": {
+      "name": "Aceite"
+    },
+    "ABjsMdpDnWlkjbMq": {
+      "name": "Saco de dormir"
+    },
+    "D0567EygDF0Akvux": {
+      "name": "Pergamino"
+    },
+    "DKYzehYrMUKiFDxt": {
+      "name": "Linterna con capucha"
+    },
+    "EGuDt2xpscYtalmV": {
+      "name": "Caja de yesca"
+    },
+    "Ekz3r0UKJ261oBJj": {
+      "name": "Lámpara"
+    },
+    "GDF2kmAUO8B5UEEJ": {
+      "name": "Campana"
+    },
+    "I6wPnS0Z1qcpXjdL": {
+      "name": "Pergamino"
+    },
+    "It6m0vGGZwCf9E7r": {
+      "name": "Agua (pinta)"
+    },
+    "JpE7eqjwXw95Sai5": {
+      "name": "Aceite"
+    },
+    "KH8g5hD7Q6ZX1YqV": {
+      "name": "Saco de dormir"
+    },
+    "KUlBAAjJ9KmOCSsC": {
+      "name": "Lámpara"
+    },
+    "KZUoiZrigDbovEu7": {
+      "name": "Linterna de ojo de buey"
+    },
+    "KbVt56CK4ud3FUk3": {
+      "name": "Bolas de rodamiento"
+    },
+    "LfDewuKszszreg6i": {
+      "name": "Cuerda"
+    },
+    "LuLBFWwxjbNKU9FF": {
+      "name": "Odre"
+    },
+    "NmDigoAOjCENDrea": {
+      "name": "Campana"
+    },
+    "PKHfz87DirOHUBHn": {
+      "name": "Antorcha"
+    },
+    "Qgekp4euuB5S9tpe": {
+      "name": "Agua (pinta)"
+    },
+    "QjcMSfmrMwjPoWKn": {
+      "name": "Palanca"
+    },
+    "RqrWyXa9XkriaxTP": {
+      "name": "Caja de yesca"
+    },
+    "SKDkrz7KSUIfOnHE": {
+      "name": "Tubo para mapas o pergaminos"
+    },
+    "SMj5QHHkDCdvkx35": {
+      "name": "Lámpara"
+    },
+    "SoNpADeVEx2DDZgB": {
+      "name": "Espejo"
+    },
+    "UEH4xJlj50S9ztbH": {
+      "name": "Tinta"
+    },
+    "UOiM3icOTVhR3llN": {
+      "name": "Odre"
+    },
+    "UPfmTzNgqi9QblZR": {
+      "name": "Raciones"
+    },
+    "Ur2LYFqSdOgeWWF0": {
+      "name": "Aceite"
+    },
+    "VczW1tStT5y7No3b": {
+      "name": "Aceite"
+    },
+    "X5XgogJLLydoKdrJ": {
+      "name": "Odre"
+    },
+    "YAXBQxHMEtJx6OuQ": {
+      "name": "Caja de yesca"
+    },
+    "aWEY8Xh0wfn69Q1w": {
+      "name": "Agua (pinta)"
+    },
+    "dmg1WandOfTheWar": {
+      "name": "Varita del mago de guerra, +1, +2 o +3"
+    },
+    "dmgAbsorptionIou": {
+      "name": "Piedra ioun de absorción"
+    },
+    "dmgAdamantineArm": {
+      "name": "Armadura de adamantina"
+    },
+    "dmgAgilityIounSt": {
+      "name": "Piedra ioun de agilidad"
+    },
+    "dmgAirRingOfElem": {
+      "name": "Anillo de control de los elementales (aire)"
+    },
+    "dmgAmmunition12o": {
+      "name": "Munición, +1, +2 o +3"
+    },
+    "dmgAmuletOfHealt": {
+      "name": "Amuleto de salud"
+    },
+    "dmgAmuletOfProof": {
+      "name": "Amuleto de protección contra detección y localización"
+    },
+    "dmgAmuletOfThePl": {
+      "name": "Amuleto de los Planos"
+    },
+    "dmgAnchorQuaalsF": {
+      "name": "Pluma mágica (ancla)"
+    },
+    "dmgAnimatedShiel": {
+      "name": "Escudo animado"
+    },
+    "dmgApparatusOfKw": {
+      "name": "Aparato del cangrejo"
+    },
+    "dmgArmor12or3000": {
+      "name": "Armadura, +1, +2 o +3"
+    },
+    "dmgArmorOfInvuln": {
+      "name": "Armadura de invulnerabilidad"
+    },
+    "dmgArmorOfResist": {
+      "name": "Armadura de resistencia"
+    },
+    "dmgArmorOfVulner": {
+      "name": "Armadura de vulnerabilidad"
+    },
+    "dmgArrowcatching": {
+      "name": "Escudo atrapa-flechas"
+    },
+    "dmgAssassinsBloo": {
+      "name": "Sangre de asesino"
+    },
+    "dmgAwarenessIoun": {
+      "name": "Piedra ioun de percepción"
+    },
+    "dmgBagOfBeans000": {
+      "name": "Bolsa de judías"
+    },
+    "dmgBagOfDevourin": {
+      "name": "Bolsa devoradora"
+    },
+    "dmgBagOfHolding0": {
+      "name": "Bolsa de contención"
+    },
+    "dmgBagOfTricks00": {
+      "name": "Bolsa de trucos gris"
+    },
+    "dmgBeadOfForce00": {
+      "name": "Cuenta de fuerza"
+    },
+    "dmgBeadOfNourish": {
+      "name": "Cuenta de nutrición"
+    },
+    "dmgBeltOfDwarven": {
+      "name": "Cinturón de enanidad"
+    },
+    "dmgBeltOfGiantSt": {
+      "name": "Cinturón de fuerza de gigante"
+    },
+    "dmgBerserkerAxe0": {
+      "name": "Hacha del bersérker"
+    },
+    "dmgBirdQuaalsFea": {
+      "name": "Pluma mágica (pájaro)"
+    },
+    "dmgBlueElemental": {
+      "name": "Gema elemental (zafiro azul)"
+    },
+    "dmgBoatUtility00": {
+      "name": "Activar bote plegable"
+    },
+    "dmgBootsOfElvenk": {
+      "name": "Botas de los elfos"
+    },
+    "dmgBootsOfLevita": {
+      "name": "Botas de levitación"
+    },
+    "dmgBootsOfSpeed0": {
+      "name": "Botas de velocidad"
+    },
+    "dmgBootsOfStridi": {
+      "name": "Botas de zancada y salto"
+    },
+    "dmgBootsOfTheWin": {
+      "name": "Botas de las Tierras Invernales"
+    },
+    "dmgBowlOfCommand": {
+      "name": "Cuenco de control de elementales de agua"
+    },
+    "dmgBracersOfArch": {
+      "name": "Brazales de arquería"
+    },
+    "dmgBracersOfDefe": {
+      "name": "Brazales de defensa"
+    },
+    "dmgBrassHornOfVa": {
+      "name": "Cuerno de Valhalla de bronce amarillo"
+    },
+    "dmgBrazierOfComm": {
+      "name": "Brazero de control de elementales de fuego"
+    },
+    "dmgBronzeHornOfV": {
+      "name": "Cuerno de Valhalla de bronce"
+    },
+    "dmgBroochOfShiel": {
+      "name": "Broche de protección"
+    },
+    "dmgBroomOfFlying": {
+      "name": "Escoba voladora"
+    },
+    "dmgBurntOthurFum": {
+      "name": "Humos de Othur quemados"
+    },
+    "dmgCandleOfInvoc": {
+      "name": "Vela de invocación"
+    },
+    "dmgCapeOfTheMoun": {
+      "name": "Capa del charlatán"
+    },
+    "dmgCarpetOfFlyin": {
+      "name": "Alfombra voladora"
+    },
+    "dmgCarrionCrawle": {
+      "name": "Mucosidad de reptador carroñero"
+    },
+    "dmgCenserOfContr": {
+      "name": "Incensario de control de elementales de aire"
+    },
+    "dmgCentralPouch0": {
+      "name": "Bolsa central"
+    },
+    "dmgChimeOfOpenin": {
+      "name": "Campanilla de apertura"
+    },
+    "dmgCircletOfBlas": {
+      "name": "Diadema de ráfagas"
+    },
+    "dmgClawedGauntle": {
+      "name": "Guantelete con garras"
+    },
+    "dmgCloakOfArachn": {
+      "name": "Capa de arácnido"
+    },
+    "dmgCloakOfDispla": {
+      "name": "Capa de desplazamiento"
+    },
+    "dmgCloakOfElvenk": {
+      "name": "Capa de los elfos"
+    },
+    "dmgCloakOfInvisi": {
+      "name": "Capa de invisibilidad"
+    },
+    "dmgCloakOfProtec": {
+      "name": "Capa de protección"
+    },
+    "dmgCloakOfTheBat": {
+      "name": "Capa del murciélago"
+    },
+    "dmgCloakOfTheMan": {
+      "name": "Capa de la mantarraya"
+    },
+    "dmgCloudPotionOf": {
+      "name": "Poción de fuerza de gigante (nube)"
+    },
+    "dmgCollapsingRoo": {
+      "name": "Techo derrumbándose"
+    },
+    "dmgCrystalBall00": {
+      "name": "Bola de cristal"
+    },
+    "dmgCubeOfForce00": {
+      "name": "Cubo de fuerza"
+    },
+    "dmgCubicGate0000": {
+      "name": "Portal cúbico"
+    },
+    "dmgDaernsInstant": {
+      "name": "Fortaleza instantánea"
+    },
+    "dmgDaggerOfVenom": {
+      "name": "Daga de veneno"
+    },
+    "dmgDancingSword0": {
+      "name": "Espada danzante"
+    },
+    "dmgDecanterOfEnd": {
+      "name": "Decantador de agua inagotable"
+    },
+    "dmgDeckOfIllusio": {
+      "name": "Baraja de ilusiones"
+    },
+    "dmgDeckOfManyThi": {
+      "name": "Baraja misteriosa"
+    },
+    "dmgDefender00000": {
+      "name": "Defensora"
+    },
+    "dmgDemonArmor000": {
+      "name": "Armadura demoníaca"
+    },
+    "dmgDimensionalSh": {
+      "name": "Grilletes dimensionales"
+    },
+    "dmgDmtBalance000": {
+      "name": "Equilibrio"
+    },
+    "dmgDmtComet00000": {
+      "name": "Cometa"
+    },
+    "dmgDmtDonjon0000": {
+      "name": "Mazmorra"
+    },
+    "dmgDmtEuryale000": {
+      "name": "Euryale"
+    },
+    "dmgDmtFates00000": {
+      "name": "Hados"
+    },
+    "dmgDmtFlames0000": {
+      "name": "Llamas"
+    },
+    "dmgDmtFool000000": {
+      "name": "Loco"
+    },
+    "dmgDmtGem0000000": {
+      "name": "Gema"
+    },
+    "dmgDmtJester0000": {
+      "name": "Bufón"
+    },
+    "dmgDmtKey0000000": {
+      "name": "Llave"
+    },
+    "dmgDmtKnight0000": {
+      "name": "Caballero"
+    },
+    "dmgDmtMoon000000": {
+      "name": "Luna"
+    },
+    "dmgDmtPuzzle0000": {
+      "name": "Enigma"
+    },
+    "dmgDmtRogue00000": {
+      "name": "Pícaro"
+    },
+    "dmgDmtRuin000000": {
+      "name": "Ruina"
+    },
+    "dmgDmtSage000000": {
+      "name": "Sabio"
+    },
+    "dmgDmtSkull00000": {
+      "name": "Calavera"
+    },
+    "dmgDmtStar000000": {
+      "name": "Estrella"
+    },
+    "dmgDmtSun0000000": {
+      "name": "Sol"
+    },
+    "dmgDmtTalons0000": {
+      "name": "Garras"
+    },
+    "dmgDmtThrone0000": {
+      "name": "Trono"
+    },
+    "dmgDmtVoid000000": {
+      "name": "Vacío"
+    },
+    "dmgDragonScaleMa": {
+      "name": "Cota de escamas de dragón"
+    },
+    "dmgDragonSlayer0": {
+      "name": "Matadragones"
+    },
+    "dmgDustOfDisappe": {
+      "name": "Polvo de desaparición"
+    },
+    "dmgDustOfDryness": {
+      "name": "Polvo de sequedad"
+    },
+    "dmgDustOfSneezin": {
+      "name": "Polvo de estornudar y ahogar"
+    },
+    "dmgDwarvenPlate0": {
+      "name": "Placas enanas"
+    },
+    "dmgDwarvenThrowe": {
+      "name": "Lanzador enano"
+    },
+    "dmgEarthRingOfEl": {
+      "name": "Anillo de control elemental (tierra)"
+    },
+    "dmgEfreetiBottle": {
+      "name": "Botella de efriti"
+    },
+    "dmgEfreetiChain0": {
+      "name": "Cota de efriti"
+    },
+    "dmgElementalGem0": {
+      "name": "Gema elemental"
+    },
+    "dmgElixirOfHealt": {
+      "name": "Elixir de salud"
+    },
+    "dmgElvenChain000": {
+      "name": "Cota élfica"
+    },
+    "dmgEmeraldElemen": {
+      "name": "Gema elemental (esmeralda)"
+    },
+    "dmgEnergyBow0000": {
+      "name": "Arco de energía"
+    },
+    "dmgEssenceOfEthe": {
+      "name": "Esencia de éter"
+    },
+    "dmgEversmokingBo": {
+      "name": "Botella de humo eterno"
+    },
+    "dmgEyesOfCharmin": {
+      "name": "Ojos del encanto"
+    },
+    "dmgEyesOfMinuteS": {
+      "name": "Ojos de visión minuciosa"
+    },
+    "dmgEyesOfTheEagl": {
+      "name": "Ojos del águila"
+    },
+    "dmgFallingNet000": {
+      "name": "Red que cae"
+    },
+    "dmgFanQuaalsFeat": {
+      "name": "Pluma mágica (abanico)"
+    },
+    "dmgFigurineOfWon": {
+      "name": "Figurilla de poder maravilloso"
+    },
+    "dmgFirePotionOfG": {
+      "name": "Poción de fuerza de gigante (fuego)"
+    },
+    "dmgFireRingOfEle": {
+      "name": "Anillo de control elemental (fuego)"
+    },
+    "dmgFirecastingSt": {
+      "name": "Estatua lanzallamas"
+    },
+    "dmgFlameTongue00": {
+      "name": "Lengua de fuego"
+    },
+    "dmgFoldingBoat00": {
+      "name": "Bote plegable"
+    },
+    "dmgFortitudeIoun": {
+      "name": "Piedra ioun de fortaleza"
+    },
+    "dmgFrostBrand000": {
+      "name": "Marca de escarcha"
+    },
+    "dmgFrostPotionOf": {
+      "name": "Poción de fuerza de gigante (escarcha)"
+    },
+    "dmgFwpBronzeGrif": {
+      "name": "Grifo de bronce"
+    },
+    "dmgFwpEbonyFlyRa": {
+      "name": "Mosca de ébano"
+    },
+    "dmgFwpGoldenLion": {
+      "name": "Leones de oro"
+    },
+    "dmgFwpIvoryGoats": {
+      "name": "Cabras de marfil"
+    },
+    "dmgFwpMarbleElep": {
+      "name": "Elefante de mármol"
+    },
+    "dmgFwpObsidianSt": {
+      "name": "Corcel de obsidiana"
+    },
+    "dmgFwpOnyxDogRar": {
+      "name": "Perro de ónice"
+    },
+    "dmgFwpSerpentine": {
+      "name": "Búho serpentino"
+    },
+    "dmgFwpSilverRave": {
+      "name": "Cuervo de plata"
+    },
+    "dmgGauntletsOfOg": {
+      "name": "Guanteletes de poder de ogro"
+    },
+    "dmgGemOfBrightne": {
+      "name": "Gema de luminosidad"
+    },
+    "dmgGemOfSeeing00": {
+      "name": "Gema de ver"
+    },
+    "dmgGiantSlayer00": {
+      "name": "Matagigantes"
+    },
+    "dmgGlamouredStud": {
+      "name": "Cuero tachonado glamuroso"
+    },
+    "dmgGlovesOfMissi": {
+      "name": "Guantes de atrapar proyectiles"
+    },
+    "dmgGlovesOfSwimm": {
+      "name": "Guantes de natación y escalada"
+    },
+    "dmgGlovesOfThiev": {
+      "name": "Guantes de robo"
+    },
+    "dmgGogglesOfNigh": {
+      "name": "Gafas de visión nocturna"
+    },
+    "dmgGreaterAbsorp": {
+      "name": "Piedra ioun de absorción superior"
+    },
+    "dmgGreaterPotion": {
+      "name": "Poción de curación (mayor)"
+    },
+    "dmgHammerOfThund": {
+      "name": "Martillo de los truenos"
+    },
+    "dmgHatOfDisguise": {
+      "name": "Sombrero de disfraz"
+    },
+    "dmgHatOfManySpel": {
+      "name": "Sombrero de muchos conjuros"
+    },
+    "dmgHeadbandOfInt": {
+      "name": "Cinta de intelecto"
+    },
+    "dmgHelmOfBrillia": {
+      "name": "Yelmo de brillantez"
+    },
+    "dmgHelmOfCompreh": {
+      "name": "Yelmo de comprensión de idiomas"
+    },
+    "dmgHelmOfTelepat": {
+      "name": "Yelmo de telepatía"
+    },
+    "dmgHelmOfTelepor": {
+      "name": "Yelmo de teletransportación"
+    },
+    "dmgHewardsHandyH": {
+      "name": "Mochila de Heward"
+    },
+    "dmgHiddenPit0000": {
+      "name": "Foso oculto"
+    },
+    "dmgHillPotionOfG": {
+      "name": "Poción de fuerza de gigante (colina)"
+    },
+    "dmgHolyAvenger00": {
+      "name": "Vengadora sagrada"
+    },
+    "dmgHornOfBlastin": {
+      "name": "Cuerno explosivo"
+    },
+    "dmgHornofValhall": {
+      "name": "Cuerno de Valhalla"
+    },
+    "dmgHorseshoesOfA": {
+      "name": "Herraduras de céfiro"
+    },
+    "dmgHorseshoesOfS": {
+      "name": "Herraduras de velocidad"
+    },
+    "dmgImmovableRod0": {
+      "name": "Vara inmóvil"
+    },
+    "dmgInsightIounSt": {
+      "name": "Piedra ioun de perspicacia"
+    },
+    "dmgIntellectIoun": {
+      "name": "Piedra ioun de intelecto"
+    },
+    "dmgIounStone0000": {
+      "name": "Piedra ioun"
+    },
+    "dmgIronBandsOfBi": {
+      "name": "Bandas de hierro"
+    },
+    "dmgIronFlask0000": {
+      "name": "Frasco de hierro"
+    },
+    "dmgIronHornOfVal": {
+      "name": "Cuerno de Valhalla de hierro"
+    },
+    "dmgJavelinOfLigh": {
+      "name": "Jabalina del relámpago"
+    },
+    "dmgLanternOfReve": {
+      "name": "Linterna reveladora"
+    },
+    "dmgLeadershipIou": {
+      "name": "Piedra ioun de liderazgo"
+    },
+    "dmgLeftPouch0000": {
+      "name": "Compartimento izquierdo"
+    },
+    "dmgLolthsSting00": {
+      "name": "Aguijón de la araña"
+    },
+    "dmgLongCompartme": {
+      "name": "Compartimento largo"
+    },
+    "dmgLuckBlade0000": {
+      "name": "Espada de la suerte"
+    },
+    "dmgMaceOfDisrupt": {
+      "name": "Maza de disrupción"
+    },
+    "dmgMaceOfSmiting": {
+      "name": "Maza de castigo"
+    },
+    "dmgMaceOfTerror0": {
+      "name": "Maza del terror"
+    },
+    "dmgMalice0000000": {
+      "name": "Malicia"
+    },
+    "dmgMantleOfSpell": {
+      "name": "Manto de resistencia a conjuros"
+    },
+    "dmgManualOfBodil": {
+      "name": "Manual de salud corporal"
+    },
+    "dmgManualOfGainf": {
+      "name": "Manual de ejercicio provechoso"
+    },
+    "dmgManualOfGolem": {
+      "name": "Manual of Golems"
+    },
+    "dmgManualOfQuick": {
+      "name": "Manual de rapidez de acción"
+    },
+    "dmgMasteryIounSt": {
+      "name": "Piedra ioun de maestría"
+    },
+    "dmgMedallionOfTh": {
+      "name": "Medallón de lectura de pensamientos"
+    },
+    "dmgMidnightTears": {
+      "name": "Lágrimas de medianoche"
+    },
+    "dmgMidsizeCompar": {
+      "name": "Compartimento mediano"
+    },
+    "dmgMindReadingCr": {
+      "name": "Bola de cristal de lectura mental"
+    },
+    "dmgMirrorOfLifeT": {
+      "name": "Espejo de atrapavidas"
+    },
+    "dmgMithralArmor0": {
+      "name": "Armadura de mithral"
+    },
+    "dmgNecklaceOfAda": {
+      "name": "Collar de adaptación"
+    },
+    "dmgNecklaceOfFir": {
+      "name": "Collar de bolas de fuego"
+    },
+    "dmgNecklaceOfPra": {
+      "name": "Collar de cuentas de oración"
+    },
+    "dmgNineLivesStea": {
+      "name": "Robavidas"
+    },
+    "dmgNolzursMarvel": {
+      "name": "Pigmentos maravillosos"
+    },
+    "dmgOathbow000000": {
+      "name": "Arco del juramento"
+    },
+    "dmgOilOfEthereal": {
+      "name": "Aceite de etereidad"
+    },
+    "dmgOilOfSharpnes": {
+      "name": "Aceite de agudeza"
+    },
+    "dmgOilOfSlipperi": {
+      "name": "Aceite resbaladizo"
+    },
+    "dmgOilOfTaggit00": {
+      "name": "Aceite de Taggit"
+    },
+    "dmgOrbOfDragonki": {
+      "name": "Orbe dracónico"
+    },
+    "dmgPaleTincture0": {
+      "name": "Tintura pálida"
+    },
+    "dmgPearlOfPower0": {
+      "name": "Perla de poder"
+    },
+    "dmgPeriaptOfHeal": {
+      "name": "Periapt de salud"
+    },
+    "dmgPeriaptOfProo": {
+      "name": "Periapt de protección contra el veneno"
+    },
+    "dmgPeriaptOfWoun": {
+      "name": "Periapt de cierre de heridas"
+    },
+    "dmgPhilterOfLove": {
+      "name": "Filtro de amor"
+    },
+    "dmgPipeOfSmokeMo": {
+      "name": "Pipa de monstruos de humo"
+    },
+    "dmgPipesOfHaunti": {
+      "name": "Flautas de inquietud"
+    },
+    "dmgPipesOfTheSew": {
+      "name": "Flautas de las alcantarillas"
+    },
+    "dmgPlateArmorOfE": {
+      "name": "Armadura de placas de etereidad"
+    },
+    "dmgPoisonedDarts": {
+      "name": "Dardos envenenados"
+    },
+    "dmgPoisonedNeedl": {
+      "name": "Aguja envenenada"
+    },
+    "dmgPortableHole0": {
+      "name": "Agujero portátil"
+    },
+    "dmgPotionOfAnima": {
+      "name": "Poción de amistad con los animales"
+    },
+    "dmgPotionOfClair": {
+      "name": "Poción de clarividencia"
+    },
+    "dmgPotionOfClimb": {
+      "name": "Poción de trepar"
+    },
+    "dmgPotionOfDimin": {
+      "name": "Poción de disminución"
+    },
+    "dmgPotionOfFlyin": {
+      "name": "Poción de volar"
+    },
+    "dmgPotionOfGaseo": {
+      "name": "Poción de forma gaseosa"
+    },
+    "dmgPotionOfGrowt": {
+      "name": "Poción de crecimiento"
+    },
+    "dmgPotionOfHeali": {
+      "name": "Poción de curación"
+    },
+    "dmgPotionOfHeroi": {
+      "name": "Poción de heroísmo"
+    },
+    "dmgPotionOfInvis": {
+      "name": "Poción de invisibilidad"
+    },
+    "dmgPotionOfInvul": {
+      "name": "Poción de invulnerabilidad"
+    },
+    "dmgPotionOfLonge": {
+      "name": "Poción de longevidad"
+    },
+    "dmgPotionOfMindR": {
+      "name": "Poción de lectura de mentes"
+    },
+    "dmgPotionOfPoiso": {
+      "name": "Poción de veneno"
+    },
+    "dmgPotionOfResis": {
+      "name": "Poción de resistencia"
+    },
+    "dmgPotionOfSpeed": {
+      "name": "Poción de velocidad"
+    },
+    "dmgPotionOfVital": {
+      "name": "Poción de vitalidad"
+    },
+    "dmgPotionOfWater": {
+      "name": "Poción de respiración acuática"
+    },
+    "dmgPotionofGiant": {
+      "name": "Poción de fuerza de gigante"
+    },
+    "dmgProtectionIou": {
+      "name": "Piedra ioun de protección"
+    },
+    "dmgPurpleWormPoi": {
+      "name": "Veneno de gusano púrpura"
+    },
+    "dmgQuaalsFeather": {
+      "name": "Ficha de pluma"
+    },
+    "dmgQuarterstaffO": {
+      "name": "Bastón del acróbata"
+    },
+    "dmgQuiverOfEhlon": {
+      "name": "Carcaj eficiente"
+    },
+    "dmgRedElementalG": {
+      "name": "Gema elemental (corindón rojo)"
+    },
+    "dmgRegnerationIo": {
+      "name": "Piedra ioun de regeneración"
+    },
+    "dmgReserveIounSt": {
+      "name": "Piedra ioun de reserva"
+    },
+    "dmgRightPouch000": {
+      "name": "Bolsa derecha"
+    },
+    "dmgRingOfAnimalI": {
+      "name": "Anillo de influencia animal"
+    },
+    "dmgRingOfDjinniS": {
+      "name": "Anillo de invocación de djinni"
+    },
+    "dmgRingOfElement": {
+      "name": "Anillo de mando elemental"
+    },
+    "dmgRingOfEvasion": {
+      "name": "Anillo de evasión"
+    },
+    "dmgRingOfFeather": {
+      "name": "Anillo de caída de pluma"
+    },
+    "dmgRingOfFreeAct": {
+      "name": "Anillo de libertad de acción"
+    },
+    "dmgRingOfInvisib": {
+      "name": "Anillo de invisibilidad"
+    },
+    "dmgRingOfJumping": {
+      "name": "Anillo de salto"
+    },
+    "dmgRingOfMindShi": {
+      "name": "Anillo de escudo mental"
+    },
+    "dmgRingOfProtect": {
+      "name": "Anillo de protección"
+    },
+    "dmgRingOfRegener": {
+      "name": "Anillo de regeneración"
+    },
+    "dmgRingOfResista": {
+      "name": "Anillo de resistencia"
+    },
+    "dmgRingOfShootin": {
+      "name": "Anillo de estrellas fugaces"
+    },
+    "dmgRingOfSpellSt": {
+      "name": "Anillo de almacenamiento de conjuros"
+    },
+    "dmgRingOfSpellTu": {
+      "name": "Anillo de reflejo de conjuros"
+    },
+    "dmgRingOfSwimmin": {
+      "name": "Anillo de natación"
+    },
+    "dmgRingOfTelekin": {
+      "name": "Anillo de telequinesis"
+    },
+    "dmgRingOfTheRam0": {
+      "name": "Anillo del carnero"
+    },
+    "dmgRingOfThreeWi": {
+      "name": "Anillo de los tres deseos"
+    },
+    "dmgRingOfWarmth0": {
+      "name": "Anillo de calidez"
+    },
+    "dmgRingOfWaterWa": {
+      "name": "Anillo de caminar sobre el agua"
+    },
+    "dmgRingOfXrayVis": {
+      "name": "Anillo de visión de rayos X"
+    },
+    "dmgRobeOfEyes000": {
+      "name": "Túnica de ojos"
+    },
+    "dmgRobeOfScintil": {
+      "name": "Túnica de colores centelleantes"
+    },
+    "dmgRobeOfStars00": {
+      "name": "Túnica de estrellas"
+    },
+    "dmgRobeOfTheArch": {
+      "name": "Túnica del archimago"
+    },
+    "dmgRobeOfUsefulI": {
+      "name": "Túnica de objetos útiles"
+    },
+    "dmgRodOfAbsorpti": {
+      "name": "Vara de absorción"
+    },
+    "dmgRodOfAlertnes": {
+      "name": "Vara de alerta"
+    },
+    "dmgRodOfLordlyMi": {
+      "name": "Vara de poder señorial"
+    },
+    "dmgRodOfResurrec": {
+      "name": "Vara de resurrección"
+    },
+    "dmgRodOfRulershi": {
+      "name": "Vara de gobierno"
+    },
+    "dmgRodOfSecurity": {
+      "name": "Vara de seguridad"
+    },
+    "dmgRollingStone0": {
+      "name": "Piedra rodante"
+    },
+    "dmgRopeOfClimbin": {
+      "name": "Cuerda de escalada"
+    },
+    "dmgRopeOfEntangl": {
+      "name": "Cuerda de enmarañar"
+    },
+    "dmgRustBagofTric": {
+      "name": "Bolsa de trucos (oxidada)"
+    },
+    "dmgScarabOfProte": {
+      "name": "Escarabajo de protección"
+    },
+    "dmgScimitarOfSpe": {
+      "name": "Cimitarra de velocidad"
+    },
+    "dmgSendingStones": {
+      "name": "Piedras mensajeras"
+    },
+    "dmgSentinelShiel": {
+      "name": "Escudo centinela"
+    },
+    "dmgSerpentVenom0": {
+      "name": "Veneno de serpiente"
+    },
+    "dmgShield12or300": {
+      "name": "Escudo, +1, +2 o +3"
+    },
+    "dmgShieldOfMissi": {
+      "name": "Escudo de atracción de proyectiles"
+    },
+    "dmgShieldOfTheCa": {
+      "name": "Escudo del caballero"
+    },
+    "dmgShortCompartm": {
+      "name": "Compartimento corto"
+    },
+    "dmgSilverHornOfV": {
+      "name": "Cuerno de Valhalla de plata"
+    },
+    "dmgSlayingAmmuni": {
+      "name": "Munición de matanza"
+    },
+    "dmgSlippersOfSpi": {
+      "name": "Zapatillas de trepar como araña"
+    },
+    "dmgSovereignGlue": {
+      "name": "Pegamento soberano"
+    },
+    "dmgSpellScroll00": {
+      "name": "Pergamino de conjuro"
+    },
+    "dmgSpellScroll1s": {
+      "name": "Pergamino de conjuro, nivel 1"
+    },
+    "dmgSpellScroll2n": {
+      "name": "Pergamino de conjuro, nivel 2"
+    },
+    "dmgSpellScroll3r": {
+      "name": "Pergamino de conjuro, nivel 3"
+    },
+    "dmgSpellScroll4t": {
+      "name": "Pergamino de conjuro, nivel 4"
+    },
+    "dmgSpellScroll5t": {
+      "name": "Pergamino de conjuro, nivel 5"
+    },
+    "dmgSpellScroll6t": {
+      "name": "Pergamino de conjuro, nivel 6"
+    },
+    "dmgSpellScroll7t": {
+      "name": "Pergamino de conjuro, nivel 7"
+    },
+    "dmgSpellScroll8t": {
+      "name": "Pergamino de conjuro, nivel 8"
+    },
+    "dmgSpellScroll9t": {
+      "name": "Pergamino de conjuro, nivel 9"
+    },
+    "dmgSpellScrollCa": {
+      "name": "Pergamino de conjuro, truco"
+    },
+    "dmgSpellguardShi": {
+      "name": "Escudo guardaconjuros"
+    },
+    "dmgSphereOfAnnih": {
+      "name": "Esfera de aniquilación"
+    },
+    "dmgSpikedPit0000": {
+      "name": "Foso con estacas"
+    },
+    "dmgStaffOfCharmi": {
+      "name": "Bastón de encantamiento"
+    },
+    "dmgStaffOfFire00": {
+      "name": "Bastón de fuego"
+    },
+    "dmgStaffOfFrost0": {
+      "name": "Bastón de escarcha"
+    },
+    "dmgStaffOfHealin": {
+      "name": "Bastón de curación"
+    },
+    "dmgStaffOfPower0": {
+      "name": "Bastón de poder"
+    },
+    "dmgStaffOfStriki": {
+      "name": "Bastón de golpe"
+    },
+    "dmgStaffOfSwarmi": {
+      "name": "Bastón de enjambre de insectos"
+    },
+    "dmgStaffOfTheMag": {
+      "name": "Bastón de los Magos"
+    },
+    "dmgStaffOfThePyt": {
+      "name": "Bastón de la pitón"
+    },
+    "dmgStaffOfTheWoo": {
+      "name": "Bastón de los Bosques"
+    },
+    "dmgStaffOfThunde": {
+      "name": "Bastón de trueno y relámpago"
+    },
+    "dmgStaffOfWither": {
+      "name": "Bastón marchitador"
+    },
+    "dmgStoneOfContro": {
+      "name": "Piedra para controlar elementales de tierra"
+    },
+    "dmgStoneOfGoodLu": {
+      "name": "Piedra de buena suerte (piedra de la suerte)"
+    },
+    "dmgStonePotionOf": {
+      "name": "Poción de fuerza de gigante (piedra)"
+    },
+    "dmgStormPotionOf": {
+      "name": "Poción de fuerza de gigante (tormenta)"
+    },
+    "dmgStrengthIounS": {
+      "name": "Piedra ioun de fuerza"
+    },
+    "dmgSunBlade00000": {
+      "name": "Hoja solar"
+    },
+    "dmgSuperiorPotio": {
+      "name": "Poción de curación (superior)"
+    },
+    "dmgSupremePotion": {
+      "name": "Poción de curación (suprema)"
+    },
+    "dmgSustenanceIou": {
+      "name": "Piedra ioun de sustento"
+    },
+    "dmgSwanBoatQuaal": {
+      "name": "Ficha de pluma (barca cisne)"
+    },
+    "dmgSwordOfLifeSt": {
+      "name": "Espada de robo de vida"
+    },
+    "dmgSwordOfSharpn": {
+      "name": "Espada de agudeza"
+    },
+    "dmgSwordOfWoundi": {
+      "name": "Espada de heridas"
+    },
+    "dmgTalismanOfPur": {
+      "name": "Talismán del bien puro"
+    },
+    "dmgTalismanOfThe": {
+      "name": "Talismán de la esfera"
+    },
+    "dmgTalismanOfUlt": {
+      "name": "Talismán del mal supremo"
+    },
+    "dmgTanBagofTrick": {
+      "name": "Bolsa canela de trucos"
+    },
+    "dmgTelepathyCrys": {
+      "name": "Bola de cristal de telepatía"
+    },
+    "dmgThunderousGre": {
+      "name": "Gran garrote atronador"
+    },
+    "dmgTomeOfClearTh": {
+      "name": "Tomo de pensamiento claro"
+    },
+    "dmgTomeOfLeaders": {
+      "name": "Tomo de liderazgo e influencia"
+    },
+    "dmgTomeOfUnderst": {
+      "name": "Tomo de comprensión"
+    },
+    "dmgTorpor0000000": {
+      "name": "Sopor"
+    },
+    "dmgTreeQuaalsFea": {
+      "name": "Ficha de pluma (árbol)"
+    },
+    "dmgTridentOfFish": {
+      "name": "Tridente de mando sobre peces"
+    },
+    "dmgTrueSeeingCry": {
+      "name": "Bola de cristal de visión verdadera"
+    },
+    "dmgTruthSerum000": {
+      "name": "Suero de la verdad"
+    },
+    "dmgUnarmedStrike": {
+      "name": "Ataque sin armas"
+    },
+    "dmgUniversalSolv": {
+      "name": "Disolvente universal"
+    },
+    "dmgViciousWeapon": {
+      "name": "Arma cruel"
+    },
+    "dmgVorpalSword00": {
+      "name": "Espada vorpal"
+    },
+    "dmgWandOfBinding": {
+      "name": "Varita de inmovilización"
+    },
+    "dmgWandOfEnemyDe": {
+      "name": "Varita de detección de enemigos"
+    },
+    "dmgWandOfFear000": {
+      "name": "Varita de miedo"
+    },
+    "dmgWandOfFirebal": {
+      "name": "Varita de bolas de fuego"
+    },
+    "dmgWandOfLightni": {
+      "name": "Varita de relámpagos"
+    },
+    "dmgWandOfMagicDe": {
+      "name": "Varita de detección de magia"
+    },
+    "dmgWandOfMagicMi": {
+      "name": "Varita de misiles mágicos"
+    },
+    "dmgWandOfParalys": {
+      "name": "Varita de parálisis"
+    },
+    "dmgWandOfPolymor": {
+      "name": "Varita de polimorfia"
+    },
+    "dmgWandOfSecrets": {
+      "name": "Varita de secretos"
+    },
+    "dmgWandOfWeb0000": {
+      "name": "Varita de telaraña"
+    },
+    "dmgWandOfWonder0": {
+      "name": "Varita de maravillas"
+    },
+    "dmgWaterRingOfEl": {
+      "name": "Anillo acuático de mando elemental"
+    },
+    "dmgWeapon12or300": {
+      "name": "Arma, +1, +2 o +3"
+    },
+    "dmgWeaponOfWarni": {
+      "name": "Arma de advertencia"
+    },
+    "dmgWellOfManyWor": {
+      "name": "Pozo de muchos mundos"
+    },
+    "dmgWhipQuaalsFea": {
+      "name": "Ficha de pluma (látigo)"
+    },
+    "dmgWindFan000000": {
+      "name": "Abanico de viento"
+    },
+    "dmgWingedBoots00": {
+      "name": "Botas aladas"
+    },
+    "dmgWingsOfFlying": {
+      "name": "Alas voladoras"
+    },
+    "dmgWyvernPoison0": {
+      "name": "Veneno de wyvern"
+    },
+    "dmgYellowElement": {
+      "name": "Gema elemental (diamante amarillo)"
+    },
+    "dmgcloBeltofGian": {
+      "name": "Cinturón de fuerza de gigante (nube)"
+    },
+    "dmgfirBeltofGian": {
+      "name": "Cinturón de fuerza de gigante (fuego)"
+    },
+    "dmgfroBeltofGian": {
+      "name": "Cinturón de fuerza de gigante (escarcha)"
+    },
+    "dmghilBeltofGian": {
+      "name": "Cinturón de fuerza de gigante (colina)"
+    },
+    "dmgspWaterfresh0": {
+      "name": "Agua, dulce (pinta)"
+    },
+    "dmgspWatersalt00": {
+      "name": "Agua, salada (pinta)"
+    },
+    "dmgstmBeltofGian": {
+      "name": "Cinturón de fuerza de gigante (tormenta)"
+    },
+    "dmgstoBeltofGian": {
+      "name": "Cinturón de fuerza de gigante (piedra)"
+    },
+    "dmgsupBasicScrol": {
+      "name": "Pergamino"
+    },
+    "dmgsupRingofResi": {
+      "name": "Anillo"
+    },
+    "etKzfLUMWikSsi3R": {
+      "name": "Caja de yesca"
+    },
+    "gHOs5HRZJdnUwfng": {
+      "name": "Caja de yesca"
+    },
+    "gYKSyS7STTresmnS": {
+      "name": "Antorcha"
+    },
+    "iYwrPPLmuVD9eqfa": {
+      "name": "Abrojos"
+    },
+    "jLcAY4Oph8ZEniG2": {
+      "name": "Toga"
+    },
+    "llmXULupnKVHUGuE": {
+      "name": "Raciones"
+    },
+    "nFFc8hnpFeiIhQWa": {
+      "name": "Raciones"
+    },
+    "nshr9PBVyB03T7wB": {
+      "name": "Agua bendita"
+    },
+    "oQRUfRQQjsMMXJhD": {
+      "name": "Disfraz"
+    },
+    "phbUnarmedStrike": {
+      "name": "Ataque sin armas"
+    },
+    "phbWaterpint0000": {
+      "name": "Agua (pinta)"
+    },
+    "phbafcCrystal000": {
+      "name": "Cristal"
+    },
+    "phbafcOrb0000000": {
+      "name": "Orbe"
+    },
+    "phbafcRod0000000": {
+      "name": "Vara"
+    },
+    "phbafcStaffalsoa": {
+      "name": "Bastón"
+    },
+    "phbafcWand000000": {
+      "name": "Varita"
+    },
+    "phbagAcid0000000": {
+      "name": "Ácido"
+    },
+    "phbagAlchemistsF": {
+      "name": "Fuego de alquimista"
+    },
+    "phbagAmmunitionV": {
+      "name": "Munición (varía)"
+    },
+    "phbagAntitoxin00": {
+      "name": "Antitoxina"
+    },
+    "phbagArcaneFocus": {
+      "name": "Foco arcano (varía)"
+    },
+    "phbagBackpack000": {
+      "name": "Mochila"
+    },
+    "phbagBallBearing": {
+      "name": "Bolas de acero"
+    },
+    "phbagBarrel00000": {
+      "name": "Barril"
+    },
+    "phbagBasket00000": {
+      "name": "Cesta"
+    },
+    "phbagBedroll0000": {
+      "name": "Rollo de cama"
+    },
+    "phbagBell0000000": {
+      "name": "Campana"
+    },
+    "phbagBlanket0000": {
+      "name": "Manta"
+    },
+    "phbagBlockandTac": {
+      "name": "Polipasto"
+    },
+    "phbagBook0000000": {
+      "name": "Libro"
+    },
+    "phbagBottleGlass": {
+      "name": "Botella de cristal"
+    },
+    "phbagBucket00000": {
+      "name": "Cubo"
+    },
+    "phbagBurglarsPac": {
+      "name": "Mochila de ladrón"
+    },
+    "phbagCaltrops000": {
+      "name": "Abrojos"
+    },
+    "phbagCandle00000": {
+      "name": "Vela"
+    },
+    "phbagCantripScro": {
+      "name": "Pergamino de conjuro (truco)"
+    },
+    "phbagCaseCrossbo": {
+      "name": "Estuche para virotes de ballesta"
+    },
+    "phbagCaseMaporSc": {
+      "name": "Estuche para mapas o pergaminos"
+    },
+    "phbagChain000000": {
+      "name": "Cadena"
+    },
+    "phbagChest000000": {
+      "name": "Cofre"
+    },
+    "phbagClimbersKit": {
+      "name": "Equipo de escalada"
+    },
+    "phbagClothesFine": {
+      "name": "Ropa fina"
+    },
+    "phbagClothesTrav": {
+      "name": "Ropa de viajero"
+    },
+    "phbagComponentPo": {
+      "name": "Bolsa de componentes"
+    },
+    "phbagCostume0000": {
+      "name": "Disfraz"
+    },
+    "phbagCrowbar0000": {
+      "name": "Palanca"
+    },
+    "phbagDiplomatsPa": {
+      "name": "Mochila de diplomático"
+    },
+    "phbagDruidicFocu": {
+      "name": "Foco druídico (varía)"
+    },
+    "phbagDungeoneers": {
+      "name": "Mochila de explorador de mazmorras"
+    },
+    "phbagEntertainer": {
+      "name": "Mochila de artista"
+    },
+    "phbagExplorersPa": {
+      "name": "Mochila de explorador"
+    },
+    "phbagFlask000000": {
+      "name": "Frasco"
+    },
+    "phbagGrapplingHo": {
+      "name": "Garfio"
+    },
+    "phbagHealersKit0": {
+      "name": "Botiquín"
+    },
+    "phbagHolySymbolV": {
+      "name": "Símbolo sagrado (varía)"
+    },
+    "phbagHolyWater00": {
+      "name": "Agua bendita"
+    },
+    "phbagHuntingTrap": {
+      "name": "Trampa de caza"
+    },
+    "phbagInk00000000": {
+      "name": "Tinta"
+    },
+    "phbagInkPen00000": {
+      "name": "Pluma de tinta"
+    },
+    "phbagJug00000000": {
+      "name": "Jarra"
+    },
+    "phbagLadder00000": {
+      "name": "Escalera"
+    },
+    "phbagLamp0000000": {
+      "name": "Lámpara"
+    },
+    "phbagLanternBull": {
+      "name": "Farol de ojo de buey"
+    },
+    "phbagLanternHood": {
+      "name": "Farol con capucha"
+    },
+    "phbagLock0000000": {
+      "name": "Candado"
+    },
+    "phbagMagnifyingG": {
+      "name": "Lupa"
+    },
+    "phbagManacles000": {
+      "name": "Grilletes"
+    },
+    "phbagMap00000000": {
+      "name": "Mapa"
+    },
+    "phbagMirror00000": {
+      "name": "Espejo"
+    },
+    "phbagNet00000000": {
+      "name": "Red"
+    },
+    "phbagOil00000000": {
+      "name": "Aceite"
+    },
+    "phbagPaper000000": {
+      "name": "Papel"
+    },
+    "phbagParchment00": {
+      "name": "Pergamino"
+    },
+    "phbagPerfume0000": {
+      "name": "Perfume"
+    },
+    "phbagPoisonBasic": {
+      "name": "Veneno básico"
+    },
+    "phbagPole0000000": {
+      "name": "Pértiga"
+    },
+    "phbagPotIron0000": {
+      "name": "Olla de hierro"
+    },
+    "phbagPotionofHea": {
+      "name": "Poción de curación"
+    },
+    "phbagPouch000000": {
+      "name": "Faltriquera"
+    },
+    "phbagPriestsPack": {
+      "name": "Mochila de sacerdote"
+    },
+    "phbagQuiver00000": {
+      "name": "Carcaj"
+    },
+    "phbagRamPortable": {
+      "name": "Ariete portátil"
+    },
+    "phbagRations0000": {
+      "name": "Raciones"
+    },
+    "phbagRobe0000000": {
+      "name": "Toga"
+    },
+    "phbagRope0000000": {
+      "name": "Cuerda"
+    },
+    "phbagSack0000000": {
+      "name": "Saco"
+    },
+    "phbagScholarsPac": {
+      "name": "Mochila de erudito"
+    },
+    "phbagShovel00000": {
+      "name": "Pala"
+    },
+    "phbagSignalWhist": {
+      "name": "Silbato de señales"
+    },
+    "phbagSpellScroll": {
+      "name": "Pergamino de conjuro, nivel 1"
+    },
+    "phbagSpikesIron0": {
+      "name": "Clavos de hierro"
+    },
+    "phbagSpyglass100": {
+      "name": "Catalejo"
+    },
+    "phbagString00000": {
+      "name": "Cordel"
+    },
+    "phbagTent0000000": {
+      "name": "Tienda de campaña"
+    },
+    "phbagTinderbox00": {
+      "name": "Caja de yesca"
+    },
+    "phbagTorch000000": {
+      "name": "Antorcha"
+    },
+    "phbagVial0000000": {
+      "name": "Vial"
+    },
+    "phbagWaterskin00": {
+      "name": "Odre"
+    },
+    "phbamoArrows0000": {
+      "name": "Flechas"
+    },
+    "phbamoBolts00000": {
+      "name": "Virotes"
+    },
+    "phbamoBulletsFir": {
+      "name": "Balas, arma de fuego"
+    },
+    "phbamoBulletsSli": {
+      "name": "Balas, honda"
+    },
+    "phbamoNeedles000": {
+      "name": "Agujas"
+    },
+    "phbarmBreastplat": {
+      "name": "Coraza"
+    },
+    "phbarmChainMail0": {
+      "name": "Cota de malla"
+    },
+    "phbarmChainShirt": {
+      "name": "Camisote de malla"
+    },
+    "phbarmHalfPlateA": {
+      "name": "Armadura media"
+    },
+    "phbarmHideArmor0": {
+      "name": "Armadura de pieles"
+    },
+    "phbarmLeatherArm": {
+      "name": "Armadura de cuero"
+    },
+    "phbarmPaddedArmo": {
+      "name": "Armadura acolchada"
+    },
+    "phbarmPlateArmor": {
+      "name": "Armadura de placas"
+    },
+    "phbarmRingMail00": {
+      "name": "Armadura de anillas"
+    },
+    "phbarmScaleMail0": {
+      "name": "Cota de escamas"
+    },
+    "phbarmShield0000": {
+      "name": "Escudo"
+    },
+    "phbarmSplintArmo": {
+      "name": "Armadura de bandas"
+    },
+    "phbarmStuddedLea": {
+      "name": "Armadura de cuero tachonado"
+    },
+    "phbdfcSprigofmis": {
+      "name": "Ramita de muérdago"
+    },
+    "phbdfcWoodenstaf": {
+      "name": "Bastón de madera"
+    },
+    "phbdfcYewwand000": {
+      "name": "Varita de tejo"
+    },
+    "phbgstDice000000": {
+      "name": "Dados"
+    },
+    "phbgstDragonches": {
+      "name": "Ajedrez dracónico"
+    },
+    "phbgstPlayingcar": {
+      "name": "Cartas de juego"
+    },
+    "phbgstThreedrago": {
+      "name": "Apuesta de tres dragones"
+    },
+    "phbhsyAmuletworn": {
+      "name": "Amuleto"
+    },
+    "phbhsyEmblemborn": {
+      "name": "Emblema"
+    },
+    "phbhsyReliquaryh": {
+      "name": "Relicario"
+    },
+    "phbmusBagpipes00": {
+      "name": "Gaita"
+    },
+    "phbmusDrum000000": {
+      "name": "Tambor"
+    },
+    "phbmusDulcimer00": {
+      "name": "Dulcémele"
+    },
+    "phbmusFlute00000": {
+      "name": "Flauta"
+    },
+    "phbmusHorn000000": {
+      "name": "Cuerno"
+    },
+    "phbmusLute000000": {
+      "name": "Laúd"
+    },
+    "phbmusLyre000000": {
+      "name": "Lira"
+    },
+    "phbmusPanflute00": {
+      "name": "Flauta de pan"
+    },
+    "phbmusShawm00000": {
+      "name": "Chirimía"
+    },
+    "phbmusViol000000": {
+      "name": "Viola"
+    },
+    "phbtulAlchemists": {
+      "name": "Suministros de alquimista"
+    },
+    "phbtulBrewersSup": {
+      "name": "Suministros de cervecero"
+    },
+    "phbtulCalligraph": {
+      "name": "Suministros de calígrafo"
+    },
+    "phbtulCarpenters": {
+      "name": "Herramientas de carpintero"
+    },
+    "phbtulCartograph": {
+      "name": "Herramientas de cartógrafo"
+    },
+    "phbtulCobblersTo": {
+      "name": "Herramientas de zapatero"
+    },
+    "phbtulCooksUtens": {
+      "name": "Utensilios de cocina"
+    },
+    "phbtulDisguiseKi": {
+      "name": "Kit de disfraz"
+    },
+    "phbtulForgeryKit": {
+      "name": "Kit de falsificación"
+    },
+    "phbtulGlassblowe": {
+      "name": "Herramientas de soplador de vidrio"
+    },
+    "phbtulHerbalismK": {
+      "name": "Kit de herboristería"
+    },
+    "phbtulJewelersTo": {
+      "name": "Herramientas de joyero"
+    },
+    "phbtulLeatherwor": {
+      "name": "Herramientas de peletero"
+    },
+    "phbtulMasonsTool": {
+      "name": "Herramientas de albañil"
+    },
+    "phbtulNavigators": {
+      "name": "Herramientas de navegante"
+    },
+    "phbtulPaintersSu": {
+      "name": "Suministros de pintor"
+    },
+    "phbtulPoisonersK": {
+      "name": "Kit de envenenador"
+    },
+    "phbtulPottersToo": {
+      "name": "Herramientas de alfarero"
+    },
+    "phbtulSmithsTool": {
+      "name": "Herramientas de herrero"
+    },
+    "phbtulThievesToo": {
+      "name": "Herramientas de ladrón"
+    },
+    "phbtulTinkersToo": {
+      "name": "Herramientas de calderero"
+    },
+    "phbtulWeaversToo": {
+      "name": "Herramientas de tejedor"
+    },
+    "phbtulWoodcarver": {
+      "name": "Herramientas de tallista de madera"
+    },
+    "phbwepBattleaxe0": {
+      "name": "Hacha de batalla"
+    },
+    "phbwepBlowgun000": {
+      "name": "Cerbatana"
+    },
+    "phbwepClub000000": {
+      "name": "Garrote"
+    },
+    "phbwepDagger0000": {
+      "name": "Daga"
+    },
+    "phbwepDart000000": {
+      "name": "Dardo"
+    },
+    "phbwepFlail00000": {
+      "name": "Mayal"
+    },
+    "phbwepGlaive0000": {
+      "name": "Guja"
+    },
+    "phbwepGreataxe00": {
+      "name": "Hacha a dos manos"
+    },
+    "phbwepGreatclub0": {
+      "name": "Garrote grande"
+    },
+    "phbwepGreatsword": {
+      "name": "Espadón"
+    },
+    "phbwepHalberd000": {
+      "name": "Alabarda"
+    },
+    "phbwepHandCrossb": {
+      "name": "Ballesta de mano"
+    },
+    "phbwepHandaxe000": {
+      "name": "Hacha de mano"
+    },
+    "phbwepHeavyCross": {
+      "name": "Ballesta pesada"
+    },
+    "phbwepJavelin000": {
+      "name": "Jabalina"
+    },
+    "phbwepLance00000": {
+      "name": "Lanza de caballería"
+    },
+    "phbwepLightCross": {
+      "name": "Ballesta ligera"
+    },
+    "phbwepLightHamme": {
+      "name": "Martillo ligero"
+    },
+    "phbwepLongbow000": {
+      "name": "Arco largo"
+    },
+    "phbwepLongsword0": {
+      "name": "Espada larga"
+    },
+    "phbwepMace000000": {
+      "name": "Maza"
+    },
+    "phbwepMaul000000": {
+      "name": "Gran maza"
+    },
+    "phbwepMorningsta": {
+      "name": "Lucero del alba"
+    },
+    "phbwepMusket0000": {
+      "name": "Mosquete"
+    },
+    "phbwepPike000000": {
+      "name": "Pica"
+    },
+    "phbwepPistol0000": {
+      "name": "Pistola"
+    },
+    "phbwepQuartersta": {
+      "name": "Bastón (Quarterstaff)"
+    },
+    "phbwepRapier0000": {
+      "name": "Estoque"
+    },
+    "phbwepScimitar00": {
+      "name": "Cimitarra"
+    },
+    "phbwepShortbow00": {
+      "name": "Arco corto"
+    },
+    "phbwepShortsword": {
+      "name": "Espada corta"
+    },
+    "phbwepSickle0000": {
+      "name": "Hoz"
+    },
+    "phbwepSling00000": {
+      "name": "Honda"
+    },
+    "phbwepSpear00000": {
+      "name": "Lanza"
+    },
+    "phbwepTrident000": {
+      "name": "Tridente"
+    },
+    "phbwepWarPick000": {
+      "name": "Pico de guerra"
+    },
+    "phbwepWarhammer0": {
+      "name": "Martillo de guerra"
+    },
+    "phbwepWhip000000": {
+      "name": "Látigo"
+    },
+    "phiPN9UzkXk3i5xh": {
+      "name": "Libro"
+    },
+    "pjxpIVbJEfOvM240": {
+      "name": "Ropa fina"
+    },
+    "q6nVEb4XnTWxqA81": {
+      "name": "Aceite"
+    },
+    "rIuY5ZDJh6ctfUwG": {
+      "name": "Yesquero"
+    },
+    "rZATMqE6y9uD3uzz": {
+      "name": "Papel"
+    },
+    "rvz6gQc3OcOMgIQz": {
+      "name": "Palanca"
+    },
+    "rwITntQ6OAy0neX8": {
+      "name": "Aceite"
+    },
+    "ts2DfyhdfsR092Td": {
+      "name": "Vela"
+    },
+    "uBvsyY44RP4LJLzp": {
+      "name": "Pluma de tinta"
+    },
+    "vi0j4PYnO596a2L1": {
+      "name": "Tinta"
+    },
+    "x8jC9e00t4cUYiKR": {
+      "name": "Cuerda"
+    },
+    "x9BzTUcsOj6K6OJE": {
+      "name": "Pluma de tinta"
+    },
+    "xP6OWuEaxQbDUfJV": {
+      "name": "Raciones"
+    },
+    "yoRKNd2QddQp1XuX": {
+      "name": "Perfume"
+    }
+  }
+}

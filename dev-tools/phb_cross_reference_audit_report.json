@@ -1,0 +1,2317 @@
+{
+  "summary": {
+    "audit_scope": {
+      "files_analyzed": [
+        "dnd-players-handbook.actors-en.json",
+        "dnd-players-handbook.actors.json",
+        "dnd-players-handbook.classes-en.json",
+        "dnd-players-handbook.classes.json",
+        "dnd-players-handbook.content-en.json",
+        "dnd-players-handbook.content.json",
+        "dnd-players-handbook.equipment-en.json",
+        "dnd-players-handbook.equipment.json",
+        "dnd-players-handbook.feats-en.json",
+        "dnd-players-handbook.feats.json",
+        "dnd-players-handbook.origins-en.json",
+        "dnd-players-handbook.origins.json",
+        "dnd-players-handbook.spells-en.json",
+        "dnd-players-handbook.spells.json",
+        "dnd-players-handbook.tables-en.json",
+        "dnd-players-handbook.tables.json"
+      ],
+      "phb_languages": [
+        "es",
+        "en"
+      ]
+    },
+    "totals": {
+      "compendium_ref_occurrences": 6569,
+      "compendium_ref_internal_phb_valid": 6384,
+      "compendium_ref_internal_phb_invalid": 27,
+      "compendium_ref_external_dnd5e": 158,
+      "relative_uuid_occurrences": 276,
+      "relative_uuid_valid": 276,
+      "relative_uuid_invalid": 0
+    },
+    "unique": {
+      "internal_phb_invalid_refs": 20,
+      "external_dnd5e_refs": 52,
+      "relative_uuid_refs": 111
+    }
+  },
+  "counts_by_file": {
+    "dnd-players-handbook.actors-en.json": {
+      "valid": 716,
+      "external": 22
+    },
+    "dnd-players-handbook.actors.json": {
+      "valid": 709,
+      "external": 18,
+      "invalid": 11
+    },
+    "dnd-players-handbook.classes-en.json": {
+      "valid": 524,
+      "external": 2
+    },
+    "dnd-players-handbook.classes.json": {
+      "valid": 524,
+      "external": 2
+    },
+    "dnd-players-handbook.content-en.json": {
+      "valid": 1363,
+      "external": 35,
+      "relative_valid": 138
+    },
+    "dnd-players-handbook.content.json": {
+      "valid": 1544,
+      "external": 35,
+      "relative_valid": 138
+    },
+    "dnd-players-handbook.equipment-en.json": {
+      "valid": 195,
+      "external": 10
+    },
+    "dnd-players-handbook.equipment.json": {
+      "valid": 195,
+      "external": 10
+    },
+    "dnd-players-handbook.feats-en.json": {
+      "valid": 44,
+      "external": 1
+    },
+    "dnd-players-handbook.feats.json": {
+      "valid": 28,
+      "invalid": 16,
+      "external": 1
+    },
+    "dnd-players-handbook.origins-en.json": {
+      "valid": 175,
+      "external": 5
+    },
+    "dnd-players-handbook.origins.json": {
+      "valid": 175,
+      "external": 5
+    },
+    "dnd-players-handbook.spells-en.json": {
+      "valid": 90,
+      "external": 6
+    },
+    "dnd-players-handbook.spells.json": {
+      "valid": 90,
+      "external": 6
+    },
+    "dnd-players-handbook.tables-en.json": {
+      "valid": 6
+    },
+    "dnd-players-handbook.tables.json": {
+      "valid": 6
+    }
+  },
+  "relative_uuid_internal_refs": {
+    "occurrences": 276,
+    "unique_relids": 111,
+    "all_valid": true,
+    "by_file": {
+      "dnd-players-handbook.content-en.json": 138,
+      "dnd-players-handbook.content.json": 138
+    }
+  },
+  "invalid_internal_phb_refs": {
+    "Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000": {
+      "occurrences": 4,
+      "language": "es",
+      "target_pack": "classes",
+      "label": "Clérigo",
+      "suggested_ref": "Compendium.dnd-players-handbook.classes.Item.phbclcCleric0000",
+      "source_files": [
+        "dnd-players-handbook.actors.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgCleric0000.description",
+          "source_entry": "phbprgCleric0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]",
+          "snippet": "<th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>Dioses</td><td>Sabiduría</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-p"
+        },
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgCleric0000.description",
+          "source_entry": "phbprgCleric0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]",
+          "snippet": "b.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr></tbody></table><table><caption>@UUI"
+        },
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgCleric0000.biography",
+          "source_entry": "phbprgCleric0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]",
+          "snippet": "<th scope=\"col\">Complejidad</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>Dioses</td><td>Sabiduría</td><td>Media</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-p"
+        },
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgCleric0000.biography",
+          "source_entry": "phbprgCleric0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]",
+          "snippet": "b.</th><th scope=\"col\">Car.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric00000]{Clérigo}</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr></tbody></table><table><caption>@UUI"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagAbrojos000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Abrojos",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAbrojos000]",
+          "snippet": ".dnd-players-handbook.equipment.Item.phbagCubo00000]{Cubo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAbrojos000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Garfio de escalada}, @UUID[Compendium."
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagAntorcha000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Antorcha",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntorcha000000]",
+          "snippet": "yers-handbook.equipment.Item.phbagEscalera00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntorcha000000]{Antorcha}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]{Herramientas de curti"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagBolsa000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Bolsa",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBolsa000000]",
+          "snippet": "hbtulLeatherwor]{Herramientas de curtidor}</td><td>Estuche, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBolsa000000]{Bolsa}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]{Herramientas de cantero}"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagCampana0000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Campana",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCampana0000000]",
+          "snippet": "ent.Item.phbtulTinkersToo]{Herramientas de manitas}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCampana0000000]{Campana}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPala00000]{Pala}, @UUID[Compendium.dnd-players-hand"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagCesta00000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Cesta",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCesta00000]",
+          "snippet": "ent.Item.phbtulWeaversToo]{Herramientas de tejedor}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCesta00000]{Cesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCuerda0000000]{Cuerda}, @UUID[Compendium.dnd-players-"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagCubo00000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Cubo",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCubo00000]",
+          "snippet": "book.equipment.Item.phbagBallBearing]{Bolas de rodamiento}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCubo00000]{Cubo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAbrojos000]{Abrojos}, @UUID[Compendium.dnd-players-han"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagCuerda0000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Cuerda",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCuerda0000000]",
+          "snippet": "nd-players-handbook.equipment.Item.phbagCesta00000]{Cesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCuerda0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRed00000000]{Red}, @UUID[Compendium.dnd-players-hand"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagEscalera00000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Escalera",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagEscalera00000]",
+          "snippet": ".Item.phbtulCarpenters]{Herramientas de carpintero}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagEscalera00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntorcha000000]{Antorcha}</td></tr><tr><td>@UUID[C"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagJarra00000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Jarra",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJarra00000000]",
+          "snippet": "nt.Item.phbtulPottersToo]{Herramientas de alfarero}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJarra00000000]{Jarra}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLámpara0000000]{Lámpara}</td></tr><tr><td>@UUID[Compe"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagLámpara0000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Lámpara",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLámpara0000000]",
+          "snippet": "players-handbook.equipment.Item.phbagJarra00000000]{Jarra}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLámpara0000000]{Lámpara}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{Herramientas de herrer"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagPala00000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Pala",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPala00000]",
+          "snippet": "yers-handbook.equipment.Item.phbagCampana0000000]{Campana}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPala00000]{Pala}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagYesquero00]{Yesquero}</td></tr><tr><td>@UUID[Compendiu"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00": {
+      "occurrences": 3,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Pergamino",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagParchment00",
+      "source_files": [
+        "dnd-players-handbook.actors.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgWarlock000.items.ROEA1w0Hi6qvlYXf.description",
+          "source_entry": "phbprgWarlock000",
+          "source_page": null,
+          "source_item": "ROEA1w0Hi6qvlYXf",
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00]",
+          "snippet": "dbook.equipment.Item.phbagOil00000000]{Aceite}, 10 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00]{Pergamino} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+        },
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgWizard0000.items.1h7eZLfYX5tq4wZX.description",
+          "source_entry": "phbprgWizard0000",
+          "source_page": null,
+          "source_item": "1h7eZLfYX5tq4wZX",
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00]",
+          "snippet": "dbook.equipment.Item.phbagOil00000000]{Aceite}, 10 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00]{Pergamino} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+        },
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.description",
+          "source_entry": "phbprgWizard0000",
+          "source_page": null,
+          "source_item": "lO0Yo3nkf503lr7P",
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00]",
+          "snippet": "dbook.equipment.Item.phbagOil00000000]{Aceite} (3 frascos), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPergamino00]{Pergamino} (12 hojas), 23 PO; o (B) 50 PO</p><p>Pasaste tus años de formación en un scriptorium, un monasterio dedicado"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagRed00000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Red",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRed00000000]",
+          "snippet": "layers-handbook.equipment.Item.phbagCuerda0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRed00000000]{Red}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTienda de campaña0000000]{Tienda de campaña}</td></tr><"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagTienda": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Tienda de campaña",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTienda de campaña0000000]",
+          "snippet": "dnd-players-handbook.equipment.Item.phbagRed00000000]{Red}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTienda de campaña0000000]{Tienda de campaña}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]{Herramientas"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbagYesquero00": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Yesquero",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagYesquero00]",
+          "snippet": ".dnd-players-handbook.equipment.Item.phbagPala00000]{Pala}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagYesquero00]{Yesquero}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]{Herramientas de tejed"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbwepGarrote000000": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Garrote",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGarrote000000]",
+          "snippet": "btulWoodcarver]{Herramientas de tallador de madera}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGarrote000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGran garrote0]{Gran garrote}, @UUID[Compendium.dnd"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.equipment.Item.phbwepGran": {
+      "occurrences": 1,
+      "language": "es",
+      "target_pack": "equipment",
+      "label": "Gran garrote",
+      "suggested_ref": "Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0",
+      "source_files": [
+        "dnd-players-handbook.feats.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.feats.json",
+          "path": "entries.phbftCrafter0000.description",
+          "source_entry": "phbftCrafter0000",
+          "source_page": null,
+          "source_item": null,
+          "macro": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGran garrote0]",
+          "snippet": "yers-handbook.equipment.Item.phbwepGarrote000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGran garrote0]{Gran garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</td></tr></tbody></table>"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife000": {
+      "occurrences": 2,
+      "language": "es",
+      "target_pack": "spells",
+      "label": "Vida falsa",
+      "suggested_ref": "Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0",
+      "source_files": [
+        "dnd-players-handbook.actors.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.description",
+          "source_entry": "phbprgBard000000",
+          "source_page": null,
+          "source_item": "XtFmA1snCvxW9JhA",
+          "macro": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife000]",
+          "snippet": "ndbook.spells.Item.phbsplChillTouch]{Toque helado}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife000]{Vida falsa}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb]{Rayo debilitador}</td></tr></t"
+        },
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgBard000000.items.ZmfJDR72A3RoT5ln.description",
+          "source_entry": "phbprgBard000000",
+          "source_page": null,
+          "source_item": "ZmfJDR72A3RoT5ln",
+          "macro": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife000]",
+          "snippet": "ndbook.spells.Item.phbsplChillTouch]{Toque helado}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife000]{Vida falsa}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb]{Rayo debilitador}</td></tr></t"
+        }
+      ]
+    },
+    "Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb": {
+      "occurrences": 2,
+      "language": "es",
+      "target_pack": "spells",
+      "label": "Rayo debilitador",
+      "suggested_ref": "Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee",
+      "source_files": [
+        "dnd-players-handbook.actors.json"
+      ],
+      "locations": [
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.description",
+          "source_entry": "phbprgBard000000",
+          "source_page": null,
+          "source_item": "XtFmA1snCvxW9JhA",
+          "macro": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb]",
+          "snippet": "andbook.spells.Item.phbsplFalseLife000]{Vida falsa}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb]{Rayo debilitador}</td></tr></tbody></table>"
+        },
+        {
+          "file": "dnd-players-handbook.actors.json",
+          "path": "entries.phbprgBard000000.items.ZmfJDR72A3RoT5ln.description",
+          "source_entry": "phbprgBard000000",
+          "source_page": null,
+          "source_item": "ZmfJDR72A3RoT5ln",
+          "macro": "@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb]",
+          "snippet": "andbook.spells.Item.phbsplFalseLife000]{Vida falsa}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfeeb]{Rayo debilitador}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Nota de Foun"
+        }
+      ]
+    }
+  },
+  "external_dnd5e_refs": {
+    "summary": {
+      "occurrences": 158,
+      "unique_refs": 52,
+      "by_target_pack": {
+        "rules": 4,
+        "items": 72,
+        "content24": 70,
+        "monsters": 12
+      },
+      "files_needed_to_validate": [
+        "dnd5e.content24.json",
+        "dnd5e.items.json",
+        "dnd5e.monsters.json",
+        "dnd5e.rules.json"
+      ]
+    },
+    "refs": {
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.0B1fxfmw0a48tPsc": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.ozHhbP8JVHCJAx0b.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "ozHhbP8JVHCJAx0b",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.0B1fxfmw0a48tPsc inline]</p><p><em>See also</em> &amp;Reference[Falling] and @UUID[.pBcRxpYx5FCVGThO]{Fly Speed}.</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.ozHhbP8JVHCJAx0b.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "ozHhbP8JVHCJAx0b",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.0B1fxfmw0a48tPsc inline]</p><p><em>Véase también</em> &amp;Reference y @UUID[.pBcRxpYx5FCVGThO]{Velocidad de vuelo}.</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2TZKy9YbMN3ZY3h8": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.YSLWJcQCP6kzsPql.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "YSLWJcQCP6kzsPql",
+            "source_item": null,
+            "snippet": "o target another creature unless it ends the grapple.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2TZKy9YbMN3ZY3h8 inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.YSLWJcQCP6kzsPql.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "YSLWJcQCP6kzsPql",
+            "source_item": null,
+            "snippet": "atacar a otra criatura a menos que termine el agarre.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2TZKy9YbMN3ZY3h8 inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2VqLyxMyMxgXe2wC": {
+        "occurrences": 4,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbActions000000.pages.v1hdTakUKmhnSBUv.text",
+            "source_entry": "phbActions000000",
+            "source_page": "v1hdTakUKmhnSBUv",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2VqLyxMyMxgXe2wC inline]</p><aside class=\"notable\"><h3>What Would Your Character Do?</h3><p>Ask yourself as you play, “What would my character d"
+          },
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.OhSIWaQ61dOp7S8M.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "OhSIWaQ61dOp7S8M",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2VqLyxMyMxgXe2wC inline]</p><p><em>See also</em> @UUID[.eNvzQabiTqTtfzis]{Opportunity Attacks} and chapter 1 @UUID[Compendium.dnd-players-handbo"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbActions000000.pages.v1hdTakUKmhnSBUv.text",
+            "source_entry": "phbActions000000",
+            "source_page": "v1hdTakUKmhnSBUv",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2VqLyxMyMxgXe2wC inline]</p><aside class=\"notable\"><h3>¿Qué haría tu personaje?</h3><p>Mientras juegas, pregúntate: «¿Qué haría mi personaje?». "
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.OhSIWaQ61dOp7S8M.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "OhSIWaQ61dOp7S8M",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.2VqLyxMyMxgXe2wC inline]</p><p><em>Véase también</em> @UUID[.eNvzQabiTqTtfzis]{Ataques de oportunidad} y el capítulo 1 @UUID[Compendium.dnd-play"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6DOoBgg7okm9gBc6": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.T1ln1l6uKkkMuieP.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "T1ln1l6uKkkMuieP",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6DOoBgg7okm9gBc6 inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.T1ln1l6uKkkMuieP.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "T1ln1l6uKkkMuieP",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6DOoBgg7okm9gBc6 inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6tqz947qO8vPyxvD": {
+        "occurrences": 4,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.9tzB6KQDTIuw1FlZ.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "9tzB6KQDTIuw1FlZ",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6tqz947qO8vPyxvD inline]</p><p>A space is Difficult Terrain if the space contains any of the following or something similar:</p><ul><li><p>A cre"
+          },
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.E9fzdKGx4UxrtOG7.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "E9fzdKGx4UxrtOG7",
+            "source_item": null,
+            "snippet": "TuzKQunNrnkC8]{Swim Speed}.</p><h2>Difficult Terrain</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6tqz947qO8vPyxvD inline]</p><aside class=\"notable\"><h3>Playing on a Grid</h3><p>If you play using a square grid and miniatures or other tokens, "
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.9tzB6KQDTIuw1FlZ.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "9tzB6KQDTIuw1FlZ",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6tqz947qO8vPyxvD inline]</p><p>Un espacio es Terreno difícil (Difficult Terrain) si contiene cualquiera de los siguientes elementos o algo simil"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.E9fzdKGx4UxrtOG7.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "E9fzdKGx4UxrtOG7",
+            "source_item": null,
+            "snippet": "unNrnkC8]{Velocidad de nado}.</p><h2>Terreno difícil</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.6tqz947qO8vPyxvD inline]</p><aside class=\"notable\"><h3>Jugar con cuadrícula</h3><p>Si juegas usando una cuadrícula de casillas y miniaturas u ot"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.7MN2Hp5KnjtddH3m": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbEquipment0000.pages.EOW6yQHLKlXre3jn.text",
+            "source_entry": "phbEquipment0000",
+            "source_page": "EOW6yQHLKlXre3jn",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.7MN2Hp5KnjtddH3m inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbEquipment0000.pages.EOW6yQHLKlXre3jn.text",
+            "source_entry": "phbEquipment0000",
+            "source_page": "EOW6yQHLKlXre3jn",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.7MN2Hp5KnjtddH3m inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.9ZWCknaXCOdhyOrX": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.E9fzdKGx4UxrtOG7.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "E9fzdKGx4UxrtOG7",
+            "source_item": null,
+            "snippet": "tr></tbody></table><h2>Moving Around Other Creatures</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.9ZWCknaXCOdhyOrX inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.E9fzdKGx4UxrtOG7.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "E9fzdKGx4UxrtOG7",
+            "source_item": null,
+            "snippet": "ody></table><h2>Moverse alrededor de otras criaturas</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.9ZWCknaXCOdhyOrX inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.DqqAOr5JnX71OCOw": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.JwK8XOkGSX9xE5Dc.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "JwK8XOkGSX9xE5Dc",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.DqqAOr5JnX71OCOw inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.JwK8XOkGSX9xE5Dc.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "JwK8XOkGSX9xE5Dc",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.DqqAOr5JnX71OCOw inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.HjKXuB8ndjcqOds7": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.aAQul39LLxv4sSUm.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "aAQul39LLxv4sSUm",
+            "source_item": null,
+            "snippet": "ls also involve making a ranged attack.</p><h2>Range</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.HjKXuB8ndjcqOds7 inline]</p><h2>Ranged Attacks in Close Combat</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEnt"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.aAQul39LLxv4sSUm.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "aAQul39LLxv4sSUm",
+            "source_item": null,
+            "snippet": "implican hacer un ataque a distancia.</p><h2>Alcance</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.HjKXuB8ndjcqOds7 inline]</p><h2>Ataques a distancia en combate cuerpo a cuerpo</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendix"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ICketFqbFslqKiX9": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbDamageAndHeal.pages.jLAG02U8x7MGm3u0.text",
+            "source_entry": "phbDamageAndHeal",
+            "source_page": "jLAG02U8x7MGm3u0",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ICketFqbFslqKiX9 inline]</p><aside class=\"notable\"><h3>Resting</h3><p>Adventurers can’t spend every hour adventuring. They need rest. Any creatu"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbDamageAndHeal.pages.jLAG02U8x7MGm3u0.text",
+            "source_entry": "phbDamageAndHeal",
+            "source_page": "jLAG02U8x7MGm3u0",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ICketFqbFslqKiX9 inline]</p><aside class=\"notable\"><h3>Descansar</h3><p>Los aventureros no pueden pasar todas las horas del día de aventura. Nec"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.JxboWb0XHo2GwqD0": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.f4fZHwBvpbpzRyn4.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "f4fZHwBvpbpzRyn4",
+            "source_item": null,
+            "snippet": "a weapon includes sheathing, stowing, or dropping it.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.JxboWb0XHo2GwqD0 inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.f4fZHwBvpbpzRyn4.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "f4fZHwBvpbpzRyn4",
+            "source_item": null,
+            "snippet": "par un arma incluye enfundarla, guardarla o soltarla.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.JxboWb0XHo2GwqD0 inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MAxtfJyvJV7EpzWN": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.24I7GDO2vVahRan1.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "24I7GDO2vVahRan1",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MAxtfJyvJV7EpzWN inline] <em>See also</em> &amp;Reference[Dim Light] and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExplorati"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.24I7GDO2vVahRan1.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "24I7GDO2vVahRan1",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MAxtfJyvJV7EpzWN inline] <em>Véase también</em> &amp;Reference y @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Ex"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MFpyvUIdcBpC9kIE": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.0t4AB2dun7hpADVS.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "0t4AB2dun7hpADVS",
+            "source_item": null,
+            "snippet": "the following rules.</p><h2>Mounting and Dismounting</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MFpyvUIdcBpC9kIE inline]</p><h2>Controlling a Mount</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.khmR"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.0t4AB2dun7hpADVS.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "0t4AB2dun7hpADVS",
+            "source_item": null,
+            "snippet": "ndo las siguientes reglas.</p><h2>Montar y desmontar</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MFpyvUIdcBpC9kIE inline]</p><h2>Controlar una montura</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.kh"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.PFbzoMBviI2DD9QP": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.sh9GYVdAi8hfH1ru.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "sh9GYVdAi8hfH1ru",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.PFbzoMBviI2DD9QP inline]</p><p><em>See also</em> @UUID[.RXTLVpAwcGm1qtKf]{Breaking Objects} and @UUID[Compendium.dnd-players-handbook.content.Jo"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.sh9GYVdAi8hfH1ru.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "sh9GYVdAi8hfH1ru",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.PFbzoMBviI2DD9QP inline]</p><p><em>Véase también</em> @UUID[.RXTLVpAwcGm1qtKf]{Romper objetos} y @UUID[Compendium.dnd-players-handbook.content.J"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.RcwElV4GAcVXKWxo": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.rwZa7b0CHh2n6mmA.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "rwZa7b0CHh2n6mmA",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.RcwElV4GAcVXKWxo inline]</p><p><em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{Combat}.</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.rwZa7b0CHh2n6mmA.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "rwZa7b0CHh2n6mmA",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.RcwElV4GAcVXKWxo inline]</p><p><em>Véase también</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{Combate}.</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.VWG9qe8PUNtS28Pw": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.zRZl7vdjzjqpazxn.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "zRZl7vdjzjqpazxn",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.VWG9qe8PUNtS28Pw inline]</p><p><em>See also</em> @UUID[.NSU7TjeJbJ0vVQaZ]{Speed}.</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.zRZl7vdjzjqpazxn.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "zRZl7vdjzjqpazxn",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.VWG9qe8PUNtS28Pw inline]</p><p><em>Véase también</em> @UUID[.NSU7TjeJbJ0vVQaZ]{Velocidad}.</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.W7f7PcRubNUMIq2S": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.pGXkTaY8kLgqQuDa.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "pGXkTaY8kLgqQuDa",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.W7f7PcRubNUMIq2S inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.pGXkTaY8kLgqQuDa.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "pGXkTaY8kLgqQuDa",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.W7f7PcRubNUMIq2S inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.YmOt8HderKveA19K": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.8gPSPovZD9reqFet.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "8gPSPovZD9reqFet",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.YmOt8HderKveA19K inline]</p><p><em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{chapter 1 (Combat)"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.8gPSPovZD9reqFet.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "8gPSPovZD9reqFet",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.YmOt8HderKveA19K inline]</p><p><em>Véase también</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{capítulo 1 (C"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.dRfDIwuaHmUQ06uA": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.p5qUBMQO7shfNeCD.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "p5qUBMQO7shfNeCD",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.dRfDIwuaHmUQ06uA inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.p5qUBMQO7shfNeCD.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "p5qUBMQO7shfNeCD",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.dRfDIwuaHmUQ06uA inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.eFAISahBloR2X8MX": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbExploration00.pages.LxNKnBjL1rx6MQUO.text",
+            "source_entry": "phbExploration00",
+            "source_page": "LxNKnBjL1rx6MQUO",
+            "source_item": null,
+            "snippet": "or example, or arrange miniatures to show it.</p></aside><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.eFAISahBloR2X8MX inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbExploration00.pages.LxNKnBjL1rx6MQUO.text",
+            "source_entry": "phbExploration00",
+            "source_page": "LxNKnBjL1rx6MQUO",
+            "source_item": null,
+            "snippet": "éndolo o colocando miniaturas para mostrarlo.</p></aside><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.eFAISahBloR2X8MX inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.gFL1VhSEljL1zvje": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.2dMF1Nsw7ysf6X6e.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "2dMF1Nsw7ysf6X6e",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.gFL1VhSEljL1zvje inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.2dMF1Nsw7ysf6X6e.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "2dMF1Nsw7ysf6X6e",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.gFL1VhSEljL1zvje inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.geTidcFIYWuUvD2L": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.gMTdiYGmbiwDyymt.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "gMTdiYGmbiwDyymt",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.geTidcFIYWuUvD2L inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.gMTdiYGmbiwDyymt.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "gMTdiYGmbiwDyymt",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.geTidcFIYWuUvD2L inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.hgZ5ZN4B3y7tmFlt": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.2g3T7ee3yYp1XSl8.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "2g3T7ee3yYp1XSl8",
+            "source_item": null,
+            "snippet": " few spells also involve melee attacks.</p><h2>Reach</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.hgZ5ZN4B3y7tmFlt inline]</p><h2>Opportunity Attacks</h2><p>Combatants watch for enemies to drop their guard. If you move heedlessly past your fo"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.2g3T7ee3yYp1XSl8.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "2g3T7ee3yYp1XSl8",
+            "source_item": null,
+            "snippet": "ién implican ataques cuerpo a cuerpo.</p><h2>Alcance</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.hgZ5ZN4B3y7tmFlt inline]</p><h2>Ataques de oportunidad</h2><p>Los combatientes están atentos a que sus enemigos bajen la guardia. Si te mueves i"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.iP1hYT7zzOyrzS7j": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.7mCbWff8VVEzpG2D.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "7mCbWff8VVEzpG2D",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.iP1hYT7zzOyrzS7j inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.7mCbWff8VVEzpG2D.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "7mCbWff8VVEzpG2D",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.iP1hYT7zzOyrzS7j inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.jZD5mCTnMPJ9jW67": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.3RRDH9XNKf1LHgWl.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "3RRDH9XNKf1LHgWl",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.jZD5mCTnMPJ9jW67 inline]</p><p><em>See also</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000]{chapter 7}.</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.3RRDH9XNKf1LHgWl.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "3RRDH9XNKf1LHgWl",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.jZD5mCTnMPJ9jW67 inline]</p><p><em>Véase también</em> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000]{capítulo 7}.<"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.jZFp4R7tXsIqkiG3": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.i3ijpxEn5LuSO7C0.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "i3ijpxEn5LuSO7C0",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.jZFp4R7tXsIqkiG3 inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.i3ijpxEn5LuSO7C0.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "i3ijpxEn5LuSO7C0",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.jZFp4R7tXsIqkiG3 inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.khmR2xFk1NxoQUgZ": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.0t4AB2dun7hpADVS.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "0t4AB2dun7hpADVS",
+            "source_item": null,
+            "snippet": ".MFpyvUIdcBpC9kIE inline]</p><h2>Controlling a Mount</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.khmR2xFk1NxoQUgZ inline]</p><h2>Falling Off</h2><p>If an effect is about to move your mount against its will while you’re on it, you must succee"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.0t4AB2dun7hpADVS.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "0t4AB2dun7hpADVS",
+            "source_item": null,
+            "snippet": "FpyvUIdcBpC9kIE inline]</p><h2>Controlar una montura</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.khmR2xFk1NxoQUgZ inline]</p><h2>Caer de la montura</h2><p>Si un efecto está a punto de mover a tu montura contra su voluntad mientras estás sobr"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ldmA1PbnEGVkmE11": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.7vQ1hLQ5fS6SSUqF.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "7vQ1hLQ5fS6SSUqF",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ldmA1PbnEGVkmE11 inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.7vQ1hLQ5fS6SSUqF.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "7vQ1hLQ5fS6SSUqF",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ldmA1PbnEGVkmE11 inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.npdEWb2egUPnB5Fa": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.LgpZdAOhTnSHGCNa.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "LgpZdAOhTnSHGCNa",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.npdEWb2egUPnB5Fa inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.LgpZdAOhTnSHGCNa.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "LgpZdAOhTnSHGCNa",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.npdEWb2egUPnB5Fa inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ow58p27ctAnr4VPH": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.0a2umg2mJMAzM9Q3.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "0a2umg2mJMAzM9Q3",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ow58p27ctAnr4VPH inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.0a2umg2mJMAzM9Q3.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "0a2umg2mJMAzM9Q3",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ow58p27ctAnr4VPH inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.qEZvxW0NM7ixSQP5": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbCombat0000000.pages.aAQul39LLxv4sSUm.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "aAQul39LLxv4sSUm",
+            "source_item": null,
+            "snippet": "cqOds7 inline]</p><h2>Ranged Attacks in Close Combat</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.qEZvxW0NM7ixSQP5 inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbCombat0000000.pages.aAQul39LLxv4sSUm.text",
+            "source_entry": "phbCombat0000000",
+            "source_page": "aAQul39LLxv4sSUm",
+            "source_item": null,
+            "snippet": "p><h2>Ataques a distancia en combate cuerpo a cuerpo</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.qEZvxW0NM7ixSQP5 inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.r64UrNusMhwJVnxb": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.r64UrNusMhwJVnxb.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "r64UrNusMhwJVnxb",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.r64UrNusMhwJVnxb inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.r64UrNusMhwJVnxb.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "r64UrNusMhwJVnxb",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.r64UrNusMhwJVnxb inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.sacjsfm9ZXnw4Tqc": {
+        "occurrences": 2,
+        "target_pack": "content24",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.content-en.json",
+          "dnd-players-handbook.content.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.content-en.json",
+            "path": "entries.phbAppendixCRule.pages.tdtmXZbUIOZGSnKT.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "tdtmXZbUIOZGSnKT",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.sacjsfm9ZXnw4Tqc inline]</p>"
+          },
+          {
+            "file": "dnd-players-handbook.content.json",
+            "path": "entries.phbAppendixCRule.pages.tdtmXZbUIOZGSnKT.text",
+            "source_entry": "phbAppendixCRule",
+            "source_page": "tdtmXZbUIOZGSnKT",
+            "source_item": null,
+            "snippet": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.sacjsfm9ZXnw4Tqc inline]</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.5mIeX824uMklU3xq": {
+        "occurrences": 2,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbagDiplomatsPa.description",
+            "source_entry": "phbagDiplomatsPa",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Map or Scroll Cases}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 sheets"
+          },
+          {
+            "file": "dnd-players-handbook.equipment.json",
+            "path": "entries.phbagDiplomatsPa.description",
+            "source_entry": "phbagDiplomatsPa",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "ayers-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Estuches para mapas o pergaminos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de "
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.9c0CHs90xqPw81iP": {
+        "occurrences": 2,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.description",
+            "source_entry": "phbprgWarlock000",
+            "source_page": null,
+            "source_item": "9KBKviUbm9kRtBFb",
+            "snippet": "ipment.Item.phbagBook0000000]{Book} (prayers), Holy Symbol, @UUID[Compendium.dnd5e.items.Item.9c0CHs90xqPw81iP]{Parchment} (10 sheets), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 G"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgWarlock000.items.9KBKviUbm9kRtBFb.description",
+            "source_entry": "phbprgWarlock000",
+            "source_page": null,
+            "source_item": "9KBKviUbm9kRtBFb",
+            "snippet": "Item.phbagBook0000000]{Libro} (oraciones), Símbolo sagrado, @UUID[Compendium.dnd5e.items.Item.9c0CHs90xqPw81iP]{Pergamino} (10 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Toga o hábito}, 8 PO; o ("
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw": {
+        "occurrences": 2,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.classes-en.json",
+          "dnd-players-handbook.classes.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.classes-en.json",
+            "path": "entries.phbinvGiftoftheP.description",
+            "source_entry": "phbinvGiftoftheP",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "e} Invocation</p></blockquote><p>A new page appears in your @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]{Book of Shadows} when you conjure it. With your permission, a creature can take an action to write its name on that pag"
+          },
+          {
+            "file": "dnd-players-handbook.classes.json",
+            "path": "entries.phbinvGiftoftheP.description",
+            "source_entry": "phbinvGiftoftheP",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "grimorio}</p></blockquote><p>Aparece una nueva página en tu @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]{Book of Shadows} cuando lo conjuras. Con tu permiso, una criatura puede usar una acción para escribir su nombre en esa "
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi": {
+        "occurrences": 10,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json",
+          "dnd-players-handbook.origins-en.json",
+          "dnd-players-handbook.origins.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.description",
+            "source_entry": "phbprgPaladin000",
+            "source_page": null,
+            "source_item": "N4VayZJlPqsfDVSB",
+            "snippet": "ng> <em>Choose A or B:</em> (A) Gaming Set (same as above), @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, 29 GP; or (B) 50 GP</p>"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.description",
+            "source_entry": "phbprgSorcerer00",
+            "source_page": null,
+            "source_item": "LGWHP5FKV4LckYqx",
+            "snippet": "players-handbook.equipment.Item.phbagCostume0000]{Costume}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, 15 GP; or (B) 50 GP</p><p>Once you were old enough to order an ale, you soon had a favorite stool in eve"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgWizard0000.items.lO0Yo3nkf503lr7P.description",
+            "source_entry": "phbprgWizard0000",
+            "source_page": null,
+            "source_item": "lO0Yo3nkf503lr7P",
+            "snippet": ".equipment.Item.phbtulCalligraph]{Calligrapher’s Supplies}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, @UUID[Compendium.dnd-playe"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgPaladin000.items.N4VayZJlPqsfDVSB.description",
+            "source_entry": "phbprgPaladin000",
+            "source_page": null,
+            "source_item": "N4VayZJlPqsfDVSB",
+            "snippet": "m>Elige A o B:</em> (A) Juego de azar (el mismo de arriba), @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa fina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, 29 PO; o (B) 50 PO</p><p>C"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgSorcerer00.items.LGWHP5FKV4LckYqx.description",
+            "source_entry": "phbprgSorcerer00",
+            "source_page": null,
+            "source_item": "LGWHP5FKV4LckYqx",
+            "snippet": "players-handbook.equipment.Item.phbagCostume0000]{Disfraz}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa fina}, 15 PO; o (B) 50 PO</p><p>En cuanto tuviste edad suficiente para pedir una jarra de cerveza, pronto tenías u"
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF": {
+        "occurrences": 4,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgMonk000000.items.DZ7c6CPflsLC1Xoo.description",
+            "source_entry": "phbprgMonk000000",
+            "source_page": null,
+            "source_item": "DZ7c6CPflsLC1Xoo",
+            "snippet": "ours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Magnifying Glass}, @UUID[Compendi"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgMonk000000.items.DZ7c6CPflsLC1Xoo.description",
+            "source_entry": "phbprgMonk000000",
+            "source_page": null,
+            "source_item": "DZ7c6CPflsLC1Xoo",
+            "snippet": "oras (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd-playe"
+          },
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbtulGlassblowe.description",
+            "source_entry": "phbtulGlassblowe",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "ours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Magnifying Glass}, @UUID[Compendi"
+          },
+          {
+            "file": "dnd-players-handbook.equipment.json",
+            "path": "entries.phbtulGlassblowe.description",
+            "source_entry": "phbtulGlassblowe",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "oras (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Botella de cristal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd"
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.LBajgahniRJbAgDr": {
+        "occurrences": 4,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.classes-en.json",
+          "dnd-players-handbook.classes.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.description",
+            "source_entry": "phbprgWizard0000",
+            "source_page": null,
+            "source_item": "EKGqpQUQ5ZcysC7V",
+            "snippet": "nd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Spellbook}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]{Scholar’s Pack}, and [[/award 5GP]];"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgWizard0000.items.EKGqpQUQ5ZcysC7V.description",
+            "source_entry": "phbprgWizard0000",
+            "source_page": null,
+            "source_item": "EKGqpQUQ5ZcysC7V",
+            "snippet": "s-handbook.equipment.Item.phbagRobe0000000]{Toga o hábito}, @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Libro de conjuros}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]{Pack de erudito}, y [[/award"
+          },
+          {
+            "file": "dnd-players-handbook.classes-en.json",
+            "path": "entries.phbwzdWizard0000.description",
+            "source_entry": "phbwzdWizard0000",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "nd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Spellbook}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]{Scholar’s Pack}, and [[/award 5GP]];"
+          },
+          {
+            "file": "dnd-players-handbook.classes.json",
+            "path": "entries.phbwzdWizard0000.description",
+            "source_entry": "phbwzdWizard0000",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Libro de conjuros}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]{Pack de erudito} y [[/award "
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE": {
+        "occurrences": 6,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json",
+          "dnd-players-handbook.feats-en.json",
+          "dnd-players-handbook.feats.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgDruid00000.items.ESAzLM1Yi6IgOsor.description",
+            "source_entry": "phbprgDruid00000",
+            "source_page": null,
+            "source_item": "ESAzLM1Yi6IgOsor",
+            "snippet": "rs-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kit}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd5e.items"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgDruid00000.items.ESAzLM1Yi6IgOsor.description",
+            "source_entry": "phbprgDruid00000",
+            "source_page": null,
+            "source_item": "ESAzLM1Yi6IgOsor",
+            "snippet": "andbook.equipment.Item.phbagHealersKit0]{Kit de curandero}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pala}, @UUID[Compendium.dnd5e.i"
+          },
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbtulSmithsTool.description",
+            "source_entry": "phbtulSmithsTool",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Iron Spikes}, @UUID[Compendium.dnd-pl"
+          },
+          {
+            "file": "dnd-players-handbook.equipment.json",
+            "path": "entries.phbtulSmithsTool.description",
+            "source_entry": "phbtulSmithsTool",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "-players-handbook.equipment.Item.phbagGrapplingHo]{Garfio}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Pitones de hierro}, @UUID[Compe"
+          },
+          {
+            "file": "dnd-players-handbook.feats-en.json",
+            "path": "entries.phbftCrafter0000.description",
+            "source_entry": "phbftCrafter0000",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo]{Tinker’s Tools}</td><"
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT": {
+        "occurrences": 22,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.origins-en.json",
+          "dnd-players-handbook.origins.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgBarbarian0.items.tJnbbgRA50N4qvoc.description",
+            "source_entry": "phbprgBarbarian0",
+            "source_page": null,
+            "source_item": "tJnbbgRA50N4qvoc",
+            "snippet": "nd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler’s Clothes}, 20 GP; or (B) 50 GP</p><p>You lived as a seafarer, wind at your back and decks swaying beneath you"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgBard000000.items.I4eCE9B2a6cmgpVG.description",
+            "source_entry": "phbprgBard000000",
+            "source_page": null,
+            "source_item": "I4eCE9B2a6cmgpVG",
+            "snippet": "players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 11 GP; or (B) 50 GP</p><p>You spent much of your youth following roving fairs and carnivals, perfo"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgCleric0000.items.xljRU2K25H3wpEHc.description",
+            "source_entry": "phbprgCleric0000",
+            "source_page": null,
+            "source_item": "xljRU2K25H3wpEHc",
+            "snippet": "-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 12 GP; or (B) 50 GP</p><p>Your feet ache when you remember the countless hours you spent at your p"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgDruid00000.items.ESAzLM1Yi6IgOsor.description",
+            "source_entry": "phbprgDruid00000",
+            "source_page": null,
+            "source_item": "ESAzLM1Yi6IgOsor",
+            "snippet": "-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 30 GP; or (B) 50 GP</p><p>You grew up close to the land. Years tending animals and cultivating the"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgFighter000.items.8jWxAwM0A9lpspWN.description",
+            "source_entry": "phbprgFighter000",
+            "source_page": null,
+            "source_item": "8jWxAwM0A9lpspWN",
+            "snippet": "-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler’s Clothes}, 14 GP; or (B) 50 GP</p><p>You began training for war as soon as you reached adulthood and carry pr"
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW": {
+        "occurrences": 6,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgBard000000.items.YUqXkHxkYXBC4o3G.description",
+            "source_entry": "phbprgBard000000",
+            "source_page": null,
+            "source_item": "YUqXkHxkYXBC4o3G",
+            "snippet": "nd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgBard000000.items.YUqXkHxkYXBC4o3G.description",
+            "source_entry": "phbprgBard000000",
+            "source_page": null,
+            "source_item": "YUqXkHxkYXBC4o3G",
+            "snippet": "players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de ojo de buey}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz}, @UUID[Comp"
+          },
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbtulTinkersToo.description",
+            "source_entry": "phbtulTinkersToo",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "nd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flask}, @UUID[Compendium.dnd5"
+          },
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbagEntertainer.description",
+            "source_entry": "phbagEntertainer",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "nd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium"
+          },
+          {
+            "file": "dnd-players-handbook.equipment.json",
+            "path": "entries.phbagEntertainer.description",
+            "source_entry": "phbagEntertainer",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de ojo de buey}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraces}, @UUID[Co"
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt": {
+        "occurrences": 2,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbtulLeatherwor.description",
+            "source_entry": "phbtulLeatherwor",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "layers-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Map or Scroll Case}, @UUID["
+          },
+          {
+            "file": "dnd-players-handbook.equipment.json",
+            "path": "entries.phbtulLeatherwor.description",
+            "source_entry": "phbtulLeatherwor",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Estuche para virotes de ballesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuche para "
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo": {
+        "occurrences": 4,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgDruid00000.items.asXOJoDmluQrruy7.description",
+            "source_entry": "phbprgDruid00000",
+            "source_page": null,
+            "source_item": "asXOJoDmluQrruy7",
+            "snippet": "nd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Portable Ram}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</p>"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgDruid00000.items.asXOJoDmluQrruy7.description",
+            "source_entry": "phbprgDruid00000",
+            "source_page": null,
+            "source_item": "asXOJoDmluQrruy7",
+            "snippet": "players-handbook.equipment.Item.phbagPole0000000]{Pértiga}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Ariete portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>"
+          },
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbtulCarpenters.description",
+            "source_entry": "phbtulCarpenters",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "nd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Portable Ram}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</p>"
+          },
+          {
+            "file": "dnd-players-handbook.equipment.json",
+            "path": "entries.phbtulCarpenters.description",
+            "source_entry": "phbtulCarpenters",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "players-handbook.equipment.Item.phbagPole0000000]{Pértiga}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Ariete portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE": {
+        "occurrences": 8,
+        "target_pack": "items",
+        "doctype": "Item",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.actors-en.json",
+          "dnd-players-handbook.actors.json",
+          "dnd-players-handbook.equipment-en.json",
+          "dnd-players-handbook.equipment.json",
+          "dnd-players-handbook.origins-en.json",
+          "dnd-players-handbook.origins.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbprgCleric0000.items.xljRU2K25H3wpEHc.description",
+            "source_entry": "phbprgCleric0000",
+            "source_page": null,
+            "source_item": "xljRU2K25H3wpEHc",
+            "snippet": ".Item.phbamoBolts00000]{Bolts}, Gaming Set (same as above), @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd"
+          },
+          {
+            "file": "dnd-players-handbook.actors.json",
+            "path": "entries.phbprgCleric0000.items.xljRU2K25H3wpEHc.description",
+            "source_entry": "phbprgCleric0000",
+            "source_page": null,
+            "source_item": "xljRU2K25H3wpEHc",
+            "snippet": "moBolts00000]{Virotes}, juego de azar (el mismo de arriba), @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con capucha}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Grilletes}, @UUID[Compend"
+          },
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbtulTinkersToo.description",
+            "source_entry": "phbtulTinkersToo",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "d-players-handbook.equipment.Item.phbagFlask000000]{Flask}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium"
+          },
+          {
+            "file": "dnd-players-handbook.equipment-en.json",
+            "path": "entries.phbagBurglarsPac.description",
+            "source_entry": "phbagBurglarsPac",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 days of @UU"
+          },
+          {
+            "file": "dnd-players-handbook.equipment.json",
+            "path": "entries.phbagBurglarsPac.description",
+            "source_entry": "phbagBurglarsPac",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con caperuza}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de aceite}, 5 "
+          }
+        ]
+      },
+      "Compendium.dnd5e.monsters.Actor.IyIybE5t2adMEVUM": {
+        "occurrences": 2,
+        "target_pack": "monsters",
+        "doctype": "Actor",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.spells-en.json",
+          "dnd-players-handbook.spells.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.spells-en.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "rt control over five <strong>Ghouls</strong> or two <strong>@UUID[Compendium.dnd5e.monsters.Actor.IyIybE5t2adMEVUM]{Ghasts}</strong> or <strong>@UUID[Compendium.dnd5e.monsters.Actor.rbyp54px2D0ql4QK]{Wights}</strong>. If you use a leve"
+          },
+          {
+            "file": "dnd-players-handbook.spells.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "l control sobre cinco <strong>Ghouls</strong> o dos <strong>@UUID[Compendium.dnd5e.monsters.Actor.IyIybE5t2adMEVUM]{Ghasts}</strong> o <strong>@UUID[Compendium.dnd5e.monsters.Actor.rbyp54px2D0ql4QK]{Wights}</strong>. Si usas un espacio"
+          }
+        ]
+      },
+      "Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL": {
+        "occurrences": 2,
+        "target_pack": "monsters",
+        "doctype": "Actor",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.spells-en.json",
+          "dnd-players-handbook.spells.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.spells-en.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "or Small Humanoids within range. Each one becomes a <strong>@UUID[Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL]{Ghoul}</strong> under your control (see the <em>Monster Manual</em> for its stat block).</p><p>As a Bonus Action on eac"
+          },
+          {
+            "file": "dnd-players-handbook.spells.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "ños dentro del alcance. Cada uno se convierte en un <strong>@UUID[Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL]{Ghoul}</strong> bajo tu control (consulta el <em>Monster Manual</em> para ver su bloque de estadísticas).</p><p>Como Ac"
+          }
+        ]
+      },
+      "Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH": {
+        "occurrences": 2,
+        "target_pack": "monsters",
+        "doctype": "Actor",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.spells-en.json",
+          "dnd-players-handbook.spells.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.spells-en.json",
+            "path": "entries.phbsplAwaken0000.description",
+            "source_entry": "phbsplAwaken0000",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "Actor.gaSTr7DFZJLmgI2J]{Awakened Shrub}</strong> or <strong>@UUID[Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Awakened Tree}</strong> in the <em>Monster Manual</em>.</p><p>The awakened target has the &amp;Reference[Charmed] condi"
+          },
+          {
+            "file": "dnd-players-handbook.spells.json",
+            "path": "entries.phbsplAwaken0000.description",
+            "source_entry": "phbsplAwaken0000",
+            "source_page": null,
+            "source_item": null,
+            "snippet": ".Actor.gaSTr7DFZJLmgI2J]{Awakened Shrub}</strong> o <strong>@UUID[Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Awakened Tree}</strong> del <em>Monster Manual</em>.</p><p>El objetivo despertado tiene la condición &amp;Reference[Cha"
+          }
+        ]
+      },
+      "Compendium.dnd5e.monsters.Actor.gaSTr7DFZJLmgI2J": {
+        "occurrences": 2,
+        "target_pack": "monsters",
+        "doctype": "Actor",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.spells-en.json",
+          "dnd-players-handbook.spells.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.spells-en.json",
+            "path": "entries.phbsplAwaken0000.description",
+            "source_entry": "phbsplAwaken0000",
+            "source_page": null,
+            "source_item": null,
+            "snippet": " the awakened Plant, such as the statistics for the <strong>@UUID[Compendium.dnd5e.monsters.Actor.gaSTr7DFZJLmgI2J]{Awakened Shrub}</strong> or <strong>@UUID[Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Awakened Tree}</strong> in "
+          },
+          {
+            "file": "dnd-players-handbook.spells.json",
+            "path": "entries.phbsplAwaken0000.description",
+            "source_entry": "phbsplAwaken0000",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "para la Planta despertada, como las estadísticas de <strong>@UUID[Compendium.dnd5e.monsters.Actor.gaSTr7DFZJLmgI2J]{Awakened Shrub}</strong> o <strong>@UUID[Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Awakened Tree}</strong> del "
+          }
+        ]
+      },
+      "Compendium.dnd5e.monsters.Actor.rbyp54px2D0ql4QK": {
+        "occurrences": 2,
+        "target_pack": "monsters",
+        "doctype": "Actor",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.spells-en.json",
+          "dnd-players-handbook.spells.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.spells-en.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "onsters.Actor.IyIybE5t2adMEVUM]{Ghasts}</strong> or <strong>@UUID[Compendium.dnd5e.monsters.Actor.rbyp54px2D0ql4QK]{Wights}</strong>. If you use a level 9 spell slot, you can animate or reassert control over six <strong>Ghouls</strong>"
+          },
+          {
+            "file": "dnd-players-handbook.spells.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "monsters.Actor.IyIybE5t2adMEVUM]{Ghasts}</strong> o <strong>@UUID[Compendium.dnd5e.monsters.Actor.rbyp54px2D0ql4QK]{Wights}</strong>. Si usas un espacio de conjuro de nivel 9, puedes animar o reafirmar el control sobre seis <strong>Gho"
+          }
+        ]
+      },
+      "Compendium.dnd5e.monsters.Actor.t8WYD7ak07X7xpx8": {
+        "occurrences": 2,
+        "target_pack": "monsters",
+        "doctype": "Actor",
+        "subtype": null,
+        "source_files": [
+          "dnd-players-handbook.spells-en.json",
+          "dnd-players-handbook.spells.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.spells-en.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": ">Ghasts</strong> or <strong>Wights</strong>, or two <strong>@UUID[Compendium.dnd5e.monsters.Actor.t8WYD7ak07X7xpx8]{Mummies}</strong>. See the <em>Monster Manual</em> for these stat blocks.</p>"
+          },
+          {
+            "file": "dnd-players-handbook.spells.json",
+            "path": "entries.phbsplCreateUnde.description",
+            "source_entry": "phbsplCreateUnde",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "ng>Ghasts</strong> o <strong>Wights</strong>, o dos <strong>@UUID[Compendium.dnd5e.monsters.Actor.t8WYD7ak07X7xpx8]{Mummies}</strong>. Consulta el <em>Monster Manual</em> para ver estos bloques de estadísticas.</p>"
+          }
+        ]
+      },
+      "Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u": {
+        "occurrences": 4,
+        "target_pack": "rules",
+        "doctype": "JournalEntry",
+        "subtype": "JournalEntryPage",
+        "source_files": [
+          "dnd-players-handbook.actors-en.json"
+        ],
+        "sample_locations": [
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbInvisibleSens.effects.dnd5einvisible00.description",
+            "source_entry": "phbInvisibleSens",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbmobFaithfulHo.effects.dnd5einvisible00.description",
+            "source_entry": "phbmobFaithfulHo",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbsplArcaneEye0.effects.dnd5einvisible00.description",
+            "source_entry": "phbsplArcaneEye0",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          },
+          {
+            "file": "dnd-players-handbook.actors-en.json",
+            "path": "entries.phbsplUnseenServ.effects.dnd5einvisible00.description",
+            "source_entry": "phbsplUnseenServ",
+            "source_page": null,
+            "source_item": null,
+            "snippet": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-03-23T15:37:52.167Z",
+  "totalPacks": 8,
+  "packs": [
+    {
+      "id": "dnd-players-handbook.actors",
+      "fileName": "dnd-players-handbook.actors.json",
+      "mapping": {
+        "items": {
+          "path": "items",
+          "converter": "phb2024ActorFullById"
+        }
+      },
+      "folders": {
+        "totalFolders": 20
+      },
+      "entries": {
+        "totalEntries": 146
+      }
+    },
+    {
+      "id": "dnd-players-handbook.classes",
+      "fileName": "dnd-players-handbook.classes.json",
+      "mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "folders": {
+        "totalFolders": 87
+      },
+      "entries": {
+        "totalEntries": 522
+      }
+    },
+    {
+      "id": "dnd-players-handbook.content",
+      "fileName": "dnd-players-handbook.content.json",
+      "mapping": {
+        "pages": {
+          "path": "pages",
+          "converter": "phb2024JournalPagesById"
+        }
+      },
+      "folders": {
+        "totalFolders": 8
+      },
+      "entries": {
+        "totalEntries": 47
+      }
+    },
+    {
+      "id": "dnd-players-handbook.equipment",
+      "fileName": "dnd-players-handbook.equipment.json",
+      "mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "folders": {
+        "totalFolders": 21
+      },
+      "entries": {
+        "totalEntries": 258
+      }
+    },
+    {
+      "id": "dnd-players-handbook.feats",
+      "fileName": "dnd-players-handbook.feats.json",
+      "mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "folders": {
+        "totalFolders": 4
+      },
+      "entries": {
+        "totalEntries": 77
+      }
+    },
+    {
+      "id": "dnd-players-handbook.origins",
+      "fileName": "dnd-players-handbook.origins.json",
+      "mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "folders": {
+        "totalFolders": 13
+      },
+      "entries": {
+        "totalEntries": 79
+      }
+    },
+    {
+      "id": "dnd-players-handbook.spells",
+      "fileName": "dnd-players-handbook.spells.json",
+      "mapping": {
+        "activities": {
+          "path": "system.activities",
+          "converter": "phb2024ActivitiesById"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phb2024MergeEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phb2024AdvancementById"
+        }
+      },
+      "folders": {
+        "totalFolders": 11
+      },
+      "entries": {
+        "totalEntries": 392
+      }
+    },
+    {
+      "id": "dnd-players-handbook.tables",
+      "fileName": "dnd-players-handbook.tables.json",
+      "mapping": {
+        "results": {
+          "path": "results",
+          "converter": "phb2024RollTableResultsById"
+        }
+      },
+      "folders": {
+        "totalFolders": 6
+      },
+      "entries": {
+        "totalEntries": 27
+      }
+    }
+  ]
+}

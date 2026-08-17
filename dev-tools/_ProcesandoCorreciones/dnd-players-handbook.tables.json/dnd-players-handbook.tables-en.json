@@ -1,0 +1,1493 @@
+{
+  "label": "Tables",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "phb2024RollTableResultsById"
+    }
+  },
+  "folders": {
+    "Chapter 2": "Chapter 2",
+    "Chapter 3": "Chapter 3",
+    "Chapter 7": "Chapter 7",
+    "Descriptions by Ability Score": "Descriptions by Ability Score",
+    "Personality Traits by Alignment": "Personality Traits by Alignment",
+    "Reincarnated Lineages": "Reincarnated Lineages"
+  },
+  "entries": {
+    "phbChaoticTraits": {
+      "name": "Chaotic Traits",
+      "folder": "Personality Traits by Alignment",
+      "description": "",
+      "results": {
+        "3p84lOv2rI5Ifxnq": {
+          "type": "text",
+          "name": "",
+          "description": "Rebellious"
+        },
+        "jgeZtQTXub7pLGDW": {
+          "type": "text",
+          "name": "",
+          "description": "Impulsive"
+        },
+        "vbxR0RtP7iH28FER": {
+          "type": "text",
+          "name": "",
+          "description": "Boastful"
+        },
+        "xTbruVMnWzW4jNvK": {
+          "type": "text",
+          "name": "",
+          "description": "Self-absorbed"
+        }
+      }
+    },
+    "phbCharismaDescr": {
+      "name": "Charisma",
+      "folder": "Descriptions by Ability Score",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "lYQO2FYwsrrv0Xjx": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Charming. <strong>Low:</strong> Pedantic."
+        },
+        "RYulbZL4BwdSMaep": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Commanding. <strong>Low:</strong> Humorless."
+        },
+        "w5NrO43eyKu4gOU6": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Inspiring. <strong>Low:</strong> Tactless."
+        },
+        "xsxQy1ck9Meo59k5": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Hilarious. <strong>Low:</strong> Reserved."
+        }
+      }
+    },
+    "phbConstitutionD": {
+      "name": "Constitution",
+      "folder": "Descriptions by Ability Score",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "G5HaF3HcFCfAS2n0": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Stable. <strong>Low:</strong> Fragile."
+        },
+        "hGgkwJSfz8NfVrx6": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Energetic. <strong>Low:</strong> Frail."
+        },
+        "JBSouZYKuGvXJebO": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Hale. <strong>Low:</strong> Squeamish."
+        },
+        "xDNr02NkYWW6SfLC": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Hearty. <strong>Low:</strong> Lethargic."
+        }
+      }
+    },
+    "phbDexterityDesc": {
+      "name": "Dexterity",
+      "folder": "Descriptions by Ability Score",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "5L5SUMEpY9HLYNAL": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Dynamic. <strong>Low:</strong> Clumsy."
+        },
+        "gokgv2E9hihSHCrf": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Lithe. <strong>Low:</strong> Jittery."
+        },
+        "KtBa1wiYzwF7fYlo": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Poised. <strong>Low:</strong> Unsteady."
+        },
+        "NB88AcSQ3iIW8jXE": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Fidgety. <strong>Low:</strong> Hesitant."
+        }
+      }
+    },
+    "phbElvenLineage0": {
+      "name": "Elven Lineage",
+      "folder": "Reincarnated Lineages",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+      "results": {
+        "A4xbZelWo8bO7tfV": {
+          "type": "document",
+          "name": "Elf, Wood",
+          "description": ""
+        },
+        "BnLtNGVLIwk3q6Hf": {
+          "type": "document",
+          "name": "Elf, Drow",
+          "description": ""
+        },
+        "fRp61b2M2UirSn1B": {
+          "type": "document",
+          "name": "Elf, High",
+          "description": ""
+        }
+      }
+    },
+    "phbEvilTraits000": {
+      "name": "Evil Traits",
+      "folder": "Personality Traits by Alignment",
+      "description": "",
+      "results": {
+        "Gjh670k1s87Nhz9w": {
+          "type": "text",
+          "name": "",
+          "description": "Greedy"
+        },
+        "NZ72JRISdOZWm5Ik": {
+          "type": "text",
+          "name": "",
+          "description": "Vengeful"
+        },
+        "odHmKdIBOxARUoDQ": {
+          "type": "text",
+          "name": "",
+          "description": "Dishonest"
+        },
+        "xJdVoehniU7eQP6V": {
+          "type": "text",
+          "name": "",
+          "description": "Cruel"
+        }
+      }
+    },
+    "phbFeywildGifts0": {
+      "name": "Feywild Gifts",
+      "folder": "Chapter 3",
+      "description": "",
+      "results": {
+        "AzX8Y4cc9BPLfRv5": {
+          "type": "text",
+          "name": "",
+          "description": "Your shadow dances while no one is looking directly at it."
+        },
+        "BTeKY9daYLzUHXmA": {
+          "type": "text",
+          "name": "",
+          "description": "Your skin and hair change color each dawn."
+        },
+        "E2o5uvomBiuGKDJ0": {
+          "type": "text",
+          "name": "",
+          "description": "Horns or antlers sprout from your head."
+        },
+        "GIWR3QmIqswjjSF2": {
+          "type": "text",
+          "name": "",
+          "description": "You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice."
+        },
+        "TqXP9Dlvut14Lum3": {
+          "type": "text",
+          "name": "",
+          "description": "Illusory butterflies flutter around you while you take a Short or Long Rest."
+        },
+        "yApcdYbXT2osz4ti": {
+          "type": "text",
+          "name": "",
+          "description": "Flowers bloom from your hair each dawn."
+        }
+      }
+    },
+    "phbFiendishLegac": {
+      "name": "Fiendish Legacy",
+      "folder": "Reincarnated Lineages",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
+      "results": {
+        "az5LLssMmXKwVuVN": {
+          "type": "document",
+          "name": "Tiefling, Chthonic",
+          "description": ""
+        },
+        "BDTDezjTIxlDKI0W": {
+          "type": "document",
+          "name": "Tiefling, Abyssal",
+          "description": ""
+        },
+        "rgmgNUmrPVv1e7Dz": {
+          "type": "document",
+          "name": "Tiefling, Infernal",
+          "description": ""
+        }
+      }
+    },
+    "phbgenCardinalDi": {
+      "name": "Cardinal Directions",
+      "folder": "Chapter 7",
+      "description": "",
+      "results": {
+        "CyJrrodLJ2WzWGqT": {
+          "type": "text",
+          "name": "",
+          "description": "West"
+        },
+        "DNSpGtmvbcTFYI70": {
+          "type": "text",
+          "name": "",
+          "description": "North"
+        },
+        "OkQWirC6VKB68BXa": {
+          "type": "text",
+          "name": "",
+          "description": "South"
+        },
+        "tKlkAqCz2QJZMRaB": {
+          "type": "text",
+          "name": "",
+          "description": "East"
+        }
+      }
+    },
+    "phbGnomishLineag": {
+      "name": "Gnomish Lineage",
+      "folder": "Reincarnated Lineages",
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+      "results": {
+        "AIWT6lRqac4IYvnv": {
+          "type": "document",
+          "name": "Gnome, Forest",
+          "description": ""
+        },
+        "tErs3uTFNYKl3gAu": {
+          "type": "document",
+          "name": "Gnome, Rock",
+          "description": ""
+        }
+      }
+    },
+    "phbGoodTraits000": {
+      "name": "Good Traits",
+      "folder": "Personality Traits by Alignment",
+      "description": "",
+      "results": {
+        "djCDvcBqgU9SaC0X": {
+          "type": "text",
+          "name": "",
+          "description": "Helpful"
+        },
+        "hPAFez3M2SD67ReJ": {
+          "type": "text",
+          "name": "",
+          "description": "Honest"
+        },
+        "ps2Exz1TNuwqhbrx": {
+          "type": "text",
+          "name": "",
+          "description": "Kind"
+        },
+        "qEQerPXs9a0dH9pe": {
+          "type": "text",
+          "name": "",
+          "description": "Compassionate"
+        }
+      }
+    },
+    "phbIntelligenceD": {
+      "name": "Intelligence",
+      "folder": "Descriptions by Ability Score",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "2PIIgUvU1jpAgvu1": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Informative. <strong>Low:</strong> Uninformed."
+        },
+        "6oKmNpNTlC6JSbvO": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Decisive. <strong>Low:</strong> Artless."
+        },
+        "h5aL3ClP4QZv36Da": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Logical. <strong>Low:</strong> Illogical."
+        },
+        "QFuzEQD9wISbadXZ": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Curious. <strong>Low:</strong> Frivolous."
+        }
+      }
+    },
+    "phbLawfulTraits0": {
+      "name": "Lawful Traits",
+      "folder": "Personality Traits by Alignment",
+      "description": "",
+      "results": {
+        "CApzKsqAnwn3Sqn3": {
+          "type": "text",
+          "name": "",
+          "description": "Cooperative"
+        },
+        "CEt8BSsjuvG5tpty": {
+          "type": "text",
+          "name": "",
+          "description": "Judgmental"
+        },
+        "MtTv9TsK3nQtDjmL": {
+          "type": "text",
+          "name": "",
+          "description": "Loyal"
+        },
+        "XpG5S35SYz9PxnS4": {
+          "type": "text",
+          "name": "",
+          "description": "Methodical"
+        }
+      }
+    },
+    "phbManifestation": {
+      "name": "Manifestations of Order",
+      "folder": "Chapter 3",
+      "description": "",
+      "results": {
+        "eXixDmzNcrgIKUuo": {
+          "type": "text",
+          "name": "",
+          "description": "Spectral cogwheels hover behind you."
+        },
+        "n0Ca78FAc8y3ZWJg": {
+          "type": "text",
+          "name": "",
+          "description": "The hands of a clock spin in your eyes."
+        },
+        "nHVMHwbNyTPpSynM": {
+          "type": "text",
+          "name": "",
+          "description": "Your Spellcasting Focus temporarily takes the form of a Tiny clockwork mechanism."
+        },
+        "oCbas5BWdQ1vIyM8": {
+          "type": "text",
+          "name": "",
+          "description": "Floating equations and geometric objects overlay your body."
+        },
+        "pzfUxlnRrHLdCMQh": {
+          "type": "text",
+          "name": "",
+          "description": "The ticking of gears or ringing of a clock can be heard by you and those affected by your magic."
+        },
+        "W1eFgui77sHghTZZ": {
+          "type": "text",
+          "name": "",
+          "description": "Your skin glows with a brassy sheen."
+        }
+      }
+    },
+    "phbNeutralTraits": {
+      "name": "Neutral Traits",
+      "folder": "Personality Traits by Alignment",
+      "description": "",
+      "results": {
+        "dUDra1Dj3Vb3HQYW": {
+          "type": "text",
+          "name": "",
+          "description": "Laconic"
+        },
+        "NGFdXd75oMf51KPo": {
+          "type": "text",
+          "name": "",
+          "description": "Disinterested"
+        },
+        "T9YuWzRd3PcrJFiG": {
+          "type": "text",
+          "name": "",
+          "description": "Selfish"
+        },
+        "X0qoW0eOJbpP3dTM": {
+          "type": "text",
+          "name": "",
+          "description": "Pragmatic"
+        }
+      }
+    },
+    "phbPrismaticLaye": {
+      "name": "Prismatic Layers",
+      "folder": "Chapter 7",
+      "description": "",
+      "results": {
+        "0UVk1kE4Nz7qMSlj": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Blue.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> cold</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> The layer is destroyed if it takes at least 25 Fire damage.</p>"
+        },
+        "6ofDupJRAkCwQL5d": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Yellow.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> lightning</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> The layer is destroyed if it takes at least 60 force damage.</p>"
+        },
+        "b1ryx7FwWLGwgQiQ": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Indigo.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. <em>Additional Effects:</em> Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the <em>Daylight</em> spell.</p>"
+        },
+        "cbfHzGC7oLI48i1F": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Violet.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice). <em>Additional Effects:</em> This layer is destroyed by <em>Dispel Magic</em>.</p>"
+        },
+        "jAjDgUISYpf5GnE5": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Orange.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> acid</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by <em>Gust of Wind</em>).</p>"
+        },
+        "t0CrtbVhYtW3a7Lt": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Red.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> fire</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects</em>: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.</p>"
+        },
+        "uA69bAczU0ATdEt4": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Green.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> poison</span> damage. <em>Successful Save:</em> Half as much damage. <em>Additional Effects:</em> A <em>Passwall</em> spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</p>"
+        }
+      }
+    },
+    "phbPrismaticRays": {
+      "name": "Prismatic Rays",
+      "folder": "Chapter 7",
+      "description": "",
+      "results": {
+        "9roEeqKHIauLWYsP": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Indigo.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
+        },
+        "DYdvoPQwjzkQAmOz": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Yellow.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> lightning</span> damage. <em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "VJ0WNUsuWtNqlr7M": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Green.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> poison</span> damage. <em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "w7WNMlR1c0Bmsj1l": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Special.</strong> The target is struck by two rays. Roll twice, rerolling any 8.</p>"
+        },
+        "WtYqe4zm1DJyXmI5": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Orange.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> acid</span> damage. <em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "xZgEE34Oi8lV3z8S": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Blue.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> cold</span> damage. <em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "Yh9bG6idhWWwUmdS": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Red.</strong><em> Failed Save:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> fire</span> damage. <em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "YRy23VFeS34ZU0kN": {
+          "type": "text",
+          "name": "",
+          "description": "<p><strong>Violet.</strong><em> Failed Save:</em> The target has the <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> condition and makes a <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
+        }
+      }
+    },
+    "phbsplConfusionB": {
+      "name": "Confusion Behavior",
+      "folder": "Chapter 7",
+      "description": "<p>Behavior for the Turn</p>",
+      "results": {
+        "8oHL5jQ0fXbXGpuf": {
+          "type": "document",
+          "name": "Cardinal Directions",
+          "description": ""
+        },
+        "usPRYhAMow3voSIj": {
+          "type": "text",
+          "name": "",
+          "description": "The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action."
+        },
+        "Vk9ifvOs3jxCZhvd": {
+          "type": "text",
+          "name": "",
+          "description": "The target chooses its behavior."
+        },
+        "VTOEaomsUWS6eaCb": {
+          "type": "text",
+          "name": "",
+          "description": "The target doesn’t move or take actions."
+        },
+        "wOokSBLpTsUWBccD": {
+          "type": "text",
+          "name": "",
+          "description": "The target doesn’t take an action, and it uses all its movement to move. Roll [[/r 1d4]] for the direction: 1, north; 2, east; 3, south; or 4, west."
+        }
+      }
+    },
+    "phbsplReincarnat": {
+      "name": "Reincarnated Species",
+      "folder": "Chapter 7",
+      "description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>",
+      "results": {
+        "6L3KbE75ugKNdbhg": {
+          "type": "document",
+          "name": "Human",
+          "description": ""
+        },
+        "8g4dm4vqB60zPWw5": {
+          "type": "document",
+          "name": "Elven Lineage",
+          "description": ""
+        },
+        "9FtTDJCOwnD97SOu": {
+          "type": "document",
+          "name": "Goliath",
+          "description": ""
+        },
+        "DLKTRYgF1vpG4ons": {
+          "type": "document",
+          "name": "Aasimar",
+          "description": ""
+        },
+        "lCG2E5mLJL43oGk4": {
+          "type": "document",
+          "name": "Dragonborn",
+          "description": ""
+        },
+        "ncs8GLvSuavCJAqf": {
+          "type": "document",
+          "name": "Gnomish Lineage",
+          "description": ""
+        },
+        "PkXN8vlW5cXx8vbB": {
+          "type": "document",
+          "name": "Fiendish Legacy",
+          "description": ""
+        },
+        "RI73kNpd5iAababR": {
+          "type": "document",
+          "name": "Halfling",
+          "description": ""
+        },
+        "xNcsrma8ucsEEgz3": {
+          "type": "document",
+          "name": "Orc",
+          "description": ""
+        },
+        "Ym4LPQm1DMZ3iUBH": {
+          "type": "document",
+          "name": "Dwarf",
+          "description": ""
+        }
+      }
+    },
+    "phbsplTeleportMi": {
+      "name": "Teleport Mishap",
+      "folder": "Chapter 7",
+      "description": "<p><strong>Mishap damage:</strong> [[/damage 3d10 type=force]]</p><p><strong>Off target distance:</strong> [[/r 2d12#Miles]]{2d12 miles} [[/r 1d8#Direction]]{Direction}</p>",
+      "results": {
+        "4W9YPHqIIDyt3WbV": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Linked object:</strong> On target"
+        },
+        "5hV5vL7SYu53EPvb": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Seen casually:</strong> Off target"
+        },
+        "BtifMFAP26aAcDOx": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Very familiar:</strong> Similar area"
+        },
+        "K3Uun9ZfyGTdLNJl": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Viewed or described:</strong> On target"
+        },
+        "K6jZpSdlRXI1Wg9Q": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Very familiar:</strong> Off target"
+        },
+        "KShVQqILsbEKwNQ1": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Seen casually:</strong> Off target"
+        },
+        "LWWefv3FEwkukueE": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Viewed or described:</strong> Off target"
+        },
+        "MgxjepFoJzZqVf1M": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Very familiar:</strong> Mishap"
+        },
+        "n7LhrgNZV6rYGYBv": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Viewed or described:</strong> Mishap"
+        },
+        "niANcATD48MDIE5s": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Seen casually:</strong> Mishap"
+        },
+        "RaCnOnLRcJPv11Vf": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Permanent circle:</strong> On target"
+        },
+        "rPgQoygHRRWRRmIK": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Seen casually:</strong> Similar area"
+        },
+        "S3FXuqVgRazP23RK": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Viewed or described:</strong> Similar area"
+        },
+        "UH8N3zGLSGiLPObv": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>False destination:</strong> Mishap"
+        },
+        "yJ4FhyyZvenG7AJl": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>False destination:</strong> Similar area"
+        },
+        "ZPWjjJxSnyLENM8O": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Very familiar:</strong> On target"
+        }
+      }
+    },
+    "phbStandardLangu": {
+      "name": "Standard Languages",
+      "folder": "Chapter 2",
+      "description": "",
+      "results": {
+        "JpUuNwaf83gmUwV4": {
+          "type": "document",
+          "name": "Sub-Languages Table",
+          "description": ""
+        },
+        "pzL0RD1tg43fqDTo": {
+          "type": "document",
+          "name": "Sub-Languages Table",
+          "description": ""
+        },
+        "rViHFEn5WjhRbElK": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Common. <strong>Origin:</strong> Sigil."
+        }
+      }
+    },
+    "phbStarMapForms0": {
+      "name": "Star Map Forms",
+      "folder": "Chapter 3",
+      "description": "",
+      "results": {
+        "1e85goxH6XmgVAdj": {
+          "type": "text",
+          "name": "",
+          "description": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapStoneT]{stone tablet} with fine holes drilled through it"
+        },
+        "65OqsrLnZLnxBefD": {
+          "type": "text",
+          "name": "",
+          "description": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapCrysta]{crystal} engraved with starry patterns"
+        },
+        "aado9cmpRwu14GS3": {
+          "type": "text",
+          "name": "",
+          "description": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapBoundI]{collection of maps} bound in an ebony cover"
+        },
+        "eXetoF5I0dBYsAvA": {
+          "type": "text",
+          "name": "",
+          "description": "An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapOwlbea]{owlbear hide} tooled with stellar symbols"
+        },
+        "ZRBsw6n8mGNwLpJt": {
+          "type": "text",
+          "name": "",
+          "description": "A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapScroll]{scroll} bearing depictions of constellations"
+        },
+        "ZUV7FeQvZGGAC5uO": {
+          "type": "text",
+          "name": "",
+          "description": "A@UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapGlassD]{glass disk} etched with constellations"
+        }
+      }
+    },
+    "phbStartingTrink": {
+      "name": "Trinkets",
+      "folder": "Chapter 2",
+      "description": "",
+      "results": {
+        "0j3emj0PU8amfwS3": {
+          "type": "text",
+          "name": "",
+          "description": "A wooden statuette of a smug halfling"
+        },
+        "0Z5jMrvmiZ8HK8xd": {
+          "type": "text",
+          "name": "",
+          "description": "A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips"
+        },
+        "1UB86NcSDUIBykNm": {
+          "type": "text",
+          "name": "",
+          "description": "A mummified goblin hand"
+        },
+        "37vysK5qfyjHWBWm": {
+          "type": "text",
+          "name": "",
+          "description": "A bronze pentacle with an etching of a rat’s head in its center"
+        },
+        "3LTEcTwsUr9m5mGV": {
+          "type": "text",
+          "name": "",
+          "description": "A brass orb etched with strange runes"
+        },
+        "4Mrq1XRbsUJjKceK": {
+          "type": "text",
+          "name": "",
+          "description": "A multicolored stone disk"
+        },
+        "6GFmEhglG9rjrj2G": {
+          "type": "text",
+          "name": "",
+          "description": "A candle that can’t be lit"
+        },
+        "7JFlRuHhcNgFBQCL": {
+          "type": "text",
+          "name": "",
+          "description": "A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)"
+        },
+        "99Zmqkbbj1YyO4Cm": {
+          "type": "text",
+          "name": "",
+          "description": "A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body"
+        },
+        "9kaaUYVwfMkFfsjo": {
+          "type": "text",
+          "name": "",
+          "description": "An alabaster mask"
+        },
+        "agFIuW6qay5wyhR3": {
+          "type": "text",
+          "name": "",
+          "description": "A whistle made from gold-colored wood"
+        },
+        "axl0VE5AthESWIkd": {
+          "type": "text",
+          "name": "",
+          "description": "A vial of dragon blood"
+        },
+        "BJ9OaK1OeRxCLcsm": {
+          "type": "text",
+          "name": "",
+          "description": "A miniature cage with no door"
+        },
+        "BjTpLIR1DSNUQA7E": {
+          "type": "text",
+          "name": "",
+          "description": "A metal urn containing the ashes of a hero"
+        },
+        "bMI91XR4KMvo4tjI": {
+          "type": "text",
+          "name": "",
+          "description": "A lock of someone’s hair"
+        },
+        "BoJHLiKzZPvCmkIf": {
+          "type": "text",
+          "name": "",
+          "description": "A rabbit’s foot"
+        },
+        "C2EdF8CZHmvexHDX": {
+          "type": "text",
+          "name": "",
+          "description": "A hilt from a broken sword"
+        },
+        "C2uOPhK0TUu8dTXN": {
+          "type": "text",
+          "name": "",
+          "description": "A 1-ounce block made from an unknown material"
+        },
+        "CYeyOuA30ohcfPgd": {
+          "type": "text",
+          "name": "",
+          "description": "A dead scarab beetle the size of your hand"
+        },
+        "doz8Ggqs6mdGLHHM": {
+          "type": "text",
+          "name": "",
+          "description": "A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it"
+        },
+        "DSfbe9YWWPwPT99n": {
+          "type": "text",
+          "name": "",
+          "description": "An ornate scabbard that fits no blade you have found"
+        },
+        "EY007jl51tPPREYT": {
+          "type": "text",
+          "name": "",
+          "description": "A glass orb filled with moving smoke"
+        },
+        "fWWyjtohJHtz6NpV": {
+          "type": "text",
+          "name": "",
+          "description": "A petrified mouse"
+        },
+        "G1WR64ROhRxe4SlZ": {
+          "type": "text",
+          "name": "",
+          "description": "A vest with one hundred tiny pockets"
+        },
+        "G2KxS5pdZuxtDf4D": {
+          "type": "text",
+          "name": "",
+          "description": "A nightcap that gives you pleasant dreams when you wear it"
+        },
+        "G8H06tR6Rv6YweY1": {
+          "type": "text",
+          "name": "",
+          "description": "A sketch of a goblin"
+        },
+        "gUs56tkBL7gnr0Wa": {
+          "type": "text",
+          "name": "",
+          "description": "A sheet of parchment upon which is drawn a mechanical contraption"
+        },
+        "GZbSniAp67RYeulU": {
+          "type": "text",
+          "name": "",
+          "description": "An invitation to a party where a murder happened"
+        },
+        "H16sxzL3mY0ab0SD": {
+          "type": "text",
+          "name": "",
+          "description": "A silver skull the size of a coin"
+        },
+        "H625UbkdnmJ64aw9": {
+          "type": "text",
+          "name": "",
+          "description": "A diary with seven missing pages"
+        },
+        "Hpp4hV1sKIoFqzIf": {
+          "type": "text",
+          "name": "",
+          "description": "A needle that never bends"
+        },
+        "I0exL9dzZg0wthMa": {
+          "type": "text",
+          "name": "",
+          "description": "An empty silver snuffbox bearing the inscription “dreams” on its lid"
+        },
+        "IDGi7ijU97dtydoh": {
+          "type": "text",
+          "name": "",
+          "description": "A 1-pound egg with a bright-red shell"
+        },
+        "iQYOjVF2WdcGGgxR": {
+          "type": "text",
+          "name": "",
+          "description": "A dead sprite inside a clear glass bottle"
+        },
+        "JJewPitLKW29w7us": {
+          "type": "text",
+          "name": "",
+          "description": "A glass orb filled with water, in which swims a clockwork goldfish"
+        },
+        "jzjeBPYKZviXaGE9": {
+          "type": "text",
+          "name": "",
+          "description": "A mosaic tile with a multicolored, glazed surface"
+        },
+        "K0MYrwt4UTvNMiP3": {
+          "type": "text",
+          "name": "",
+          "description": "A fan that, when unfolded, shows a sleepy cat"
+        },
+        "K1CvAxT4EQIa1KqT": {
+          "type": "text",
+          "name": "",
+          "description": "A gemstone that looks like a lump of coal when examined by anyone but you"
+        },
+        "K8IUYfsaAz2sdFwM": {
+          "type": "text",
+          "name": "",
+          "description": "A knife that belonged to a relative"
+        },
+        "kcyLpCJmO7UFWW2H": {
+          "type": "text",
+          "name": "",
+          "description": "A silver icon of a raven"
+        },
+        "l1PHw7hxFHIJ6tUh": {
+          "type": "text",
+          "name": "",
+          "description": "A dragon’s talon strung on a leather necklace"
+        },
+        "ln8C5RrIfteVeu3B": {
+          "type": "text",
+          "name": "",
+          "description": "A tooth from an unknown beast"
+        },
+        "LvAMmmHYYZQu95th": {
+          "type": "text",
+          "name": "",
+          "description": "A pipe that blows bubbles"
+        },
+        "lyVvx6NPjT1Emz7v": {
+          "type": "text",
+          "name": "",
+          "description": "An empty wine bottle bearing a pretty label that says, “The Wizard of Wines Winery, Red Dragon Crush, 331422-W”"
+        },
+        "M1IWLp8ChJcJvuO6": {
+          "type": "text",
+          "name": "",
+          "description": "A crystal that faintly glows in moonlight"
+        },
+        "McuVqsG6pSeSN7S6": {
+          "type": "text",
+          "name": "",
+          "description": "A shard of obsidian that always feels warm to the touch"
+        },
+        "mUigbGOt583dBuX4": {
+          "type": "text",
+          "name": "",
+          "description": "A silver badge that is a five-pointed star"
+        },
+        "n1SWfDr140Czy7Dk": {
+          "type": "text",
+          "name": "",
+          "description": "A rectangular metal device with two tiny metal cups on one end that throws sparks when wet"
+        },
+        "nKavwZYOnFrOHkG3": {
+          "type": "text",
+          "name": "",
+          "description": "A mechanical canary inside a lamp"
+        },
+        "nlYHh9O5My9VbXb5": {
+          "type": "text",
+          "name": "",
+          "description": "A tiny mechanical crab or spider that moves about when it’s not being observed"
+        },
+        "NMkW290csrmB9JGQ": {
+          "type": "text",
+          "name": "",
+          "description": "A cameo of a hideous person"
+        },
+        "nMWe5i4J7zB89CWq": {
+          "type": "text",
+          "name": "",
+          "description": "A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking"
+        },
+        "ntkr8bH7QTevl9jA": {
+          "type": "text",
+          "name": "",
+          "description": "A glass jar containing a bit of flesh floating in pickling fluid"
+        },
+        "o7vFqKnuUZ2sV10C": {
+          "type": "text",
+          "name": "",
+          "description": "A pair of old socks"
+        },
+        "Oa6sAjObddYMlClx": {
+          "type": "text",
+          "name": "",
+          "description": "An ornate brooch of dwarven design"
+        },
+        "OpI3dqeFnDcvRr75": {
+          "type": "text",
+          "name": "",
+          "description": "A packet filled with pink dust"
+        },
+        "OYKb6uraFnjRkgmd": {
+          "type": "text",
+          "name": "",
+          "description": "A small cloth doll skewered with needles"
+        },
+        "p4KCpZunRqNmEC9F": {
+          "type": "text",
+          "name": "",
+          "description": "A miniature chest carved to look like it has numerous feet on the bottom"
+        },
+        "QAjgAqeSpPQOAxbv": {
+          "type": "text",
+          "name": "",
+          "description": "An empty glass vial that smells of perfume"
+        },
+        "QRxf4NB36YiWnfJ4": {
+          "type": "text",
+          "name": "",
+          "description": "A four-leaf clover pressed inside a book discussing manners and etiquette"
+        },
+        "qYB6PvEKrZYEV3Pw": {
+          "type": "text",
+          "name": "",
+          "description": "A set of bone pipes"
+        },
+        "r7gWpB24Slndb3wJ": {
+          "type": "text",
+          "name": "",
+          "description": "A purple handkerchief embroidered with the name of an archmage"
+        },
+        "rlRDpniFUS5xuWhG": {
+          "type": "text",
+          "name": "",
+          "description": "A silver teardrop earring containing a real teardrop"
+        },
+        "RMfr9DqzeXVEYAtv": {
+          "type": "text",
+          "name": "",
+          "description": "A gold monocle frame without the lens"
+        },
+        "rReB5FdOho5GjkDt": {
+          "type": "text",
+          "name": "",
+          "description": "A book about a legendary hero’s rise and fall, with the last chapter missing"
+        },
+        "RzQeJWipC6ESuUrn": {
+          "type": "text",
+          "name": "",
+          "description": "A receipt of deposit at a bank in a far-off city"
+        },
+        "SFJefOoyTvSYf2DW": {
+          "type": "text",
+          "name": "",
+          "description": "A gnome-crafted music box that plays a song you dimly remember from your childhood"
+        },
+        "sFUjvmAhIHtUIAwn": {
+          "type": "text",
+          "name": "",
+          "description": "A silver spoon with an M engraved on the handle"
+        },
+        "SSpTgkp4wvU8lHWp": {
+          "type": "text",
+          "name": "",
+          "description": "An enormous scale, perhaps from a dragon"
+        },
+        "tCjByq1RqPKTMByr": {
+          "type": "text",
+          "name": "",
+          "description": "A silver bell without a clapper"
+        },
+        "tJILEUhHQJgZd3h7": {
+          "type": "text",
+          "name": "",
+          "description": "A black pirate flag adorned with a dragon’s skull and crossbones"
+        },
+        "TREYOVgNQppBKl9c": {
+          "type": "text",
+          "name": "",
+          "description": "A fragment of a beautiful song, written as musical notes on two pieces of parchment"
+        },
+        "twUx2e03YCRFeN1f": {
+          "type": "text",
+          "name": "",
+          "description": "A bag containing forty-seven teeth, one of which is rotten"
+        },
+        "u8DhaWBstONiXblV": {
+          "type": "text",
+          "name": "",
+          "description": "The deed for a parcel of land in a realm unknown to you"
+        },
+        "uDyEGNdkNoZflKJG": {
+          "type": "text",
+          "name": "",
+          "description": "An old key"
+        },
+        "uh2ybtxRs8M3VjmX": {
+          "type": "text",
+          "name": "",
+          "description": "A bright-green feather"
+        },
+        "uTzd9hG7fVG1nBZB": {
+          "type": "text",
+          "name": "",
+          "description": "A 1-inch cube, each side a different color"
+        },
+        "VBZ5z1IzyOMxWjh3": {
+          "type": "text",
+          "name": "",
+          "description": "A glass vial filled with nail clippings"
+        },
+        "vfO9PhxUuVH3Leb4": {
+          "type": "text",
+          "name": "",
+          "description": "A bit of folded cloth that, when unfolded, turns into a stylish cap"
+        },
+        "VlXxfsGYaBWe8lmv": {
+          "type": "text",
+          "name": "",
+          "description": "A diary written in a language you don’t know"
+        },
+        "vv4Ogu0Sc5byy86S": {
+          "type": "text",
+          "name": "",
+          "description": "A white, sequined glove sized for a human"
+        },
+        "VV9aOlIjb6Eeijk0": {
+          "type": "text",
+          "name": "",
+          "description": "A rank insignia from a lost legionnaire"
+        },
+        "W0dQHJTZDRf2UAwp": {
+          "type": "text",
+          "name": "",
+          "description": "An eggshell painted with scenes of misery in disturbing detail"
+        },
+        "w5us6YeOVVr5CTzu": {
+          "type": "text",
+          "name": "",
+          "description": "A brass ring that never tarnishes"
+        },
+        "wCHlXVeLGW0nvsPp": {
+          "type": "text",
+          "name": "",
+          "description": "An indecipherable treasure map"
+        },
+        "WJN8tK4NZWbXPu6B": {
+          "type": "text",
+          "name": "",
+          "description": "A scrap of cloth from an old banner"
+        },
+        "wjOwLB6kmGbWP2qD": {
+          "type": "text",
+          "name": "",
+          "description": "An old divination card bearing your likeness"
+        },
+        "x3XWO1tRDDjc0Dyt": {
+          "type": "text",
+          "name": "",
+          "description": "A glass jar containing lard with a label that reads, “Griffon Grease”"
+        },
+        "x48dbt5uqwW7yvjG": {
+          "type": "text",
+          "name": "",
+          "description": "An ancient arrow of elven design"
+        },
+        "xhmkotcrYgtDq0jQ": {
+          "type": "text",
+          "name": "",
+          "description": "A glass eye"
+        },
+        "xl1zdaiiFf991Iqt": {
+          "type": "text",
+          "name": "",
+          "description": "A weightless stone"
+        },
+        "XRqEMbHsMsA7J9VH": {
+          "type": "text",
+          "name": "",
+          "description": "A gold coin minted in an unknown land"
+        },
+        "xsWDSHfrSy9hQmk8": {
+          "type": "text",
+          "name": "",
+          "description": "A crystal doorknob"
+        },
+        "XyePtfYIngJ5suzP": {
+          "type": "text",
+          "name": "",
+          "description": "Two toy soldiers, one missing a head"
+        },
+        "yEot4MFFCGmRRTST": {
+          "type": "text",
+          "name": "",
+          "description": "Half a floor plan for a temple, a castle, or another structure"
+        },
+        "YqT3ro2COewxvBQK": {
+          "type": "text",
+          "name": "",
+          "description": "A small box filled with different-sized buttons"
+        },
+        "yrZzanhn0D1p9Nyb": {
+          "type": "text",
+          "name": "",
+          "description": "A cone of sticky black incense that stinks"
+        },
+        "z0tFDFVY2u9jXO68": {
+          "type": "text",
+          "name": "",
+          "description": "An iron holy symbol devoted to an unknown god"
+        },
+        "zawsPbsknbRsAruh": {
+          "type": "text",
+          "name": "",
+          "description": "An old chess piece made from glass"
+        },
+        "zYFlKKsvc4HPr7Ub": {
+          "type": "text",
+          "name": "",
+          "description": "A single caltrop made from bone"
+        }
+      }
+    },
+    "phbStrengthDescr": {
+      "name": "Strength",
+      "folder": "Descriptions by Ability Score",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "EU3ea5OEEhlg22ru": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Direct. <strong>Low:</strong> Indirect."
+        },
+        "gpwlsLCmwpLSUv0b": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Protective. <strong>Low:</strong> Self-conscious."
+        },
+        "itpZKjhBdgnKajNe": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Sinewy. <strong>Low:</strong> Slight."
+        },
+        "WPYEso4sWBUSQvOq": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Muscular. <strong>Low:</strong> Weak."
+        }
+      }
+    },
+    "phbSublanguageTa": {
+      "name": "Sub-Languages Table",
+      "folder": "Chapter 2",
+      "description": "",
+      "results": {
+        "0ax92ObMEQPSC2fm": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Orc. <strong>Origin:</strong> Orcs."
+        },
+        "0uKZmKF7znJNVuzU": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Dwarvish. <strong>Origin:</strong> Dwarves."
+        },
+        "8jwF2ojzhkWpRtUw": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Goblin. <strong>Origin:</strong> Goblinoids."
+        },
+        "b0CKmtsTQ7J2GBz0": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Halfling. <strong>Origin:</strong> Halflings."
+        },
+        "K6WzOtBKakv6WBWo": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Gnomish. <strong>Origin:</strong> Gnomes."
+        },
+        "ldceHBQUUr4q4wxq": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Giant. <strong>Origin:</strong> Giants."
+        },
+        "llH2J2NFDJ7eTCim": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Elvish. <strong>Origin:</strong> Elves."
+        },
+        "LoCbKgBhdONPEPVB": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Draconic. <strong>Origin:</strong> Dragons."
+        },
+        "pyVRbUOfHAgtAvnf": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>Language:</strong> Common Sign Language. <strong>Origin:</strong> Sigil."
+        }
+      }
+    },
+    "phbWildMagicSurg": {
+      "name": "Wild Magic Surge",
+      "folder": "Chapter 3",
+      "description": "",
+      "results": {
+        "3h9eiKSmszhELSAb": {
+          "type": "text",
+          "name": "",
+          "description": "You have Resistance to all damage for the next minute."
+        },
+        "aCnFIMm99BRylDF8": {
+          "type": "text",
+          "name": "",
+          "description": "You and all creatures within 30 feet of you have Vulnerability to Piercing damage for the next minute."
+        },
+        "Ag50SwBaku5lCAkB": {
+          "type": "text",
+          "name": "",
+          "description": "Creatures have Disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."
+        },
+        "aLcTc8jkrKXyt9VI": {
+          "type": "text",
+          "name": "",
+          "description": "A random creature within 60 feet of you has the Poisoned condition for [[/r 1d4]] hours."
+        },
+        "CcoRr6YLJ3283cFl": {
+          "type": "text",
+          "name": "",
+          "description": "You can take one extra action on this turn."
+        },
+        "ezDlDVysCI4dPSE6": {
+          "type": "text",
+          "name": "",
+          "description": "You radiate Bright Light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you has the Blinded condition until the end of its next turn."
+        },
+        "f2jCEbNfnTnrpFwj": {
+          "type": "text",
+          "name": "",
+          "description": "You are transported to the Astral Plane until the end of your next turn. You then return to the space you previously occupied or the nearest unoccupied space if that space is occupied."
+        },
+        "FAFipyNPV1TCVz42": {
+          "type": "text",
+          "name": "",
+          "description": "Up to three creatures of your choice that you can see within 30 feet of you take [[/damage 4d10 type=lightning]] damage."
+        },
+        "ggDXMvmM94uFsMSd": {
+          "type": "text",
+          "name": "",
+          "description": "Roll [[/r 1d6]]: On a 1, you regain [[/healing 2d10]]{2d10} Hit Points; on a 2, one ally of your choice within 300 feet of you regains [[/healing 2d10]]{2d10} Hit Points; on a 3, you regain your lowest-level expended spell slot; on a 4, one ally of your choice within 300 feet of you regains their lowest-level expended spell slot; on a 5, you regain all your expended Sorcery Points; on a 6, all the effects of row 17–20 affect you simultaneously."
+        },
+        "HSbNtkb3XFTvda0q": {
+          "type": "text",
+          "name": "",
+          "description": "You turn into a potted plant until the start of your next turn. While you’re a plant, you have the &amp;Reference[Incapacitated] condition and have Vulnerability to all damage. If you drop to 0 Hit Points, your pot breaks, and your form reverts."
+        },
+        "IcK4t15GbK2HSh8R": {
+          "type": "text",
+          "name": "",
+          "description": "Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."
+        },
+        "jd0POA14Xum3SeB8": {
+          "type": "text",
+          "name": "",
+          "description": "For the next minute, all your spells with a casting time of an action have a casting time of a Bonus Action."
+        },
+        "Mc6j9kCS7dSiJm6L": {
+          "type": "text",
+          "name": "",
+          "description": "You have the &amp;Reference[Frightened] condition until the end of your next turn. The DM determines the source of your fear."
+        },
+        "Nkmle92xyQeIO5wq": {
+          "type": "text",
+          "name": "",
+          "description": "You are subjected to an effect that lasts for 1 minute unless its description says otherwise. Roll [[/r 1d8]] to determine the effect: on a 1, you’re surrounded by faint, ethereal music only you and creatures within 5 feet of you can hear; on a 2, your size increases by one size category; on a 3, you grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode from your face and vanish; on a 4, you must shout when you speak; on a 5, illusory butterflies flutter in the air within 10 feet of you; on a 6, an eye appears on your forehead, granting you Advantage on Wisdom (Perception) checks; on an 7, pink bubbles float out of your mouth whenever you speak; on an 8, your skin turns a vibrant shade of blue for 24 hours or until the effect is ended by a Remove Curse spell."
+        },
+        "Nm2XzcukMCkSNzDv": {
+          "type": "text",
+          "name": "",
+          "description": "You cast a random spell. If the spell normally requires Concentration, it doesn’t require Concentration in this case; the spell lasts for its full duration. Roll [[/r 1d10]] to determine the spell: on a 1, Confusion; on a 2, Fireball; on a 3, Fog Cloud; on a 4, Fly (cast on a random creature within 60 feet of you), on a 5, Grease; on a 6, Levitate (cast on yourself); on a 7, Magic Missile (cast as a level 5 spell); on an 8, Mirror Image; on a 9, Polymorph (cast on yourself), and if you fail the saving throw, you turn into a Goat (see appendix B); on a 10, See Invisibility."
+        },
+        "Ow2VYpqhO8kH6mrp": {
+          "type": "text",
+          "name": "",
+          "description": "For the next minute, you can teleport up to 20 feet as a Bonus Action on each of your turns."
+        },
+        "pHE4h98GeX7d9guc": {
+          "type": "text",
+          "name": "",
+          "description": "If you die within the next hour, you immediately revive as if by the Reincarnate spell."
+        },
+        "tM3cYTdF8xl5Z3QU": {
+          "type": "text",
+          "name": "",
+          "description": "For the next minute, you regain 5 Hit Points at the start of each of your turns."
+        },
+        "V5If86DM2oyQE5Qm": {
+          "type": "text",
+          "name": "",
+          "description": "You teleport up to 60 feet to an unoccupied space you can see."
+        },
+        "VCk19RIMhPGqrYXL": {
+          "type": "text",
+          "name": "",
+          "description": "For the next minute, any flammable, nonmagical object you touch that isn’t being worn or carried by another creature bursts into flame, takes 1d4 Fire damage, and is burning."
+        },
+        "vQsx4DWNuzIpbk1z": {
+          "type": "text",
+          "name": "",
+          "description": "The next time you cast a spell that deals damage within the next minute, don’t roll the spell’s damage dice for the damage. Instead use the highest number possible for each damage die."
+        },
+        "xpL6ORlQGSHA1roO": {
+          "type": "text",
+          "name": "",
+          "description": "Up to three creatures of your choice that you can see within 30 feet of you take [[/damage 1d10 type=necrotic]] damage. You regain Hit Points equal to the sum of the Necrotic damage dealt."
+        },
+        "yCjMQtkhwbm1Hz0o": {
+          "type": "text",
+          "name": "",
+          "description": "You and up to three creatures you choose within 30 feet of you have the Invisible condition for 1 minute. This invisibility ends on a creature immediately after it makes an attack roll, deals damage, or casts a spell."
+        },
+        "YkwnSFxrMOkXaHYM": {
+          "type": "text",
+          "name": "",
+          "description": "A creature that is Friendly toward you appears in a random unoccupied space within 60 feet of you. The creature is under the DM’s control and disappears 1 minute later. Roll [[/r 1d4]] to determine the creature: on a 1, a Modron Duodrone appears; on a 2, a Flumph appears; on a 3, a Modron Monodrone appears; on a 4, a Unicorn appears. See the Monster Manual for the creature’s stat block."
+        },
+        "zHdxmitNoPPVKAK2": {
+          "type": "text",
+          "name": "",
+          "description": "A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile."
+        }
+      }
+    },
+    "phbWisdomDescrip": {
+      "name": "Wisdom",
+      "folder": "Descriptions by Ability Score",
+      "description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>",
+      "results": {
+        "BdSVueLnUHsic2vY": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Wary. <strong>Low:</strong> Naive."
+        },
+        "lViJl8oVbTjw0c7p": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Considerate. <strong>Low:</strong> Distracted."
+        },
+        "PUNQf8JjqyJSTLPr": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Serene. <strong>Low:</strong> Rash."
+        },
+        "VXbgRwEfQG8Co8yh": {
+          "type": "text",
+          "name": "",
+          "description": "<strong>High:</strong> Attentive. <strong>Low:</strong> Oblivious."
+        }
+      }
+    }
+  }
+}

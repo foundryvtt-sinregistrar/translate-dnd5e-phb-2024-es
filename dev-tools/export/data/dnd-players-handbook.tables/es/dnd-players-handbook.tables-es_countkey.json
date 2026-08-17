@@ -1,0 +1,208 @@
+{
+  "label": "Tablas de tiradas",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "phb2024RollTableResultsById"
+    }
+  },
+  "folders": {
+    "Chapter 2": "Capítulo 2",
+    "Chapter 3": "Capítulo 3",
+    "Chapter 7": "Capítulo 7",
+    "Descriptions by Ability Score": "Descripciones por puntuación de característica",
+    "Personality Traits by Alignment": "Rasgos de personalidad por alineamiento",
+    "Reincarnated Lineages": "Linajes reencarnados"
+  },
+  "entries": {
+    "phbStartingTrink": {
+      "name": "Baratijas",
+      "folder": "",
+      "description": "",
+      "countkey": 100,
+      "results": 100
+    },
+    "phbWildMagicSurg": {
+      "name": "Oleada de magia salvaje",
+      "folder": "",
+      "description": "",
+      "countkey": 25,
+      "results": 25
+    },
+    "phbsplTeleportMi": {
+      "name": "Percance de teletransporte",
+      "folder": "",
+      "description": "<p><strong>Daño por percance:</strong> [[/damage 3d10 type=force]]</p><p><strong>Distancia fuera del objetivo:</strong> [[/r 2d12#Millas]]{2d12 millas} [[/r 1d8#Dirección]]{Dirección}</p>",
+      "countkey": 16,
+      "results": 16
+    },
+    "phbsplReincarnat": {
+      "name": "Especie reencarnada",
+      "folder": "",
+      "description": "<p>Tira [[/r 1d10]] y consulta la tabla siguiente para determinar la especie del cuerpo, o el DM elige otra especie jugable.</p>",
+      "countkey": 10,
+      "results": 10
+    },
+    "phbSublanguageTa": {
+      "name": "Tabla de subidiomas",
+      "folder": "",
+      "description": "",
+      "countkey": 9,
+      "results": 9
+    },
+    "phbPrismaticRays": {
+      "name": "Rayos prismáticos",
+      "folder": "",
+      "description": "",
+      "countkey": 8,
+      "results": 8
+    },
+    "phbPrismaticLaye": {
+      "name": "Capas prismáticas",
+      "folder": "",
+      "description": "",
+      "countkey": 7,
+      "results": 7
+    },
+    "phbFeywildGifts0": {
+      "name": "Regalos del Feywild",
+      "folder": "",
+      "description": "",
+      "countkey": 6,
+      "results": 6
+    },
+    "phbManifestation": {
+      "name": "Manifestaciones del orden",
+      "folder": "",
+      "description": "",
+      "countkey": 6,
+      "results": 6
+    },
+    "phbStarMapForms0": {
+      "name": "Formas del mapa estelar",
+      "folder": "",
+      "description": "",
+      "countkey": 6,
+      "results": 6
+    },
+    "phbsplConfusionB": {
+      "name": "Comportamiento bajo confusión",
+      "folder": "",
+      "description": "<p>Comportamiento de este turno</p>",
+      "countkey": 5,
+      "results": 5
+    },
+    "phbChaoticTraits": {
+      "name": "Rasgos caóticos",
+      "folder": "",
+      "description": "",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbCharismaDescr": {
+      "name": "Carisma",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbConstitutionD": {
+      "name": "Constitución",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbDexterityDesc": {
+      "name": "Destreza",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbEvilTraits000": {
+      "name": "Rasgos malignos",
+      "folder": "",
+      "description": "",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbGoodTraits000": {
+      "name": "Rasgos bondadosos",
+      "folder": "",
+      "description": "",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbIntelligenceD": {
+      "name": "Inteligencia",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbLawfulTraits0": {
+      "name": "Rasgos legales",
+      "folder": "",
+      "description": "",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbNeutralTraits": {
+      "name": "Rasgos neutrales",
+      "folder": "",
+      "description": "",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbStrengthDescr": {
+      "name": "Fuerza",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbWisdomDescrip": {
+      "name": "Sabiduría",
+      "folder": "",
+      "description": "<p>Esta tabla proporciona cuatro descriptores que pueden usarse para tu personaje dependiendo de si su puntuación de característica es <strong>alta</strong> o <strong>baja</strong>.</p>",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbgenCardinalDi": {
+      "name": "Direcciones cardinales",
+      "folder": "",
+      "description": "",
+      "countkey": 4,
+      "results": 4
+    },
+    "phbElvenLineage0": {
+      "name": "Linaje élfico",
+      "folder": "",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>",
+      "countkey": 3,
+      "results": 3
+    },
+    "phbFiendishLegac": {
+      "name": "Legado infernal",
+      "folder": "",
+      "description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p>",
+      "countkey": 3,
+      "results": 3
+    },
+    "phbStandardLangu": {
+      "name": "Idiomas estándar",
+      "folder": "",
+      "description": "",
+      "countkey": 3,
+      "results": 3
+    },
+    "phbGnomishLineag": {
+      "name": "Linaje gnómico",
+      "folder": "",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>",
+      "countkey": 2,
+      "results": 2
+    }
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "label": "Rasgos de Clase & Subclase (SRD)",
+  "folders": {
+    "Bardo": "Bardo",
+    "Brujo": "Brujo",
+    "Bárbaro": "Bárbaro",
+    "Clérigo": "Clérigo",
+    "Druida": "Druida",
+    "Estilos de Combate": "Estilos de Combate",
+    "Explorador": "Explorador",
+    "Guerrero": "Guerrero",
+    "Hechicero": "Hechicero",
+    "Invocaciones Sobrenaturales": "Invocaciones Sobrenaturales",
+    "Mago": "Mago",
+    "Metamagia": "Metamagia",
+    "Monje": "Monje",
+    "Paladín": "Paladín",
+    "Pícaro": "Pícaro",
+    "Rasgos Compartidos": "Rasgos Compartidos",
+    "Rasgos de Bardo": "Rasgos de Bardo",
+    "Rasgos de Brujo": "Rasgos de Brujo",
+    "Rasgos de Bárbaro": "Rasgos de Bárbaro",
+    "Rasgos de Campeón": "Rasgos de Campeón",
+    "Rasgos de Cazador": "Rasgos de Cazador",
+    "Rasgos de Clérigo": "Rasgos de Clérigo",
+    "Rasgos de Druida": "Rasgos de Druida",
+    "Rasgos de El Infernal": "Rasgos de El Infernal",
+    "Rasgos de Explorador": "Rasgos de Explorador",
+    "Rasgos de Guerrero": "Rasgos de Guerrero",
+    "Rasgos de Hechicero": "Rasgos de Hechicero",
+    "Rasgos de Ladrón": "Rasgos de Ladrón",
+    "Rasgos de Linaje Dracónico": "Rasgos de Linaje Dracónico",
+    "Rasgos de Mago": "Rasgos de Mago",
+    "Rasgos de Monje": "Rasgos de Monje",
+    "Rasgos de Paladín": "Rasgos de Paladín",
+    "Rasgos de Pícaro": "Rasgos de Pícaro",
+    "Rasgos de la Escuela de Evocación": "Rasgos de la Escuela de Evocación",
+    "Rasgos de la Senda del Berserker": "Rasgos de la Senda del Berserker",
+    "Rasgos del Camino de la Mano Abierta": "Rasgos del Camino de la Mano Abierta",
+    "Rasgos del Colegio del Conocimiento": "Rasgos del Colegio del Conocimiento",
+    "Rasgos del Círculo de la Tierra": "Rasgos del Círculo de la Tierra",
+    "Rasgos del Dominio de la Vida": "Rasgos del Dominio de la Vida",
+    "Rasgos del Juramento de la Entrega": "Rasgos del Juramento de la Entrega"
+  },
+  "entries": {
+    "01pcLg6PRu5zGrsb": {
+      "name": "Acción Astuta"
+    },
+    "06NVMYf58Z76O85O": {
+      "name": "Protección"
+    },
+    "0C04rwyvoknvFYiy": {
+      "name": "Maestro Sobrenatural"
+    },
+    "0Jgf8fYY2ExwgQpN": {
+      "name": "Furia Irracional"
+    },
+    "10b6z2W1txNkrGP7": {
+      "name": "Ki"
+    },
+    "1DY8w3CXeD7PHDXF": {
+      "name": "Ataque Huracanado"
+    },
+    "1dJHU48yNqn3lcfx": {
+      "name": "Arquetipo de Explorador"
+    },
+    "2fyuw7MiCnocDeAU": {
+      "name": "Descarga Agónica"
+    },
+    "3647zjKSE9zFwOXc": {
+      "name": "Alas de Dragón"
+    },
+    "3CaP1vFHVR8LgHjx": {
+      "name": "Azote de Enemigos"
+    },
+    "3FB25qKxmkmxcxuC": {
+      "name": "Paso de la Tierra"
+    },
+    "3Nc6u9pyStByuJsm": {
+      "name": "Combate con Armas a Dos Manos"
+    },
+    "3VDZGs5Ug3hIE322": {
+      "name": "Fuente de Inspiración"
+    },
+    "3jwFt3hSqDswBlOH": {
+      "name": "Cuerpo Vacío"
+    },
+    "3sN91lT1R3oxcDKd": {
+      "name": "Vista del Diablo"
+    },
+    "3sYPftQKnbbVnHrh": {
+      "name": "Pericia"
+    },
+    "4IHsIcBhAVDt8QjY": {
+      "name": "Lista de Conjuros Ampliada"
+    },
+    "4UOgxzr83vFuUash": {
+      "name": "Sanación Suprema"
+    },
+    "4Vpj9vCOB37GtXk6": {
+      "name": "Enemigo Predilecto"
+    },
+    "5MwNlVZK7m6VolOH": {
+      "name": "Ráfaga de Golpes"
+    },
+    "5gx1O0sxK08awEO9": {
+      "name": "Azote de Colosos"
+    },
+    "5zPmHPQUne7RDfaU": {
+      "name": "Palabras Cortantes"
+    },
+    "61kXR1sniXHjvN17": {
+      "name": "Habla Bestial"
+    },
+    "653ZHbNcmm7ZGXbw": {
+      "name": "Indómito"
+    },
+    "65ReXU4ZWqcSs3Cm": {
+      "name": "Mirada de las Dos Mentes"
+    },
+    "68bYIOvx6rIqnlOW": {
+      "name": "Competencia Adicional"
+    },
+    "6VBXkjjBgjSpNElh": {
+      "name": "Esculpir Conjuros"
+    },
+    "7D2EkLdISwShEDlN": {
+      "name": "Alma Diamantina"
+    },
+    "7O85kj6uDEG5NzUE": {
+      "name": "Evocación Potenciada"
+    },
+    "7flZKruSSu6dHg6D": {
+      "name": "Golpes Potenciados con Ki"
+    },
+    "7pyZjz5vlUWV01qQ": {
+      "name": "Esquiva Asombrosa"
+    },
+    "7uzJ2JkmsdRGLra3": {
+      "name": "Experto en Evocación"
+    },
+    "7zlTRRXT1vWSBGjX": {
+      "name": "Ataque Múltiple"
+    },
+    "80USV8ZFPIahpLd0": {
+      "name": "Arquetipo de Pícaro"
+    },
+    "8M7uOPhbTxoxxJSo": {
+      "name": "Canalizar Divinidad"
+    },
+    "8MlxM2nEfE3Q0EVk": {
+      "name": "Invocaciones Sobrenaturales"
+    },
+    "8YwPFv3UAPjWVDNf": {
+      "name": "Tiro con Arco"
+    },
+    "8fbZt2Qh7ZttwIan": {
+      "name": "Explorador Nato"
+    },
+    "8zciiglzEOZo7DDN": {
+      "name": "Salto Sobrenatural"
+    },
+    "9UZ2WjUF2k58CQug": {
+      "name": "Resistencia Infernal"
+    },
+    "9Uh7uTDNZ04oTJsL": {
+      "name": "Metamagia"
+    },
+    "9dSSa68mIPoX2ezA": {
+      "name": "Pacto del Filo"
+    },
+    "AEWr9EMxy5gj4ZFT": {
+      "name": "Tradición Arcana"
+    },
+    "ANE5gjojvhNEagzz": {
+      "name": "Halo Sagrado"
+    },
+    "C5fzaOBc6HxyOWRn": {
+      "name": "Paso de la Tierra"
+    },
+    "C6sHdDGmCMo0cYHd": {
+      "name": "Destructor de Hordas"
+    },
+    "CFIYXDmbmSP8BXjN": {
+      "name": "Libro de Secretos Ancestrales"
+    },
+    "CkbbAckeCtyHXEnL": {
+      "name": "Frenesí"
+    },
+    "DPN2Gfk8yi1Z5wp7": {
+      "name": "Ataque furtivo"
+    },
+    "DZpAa3LzMNBexbmX": {
+      "name": "Conjuro Distante"
+    },
+    "DhU2dWCNnX78TstR": {
+      "name": "Desvanecerse"
+    },
+    "DjXi0IkCTbJx1gsp": {
+      "name": "Enfangar la Mente"
+    },
+    "Dop1RcU5UdhSVLYS": {
+      "name": "Apresador"
+    },
+    "E8ozg8avUVOX9N7u": {
+      "name": "Sentidos Divinos"
+    },
+    "EZsonMThTNLZq35j": {
+      "name": "Ancestro Dragón"
+    },
+    "Ei1Oh4UAA2E30jcD": {
+      "name": "Sigilo Supremo"
+    },
+    "EuX1kJNIw1F68yus": {
+      "name": "Santuario de la Naturaleza"
+    },
+    "F2lEKSmOY0NUruzY": {
+      "name": "Recuperación Mágica"
+    },
+    "FAk41RPCTcvCk6KI": {
+      "name": "Castigo Divino Mejorado"
+    },
+    "FGrbXs6Ku5qxFK5G": {
+      "name": "Balconero"
+    },
+    "FqfmbPgxiyrWzhYk": {
+      "name": "Furia Implacable"
+    },
+    "GBYN5rH4nh1ocRlY": {
+      "name": "Inspiración Superior"
+    },
+    "Gsha4bl0apxqspFy": {
+      "name": "Presencia Dracónica"
+    },
+    "Ho7dVxBlOYFlfBHk": {
+      "name": "Estilo de Combate"
+    },
+    "ILhzFHiRrqgQ9dFJ": {
+      "name": "Colegio Bárdico"
+    },
+    "IWpe0Y9uAStHGiH1": {
+      "name": "Conjuro Potenciado"
+    },
+    "Ic1CSjvbWKudVUv9": {
+      "name": "Pacto de la Cadena"
+    },
+    "JfFfHTeIszx1hNRx": {
+      "name": "Maestría sobre Conjuros"
+    },
+    "Jv0zu4BtUi8bFCqJ": {
+      "name": "Bendición del Oscuro"
+    },
+    "KQz9bqxVkXjDl8gK": {
+      "name": "Caída Lenta"
+    },
+    "KfnUyjUWAk0bAAus": {
+      "name": "Uno con las Sombras"
+    },
+    "Kl6zifJ5OmdHlOi2": {
+      "name": "Movimiento Rápido"
+    },
+    "KygHql3cTj4IRrvZ": {
+      "name": "Susurros Embrujados"
+    },
+    "L7nJSRosos8sHJH9": {
+      "name": "Elusivo"
+    },
+    "L94gyvNpUhUe0rwh": {
+      "name": "Crítico Brutal"
+    },
+    "LBKChJY5n02Afhnq": {
+      "name": "Fuente de Magia"
+    },
+    "LhRm1EeUMvp2EWhV": {
+      "name": "Reflejos de Ladrón"
+    },
+    "LzJ5ayHt0OlSVGxi": {
+      "name": "Druídico"
+    },
+    "M2DxVsgLeZgXOznT": {
+      "name": "Aura de Entrega"
+    },
+    "M6VSMzVtKPhh8B0i": {
+      "name": "Presencia Intimidante"
+    },
+    "MW1ExvBLm8Hg82aA": {
+      "name": "Resistencia Dracónica"
+    },
+    "MYM908WLZ1lVvA1u": {
+      "name": "Pacto del Grimorio"
+    },
+    "MhJfdBl1B7PdU4oZ": {
+      "name": "Máscara de los Mil Rostros"
+    },
+    "Mm64SKAHJWYecgXS": {
+      "name": "Esquiva Asombrosa"
+    },
+    "NMy4piwXIpLjYbRE": {
+      "name": "Destruir Muertos Vivientes"
+    },
+    "NlXslw4yAqmKZWtN": {
+      "name": "Instinto Salvaje"
+    },
+    "NqWyHE7Rpw9lyKWu": {
+      "name": "Usar Objetos Mágicos"
+    },
+    "OQSb0bO1yDI4aiMx": {
+      "name": "La Suerte del Oscuro"
+    },
+    "OTvrJSJSUgAwXrWX": {
+      "name": "Protección de la Naturaleza"
+    },
+    "OdrvL3afwLOPeuYZ": {
+      "name": "Imponer las Manos"
+    },
+    "Phy02H5x0TKHd7T3": {
+      "name": "Cadenas de Carceri"
+    },
+    "Q1exex5ALteprrPo": {
+      "name": "Poderío Indómito"
+    },
+    "Q7mOdk4b1lgjcptF": {
+      "name": "Plenitud de Cuerpo"
+    },
+    "QBVmY56RMQuh6C8h": {
+      "name": "Sentidos Salvajes"
+    },
+    "QBk1RsuTIEF4GEBC": {
+      "name": "Palabra Aterradora"
+    },
+    "QEuH5TeBN4PPYT2g": {
+      "name": "Paso Ascendente"
+    },
+    "Qb391hakCfmH4w8p": {
+      "name": "Conjuro Gemelo"
+    },
+    "QnRKYXb2bXpnNd2k": {
+      "name": "Esbirros del Caos"
+    },
+    "QwgfIpCN8VWfoUtX": {
+      "name": "Beneficio del Pacto"
+    },
+    "SCVjqRdlZ9cvHVSR": {
+      "name": "Ataque Temerario"
+    },
+    "SEJmsjkEhdAZ90ki": {
+      "name": "Contraencantamiento"
+    },
+    "SZbsNbaxFFGwBpNK": {
+      "name": "Defensa sin Armadura (Bárbaro)"
+    },
+    "StfmqK1twVfukpa0": {
+      "name": "Asesino de Gigantes"
+    },
+    "T6u5z8ZTX6UftXqE": {
+      "name": "Golpe Divino"
+    },
+    "TDglPcxIVEzvVSgK": {
+      "name": "Defensa Paciente"
+    },
+    "TH1QAf6YNGSeBVjT": {
+      "name": "Senda Primordial"
+    },
+    "U7BIPVPsptBmwsnV": {
+      "name": "Toque Purificador"
+    },
+    "UAvV7N7T4zJhxdfI": {
+      "name": "Defensa sin Armadura"
+    },
+    "V4pwFxlwHtNeB4w9": {
+      "name": "Mente Escurridiza"
+    },
+    "VUtSLeCzFubGXmGx": {
+      "name": "Sobrecanalizar"
+    },
+    "VoR0SUrNX5EJVPIO": {
+      "name": "Furia"
+    },
+    "WgQrqjmeyMqDzVt3": {
+      "name": "Tácticas Defensivas"
+    },
+    "Xa2MLUJGCReJ28B7": {
+      "name": "Escultor de la Carne"
+    },
+    "Xf763cJoDHPPWSGG": {
+      "name": "Aguantar la Marea"
+    },
+    "XjuGBeB8Y0C3A5D4": {
+      "name": "Lengua del Sol y la Luna"
+    },
+    "XogoBnFWmCAHXppo": {
+      "name": "Ataque Adicional"
+    },
+    "YN9xm6MCvse4Y60u": {
+      "name": "Talentos Fiables"
+    },
+    "YgLQV1O849wE5TgM": {
+      "name": "Crítico Mejorado"
+    },
+    "YiK59gWSlcQ6Mbdz": {
+      "name": "Conjuros de círculo"
+    },
+    "YpiLQEKGalROn7iJ": {
+      "name": "Canalizar Divinidad"
+    },
+    "ZHJyYrqMYSLub4RY": {
+      "name": "Pureza de Espíritu"
+    },
+    "ZdwGlsJNtc7pGFCd": {
+      "name": "Canalizar Divinidad: Expulsar lo Impío"
+    },
+    "ZmC31XKS4YNENnoc": {
+      "name": "Quietud Mental"
+    },
+    "a0Sq88dgnREcIMfl": {
+      "name": "Defensa de Cazador Experto"
+    },
+    "a4P4DNMmH8CqSNkC": {
+      "name": "Evasión"
+    },
+    "aCUmlnHlUPHS0rdu": {
+      "name": "Arrastrar por el Infierno"
+    },
+    "aQLg7BWdRnm4Hr9S": {
+      "name": "Pericia"
+    },
+    "aVKH6TLn1AG9hPSA": {
+      "name": "Crítico Superior"
+    },
+    "alUqO6c6OEKFQJdb": {
+      "name": "Armadura de Sombras"
+    },
+    "aonJ2YjkqkYB9WYB": {
+      "name": "Secretos Mágicos"
+    },
+    "ax8M0X0q1GGWM26j": {
+      "name": "Arquetipo Marcial"
+    },
+    "bbUEsCPTLzbbwK6o": {
+      "name": "Visión Sobrenatural"
+    },
+    "bqWA7t9pDELbNRkp": {
+      "name": "Pureza de Cuerpo"
+    },
+    "cVDEQo0ow1WJT7Wl": {
+      "name": "Cuerpo Atemporal"
+    },
+    "carGDhkIdoduTC0I": {
+      "name": "Aura de Protección"
+    },
+    "cmRCL9T9UgRYOj1c": {
+      "name": "Origen Mágico"
+    },
+    "dHu1yzIjD38BvGGd": {
+      "name": "Atleta Sobresaliente"
+    },
+    "dTSV0xZMpY5CxkRk": {
+      "name": "Marca del Mal Augurio"
+    },
+    "dY9yrqkyEDuF0CG2": {
+      "name": "Salud Divina"
+    },
+    "e0uTcFPpgxjIyUW9": {
+      "name": "Recuperación Arcana"
+    },
+    "e9ytGikyLFgwZ5wi": {
+      "name": "Competencias Adicionales"
+    },
+    "eGxoNmSMWKNzChCO": {
+      "name": "Unarmed Strike"
+    },
+    "eNvpIaSnJUdF8fHl": {
+      "name": "Influencia Seductora"
+    },
+    "eVXqHn0ojWrEuYGU": {
+      "name": "Intercesión Divina"
+    },
+    "evEWCpE5MYgr5RRW": {
+      "name": "Truco Potente"
+    },
+    "ezWijmCnlnQ9ZRX2": {
+      "name": "Aprendiz de Mucho"
+    },
+    "fXa0DMhoVLtbBu9l": {
+      "name": "Conjuro Sutil"
+    },
+    "fbExzwNwEAl2kW9c": {
+      "name": "Estilo de Combate"
+    },
+    "fjsBk7zxoAbLf8ZI": {
+      "name": "Sentir sin Ver"
+    },
+    "gDH8PMrKvLHaNmEI": {
+      "name": "Cuerpo Atemporal"
+    },
+    "gFjxo01hAN4c9hDG": {
+      "name": "Susurros del Sepulcro"
+    },
+    "ga3dt2zrCn2MHK8R": {
+      "name": "Manos Rápidas"
+    },
+    "gbNo5eVPaqr8IVKL": {
+      "name": "Lanzamiento de Conjuros"
+    },
+    "h1gM8SH3BNRtFevE": {
+      "name": "Palma Estremecedora"
+    },
+    "hCop9uJrWhF1QPb4": {
+      "name": "Duelo"
+    },
+    "hEymt45rICi4f9eL": {
+      "name": "Canalizar Divinidad: Preservar vida"
+    },
+    "he8RpPXwSl2lVSIk": {
+      "name": "Canción de Descanso"
+    },
+    "hpLNiGq7y67d2EHA": {
+      "name": "Inspiración Bárdica"
+    },
+    "i6tPm3FNK13Ftc9v": {
+      "name": "Lanzamiento de Conjuros"
+    },
+    "iQxLNydNLlCHNKbp": {
+      "name": "Técnica de la Mano Abierta"
+    },
+    "id0gmGvzNZBEdzbx": {
+      "name": "Vigor Infernal"
+    },
+    "ihoQHsmVZlyDbPhX": {
+      "name": "Lanzamiento de Conjuros"
+    },
+    "ip4bvmGoz3qkoqes": {
+      "name": "Archidruida"
+    },
+    "ipG5yx1tRNmeJfSH": {
+      "name": "Superviviente"
+    },
+    "jF8AFfEMICIJnAkR": {
+      "name": "Discípulo de la Vida"
+    },
+    "jTXHaK0vvT5DV3uO": {
+      "name": "Patrón Sobrenatural"
+    },
+    "jVU4AgqfrFaqgXns": {
+      "name": "Campeón Primordial"
+    },
+    "k5DU0mMuYVHejiqz": {
+      "name": "Visiones Brumosas"
+    },
+    "k5M8gsl7MMcdjOjs": {
+      "name": "Voz del Amo de la Cadena"
+    },
+    "kYJsED0rqqqUcgKz": {
+      "name": "Estilo de Combate Adicional"
+    },
+    "kaHcUGiwi8AtfZIm": {
+      "name": "Percepción Primigenia"
+    },
+    "l50hjTxO2r0iecKw": {
+      "name": "Artes Marciales"
+    },
+    "l7W6JB9yWLLLtQKP": {
+      "name": "Andanada"
+    },
+    "l8tUhZ5Pecm9wz7I": {
+      "name": "Furia Persistente"
+    },
+    "lEZKbWaVrSljRa9n": {
+      "name": "Ojos del Guardián de las Runas"
+    },
+    "lT8GsPOPgRzDC3QJ": {
+      "name": "Truco Adicional"
+    },
+    "laVHAIOKIsUeezWd": {
+      "name": "Evasión"
+    },
+    "lxfdjLer3uKjyZqU": {
+      "name": "Maestro de las Formas Innumerables"
+    },
+    "mHcSjcHJ8oZu3hkb": {
+      "name": "Combate con Dos Armas"
+    },
+    "mQNPg89YIs7g5tG4": {
+      "name": "Yo perfecto"
+    },
+    "myBu3zi5eYvQIcuy": {
+      "name": "Secretos Mágicos adicionales"
+    },
+    "mzweVbnsJPQiVkAe": {
+      "name": "Desviar Proyectiles"
+    },
+    "nJA3ISVmyj3uPRVM": {
+      "name": "Estilo de Combate"
+    },
+    "nTjmWbyHweXuIqwc": {
+      "name": "Tomar Aliento"
+    },
+    "nUrZDi6QN1YjwAr6": {
+      "name": "Conjuros Característicos"
+    },
+    "nViGf6bZ6DQAJhkw": {
+      "name": "Conjuro Acelerado"
+    },
+    "nahSkBO6LH4HkpaT": {
+      "name": "Aura de Coraje"
+    },
+    "ohwfuwnvuoBWlSQr": {
+      "name": "Jerga de Ladrones"
+    },
+    "olAqNsUTIef9x8xC": {
+      "name": "Juramento Sagrado"
+    },
+    "oygRF3ZjTv2T7z0Y": {
+      "name": "Lanzamiento de Conjuros"
+    },
+    "pAQMJU5R9SGUmzHU": {
+      "name": "Escapar de la Horda"
+    },
+    "pJADgAxxefgcATWr": {
+      "name": "Filo Sediento"
+    },
+    "pquwueEMweRhiWaq": {
+      "name": "Habilidad sin Parangón"
+    },
+    "pvRc6GAu1ok6zihC": {
+      "name": "Golpe Aturdidor"
+    },
+    "q9g1MLXuLZyxjQMg": {
+      "name": "Ataque Adicional"
+    },
+    "r01WtcxTg4yTHm9m": {
+      "name": "Lanza Sobrenatural"
+    },
+    "r0unvWK0lPsDthDx": {
+      "name": "Esconderse a Plena Vista"
+    },
+    "r91UIgwFdHwkXdia": {
+      "name": "Canalizar Divinidad: Expulsar Muertos Vivientes"
+    },
+    "rBDZLatuoolT2FUW": {
+      "name": "Tranquilidad"
+    },
+    "rQhWDaMHMn7iU4f2": {
+      "name": "Golpe de Suerte"
+    },
+    "rdBPd6CwqXT64iJM": {
+      "name": "Descarga Ahuyentadora"
+    },
+    "rhbwDZ9XNTmdkX2u": {
+      "name": "Ladrón de los Cinco Destinos"
+    },
+    "rtpQdX77dYWbDIOH": {
+      "name": "Tradición Monástica"
+    },
+    "s0Cc2zcX0JzIgam5": {
+      "name": "Mejora de característica"
+    },
+    "sPy2OLoN7JaAcMl4": {
+      "name": "Mejora de característica"
+    },
+    "slelvrm83v9UAKZU": {
+      "name": "Defensa contra Ataques Múltiples"
+    },
+    "snsjxGfmzWfZR5Nh": {
+      "name": "Visión Bruja"
+    },
+    "swK0r5TOIxredxWS": {
+      "name": "Forma Salvaje"
+    },
+    "tNG2qi9zhmXEkecA": {
+      "name": "Conjuro Intensificado"
+    },
+    "tQxlKyAx9sgPrbgj": {
+      "name": "Conjuro Extendido"
+    },
+    "u4NLajXETJhJU31v": {
+      "name": "Lanzamiento de Conjuros"
+    },
+    "u6Du2P9s81SWuGbi": {
+      "name": "Circulo Druídico"
+    },
+    "u6xV3Ki3TXRrD7zg": {
+      "name": "Lanzamiento de Conjuros"
+    },
+    "v4gKwLhAq9vuqza7": {
+      "name": "Lanzamiento de Conjuros"
+    },
+    "v7MxFuTAgOsmxZCD": {
+      "name": "Mejora de característica"
+    },
+    "vt31lWAULygEl7yk": {
+      "name": "Sentir el Peligro"
+    },
+    "wKdRtFsvGfMKQHLY": {
+      "name": "Recuperación Natural"
+    },
+    "wrxIW5sDfmGr3u5s": {
+      "name": "El Cazador y la Presa"
+    },
+    "x637K2Icp2ZFM1TB": {
+      "name": "Dominio Divino"
+    },
+    "x6IJZwr6f0SGral7": {
+      "name": "Magia del Pacto"
+    },
+    "x6eEZ9GUsuOcEa3G": {
+      "name": "Afinidad Elemental"
+    },
+    "xF1VTcJ3AdkbTsdQ": {
+      "name": "Acción Súbita"
+    },
+    "xNN0JMKqlG4hKVYu": {
+      "name": "Canalizar Divinidad: Arma Sagrada"
+    },
+    "xvgPu1O57DgXCM86": {
+      "name": "Conjurar como Bestia"
+    },
+    "xzD9zlRP6dUxCtCl": {
+      "name": "Represalia"
+    },
+    "ySMPQ6zNSlvkrl2f": {
+      "name": "Castigo Divino"
+    },
+    "yrSFIGTaQOH2PFRI": {
+      "name": "Paso del Viento"
+    },
+    "yv49QN6Bzqs0ecCs": {
+      "name": "Sanador Bendito"
+    },
+    "zB77V8BcCJvWVxck": {
+      "name": "Mystic Arcanum"
+    },
+    "zCeqyQ8uIPNdYJSW": {
+      "name": "Movimiento sin Armadura"
+    },
+    "zElYrOcCFFMhB6Xl": {
+      "name": "Conjuro Cuidadoso"
+    },
+    "zSlV0O2rQMdoq6pB": {
+      "name": "Defensa"
+    },
+    "zUIAzBnyt0NDvVXb": {
+      "name": "Devorador de Vida"
+    },
+    "zYIdNAjqRyhS6qWs": {
+      "name": "Visiones de Reinos Remotos"
+    },
+    "zbHu0NvHuII8lR7W": {
+      "name": "Voluntad de Acero"
+    }
+  }
+}

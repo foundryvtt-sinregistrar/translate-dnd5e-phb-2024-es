@@ -1,0 +1,2640 @@
+{
+  "label": "Equipo (SRD)",
+  "folders": {
+    "Arma": "Arma",
+    "Armadura": "Armadura",
+    "Baratija": "Baratija",
+    "Botín": "Botín",
+    "Comida": "Comida",
+    "Contenedor": "Contenedor",
+    "Equipo": "Equipo",
+    "Herramienta": "Herramienta",
+    "Munición": "Munición",
+    "Paquetes de Equipo": "Paquetes de Equipo",
+    "Pergamino": "Pergamino",
+    "Poción": "Poción",
+    "Ring": "Ring",
+    "Spellcasting Focus": "Spellcasting Focus",
+    "Vara": "Vara",
+    "Varita": "Varita",
+    "Veneno": "Veneno"
+  },
+  "entries": {
+    "00BggOkChWztQx6R": {
+      "name": "Armadura de cuero tachonado +3"
+    },
+    "07R6JFioylOCpVoL": {
+      "name": "Cimitarra hierro de escarcha"
+    },
+    "09i8r1UmzDSKiZ9g": {
+      "name": "Guja +1"
+    },
+    "0E565kQUBmndJ1a2": {
+      "name": "Daga"
+    },
+    "0G5LSgbb5NTV4XC7": {
+      "name": "Piedra Ioun de fuerza"
+    },
+    "0LVFLPmsu1b2vf8E": {
+      "name": "Flagelo +1"
+    },
+    "0NoBBP3MMkvJlwZY": {
+      "name": "Vela"
+    },
+    "0ZBWwjFz3nIAXMLW": {
+      "name": "Jarro"
+    },
+    "0d08g1i5WXnNrCNA": {
+      "name": "Herramientas de manitas"
+    },
+    "0huCWvOncUsme84v": {
+      "name": "Papel"
+    },
+    "10ZP2Bu3vnCuYMIB": {
+      "name": "Espada larga"
+    },
+    "14pNRT4sZy9rgvhb": {
+      "name": "Martillo"
+    },
+    "159agyOuBHCl2WKd": {
+      "name": "Media armadura adamantina"
+    },
+    "18fbyArtidKzON01": {
+      "name": "Varita de detección mágica"
+    },
+    "1FSubnBpSTDmVaYV": {
+      "name": "Yesquero"
+    },
+    "1J0dsxyKRhVXYQf5": {
+      "name": "Anillo de invisibilidad"
+    },
+    "1KMSpOSU0EliUBm2": {
+      "name": "Poción de fuerza de gigante de las tormentas"
+    },
+    "1L5wkmbw0fmNAr38": {
+      "name": "Cantimplora"
+    },
+    "1Lxk6kmoRhG8qQ0u": {
+      "name": "Hacha a dos manos"
+    },
+    "1PMaZR6CX8fUnOZd": {
+      "name": "Espada corta feroz"
+    },
+    "1RwJWOAeyoideLKe": {
+      "name": "Orbe de los dragones"
+    },
+    "1kihEfn9QppB34ee": {
+      "name": "Maza a dos manos +2"
+    },
+    "1taRIMF9w7jpnonN": {
+      "name": "Varita de proyectiles mágicos"
+    },
+    "23y8FvWKf9YLcnBL": {
+      "name": "Juego de ajedrez"
+    },
+    "296Zgo9RhltWShE1": {
+      "name": "Piedra de la buena fortuna"
+    },
+    "29ZLE8PERtFVD3QU": {
+      "name": "Antorcha"
+    },
+    "29e6gHwWKNLaRUoz": {
+      "name": "Cuerda de escalada"
+    },
+    "2BYm8to5KldN8eYu": {
+      "name": "Tomo de pensamiento claro"
+    },
+    "2CQnAvn06bncXPBt": {
+      "name": "Maza +3"
+    },
+    "2Lkub0qIwucWEfp3": {
+      "name": "Espada corta ladrona de nueve vidas"
+    },
+    "2YNqk5zm9jDTvd7q": {
+      "name": "Esfera de aniquilación"
+    },
+    "2YbuclKfhDL0bU4u": {
+      "name": "Cofre"
+    },
+    "2YdfjN1PIIrSHZii": {
+      "name": "Pico de guerra"
+    },
+    "2cKJTN5Ki77oCrQn": {
+      "name": "Cantimplora"
+    },
+    "2ksm2KXCY3vBHTAx": {
+      "name": "Túnica de objetos útiles"
+    },
+    "2mvXGvDmHHhzbT04": {
+      "name": "Horseshoes of a Zephyr"
+    },
+    "2veAOEyfbDJuxR8Y": {
+      "name": "Anillo de calidez"
+    },
+    "2wK9ImkAeG3Lzxa0": {
+      "name": "Cimitarra +3"
+    },
+    "2wxqnjpnPmkpPCC5": {
+      "name": "Anillo de evasión"
+    },
+    "34YKlIJVVWLeBv7R": {
+      "name": "Poción de resistencia al frío"
+    },
+    "3ALOhh6JNInIK4o7": {
+      "name": "Collar de bolas de fuego"
+    },
+    "3FNyS6DeCBZzFbqU": {
+      "name": "Espadón vorpal"
+    },
+    "3OXueEpvDDCVfGFA": {
+      "name": "Ropas de calidad"
+    },
+    "3Q6rw9kAMf6F1SW5": {
+      "name": "Ballesta de mano +2"
+    },
+    "3TWT5bv3z5zGUZCe": {
+      "name": "Guanteletes de fuerza de ogro"
+    },
+    "3X7vdOjnCSpi40yn": {
+      "name": "Anillo de resistencia al fuego"
+    },
+    "3YH1o1Wa4gcdN3fh": {
+      "name": "Pica +3"
+    },
+    "3YSUIp4eFo26YxJr": {
+      "name": "Bolas de metal"
+    },
+    "3b0RvGi0TnTYpIxn": {
+      "name": "Barra de incienso"
+    },
+    "3c7JXOzsv55gqJS5": {
+      "name": "Flecha"
+    },
+    "3cymOVja8jXbzrdT": {
+      "name": "Arco largo"
+    },
+    "3gynWO9sN4OLGMWD": {
+      "name": "Honda"
+    },
+    "3h3ZU6qmQs18FfkA": {
+      "name": "Camisa de malla de mithral"
+    },
+    "3nVvaHVfHsgwGlkL": {
+      "name": "Cuchillo pequeño"
+    },
+    "3rCO8MTIdPGSW6IJ": {
+      "name": "Dardo"
+    },
+    "3uEyuCfnAzGkwAn5": {
+      "name": "Lacre"
+    },
+    "419eNv7xp2p7Xlo5": {
+      "name": "Manta"
+    },
+    "41kYCmKq0PbGVKaM": {
+      "name": "Estatuilla de poder maravilloso (Cabra de marfil de trabajo)"
+    },
+    "44XNWmMGnwXn7bNW": {
+      "name": "Perla de poder"
+    },
+    "466j8hy4AiENMHVQ": {
+      "name": "Armadura de placas +3"
+    },
+    "46ikeR4RrSim6DsN": {
+      "name": "Talismán de la esfera"
+    },
+    "4932CLHvjZYxOm4g": {
+      "name": "Silla exótica"
+    },
+    "4MeSq8KcF7KK7emF": {
+      "name": "Martillo ligero feroz"
+    },
+    "4MtQKPn9qMWCFjDA": {
+      "name": "Aljaba"
+    },
+    "4ZiJsDTRA1GgcWKP": {
+      "name": "Poción de fuerza de gigante de piedra"
+    },
+    "4sR5HOah6KwVPHOb": {
+      "name": "Varita de telaraña"
+    },
+    "50N8zf58FR4JWR05": {
+      "name": "Amuleto a prueba de detección y localización"
+    },
+    "59pjg8FGM4GG4Fdd": {
+      "name": "Daga +1"
+    },
+    "5Jz5w7XJxgtlsx6K": {
+      "name": "Daga feroz"
+    },
+    "5KiRtMMSTnJmMtBr": {
+      "name": "Bola de cristal de telepatía"
+    },
+    "5Rxo4K9cgpwgW9vZ": {
+      "name": "Varita de detectar enemigos"
+    },
+    "5SorTMl8NKDO9Yge": {
+      "name": "Anillo de resistencia al veneno"
+    },
+    "5fJn3LQ2eQG7luEO": {
+      "name": "Tiza"
+    },
+    "5m9ErO9In8Uc5yyf": {
+      "name": "Poción de curación superior"
+    },
+    "5mIeX824uMklU3xq": {
+      "name": "Estuche para mapa o pergamino"
+    },
+    "6067acDZGv7KNOkP": {
+      "name": "Malla élfica"
+    },
+    "62EaozKvcA0aSy2q": {
+      "name": "Lanza +3"
+    },
+    "63nb14yQRJMc4bIn": {
+      "name": "Filtro de amor"
+    },
+    "66UkbfH0PVwo4HgA": {
+      "name": "Túnica de las estrellas"
+    },
+    "698gLyJ4JKVVMF53": {
+      "name": "Armadura acolchada de resistencia"
+    },
+    "69Dpr25pf4BjkHKb": {
+      "name": "Tambor"
+    },
+    "6BybWxK5GcEzqcOV": {
+      "name": "Paquete de sacerdote"
+    },
+    "6I5lt8KheTsAE4Zr": {
+      "name": "Honda +1"
+    },
+    "6JbrdSg5YYbs9ANm": {
+      "name": "Maza a dos manos feroz"
+    },
+    "6MDTnMG4Hcw7qZsy": {
+      "name": "Piedra Ioun de sustento"
+    },
+    "6OIw31CDF6mAwFnd": {
+      "name": "Virote asesino"
+    },
+    "6OYR11aJX2dEVtOj": {
+      "name": "Paquete de artista"
+    },
+    "6ai1pEde3iQX30Fr": {
+      "name": "Portal cúbico"
+    },
+    "6eMHIQ2CGKpjTtWC": {
+      "name": "Estuche para pergaminos"
+    },
+    "6n8J07mFo8xs11vS": {
+      "name": "Estoque danzarín"
+    },
+    "6ndqUhOySYVVQ5on": {
+      "name": "Alabarda +2"
+    },
+    "6pjaQzbtxQTuQ4RW": {
+      "name": "Vara de la absorción"
+    },
+    "6rocoBx5jdzG1QQH": {
+      "name": "Útiles de sanador"
+    },
+    "79zrBwqEp2MCJ1Bl": {
+      "name": "Bolas de metal"
+    },
+    "7FEcfqz1piPHN1tV": {
+      "name": "Piedra Ioun de absorción mayor"
+    },
+    "7FLs8qIGdOFnz9oL": {
+      "name": "Linterna de revelación"
+    },
+    "7Yqbqg5EtVW16wfT": {
+      "name": "Barril"
+    },
+    "7i4s9msZWpAw4Ynv": {
+      "name": "Daga de la ponzoña"
+    },
+    "7jEKkA9qbwJ3IuCb": {
+      "name": "Varita de atadura"
+    },
+    "7kVZo4DLBq22406E": {
+      "name": "Bastón +2"
+    },
+    "7vqs5AqI4VCmuszx": {
+      "name": "Morral práctico"
+    },
+    "7wY0389wscheFkIa": {
+      "name": "Cimitarra de velocidad"
+    },
+    "7ztvHyYJCcOOAWmR": {
+      "name": "Incensario"
+    },
+    "84z9mVy1mCipUWEY": {
+      "name": "Coraza +1"
+    },
+    "8ABk0XV76Hzq8Qul": {
+      "name": "Amuleto de los planos"
+    },
+    "8CaODbNQtxHGuVjn": {
+      "name": "Estatuilla de poder maravilloso (Cabra de marfil del terror)"
+    },
+    "8Fe9YSSe4ymQq8UM": {
+      "name": "Pluma para escribir"
+    },
+    "8GCEodUsTEEpBlO6": {
+      "name": "Túnica"
+    },
+    "8KWz5DJbWUpNWniP": {
+      "name": "Paquete de explorador"
+    },
+    "8LZBOY5USLZ4ngDq": {
+      "name": "Espadón +2"
+    },
+    "8MNDhKb1Q87QszOJ": {
+      "name": "Espada larga de hoja afilada"
+    },
+    "8MPnSrvEeZhPhtTi": {
+      "name": "Poción de resistencia al relámpago"
+    },
+    "8N1GqcdroUpmM9dS": {
+      "name": "Martillo de guerra +1"
+    },
+    "8NS6MSOdXtUqD7Ib": {
+      "name": "Herramientas de carpintero"
+    },
+    "8PI1EL8xHLq4tXKr": {
+      "name": "Anillo de retorno de conjuros"
+    },
+    "8RXjiddJ6VGyE7vB": {
+      "name": "Ropas comunes"
+    },
+    "8W6ULfSqzuHh6Peg": {
+      "name": "Arco largo +3"
+    },
+    "8d95YV1jHcxPygJ9": {
+      "name": "Raciones"
+    },
+    "8dfhaa1g3VDjhtm3": {
+      "name": "Anteojos de encantamiento"
+    },
+    "8l7M3zeqrU2vkA5h": {
+      "name": "Bit and Bridle"
+    },
+    "8tvhh5wqG5FRh3Sf": {
+      "name": "Abrojos"
+    },
+    "8wXB18E0oPAYFkqc": {
+      "name": "Ballesta pesada +2"
+    },
+    "902yxeFDwavpm6cv": {
+      "name": "Espada corta ladrona de vida"
+    },
+    "9G9QGSPgpZDSsm37": {
+      "name": "Mazo"
+    },
+    "9GSfMg0VOA2b4uFN": {
+      "name": "Pergamino de conjuro de nivel 1"
+    },
+    "9Ifr8fGvJ1bArzOW": {
+      "name": "Bolsa de trucos gris"
+    },
+    "9Mdes2tKt0cqsNTw": {
+      "name": "Cimitarra ladrona de nueve vidas"
+    },
+    "9UvWQTY5yIgkJmmb": {
+      "name": "Diadema de estallidos"
+    },
+    "9bWTRRDym06PzSAf": {
+      "name": "Bolsa"
+    },
+    "9c0CHs90xqPw81iP": {
+      "name": "Pergamino"
+    },
+    "9cIlRtKDtDXQtElf": {
+      "name": "Anillo de almacenamiento de conjuros"
+    },
+    "9eyZY9tL3fXD1Mbm": {
+      "name": "Polvo de estornudar y atragantarse"
+    },
+    "9jMQEm99q1ttAV1Q": {
+      "name": "Piedra Ioun de perspicacia"
+    },
+    "9kfMsSweOBui0SC4": {
+      "name": "Vara de la seguridad"
+    },
+    "9nxSHbqlDdngtuuz": {
+      "name": "Estatuilla de poder maravilloso (Perro de ónice)"
+    },
+    "9qOAoFw9dTXhJ1w0": {
+      "name": "Honda +2"
+    },
+    "9stfX2i2I1YPo8vx": {
+      "name": "Fortaleza instantánea"
+    },
+    "9uT9SXy1Gb1jiiZX": {
+      "name": "Cota de escamas +3"
+    },
+    "9v0TPDXNa9S7aNB4": {
+      "name": "Talismán de la salud"
+    },
+    "A2i08i8gAFscm6hZ": {
+      "name": "Arco largo +1"
+    },
+    "AChuumAYmts5uGFT": {
+      "name": "Hoz feroz"
+    },
+    "ADH0UZ8bf7Op0dgf": {
+      "name": "Bola de cristal de visión veraz"
+    },
+    "AHn15T1TOuDFS0GH": {
+      "name": "Hoz +3"
+    },
+    "Ajyq6nGwF7FtLhDQ": {
+      "name": "Maza"
+    },
+    "AkyQyonZMVcvOrXU": {
+      "name": "Palanqueta"
+    },
+    "Aq1rhgcgFnwu2T4I": {
+      "name": "Capa de murciélago"
+    },
+    "AweD4kpKGM7Ilu3n": {
+      "name": "Anillo de regeneración"
+    },
+    "BNJmdttKvIwC08Pd": {
+      "name": "Bala de honda +2"
+    },
+    "BQw5lyopqLmf8B6u": {
+      "name": "Cota de malla de resistencia"
+    },
+    "BeKIrNIvNHRPQ4t5": {
+      "name": "Bastón"
+    },
+    "BefbYlWbRYyy6R8s": {
+      "name": "Espada larga ladrona de nueve vidas"
+    },
+    "BjyTJn9oGvURWKJR": {
+      "name": "Manual de la salud corporal"
+    },
+    "BmWnprrj0QWQ1BL3": {
+      "name": "Bastón +3"
+    },
+    "BnOCLuNWhVvzHLjl": {
+      "name": "Antorcha"
+    },
+    "BsyPV6eTNghT3Fho": {
+      "name": "Anteojos de visión minuciosa"
+    },
+    "Bt7nIb37nU7Wxevx": {
+      "name": "Libro de leyendas"
+    },
+    "BwC8hZaNjO7IQc6K": {
+      "name": "Armadura de bandas +3"
+    },
+    "C05ytVXByOG8uBAc": {
+      "name": "Cuchillo pequeño"
+    },
+    "C0MNXWA81ufzGlp5": {
+      "name": "Aceite de afilado"
+    },
+    "CAZMwFBWp9VC0ZCg": {
+      "name": "Poción de respirar bajo el agua"
+    },
+    "CG0LhGQtc3KOAeE1": {
+      "name": "Yesquero"
+    },
+    "CI58LNiwrTpmWYMp": {
+      "name": "Estatuilla de poder maravilloso (Grifo de bronce)"
+    },
+    "CNVsvqfTbtcoHiEo": {
+      "name": "Vela"
+    },
+    "CNdDj8dsXVpRVpXt": {
+      "name": "Saco"
+    },
+    "CVMGOJWTO6TCybrH": {
+      "name": "Lanza de caballería +2"
+    },
+    "CcTGZzQHejxEVLK1": {
+      "name": "Coraza de mithral"
+    },
+    "CoUFHk5keIihsbYL": {
+      "name": "Estoque lengua de fuego"
+    },
+    "Ct9LR9Ft1FG4a6Y1": {
+      "name": "Poción de leer mentes"
+    },
+    "CvzjhUy9ekRieR1A": {
+      "name": "Botella siemprehumeante"
+    },
+    "CwWbeQ6XyqFzbMYw": {
+      "name": "Libro de las sombras"
+    },
+    "DEQkJiQdGyfmSNkV": {
+      "name": "Yelmo de teletransporte"
+    },
+    "DM7hzgL836ZyUFB1": {
+      "name": "Pergamino de conjuro de nivel 4"
+    },
+    "DMejWAc8r8YvDPP1": {
+      "name": "Alabarda"
+    },
+    "DNOSEAvF4Oh1DlWy": {
+      "name": "Yesquero"
+    },
+    "DSHi7yT6OUyDoCcu": {
+      "name": "Brazales de defensa"
+    },
+    "DSWvkerPQsusbqzJ": {
+      "name": "Yesquero"
+    },
+    "DT02xK1DzxLNlVaI": {
+      "name": "Espada corta hierro de escarcha"
+    },
+    "DVXmyetZuvxbzAwW": {
+      "name": "Petate"
+    },
+    "DWLMnODrnHn8IbAG": {
+      "name": "Jabalina"
+    },
+    "DWwBkOFuYf5VN3M2": {
+      "name": "Talismán de cerrar heridas"
+    },
+    "DeK9uQvNJj3JzFwe": {
+      "name": "Alfombra voladora (4x6)"
+    },
+    "DevmObXWP9MfwE2c": {
+      "name": "Coraza adamantina"
+    },
+    "DizirD7eqjh8n95A": {
+      "name": "Maza a dos manos"
+    },
+    "DnlQkH6Bpwkd5n5Y": {
+      "name": "Ficha de pluma de ancla"
+    },
+    "Do3qeSHtBjUsmfvz": {
+      "name": "Vara de la alerta"
+    },
+    "DoSvjhRARhRqWZXg": {
+      "name": "Varita de bolas de fuego"
+    },
+    "DxIdfGoJEYQj8o3D": {
+      "name": "Bolsa de trucos rojiza"
+    },
+    "DxfCBU7uBoRNAnDm": {
+      "name": "Petate"
+    },
+    "E2h6sEe6FU2tnU96": {
+      "name": "Disfraz - Ropa"
+    },
+    "E7c4zpWdYgkKDHGo": {
+      "name": "Cimitarra filo de la fortuna"
+    },
+    "E9G4jALlSA96fKAN": {
+      "name": "Bandas de hierro de atadura"
+    },
+    "EC6ugXsfJZmjMNAj": {
+      "name": "Raciones"
+    },
+    "EJFql4aNWHHJSxT9": {
+      "name": "Varita del terror"
+    },
+    "EJVaAvNfCq6gn6VG": {
+      "name": "Yelmo de telepatía"
+    },
+    "ER75WHewYN04Zp11": {
+      "name": "Cinturón de fuerza de gigante de las colinas"
+    },
+    "ET8Oo5vaTZqyb7rN": {
+      "name": "Coraza +2"
+    },
+    "EU78dSbnr91QWZ7g": {
+      "name": "Alabarda +3"
+    },
+    "EWdfUQriSabqDESm": {
+      "name": "Dardo +2"
+    },
+    "EkTpM4Wbsrdqflzl": {
+      "name": "Tridente +2"
+    },
+    "ElLfmohtIFMagr5f": {
+      "name": "Anillo de influencia animal"
+    },
+    "EveBprZPBjfZqXLt": {
+      "name": "Maza a dos manos +1"
+    },
+    "EwG1EtmbgR3bM68U": {
+      "name": "Lira"
+    },
+    "F0Df164Xv1gWcYt0": {
+      "name": "Martillo de guerra"
+    },
+    "F3rQcaZvElNEiudk": {
+      "name": "Hacha de mano matagigantes"
+    },
+    "F65ANO66ckP8FDMa": {
+      "name": "Tridente"
+    },
+    "F6GwSqjErX1u35Re": {
+      "name": "Campana"
+    },
+    "F6v3Q7dz1SlpLTMf": {
+      "name": "Bastón de truenos y relámpagos"
+    },
+    "F8QpasPjLrw2POzE": {
+      "name": "Bolsa de judías"
+    },
+    "FCxG64QUxsnF4Lis": {
+      "name": "Espadón vengador sagrado"
+    },
+    "FF1ktpb2YSiyv896": {
+      "name": "Bastón de madera"
+    },
+    "FHUDEygUW7EWCDgA": {
+      "name": "Cimitarra feroz"
+    },
+    "FIDyR0kZnxGy7bj8": {
+      "name": "Aceite escurridizo"
+    },
+    "FLoBS3UnFnZTSsSx": {
+      "name": "Camisa de malla +2"
+    },
+    "FZixEM5voQkH84xP": {
+      "name": "Armadura de cuero tachonado +2"
+    },
+    "Fc6UfFNOnW80XMzi": {
+      "name": "Antitoxina"
+    },
+    "FeouSUPUlUhfgeRp": {
+      "name": "Bastón del cautivador"
+    },
+    "Fgkj11diTJJ7H3JC": {
+      "name": "Ficha de pluma de látigo"
+    },
+    "FhtjbeBeP4q5vTyc": {
+      "name": "Jabalina +3"
+    },
+    "Fk78kNmp3OLX5EMC": {
+      "name": "Ballesta pesada feroz"
+    },
+    "FkDyLSpiynKTQZdi": {
+      "name": "Alas de vuelo"
+    },
+    "FpLaviCom3XR1ckP": {
+      "name": "Espadón feroz"
+    },
+    "FqFmdzIBUSxFKKfi": {
+      "name": "Ropas de calidad"
+    },
+    "FvNOwWbh5FXyX4xe": {
+      "name": "Fuego de alquimista"
+    },
+    "G3cqbejJpfB91VhP": {
+      "name": "Chirimía"
+    },
+    "G5m5gYIx9VAUWC3J": {
+      "name": "Flauta de pan"
+    },
+    "G7LqGzKR5ts0WlJ9": {
+      "name": "Reloj de arena"
+    },
+    "G9XQPNLlDXkpVxn1": {
+      "name": "Armadura acolchada +2"
+    },
+    "GJv6WkD7D2J6rP6M": {
+      "name": "Arco corto"
+    },
+    "GKQSxYvS3m9qKVac": {
+      "name": "Armadura de bandas de mithral"
+    },
+    "GP2bvHlxVi30OEmo": {
+      "name": "Estatuilla de poder maravilloso (Elefante de mármol)"
+    },
+    "GcpXNc4dKUNw0Tk6": {
+      "name": "Varita de parálisis"
+    },
+    "Gflnp29aEv5Lc1ZM": {
+      "name": "Útiles de cocinero"
+    },
+    "GsuvwoekKZatfKwF": {
+      "name": "Ataque sin armas"
+    },
+    "GtKV1b5uqFQqpEni": {
+      "name": "Armadura acolchada"
+    },
+    "H6SIiRIig7OMM2Z0": {
+      "name": "Espada larga +3"
+    },
+    "H8YCd689ezlD26aT": {
+      "name": "Mochila"
+    },
+    "HF32aZSVw4P0MR4K": {
+      "name": "Camisa de malla de resistencia"
+    },
+    "HLEhnzLbpRbYdAHo": {
+      "name": "Gema elemental de agua"
+    },
+    "HLhFCDGfI8EK7uV9": {
+      "name": "Botas de levitación"
+    },
+    "HQJ8tiyyrJJSUSyF": {
+      "name": "Cerbatana +3"
+    },
+    "HVpXIU0zZw0a4Fb7": {
+      "name": "Armadura de placas de mithral"
+    },
+    "HY8duCwmvlXOruTG": {
+      "name": "Poción de encoger"
+    },
+    "HZp69hhyNZUUCipF": {
+      "name": "Botella de cristal"
+    },
+    "HZsvDPmvysQKGzGy": {
+      "name": "Espejo de acero"
+    },
+    "HdC66U61pDOknaux": {
+      "name": "Garrote +3"
+    },
+    "HeDP6dL9daVT3uj2": {
+      "name": "Lanza +2"
+    },
+    "HgFNy16VK0iJgpFx": {
+      "name": "Vela"
+    },
+    "HnIERWmmra74hSCw": {
+      "name": "Anillo de comandar elemental de agua"
+    },
+    "HnJqfKkYXIWo2sp9": {
+      "name": "Martillo de guerra feroz"
+    },
+    "HokQ1loVJTFxt27u": {
+      "name": "Espada larga vorpal"
+    },
+    "HpEEfZg9PRkXnMi4": {
+      "name": "Armadura de bandas +1"
+    },
+    "HqM7xtEgwV1l3HTZ": {
+      "name": "Lacre"
+    },
+    "I0WocDSuNpGJayPb": {
+      "name": "Hacha de guerra"
+    },
+    "I5PWgE4IF40Iv9h4": {
+      "name": "Estoque matagigantes"
+    },
+    "I7cOsXsklWkzouHA": {
+      "name": "Cimitarra vorpal"
+    },
+    "IBhDAr7WkhWPYLVn": {
+      "name": "Útiles para disfrazarse"
+    },
+    "IGg1yAvcOyhIqzBi": {
+      "name": "Petate"
+    },
+    "IGwDN9gtYxCrlrCr": {
+      "name": "Gema elemental de tierra"
+    },
+    "IPkf0XNowClwXnjQ": {
+      "name": "Espada larga +1"
+    },
+    "IY5PveXrF7VoFlWg": {
+      "name": "Flecha +3"
+    },
+    "IeM5Ha2cg0RA99q3": {
+      "name": "Armadura de pieles +3"
+    },
+    "Ij6x7481ch3Z0rff": {
+      "name": "Cuerda, 10 pies"
+    },
+    "Ilyv71AeobM6AvIn": {
+      "name": "Cimitarra defensora"
+    },
+    "IpBBqr0r7JanyVn0": {
+      "name": "Anillo de resistencia al trueno"
+    },
+    "IrC5LPbWNxlAQoK7": {
+      "name": "Anillo de resistencia a radiante"
+    },
+    "ItoGjtOtDOQ2noNM": {
+      "name": "Bola de cristal"
+    },
+    "IuVaBrq17AqxpXc4": {
+      "name": "Varita del mago de guerra +3"
+    },
+    "J8gQdJJi5e8LmD7H": {
+      "name": "Cuerda enredadora"
+    },
+    "JDTO996oInbiZGHW": {
+      "name": "Coraza +3"
+    },
+    "JFiSlgcm3uSSBM5t": {
+      "name": "Poción de curación suprema"
+    },
+    "JNkjtTxYmEC7W34O": {
+      "name": "Armadura de bandas de resistencia"
+    },
+    "JRJpKZyamkpa7awv": {
+      "name": "Túnica de colores hipnóticos"
+    },
+    "Jj4iFQQGvckx8Wsj": {
+      "name": "Poción de resistencia al fuego"
+    },
+    "JpwuGtFkfrGibQpP": {
+      "name": "Espadón hiriente"
+    },
+    "Jvf1NWFxcjfHnMQ5": {
+      "name": "Capa élfica"
+    },
+    "JvoufrTkSDMsS9Sm": {
+      "name": "Cadena - 10 pies"
+    },
+    "JwJf6M6HCSSMgKx3": {
+      "name": "Raciones"
+    },
+    "JyYwliYiWEw2g0yJ": {
+      "name": "Anillo de caída de pluma"
+    },
+    "K7h4LT03SNt2807z": {
+      "name": "Ballesta de mano feroz"
+    },
+    "KA2P6I48iOWlnboO": {
+      "name": "Varita"
+    },
+    "KJYqNZgdkRwPmPMl": {
+      "name": "Estoque hiriente"
+    },
+    "KJuLguMZCThrQOEx": {
+      "name": "Alimento para animal"
+    },
+    "KKWBLKQIWHtcpymp": {
+      "name": "Botas élficas"
+    },
+    "KhRhwADrTpol3yTx": {
+      "name": "Cota guarnecida +3"
+    },
+    "KndVe2insuctjIaj": {
+      "name": "Herramientas de herrero"
+    },
+    "KvIlZssYEtQ4bvSE": {
+      "name": "Martillo de guerra +2"
+    },
+    "KyW8s4pCgPAkgTXI": {
+      "name": "Campana"
+    },
+    "L4PxYPtYca283sju": {
+      "name": "Cimitarra hiriente"
+    },
+    "L887NdWEP5NqHCrQ": {
+      "name": "Poción de curación mayor"
+    },
+    "L9KBLub5vfb3mTDz": {
+      "name": "Anillo de comandar elemental de fuego"
+    },
+    "LBQWNqX6hZOKhQ8a": {
+      "name": "Poción de resistencia al radiante"
+    },
+    "LBajgahniRJbAgDr": {
+      "name": "Libro de conjuros"
+    },
+    "LC5LsQOPwoHQW9Mi": {
+      "name": "Anillo de caminar sobre las aguas"
+    },
+    "LDuqUcosOK8Bf76S": {
+      "name": "Armadura de bandas adamantina"
+    },
+    "LEC1wkaAUnWzDPDD": {
+      "name": "Jabalina del relámpago"
+    },
+    "LECtCKWa0mt0Vy1U": {
+      "name": "Perfume"
+    },
+    "LHaqMvrx3PfSzWMQ": {
+      "name": "Bolsa de trucos marrón"
+    },
+    "LZcpcR21nte4Yoe2": {
+      "name": "Hacha de mano +2"
+    },
+    "LdAj2ES9EzfnWcA1": {
+      "name": "Cota de escamas adamantina"
+    },
+    "LiOD83I4MIZlpoQQ": {
+      "name": "Trampa para cazar"
+    },
+    "LpD064ilKEeFzVI8": {
+      "name": "Capa de desplazamiento"
+    },
+    "Lr8aRsnia8hftPAb": {
+      "name": "Daga +2"
+    },
+    "M28HYDCueaK7J8u8": {
+      "name": "Cota guarnecida +2"
+    },
+    "M5APnDW8bKQb7fHI": {
+      "name": "Escudo de atraer proyectiles"
+    },
+    "M5qkJ7erLqWYUHa0": {
+      "name": "Estatuilla de poder maravilloso (Corcel de obsidiana)"
+    },
+    "M8xM8BLK4tpUayEE": {
+      "name": "Olla de hierro"
+    },
+    "MAwoj2suj6cvb9Ti": {
+      "name": "Disolvente universal"
+    },
+    "MCMSZrhcD40oMJ9v": {
+      "name": "Botas de velocidad"
+    },
+    "MFd96UkSs5g9QO78": {
+      "name": "Espada corta matadragones"
+    },
+    "MLNzQUsVUi0PEV3i": {
+      "name": "Carcaj eficiente"
+    },
+    "MOeFq5MLAQzVQC7z": {
+      "name": "Bastón de la pitón"
+    },
+    "MSO3JxK8578xSh6x": {
+      "name": "Camisa de malla +1"
+    },
+    "Minr6xegwoHFvAjG": {
+      "name": "Estatuilla de poder maravilloso (Leones dorados)"
+    },
+    "Mj8fTo5VZKJJ7uMv": {
+      "name": "Bala de honda asesina"
+    },
+    "MnX9soPEMNsCtpv7": {
+      "name": "Ballesta de mano +1"
+    },
+    "Mt2WB1W9nDWO4d16": {
+      "name": "Guja +2"
+    },
+    "N0in6FE8DQdZrHei": {
+      "name": "Silla de montar"
+    },
+    "N8XNP3vjVZmM2r9S": {
+      "name": "Cerbatana +1"
+    },
+    "NG8BlE2nwYJxCjWO": {
+      "name": "Escudo animado"
+    },
+    "NGVEouqK0I6J6jV5": {
+      "name": "Piedra Ioun de absorción"
+    },
+    "NM1dPyKwHw2DyUWA": {
+      "name": "Cota guarnecida +1"
+    },
+    "NRj0lC3SM03s1YB3": {
+      "name": "Cinturón de fuerza de gigante de las nubes"
+    },
+    "NYIib9KEYDUFe9GY": {
+      "name": "Bala de honda +1"
+    },
+    "Nd4r4hocpfu6fYDP": {
+      "name": "Rueda de oraciones"
+    },
+    "NgwrqNa6kkgoPW2Q": {
+      "name": "Escudo +1"
+    },
+    "NjTgPn2o0M1TGk93": {
+      "name": "Ficha de pluma de árbol"
+    },
+    "NmZMx2u6bHpRyGUa": {
+      "name": "Espada larga hierro de escarcha"
+    },
+    "NrHboku9vJO5FGiY": {
+      "name": "Lucero del alba +2"
+    },
+    "NtdDkjmpdIMiX7I2": {
+      "name": "Dulcémele"
+    },
+    "O4YbkJkLlnsgUszZ": {
+      "name": "Pergamino de conjuro de nivel 9"
+    },
+    "OG4nBBydvmfWYXIk": {
+      "name": "Lanza"
+    },
+    "OPbdSlrhkUDNpgcS": {
+      "name": "Varita del mago de guerra +1"
+    },
+    "ORKf6RRcalrdD6Qp": {
+      "name": "Cinturón de fuerza de gigante de escarcha"
+    },
+    "OUGMoQYeJzxEcRvm": {
+      "name": "Estoque ladrona de nueve vidas"
+    },
+    "OcjcplcUWH07Kn9k": {
+      "name": "Brasero para controlar elementales de fuego"
+    },
+    "OjkIqlW2UpgFcjZa": {
+      "name": "Armadura de placas"
+    },
+    "OojyyGfh91iViuMF": {
+      "name": "Vara"
+    },
+    "Or3kVfJ0Fbr33ARS": {
+      "name": "Garrote grande +2"
+    },
+    "OwqRt1pVLhdMQa0d": {
+      "name": "Armadura de placas enana"
+    },
+    "P31t6tGgt9aLAdYt": {
+      "name": "Pitón"
+    },
+    "P5UuhUBZL59wZiCY": {
+      "name": "Raciones"
+    },
+    "P8f9o36qxagW2uRW": {
+      "name": "Maza a dos manos +3"
+    },
+    "PAXfmZ2ErDlCVy0N": {
+      "name": "Talismán del mal definitivo"
+    },
+    "PAa2EG5kzmqxcp46": {
+      "name": "Hacha a dos manos +3"
+    },
+    "PGL6aaM0wE5h0VN5": {
+      "name": "Tótem"
+    },
+    "PKpftwMAn88gfLi7": {
+      "name": "Lucero del alba +1"
+    },
+    "PLkzJ310FzBnRrI5": {
+      "name": "Silla militar"
+    },
+    "PRhtLbRLb9LjHZG7": {
+      "name": "Guantes de natación y escalada"
+    },
+    "PUMfwyVUbtyxgYbD": {
+      "name": "Herramientas de curtidor"
+    },
+    "PV0sn2Nlr8CNn4W9": {
+      "name": "Lupa"
+    },
+    "PanSr5EbqlfpSvwK": {
+      "name": "Tienda para dos"
+    },
+    "Q4Iy6hqREsbk9yG7": {
+      "name": "Piedra Ioun de agilidad"
+    },
+    "Q4jmng3i9Lb2nL5F": {
+      "name": "Manual de rapidez de acción"
+    },
+    "Q7E6MgPzVkwBeZ6l": {
+      "name": "Anillo de resistencia a psíquico"
+    },
+    "QB4CFMTLR6JlD7Kq": {
+      "name": "Espadón de hoja afilada"
+    },
+    "QKTyxoO0YDnAsbYe": {
+      "name": "Látigo"
+    },
+    "QM3gdsL0eaAus7XT": {
+      "name": "Hacha de mano feroz"
+    },
+    "QRCsxkCwWNwswL9o": {
+      "name": "Garrote grande"
+    },
+    "QXmaarJ4X8P0C1HV": {
+      "name": "Cuerda de cáñamo - 50 Pies"
+    },
+    "QYJyQCnIQeLiMrmJ": {
+      "name": "Cuerno del Valhalla de latón"
+    },
+    "Qfi5Rsuun3reqYmf": {
+      "name": "Hacha de mano +1"
+    },
+    "QtmVEreNIWEVOoLR": {
+      "name": "Anillo de protección"
+    },
+    "Qy2aRjl4iQ8EmaT5": {
+      "name": "Paquete de diplomático"
+    },
+    "RDPFmUR9exTEXFc8": {
+      "name": "Botas de las tierras invernales"
+    },
+    "REBWkTKe6lJaIkpn": {
+      "name": "Jabón"
+    },
+    "RMi9efrW9ouHVLI2": {
+      "name": "Libro"
+    },
+    "RbC0UCqAnQcIPIXZ": {
+      "name": "Pico de guerra +2"
+    },
+    "RfEZvwcLwe6Ih0LQ": {
+      "name": "Espadón +3"
+    },
+    "RiOeHR2qaYktz5Ys": {
+      "name": "Pinchos de hierro"
+    },
+    "RmP0mYRn2J7K26rX": {
+      "name": "Ballesta pesada"
+    },
+    "Rn9gt6JGULtx9Zvz": {
+      "name": "Cota de malla +1"
+    },
+    "RnuxdHUAIgxccVwj": {
+      "name": "Lanza de caballería"
+    },
+    "S7AhpCPDBGUBbg7b": {
+      "name": "Estoque +1"
+    },
+    "S7TrIOlE600KIOUx": {
+      "name": "Estoque matadragones"
+    },
+    "SItCnYBqhzqBoaWG": {
+      "name": "Virote de ballesta"
+    },
+    "SK2HATQ4abKUlV8i": {
+      "name": "Coraza"
+    },
+    "STxsp9Ao3pS2T4gt": {
+      "name": "Armadura de cuero tachonado +1"
+    },
+    "SXjs8JghAPBv7d6j": {
+      "name": "Espada larga matadragones"
+    },
+    "ScxK8YNU5dWELhlQ": {
+      "name": "Anillo de resistencia a la fuerza"
+    },
+    "Sj4zEvuGcSV6anKm": {
+      "name": "Ballesta pesada +3"
+    },
+    "SpbjbMMoJiva2zOa": {
+      "name": "Espada corta hiriente"
+    },
+    "SqTtbBCfiEsmZ36N": {
+      "name": "Canica de fuerza"
+    },
+    "SsAmWV6YBqeOFihT": {
+      "name": "Ropa de viajero"
+    },
+    "SuQmsJfxyJl2hPcM": {
+      "name": "Piedra de afilar"
+    },
+    "Sx5E6utixHdAbGNb": {
+      "name": "Ácido - vial"
+    },
+    "SypSoinJkES0o5FB": {
+      "name": "Cuero tachonado encantado"
+    },
+    "SztwZhbhZeCqyAes": {
+      "name": "Suministros de alquimista"
+    },
+    "TIV3B1vbrVHIhQAm": {
+      "name": "Armadura de cuero tachonado"
+    },
+    "TMqS62qjBCveT1Ss": {
+      "name": "Tridente feroz"
+    },
+    "TWFS1BtruQeE10BY": {
+      "name": "Piedra para controlar elementales de tierra"
+    },
+    "TZggpdbOYqOCG7mY": {
+      "name": "Vasija alquímica"
+    },
+    "TevMHicE3A70AlmP": {
+      "name": "Poción de fuerza de gigante de escarcha"
+    },
+    "TjWk2mpNXjDdfIDM": {
+      "name": "Alfombra voladora (6x9)"
+    },
+    "TmfaFUSZJAotndn9": {
+      "name": "Alforjas"
+    },
+    "Tobce1hexTnDk4sV": {
+      "name": "Estoque"
+    },
+    "TqyvIglHDj5kfohR": {
+      "name": "Pitón"
+    },
+    "TwYeck6buBZ602mg": {
+      "name": "Bola de cristal de leer mentes"
+    },
+    "U4PI6l96QJUk6TGb": {
+      "name": "Anteojos de vista de águila"
+    },
+    "U5fRz04JWgNS1WvK": {
+      "name": "Cuerda de cáñamo - 50 Pies"
+    },
+    "U74TPNQLJZbHJyCk": {
+      "name": "Túnica de los ojos"
+    },
+    "UAXu4MNvAvaKz9JO": {
+      "name": "Hacha de guerra +1"
+    },
+    "UICmOXUKBmHp9o4y": {
+      "name": "Botella de tinta"
+    },
+    "ULL5nkyN3WzazI4l": {
+      "name": "Cimitarra vengadora sagrada"
+    },
+    "UOE8RGOpgv2oWIvM": {
+      "name": "Paquete de erudito"
+    },
+    "URun3vYrXKJJdAJe": {
+      "name": "Bastón de impacto"
+    },
+    "UT8zCwmdXVQlBiyl": {
+      "name": "Armadura de cuero +2"
+    },
+    "UctSPehpKb4lJQGr": {
+      "name": "Garrote feroz"
+    },
+    "UgnUJhu0tW1tLt7g": {
+      "name": "Ficha de pluma de barco cisne"
+    },
+    "UkWdyJYQTfVX2cJW": {
+      "name": "Linterna ojo de buey"
+    },
+    "UpHAWqwifZpiZzns": {
+      "name": "Cota guarnecida adamantina"
+    },
+    "UrH3sMdnUDckIHJ6": {
+      "name": "Flagelo"
+    },
+    "Uv0ilmzbWvqmlCVH": {
+      "name": "Cantimplora"
+    },
+    "UxkP6FvDzPbsIY6o": {
+      "name": "Manual de gólems"
+    },
+    "V13fjV5oSmvbRdgP": {
+      "name": "Utensilios de cocina"
+    },
+    "V5UAjT3ed6sDNtgm": {
+      "name": "Palanqueta"
+    },
+    "VGtyTdVLoWls8FL5": {
+      "name": "Cimitarra +1"
+    },
+    "VHYy3ZsJNPUo1SIx": {
+      "name": "Cimitarra +2"
+    },
+    "VQ6NWjWV37wiB29O": {
+      "name": "Varita de secretos"
+    },
+    "VQAUcjn1qdwW3MeU": {
+      "name": "Ballesta ligera feroz"
+    },
+    "VRT5GEusTFstOZdF": {
+      "name": "Armadura de pieles de resistencia"
+    },
+    "VTc5McIjCm40KPIz": {
+      "name": "Armadura de placas +2"
+    },
+    "Vm6SuX6TkDvSIVGr": {
+      "name": "Lucero del alba feroz"
+    },
+    "VmcgAIsRCyrjBguC": {
+      "name": "Ungüento reconstituyente"
+    },
+    "VwJjuNbBf2KHMPrY": {
+      "name": "Capa arácnida"
+    },
+    "W1kDsFekjroIywuz": {
+      "name": "Armadura de cuero tachonado de resistencia"
+    },
+    "WCafDVKITxwnlf2x": {
+      "name": "Catalejo"
+    },
+    "WFQS2vT8ddrFjTJg": {
+      "name": "Pergamino"
+    },
+    "WLVQJVpCWiPkCAtZ": {
+      "name": "Bastón de curación"
+    },
+    "WNdN2mBF3O7ZNcMp": {
+      "name": "Lanza +1"
+    },
+    "WO8DLfz3G2QZ5njs": {
+      "name": "Anillo de resistencia al ácido"
+    },
+    "WPWszFTGzmdIuDRJ": {
+      "name": "Frasco de agua bendita"
+    },
+    "WWb4vAmh18sMAxfY": {
+      "name": "Espadón lengua de fuego"
+    },
+    "WfqBg3yBNoJQtVEB": {
+      "name": "Escudo +3"
+    },
+    "Wk7EOYoY3b2tgGoS": {
+      "name": "Baraja de ilusiones"
+    },
+    "WlPzuxaVnYzxzDEC": {
+      "name": "Látigo +2"
+    },
+    "WnKWD1FuAFUE7f4v": {
+      "name": "Tomo de entendimiento"
+    },
+    "Wo2Dkh191C4VmLmg": {
+      "name": "Cota guarnecida de resistencia"
+    },
+    "Wv7HzD6dv1P0q78N": {
+      "name": "Cesta"
+    },
+    "WwdpHLXGX5r8uZu5": {
+      "name": "Armadura de cuero"
+    },
+    "X5knPtrQAT8GePJ4": {
+      "name": "Pico de minero"
+    },
+    "X6PHssSGnwiJRgcx": {
+      "name": "Espada larga filo de la fortuna"
+    },
+    "XAr1SR4POx5BAArk": {
+      "name": "Alfombra voladora (5x7)"
+    },
+    "XEH5YErAN1WSytln": {
+      "name": "Estatuilla de poder maravilloso (Búho de serpentina)"
+    },
+    "XGAWqtmhK6SYBL6A": {
+      "name": "Anteojos de la noche"
+    },
+    "XIpJkxbySJxm6hoU": {
+      "name": "Martillo ligero +2"
+    },
+    "XJ8CG4UvLELCmOi2": {
+      "name": "Anillo de resistencia al relámpago"
+    },
+    "XJFqU9COdk4ycFa2": {
+      "name": "Armadura de pieles +2"
+    },
+    "XKnDE8DTrJxIkVCF": {
+      "name": "Armadura acolchada +3"
+    },
+    "XVK6TOL4sGItssAE": {
+      "name": "Martillo ligero"
+    },
+    "XXLznzi3rlanMhTM": {
+      "name": "Virote de ballesta +3"
+    },
+    "XY8b594Dn7plACLL": {
+      "name": "Paquete de explorador de mazmorras"
+    },
+    "XZWHQ20ynJBK6xmU": {
+      "name": "Anillo de comandar elemental de aire"
+    },
+    "Xbq8CyXSRV358SfP": {
+      "name": "Aceite de etereidad"
+    },
+    "XdDp6CKh9qEvPTuS": {
+      "name": "Pergamino de conjuro de nivel 2"
+    },
+    "XmnlF5fgIO3tg6TG": {
+      "name": "Cota de escamas"
+    },
+    "XwqNHyox5OQQio8q": {
+      "name": "Alfombra voladora (3x5)"
+    },
+    "Y08Al2dMN8he1hFK": {
+      "name": "Martillo ligero +3"
+    },
+    "Y9S75go1hLMXUD48": {
+      "name": "Suministros de cervecero"
+    },
+    "YFarUKR3OrM5raf5": {
+      "name": "Media armadura +2"
+    },
+    "YG9QW0flem4SLL6A": {
+      "name": "Bolsa devoradora"
+    },
+    "YHCmjsiXxZ9UdUhU": {
+      "name": "Herramientas de navegante"
+    },
+    "YM4QueTsF3DL77mH": {
+      "name": "Raciones"
+    },
+    "YM6bZNmpync83VFa": {
+      "name": "Hacha de guerra matagigantes"
+    },
+    "YS9CRHg2yQlOVi3j": {
+      "name": "Cota de malla de mithral"
+    },
+    "YeLz5OxRNxmvHJId": {
+      "name": "Piedra Ioun de intelecto"
+    },
+    "YevPP0DZXgAcLmzv": {
+      "name": "Estoque +3"
+    },
+    "YfBwELTgPFHmQdHh": {
+      "name": "Herramientas de joyero"
+    },
+    "YjImJ3cVnArHH4ES": {
+      "name": "Botas aladas"
+    },
+    "YrkkHa6KN8a9o35k": {
+      "name": "Estoque defensor"
+    },
+    "YwS4pESpfsiq0JZv": {
+      "name": "Armadura de vulnerabilidad"
+    },
+    "YwlHI3BVJapz4a3E": {
+      "name": "Naipes"
+    },
+    "Z0eO3TTpYA2hjwdd": {
+      "name": "Arco corto feroz"
+    },
+    "Z7xno2zMzRtqqUIQ": {
+      "name": "Bastón feroz"
+    },
+    "Z9FBwEoMi6daDGRj": {
+      "name": "Espada corta lengua de fuego"
+    },
+    "ZKyhkS8ud2NpV7ng": {
+      "name": "Cimitarra de hoja afilada"
+    },
+    "ZLpj1bpnWlAFUEHE": {
+      "name": "Cimitarra matagigantes"
+    },
+    "ZYEqOSY9BLZs2GPx": {
+      "name": "Brazales de arquería"
+    },
+    "ZcvU9rRb573NOywv": {
+      "name": "Arco largo +2"
+    },
+    "ZdcEtbtU3VkuxIFE": {
+      "name": "Broche escudo"
+    },
+    "Zf7kBZa5f4WBepn1": {
+      "name": "Anillo de comandar elemental de tierra"
+    },
+    "ZgXJE9pjvZLMCeHg": {
+      "name": "Babuchas de trepar cual arácnido"
+    },
+    "ZjUOHSyND2VFXQeP": {
+      "name": "Virote de ballesta +1"
+    },
+    "ZoUVmRA3HfAK2eZy": {
+      "name": "Vela de invocación"
+    },
+    "ZwFCZDgQljlidzns": {
+      "name": "Armadura de cuero +3"
+    },
+    "a26LjC4QxP1oorXC": {
+      "name": "Diadema de intelecto"
+    },
+    "a86F565Pjdzym1jH": {
+      "name": "Suero de la verdad"
+    },
+    "a8fe9d81BRW86cvP": {
+      "name": "Cantimplora"
+    },
+    "aA7MbjnpHYoYvmuW": {
+      "name": "Anillo de natación"
+    },
+    "aDEAwKwttl35dWaB": {
+      "name": "Cota de escamas +1"
+    },
+    "aDHRuUs29SrumWfq": {
+      "name": "Bolsa de contención"
+    },
+    "aEiM49V8vWpWw7rU": {
+      "name": "Red"
+    },
+    "aMnWi1WXWpxRHq4r": {
+      "name": "Poción de trepar"
+    },
+    "aOrinPg7yuDZEuWr": {
+      "name": "Pergamino de conjuro de nivel 8"
+    },
+    "aXsfZvDCdpuv3Yvb": {
+      "name": "Flecha asesina"
+    },
+    "aa9KuBy4dst7WIW9": {
+      "name": "Cuerno"
+    },
+    "ac8IamT5vDrH1ZT8": {
+      "name": "Caja para limosnas"
+    },
+    "akjpaK4TYkUZbGrN": {
+      "name": "Cota de malla +2"
+    },
+    "amRx3jOYlPeXEiAN": {
+      "name": "Ballesta ligera +3"
+    },
+    "ap9prThUB2y9lDyj": {
+      "name": "Herramientas de tejedor"
+    },
+    "asUgQFrF1xYeNhtW": {
+      "name": "Hoz +1"
+    },
+    "azxwKFHrNmG3HpVy": {
+      "name": "Armadura de placas de resistencia"
+    },
+    "b2l2ubCGSnmiTrm8": {
+      "name": "Espada corta +2"
+    },
+    "b46t42bMruQf9v3O": {
+      "name": "Maza del terror"
+    },
+    "bAyr7j5Peq9wIJTa": {
+      "name": "Poción de clarividencia"
+    },
+    "bDZFQqLQE73cFB8c": {
+      "name": "Cuerda de cáñamo - 50 Pies"
+    },
+    "bEZOY6uvHRweMM56": {
+      "name": "Poción de fuerza de gigante de fuego"
+    },
+    "bHbbIhbTzu4lYMRz": {
+      "name": "Espada corta vengadora sagrada"
+    },
+    "bPFVfq81EsMNu6OQ": {
+      "name": "Varita de relámpagos"
+    },
+    "bWI5i4RbyGKT6Eiq": {
+      "name": "Daga +3"
+    },
+    "baoe3U5BfMMMxhCU": {
+      "name": "Viola"
+    },
+    "bcv7J9culilK68zp": {
+      "name": "Espada larga +2"
+    },
+    "bod1dKzbAkAm21Ho": {
+      "name": "Bastón de enjambre de insectos"
+    },
+    "bq9YKwEHLQ7p7ric": {
+      "name": "Cinturón de fuerza de gigante de fuego"
+    },
+    "bqZ6NTLDCUB98YjV": {
+      "name": "Poción de forma gaseosa"
+    },
+    "c0luemOP0iW8L23R": {
+      "name": "Poción de resistencia al psíquico"
+    },
+    "cG3m4YlHfbQlLEOx": {
+      "name": "Útiles para falsificar"
+    },
+    "cGUPm15mLfhGDz2b": {
+      "name": "Polvo de desaparición"
+    },
+    "cI0UhWUux8gIzSHn": {
+      "name": "Camisa de malla +3"
+    },
+    "cKpJmsJmU8YaiuqG": {
+      "name": "Armadura de bandas"
+    },
+    "cQ94oKUZN8FDAI8U": {
+      "name": "Hacha de guerra +2"
+    },
+    "caEn3ixCUFBnHTx6": {
+      "name": "Bastón de los bosques"
+    },
+    "ccm5xlWhx74d6lsK": {
+      "name": "Suministros de pintor"
+    },
+    "cmnBssaWWzWWm70C": {
+      "name": "Hacha de mano +3"
+    },
+    "ctKfjHjk9gs9UtZI": {
+      "name": "Poción de velocidad"
+    },
+    "d58CvI0Fiav9Jjt1": {
+      "name": "Espada corta defensora"
+    },
+    "d5HNCmLIPCpPoX2w": {
+      "name": "Cetro de poder señorial"
+    },
+    "dG7iFak1YH1nXRpC": {
+      "name": "Hacha de guerra feroz"
+    },
+    "dGnkwePemh7ovuDv": {
+      "name": "Anillo de escudo mental"
+    },
+    "dJjdWdaZU30r1zx4": {
+      "name": "Armadura de placas de etereidad"
+    },
+    "dOZkW5MwvsMhnd08": {
+      "name": "Media armadura +1"
+    },
+    "dP7jMKyHTTgVb3ii": {
+      "name": "Botella de tinta"
+    },
+    "dQxqcjDm0IxYusCV": {
+      "name": "Sombrero de disfraz"
+    },
+    "dRtb9Tg34NKX9mGF": {
+      "name": "Armadura de cuero de resistencia"
+    },
+    "dX8AxCh9o0A9CkT3": {
+      "name": "Lucero del alba"
+    },
+    "dXtZxlh2VKLCo1nA": {
+      "name": "Armadura de cuero +1"
+    },
+    "dZ9zWfhsIlabadKL": {
+      "name": "Espada larga vengadora sagrada"
+    },
+    "ddWvQRLmnnIS0eLF": {
+      "name": "Ballesta ligera"
+    },
+    "dghpiMWDSUXtQf6X": {
+      "name": "Lucero del alba +3"
+    },
+    "dsjke4vPPsc9gsxH": {
+      "name": "Gema elemental de fuego"
+    },
+    "ducaFdrqwLZ0l3c7": {
+      "name": "Espada larga lengua de fuego"
+    },
+    "dvNzJqb7vq6oJlA2": {
+      "name": "Hacha de guerra berserker"
+    },
+    "dwGxrGqkn2ppNaqs": {
+      "name": "Garrote grande +1"
+    },
+    "e3XQygrXkzNvkDGF": {
+      "name": "Pigmentos maravillosos"
+    },
+    "e7JpVX2549vp9mgF": {
+      "name": "Lanza feroz"
+    },
+    "e98hfROZjztt7ccO": {
+      "name": "Ficha de pluma de abanico"
+    },
+    "eHGbr3rqRRxdBPLq": {
+      "name": "Cota de malla +3"
+    },
+    "eJOrPcAz9EcquyRQ": {
+      "name": "Flauta"
+    },
+    "eJY20LOs3pOkRDPl": {
+      "name": "Bloque de incienso"
+    },
+    "eJtPBiZtr2pp6ynt": {
+      "name": "Estuche para virotes de ballesta"
+    },
+    "eKip69fExSYN661B": {
+      "name": "Guja feroz"
+    },
+    "eM5gEe4SEOvA2Y9t": {
+      "name": "Bastón de poder"
+    },
+    "eMR6B4bIoJPUDJG8": {
+      "name": "Polvo de sequedad"
+    },
+    "eO7Fbv5WBk5zvGOc": {
+      "name": "Hacha de mano"
+    },
+    "eQNXan0zp279jDtk": {
+      "name": "Vara inamovible"
+    },
+    "eQTKbhnpkrtXUfwN": {
+      "name": "Escalera de 10 pies"
+    },
+    "eTNc8XPtvZNe3yQs": {
+      "name": "Poción de vuelo"
+    },
+    "eVbPkYjpl29RE2uW": {
+      "name": "Veneno básico"
+    },
+    "eZGmdOhaTWMicXPW": {
+      "name": "Saquito de componentes"
+    },
+    "ea4xclqsksEQB1QF": {
+      "name": "Ábaco"
+    },
+    "ecz2fVDyAg8YgJGe": {
+      "name": "Silla de tiro"
+    },
+    "efluRemOguW2YeZY": {
+      "name": "Estoque hierro de escarcha"
+    },
+    "egJhGFU3v5OfjPNS": {
+      "name": "Arco corto +3"
+    },
+    "ejEt6hLQxOux04lS": {
+      "name": "Armadura demoníaca"
+    },
+    "etA2SBgWwduCLgLT": {
+      "name": "Anillo de estrellas fugaces"
+    },
+    "evSCq83oPhR0ZK4y": {
+      "name": "Armadura de invulnerabilidad"
+    },
+    "ewXgnWiYQhS8KArS": {
+      "name": "Anillo de los tres deseos"
+    },
+    "f0I81P9k29Q1lV4S": {
+      "name": "Cota de escamas de resistencia"
+    },
+    "f3eF8EYq1rkqFwDP": {
+      "name": "Bolsa de arena"
+    },
+    "f4w4GxBi0nYXmhX4": {
+      "name": "Raciones"
+    },
+    "f5chGcpQCi1HYPQw": {
+      "name": "Poción de resistencia al veneno"
+    },
+    "fC0lFK8P4RuhpfaU": {
+      "name": "Herramientas de cartógrafo"
+    },
+    "fCRftM4QxEDkeu0a": {
+      "name": "Garrote +1"
+    },
+    "fCUZ7h8YYrs16UhX": {
+      "name": "Cinturón de fuerza de gigante"
+    },
+    "fNMkFCOvMiW2Rh3t": {
+      "name": "Papel"
+    },
+    "fO1PuSOtZWLzEHqu": {
+      "name": "Cota de escamas +2"
+    },
+    "fStHPOhuJvwEjzQh": {
+      "name": "Armadura de placas +1"
+    },
+    "fWR9EFEjR0JtFdCC": {
+      "name": "Espadón filo de la fortuna"
+    },
+    "fbC0Mg1a73wdFbqO": {
+      "name": "Cimitarra"
+    },
+    "fbcQsOgWCjhEAGY7": {
+      "name": "Botella de ifrit"
+    },
+    "feKHv3JUWZdSNKf0": {
+      "name": "Cimitarra matadragones"
+    },
+    "fu7DJcrYWfGMeVt9": {
+      "name": "Cerbatana +2"
+    },
+    "fvezXwRJ5PqUf5NN": {
+      "name": "Anillo de resistencia al frío"
+    },
+    "g2dWN7PQiMRYWzyk": {
+      "name": "Bastón"
+    },
+    "g8DG0jXlvfP3uTtZ": {
+      "name": "Pico de guerra feroz"
+    },
+    "g8fQZ1WyTz2bTtvA": {
+      "name": "Caja para limosnas"
+    },
+    "gBQ8xqTA5f8wP5iu": {
+      "name": "Dardo de cerbatana"
+    },
+    "gLkbbUtGhQgYANM8": {
+      "name": "Flecha +2"
+    },
+    "gP1URGq3kVIIFHJ7": {
+      "name": "Relicario"
+    },
+    "gSwpQacBLOJeLWrK": {
+      "name": "Maza feroz"
+    },
+    "gTRFQLdVD1gsKtPi": {
+      "name": "Poción de crecimiento"
+    },
+    "gV671PZGnYoVZefN": {
+      "name": "Jabalina +2"
+    },
+    "gVo3UbvwjFIiFR0c": {
+      "name": "Arco largo feroz"
+    },
+    "gYDMk3LWikIP5PmA": {
+      "name": "Arco corto +1"
+    },
+    "giU3yyZXvErjf78D": {
+      "name": "Dardo +1"
+    },
+    "gpHgWLsD8k2yzbfR": {
+      "name": "Capa del charlatán"
+    },
+    "gwuffGC4JZ8BbStz": {
+      "name": "Hacha de mano berserker"
+    },
+    "gyJ0imAckcWtCjyv": {
+      "name": "Garrote +2"
+    },
+    "h0XLhuUQ0vSnW3DU": {
+      "name": "Estoque feroz"
+    },
+    "h8rS84jKsMHl9J1i": {
+      "name": "Piedra Ioun de consciencia"
+    },
+    "hDF4RSCzMO8iI14x": {
+      "name": "Piedra Ioun de liderazgo"
+    },
+    "hFAVm9pTJDm0nu3g": {
+      "name": "Escoba voladora"
+    },
+    "hGrxC676XmlnS9y0": {
+      "name": "Capa de la mantaraya"
+    },
+    "hHX5qXva1ScCpBpL": {
+      "name": "Red +2"
+    },
+    "hJS8yEVkqgJjwfWa": {
+      "name": "Herramientas de alfarero"
+    },
+    "hM84pZnpCqKfi8XH": {
+      "name": "Herramientas de zapatero"
+    },
+    "hOzuSDqmOIOx8z3Z": {
+      "name": "Caña de pescar"
+    },
+    "hSY1b8yi8JWw2blf": {
+      "name": "Botas de zancadas y brincos"
+    },
+    "hWqImieUaLo08l9l": {
+      "name": "Ficha de pluma de pájaro"
+    },
+    "hdUzXzVPonOQzW81": {
+      "name": "Hacha a dos manos +2"
+    },
+    "hdlBOEbEjiwUjTW5": {
+      "name": "Anillo de invocar djinns"
+    },
+    "hf5j1meGsA33HkUj": {
+      "name": "Espejo atrapavidas"
+    },
+    "hqVKZie7x9w3Kqds": {
+      "name": "Pergamino de conjuro de nivel 3"
+    },
+    "hxfOtvFrY1PXHQN1": {
+      "name": "Anillo de telequinesis"
+    },
+    "i2puCDRaTxkuFfB4": {
+      "name": "Anillo de libertad de acción"
+    },
+    "i3njMqHc689GvHDn": {
+      "name": "Anillo de visión de rayos X"
+    },
+    "i4NeNZ30ycwPDHMx": {
+      "name": "Hoz"
+    },
+    "i89okN7GFTWHsvPy": {
+      "name": "Útiles de herborista"
+    },
+    "iB3gunzgxZ8xK6Z5": {
+      "name": "Talismán del bien puro"
+    },
+    "iBuTM09KD9IoM5L8": {
+      "name": "Juego de dados"
+    },
+    "iIuNqnpWCHrLEKWj": {
+      "name": "Red +3"
+    },
+    "iLt7wTWr4cJnQulJ": {
+      "name": "Estatuilla de poder maravilloso (Cabra de marfil de viaje)"
+    },
+    "iOMRrzfzFCfPGuD6": {
+      "name": "Bolsa de arena"
+    },
+    "iRDmig2qZ7LdP0ug": {
+      "name": "Cota de escamas de mithral"
+    },
+    "idtlcnIWgwVdvp31": {
+      "name": "Jabalina +1"
+    },
+    "ig5DOQtQYJPXJId4": {
+      "name": "Piedra Ioun de fortaleza"
+    },
+    "iiQxTvDOhPGW5spF": {
+      "name": "Amuleto de salud"
+    },
+    "ijDzcDXfJAdj2uED": {
+      "name": "Ballesta pesada +1"
+    },
+    "il2GNi8C0DvGLL9P": {
+      "name": "Útiles de envenenador"
+    },
+    "irtqrzaUCeshmTZp": {
+      "name": "Vestiduras"
+    },
+    "isKR904LkLaH4i6M": {
+      "name": "Alabarda feroz"
+    },
+    "izF3kmyFEVI5TWhp": {
+      "name": "Dardo +3"
+    },
+    "j01YDOu2AolsRvdN": {
+      "name": "Aceite (frasco)"
+    },
+    "j2ZGEwx8MhHZXds4": {
+      "name": "Cinturón enano"
+    },
+    "jDTM1RjtZMu9YYL9": {
+      "name": "Aceite (frasco)"
+    },
+    "jJU8vFhHLQeKe2wu": {
+      "name": "Gema de visión"
+    },
+    "jcQqI0pxLD2nNNQ4": {
+      "name": "Látigo +3"
+    },
+    "jeoZmDD9fuQdvC77": {
+      "name": "Dardo feroz"
+    },
+    "jf0XMx2vfEZzZuD7": {
+      "name": "Maza +1"
+    },
+    "jhjo20QoiD5exf09": {
+      "name": "Suministros de calígrafo"
+    },
+    "jlI44g90pp4VazBU": {
+      "name": "Polipasto o aparejo de poleas"
+    },
+    "jmSC8I5awCoxNVv7": {
+      "name": "Hacha a dos manos matagigantes"
+    },
+    "jvKmgJYL33E8gev5": {
+      "name": "Piedra Ioun de reserva"
+    },
+    "k2B9P3gm2NGjJ1m0": {
+      "name": "Armadura de pieles +1"
+    },
+    "k3T7tpcdzDyVKlF4": {
+      "name": "Varita del mago de guerra +2"
+    },
+    "kBVK2IiZYRkEYtcM": {
+      "name": "Espadón +1"
+    },
+    "kHjpHTKex95ULxUX": {
+      "name": "Ballesta ligera +1"
+    },
+    "kKGJjVVlJVoakWgQ": {
+      "name": "Poción de resistencia a la fuerza"
+    },
+    "kNlvoSTcdMqxJPmI": {
+      "name": "Hacha de guerra +3"
+    },
+    "kOYXMf4GTtD7OqbD": {
+      "name": "Cimitarra danzarina"
+    },
+    "kTxi62RTrrdrIBr9": {
+      "name": "Estoque vengador sagrado (Holy Avenger Rapier)"
+    },
+    "kdkpSZMUHGXGM15H": {
+      "name": "Anillo de sellar"
+    },
+    "khyjT3dKyoEOf4eA": {
+      "name": "Varita de polimorfar"
+    },
+    "kj5DNiBKasYWyuj6": {
+      "name": "Útiles para disfrazarse"
+    },
+    "kjTPoUeomTPWJ9h3": {
+      "name": "Camisa de malla adamantina"
+    },
+    "kpDbCYgUivh7NApp": {
+      "name": "Escudo de guarda contra conjuros"
+    },
+    "kvD4ElYCfCKpjDeg": {
+      "name": "Martillo arrojadizo enano"
+    },
+    "kx8DGQizmR5UI21R": {
+      "name": "Cantimplora"
+    },
+    "l2T46xCqUbJvKE7A": {
+      "name": "Pico de guerra +1"
+    },
+    "l3V7V8VCXpmAAysQ": {
+      "name": "Bastón de los magos"
+    },
+    "l794iywHk8Wc6Uvi": {
+      "name": "Libro de leyendas"
+    },
+    "l88FXiodYofrJT8a": {
+      "name": "Lanza de caballería +1"
+    },
+    "lAcTZgNtpmks2Mo5": {
+      "name": "Poción de fuerza de gigante de las nubes"
+    },
+    "lBg9CPRdpRhn4DO4": {
+      "name": "Utensilios de cocina"
+    },
+    "lHS63sC6bypENNlR": {
+      "name": "Frasco"
+    },
+    "lM5uo6R4gy8rJG5Y": {
+      "name": "Jabalina feroz"
+    },
+    "lN1VbnGFo3HNZXNb": {
+      "name": "Media armadura de resistencia"
+    },
+    "lPsueMv4ZoXqCYf9": {
+      "name": "Varita de las maravillas"
+    },
+    "lSd5QHnIJbKvP1bh": {
+      "name": "Aparato del cangrejo"
+    },
+    "lTfo6OVvAY2iJ4oq": {
+      "name": "Cuerno del Valhalla de plata"
+    },
+    "laVqttkGMW4B9654": {
+      "name": "Emblema"
+    },
+    "lccm5AjIk91aIHbi": {
+      "name": "Coraza de resistencia"
+    },
+    "lcqqW2vGF6P8nJ77": {
+      "name": "Látigo +1"
+    },
+    "lg6oohwQndZT4Z0m": {
+      "name": "Incensario"
+    },
+    "lsiR1hVfISlC5YoB": {
+      "name": "Bastón de fuego"
+    },
+    "ltbDV5OitV0yrDFU": {
+      "name": "Antorcha"
+    },
+    "luTJgPXN5n0EN7iy": {
+      "name": "Látigo feroz"
+    },
+    "lvLrkAR7k8DS7J3W": {
+      "name": "Frasco de hierro"
+    },
+    "lvaMqEhfidfHDGf5": {
+      "name": "Capa de protección"
+    },
+    "m1hJnK7CHsaJB26v": {
+      "name": "Maza +2"
+    },
+    "m7I2KkwIWttQSElS": {
+      "name": "Yesquero"
+    },
+    "m7RubLd1lUcMjYgY": {
+      "name": "Maza disruptiva"
+    },
+    "mE6rsbIJXAd4tr4e": {
+      "name": "Vestiduras"
+    },
+    "mGIwk9FwTAJB6qTn": {
+      "name": "Arco juramentado"
+    },
+    "mQVYcHmMSoCUnBnM": {
+      "name": "Cubo"
+    },
+    "mYFfH24uzuKh4IPS": {
+      "name": "Abanico del viento"
+    },
+    "meJEfX3gZgtMX4x2": {
+      "name": "Vial"
+    },
+    "mhFBTY0egW8AeCHe": {
+      "name": "Poción de fuerza de gigante de las colinas"
+    },
+    "mkyltDYnuzNU3kmF": {
+      "name": "Garrote grande +3"
+    },
+    "mr96Z8YTI490ExhP": {
+      "name": "Túnica del archimago"
+    },
+    "mtyw4NS1s7j2EJaD": {
+      "name": "Pergamino de conjuro de nivel 7"
+    },
+    "n1V07puo0RQxPGuF": {
+      "name": "Armadura de pieles"
+    },
+    "n7fm71CN7qDIBEKk": {
+      "name": "Cota de malla adamantina"
+    },
+    "nAqDwI9GyXS1diiz": {
+      "name": "Herraduras de velocidad"
+    },
+    "nBFr5xTWeChM7xrb": {
+      "name": "Espadón matagigantes"
+    },
+    "nL0Y0X8SjF58OmBM": {
+      "name": "Espada corta filo de la fortuna"
+    },
+    "nMtmxeYrbyFdv0bg": {
+      "name": "Estatuilla de poder maravilloso (Cuervo de plata)"
+    },
+    "nSNhjX5F7f86AW1a": {
+      "name": "Espadón defensor"
+    },
+    "nXWdGtzi8DXDLLsL": {
+      "name": "Jarra"
+    },
+    "nXWevqtV6p484N59": {
+      "name": "Poción de amistad animal"
+    },
+    "nY6CnKEHyJ5STgt5": {
+      "name": "Hacha a dos manos feroz"
+    },
+    "nfIRTECQIG81CvM4": {
+      "name": "Garrote"
+    },
+    "nk2MH16KcZmKp7FQ": {
+      "name": "Piedra Ioun de maestría"
+    },
+    "nl7cc7Z1HpSHbUdQ": {
+      "name": "Alabarda +1"
+    },
+    "nmuGH3OKdoMOwJqj": {
+      "name": "Martillo"
+    },
+    "nrvAo3TznyQrHS1t": {
+      "name": "Pico de guerra +3"
+    },
+    "nsXZejlmgalj4he9": {
+      "name": "Cota guarnecida"
+    },
+    "nvhk1quD0Dg1ZtSH": {
+      "name": "Flauta de las cloacas"
+    },
+    "o4Irx3hHiD3FnPbL": {
+      "name": "Tridente de comandar peces"
+    },
+    "oG4rvCuMstgl4Nez": {
+      "name": "Ballesta de mano +3"
+    },
+    "oN4Glcmi4BhdAI3k": {
+      "name": "Tomo de liderazgo e influencia"
+    },
+    "oNLfJNRQgUHpU8c7": {
+      "name": "Flauta de la aparición"
+    },
+    "oRrNK2H2vcN4Kp74": {
+      "name": "Cuerda de cáñamo - 50 Pies"
+    },
+    "oSarKEU8x1AupB6z": {
+      "name": "Baraja de múltiples cosas"
+    },
+    "oY8KbpGmB5H2Deoy": {
+      "name": "Cuerda de seda - 50 Pies"
+    },
+    "oYZNXHth1UYxPwVi": {
+      "name": "Colgante de inmunidad al veneno"
+    },
+    "odV5cq2HSLSCH69k": {
+      "name": "Devocionario"
+    },
+    "orHjq3XDPz4eXcov": {
+      "name": "Espadón matadragones"
+    },
+    "osLzOwQdPtrK3rQH": {
+      "name": "Espada corta"
+    },
+    "otYAEwhsANKHZAmk": {
+      "name": "Guantes atrapaflechas"
+    },
+    "oxzUb5j1TMsccGW4": {
+      "name": "Manto de resistencia a conjuros"
+    },
+    "oylFuuS3t1nqNKsM": {
+      "name": "Vela"
+    },
+    "ozYrQ5N4s81h35Fa": {
+      "name": "Cerbatana feroz"
+    },
+    "p01JzD9RpIOkJiqK": {
+      "name": "Estoque ladrón de vida"
+    },
+    "p2zChy24ZJdVqMSH": {
+      "name": "Camisa de malla"
+    },
+    "p9dtQU9wEZGumHSb": {
+      "name": "Garrote grande feroz"
+    },
+    "pC3202gDTy8G5i4r": {
+      "name": "Espada larga feroz"
+    },
+    "pG6dddIcb9NmPrdt": {
+      "name": "Espada larga hiriente"
+    },
+    "paqlMjggWkBIAeCe": {
+      "name": "Amuleto"
+    },
+    "psoZaItkOScMVaHL": {
+      "name": "Aceite (frasco)"
+    },
+    "q24QnImAicnT9Byd": {
+      "name": "Martillo ligero +1"
+    },
+    "q3WqP3r2emnumyUF": {
+      "name": "Honda +3"
+    },
+    "q4RcCLeKviqgckqt": {
+      "name": "Cantimplora"
+    },
+    "qBSEGJyHxdKIlBfj": {
+      "name": "Poción de veneno"
+    },
+    "qBydtUUIkv520DT7": {
+      "name": "Laúd"
+    },
+    "qGH7YqWhi0tHisMi": {
+      "name": "Estoque filo de la fortuna"
+    },
+    "qGRN4wvZLJ8uITf2": {
+      "name": "Honda feroz"
+    },
+    "qGfu1070HAllkO4W": {
+      "name": "Botella de tinta"
+    },
+    "qMGkmzfLHfXd7DiJ": {
+      "name": "Anillo de resistencia a necrótico"
+    },
+    "qMzHmlmha8qMDnEF": {
+      "name": "Lámpara"
+    },
+    "qRMQH8lRE42JkugE": {
+      "name": "Media armadura de mithral"
+    },
+    "qVHCzgVvOZAtuk4N": {
+      "name": "Cimitarra lengua de fuego"
+    },
+    "qVuZznv0MnIjDU70": {
+      "name": "Cuerno del Valhalla de hierro"
+    },
+    "qWlXDEgqdmdZWoab": {
+      "name": "Pala"
+    },
+    "qXcUKfCVxEvV3VU8": {
+      "name": "Decantador de agua interminable"
+    },
+    "qaSro7kFhxD6INbZ": {
+      "name": "Ballesta de mano"
+    },
+    "qcEiSj67zfbLvYdJ": {
+      "name": "Pica +2"
+    },
+    "qhdGVfT5j6u46mtk": {
+      "name": "Hacha a dos manos +1"
+    },
+    "qmuOeNsOKwkn6K8W": {
+      "name": "Flagelo feroz"
+    },
+    "qw05Om9XWqTMoio2": {
+      "name": "Anillo del carnero"
+    },
+    "r8yK6SrWOz4hqF01": {
+      "name": "Lanza feroz"
+    },
+    "r97KnMO7Zxgfdh3P": {
+      "name": "Lanza de caballería +3"
+    },
+    "rJKXDPikXSYXYgb5": {
+      "name": "Red +1"
+    },
+    "rLMflzmxpe8JGTOA": {
+      "name": "Cota de malla"
+    },
+    "rOG1OM2ihgPjOvFW": {
+      "name": "Guja"
+    },
+    "rQ6sO7HDWzqMhSI3": {
+      "name": "Pergamino de conjuro de truco"
+    },
+    "rRMaaGZ7qbzqMvoI": {
+      "name": "Cuenco para controlar elementales de agua"
+    },
+    "rTbVrNcwApnuTz5E": {
+      "name": "Herramientas de soplador de vidrio"
+    },
+    "rTn4p9nJr4Aq2GPB": {
+      "name": "Poción de invisibilidad"
+    },
+    "rY9sRFQp5CFSfsat": {
+      "name": "Yelmo de entender idiomas"
+    },
+    "rc9nkN6YOD7ogtEi": {
+      "name": "Guja +3"
+    },
+    "rhGulc3gEJhnuP31": {
+      "name": "Yelmo de fulgor"
+    },
+    "rvxGvcUzoQXVNbAu": {
+      "name": "Agujero portátil"
+    },
+    "s2kQs21J3cFg7ZSs": {
+      "name": "Estatuilla de poder maravilloso (Mosca de ébano)"
+    },
+    "s4fR8bxQGSt4wbH7": {
+      "name": "Cubo de fuerza"
+    },
+    "sIiUbRJItYAs5gtA": {
+      "name": "Espada larga danzarina"
+    },
+    "sJ9gfQnz2jdT6GAB": {
+      "name": "Jabón"
+    },
+    "sP8CV5VNEcY1Yh1Q": {
+      "name": "Armadura de placas adamantina"
+    },
+    "sSs3hSzkKBMNBgTs": {
+      "name": "Escudo"
+    },
+    "sXEkkTDXWQDUMzsC": {
+      "name": "Incensario de controlar elementales de aire"
+    },
+    "sdHSbitJxgTX6aDG": {
+      "name": "Espadón ladrón de vida"
+    },
+    "setcTdSZ09rmsqMn": {
+      "name": "Martillo de guerra +3"
+    },
+    "sfegfmo59MHJg2YC": {
+      "name": "Cimitarra ladrona de vida"
+    },
+    "skUih6tBvcBbORzA": {
+      "name": "Herramientas de albañil"
+    },
+    "skoUe223EvRYGPL6": {
+      "name": "Medallón de los pensamientos"
+    },
+    "sl6yiYSlqkHiVVSN": {
+      "name": "Espada corta +1"
+    },
+    "sqcerAMszpe3hwyI": {
+      "name": "Cuerno del Valhalla de bronce"
+    },
+    "srTRzwTfWKO5opOo": {
+      "name": "Ariete portátil"
+    },
+    "stlFCpqW3ZuAftTi": {
+      "name": "Espada corta danzarina"
+    },
+    "szNhDWpks5BhEXhT": {
+      "name": "Piedra Ioun de regeneración"
+    },
+    "t5yP0d7YaKwuKKiH": {
+      "name": "Varita de tejo"
+    },
+    "t7GfyRp3dB3lqS9i": {
+      "name": "Cuerno de estallido"
+    },
+    "t8L7B0JWamsvxhui": {
+      "name": "Bastón +1"
+    },
+    "tC0kcqZT9HHAO0PD": {
+      "name": "Pica"
+    },
+    "tEWhsb2lYF4uvF0z": {
+      "name": "Flecha +1"
+    },
+    "tFLmAPUDLxBY8jFO": {
+      "name": "Espadón ladrón de nueve vidas"
+    },
+    "tH5Rn0JVRG1zdmPa": {
+      "name": "Orbe"
+    },
+    "tI3rWx4bxefNCexS": {
+      "name": "Pergamino de conjuro de nivel 6"
+    },
+    "tIwoSAGJlcuyiwaQ": {
+      "name": "Cota de escamas de dragón"
+    },
+    "tJQXAJx92wL6GM1v": {
+      "name": "Cota guarnecida de mithral"
+    },
+    "tTqixDDmzAfs995G": {
+      "name": "Espada corta matagigantes"
+    },
+    "tWJLHIL6ZIZUez9k": {
+      "name": "Esposas"
+    },
+    "tfDxZIKDpOkz6pbx": {
+      "name": "Garfio de escalada"
+    },
+    "thkvJ5QBRORIwkkV": {
+      "name": "Gema del resplandor"
+    },
+    "trmWAdUoR6Y2B7rA": {
+      "name": "Linterna sorda"
+    },
+    "tt4WokZBZMGqgYm5": {
+      "name": "Arco corto +2"
+    },
+    "tut1jbW3UCsrUjCG": {
+      "name": "Vara"
+    },
+    "twRJhPtDQe1HceFt": {
+      "name": "Armadura acolchada +1"
+    },
+    "u4ewpAFZjLrWrmQv": {
+      "name": "Bote plegable"
+    },
+    "u5GmRCvAsCYoacLj": {
+      "name": "Estuche para mapas"
+    },
+    "uHL99JKLUpTKAbz8": {
+      "name": "Bastón de marchitamiento"
+    },
+    "uIHXYhnOwETlA5lT": {
+      "name": "Espada corta +3"
+    },
+    "uLY74ppOrTaWKwer": {
+      "name": "Estoque +2"
+    },
+    "uRoHwk1c8e5xJjkV": {
+      "name": "Hoz +2"
+    },
+    "uVm7MiB71QblfnoY": {
+      "name": "Pluma para escribir"
+    },
+    "uWUD93jwuO2Jxkti": {
+      "name": "Escudo atrapaflechas"
+    },
+    "uXOT4fYbgPY8DGdd": {
+      "name": "Cristal"
+    },
+    "uYniEJCeAuwUC4JY": {
+      "name": "Manta"
+    },
+    "ug9bTGmTTEN7JwmP": {
+      "name": "Disfraz - Ropa"
+    },
+    "ugzwHl8vYaPu2GNd": {
+      "name": "Útiles de escalada"
+    },
+    "ukcKemEoTTRB9yLC": {
+      "name": "Espada larga defensora"
+    },
+    "uuh4UH3Jx5CsFjdA": {
+      "name": "Perfume"
+    },
+    "uw6fINSmZ2j2o57A": {
+      "name": "Jarra"
+    },
+    "v4uNbmiz4ECTI89n": {
+      "name": "Piedra Ioun de protección"
+    },
+    "vJvb6fx3JVPmhG8x": {
+      "name": "Balanza de mercader"
+    },
+    "vZdLYfHlLcZqQ8zc": {
+      "name": "Carillón de apertura"
+    },
+    "vmbB2SK6pQU2Vkzb": {
+      "name": "Cetro de mando"
+    },
+    "vmymwrmE730l3pKh": {
+      "name": "Lámpara"
+    },
+    "vpenjFjUyEBLLlUc": {
+      "name": "Bagatelas"
+    },
+    "vsgmACFYINloIdPm": {
+      "name": "Media armadura"
+    },
+    "vuThcmO7MYlw5b9f": {
+      "name": "Tridente +1"
+    },
+    "w56FIjFafs2rN6iK": {
+      "name": "Maza castigadora"
+    },
+    "wBYmPQG3nZfD88aP": {
+      "name": "Cinturón de fuerza de gigante de las tormentas"
+    },
+    "wGDDt17DpBcXPuUD": {
+      "name": "Martillo de rayos"
+    },
+    "wGKykLRS8UqChNXI": {
+      "name": "Grilletes dimensionales"
+    },
+    "wNKYbKYwOHbA7SH8": {
+      "name": "Poción de heroísmo"
+    },
+    "wNWK6yJMHG9ANqQV": {
+      "name": "Cerbatana"
+    },
+    "wa1VF8TXHmkrrR35": {
+      "name": "Pergamino de conjuro de nivel 5"
+    },
+    "wgBKZNeRN1XsE9I7": {
+      "name": "Flagelo +3"
+    },
+    "wjHtGnd05SPdURqE": {
+      "name": "Linterna sorda"
+    },
+    "wmedRPNenLVSUaT5": {
+      "name": "Pitón"
+    },
+    "woWZ1sO5IUVGzo58": {
+      "name": "Herramientas de ladrón"
+    },
+    "wqVSRfkcTjuhvDyx": {
+      "name": "Collar de plegarias"
+    },
+    "wtctR6tCcYbQPiS0": {
+      "name": "Espada larga ladrona de vida"
+    },
+    "wwNpAz2KMukovewN": {
+      "name": "Collar de adaptación"
+    },
+    "x12sDhylcf8843fT": {
+      "name": "Ballesta ligera +2"
+    },
+    "x1GUgZYjMubaFavx": {
+      "name": "Virote de ballesta +2"
+    },
+    "x7LfMrLafLKfemGH": {
+      "name": "Anillo de salto"
+    },
+    "x9I9vdo4kafHDjcO": {
+      "name": "Bala de honda +3"
+    },
+    "xDK9GQd2iqOGH8Sd": {
+      "name": "Rama de muérdago"
+    },
+    "xEtBeZjJnkDXojQM": {
+      "name": "Bastón de escarcha"
+    },
+    "xKErqkLo4ASYr5EP": {
+      "name": "Herramientas de ebanista"
+    },
+    "xMkP8BmFzElcsMaR": {
+      "name": "Espadón"
+    },
+    "xWQopgOHbS6LjsZm": {
+      "name": "Martillo"
+    },
+    "xbVpKtrQ6tJsPhXX": {
+      "name": "Media armadura +3"
+    },
+    "xjRSY2ECcc9viSz3": {
+      "name": "Escarabajo protector"
+    },
+    "xjme5oSQZmdAy1fc": {
+      "name": "Pozo de los muchos mundos"
+    },
+    "xsB7Y2WI476kvOt4": {
+      "name": "Paquete de ladrón"
+    },
+    "xw2kL7Puwg4wfjW3": {
+      "name": "Espada larga matagigantes"
+    },
+    "xw99pcqPBVwtMOLw": {
+      "name": "Poción de resistencia al necrótico"
+    },
+    "xwUWrV15s9jLnmfZ": {
+      "name": "Cerradura"
+    },
+    "xxRC1qTIGzGEvmkg": {
+      "name": "Bloque de incienso"
+    },
+    "xzZQIIxXjNJwNqnp": {
+      "name": "Escudo +2"
+    },
+    "yUGNrsXMfsUKwsUg": {
+      "name": "Palanqueta"
+    },
+    "ybeLtyIloDvKhDz8": {
+      "name": "Pluma para escribir"
+    },
+    "yiYCqmD5n08NftYk": {
+      "name": "Espada solar"
+    },
+    "ykB6UKv5BuQnSRSL": {
+      "name": "Espadón hierro de escarcha"
+    },
+    "ykefWXBjq3y6y9Se": {
+      "name": "Manual del ejercicio beneficioso"
+    },
+    "yoFff2zdTloKx1if": {
+      "name": "Pica +1"
+    },
+    "ytlsBjYsZ7OBSEBs": {
+      "name": "Poción de curación"
+    },
+    "yxHi57T5mmVt0oDr": {
+      "name": "Gaita"
+    },
+    "z0lIRURcyDYt1kLK": {
+      "name": "Flagelo +2"
+    },
+    "z67d1DZzqDPmgEwP": {
+      "name": "Silbato de supervivencia"
+    },
+    "z9SbsMIBZzuhZOqT": {
+      "name": "Bala de honda"
+    },
+    "z9fFB1uaGJvcXTf7": {
+      "name": "Tridente +3"
+    },
+    "zBX8LLC2CjC89Dzl": {
+      "name": "Poción de resistencia al trueno"
+    },
+    "zDJ4oEt5HArN1xmP": {
+      "name": "Gema elemental de aire"
+    },
+    "zIpNJyuOxp2raizE": {
+      "name": "Armadura de bandas +2"
+    },
+    "zJ5LhDvTxYKzPIx4": {
+      "name": "Pegamento soberano"
+    },
+    "zSKorO6lwT7vs2uk": {
+      "name": "Hacha a dos manos berserker"
+    },
+    "zWSB0NCllWaSVoNT": {
+      "name": "Espadón danzarín"
+    },
+    "zgZkJAyFAfYmyn11": {
+      "name": "Poción de resistencia al ácido"
+    },
+    "zibIgdxPz8QHSCg6": {
+      "name": "Pica feroz"
+    }
+  }
+}
