@@ -1223,8 +1223,8 @@
       "advancement": {}
     },
     "phbagString00000": {
-      "name": "Cuerda",
-      "description": "<p>La cuerda mide 10 pies de longitud. Puedes atar un nudo en ella como acción de Utilizar.</p>",
+      "name": "Cordel",
+      "description": "<p>El cordel mide 10 pies de longitud. Puedes atar un nudo en el como acción de Utilizar.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
