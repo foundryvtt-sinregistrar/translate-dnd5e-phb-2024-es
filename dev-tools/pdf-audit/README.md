@@ -32,3 +32,9 @@ and origin entries:
 ```powershell
 python dev-tools/pdf-audit/sync_embedded_translations.py --write
 ```
+
+Normalize curated partial-English labels, table captions and familiar names:
+
+```powershell
+python dev-tools/pdf-audit/normalize_residual_labels.py --write
+```
