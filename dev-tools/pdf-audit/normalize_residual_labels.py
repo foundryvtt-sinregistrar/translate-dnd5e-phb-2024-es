@@ -118,12 +118,50 @@ def main() -> None:
         "Expend Spell Slot for Ward": "Gastar espacio de conjuro para la guarda",
         "Strength saving throw.": "Tirada de salvación de Fuerza.",
         "Charisma saving throw": "Tirada de salvación de Carisma",
+        "Bonus Mark Damage": "Daño mejorado de Marca del cazador",
+        "Restore Transformation": "Restaurar transformación",
+        "Flurry of Blows": "Golpe de ráfaga",
+        "Step of the Wind": "Paso del viento",
+        "Divine Spark: Save": "Chispa divina: Salvación",
+        "Thrall Temporary HP": "PG temporales del esclavo",
+        "Refreshing Step": "Paso refrescante",
+        "Taunting Step": "Paso burlón",
+        "Disappearing Step": "Paso desaparecedor",
+        "Summon Familiar": "Encontrar familiar",
+        "Encontrar familiar (Expanded Options)": "Encontrar familiar (opciones ampliadas)",
+        "Encontrar familiar with Flight": "Encontrar familiar con vuelo",
+        "Encontrar familiar with Swimming": "Encontrar familiar con natación",
+        "with Flight": "con vuelo",
+        "with Swimming": "con natación",
+        "Sleight of Hand": "Juego de manos",
+        "Summon Illusionary Beast": "Invocar bestia ilusoria",
+        "Summon Illusionary Fey": "Invocar feérico ilusorio",
+        "Damage Resistencia": "Resistencia al daño",
+        "Elemental Save": "Salvación elemental",
+        "Hand of Dañar": "Mano de daño",
+        "Hand of Healing": "Mano sanadora",
+        "Assume Majestic Presence": "Asumir presencia majestuosa",
+        "Recoil Save": "Tirada de rechazo",
+        "Restore Ward HP After Casting Spell": "Restaurar PG de la guarda tras lanzar un conjuro",
+        "<strong>Damage</strong>": "<strong>Daño</strong>",
+        "<strong>Save</strong>": "<strong>Salvación</strong>",
     }
     for entry in classes["entries"].values():
         if "description" not in entry:
             continue
         entry["description"], count = replace(entry["description"], class_labels)
         changes += count
+
+    activity_names = {
+        ("phbinvPactChain0", "5W78W2Opzhax0Jcf"): "Encontrar familiar (opciones ampliadas)",
+        ("phbinvInvestment", "wk5D1U5DnMRJ40KK"): "Encontrar familiar con vuelo",
+        ("phbinvInvestment", "uehA2kfgOCKRIqAs"): "Encontrar familiar con natación",
+    }
+    for (entry_id, activity_id), name in activity_names.items():
+        activity = classes["entries"][entry_id]["activities"][activity_id]
+        if activity.get("name") != name:
+            activity["name"] = name
+            changes += 1
 
     glossary_replacements = {
         "dados de Puntos de Golpe (Hit Point Dice o Hit Dice)": "Dados de Puntos de Golpe",
