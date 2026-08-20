@@ -549,7 +549,7 @@
       "effects": {
         "GV4hKah5zwQ3Bisx": {
           "name": "Aura de vida",
-          "description": "<p>Mientras estén en el aura, tú y tus aliados tenéis Resistencia al daño necrótico y vuestros máximos de Puntos de Golpe no pueden reducirse. Si un aliado con 0 Puntos de Golpe empieza su turno en el aura, ese aliado recupera [[/healing 1 type=healing]]{1 Hit Point}.</p>"
+          "description": "<p>Mientras estén en el aura, tú y tus aliados tenéis Resistencia al daño necrótico y vuestros máximos de Puntos de Golpe no pueden reducirse. Si un aliado con 0 Puntos de Golpe empieza su turno en el aura, ese aliado recupera [[/healing 1 type=healing]]{1 Punto de Golpe}.</p>"
         }
       },
       "advancement": {}
@@ -4919,7 +4919,7 @@
     },
     "phbsplRegenerate": {
       "name": "Regenerar",
-      "description": "<p>Una criatura que tocas recupera 4d8 + 15 puntos de golpe. Durante la duración, el objetivo recupera [[/healing 1 type=healing]]{1 Hit Point} al comienzo de cada uno de sus turnos, y cualquier parte de su cuerpo seccionada vuelve a crecer tras 2 minutos.</p>",
+      "description": "<p>Una criatura que tocas recupera 4d8 + 15 puntos de golpe. Durante la duración, el objetivo recupera [[/healing 1 type=healing]]{1 Punto de Golpe} al comienzo de cada uno de sus turnos, y cualquier parte de su cuerpo seccionada vuelve a crecer tras 2 minutos.</p>",
       "folder": "7th Level",
       "activities": {
         "RqNTdCQHfXDYaG41": {
@@ -4929,7 +4929,7 @@
       "effects": {
         "O73gdwM6cCbr9LXn": {
           "name": "Regenerándose",
-          "description": "<p>Durante la duración, el objetivo recupera [[/healing 1 type=healing]]{1 Hit Point} al comienzo de cada uno de sus turnos, y cualquier parte de su cuerpo seccionada vuelve a crecer tras 2 minutos.</p>"
+          "description": "<p>Durante la duración, el objetivo recupera [[/healing 1 type=healing]]{1 Punto de Golpe} al comienzo de cada uno de sus turnos, y cualquier parte de su cuerpo seccionada vuelve a crecer tras 2 minutos.</p>"
         }
       },
       "advancement": {}
