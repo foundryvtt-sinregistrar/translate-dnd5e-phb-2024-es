@@ -1,0 +1,1003 @@
+{
+  "pdf": {
+    "files": 384,
+    "characters": 1277137,
+    "blankFiles": 12
+  },
+  "structure": {
+    "actors": {
+      "englishEntries": 146,
+      "spanishEntries": 146,
+      "missing": [],
+      "extra": []
+    },
+    "classes": {
+      "englishEntries": 522,
+      "spanishEntries": 522,
+      "missing": [],
+      "extra": []
+    },
+    "content": {
+      "englishEntries": 47,
+      "spanishEntries": 47,
+      "missing": [],
+      "extra": []
+    },
+    "equipment": {
+      "englishEntries": 258,
+      "spanishEntries": 258,
+      "missing": [],
+      "extra": []
+    },
+    "feats": {
+      "englishEntries": 77,
+      "spanishEntries": 77,
+      "missing": [],
+      "extra": []
+    },
+    "origins": {
+      "englishEntries": 79,
+      "spanishEntries": 79,
+      "missing": [],
+      "extra": []
+    },
+    "spells": {
+      "englishEntries": 392,
+      "spanishEntries": 392,
+      "missing": [],
+      "extra": []
+    },
+    "tables": {
+      "englishEntries": 27,
+      "spanishEntries": 27,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "references": {
+    "checked": 3298,
+    "invalid": []
+  },
+  "englishResidues": [
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnRestoringT.description",
+      "found": "Blinded",
+      "expected": "Cegado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnRestoringT.description",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnRestoringT.description",
+      "found": "Deafened",
+      "expected": "Ensordecido"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnRestoringT.description",
+      "found": "Frightened",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnRestoringT.description",
+      "found": "Paralyzed",
+      "expected": "Paralizado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnRestoringT.description",
+      "found": "Stunned",
+      "expected": "Aturdido"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeDeviousStr.description",
+      "found": "Blinded",
+      "expected": "Cegado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeDeviousStr.description",
+      "found": "Unconscious",
+      "expected": "Inconsciente"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeDeviousStr.effects.Fb1n6Yk2MlOAckf0.description",
+      "found": "Blinded",
+      "expected": "Cegado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeDeviousStr.effects.C2IGgt4PnRMxZVey.description",
+      "found": "Unconscious",
+      "expected": "Inconsciente"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeCunningStr.description",
+      "found": "Prone",
+      "expected": "Derribado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeCunningStr.effects.RazTM6biKVtNtjEW.description",
+      "found": "Poisoned",
+      "expected": "Envenenado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeEvasion000.description",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbrgeElusive000.description",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnChannelDiv.description",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbclcChannelDiv.description",
+      "found": "Frightened",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbclcChannelDiv.description",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbclcChannelDiv.effects.iUeSbfduM7K8XrCF.description",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnCourageAur.description",
+      "found": "Frightened",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnAbjureFoes.description",
+      "found": "Frightened",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbwlkSearingVen.description",
+      "found": "Blinded",
+      "expected": "Cegado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnNaturesWra.description",
+      "found": "Restrained",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnAvengingAn.description",
+      "found": "Frightened",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbpdnDevotionAu.description",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbscrRevelation.description",
+      "found": "Grappled",
+      "expected": "Agarrado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbscrPsychicDef.description",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbscrPsychicDef.description",
+      "found": "Frightened",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "classes",
+      "path": "entries.phbftrTelekineti.description",
+      "found": "Prone",
+      "expected": "Derribado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.3YJIuyCMmuUrfmuX.text",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.3YJIuyCMmuUrfmuX.text",
+      "found": "Dodge",
+      "expected": "Esquivar"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.6l6nBKip4LqB1sCU.text",
+      "found": "Dash",
+      "expected": "Correr"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.93uaingTESo8N1qL.text",
+      "found": "Frightened",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.dqLeGdpHtb8FfcxX.text",
+      "found": "Restrained",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.EjbXjvyQAMlDyANI.text",
+      "found": "Stunned",
+      "expected": "Aturdido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.HWs8kEojffqwTSJz.text",
+      "found": "Poisoned",
+      "expected": "Envenenado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.NGmwolHLA5ppbIZY.text",
+      "found": "Long Rest",
+      "expected": "Descanso largo"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.RnxZoTglPnLc6UPb.text",
+      "found": "Paralyzed",
+      "expected": "Paralizado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.vLAsIUa0FhZNsyLk.text",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh1ArtHandout.pages.scOKuazwklM6F4VX.name",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh1ArtHandout.pages.scOKuazwklM6F4VX.src",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh4ArtHandout.pages.9YQ0UyDuXpqumI4N.src",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh4ArtHandout.pages.kfb2P1ZEUszRMWwC.name",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh4ArtHandout.pages.kfb2P1ZEUszRMWwC.src",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh4ArtHandout.pages.vGhCVOnkSn0srDpE.src",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh6ArtHandout.pages.EjxAfYmIpsg2fs00.src",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh6ArtHandout.pages.lAOpY1sPLtCZwvS1.src",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh7ArtHandout.pages.0Ikedxk4PFYDuC3x.src",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh7ArtHandout.pages.9CocD6y7eWhllAOP.name",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh7ArtHandout.pages.9CocD6y7eWhllAOP.src",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh7ArtHandout.pages.9CocD6y7eWhllAOP.caption",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh7ArtHandout.pages.qwpi6suhsvzH9K5M.name",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh7ArtHandout.pages.qwpi6suhsvzH9K5M.src",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh7ArtHandout.pages.qwpi6suhsvzH9K5M.caption",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbChangelog0000.pages.329Lnbzx1ji9Nil7.text",
+      "found": "Deafened",
+      "expected": "Ensordecido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbChangelog0000.pages.Fkg7NaKjmJtvRgy1.text",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCharacterOrig.pages.YD1uHIdQFEjpRZY9.text",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbFeats00000000.pages.otAeQs0TLHYIBNuj.text",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbFeats00000000.pages.sbHImaCB8ZMEHYkb.text",
+      "found": "Grappled",
+      "expected": "Agarrado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbFeats00000000.pages.xOnod0XYqxamI66Y.text",
+      "found": "Incapacitated",
+      "expected": "Incapacitado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbSpeciesDescri.pages.Duq9xnLywFNK3gv1.text",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbSpeciesDescri.pages.qUxclCvBClnEafEY.text",
+      "found": "Dash",
+      "expected": "Correr"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.brwAcidBreathWea.folder",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.brwColdBreathWea.folder",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.brwFireBreathWea.folder",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.brwLightningBrea.folder",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.brwPoisonBreathW.folder",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptAbyssalLeg.folder",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptBreathWeap.folder",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptChthonicLe.folder",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptDraconicFl.folder",
+      "found": "Dragonborn",
+      "expected": "Dracónido"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptFiendishLe.folder",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptInfernalLe.folder",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptOtherworld.folder",
+      "found": "Tiefling",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplMagicCircl.description",
+      "found": "Frightened",
+      "expected": "Asustado"
+    }
+  ],
+  "deprecatedSpanish": [
+    {
+      "pack": "actors",
+      "path": "entries.phbConjuredEarth.items.oJkALZTVLPy8TJSR.effects.i5T6yzxlsSnXxGGa.name",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbConjuredEarth.items.oJkALZTVLPy8TJSR.effects.i5T6yzxlsSnXxGGa.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbConjuredFireE.items.M6i0fFdNQmWKA4BZ.effects.BWZxm9qxlXDSF6Dy.name",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbConjuredFireE.items.M6i0fFdNQmWKA4BZ.effects.BWZxm9qxlXDSF6Dy.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbConjuredWater.items.BeXR1DiQaXVIpgxp.effects.fwIobATMREr7g26x.name",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbConjuredWater.items.BeXR1DiQaXVIpgxp.effects.fwIobATMREr7g26x.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBarbarian0.items.98rHJrXiyuCX36s2.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBarbarian0.items.fe2owFlcPQloVxAz.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.advancement.DU7Y6D1IJSSgObJK.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.advancement.O6M9VGAwHx9Kkfhj.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.advancement.pIi692Cevlw7qZRe.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.advancement.R0k1RmQximNOQw1R.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.XtFmA1snCvxW9JhA.advancement.T8T6H9TudTleafUL.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgBard000000.items.ZmfJDR72A3RoT5ln.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgDruid00000.items.lPLxJpOExOu738Kx.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgFighter000.items.j1CMUOdMfODOlzqe.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgMonk000000.items.c2LSt9haTsjNcKaR.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgRanger0000.items.dqV77Me9UZHAMC1g.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgRanger0000.items.XFgJl9PfZbxUGDpk.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgRanger0000.items.XFgJl9PfZbxUGDpk.effects.tFGMG3cjQTEeAhv2.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgRogue00000.items.vU5hCPtcGcZdmxFM.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.phbprgSorcerer00.items.ens3JhM0K0V4RcIM.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.93uaingTESo8N1qL.name",
+      "found": "Atemorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.93uaingTESo8N1qL.text",
+      "found": "Atemorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.dqLeGdpHtb8FfcxX.name",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.dqLeGdpHtb8FfcxX.text",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbAppendixCRule.pages.QxCrRcgMdUd3gfzz.text",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh4ArtHandout.pages.kfb2P1ZEUszRMWwC.caption",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbCh4ArtHandout.pages.vGhCVOnkSn0srDpE.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbChangelog0000.pages.Fkg7NaKjmJtvRgy1.text",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbEquipment0000.pages.xIDcbjgXOndS8zRl.text",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbSpeciesDescri.pages.xiCNZr3S4OmJezyv.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "content",
+      "path": "entries.phbSpeciesDescri.pages.xiCNZr3S4OmJezyv.text",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "folders.Tiefling",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspAbyssalTief.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspAbyssalTief.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspAbyssalTief.advancement.9iZufhdzY3XN7Em3.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspAbyssalTief.advancement.KwcwntR3Ai0R5iPN.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspAbyssalTief.advancement.T8T6H9TudTleafUL.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspAbyssalTief.advancement.V8h8fLg4XG1QGewy.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspAbyssalTief.advancement.VhCiGFOLtG8H93jy.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspChthonicTie.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspChthonicTie.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspChthonicTie.advancement.DU7Y6D1IJSSgObJK.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspChthonicTie.advancement.O6M9VGAwHx9Kkfhj.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspChthonicTie.advancement.pIi692Cevlw7qZRe.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspChthonicTie.advancement.R0k1RmQximNOQw1R.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspChthonicTie.advancement.T8T6H9TudTleafUL.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspHalfling000.description",
+      "found": "Aterrorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspInfernalTie.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspInfernalTie.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspInfernalTie.advancement.9V9xGP0Fsqh3NDsB.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspInfernalTie.advancement.cj8h25IH0Zvdy3Bm.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspInfernalTie.advancement.gMovXMwHeD9cCL99.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspInfernalTie.advancement.ol3SWLw2FTNEiXrb.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbspInfernalTie.advancement.T8T6H9TudTleafUL.title",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptAbyssalLeg.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptCelestialR.description",
+      "found": "Aterrorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptChthonicLe.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "origins",
+      "path": "entries.phbsptInfernalLe.description",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbEvilAndGoodPr.description",
+      "found": "Aterrorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplAntipathyS.effects.aNztI08V5rN4s5mF.name",
+      "found": "Aterrorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplCalmEmotio.description",
+      "found": "Aterrorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplCalmEmotio.effects.xwyUvd93d4A5LHHH.description",
+      "found": "Aterrorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplConjureEle.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplEnsnaringS.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplEnsnaringS.effects.tFGMG3cjQTEeAhv2.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplEntangle00.effects.wn7K2m4XhXhItgPT.name",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplEvardsBlac.effects.NDytclFrNmC418CS.name",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplFleshtoSto.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplPrismaticW.effects.CbAuJQPoOViKebWs.name",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "spells",
+      "path": "entries.phbsplSymbol0000.description",
+      "found": "Aterrorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "tables",
+      "path": "entries.phbFiendishLegac.results.BDTDezjTIxlDKI0W.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "tables",
+      "path": "entries.phbFiendishLegac.results.az5LLssMmXKwVuVN.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "tables",
+      "path": "entries.phbFiendishLegac.results.rgmgNUmrPVv1e7Dz.name",
+      "found": "Tiflin",
+      "expected": "tiefling"
+    },
+    {
+      "pack": "tables",
+      "path": "entries.phbPrismaticLaye.results.b1ryx7FwWLGwgQiQ.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    },
+    {
+      "pack": "tables",
+      "path": "entries.phbPrismaticRays.results.9roEeqKHIauLWYsP.description",
+      "found": "Restringido",
+      "expected": "Apresado"
+    }
+  ],
+  "summary": {
+    "missingEntries": 0,
+    "extraEntries": 0,
+    "invalidReferences": 0,
+    "englishResidues": 74,
+    "deprecatedSpanish": 79,
+    "residuesByPack": {
+      "classes": 28,
+      "content": 33,
+      "origins": 12,
+      "spells": 1
+    },
+    "deprecatedByPack": {
+      "actors": 24,
+      "content": 11,
+      "origins": 27,
+      "spells": 12,
+      "tables": 5
+    }
+  }
+}

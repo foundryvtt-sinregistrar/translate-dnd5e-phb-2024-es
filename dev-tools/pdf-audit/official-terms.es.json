@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "Bonus Action": "Acción adicional",
+    "Dash": "Correr",
+    "Dodge": "Esquivar"
+  },
+  "conditions": {
+    "Blinded": "Cegado",
+    "Charmed": "Hechizado",
+    "Deafened": "Ensordecido",
+    "Frightened": "Asustado",
+    "Grappled": "Agarrado",
+    "Incapacitated": "Incapacitado",
+    "Invisible": "Invisible",
+    "Paralyzed": "Paralizado",
+    "Poisoned": "Envenenado",
+    "Prone": "Derribado",
+    "Restrained": "Apresado",
+    "Stunned": "Aturdido",
+    "Unconscious": "Inconsciente"
+  },
+  "other": {
+    "Dragonborn": "Dracónido",
+    "Dungeon Master": "Dungeon Master",
+    "Long Rest": "Descanso largo",
+    "Tiefling": "tiefling"
+  },
+  "deprecatedSpanish": {
+    "Atemorizado": "Asustado",
+    "Aterrorizado": "Asustado",
+    "Restringido": "Apresado",
+    "Tiflin": "tiefling"
+  }
+}
