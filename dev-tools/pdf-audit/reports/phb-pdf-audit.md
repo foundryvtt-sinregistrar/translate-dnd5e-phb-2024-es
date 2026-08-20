@@ -7,6 +7,7 @@
 - Invalid internal references: 0
 - Visible English terminology residues: 0
 - Deprecated Spanish terminology occurrences: 0
+- Probable untranslated English fields: 0
 
 ## Pack structure
 
@@ -25,3 +26,6 @@
 
 
 ## Deprecated Spanish terminology
+
+
+## Probable untranslated English fields

@@ -4741,11 +4741,11 @@
     },
     "phbinvRepellingB": {
       "name": "Explosión repelente",
-      "description": "<blockquote><p>Requisito previo: Brujo de nivel 2 o superior, un truco de brujo que inflija daño mediante una tirada de ataque</p></blockquote><p>Elige uno de tus trucos de brujo conocidos que requiera una tirada de ataque. Cuando golpeas a una criatura Grande o más pequeña con ese truco, puedes empujar a la criatura hasta 10 pies directamente alejándola de ti.</p><p><strong>Repetible.</strong> Puedes obtener esta invocación más de una vez. Cada vez que lo hagas, elige un truco diferente que cumpla los requisitos.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Make Repelling</strong> puede usarse para encantar un truco (truco) que añade \", Repelling\" como recordatorio.</p></section>",
+      "description": "<blockquote><p>Requisito previo: Brujo de nivel 2 o superior, un truco de brujo que inflija daño mediante una tirada de ataque</p></blockquote><p>Elige uno de tus trucos de brujo conocidos que requiera una tirada de ataque. Cuando golpeas a una criatura Grande o más pequeña con ese truco, puedes empujar a la criatura hasta 10 pies directamente alejándola de ti.</p><p><strong>Repetible.</strong> Puedes obtener esta invocación más de una vez. Cada vez que lo hagas, elige un truco diferente que cumpla los requisitos.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Aplicar Explosión repelente</strong> puede usarse para encantar un truco (truco) que añade \", repelente\" como recordatorio.</p></section>",
       "folder": "Opciones de invocaciones sobrenaturales",
       "activities": {
         "OXhI1TDQxORrGAgc": {
-          "name": "Make Repelling",
+          "name": "Aplicar Explosión repelente",
           "activation": {
             "condition": ""
           },
@@ -4757,7 +4757,7 @@
       "effects": {
         "DShZGDAUy0w9RUzS": {
           "name": "Descarga ahuyentadora",
-          "description": "<p>Choose one of your known Brujo cantrips that requires an attack roll. When you hit a Large or smaller creature with that truco, you can push the creature up to 10 pies straight away from you.</p>",
+          "description": "<p>Elige uno de tus trucos de brujo conocidos que requiera una tirada de ataque. Cuando impactas a una criatura Grande o más pequeña con ese truco, puedes empujar a la criatura hasta 10 pies directamente alejándola de ti.</p>",
           "changes": {
             "name": ", Repelling"
           }

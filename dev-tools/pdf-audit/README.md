@@ -25,3 +25,10 @@ python dev-tools/pdf-audit/normalize_official_terms.py --write
 
 The normalizer preserves macro keys and inline rolls. It may update the visible
 label attached to a macro when that label uses deprecated terminology.
+
+Synchronize translations embedded in example actors with their canonical class
+and origin entries:
+
+```powershell
+python dev-tools/pdf-audit/sync_embedded_translations.py --write
+```

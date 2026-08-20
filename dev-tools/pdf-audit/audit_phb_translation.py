@@ -32,6 +32,16 @@ PHB_REFERENCE = re.compile(
     r"@(?:UUID|Embed)\[Compendium\.dnd-players-handbook\.([^.\]]+)\."
     r"(?:Item|Actor|JournalEntry|RollTable)\.([^.#\]\s]+)"
 )
+ENGLISH_MARKERS = {
+    "a", "all", "an", "and", "any", "are", "as", "at", "attack", "be", "before",
+    "bonus", "by", "can", "check", "choose", "creature", "creatures", "damage", "do",
+    "does", "during", "each", "effect", "feature", "for", "from", "gain", "grants",
+    "has", "have", "if", "in", "into", "is", "it", "its", "known", "level", "long",
+    "make", "no", "not", "of", "on", "or", "rest", "saving", "short", "source",
+    "spell", "target", "than", "that", "the", "their", "them", "then", "they", "this",
+    "throw", "to", "turn", "until", "use", "using", "was", "were", "when", "whenever",
+    "while", "with", "within", "without", "you", "your",
+}
 
 
 def walk(value: Any, path: str = "") -> Iterator[tuple[str, str]]:
@@ -93,6 +103,7 @@ def run_audit() -> dict[str, Any]:
     structure = {}
     residues = []
     deprecated_hits = []
+    probable_english = []
     references = 0
     invalid_references = []
 
@@ -126,6 +137,13 @@ def run_audit() -> dict[str, Any]:
                     deprecated_hits.append(
                         {"pack": pack, "path": path, "found": old, "expected": new}
                     )
+            if not path.endswith((".src", ".folder")):
+                words = re.findall(r"[A-Za-z']+", visible.casefold())
+                marker_count = sum(word in ENGLISH_MARKERS for word in words)
+                if marker_count >= 4 and marker_count / max(1, len(words)) > 0.18:
+                    probable_english.append(
+                        {"pack": pack, "path": path, "markers": marker_count, "words": len(words)}
+                    )
 
     return {
         "pdf": pdf_statistics(),
@@ -133,12 +151,14 @@ def run_audit() -> dict[str, Any]:
         "references": {"checked": references, "invalid": invalid_references},
         "englishResidues": residues,
         "deprecatedSpanish": deprecated_hits,
+        "probableEnglishFields": probable_english,
         "summary": {
             "missingEntries": sum(len(row["missing"]) for row in structure.values()),
             "extraEntries": sum(len(row["extra"]) for row in structure.values()),
             "invalidReferences": len(invalid_references),
             "englishResidues": len(residues),
             "deprecatedSpanish": len(deprecated_hits),
+            "probableEnglishFields": len(probable_english),
             "residuesByPack": dict(Counter(row["pack"] for row in residues)),
             "deprecatedByPack": dict(Counter(row["pack"] for row in deprecated_hits)),
         },
@@ -157,6 +177,7 @@ def markdown(report: dict[str, Any]) -> str:
         f"- Invalid internal references: {summary['invalidReferences']}",
         f"- Visible English terminology residues: {summary['englishResidues']}",
         f"- Deprecated Spanish terminology occurrences: {summary['deprecatedSpanish']}",
+        f"- Probable untranslated English fields: {summary['probableEnglishFields']}",
         "",
         "## Pack structure",
         "",
@@ -174,6 +195,11 @@ def markdown(report: dict[str, Any]) -> str:
     lines.extend(["", "## Deprecated Spanish terminology", ""])
     for row in report["deprecatedSpanish"]:
         lines.append(f"- `{row['pack']}:{row['path']}`: `{row['found']}` -> `{row['expected']}`")
+    lines.extend(["", "## Probable untranslated English fields", ""])
+    for row in report["probableEnglishFields"]:
+        lines.append(
+            f"- `{row['pack']}:{row['path']}`: {row['markers']} English markers in {row['words']} words"
+        )
     while lines and not lines[-1]:
         lines.pop()
     return "\n".join(lines) + "\n"

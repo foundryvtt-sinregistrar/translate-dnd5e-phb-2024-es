@@ -55,17 +55,19 @@
     }
   },
   "references": {
-    "checked": 3298,
+    "checked": 3301,
     "invalid": []
   },
   "englishResidues": [],
   "deprecatedSpanish": [],
+  "probableEnglishFields": [],
   "summary": {
     "missingEntries": 0,
     "extraEntries": 0,
     "invalidReferences": 0,
     "englishResidues": 0,
     "deprecatedSpanish": 0,
+    "probableEnglishFields": 0,
     "residuesByPack": {},
     "deprecatedByPack": {}
   }
