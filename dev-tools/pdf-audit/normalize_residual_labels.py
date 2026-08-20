@@ -37,6 +37,7 @@ def main() -> None:
     args = parser.parse_args()
     classes_path, classes = load("classes")
     content_path, content = load("content")
+    _, equipment = load("equipment")
     spells_path, spells = load("spells")
     changes = 0
 
@@ -186,6 +187,65 @@ def main() -> None:
                 effect.get("description", ""), {"1 Hit Point": "1 Punto de Golpe"}
             )
             changes += count
+
+    stable = content["entries"]["phbAppendixCRule"]["pages"]["klXWp4c90n7Kt5LB"]
+    stable["text"], count = replace(
+        stable["text"],
+        {
+            "está estable (Stable)": "está estable",
+            "{Death Saving Throws}": "{Tiradas de salvación contra la muerte}",
+        },
+    )
+    changes += count
+
+    equipment_page = content["entries"]["phbEquipment0000"]["pages"]["xIDcbjgXOndS8zRl"]
+    equipment_names = {
+        entry_id: entry["name"]
+        for entry_id, entry in equipment["entries"].items()
+        if entry.get("name")
+    }
+
+    def equipment_label(match: re.Match[str]) -> str:
+        nonlocal changes
+        entry_id = match.group("id")
+        canonical = equipment_names.get(entry_id)
+        if not canonical or canonical == match.group("label"):
+            return match.group(0)
+        changes += 1
+        return match.group("prefix") + canonical + "}"
+
+    equipment_page["text"] = re.sub(
+        r"(?P<prefix>@UUID\[Compendium\.dnd-players-handbook\.equipment\.Item\."
+        r"(?P<id>[^\]]+)\]\{)(?P<label>[^}]*)\}",
+        equipment_label,
+        equipment_page["text"],
+    )
+    equipment_labels = {
+        "<h3>Ammunition (varía)</h3>": "<h3>Munición (varía)</h3>",
+        "<caption>Ammunition</caption>": "<caption>Munición</caption>",
+        "<h3>Arcane Focus (varía)</h3>": "<h3>Foco arcano (varía)</h3>",
+        "<caption>Arcane Focuses</caption>": "<caption>Focos arcanos</caption>",
+        "<h3>Druidic Focus (varía)</h3>": "<h3>Foco druídico (varía)</h3>",
+        "<caption>Druidic Focuses</caption>": "<caption>Focos druídicos</caption>",
+        "<h3>Holy Symbol (varía)</h3>": "<h3>Símbolo sagrado (varía)</h3>",
+        "<caption>Holy Symbols</caption>": "<caption>Símbolos sagrados</caption>",
+        " (also a ": " (también es un ",
+        " (worn or held)": " (llevado o sostenido)",
+        " (borne on fabric or a Shield)": " (sobre una tela o un escudo)",
+        " (held)": " (sostenido)",
+        "Malnutrition": "Desnutrición",
+        " GP": " po",
+        " SP": " pp",
+        " CP": " pc",
+    }
+    equipment_page["text"], count = replace(equipment_page["text"], equipment_labels)
+    changes += count
+
+    cloudkill = spells["entries"]["phbsplCloudkill0"]
+    cloudkill["description"], count = replace(
+        cloudkill["description"], {"<em>Gust of Wind</em>": "<em>Ráfaga de viento</em>"}
+    )
+    changes += count
 
     print(f"Residual labels updated: {changes}")
     if args.write and changes:
