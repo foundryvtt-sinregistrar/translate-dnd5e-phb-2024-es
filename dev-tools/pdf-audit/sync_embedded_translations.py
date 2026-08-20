@@ -47,6 +47,7 @@ def main() -> None:
     args = parser.parse_args()
     actors_path, actors = load("actors")
     classes_path, classes = load("classes")
+    _, equipment = load("equipment")
     _, origins = load("origins")
     changes = 0
 
@@ -57,6 +58,9 @@ def main() -> None:
         ("phbprgSorcerer00", "LGWHP5FKV4LckYqx", origins["entries"]["phbbgCharlatan00"]),
         ("phbprgWarlock000", "9KBKviUbm9kRtBFb", origins["entries"]["phbbgAcolyte0000"]),
         ("phbprgWizard0000", "lO0Yo3nkf503lr7P", origins["entries"]["phbbgScribe00000"]),
+        ("phbprgMonk000000", "ofqCv77fnAZG0pEK", origins["entries"]["phbspDragonborn0"]),
+        ("phbprgMonk000000", "ciG7VYlRwNT5wJ0V", origins["entries"]["phbsptBreathWeap"]),
+        ("phbprgRogue00000", "QbYoldhl7H2rNv6J", equipment["entries"]["phbagBallBearing"]),
     ]
     for actor_id, item_id, source in links:
         target = actors["entries"][actor_id]["items"][item_id]

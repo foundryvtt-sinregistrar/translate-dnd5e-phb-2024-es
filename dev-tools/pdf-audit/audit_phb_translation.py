@@ -106,6 +106,7 @@ def run_audit() -> dict[str, Any]:
     probable_english = []
     references = 0
     invalid_references = []
+    malformed_references = []
 
     for pack, data in packs.items():
         source = json.loads(source_path(pack).read_text(encoding="utf-8"))
@@ -118,6 +119,8 @@ def run_audit() -> dict[str, Any]:
             "extra": sorted(es_ids - en_ids),
         }
         for path, value in walk(data):
+            if re.search(r"&(?:amp;)?Reference(?!\[)", value):
+                malformed_references.append({"pack": pack, "path": path})
             for target_pack, entry_id in PHB_REFERENCE.findall(value):
                 references += 1
                 if target_pack not in identifiers or entry_id not in identifiers[target_pack]:
@@ -149,6 +152,7 @@ def run_audit() -> dict[str, Any]:
         "pdf": pdf_statistics(),
         "structure": structure,
         "references": {"checked": references, "invalid": invalid_references},
+        "malformedReferences": malformed_references,
         "englishResidues": residues,
         "deprecatedSpanish": deprecated_hits,
         "probableEnglishFields": probable_english,
@@ -156,6 +160,7 @@ def run_audit() -> dict[str, Any]:
             "missingEntries": sum(len(row["missing"]) for row in structure.values()),
             "extraEntries": sum(len(row["extra"]) for row in structure.values()),
             "invalidReferences": len(invalid_references),
+            "malformedReferences": len(malformed_references),
             "englishResidues": len(residues),
             "deprecatedSpanish": len(deprecated_hits),
             "probableEnglishFields": len(probable_english),
@@ -175,6 +180,7 @@ def markdown(report: dict[str, Any]) -> str:
         f"- Missing Spanish entries: {summary['missingEntries']}",
         f"- Extra Spanish entries: {summary['extraEntries']}",
         f"- Invalid internal references: {summary['invalidReferences']}",
+        f"- Malformed reference macros: {summary['malformedReferences']}",
         f"- Visible English terminology residues: {summary['englishResidues']}",
         f"- Deprecated Spanish terminology occurrences: {summary['deprecatedSpanish']}",
         f"- Probable untranslated English fields: {summary['probableEnglishFields']}",

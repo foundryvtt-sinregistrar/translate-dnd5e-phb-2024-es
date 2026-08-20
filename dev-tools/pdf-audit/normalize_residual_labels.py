@@ -25,6 +25,8 @@ def save(path: Path, data: dict) -> None:
 def replace(value: str, mapping: dict[str, str]) -> tuple[str, int]:
     changes = 0
     for source, target in mapping.items():
+        if source == target:
+            continue
         if source in value:
             value = value.replace(source, target)
             changes += 1
@@ -244,6 +246,75 @@ def main() -> None:
     cloudkill = spells["entries"]["phbsplCloudkill0"]
     cloudkill["description"], count = replace(
         cloudkill["description"], {"<em>Gust of Wind</em>": "<em>Ráfaga de viento</em>"}
+    )
+    changes += count
+
+    creature_types = content["entries"]["phbAppendixCRule"]["pages"]["H0gs01OOjU1EJBp9"]
+    creature_types["text"], count = replace(
+        creature_types["text"],
+        {
+            "tipo Humanoid.": "tipo Humanoide.",
+            "<p>Aberration</p>": "<p>Aberración</p>",
+            "<p>Beast</p>": "<p>Bestia</p>",
+            "<p>Construct</p>": "<p>Constructo</p>",
+            "<p>Dragon</p>": "<p>Dragón</p>",
+            "<p>Fey</p>": "<p>Feérico</p>",
+            "<p>Fiend</p>": "<p>Infernal</p>",
+            "<p>Giant</p>": "<p>Gigante</p>",
+            "<p>Humanoid</p>": "<p>Humanoide</p>",
+            "<p>Monstrosity</p>": "<p>Monstruosidad</p>",
+            "<p>Ooze</p>": "<p>Cieno</p>",
+            "<p>Plant</p>": "<p>Planta</p>",
+            "<p>Undead</p>": "<p>No muerto</p>",
+        },
+    )
+    changes += count
+    normalized_humanoid = re.sub(r"Humanoide+", "Humanoide", creature_types["text"])
+    if normalized_humanoid != creature_types["text"]:
+        creature_types["text"] = normalized_humanoid
+        changes += 1
+
+    area = content["entries"]["phbAppendixCRule"]["pages"]["On6Sg3vUokAkXBB5"]
+    area["text"], count = replace(
+        area["text"],
+        {
+            "Cobertura total (Total Cover)": "Cobertura total",
+            "<h3>Cone</h3>": "<h3>Cono</h3>",
+            "<h3>Cube</h3>": "<h3>Cubo</h3>",
+            "<h3>Cylinder</h3>": "<h3>Cilindro</h3>",
+            "<h3>Emanation</h3>": "<h3>Emanación</h3>",
+            "<h3>Line</h3>": "<h3>Línea</h3>",
+            "<h3>Sphere</h3>": "<h3>Esfera</h3>",
+        },
+    )
+    changes += count
+
+    sizes = content["entries"]["phbAppendixCRule"]["pages"]["YwNA2I9Rzi4p8kjr"]
+    sizes["text"], count = replace(
+        sizes["text"],
+        {"Tiny, Small, Medium, Large, Huge o Gargantuan":
+            "Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco"},
+    )
+    changes += count
+
+    hazards = content["entries"]["phbExploration00"]["pages"]["OvbcRgsvwDy7joy4"]
+    hazards["text"], count = replace(
+        hazards["text"],
+        {
+            "<li><p>&amp;Reference</p></li><li><p>&amp;Reference</p></li>"
+            "<li><p>&amp;Reference</p></li><li><p>&amp;Reference</p></li>"
+            "<li><p>&amp;Reference</p></li>":
+                "<li><p>&amp;Reference[Burning]{Ardiendo}</p></li>"
+                "<li><p>&amp;Reference[Dehydration]{Deshidratación}</p></li>"
+                "<li><p>&amp;Reference[Falling]{Caída}</p></li>"
+                "<li><p>&amp;Reference[Malnutrition]{Malnutrición}</p></li>"
+                "<li><p>&amp;Reference[Suffocation]{Asfixia}</p></li>",
+            "<h2>Burning</h2>": "<h2>Ardiendo</h2>",
+            "<h2>Dehydration</h2>": "<h2>Deshidratación</h2>",
+            "<h2>Falling</h2>": "<h2>Caída</h2>",
+            "<h2>Malnutrition</h2>": "<h2>Malnutrición</h2>",
+            "<h2>Suffocation</h2>": "<h2>Asfixia</h2>",
+        },
     )
     changes += count
 

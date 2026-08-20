@@ -55,9 +55,10 @@
     }
   },
   "references": {
-    "checked": 3301,
+    "checked": 3306,
     "invalid": []
   },
+  "malformedReferences": [],
   "englishResidues": [],
   "deprecatedSpanish": [],
   "probableEnglishFields": [],
@@ -65,6 +66,7 @@
     "missingEntries": 0,
     "extraEntries": 0,
     "invalidReferences": 0,
+    "malformedReferences": 0,
     "englishResidues": 0,
     "deprecatedSpanish": 0,
     "probableEnglishFields": 0,

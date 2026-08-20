@@ -5,6 +5,7 @@
 - Missing Spanish entries: 0
 - Extra Spanish entries: 0
 - Invalid internal references: 0
+- Malformed reference macros: 0
 - Visible English terminology residues: 0
 - Deprecated Spanish terminology occurrences: 0
 - Probable untranslated English fields: 0

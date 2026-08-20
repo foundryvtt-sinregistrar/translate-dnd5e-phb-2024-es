@@ -38,3 +38,12 @@ Normalize curated partial-English labels, table captions and familiar names:
 ```powershell
 python dev-tools/pdf-audit/normalize_residual_labels.py --write
 ```
+
+Restore malformed `Reference` macros from the aligned English source files:
+
+```powershell
+python dev-tools/pdf-audit/repair_reference_macros.py --write
+```
+
+The repair skips and reports fields whose source and translation macro counts
+do not match, leaving those ambiguous cases for explicit review.
