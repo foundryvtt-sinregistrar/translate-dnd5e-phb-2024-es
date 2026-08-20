@@ -19,6 +19,27 @@
     "Stunned": "Aturdido",
     "Unconscious": "Inconsciente"
   },
+  "skills": {
+    "Acrobatics": "Acrobacias",
+    "Animal Handling": "Trato con animales",
+    "Arcana": "Arcanos",
+    "Athletics": "Atletismo",
+    "Deception": "Engaño",
+    "History": "Historia",
+    "Insight": "Perspicacia",
+    "Intimidation": "Intimidación",
+    "Investigation": "Investigación",
+    "Medicine": "Medicina",
+    "Nature": "Naturaleza",
+    "Perception": "Percepción",
+    "Performance": "Interpretación",
+    "Persuasion": "Persuasión",
+    "Religion": "Religión",
+    "Sleight of Hand": "Juego de manos",
+    "Stealth": "Sigilo",
+    "Survival": "Supervivencia",
+    "Herbalism Kit": "Kit de herboristería"
+  },
   "other": {
     "Dragonborn": "Dracónido",
     "Dungeon Master": "Dungeon Master",

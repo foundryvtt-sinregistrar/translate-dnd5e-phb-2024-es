@@ -97,7 +97,12 @@ def pdf_statistics() -> dict[str, Any]:
 def run_audit() -> dict[str, Any]:
     packs = load_packs()
     terms = json.loads(TERMS_FILE.read_text(encoding="utf-8"))
-    canonical = {**terms["conditions"], **terms["actions"], **terms["other"]}
+    canonical = {
+        **terms["conditions"],
+        **terms["actions"],
+        **terms["skills"],
+        **terms["other"],
+    }
     deprecated = terms["deprecatedSpanish"]
     identifiers = {pack: set(data.get("entries", {})) for pack, data in packs.items()}
     structure = {}

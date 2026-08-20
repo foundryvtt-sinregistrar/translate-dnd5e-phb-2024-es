@@ -26,6 +26,7 @@ def replacements() -> dict[str, str]:
     mapping = {
         **terms["conditions"],
         **terms["actions"],
+        **terms["skills"],
         **terms["other"],
         **terms["deprecatedSpanish"],
     }
