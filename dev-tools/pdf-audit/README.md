@@ -16,3 +16,12 @@ python dev-tools/pdf-audit/audit_phb_translation.py `
 
 Install `pypdf` to include PDF extraction statistics. Structural, reference and
 terminology checks do not otherwise require third-party dependencies.
+
+Apply only the high-confidence mappings recorded in `official-terms.es.json`:
+
+```powershell
+python dev-tools/pdf-audit/normalize_official_terms.py --write
+```
+
+The normalizer preserves macro keys and inline rolls. It may update the visible
+label attached to a macro when that label uses deprecated terminology.

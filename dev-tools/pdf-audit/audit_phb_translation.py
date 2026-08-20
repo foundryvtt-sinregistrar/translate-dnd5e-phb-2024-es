@@ -115,7 +115,7 @@ def run_audit() -> dict[str, Any]:
                     )
             visible = visible_text(value)
             for english, spanish in canonical.items():
-                if english == spanish:
+                if english.casefold() == spanish.casefold() or path.endswith((".src", ".folder")):
                     continue
                 if re.search(rf"\b{re.escape(english)}\b", visible, re.IGNORECASE):
                     residues.append(
@@ -174,8 +174,9 @@ def markdown(report: dict[str, Any]) -> str:
     lines.extend(["", "## Deprecated Spanish terminology", ""])
     for row in report["deprecatedSpanish"]:
         lines.append(f"- `{row['pack']}:{row['path']}`: `{row['found']}` -> `{row['expected']}`")
-    lines.append("")
-    return "\n".join(lines)
+    while lines and not lines[-1]:
+        lines.pop()
+    return "\n".join(lines) + "\n"
 
 
 def main() -> None:
