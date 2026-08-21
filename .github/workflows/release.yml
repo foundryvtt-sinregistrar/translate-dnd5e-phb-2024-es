@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout tagged commit
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -26,13 +26,14 @@ jobs:
 
       - name: Build module zip (git archive)
         run: |
-          python dev-tools/buildScripts/build_release.py --dist dist --ref "${GITHUB_SHA}" --allow-dirty
+          python dev-tools/buildScripts/build_release.py --dist dist --ref "${GITHUB_SHA}"
           ls -lah dist
 
       - name: Verify expected asset exists
         run: |
           test -f "dist/translate-dnd5e-phb-2024-es.zip"
-          echo "OK: dist/translate-dnd5e-phb-2024-es.zip exists"
+          test -f "module.json"
+          echo "OK: release assets exist"
 
       - name: Create GitHub Release (DRAFT) and upload asset
         uses: softprops/action-gh-release@v2
@@ -41,3 +42,4 @@ jobs:
           generate_release_notes: true
           files: |
             dist/translate-dnd5e-phb-2024-es.zip
+            module.json
