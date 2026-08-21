@@ -127,6 +127,12 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Ignore folders that begin with _
+_*/
+_*
+
 # Commits info
 # git diff --staged > staged.txt
 staged.txt
+
+dist
