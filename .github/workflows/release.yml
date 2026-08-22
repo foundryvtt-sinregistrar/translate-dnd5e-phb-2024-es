@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout tagged commit
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -32,7 +32,8 @@ jobs:
       - name: Verify expected asset exists
         run: |
           test -f "dist/translate-dnd5e-phb-2024-es.zip"
-          echo "OK: dist/translate-dnd5e-phb-2024-es.zip exists"
+          test -f "module.json"
+          echo "OK: release assets exist"
 
       - name: Create GitHub Release (DRAFT) and upload asset
         uses: softprops/action-gh-release@v2
@@ -41,3 +42,4 @@ jobs:
           generate_release_notes: true
           files: |
             dist/translate-dnd5e-phb-2024-es.zip
+            module.json

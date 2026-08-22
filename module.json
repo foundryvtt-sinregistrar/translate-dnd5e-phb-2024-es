@@ -2,10 +2,10 @@
   "id": "translate-dnd5e-phb-2024-es",
   "title": "D&D 5e PHB 2024 Spanish Translation (Babele)",
   "description": "Spanish translation for the official D&D 5e Player's Handbook 2024 using Babele.",
-  "version": "1.13.2",
+  "version": "1.14.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.351"
+    "verified": "14.363"
   },
   "languages": [
     {
@@ -26,7 +26,7 @@
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "5.2.1",
-          "verified": "5.2.5"
+          "verified": "5.3.3"
         },
         "type": "system"
       }
