@@ -429,7 +429,7 @@
     },
     "phbafcCrystal000": {
       "name": "Cristal",
-      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
       "folder": "Arcane Focus",
       "activities": {},
       "effects": {},
@@ -437,7 +437,7 @@
     },
     "phbafcOrb0000000": {
       "name": "Orbe",
-      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
       "folder": "Arcane Focus",
       "activities": {},
       "effects": {},
@@ -445,7 +445,7 @@
     },
     "phbafcRod0000000": {
       "name": "Cetro",
-      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
       "folder": "Arcane Focus",
       "activities": {},
       "effects": {},
@@ -453,7 +453,7 @@
     },
     "phbafcStaffalsoa": {
       "name": "Bastón",
-      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>",
       "folder": "Arcane Focus",
       "activities": {
         "5c4fPKVW51b3Ri3j": {
@@ -465,7 +465,7 @@
     },
     "phbafcWand000000": {
       "name": "Varita",
-      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
+      "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano} está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p>",
       "folder": "Arcane Focus",
       "activities": {},
       "effects": {},
@@ -526,7 +526,7 @@
     },
     "phbagArcaneFocus": {
       "name": "Foco arcano (varía)",
-      "description": "<p>Un foco arcano adopta una de las formas de la tabla de Focos arcanos y está enjoyado o tallado para canalizar magia arcana. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><table><caption>Focos arcanos</caption><thead><tr><td>Foco</td><td>Peso</td><td>Coste</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td><td>1 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td><td>3 lb.</td><td>20 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Vara}</td><td>2 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Bastón} (también un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td><td>4 lb.</td><td>5 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Varita}</td><td>1 lb.</td><td>10 po</td></tr></tbody></table>",
+      "description": "<p>Un foco arcano adopta una de las formas de la tabla de Focos arcanos y está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de conjuro.</p><table><caption>Focos arcanos</caption><thead><tr><td>Foco</td><td>Peso</td><td>Coste</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td><td>1 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td><td>3 lb.</td><td>20 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Vara}</td><td>2 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Bastón} (también un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td><td>4 lb.</td><td>5 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Varita}</td><td>1 lb.</td><td>10 po</td></tr></tbody></table>",
       "folder": "Spellcasting Focuses",
       "activities": {},
       "effects": {},
@@ -2527,7 +2527,7 @@
     },
     "phiPN9UzkXk3i5xh": {
       "name": "Libro",
-      "description": "<p>Un libro contiene obras de ficción o de no ficción. Si consultas un libro de no ficción fiable sobre un tema, obtienes un bonificador de +5 a las tiradas de Inteligencia (Arcana, Historia, Naturaleza o Religión) que hagas sobre ese tema.</p>",
+      "description": "<p>Un libro contiene obras de ficción o de no ficción. Si consultas un libro de no ficción fiable sobre un tema, obtienes un bonificador de +5 a las tiradas de Inteligencia (Arcanos, Historia, Naturaleza o Religión) que hagas sobre ese tema.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
