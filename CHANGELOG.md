@@ -15,6 +15,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.14.1] - 2026-08-22
+
+### Changed
+- Improved Spanish localization across PHB 2024 classes, backgrounds, equipment, origins, rules, and features.
+- Standardized terminology for actions, abilities, conditions, and Foundry activities.
+- Updated activity and automation labels to Spanish.
+
+### Fixed
+- Fixed missing Foundry references for conditions, actions, areas, and cover.
+- Fixed untranslated text and English leftovers in class features and background advancements.
+- Fixed incomplete translations in rules tables and compendium content.
+- Fixed broken or incomplete cross-references in PHB 2024 compendium entries.
+
+---
+
 ## [1.14.0] - 2026-08-21
 
 ### Added
@@ -44,5 +59,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.0...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.1...HEAD
+[1.14.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.1
 [1.14.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.0

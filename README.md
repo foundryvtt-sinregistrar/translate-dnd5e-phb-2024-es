@@ -19,6 +19,7 @@ Dungeons & Dragons Player's Handbook 2024 © Wizards of the Coast LLC. Todos los
 ---
 
 ## 📦 Descripción
+**Current version:** 1.14.1
 
 Traducción al español del **Player's Handbook 2024** del sistema **dnd5e** para Foundry VTT.
 
