@@ -1,6 +1,6 @@
 # 🇪🇸 D&D 5e PHB 2024 -- Español (Babele)
 
-![Foundry v14](https://img.shields.io/badge/Foundry-v14-green) ![dnd5e
+![Foundry v13](https://img.shields.io/badge/Foundry-v13-green) ![Foundry v14](https://img.shields.io/badge/Foundry-v14-green) ![dnd5e
 5.3.x](https://img.shields.io/badge/dnd5e-5.3.x-blue) ![Babele
 Required](https://img.shields.io/badge/Babele-required-orange) ![PHB2024](https://img.shields.io/badge/PHB2024-required-orange)
 [![Latest Release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
