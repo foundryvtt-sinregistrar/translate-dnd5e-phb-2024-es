@@ -2343,7 +2343,7 @@
       "items": {
         "phbaoiBloodiedFu": {
           "name": "Furia sanguinaria",
-          "description": "<p> Mientras está Bloodied, el jabalí tiene Ventaja en las tiradas de ataque.</p>",
+          "description": "<p> Mientras está Ensangrentado, el jabalí tiene Ventaja en las tiradas de ataque.</p>",
           "activities": {},
           "effects": {},
           "advancement": {}
@@ -6895,7 +6895,7 @@
         },
         "B7NItTpHR9OjLlpn": {
           "name": "Afinidad con la piedra",
-          "description": "<p>Como acción adicional, obtienes &amp;Reference[Tremorsense]{Sentido de vibraciones} con un alcance de 60 pies durante 10 minutos. Debes estar sobre una superficie de piedra o tocando una superficie de piedra para usar esta percepción de vibración. La piedra puede ser natural o trabajada. Puedes usar esta acción adicional un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo.</p><section id=\"secret-7BtT80083mC3Eavg\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye los usos limitados y un Efecto Activo que te concede 60 pies de Tremorsense. No obstante, no actualiza automáticamente la configuración de visión de tu ficha o de tu token.</p></section>",
+          "description": "<p>Como acción adicional, obtienes &amp;Reference[Tremorsense]{Sentido de vibraciones} con un alcance de 60 pies durante 10 minutos. Debes estar sobre una superficie de piedra o tocando una superficie de piedra para usar esta percepción de vibración. La piedra puede ser natural o trabajada. Puedes usar esta acción adicional un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo.</p><section id=\"secret-7BtT80083mC3Eavg\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye los usos limitados y un Efecto Activo que te concede 60 pies de Sentido de vibraciones. No obstante, no actualiza automáticamente la configuración de visión de tu ficha o de tu token.</p></section>",
           "activities": {
             "NTjnXm1AYqdOUJOB": {
               "name": "Afinidad con la Piedra"
@@ -7951,7 +7951,7 @@
         },
         "Ao5B5JioRmjKzulA": {
           "name": "Conocimiento pétreo",
-          "description": "<p>Como acción adicional, obtienes &amp;Reference[Tremorsense]{Sentido de vibraciones} con un alcance de 60 pies durante 10 minutos. Debes estar sobre una superficie de piedra o tocándola para usar este sentido sísmico. La piedra puede ser natural o trabajada. Puedes usar esta acción adicional un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo.</p><section id=\"secret-7BtT80083mC3Eavg\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye usos limitados y un Efecto Activo que te concede 60 pies de Tremorsense. Sin embargo, no actualiza automáticamente la visión de tu ficha.</p></section>",
+          "description": "<p>Como acción adicional, obtienes &amp;Reference[Tremorsense]{Sentido de vibraciones} con un alcance de 60 pies durante 10 minutos. Debes estar sobre una superficie de piedra o tocándola para usar este sentido sísmico. La piedra puede ser natural o trabajada. Puedes usar esta acción adicional un número de veces igual a tu bonificador de competencia y recuperas todos los usos gastados cuando terminas un descanso largo.</p><section id=\"secret-7BtT80083mC3Eavg\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye usos limitados y un Efecto Activo que te concede 60 pies de Sentido de vibraciones. Sin embargo, no actualiza automáticamente la visión de tu ficha.</p></section>",
           "activities": {
             "NTjnXm1AYqdOUJOB": {
               "name": "Conocimiento Pétreo"
@@ -9053,7 +9053,7 @@
         },
         "ZZY1X8KgaJm9UnN2": {
           "name": "Imposición de manos",
-          "description": "<p>Tu toque bendito puede curar heridas. Tienes una reserva de poder curativo que se repone cuando terminas un descanso largo. Con esa reserva puedes restaurar un número total de Puntos de Golpe igual a cinco veces tu nivel de paladín.</p><p>Como acción adicional, puedes tocar a una criatura (puedes ser tú mismo) y extraer poder de la reserva de curación para restaurar un número de Puntos de Golpe a esa criatura, hasta el máximo restante en la reserva.</p><p>También puedes gastar 5 Puntos de Golpe de la reserva de curación para eliminar la condición envenenado de la criatura; esos puntos no restauran Puntos de Golpe a la criatura.</p><section id=\"secret-CgxYFHh5PcKwwbwk\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Curar</strong> te permite seleccionar el número de Puntos de Golpe que quieres restaurar y reduce tu reserva de Imposición de manos en esa cantidad.</p><p>La actividad <strong>Remove Poison</strong> reduce tu reserva en 5, pero no elimina automáticamente la condición envenenado.</p></section>",
+          "description": "<p>Tu toque bendito puede curar heridas. Tienes una reserva de poder curativo que se repone cuando terminas un descanso largo. Con esa reserva puedes restaurar un número total de Puntos de Golpe igual a cinco veces tu nivel de paladín.</p><p>Como acción adicional, puedes tocar a una criatura (puedes ser tú mismo) y extraer poder de la reserva de curación para restaurar un número de Puntos de Golpe a esa criatura, hasta el máximo restante en la reserva.</p><p>También puedes gastar 5 Puntos de Golpe de la reserva de curación para eliminar la condición envenenado de la criatura; esos puntos no restauran Puntos de Golpe a la criatura.</p><section id=\"secret-CgxYFHh5PcKwwbwk\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Curar</strong> te permite seleccionar el número de Puntos de Golpe que quieres restaurar y reduce tu reserva de Imposición de manos en esa cantidad.</p><p>La actividad <strong>Eliminar Veneno</strong> reduce tu reserva en 5, pero no elimina automáticamente la condición envenenado.</p></section>",
           "activities": {
             "gXZh9aGHcywV9huC": {
               "name": "Curar"
@@ -9113,7 +9113,7 @@
         },
         "3yoHX3B5ud1jphUm": {
           "name": "Afortunado",
-          "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Puntos de suerte.</strong> Tienes un número de puntos de suerte igual a tu bonificador de competencia y puedes gastar esos puntos en los beneficios que se indican a continuación. Recuperas todos los puntos de suerte gastados cuando terminas un descanso largo.</p><p><strong>Ventaja.</strong> Cuando tires un d20 para una prueba de d20, puedes gastar 1 punto de suerte para darte ventaja en la tirada.</p><p><strong>Desventaja.</strong> Cuando una criatura haga una tirada de d20 para un ataque contra ti, puedes gastar 1 punto de suerte para imponer desventaja en esa tirada.</p><section id=\"secret-6TFD3CUAlQhYUp4d\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye el número adecuado de usos y escala conforme subes de nivel.</p><p>Las actividades <strong>Advantage</strong> y <strong>Disadvantage</strong> gastan un uso, pero no aplican automáticamente la ventaja o desventaja.</p></section>",
+          "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Puntos de suerte.</strong> Tienes un número de puntos de suerte igual a tu bonificador de competencia y puedes gastar esos puntos en los beneficios que se indican a continuación. Recuperas todos los puntos de suerte gastados cuando terminas un descanso largo.</p><p><strong>Ventaja.</strong> Cuando tires un d20 para una prueba de d20, puedes gastar 1 punto de suerte para darte ventaja en la tirada.</p><p><strong>Desventaja.</strong> Cuando una criatura haga una tirada de d20 para un ataque contra ti, puedes gastar 1 punto de suerte para imponer desventaja en esa tirada.</p><section id=\"secret-6TFD3CUAlQhYUp4d\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye el número adecuado de usos y escala conforme subes de nivel.</p><p>Las actividades <strong>Ventaja</strong> y <strong>Desventaja</strong> gastan un uso, pero no aplican automáticamente la ventaja o desventaja.</p></section>",
           "activities": {
             "DEX2YgxfqdMse2bT": {
               "name": "Ventaja",
@@ -9214,13 +9214,13 @@
           "advancement": {
             "5w2FaHXRKiN7v1rE": {
               "title": "Tamaño",
-              "hint": "Medium (about 5–6 pies tall)"
+              "hint": "Mediano (alrededor de 5–6 pies de altura)"
             },
             "boHzoT53gYPvJ9o2": {
-              "title": "Elfo Traits"
+              "title": "Rasgos de elfo"
             },
             "FRJszO7cYchbaGzt": {
-              "title": "Wood Elfo Traits",
+              "title": "Rasgos de elfo de los bosques",
               "hint": "Puede elegirse Inteligencia, Sabiduría o Carisma como característica de lanzamiento de conjuros."
             },
             "RwuXccrKfMuuWLKr": {
@@ -9228,10 +9228,10 @@
               "hint": "Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia."
             },
             "YFS9oEa9Iw1molNm": {
-              "title": "Wood Elfo Traits"
+              "title": "Rasgos de elfo de los bosques"
             },
             "zFsEPXauTgmYxqiJ": {
-              "title": "Wood Elfo Traits",
+              "title": "Rasgos de elfo de los bosques",
               "hint": "Puede elegirse Inteligencia, Sabiduría o Carisma como característica de lanzamiento de conjuros."
             }
           }
@@ -9314,7 +9314,7 @@
               "title": "Dádiva Épica"
             },
             "2Wma1d7xii6GUWC9": {
-              "title": "Marca del Cazador Damage"
+              "title": "Daño de Marca del Cazador"
             },
             "3trTn2JpXbZ6X24q": {
               "title": "Competencias en Tiradas de Salvación"
@@ -9463,7 +9463,7 @@
         },
         "rYvayUTzSw8pdH6B": {
           "name": "Raciones",
-          "description": "<p>Las raciones consisten en comida lista para viajar, que incluye cecina, fruta deshidratada, galleta dura y frutos secos. Consulta «Malnutrition» en el glosario de reglas para los riesgos de no comer.</p>",
+          "description": "<p>Las raciones consisten en comida lista para viajar, que incluye cecina, fruta deshidratada, galleta dura y frutos secos. Consulta «Desnutrición» en el glosario de reglas para los riesgos de no comer.</p>",
           "activities": {},
           "effects": {},
           "advancement": {}
@@ -9557,7 +9557,7 @@
         },
         "y0OzbP3Bkc3gCr2w": {
           "name": "Ramita de muérdago",
-          "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco druídico (varios)} adopta una de las formas de la tabla de Druidic Focuses y está tallado, atado con cintas o pintado para canalizar magia primordial. Un druida o un explorador puede usar dicho objeto como foco de lanzamiento de conjuros.</p>",
+          "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco druídico (varios)} adopta una de las formas de la tabla de Focos druídicos y está tallado, atado con cintas o pintado para canalizar magia primordial. Un druida o un explorador puede usar dicho objeto como foco de lanzamiento de conjuros.</p>",
           "activities": {},
           "effects": {},
           "advancement": {}
@@ -9752,11 +9752,11 @@
           "effects": {},
           "advancement": {
             "GFHErdA52SfUBvB5": {
-              "title": "Mediano Traits"
+              "title": "Rasgos de mediano"
             },
             "GYp1vi82hSEoe3mO": {
               "title": "Tamaño",
-              "hint": "Small (about 2-3 pies tall)"
+              "hint": "Pequeño (alrededor de 2-3 pies de altura)"
             }
           }
         },
@@ -9801,7 +9801,7 @@
         },
         "LNikVufub2rV5LuA": {
           "name": "Equipo de ladrón",
-          "description": "<p>Un equipo de ladrón contiene los siguientes objetos: Mochila, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de rodamiento}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Vela}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, Hooded Lantern, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 5 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+          "description": "<p>Un equipo de ladrón contiene los siguientes objetos: Mochila, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de rodamiento}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Vela}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, Linterna de capucha, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 5 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
           "activities": {},
           "effects": {},
           "advancement": {}
@@ -10015,7 +10015,7 @@
         },
         "th1wWbiKK3PEAUmi": {
           "name": "Raciones",
-          "description": "<p>Las raciones consisten en comida lista para viajar, que incluye cecina, fruta deshidratada, galleta dura y frutos secos. Consulta “Malnutrition” en el glosario de reglas para los riesgos de no comer.</p>",
+          "description": "<p>Las raciones consisten en comida lista para viajar, que incluye cecina, fruta deshidratada, galleta dura y frutos secos. Consulta “Desnutrición” en el glosario de reglas para los riesgos de no comer.</p>",
           "activities": {},
           "effects": {},
           "advancement": {}
@@ -10082,7 +10082,7 @@
       "items": {
         "53JAahd2s1Cgm5Bm": {
           "name": "Raciones",
-          "description": "<p>Las raciones consisten en comida lista para viajar, como cecina, fruta deshidratada, galleta dura y frutos secos. Consulta «Malnutrition» en el glosario de reglas para ver los riesgos de no comer.</p>",
+          "description": "<p>Las raciones consisten en comida lista para viajar, como cecina, fruta deshidratada, galleta dura y frutos secos. Consulta «Desnutrición» en el glosario de reglas para ver los riesgos de no comer.</p>",
           "activities": {},
           "effects": {},
           "advancement": {}
@@ -10281,10 +10281,10 @@
             },
             "5w2FaHXRKiN7v1rE": {
               "title": "Tamaño",
-              "hint": "Medium (about 5–6 pies tall)"
+              "hint": "Mediano (alrededor de 5–6 pies de altura)"
             },
             "boHzoT53gYPvJ9o2": {
-              "title": "Elfo Traits"
+              "title": "Rasgos de elfo"
             },
             "hIn6cR8fRweVWhTp": {
               "title": "Rasgos de drow",
@@ -11048,14 +11048,14 @@
           "effects": {},
           "advancement": {
             "LcGnqnqKYFw0PcE9": {
-              "title": "Gnomo Traits"
+              "title": "Rasgos de gnomo"
             },
             "O7gYRGMSW3atQ2Yc": {
               "title": "Tamaño",
-              "hint": "Small (about 3-4 pies tall)"
+              "hint": "Pequeño (alrededor de 3-4 pies de altura)"
             },
             "RNvJhB97kaJrZTfU": {
-              "title": "Rock Gnomo Traits"
+              "title": "Rasgos de gnomo de roca"
             }
           }
         },
@@ -11158,7 +11158,7 @@
         },
         "8M0BOxVZkECKnlVW": {
           "name": "Proyectil mágico",
-          "description": "<p>Creas tres dardos resplandecientes de energía mágica. Cada dardo impacta a una criatura a tu elección que puedas ver dentro del alcance. Un dardo inflige 1d4 + 1 puntos de daño de fuerza a su objetivo. Todos los dardos impactan simultáneamente y puedes hacer que golpeen a una sola criatura o repartirlos entre varias.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El conjuro crea un dardo adicional por cada nivel de espacio de conjuro por encima de 1.</p><p>[[2 + @item.level]]{Level [[lookup @item.level]] darts}</p>",
+          "description": "<p>Creas tres dardos resplandecientes de energía mágica. Cada dardo impacta a una criatura a tu elección que puedas ver dentro del alcance. Un dardo inflige 1d4 + 1 puntos de daño de fuerza a su objetivo. Todos los dardos impactan simultáneamente y puedes hacer que golpeen a una sola criatura o repartirlos entre varias.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> El conjuro crea un dardo adicional por cada nivel de espacio de conjuro por encima de 1.</p><p>[[2 + @item.level]]{Dardos de nivel [[lookup @item.level]]}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Lanzar"
@@ -11254,7 +11254,7 @@
         },
         "edzJdB6sFYZVPIO7": {
           "name": "Bastón",
-          "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano (varía)} está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de lanzamiento de conjuros.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Quarterstaff.</p></section>",
+          "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco arcano (varía)} está enjoyado o tallado para canalizar magia Arcanos. Un hechicero, brujo o mago puede usar un objeto así como foco de lanzamiento de conjuros.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>",
           "activities": {
             "5c4fPKVW51b3Ri3j": {
               "name": "Ataque"
@@ -11737,7 +11737,7 @@
         },
         "phbaoiGraspingHa": {
           "name": "Mano apresadora",
-          "description": "<p>La mano intenta agarrar a una criatura Enorme o más pequeña que esté a 5 pies o menos de ella. El objetivo debe superar una tirada de salvación de destreza o sufre la condición &amp;Reference[Grappled]{Agarrado}, con una CD de escape igual a tu CD de salvación de conjuros. Mientras la mano tenga agarrado al objetivo, puedes usar una acción adicional para hacer que la mano lo aplaste, infligiendo al objetivo daño contundente igual a 4d6 más tu modificador de característica de lanzamiento de conjuros.</p><h3>Pruebas para escapar del agarre</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Strength (Atletismo)} [[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]{Dexterity (Acrobacias)}</p>",
+          "description": "<p>La mano intenta agarrar a una criatura Enorme o más pequeña que esté a 5 pies o menos de ella. El objetivo debe superar una tirada de salvación de destreza o sufre la condición &amp;Reference[Grappled]{Agarrado}, con una CD de escape igual a tu CD de salvación de conjuros. Mientras la mano tenga agarrado al objetivo, puedes usar una acción adicional para hacer que la mano lo aplaste, infligiendo al objetivo daño contundente igual a 4d6 más tu modificador de característica de lanzamiento de conjuros.</p><h3>Pruebas para escapar del agarre</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Fuerza (Atletismo)} [[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]{Destreza (Acrobacias)}</p>",
           "activities": {
             "dnd5eactivity000": {
               "name": "Agarre"

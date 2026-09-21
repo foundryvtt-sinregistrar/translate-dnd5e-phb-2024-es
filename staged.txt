@@ -1,0 +1,13 @@
+diff --git a/.gitignore b/.gitignore
+index e83b0ed..a9ba78b 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -134,4 +134,6 @@ $RECYCLE.BIN/
+ # Windows shortcuts
+ *.lnk
+ 
+-# End of https://www.toptal.com/developers/gitignore/api/windows,phpstorm+all,visualstudiocode
++# Commits info
++# git diff --staged > staged.txt
++staged.txt
+\ No newline at end of file

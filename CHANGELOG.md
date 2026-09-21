@@ -4,14 +4,19 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.14.2] - 2026-09-21
+
 ### Added
-- —
+- Regression tests for Babele startup, Spanish language variants, and converter coverage across all eight PHB compendiums.
 
 ### Changed
-- —
+- Updated compatibility to Foundry VTT 14.368, dnd5e 6.0.3 and Babele 2.9.1 (minimum Foundry 14.367 and dnd5e 6.0.0).
 
 ### Fixed
-- —
+- Translated remaining English text across all eight PHB compendiums, including descriptions, activity labels, journal pages, equipment names, spell references, and table tooltips and accessibility labels.
+- Standardized plane names and terminology while preserving document IDs, link destinations, roll formulas, and numeric values.
+- Register compendiums and converters through babele.init, deferring language checks to setup so registration does not depend on init hook order.
+- Restrict Spanish translations to Spanish and its regional variants, using the configured core language.
 
 ---
 
@@ -59,6 +64,7 @@ All notable changes to this project will be documented in this file.
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.1...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.2...HEAD
+[1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.2
 [1.14.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.1
 [1.14.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.0

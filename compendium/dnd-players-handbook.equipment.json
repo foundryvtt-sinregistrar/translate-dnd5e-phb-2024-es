@@ -632,8 +632,8 @@
       "advancement": {}
     },
     "phbagBurglarsPac": {
-      "name": "Pack de ladrón",
-      "description": "<p>Un pack de ladrón contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de rodamiento}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con caperuza}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de aceite}, 5 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "name": "Equipo de ladrón",
+      "description": "<p>Un equipo de ladrón contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de rodamiento}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con caperuza}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de aceite}, 5 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -766,8 +766,8 @@
       "advancement": {}
     },
     "phbagDiplomatsPa": {
-      "name": "Pack de diplomático",
-      "description": "<p>Un pack de diplomático contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa fina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Estuches para mapas o pergaminos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de aceite}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
+      "name": "Equipo de diplomático",
+      "description": "<p>Un equipo de diplomático contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa fina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Estuches para mapas o pergaminos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{redomas de aceite}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -782,24 +782,24 @@
       "advancement": {}
     },
     "phbagDungeoneers": {
-      "name": "Pack de mazmorrero",
-      "description": "<p>Un pack de mazmorrero contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, 2 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "name": "Equipo de mazmorrero",
+      "description": "<p>Un equipo de mazmorrero contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, 2 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
       "advancement": {}
     },
     "phbagEntertainer": {
-      "name": "Pack de artista",
-      "description": "<p>Un pack de artista contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de ojo de buey}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraces}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, 8 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 9 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "name": "Equipo de artista",
+      "description": "<p>Un equipo de artista contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de ojo de buey}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraces}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, 8 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 9 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
       "advancement": {}
     },
     "phbagExplorersPa": {
-      "name": "Pack de explorador",
-      "description": "<p>Un pack de explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, 2 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
+      "name": "Equipo de explorador",
+      "description": "<p>Un equipo de explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, 2 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de agua}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -965,7 +965,7 @@
     },
     "phbagManacles000": {
       "name": "Grilletes",
-      "description": "<p>Como acción de Utilizar, puedes usar grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado}, o &amp;Reference[Restrained]{Apresado} si superas una tirada de Destreza (Juego de manos) CD 13. Mientras esté engrilletada, una criatura tiene desventaja en las tiradas de ataque, y queda restringida si los grilletes están sujetos a una cadena o gancho fijado en su sitio. Escapar de los grilletes requiere superar una tirada de Destreza (Juego de manos) CD 20 como acción. Romperlos requiere superar una tirada de Fuerza (Atletismo) CD 25 como acción.</p><p>Cada juego de grilletes incluye una llave. Sin la llave, una criatura puede usar Thieves’ Tools para forzar la cerradura de los grilletes con una tirada [[/tool thief dex 15]] con éxito.</p>",
+      "description": "<p>Como acción de Utilizar, puedes usar grilletes para inmovilizar a una criatura Pequeña o Mediana no dispuesta a 5 pies de ti que tenga la condición &amp;Reference[Grappled]{Agarrado}, &amp;Reference[Incapacitated]{Incapacitado}, o &amp;Reference[Restrained]{Apresado} si superas una tirada de Destreza (Juego de manos) CD 13. Mientras esté engrilletada, una criatura tiene desventaja en las tiradas de ataque, y queda restringida si los grilletes están sujetos a una cadena o gancho fijado en su sitio. Escapar de los grilletes requiere superar una tirada de Destreza (Juego de manos) CD 20 como acción. Romperlos requiere superar una tirada de Fuerza (Atletismo) CD 25 como acción.</p><p>Cada juego de grilletes incluye una llave. Sin la llave, una criatura puede usar Herramientas de ladrón para forzar la cerradura de los grilletes con una tirada [[/tool thief dex 15]] con éxito.</p>",
       "folder": "Adventuring Gear",
       "activities": {
         "HStudlka63uekHM2": {
@@ -1105,8 +1105,8 @@
       "advancement": {}
     },
     "phbagPriestsPack": {
-      "name": "Pack de sacerdote",
-      "description": "<p>Un pack de sacerdote contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Agua bendita}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 7 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Toga o hábito} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
+      "name": "Equipo de sacerdote",
+      "description": "<p>Un equipo de sacerdote contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Agua bendita}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 7 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Toga o hábito} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -1171,8 +1171,8 @@
       "advancement": {}
     },
     "phbagScholarsPac": {
-      "name": "Pack de erudito",
-      "description": "<p>Un pack de erudito contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 10 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
+      "name": "Equipo de erudito",
+      "description": "<p>Un equipo de erudito contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 10 redomas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>",
       "folder": "Adventuring Gear",
       "activities": {},
       "effects": {},
@@ -1785,7 +1785,7 @@
     },
     "phbtulCarpenters": {
       "name": "Herramientas de carpintero",
-      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o forzar una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Gran garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barrel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pértiga}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Ariete portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o forzar una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Gran garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barril}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pértiga}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Ariete portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>",
       "folder": "Artisan",
       "activities": {
         "FA1LisaMRSw353K6": {
