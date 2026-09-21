@@ -1,7 +1,7 @@
 # 🇬🇧 D&D 5e PHB 2024 -- English (Babele)
 
 ![Foundry v14](https://img.shields.io/badge/Foundry-v14-green) ![dnd5e
-5.3.x](https://img.shields.io/badge/dnd5e-5.3.x-blue) ![Babele
+6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue) ![Babele
 Required](https://img.shields.io/badge/Babele-required-orange) ![PHB
 2024](https://img.shields.io/badge/Babele-required-orange)
 [![Latest Release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
@@ -68,10 +68,9 @@ Mapping First → Converter Second → Normalization Layer
 
 ## ⚙️ Requirements
 
-- Foundry VTT v13
-- Foundry VTT v14+
-- Sistema dnd5e 5.3.x
-- Babele
+- Foundry VTT 14.367+ (14.368)
+- Sistema dnd5e 6.0.3
+- Babele 2.9.1+
 - Player's Handbook (2024)
 
 ------------------------------------------------------------------------

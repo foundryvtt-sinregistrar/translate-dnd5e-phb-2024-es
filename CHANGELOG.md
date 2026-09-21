@@ -5,13 +5,14 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
-- —
+- Regression tests for Babele startup, Spanish language variants, and converter coverage across all eight PHB compendiums.
 
 ### Changed
-- —
+- Updated compatibility to Foundry VTT 14.368, dnd5e 6.0.3 and Babele 2.9.1 (minimum Foundry 14.367 and dnd5e 6.0.0).
 
 ### Fixed
-- —
+- Register compendiums and converters through babele.init, deferring language checks to setup so registration does not depend on init hook order.
+- Restrict Spanish translations to Spanish and its regional variants, using the configured core language.
 
 ---
 
