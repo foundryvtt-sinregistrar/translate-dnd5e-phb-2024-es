@@ -1,0 +1,27 @@
+# Registro de adopción del proceso común
+
+- Proyecto: `__MODULE_ID__`.
+- Repositorio: __REPOSITORY_URL__.
+- Plantilla: versión 1 del piloto PHB.
+- Commit de las plantillas: `__KIT_COMMIT__`.
+- Commit base de los archivos comunes: `__BASE_COMMIT__`.
+
+## Archivos y adaptaciones
+
+__ADAPTACIONES__
+
+Para cada archivo, registra ruta de origen/destino, revisión utilizada, si se copió o se adaptó, y motivo. Conserva licencias, alias y procesos específicos. Para actualizaciones parciales, registra la base de cada archivo por separado.
+
+## Verificación
+
+__VALIDACIONES__
+
+Indica comandos, entorno, resultados y omisiones; adjunta inventario del ZIP y comprobación de manifiestos. Distingue validación local, ejecución en GitHub y prueba funcional en Foundry.
+
+## Commits del destino
+
+__COMMITS_DESTINO__
+
+## Pendientes
+
+__PENDIENTES__

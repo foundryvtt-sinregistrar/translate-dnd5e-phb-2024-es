@@ -8,6 +8,7 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ### Added
 
+- Añadida una plantilla de homogeneización con documentación bilingüe, workflows parametrizados, inventario de fuentes comunes y procedimiento de adopción y actualización por proyecto, conservando sus excepciones.
 - Añadido `.editorconfig` con UTF-8, LF e indentación por tipo de archivo, conservando los espacios finales de Markdown. Se documenta su uso sin reformatear las traducciones ni el código existente.
 - Añadida validación automática en pull requests y pushes a ramas: pruebas Node/Python, construcción del paquete y conservación del ZIP y manifiesto validados como artefacto de la ejecución durante siete días.
 - Añadidas pruebas del constructor con repositorios Git temporales para referencias históricas, cambios locales, etiquetas, validación del ZIP y conservación de artefactos ante fallos.

@@ -1,0 +1,53 @@
+# __PRODUCTO_ES__ — Traducción al español
+
+**Español** | [English](README.en.md)
+
+Traducción para Foundry VTT mediante Babele. Identificador: `__MODULE_ID__`.
+
+## Estado
+
+Versión: **__VERSION__**. __ESTADO_ES__
+
+Consulta [CHANGELOG.md](CHANGELOG.md).
+
+## Requisitos
+
+__REQUISITOS_ES__
+
+## Instalación
+
+En la configuración de Foundry, abre **Add-on Modules → Install Module** y utiliza este manifiesto:
+
+```text
+__MANIFEST_URL__
+```
+
+Para instalar manualmente, descarga `__ASSET_NAME__` de las [releases](__REPOSITORY_URL__/releases). Con Foundry detenido, extrae la carpeta `__MODULE_ID__` en `Data/modules/`; el manifiesto debe quedar en `Data/modules/__MODULE_ID__/module.json`.
+
+## Activación
+
+__ACTIVACION_ES__
+
+## Actualización
+
+Actualiza desde Foundry o sustituye la carpeta con el ZIP publicado y Foundry detenido. Recarga el mundo. Las copias ya importadas no se sincronizan automáticamente: revisa las diferencias antes de sustituir documentos con cambios propios.
+
+## Contenido incluido
+
+__ALCANCE_ES__
+
+## Limitaciones
+
+__LIMITACIONES_ES__
+
+## Soporte y contribuciones
+
+Comunica errores en las [incidencias](__REPOSITORY_URL__/issues), indicando versiones, compendio/documento afectado, pasos, resultado esperado y observado, y si se trata de una copia importada.
+
+## Desarrollo
+
+La [guía de desarrollo](__REPOSITORY_URL__/blob/main/DEVELOPER.md) está disponible en el repositorio y se excluye del ZIP instalable.
+
+## Licencia y créditos
+
+__LICENCIA_CREDITOS_ES__

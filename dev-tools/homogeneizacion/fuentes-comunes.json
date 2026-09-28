@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es",
+  "source_commit": "7ccfc5aaf85b39561a35da0b78209aefd68e1321",
+  "hash_algorithm": "sha256",
+  "hash_input": "git show <source_commit>:<path>, without checkout line-ending conversion",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "sha256": "283b6019d9a744d9a04ad9148034473191c13453660583a49e8045f4a94a3ad1"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "8601249080a53d65b33b963112f29dd7861710c82b05d7659fce3999b781cfe0"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "000cc7344768685b66d647ca0c93f1a3270af34a48552a53072e719fa27327a7"
+    },
+    {
+      "path": "dev-tools/buildScripts/build_release.py",
+      "sha256": "226e481ab38fe57f9ce1acda9d85381adfde96faec88fdc615d6b96b82de7229"
+    },
+    {
+      "path": "tests/test_build_release.py",
+      "sha256": "9a48846f431e2c74790ace4c90bbdcecaa6e4465c83cc47a437838fbeb9a5234"
+    }
+  ]
+}

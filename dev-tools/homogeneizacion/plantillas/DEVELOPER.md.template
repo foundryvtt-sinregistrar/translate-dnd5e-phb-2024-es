@@ -1,0 +1,59 @@
+# Guía de desarrollo
+
+Proyecto: `__MODULE_ID__`. Uso e instalación: [README.md](README.md) y [README.en.md](README.en.md).
+
+## Entorno y compatibilidad
+
+__ENTORNO__
+
+El manifiesto es la referencia de identidad, versión, dependencias y compatibilidad. Diferencia versiones instaladas de versiones funcionalmente verificadas.
+
+## Preparación del trabajo
+
+Comprueba estado y ramas antes de crear la rama de trabajo desde `develop`. Conserva cambios locales ajenos y divide cada responsabilidad en un commit revisable.
+
+## Estructura y convertidores
+
+__ESTRUCTURA__
+
+__CONVERTIDORES__
+
+## Edición y fuentes
+
+Respeta `.editorconfig` y `.gitattributes`. Conserva IDs, UUID, rutas, claves, fórmulas, valores mecánicos y estructura HTML al traducir. Actualiza ambos README cuando cambien requisitos, estado o alcance. No mezcles una normalización general del formato con correcciones de contenido.
+
+__FUENTES_PRIVADAS__
+
+## Validación
+
+Desde la raíz del repositorio:
+
+```sh
+__NODE_TEST_COMMAND__
+__PYTHON_TEST_COMMAND__
+git diff --check
+```
+
+Registra qué comprueba cada suite y las omisiones. Las pruebas portables deben ejecutarse en un clon sin Foundry ni fuentes privadas.
+
+__PRUEBAS_FOUNDRY__
+
+## Construcción y distribución
+
+Después de confirmar los cambios y con el árbol limpio:
+
+```sh
+python -B __BUILD_SCRIPT__ --dist dist --ref HEAD
+```
+
+Inspecciona `dist/__ASSET_NAME__` y compara el manifiesto externo con el interno. Comprueba versión, lista de admitidos, documentos obligatorios y exclusión de herramientas, pruebas y fuentes privadas. Para release, selecciona su etiqueta con `--ref` o indica el SHA y `--release-tag`.
+
+__PARTICULARIDADES__
+
+## Publicación
+
+__PUBLICACION__
+
+## Mantenimiento del proceso común
+
+Conserva la procedencia, adaptaciones y verificaciones en [el registro de adopción](dev-tools/homogeneizacion/ADOPCION.md). Antes de incorporar mejoras del piloto, compara revisiones y repite las comprobaciones afectadas.

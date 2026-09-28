@@ -1,0 +1,50 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validate release
+    uses: ./.github/workflows/validate.yml
+    with:
+      release-tag: ${{ github.ref_name }}
+
+  release:
+    name: Publish validated release (Draft)
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download validated package
+        uses: actions/download-artifact@v4
+        with:
+          name: module-package
+          path: dist
+
+      - name: Verify expected asset exists
+        run: |
+          test -f "dist/__ASSET_NAME__"
+          test -f "dist/module.json"
+          echo "OK: release assets exist"
+
+      - name: Create GitHub Release (DRAFT) and upload asset
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: |
+            dist/__ASSET_NAME__
+            dist/module.json

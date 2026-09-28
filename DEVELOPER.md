@@ -282,6 +282,10 @@ Las instalaciones anteriores pueden seguir consultando `https://raw.githubuserco
 
 Este cambio prepara la siguiente publicación: no modifica releases remotas ni crea retroactivamente el adjunto de versiones anteriores. Hasta publicar una release con ambos adjuntos, la nueva URL puede no estar disponible. La versión de trabajo sigue siendo `1.14.2`, con los cambios pendientes en `[Unreleased]`; antes de publicar es obligatorio asignar la nueva versión y actualizar su URL de descarga.
 
+## Propagación a otros proyectos
+
+Para trasladar este proceso a otros módulos, utiliza la [plantilla y el procedimiento de homogeneización](dev-tools/homogeneizacion/README.md). Incluye modelos documentales, workflows parametrizados, fuentes comunes fijadas a un commit y un registro de adaptaciones; no aplica cambios automáticamente a otros repositorios.
+
 ## Diagnóstico
 
 | Síntoma | Comprobación |

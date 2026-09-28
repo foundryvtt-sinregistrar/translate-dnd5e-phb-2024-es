@@ -1,0 +1,53 @@
+# __PRODUCT_EN__ — Spanish Translation
+
+[Español](README.md) | **English**
+
+Translation for Foundry VTT using Babele. Module ID: `__MODULE_ID__`.
+
+## Status
+
+Version: **__VERSION__**. __STATUS_EN__
+
+See [CHANGELOG.md](CHANGELOG.md).
+
+## Requirements
+
+__REQUIREMENTS_EN__
+
+## Installation
+
+In Foundry's Setup screen, open **Add-on Modules → Install Module** and use this manifest:
+
+```text
+__MANIFEST_URL__
+```
+
+For manual installation, download `__ASSET_NAME__` from [releases](__REPOSITORY_URL__/releases). With Foundry stopped, extract the `__MODULE_ID__` folder into `Data/modules/`; the manifest must be at `Data/modules/__MODULE_ID__/module.json`.
+
+## Activation
+
+__ACTIVATION_EN__
+
+## Updating
+
+Update through Foundry or replace the folder with the published ZIP while Foundry is stopped. Reload the world. Previously imported copies do not synchronize automatically: review differences before replacing documents with your own changes.
+
+## Included content
+
+__SCOPE_EN__
+
+## Limitations
+
+__LIMITATIONS_EN__
+
+## Support and contributions
+
+Report problems in [issues](__REPOSITORY_URL__/issues), including versions, affected compendium/document, steps, expected and observed results, and whether it is an imported copy.
+
+## Development
+
+The [development guide](__REPOSITORY_URL__/blob/main/DEVELOPER.md) is available in the repository and excluded from the installable ZIP.
+
+## License and credits
+
+__LICENSE_CREDITS_EN__
