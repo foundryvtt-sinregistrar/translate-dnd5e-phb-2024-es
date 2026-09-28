@@ -188,11 +188,15 @@ python -m zipfile -t dist/translate-dnd5e-phb-2024-es.zip
 
 La segunda comprobación detecta problemas de integridad del ZIP, no valida su funcionamiento en Foundry. Comprueba además el manifiesto incluido, los scripts e idiomas declarados y la instalación del paquete en un entorno de prueba.
 
-### Exclusiones y límites actuales
+### Exclusiones de distribución
 
-`.gitattributes` excluye herramientas, configuración de Git y `DEVELOPER.md` de `git archive`. Los README, CHANGELOG y LICENSE se incluyen.
+`.gitattributes` establece LF para fuentes, JSON y documentación, y excluye herramientas, pruebas, configuración local, temporales y `DEVELOPER.md` de `git archive`. Los README, CHANGELOG y LICENSE se incluyen. Los archivos ya versionados estaban normalizados a LF; estas reglas mantienen ese criterio para cambios y checkouts posteriores.
 
-La limpieza de distribución sigue pendiente: `tests/` y `staged.txt` están versionados y actualmente entran en el ZIP. La regla de `.gitignore` para `staged.txt` no retira un archivo ya versionado. Deben corregirse las exclusiones y revisarse el índice antes de la siguiente publicación.
+`tests/` sigue versionado para ejecutar las comprobaciones, pero queda fuera del ZIP. `staged.txt` es un archivo auxiliar local: se ha retirado del índice conservando la copia de trabajo, y está ignorado y excluido de distribución.
+
+`.gitignore` protege las fuentes de `dev-tools/export/_data/` y `dev-tools/export/data/`, así como los informes locales de `dev-tools/_Informes/`. Permite versionar `dev-tools/export/data/.gitkeep` si se utiliza. Las exclusiones son explícitas; un archivo nuevo no queda oculto simplemente por empezar por `_`.
+
+Se conservan las excepciones de IDE para estilos, configuraciones de ejecución y archivos seleccionados de VS Code. Revisa cualquier archivo compartido antes de añadirlo al índice. `.gitignore` no retira archivos ya versionados y no determina el contenido de `git archive`; inspecciona el ZIP después de cambiar las exclusiones.
 
 ## Preparación y publicación de una versión
 
@@ -201,7 +205,7 @@ La versión actual pertenece a la serie `1.14.x`. Las notas del proyecto utiliza
 Procedimiento para preparar la siguiente release:
 
 1. Prepara la release en una rama de trabajo desde `develop`: establece la versión en `module.json` y una entrada con esa misma versión y fecha en `CHANGELOG.md`; actualiza los enlaces del historial, ambos README y esta guía cuando corresponda.
-2. Ejecuta las comprobaciones portables y las pruebas funcionales pertinentes. Revisa los enlaces y dependencias del manifiesto y resuelve las exclusiones pendientes descritas arriba.
+2. Ejecuta las comprobaciones portables y las pruebas funcionales pertinentes. Revisa los enlaces y dependencias del manifiesto y las exclusiones de distribución descritas arriba.
 3. Confirma los cambios, construye desde ese commit con el árbol limpio e inspecciona el contenido del ZIP.
 4. Integra los cambios revisados en `develop` y después en `main`. Comprueba que el commit que vas a etiquetar contiene los archivos validados; si la integración modifica su contenido, repite las comprobaciones afectadas y la construcción.
 5. Crea una etiqueta anotada `v<version>` en el commit validado de `main`. Comprueba que coincide exactamente con `module.json.version` antes de subirla.
