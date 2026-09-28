@@ -18,7 +18,7 @@ Las pruebas dentro de Foundry requieren además el módulo oficial **Player's Ha
 |---|---|---|
 | Git | Historial, revisión y construcción con `git archive` | Disponible en la terminal |
 | Node.js | Pruebas con `node:test` | Comprobadas localmente con 24.17.0 |
-| Python | Validación JSON y construcción del ZIP | Validación JSON comprobada con 3.14.6; el workflow de release usa 3.11 |
+| Python | Validación JSON, construcción del ZIP y pruebas del constructor | Comprobadas localmente con 3.14.6; el workflow de release usa 3.11 |
 
 Estas versiones describen los entornos utilizados; no constituyen una matriz completa de compatibilidad de las herramientas.
 
@@ -49,6 +49,7 @@ Para comprobar cambios dentro de Foundry, coloca el módulo en `Data/modules/tra
 | `scripts/converters.js` | Registro de convertidores |
 | `scripts/converters/` | Traducción de estructuras anidadas |
 | `tests/babele-registration.test.mjs` | Pruebas de registro, idioma y cobertura de convertidores |
+| `tests/test_build_release.py` | Pruebas del constructor con repositorios Git temporales |
 | `dev-tools/buildScripts/build_release.py` | Construcción desde una referencia Git |
 | `.github/workflows/release.yml` | Construcción y creación de una release en borrador al subir un tag |
 | `.gitattributes` | Exclusiones de `git archive` |
@@ -130,6 +131,12 @@ node --test tests/babele-registration.test.mjs
 
 La suite actual contiene 11 pruebas: registro diferido, variantes de español, exclusión de otros idiomas y existencia de los convertidores usados en los ocho compendios. No necesita fuentes privadas ni una instalación adyacente de Babele.
 
+Para cambios de empaquetado, ejecuta también la suite Python. Crea repositorios Git temporales y comprueba selección de commits, cambios locales, etiquetas, manifiestos, exclusiones y conservación de artefactos anteriores cuando falla una validación:
+
+```sh
+python -B -m unittest discover -s tests -p 'test_build_release.py' -v
+```
+
 Comprueba la sintaxis de los 11 JSON de distribución: el manifiesto, los ocho compendios y los dos archivos de idioma. Este comando usa la biblioteca estándar de Python y no modifica archivos:
 
 ```sh
@@ -163,7 +170,7 @@ La verificación visual de las últimas correcciones de traducción sigue pendie
 
 ## Construcción del paquete
 
-El [constructor actual](dev-tools/buildScripts/build_release.py) utiliza `git archive`. Para construir la versión del checkout, confirma los cambios que quieras incluir y comprueba que el árbol esté limpio:
+El [constructor](dev-tools/buildScripts/build_release.py) resuelve `--ref` a un commit y utiliza `git archive`. Tanto los metadatos como los archivos proceden de ese mismo commit. Para construir la versión del checkout, confirma los cambios que quieras incluir y comprueba que el árbol esté limpio:
 
 ```sh
 git status --short
@@ -174,10 +181,25 @@ Con el identificador y la versión actuales genera:
 
 - `dist/translate-dnd5e-phb-2024-es-1.14.2.zip`.
 - `dist/translate-dnd5e-phb-2024-es.zip`.
+- `dist/module.json`.
 
-Ambos contienen una carpeta raíz `translate-dnd5e-phb-2024-es/`. El builder no genera un manifiesto externo en `dist/`; el workflow adjunta el `module.json` del checkout.
+Los dos ZIP son copias idénticas y contienen una carpeta raíz `translate-dnd5e-phb-2024-es/`. El manifiesto externo es una copia exacta del incluido en el ZIP; el workflow adjunta ese archivo de `dist/`.
 
-El constructor lee `id` y `version` del archivo local, pero extrae los archivos de la referencia indicada. Para construir otra versión, cambia primero al commit correspondiente y utiliza `--ref HEAD` con el árbol limpio. `--allow-dirty` evita la comprobación de limpieza, pero no incorpora al archivo Git los cambios sin commit y puede desalinear los nombres del ZIP con su contenido; no lo utilices para preparar releases.
+Puedes seleccionar otro commit o tag con `--ref` sin cambiar el checkout. El nombre del ZIP y el manifiesto se obtienen de la referencia seleccionada. `--allow-dirty` permite una previsualización del contenido confirmado aunque haya cambios locales: no incorpora modificaciones del índice, del árbol de trabajo ni archivos sin seguimiento. Para preparar releases, utiliza el árbol limpio.
+
+Al seleccionar un tag, se exige que sea `v<version>` y que exista una entrada de esa versión en `CHANGELOG.md`. Si construyes por SHA, usa además `--release-tag v<version>` para comprobar que esa etiqueta coincide con la versión y apunta al commit elegido. El workflow utiliza esta opción.
+
+`--no-alias` omite el ZIP sin versión. `--name` cambia solamente la base del nombre de los ZIP: la carpeta interna conserva el identificador del módulo. Estas opciones no eliminan artefactos de ejecuciones anteriores.
+
+Antes de reemplazar archivos de salida, el constructor valida en un directorio temporal:
+
+- Estructura e integridad del ZIP, sin rutas anómalas ni enlaces simbólicos.
+- Presencia de `module.json`, ambos README, `CHANGELOG.md` y `LICENSE.md`.
+- Contenido limitado a esos archivos y a `compendium/`, `lang/` y `scripts/`.
+- Sintaxis de todos los JSON y presencia de scripts e idiomas declarados.
+- Coincidencia del manifiesto empaquetado con el del commit, permitiendo diferencias de finales de línea LF/CRLF; el manifiesto externo se copia del ZIP sin modificaciones.
+
+Una referencia histórica que incluya archivos ajenos a esa lista no supera las comprobaciones. Si la validación falla, los artefactos existentes se conservan.
 
 Inspecciona el archivo antes de publicarlo:
 
@@ -208,14 +230,14 @@ Procedimiento para preparar la siguiente release:
 2. Ejecuta las comprobaciones portables y las pruebas funcionales pertinentes. Revisa los enlaces y dependencias del manifiesto y las exclusiones de distribución descritas arriba.
 3. Confirma los cambios, construye desde ese commit con el árbol limpio e inspecciona el contenido del ZIP.
 4. Integra los cambios revisados en `develop` y después en `main`. Comprueba que el commit que vas a etiquetar contiene los archivos validados; si la integración modifica su contenido, repite las comprobaciones afectadas y la construcción.
-5. Crea una etiqueta anotada `v<version>` en el commit validado de `main`. Comprueba que coincide exactamente con `module.json.version` antes de subirla.
+5. Crea una etiqueta anotada `v<version>` en el commit validado de `main`. Construye con `--ref` apuntando a esa etiqueta para comprobar su versión y la entrada de changelog antes de subirla.
 6. Sube la rama y la etiqueta cuando corresponda publicar. El push de un tag `v*` dispara el workflow de release.
 7. Revisa el borrador generado: versión, notas, ZIP y `module.json` adjunto. El manifiesto adjunto debe coincidir con el incluido en el ZIP.
 8. Publica el borrador después de comprobar sus archivos y el acceso a las URLs de instalación y descarga. Coordina el manifiesto estable con la release disponible.
 
-El [workflow actual](.github/workflows/release.yml) extrae el commit etiquetado, prepara Python 3.11, construye el ZIP y adjunta el alias sin versión y `module.json` a una **release en borrador**, con notas automáticas.
+El [workflow actual](.github/workflows/release.yml) extrae el commit etiquetado, prepara Python 3.11 y ejecuta el constructor indicando el SHA y el tag. Adjunta el alias sin versión y `dist/module.json` a una **release en borrador**, con notas automáticas.
 
-Actualmente no ejecuta la suite Node, no compara tag y versión y no hay un workflow de validación para PR o push ordinarios. Las comprobaciones anteriores deben realizarse antes de subir el tag hasta que se incorporen a CI.
+El constructor ya valida la relación entre tag, commit y versión, además del contenido del paquete. El workflow todavía no ejecuta las suites Node/Python y no hay validación automática para PR o push ordinarios. Ejecuta esas pruebas antes de subir el tag hasta que se incorporen a CI.
 
 El manifiesto de instalación apunta a `main/module.json` y la descarga al alias de la última release. Adelantar la versión del manifiesto estable a una release aún no publicada puede desincronizarlos; la homogeneización del proceso de publicación deberá resolver esa coordinación.
 

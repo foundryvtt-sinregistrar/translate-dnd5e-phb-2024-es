@@ -6,6 +6,11 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ## [Unreleased]
 
+### Added
+
+- Añadidas pruebas del constructor con repositorios Git temporales para referencias históricas, cambios locales, etiquetas, validación del ZIP y conservación de artefactos ante fallos.
+- Generado `dist/module.json` como copia exacta del manifiesto incluido en el ZIP y utilizado como adjunto en el workflow de release.
+
 ### Changed
 
 - Homogeneizada la estructura de `README.md` y `README.en.md`, con requisitos alineados con el manifiesto, instalación, activación, actualización, soporte y enlaces entre idiomas. Se aclaran la verificación visual pendiente y el alcance sobre documentos ya importados.
@@ -14,9 +19,11 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 - Simplificado `.gitignore` con reglas explícitas para artefactos, cachés, fuentes e informes locales, conservando las excepciones de configuración compartida del IDE. Se eliminan las exclusiones genéricas de nombres que empiezan por `_`.
 - Definidos finales de línea LF para fuentes, JSON y documentación en `.gitattributes`, manteniendo la normalización existente en Git.
 - Normalizado el título Markdown de `LICENSE.md`, conservando el texto de la licencia MIT.
+- El constructor valida los archivos admitidos, los JSON, los documentos obligatorios y las entradas del manifiesto antes de reemplazar los artefactos. `--name` cambia el nombre del ZIP conservando la carpeta interna con el identificador del módulo.
 
 ### Fixed
 
+- Corregida la construcción con `--ref`: identidad, versión, manifiesto y contenido proceden del mismo commit, incluso con un checkout distinto o cambios locales permitidos. Se comprueba la correspondencia entre etiqueta, versión, commit y entrada de changelog al preparar releases.
 - Completado el aviso de copyright de `LICENSE.md` con `2026 foundryvtt-sinregistrar`, sustituyendo los marcadores de plantilla.
 - Corregido el enlace de licencia de `module.json` para apuntar al archivo existente `LICENSE.md`.
 - Excluidos del ZIP instalable las pruebas y los archivos auxiliares de desarrollo. `staged.txt` deja de versionarse y conserva su copia local; se mantienen en el paquete ambos README, el changelog y la licencia.
