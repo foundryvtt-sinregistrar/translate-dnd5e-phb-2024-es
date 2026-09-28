@@ -13,9 +13,11 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 - Establecida la convención de nuevas entradas del changelog en español, manteniendo las categorías y el historial de versiones existentes.
 - Simplificado `.gitignore` con reglas explícitas para artefactos, cachés, fuentes e informes locales, conservando las excepciones de configuración compartida del IDE. Se eliminan las exclusiones genéricas de nombres que empiezan por `_`.
 - Definidos finales de línea LF para fuentes, JSON y documentación en `.gitattributes`, manteniendo la normalización existente en Git.
+- Normalizado el título Markdown de `LICENSE.md`, conservando el aviso de copyright y el texto de la licencia MIT.
 
 ### Fixed
 
+- Corregido el enlace de licencia de `module.json` para apuntar al archivo existente `LICENSE.md`.
 - Excluidos del ZIP instalable las pruebas y los archivos auxiliares de desarrollo. `staged.txt` deja de versionarse y conserva su copia local; se mantienen en el paquete ambos README, el changelog y la licencia.
 
 ## [1.14.2] - 2026-09-21
