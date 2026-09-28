@@ -8,11 +8,13 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ### Added
 
+- Añadida validación automática en pull requests y pushes a ramas: pruebas Node/Python, construcción del paquete y conservación del ZIP y manifiesto validados como artefacto de la ejecución durante siete días.
 - Añadidas pruebas del constructor con repositorios Git temporales para referencias históricas, cambios locales, etiquetas, validación del ZIP y conservación de artefactos ante fallos.
 - Generado `dist/module.json` como copia exacta del manifiesto incluido en el ZIP y utilizado como adjunto en el workflow de release.
 
 ### Changed
 
+- La release reutiliza el workflow de validación y crea el borrador únicamente después de superar las comprobaciones, adjuntando el paquete ya validado. El permiso de escritura queda limitado al job que crea el borrador.
 - Homogeneizada la estructura de `README.md` y `README.en.md`, con requisitos alineados con el manifiesto, instalación, activación, actualización, soporte y enlaces entre idiomas. Se aclaran la verificación visual pendiente y el alcance sobre documentos ya importados.
 - Ampliada y redactada en español la guía `DEVELOPER.md`: entorno, estructura, reglas de traducción, convertidores, comandos de validación, construcción, publicación y diagnóstico. Se documentan las limitaciones actuales del empaquetado y la automatización.
 - Establecida la convención de nuevas entradas del changelog en español, manteniendo las categorías y el historial de versiones existentes.

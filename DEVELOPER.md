@@ -17,8 +17,8 @@ Las pruebas dentro de Foundry requieren además el módulo oficial **Player's Ha
 | Herramienta de desarrollo | Uso | Referencia de entorno |
 |---|---|---|
 | Git | Historial, revisión y construcción con `git archive` | Disponible en la terminal |
-| Node.js | Pruebas con `node:test` | Comprobadas localmente con 24.17.0 |
-| Python | Validación JSON, construcción del ZIP y pruebas del constructor | Comprobadas localmente con 3.14.6; el workflow de release usa 3.11 |
+| Node.js | Pruebas con `node:test` | CI usa la serie 24; comprobadas localmente con 24.17.0 |
+| Python | Validación JSON, construcción del ZIP y pruebas del constructor | CI usa 3.11; comprobadas localmente con 3.14.6 |
 
 Estas versiones describen los entornos utilizados; no constituyen una matriz completa de compatibilidad de las herramientas.
 
@@ -51,7 +51,8 @@ Para comprobar cambios dentro de Foundry, coloca el módulo en `Data/modules/tra
 | `tests/babele-registration.test.mjs` | Pruebas de registro, idioma y cobertura de convertidores |
 | `tests/test_build_release.py` | Pruebas del constructor con repositorios Git temporales |
 | `dev-tools/buildScripts/build_release.py` | Construcción desde una referencia Git |
-| `.github/workflows/release.yml` | Construcción y creación de una release en borrador al subir un tag |
+| `.github/workflows/validate.yml` | Pruebas y construcción para PR, pushes y releases |
+| `.github/workflows/release.yml` | Validación y creación de una release en borrador al subir un tag |
 | `.gitattributes` | Exclusiones de `git archive` |
 | `.gitignore` | Exclusiones de nuevos archivos locales |
 | `README.md`, `README.en.md` | Documentación de uso en español e inglés |
@@ -153,6 +154,24 @@ git diff
 
 Si ya has preparado los archivos para un commit, revisa también `git diff --cached --check` y `git diff --cached`. Un JSON sintácticamente válido no demuestra integridad de IDs, referencias, fórmulas, valores numéricos ni HTML: compara esos elementos en los cambios de contenido.
 
+### Validación automática en GitHub
+
+[validate.yml](.github/workflows/validate.yml) se ejecuta en pull requests y pushes a cualquier rama. También acepta llamadas desde [release.yml](.github/workflows/release.yml) mediante un [workflow reutilizable de GitHub Actions](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows).
+
+En un runner Ubuntu con Node 24 y Python 3.11:
+
+1. Extrae el commit de la ejecución con su historial y etiquetas.
+2. Ejecuta `node --test tests/*.test.mjs`.
+3. Ejecuta `python -B -m unittest discover -s tests -p 'test_*.py' -v`.
+4. Construye y valida el paquete desde ese commit. En releases añade `--release-tag` para comprobar la etiqueta, la versión y el changelog.
+5. Guarda el ZIP sin versión y su manifiesto externo como artefacto `module-package`, disponible durante siete días para inspección.
+
+Los pushes a tags `v*` entran por el workflow de release y llaman a esa misma validación. No crean una segunda ejecución independiente de `Validate` para el tag. En una pull request, las comprobaciones usan el commit de integración preparado por GitHub.
+
+La validación tiene permisos de lectura del repositorio. Las nuevas ejecuciones de validación de una misma referencia sustituyen a las anteriores en curso; las releases de un mismo tag se serializan sin cancelar la ejecución activa. Si una comprobación falla, no se crea el borrador de release.
+
+Los workflows quedan activos en GitHub al subir estos cambios. Hacer obligatorio el resultado para fusionar una pull request requiere configurar por separado las reglas de protección del repositorio. La CI ejecuta las comprobaciones portables y de empaquetado; las pruebas funcionales en Foundry siguen siendo una revisión aparte.
+
 ### Comprobación funcional en Foundry
 
 Para cambios de contenido o código de ejecución:
@@ -235,9 +254,9 @@ Procedimiento para preparar la siguiente release:
 7. Revisa el borrador generado: versión, notas, ZIP y `module.json` adjunto. El manifiesto adjunto debe coincidir con el incluido en el ZIP.
 8. Publica el borrador después de comprobar sus archivos y el acceso a las URLs de instalación y descarga. Coordina el manifiesto estable con la release disponible.
 
-El [workflow actual](.github/workflows/release.yml) extrae el commit etiquetado, prepara Python 3.11 y ejecuta el constructor indicando el SHA y el tag. Adjunta el alias sin versión y `dist/module.json` a una **release en borrador**, con notas automáticas.
+El [workflow de release](.github/workflows/release.yml) llama a la validación compartida con el tag de la publicación. Una vez superadas las pruebas y la construcción, otro job descarga el artefacto `module-package` de esa misma ejecución y adjunta el alias sin versión y `dist/module.json` a una **release en borrador**, con notas automáticas. Ese job consume los archivos ya validados, sin reconstruirlos, y es el único que recibe permiso de escritura sobre el repositorio.
 
-El constructor ya valida la relación entre tag, commit y versión, además del contenido del paquete. El workflow todavía no ejecuta las suites Node/Python y no hay validación automática para PR o push ordinarios. Ejecuta esas pruebas antes de subir el tag hasta que se incorporen a CI.
+La release queda bloqueada si fallan las suites Node/Python, la relación entre tag, commit y versión, la validación del paquete o la descarga de sus artefactos. La falta de cualquiera de los dos adjuntos también impide completar el job de publicación. El borrador requiere una revisión antes de publicarlo.
 
 El manifiesto de instalación apunta a `main/module.json` y la descarga al alias de la última release. Adelantar la versión del manifiesto estable a una release aún no publicada puede desincronizarlos; la homogeneización del proceso de publicación deberá resolver esa coordinación.
 
