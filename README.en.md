@@ -1,109 +1,119 @@
-# 🇬🇧 D&D 5e PHB 2024 -- Spanish Translation (Babele)
+# D&D 5e Player's Handbook (2024) — Spanish Translation
 
-![Foundry v14](https://img.shields.io/badge/Foundry-v14-green) ![dnd5e
-6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue) ![Babele
-Required](https://img.shields.io/badge/Babele-required-orange) ![PHB2024](https://img.shields.io/badge/PHB2024-required-orange)
-[![Latest Release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
-[![Downloads Latest Release](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/latest/total?label=latest%20release%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
-[![Downloads Total](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/total?label=total%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases)
+[Español](README.md) | **English**
 
-### This module is not affiliated with Wizards of the Coast.
-### This module is an unofficial translation of the Player's Handbook 2024.
+![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
+![dnd5e 6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue)
+![Babele required](https://img.shields.io/badge/Babele-required-orange)
+![PHB 2024 required](https://img.shields.io/badge/PHB2024-required-orange)
+[![Latest release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
+[![Latest release downloads](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/latest/total?label=latest%20release%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
+[![Total downloads](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/total?label=total%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases)
 
-This module contains translations of content from the **Player's Handbook 2024**, which is proprietary material of Wizards of the Coast.
+Unofficial Spanish translation of the **Player's Handbook (2024)** module for Foundry VTT and the **dnd5e** system. It uses **Babele** to apply translations to the official product's compendiums. The official module must be installed and enabled.
 
-The translation is offered in compliance with the [Wizards of the Coast Fan Content Policy](https://dnd.wizards.com/en/digital-tools-licensing).
+## Status
+
+Module version: **1.14.2**. Includes translations for all eight handbook compendiums and corrections to text that remained in English.
+
+Automated tests cover registration, language selection, and converter coverage. **Visual verification of the latest corrections in Foundry is still pending**; these tests do not establish that all content has undergone a full functional review.
+
+See [CHANGELOG.md](CHANGELOG.md) for the changes in each version.
+
+## Requirements
+
+Declared compatibility for this version:
+
+| Dependency | Minimum version | Verified version |
+|---|---|---|
+| Foundry VTT | 14.367 | 14.368 |
+| dnd5e system | 6.0.0 | 6.0.3 |
+| Babele | 2.9.1 | 2.9.1 |
+
+The official **Player's Handbook (2024)** module (`dnd-players-handbook`) must also be installed and enabled, along with Babele's dependencies. Install the official product separately.
+
+The translation activates when Foundry's language is set to Spanish (`es` or a regional variant such as `es-ES`).
+
+## Installation
+
+### Through Foundry using the manifest
+
+1. On Foundry's Setup screen, open **Add-on Modules → Install Module**.
+2. Enter this URL in the manifest field and install the module:
+
+   ```text
+   https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/main/module.json
+   ```
+
+3. Follow the [activation](#activation) steps.
+
+### From a ZIP
+
+1. Open the [latest published release](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest).
+2. Download `translate-dnd5e-phb-2024-es.zip`.
+3. With Foundry stopped, extract the module folder into `Data/modules/` within your installation's user data directory. The manifest should be at `Data/modules/translate-dnd5e-phb-2024-es/module.json`.
+4. Start Foundry and follow the [activation](#activation) steps.
+
+## Activation
+
+1. Open a world that uses the dnd5e system.
+2. Enable Babele and its dependencies, the official Player's Handbook (2024) module, and this translation.
+3. Select **Spanish** as Foundry's language and reload the world.
+4. Open a handbook compendium to check the translation.
+
+The translation registers automatically for Spanish and its regional variants. The Spanish translation is not applied when another language is selected.
+
+## Updating
+
+Update the module through Foundry's module management and reload the world. For a manual installation, download the new version's ZIP and replace the module folder with Foundry stopped.
+
+Before updating Foundry, dnd5e, or the official product, check this translation's requirements and release notes.
+
+Updating the module does not automatically synchronize document copies already imported into the world or added to characters. Compare those copies with the current compendium entry before replacing them, especially if they contain your own changes.
+
+## Included content
+
+The translation covers the following compendiums from the official module:
+
+- Classes.
+- Spells.
+- Feats.
+- Equipment.
+- Characters and NPCs.
+- Origins.
+- Tables.
+- Rules and journals.
+
+Babele mappings and converters apply the text to documents and nested elements while preserving their identifiers and references.
+
+## Limitations
+
+- The official product is required; this module provides the translations that Babele applies to its compendiums.
+- Verified versions are listed in the requirements table. Compatibility with other combinations needs to be checked.
+- Having translations in all eight compendiums does not mean that every visual and functional review is complete. The review status appears near the start of this document.
+- Previously imported copies need the review described under [Updating](#updating).
+
+## Support and contributions
+
+Report translation errors or technical problems through the [repository's issues](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/issues). Include:
+
+- Versions of this translation, Foundry, dnd5e, Babele, and the official module.
+- The affected compendium and document names.
+- Steps to reproduce the problem, the observed result, and the expected result.
+- Whether it occurs in the compendium or in an imported copy.
+
+Proposed corrections can be submitted as a pull request to the repository.
+
+## Development
+
+The [developer guide](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/blob/main/DEVELOPER.md) explains the structure, converters, translation rules, and validation commands. It is available in the repository and excluded from the installable ZIP.
+
+## License and credits
+
+The MIT license included in the repository is available in [LICENSE.md](LICENSE.md).
+
+This project contains translations of **Player's Handbook (2024)** material owned by Wizards of the Coast. It is an unofficial translation and is not affiliated with Wizards of the Coast. See also the [Wizards of the Coast Fan Content Policy](https://dnd.wizards.com/en/digital-tools-licensing).
 
 Dungeons & Dragons Player's Handbook 2024 © Wizards of the Coast LLC. All rights reserved.
 
----
-
-## 📦 Description
-
-Spanish translation of the **Player's Handbook 2024** for the **dnd5e** system in Foundry VTT.
-
-Version **1.14.2** updates compatibility and corrects remaining English text across the eight compendiums.
-
-Translations are applied through **Babele**, using mappings and converters for nested documents.
-
-------------------------------------------------------------------------
-
-## 📦 Module Content
-
-This module provides structured translations for the eight compendiums of the official Player’s Handbook (2024) module:
-
-| Compendium | Status |
-|-----------|:------:|
-| Classes | ✅ |
-| Spells | ✅ |
-| Feats | ✅ |
-| Equipment | ✅ |
-| Characters and NPCs | ✅ |
-| Origins | ✅ |
-| Tables | ✅ |
-| Rules (Journal Entries) | ✅ |
-
-------------------------------------------------------------------------
-
-## 🧠 Technical Architecture
-
-Babele mappings select the translated fields. Eight converters handle activities, effects, advancements, journal pages and entries, actors and actor details, and roll-table results while preserving document IDs and references.
-
-Registration uses `babele.init` and waits until `setup` to read the configured core language. Translations are registered automatically for Spanish (`es`) and regional variants such as `es-ES`.
-
-See [DEVELOPER.md](DEVELOPER.md) for converter names, validation commands, and the translation workflow.
-
-------------------------------------------------------------------------
-
-## ⚙️ Requirements
-
-- Foundry VTT: minimum 14.367; verified 14.368.
-- dnd5e system: minimum 6.0.0; verified 6.0.3.
-- Babele: minimum and verified version 2.9.1.
-- Official Player’s Handbook (2024) module, installed and activated.
-- Foundry core language set to Spanish (`es` or a regional variant).
-
-------------------------------------------------------------------------
-
-## 🚀 Installation
-
-### 🔹 Option 1 — Download ZIP
-
-1. Go to the **Releases** section of the repository.
-2. Download the `.zip` file of the latest version.
-3. Extract to:
-
-   FoundryVTT/Data/modules/
-
-4. Activate Babele, the official Player’s Handbook (2024), and this translation module in your world.
-5. Select Spanish as Foundry’s core language and reload the world. The translation is registered automatically.
-
----
-
-### 🔹 Option 2 — Direct installation from Foundry (URL)
-
-1. In Foundry, go to **Add-on Modules → Install Module → Install from Manifest URL**.
-2. Enter the following URL:
-
-   https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/main/module.json
-
-3. Install the module.
-4. Activate Babele, the official Player’s Handbook (2024), and this translation module. Select Spanish as Foundry’s core language and reload the world.
-
-------------------------------------------------------------------------
-
-## 📜 License
-
-This project is an unofficial translation of content from the Player's Handbook 2024.
-
-Consult the [Wizards of the Coast Fan Content Policy](https://dnd.wizards.com/en/digital-tools-licensing) for more information on permissions and restrictions.
-
----
-
-## 📜 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md).
-
-## 👤 Author
-
-foundryvtt-sinregistrar
+Module author: [foundryvtt-sinregistrar](https://github.com/foundryvtt-sinregistrar).
