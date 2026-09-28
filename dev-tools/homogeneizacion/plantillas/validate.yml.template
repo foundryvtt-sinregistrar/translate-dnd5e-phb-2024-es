@@ -7,6 +7,11 @@ on:
   pull_request:
   workflow_call:
     inputs:
+      revision:
+        description: Optional commit or tag for an explicit workflow call
+        required: false
+        default: ""
+        type: string
       release-tag:
         description: Release tag to verify when called by the release workflow
         required: false
@@ -29,7 +34,7 @@ jobs:
       - name: Checkout selected commit
         uses: actions/checkout@v5
         with:
-          ref: ${{ github.sha }}
+          ref: ${{ inputs.revision || github.sha }}
           fetch-depth: 0
           persist-credentials: false
 
@@ -43,7 +48,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Test portable module behavior
+      - name: Test Babele registration and converters
         run: __NODE_TEST_COMMAND__
 
       - name: Test release builder
@@ -53,8 +58,9 @@ jobs:
         shell: bash
         env:
           RELEASE_TAG: ${{ inputs.release-tag }}
+          SELECTED_REF: ${{ inputs.revision || github.sha }}
         run: |
-          args=(--dist dist --ref "$GITHUB_SHA")
+          args=(--dist dist --ref "$SELECTED_REF")
           if [[ -n "$RELEASE_TAG" ]]; then
             args+=(--release-tag "$RELEASE_TAG")
           fi
@@ -65,7 +71,8 @@ jobs:
         with:
           name: module-package
           path: |
-            dist/__ASSET_NAME__
+            dist/*.zip
             dist/module.json
+            dist/SHA256SUMS.txt
           if-no-files-found: error
           retention-days: 7

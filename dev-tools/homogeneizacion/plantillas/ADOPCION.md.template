@@ -2,7 +2,7 @@
 
 - Proyecto: `__MODULE_ID__`.
 - Repositorio: __REPOSITORY_URL__.
-- Plantilla: versión 1 del piloto PHB.
+- Plantilla: versión 2 del piloto PHB.
 - Commit de las plantillas: `__KIT_COMMIT__`.
 - Commit base de los archivos comunes: `__BASE_COMMIT__`.
 
