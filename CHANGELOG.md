@@ -8,6 +8,8 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ## [1.14.3] - 2026-09-28
 
+- Comprobados en Foundry 1548 documentos, nombres y campos explícitos; importada y revisada una muestra. Evidencia y límites en `dev-tools/homogeneizacion/VALIDACION-FOUNDRY.md`.
+
 ### Added
 
 - Añadidos perfiles de publicación por proyecto, SHA-256 de los artefactos y pruebas de alias, canal y referencia del perfil. La validación reutilizable conserva ambos ZIP y permite seleccionar explícitamente una revisión.

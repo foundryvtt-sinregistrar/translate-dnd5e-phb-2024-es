@@ -16,9 +16,11 @@ Traducción no oficial al español del módulo **Player's Handbook (2024)** para
 
 Versión del módulo: **1.14.3**. Incluye traducciones para los ocho compendios del manual y correcciones de textos que permanecían en inglés.
 
-Hay pruebas automatizadas de registro, selección del idioma y cobertura de convertidores. La **verificación visual de las últimas correcciones en Foundry sigue pendiente**; estas pruebas no acreditan una revisión funcional completa del contenido.
+Hay pruebas automatizadas de registro, selección del idioma y cobertura de convertidores. La revisión visual de una muestra se registra a continuación; estas pruebas no acreditan una revisión funcional completa del contenido.
 
 Consulta [CHANGELOG.md](CHANGELOG.md) para conocer los cambios de cada versión.
+
+Comprobación del 28 de septiembre de 2026 en Foundry 14.368, dnd5e 6.0.3 y Babele 2.9.1: lectura de 1548 documentos en 8 compendios, comprobación de nombres y campos de texto explícitos e importación y revisión visual de una muestra. No es una revisión lingüística ni funcional exhaustiva; permanecen algunas etiquetas inglesas del contenido original.
 
 ## Requisitos
 

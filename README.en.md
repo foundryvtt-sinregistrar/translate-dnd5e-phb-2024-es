@@ -16,9 +16,11 @@ Unofficial Spanish translation of the **Player's Handbook (2024)** module for Fo
 
 Module version: **1.14.3**. Includes translations for all eight handbook compendiums and corrections to text that remained in English.
 
-Automated tests cover registration, language selection, and converter coverage. **Visual verification of the latest corrections in Foundry is still pending**; these tests do not establish that all content has undergone a full functional review.
+Automated tests cover registration, language selection, and converter coverage. Visual review of a sample is recorded below; these tests do not establish that all content has undergone a full functional review.
 
 See [CHANGELOG.md](CHANGELOG.md) for the changes in each version.
+
+Checked on September 28, 2026 with Foundry 14.368, dnd5e 6.0.3 and Babele 2.9.1: loaded 1548 documents across 8 compendiums, checked names and explicit text fields, and imported and visually reviewed one sample. This is not an exhaustive linguistic or functional review; some English labels from the original content remain.
 
 ## Requirements
 
