@@ -36,3 +36,7 @@ DEVELOPER.md export-ignore
 staged.txt export-ignore
 
 # Se distribuyen README.md, README.en.md, CHANGELOG.md y LICENSE.md.
+
+# Archivos auxiliares específicos
+downloads-*.json export-ignore
+_toDoo.md export-ignore

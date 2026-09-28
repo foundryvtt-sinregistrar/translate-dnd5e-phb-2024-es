@@ -214,6 +214,7 @@ Con el identificador y la versión actuales genera:
 - `dist/translate-dnd5e-phb-2024-es-1.14.2.zip`.
 - `dist/translate-dnd5e-phb-2024-es.zip`.
 - `dist/module.json`.
+- `dist/SHA256SUMS.txt`, con las huellas de ambos ZIP y del manifiesto.
 
 Los dos ZIP son copias idénticas y contienen una carpeta raíz `translate-dnd5e-phb-2024-es/`. El manifiesto externo es una copia exacta del incluido en el ZIP; el workflow adjunta ese archivo de `dist/`.
 
@@ -283,6 +284,10 @@ Las instalaciones anteriores pueden seguir consultando `https://raw.githubuserco
 Este cambio prepara la siguiente publicación: no modifica releases remotas ni crea retroactivamente el adjunto de versiones anteriores. Hasta publicar una release con ambos adjuntos, la nueva URL puede no estar disponible. La versión de trabajo sigue siendo `1.14.2`, con los cambios pendientes en `[Unreleased]`; antes de publicar es obligatorio asignar la nueva versión y actualizar su URL de descarga.
 
 ## Propagación a otros proyectos
+
+El constructor compartido admite ahora `dev-tools/buildScripts/release-profile.json`, leído desde el commit seleccionado. Declara `archive_name`, `manifest_channel` (`latest` o `main`) y `variant` (`standard` o `text-only`). PHB conserva su alias y canal estable. Tasha usa su alias histórico; DM conserva el canal preliminar en main; Tomb añade su transformador de solo texto. El manifiesto y el ZIP se verifican contra el perfil correspondiente. La suite común tiene 24 pruebas, incluidos alias, canales y SHA-256.
+
+CI conserva ambos ZIP, el manifiesto y `SHA256SUMS.txt`; el job publicador comprueba las huellas antes de adjuntarlos al borrador. El workflow reutilizable acepta además una revisión explícita para las llamadas manuales de DM. En PR y pushes ordinarios utiliza el SHA de la ejecución.
 
 Para trasladar este proceso a otros módulos, utiliza la [plantilla y el procedimiento de homogeneización](dev-tools/homogeneizacion/README.md). Incluye modelos documentales, workflows parametrizados, fuentes comunes fijadas a un commit y un registro de adaptaciones; no aplica cambios automáticamente a otros repositorios.
 

@@ -1,6 +1,7 @@
 """Exercise the release CLI against disposable Git repositories."""
 
 import json
+import hashlib
 from pathlib import Path
 import subprocess
 import sys
@@ -40,7 +41,7 @@ class BuildReleaseTests(unittest.TestCase):
             self.write(name, '# Fixture\n')
         self.write('CHANGELOG.md', '# Changelog\n\n## [1.0.0] - 2026-09-28\n')
         self.write('.gitignore', 'dist/\n')
-        self.write('.gitattributes', '.gitignore export-ignore\n.gitattributes export-ignore\ntests/ export-ignore\n')
+        self.write('.gitattributes', '.gitignore export-ignore\n.gitattributes export-ignore\ntests/ export-ignore\ndev-tools/ export-ignore\n')
         self.write('tests/private-fixture.txt', 'must not be distributed\n')
         self.initial = self.commit()
 
@@ -204,6 +205,44 @@ class BuildReleaseTests(unittest.TestCase):
         self.git('tag', 'v1.0.0')
         self.failure('Release download must point', '--ref', 'v1.0.0')
         self.assertEqual(before, {path.name: path.read_bytes() for path in output.iterdir()})
+
+    def test_profile_preserves_historical_alias(self):
+        alias = MODULE_ID + '-es'
+        self.write_json('dev-tools/buildScripts/release-profile.json', {'archive_name': alias})
+        self.meta['download'] = f'{REPOSITORY}/releases/download/v1.0.0/{alias}.zip'
+        self.write_json('module.json', self.meta)
+        self.initial = self.commit()
+        self.git('tag', 'v1.0.0')
+        self.success('--ref', 'v1.0.0')
+        self.assert_payload(base=alias)
+
+    def test_main_channel_is_explicit_and_version_download_remains_required(self):
+        self.write_json('dev-tools/buildScripts/release-profile.json', {'manifest_channel': 'main'})
+        self.meta['manifest'] = 'https://raw.githubusercontent.com/example/test-translation/main/module.json'
+        self.write_json('module.json', self.meta)
+        self.initial = self.commit()
+        self.git('tag', 'v1.0.0')
+        self.success('--ref', 'v1.0.0')
+        self.assert_payload()
+        self.write_json('module.json', dict(self.meta, download=f'{REPOSITORY}/releases/latest/download/{MODULE_ID}.zip'))
+        self.commit()
+        self.git('tag', '-f', 'v1.0.0')
+        self.failure('Release download must point', '--ref', 'v1.0.0')
+
+    def test_profile_is_read_from_selected_commit(self):
+        self.write_json('dev-tools/buildScripts/release-profile.json', {'archive_name': 'later-alias'})
+        self.commit()
+        self.success('--ref', self.initial)
+        self.assert_payload()
+
+    def test_checksums_cover_each_output_asset(self):
+        self.success()
+        output = self.root / 'dist'
+        lines = (output / 'SHA256SUMS.txt').read_text().splitlines()
+        self.assertEqual(len(lines), 3)
+        for line in lines:
+            digest, name = line.split('  ')
+            self.assertEqual(digest, hashlib.sha256((output / name).read_bytes()).hexdigest())
 
     def test_unexpected_distribution_file_is_rejected(self):
         self.write('staged.txt', 'local diff accidentally tracked\n')

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import shutil
@@ -43,7 +44,23 @@ def load_manifest(root: Path, commit: str) -> tuple[bytes, dict]:
     return manifest, meta
 
 
-def check_release(root: Path, ref: str, commit: str, meta: dict, release_tag: str | None) -> bool:
+def load_profile(root: Path, commit: str) -> dict:
+    path = "dev-tools/buildScripts/release-profile.json"
+    profile = {"archive_name": "", "manifest_channel": "latest", "variant": "standard"}
+    if git(root, "ls-tree", "--name-only", commit, "--", path).strip():
+        custom = json.loads(git(root, "show", f"{commit}:{path}"))
+        if not isinstance(custom, dict) or custom.keys() - profile.keys():
+            raise ValueError("Invalid release profile")
+        profile.update(custom)
+    if not isinstance(profile["archive_name"], str) or (profile["archive_name"] and not SAFE_NAME.fullmatch(profile["archive_name"])):
+        raise ValueError("Invalid profile archive name")
+    if profile["manifest_channel"] not in {"latest", "main"} or profile["variant"] not in {"standard", "text-only"}:
+        raise ValueError("Invalid release profile channel or variant")
+    return profile
+
+
+def check_release(root: Path, ref: str, commit: str, meta: dict, release_tag: str | None,
+                  archive_name: str | None = None, manifest_channel: str = "latest") -> bool:
     # A SHA/HEAD is also supported; CI supplies --release-tag independently.
     symbolic = git(root, "rev-parse", "--symbolic-full-name", "--verify", "--end-of-options", ref).decode().strip()
     tags = []
@@ -63,9 +80,11 @@ def check_release(root: Path, ref: str, commit: str, meta: dict, release_tag: st
         repository = meta.get("url", "")
         if not isinstance(repository, str) or not re.fullmatch(r"https://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
             raise ValueError("Release url must be a GitHub repository URL without a trailing slash")
-        if meta.get("manifest") != f"{repository}/releases/latest/download/module.json":
-            raise ValueError("Release manifest must point to the latest release asset")
-        expected_download = f"{repository}/releases/download/v{meta['version']}/{meta['id']}.zip"
+        expected_manifest = (f"{repository}/releases/latest/download/module.json" if manifest_channel == "latest"
+                             else repository.replace("https://github.com/", "https://raw.githubusercontent.com/") + "/main/module.json")
+        if meta.get("manifest") != expected_manifest:
+            raise ValueError("Release manifest must point to the selected publication channel")
+        expected_download = f"{repository}/releases/download/v{meta['version']}/{archive_name or meta['id']}.zip"
         if meta.get("download") != expected_download:
             raise ValueError("Release download must point to the versioned tag and module ZIP")
     return bool(tags)
@@ -118,11 +137,13 @@ def build(args: argparse.Namespace) -> tuple[str, list[Path]]:
         raise ValueError("Working tree is not clean; commit changes or use --allow-dirty for a committed preview")
     commit = resolve_commit(root, args.ref)
     manifest, meta = load_manifest(root, commit)
-    base_name = args.name or meta["id"]
+    profile = load_profile(root, commit)
+    expected_name = profile["archive_name"] or meta["id"]
+    base_name = args.name or expected_name
     if not SAFE_NAME.fullmatch(base_name):
         raise ValueError("Invalid archive name")
-    is_release = check_release(root, args.ref, commit, meta, args.release_tag)
-    if is_release and (args.no_alias or base_name != meta["id"]):
+    is_release = check_release(root, args.ref, commit, meta, args.release_tag, expected_name, profile["manifest_channel"])
+    if is_release and (args.no_alias or base_name != expected_name):
         raise ValueError("Release requires the default module ZIP alias referenced by download")
 
     output = (root / args.dist).resolve()
@@ -130,8 +151,12 @@ def build(args: argparse.Namespace) -> tuple[str, list[Path]]:
     # Validate in an isolated directory before replacing any existing artifacts.
     with tempfile.TemporaryDirectory(prefix=".build-", dir=output) as temporary:
         stage = Path(temporary)
-        versioned = stage / f"{base_name}-{meta['version']}.zip"
+        suffix = "-light" if profile["variant"] == "text-only" else ""
+        versioned = stage / f"{base_name}-{meta['version']}{suffix}.zip"
         git(root, "archive", "--format=zip", f"--prefix={meta['id']}/", "-o", str(versioned), commit)
+        if profile["variant"] == "text-only":
+            from text_only import transform_archive
+            manifest, meta = transform_archive(root, commit, versioned, meta)
         archived_manifest = validate_archive(versioned, manifest, meta)
         artifacts = [versioned]
         if not args.no_alias:
@@ -141,6 +166,9 @@ def build(args: argparse.Namespace) -> tuple[str, list[Path]]:
         external_manifest = stage / "module.json"
         external_manifest.write_bytes(archived_manifest)
         artifacts.append(external_manifest)
+        checksums = stage / "SHA256SUMS.txt"
+        checksums.write_text("".join(f"{hashlib.sha256(item.read_bytes()).hexdigest()}  {item.name}\n" for item in artifacts), encoding="ascii")
+        artifacts.append(checksums)
         destinations = []
         for artifact in artifacts:
             destination = output / artifact.name

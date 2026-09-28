@@ -37,6 +37,8 @@ jobs:
         run: |
           test -f "dist/translate-dnd5e-phb-2024-es.zip"
           test -f "dist/module.json"
+          test -f "dist/SHA256SUMS.txt"
+          (cd dist && sha256sum --check SHA256SUMS.txt)
           echo "OK: release assets exist"
 
       - name: Create GitHub Release (DRAFT) and upload asset
@@ -46,5 +48,6 @@ jobs:
           generate_release_notes: true
           fail_on_unmatched_files: true
           files: |
-            dist/translate-dnd5e-phb-2024-es.zip
+            dist/*.zip
             dist/module.json
+            dist/SHA256SUMS.txt
