@@ -2,7 +2,7 @@
 
 Versión de la plantilla: **2**. Piloto: `translate-dnd5e-phb-2024-es`. La revisión completa de la base común está fijada en `fuentes-comunes.json`. La versión 2 incorpora perfiles por proyecto y SHA-256 de los artefactos; la versión 1 permanece en el historial.
 
-Este directorio permite preparar la adopción en otro proyecto sin modificarlo automáticamente. Las comprobaciones locales del piloto están realizadas; la ejecución remota de CI, la publicación y las pruebas funcionales en Foundry siguen pendientes. Una adopción no hereda esas verificaciones.
+Este directorio permite preparar la adopción en otro proyecto sin modificarlo automáticamente. Las comprobaciones locales y la ejecución remota de CI del piloto están realizadas. La publicación y las pruebas funcionales en Foundry siguen pendientes. Una adopción no hereda esas verificaciones y debe registrar sus propios resultados.
 
 ## Material reutilizable
 
@@ -75,7 +75,7 @@ En YAML, los comandos sustituidos deben ser escalares válidos; utiliza un bloqu
 
 1. Revisa instrucciones locales, estado y ramas de destino. Conserva cambios existentes. Comprueba por separado `main` y `develop` antes de crear una rama desde `develop`; no fuerces su alineación ni sobrescribas trabajo ajeno.
 2. Completa el registro de adopción con la revisión de las plantillas, el commit base y el perfil elegido. Inventaría manifiesto, documentación, contenido distribuido, comandos y dependencias de pruebas.
-3. Adapta README ES/EN, DEVELOPER y CHANGELOG. Conserva licencias y atribuciones: no hay una plantilla de licencia común. En DM y Tomb el archivo ausente sigue requiriendo resolver la licencia de sus aportaciones.
+3. Adapta README ES/EN, DEVELOPER y CHANGELOG. Conserva licencias y atribuciones: no hay una plantilla de licencia común. DM y Tomb adoptaron MIT para sus aportaciones propias por elección expresa del titular el 28 de septiembre de 2026; se mantienen los derechos y condiciones de terceros.
 4. Compara `.gitignore`, `.gitattributes` y `.editorconfig` con los archivos de la base. Fusiona reglas necesarias para el destino; no reformatees traducciones ni retires del índice archivos sin revisar su uso y conservar los datos locales que correspondan.
 5. Adapta el constructor y sus pruebas. Comprueba identidad, versión, tag, URLs, manifiesto interno/externo, lista de archivos y conservación de artefactos ante fallos. Mantén las transformaciones del perfil de destino.
 6. Renderiza los workflows con sus comandos y nombre de adjunto. Valida sintaxis y expresiones con actionlint y prueba los comandos localmente. Las pruebas portables deben funcionar sin Foundry, módulos hermanos ni fuentes privadas; las comprobaciones de integración se identifican por separado.
@@ -99,9 +99,9 @@ Orden propuesto: MM, SRD, Tasha, DM, Phandelver y Tomb. Revalida los hallazgos e
 | MM | Conservar convertidores `mm2024`; resolver el import de Babele desde una carpeta hermana; unificar los constructores Python/PowerShell/Bash y excluir pruebas del ZIP. Conservar Apache 2.0. |
 | SRD | Conservar el ID `translate-dnd5e-sdr2-es` y sus atribuciones CC BY 4.0. Coordinar cualquier renombrado de `LICENSE`. Excluir contadores/generadores y no usar un comodín de pruebas que ejecute generadores de contenido. |
 | Tasha | Conservar Apache 2.0, convertidores `tcoe` y el alias histórico `translate-dnd5e-tashas-cauldron-es.zip`. Declarar su base en `archive_name`, además de `__ASSET_NAME__` en los workflows. Revisar la discrepancia histórica de tag y manifiesto. |
-| DM | Conservar los cambios locales previos, el canal preliminar y las pruebas con originales. Resolver la licencia ausente y separar las pruebas privadas; no adoptar automáticamente el canal estable del piloto. |
+| DM | Conservar los cambios locales previos, el canal preliminar y las pruebas con originales. Conservar la licencia MIT con su alcance delimitado y separar las pruebas privadas; no adoptar automáticamente el canal estable del piloto. |
 | Phandelver | Conservar las herramientas Adventure y su constructor con pruebas. Integrar controles equivalentes sin reemplazarlo a ciegas. Incluir README EN en exclusiones/lista de admitidos, corregir changelog y separar la prueba con fuentes privadas. |
-| Tomb | Mantener el constructor de solo texto, las 47 sustituciones de rutas y su hash. Completar licencia y README EN. Hacer reproducible la entrada por commit y adaptar la interfaz de CI; el constructor de PHB no es un reemplazo de `build_light.py`. |
+| Tomb | Mantener el constructor de solo texto, las 47 sustituciones de rutas y su hash. Conservar MIT con su alcance delimitado y ambos README. Hacer reproducible la entrada por commit y adaptar la interfaz de CI; el constructor de PHB no es un reemplazo de `build_light.py`. |
 
 ## Mantener las copias sincronizadas
 
