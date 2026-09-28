@@ -57,6 +57,7 @@ Para comprobar cambios dentro de Foundry, coloca el módulo en `Data/modules/tra
 | `.github/workflows/release.yml` | Validación y creación de una release en borrador al subir un tag |
 | `.gitattributes` | Exclusiones de `git archive` |
 | `.gitignore` | Exclusiones de nuevos archivos locales |
+| `.editorconfig` | Codificación, finales de línea e indentación para editores compatibles |
 | `README.md`, `README.en.md` | Documentación de uso en español e inglés |
 | `CHANGELOG.md`, `LICENSE.md` | Historial y licencia incluida |
 | `dist/` | ZIP generados; directorio ignorado por Git |
@@ -102,6 +103,16 @@ Utiliza los mappings de Babele para campos simples y los convertidores existente
 Las pruebas actuales comprueban que los convertidores referenciados existen; no verifican de forma exhaustiva el comportamiento de cada convertidor.
 
 ## Edición y revisión de traducciones
+
+### Formato de los archivos
+
+[.editorconfig](.editorconfig) establece UTF-8 sin BOM, finales de línea LF, nueva línea al final del archivo e indentación con espacios. JSON, YAML y el resto de archivos usan dos espacios; JavaScript (`.js`, `.mjs`) y Python usan cuatro. En Markdown se conservan los espacios finales para no eliminar saltos de línea intencionados; en los demás archivos se eliminan al guardar en editores que apliquen esa propiedad.
+
+Activa el soporte de [EditorConfig](https://editorconfig.org/) en tu editor; puede ser integrado o requerir una extensión. Esta configuración orienta la edición y no añade un formateador ni una comprobación automática de estilo a CI. `.gitattributes` mantiene las reglas de finales de línea en Git y excluye `.editorconfig` del ZIP instalable.
+
+Hay JavaScript histórico con indentación distinta. Aplica la convención al código nuevo y evita reformatear archivos completos al corregir textos o comportamiento. Una normalización del contenido existente, si se decide hacerla, debe ir en un commit separado y revisarse por sus posibles efectos en literales y traducciones.
+
+### Revisión del contenido
 
 1. Identifica el compendio y el documento afectado y registra las versiones de las fuentes utilizadas si han cambiado.
 2. Edita los valores de texto españoles. Conserva las claves de búsqueda, los IDs y la estructura esperada por el mapping.

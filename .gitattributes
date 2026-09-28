@@ -10,6 +10,7 @@
 *.sh text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
+.editorconfig text eol=lf
 
 # Excluir herramientas y archivos locales del ZIP creado con git archive
 .gitignore export-ignore
