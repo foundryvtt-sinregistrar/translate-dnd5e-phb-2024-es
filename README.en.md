@@ -14,7 +14,7 @@ Unofficial Spanish translation of the **Player's Handbook (2024)** module for Fo
 
 ## Status
 
-Module version: **1.14.2**. Includes translations for all eight handbook compendiums and corrections to text that remained in English.
+Module version: **1.14.3**. Includes translations for all eight handbook compendiums and corrections to text that remained in English.
 
 Automated tests cover registration, language selection, and converter coverage. **Visual verification of the latest corrections in Foundry is still pending**; these tests do not establish that all content has undergone a full functional review.
 

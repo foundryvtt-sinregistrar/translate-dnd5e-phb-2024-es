@@ -14,7 +14,7 @@ Traducción no oficial al español del módulo **Player's Handbook (2024)** para
 
 ## Estado
 
-Versión del módulo: **1.14.2**. Incluye traducciones para los ocho compendios del manual y correcciones de textos que permanecían en inglés.
+Versión del módulo: **1.14.3**. Incluye traducciones para los ocho compendios del manual y correcciones de textos que permanecían en inglés.
 
 Hay pruebas automatizadas de registro, selección del idioma y cobertura de convertidores. La **verificación visual de las últimas correcciones en Foundry sigue pendiente**; estas pruebas no acreditan una revisión funcional completa del contenido.
 

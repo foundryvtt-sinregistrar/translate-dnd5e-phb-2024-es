@@ -6,6 +6,8 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ## [Unreleased]
 
+## [1.14.3] - 2026-09-28
+
 ### Added
 
 - Añadidos perfiles de publicación por proyecto, SHA-256 de los artefactos y pruebas de alias, canal y referencia del perfil. La validación reutilizable conserva ambos ZIP y permite seleccionar explícitamente una revisión.
@@ -96,7 +98,8 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.2...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.3...HEAD
+[1.14.3]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.3
 [1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.2
 [1.14.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.1
 [1.14.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.0

@@ -4,7 +4,7 @@ Esta guía describe cómo mantener `translate-dnd5e-phb-2024-es` con las herrami
 
 ## Entorno y compatibilidad
 
-La versión declarada es **1.14.2**. [module.json](module.json) es la referencia para identidad, versión, compatibilidad, idiomas y archivos de entrada.
+La versión declarada es **1.14.3**. [module.json](module.json) es la referencia para identidad, versión, compatibilidad, idiomas y archivos de entrada.
 
 | Dependencia de ejecución | Mínima | Verificada |
 |---|---|---|
@@ -211,7 +211,7 @@ python dev-tools/buildScripts/build_release.py --dist dist --ref HEAD
 
 Con el identificador y la versión actuales genera:
 
-- `dist/translate-dnd5e-phb-2024-es-1.14.2.zip`.
+- `dist/translate-dnd5e-phb-2024-es-1.14.3.zip`.
 - `dist/translate-dnd5e-phb-2024-es.zip`.
 - `dist/module.json`.
 - `dist/SHA256SUMS.txt`, con las huellas de ambos ZIP y del manifiesto.
@@ -281,7 +281,7 @@ El canal estable usa el adjunto `module.json` de `releases/latest`; su campo `do
 
 Las instalaciones anteriores pueden seguir consultando `https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/main/module.json`. Se conserva ese archivo como entrada de transición: `main` solo debe anunciar versiones cuyos adjuntos ya estén publicados. Al actualizar a un paquete con el nuevo manifiesto, comprueba en Foundry que la URL de actualización instalada pasa al adjunto estable. La migración funcional aún está pendiente; si una instalación conserva la URL antigua, instala desde el nuevo manifiesto o ZIP publicado y verifica de nuevo.
 
-Este cambio prepara la siguiente publicación: no modifica releases remotas ni crea retroactivamente el adjunto de versiones anteriores. Hasta publicar una release con ambos adjuntos, la nueva URL puede no estar disponible. La versión de trabajo sigue siendo `1.14.2`, con los cambios pendientes en `[Unreleased]`; antes de publicar es obligatorio asignar la nueva versión y actualizar su URL de descarga.
+Este cambio prepara la siguiente publicación: no modifica releases remotas ni crea retroactivamente el adjunto de versiones anteriores. Hasta publicar una release con ambos adjuntos, la nueva URL puede no estar disponible. La versión preparada es `1.14.3`, con entrada fechada en el changelog y URL de descarga fijada a su nueva etiqueta. Su publicación queda pendiente de completar la validación funcional y revisar el borrador de release.
 
 ## Propagación a otros proyectos
 
