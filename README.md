@@ -42,10 +42,12 @@ La traducción se activa al seleccionar español como idioma de Foundry (`es` o 
 2. Introduce esta URL en el campo de manifiesto e instala el módulo:
 
    ```text
-   https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/main/module.json
+   https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest/download/module.json
    ```
 
 3. Sigue los pasos de [activación](#activación).
+
+Esta URL utiliza el manifiesto adjunto a la última release estable. Si ese adjunto todavía no está disponible, utiliza la instalación desde ZIP.
 
 ### Desde un ZIP
 

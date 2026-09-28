@@ -165,7 +165,7 @@ En un runner Ubuntu con Node 24 y Python 3.11:
 1. Extrae el commit de la ejecución con su historial y etiquetas.
 2. Ejecuta `node --test tests/*.test.mjs`.
 3. Ejecuta `python -B -m unittest discover -s tests -p 'test_*.py' -v`.
-4. Construye y valida el paquete desde ese commit. En releases añade `--release-tag` para comprobar la etiqueta, la versión y el changelog.
+4. Construye y valida el paquete desde ese commit. En releases añade `--release-tag` para comprobar la etiqueta, la versión, el changelog y las URLs de instalación y descarga.
 5. Guarda el ZIP sin versión y su manifiesto externo como artefacto `module-package`, disponible durante siete días para inspección.
 
 Los pushes a tags `v*` entran por el workflow de release y llaman a esa misma validación. No crean una segunda ejecución independiente de `Validate` para el tag. En una pull request, las comprobaciones usan el commit de integración preparado por GitHub.
@@ -210,7 +210,9 @@ Puedes seleccionar otro commit o tag con `--ref` sin cambiar el checkout. El nom
 
 Al seleccionar un tag, se exige que sea `v<version>` y que exista una entrada de esa versión en `CHANGELOG.md`. Si construyes por SHA, usa además `--release-tag v<version>` para comprobar que esa etiqueta coincide con la versión y apunta al commit elegido. El workflow utiliza esta opción.
 
-`--no-alias` omite el ZIP sin versión. `--name` cambia solamente la base del nombre de los ZIP: la carpeta interna conserva el identificador del módulo. Estas opciones no eliminan artefactos de ejecuciones anteriores.
+En modo release, el constructor exige además un `url` de repositorio GitHub, `manifest` apuntando a `<url>/releases/latest/download/module.json` y `download` a `<url>/releases/download/v<version>/<id>.zip`. Así, el manifiesto de una versión siempre identifica el ZIP de su propia etiqueta. Estas comprobaciones son locales: no requieren que la release ya exista ni prueban la disponibilidad de sus adjuntos en GitHub. Para inspeccionar commits históricos con las URLs anteriores, construye por SHA sin `--release-tag`.
+
+Fuera del modo release, `--no-alias` omite el ZIP sin versión y `--name` cambia solamente la base del nombre de los ZIP: la carpeta interna conserva el identificador del módulo. En modo release se exige el alias `<id>.zip` para que exista el archivo anunciado en `download`. Estas opciones no eliminan artefactos de ejecuciones anteriores.
 
 Antes de reemplazar archivos de salida, el constructor valida en un directorio temporal:
 
@@ -247,20 +249,27 @@ La versión actual pertenece a la serie `1.14.x`. Las notas del proyecto utiliza
 
 Procedimiento para preparar la siguiente release:
 
-1. Prepara la release en una rama de trabajo desde `develop`: establece la versión en `module.json` y una entrada con esa misma versión y fecha en `CHANGELOG.md`; actualiza los enlaces del historial, ambos README y esta guía cuando corresponda.
+1. Prepara la release en una rama de trabajo desde `develop`: elige una versión y etiqueta nuevas, actualiza `version` y la etiqueta de `download` en `module.json`, y traslada los cambios de `[Unreleased]` a una entrada con esa misma versión y fecha en `CHANGELOG.md`. Actualiza los enlaces del historial, ambos README y esta guía cuando corresponda. No reutilices `v1.14.2` para publicar esta homogeneización.
 2. Ejecuta las comprobaciones portables y las pruebas funcionales pertinentes. Revisa los enlaces y dependencias del manifiesto y las exclusiones de distribución descritas arriba.
 3. Confirma los cambios, construye desde ese commit con el árbol limpio e inspecciona el contenido del ZIP.
-4. Integra los cambios revisados en `develop` y después en `main`. Comprueba que el commit que vas a etiquetar contiene los archivos validados; si la integración modifica su contenido, repite las comprobaciones afectadas y la construcción.
-5. Crea una etiqueta anotada `v<version>` en el commit validado de `main`. Construye con `--ref` apuntando a esa etiqueta para comprobar su versión y la entrada de changelog antes de subirla.
-6. Sube la rama y la etiqueta cuando corresponda publicar. El push de un tag `v*` dispara el workflow de release.
+4. Integra los cambios revisados en `develop`. Si hay cambios exclusivos de `main`, incorpóralos y resuelve los conflictos en la rama de preparación antes de validar el commit resultante. Conserva `main` en la versión publicada mientras se prepara la release, porque hay instalaciones anteriores que consultan `main/module.json`.
+5. Crea una etiqueta anotada `v<version>` en ese commit validado de `develop`. Construye con `--ref` apuntando a esa etiqueta para comprobar versión, changelog y URLs antes de subirla.
+6. Sube `develop` y la etiqueta cuando corresponda publicar. El push de un tag `v*` dispara el workflow de release; la creación del borrador no requiere adelantar `main`.
 7. Revisa el borrador generado: versión, notas, ZIP y `module.json` adjunto. El manifiesto adjunto debe coincidir con el incluido en el ZIP.
-8. Publica el borrador después de comprobar sus archivos y el acceso a las URLs de instalación y descarga. Coordina el manifiesto estable con la release disponible.
+8. Publica el borrador como release estable y márcalo como la última versión. Después comprueba el acceso público al manifiesto estable y al ZIP de la etiqueta, y que el manifiesto descargado coincide con el adjunto revisado. Los enlaces públicos de los adjuntos no están disponibles durante el borrador.
+9. Solo después de esa comprobación, integra el commit publicado en `main`, sin adelantar metadatos de una futura versión. El contenido distribuible que llegue a `main` debe coincidir con el commit etiquetado; no incluyas cambios posteriores de `develop`.
 
 El [workflow de release](.github/workflows/release.yml) llama a la validación compartida con el tag de la publicación. Una vez superadas las pruebas y la construcción, otro job descarga el artefacto `module-package` de esa misma ejecución y adjunta el alias sin versión y `dist/module.json` a una **release en borrador**, con notas automáticas. Ese job consume los archivos ya validados, sin reconstruirlos, y es el único que recibe permiso de escritura sobre el repositorio.
 
 La release queda bloqueada si fallan las suites Node/Python, la relación entre tag, commit y versión, la validación del paquete o la descarga de sus artefactos. La falta de cualquiera de los dos adjuntos también impide completar el job de publicación. El borrador requiere una revisión antes de publicarlo.
 
-El manifiesto de instalación apunta a `main/module.json` y la descarga al alias de la última release. Adelantar la versión del manifiesto estable a una release aún no publicada puede desincronizarlos; la homogeneización del proceso de publicación deberá resolver esa coordinación.
+### Manifiesto estable y transición desde `main`
+
+El canal estable usa el adjunto `module.json` de `releases/latest`; su campo `download` apunta al ZIP de una etiqueta concreta. Se utiliza la [convención de enlaces a adjuntos de GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases). No marques una prerelease como canal estable ni sustituyas etiquetas o adjuntos de versiones ya publicadas. El builder valida el contrato del manifiesto, pero la selección de la última release y la disponibilidad pública se comprueban al publicar.
+
+Las instalaciones anteriores pueden seguir consultando `https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/main/module.json`. Se conserva ese archivo como entrada de transición: `main` solo debe anunciar versiones cuyos adjuntos ya estén publicados. Al actualizar a un paquete con el nuevo manifiesto, comprueba en Foundry que la URL de actualización instalada pasa al adjunto estable. La migración funcional aún está pendiente; si una instalación conserva la URL antigua, instala desde el nuevo manifiesto o ZIP publicado y verifica de nuevo.
+
+Este cambio prepara la siguiente publicación: no modifica releases remotas ni crea retroactivamente el adjunto de versiones anteriores. Hasta publicar una release con ambos adjuntos, la nueva URL puede no estar disponible. La versión de trabajo sigue siendo `1.14.2`, con los cambios pendientes en `[Unreleased]`; antes de publicar es obligatorio asignar la nueva versión y actualizar su URL de descarga.
 
 ## Diagnóstico
 

@@ -43,7 +43,7 @@ def load_manifest(root: Path, commit: str) -> tuple[bytes, dict]:
     return manifest, meta
 
 
-def check_release(root: Path, ref: str, commit: str, meta: dict, release_tag: str | None) -> None:
+def check_release(root: Path, ref: str, commit: str, meta: dict, release_tag: str | None) -> bool:
     # A SHA/HEAD is also supported; CI supplies --release-tag independently.
     symbolic = git(root, "rev-parse", "--symbolic-full-name", "--verify", "--end-of-options", ref).decode().strip()
     tags = []
@@ -60,6 +60,15 @@ def check_release(root: Path, ref: str, commit: str, meta: dict, release_tag: st
         changelog = git(root, "show", f"{commit}:CHANGELOG.md").decode("utf-8")
         if not re.search(r"^## \[" + re.escape(meta["version"]) + r"\](?:\s|$)", changelog, re.MULTILINE):
             raise ValueError("Release version is missing from CHANGELOG.md")
+        repository = meta.get("url", "")
+        if not isinstance(repository, str) or not re.fullmatch(r"https://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
+            raise ValueError("Release url must be a GitHub repository URL without a trailing slash")
+        if meta.get("manifest") != f"{repository}/releases/latest/download/module.json":
+            raise ValueError("Release manifest must point to the latest release asset")
+        expected_download = f"{repository}/releases/download/v{meta['version']}/{meta['id']}.zip"
+        if meta.get("download") != expected_download:
+            raise ValueError("Release download must point to the versioned tag and module ZIP")
+    return bool(tags)
 
 
 def validate_archive(archive_path: Path, manifest: bytes, meta: dict) -> bytes:
@@ -112,7 +121,9 @@ def build(args: argparse.Namespace) -> tuple[str, list[Path]]:
     base_name = args.name or meta["id"]
     if not SAFE_NAME.fullmatch(base_name):
         raise ValueError("Invalid archive name")
-    check_release(root, args.ref, commit, meta, args.release_tag)
+    is_release = check_release(root, args.ref, commit, meta, args.release_tag)
+    if is_release and (args.no_alias or base_name != meta["id"]):
+        raise ValueError("Release requires the default module ZIP alias referenced by download")
 
     output = (root / args.dist).resolve()
     output.mkdir(parents=True, exist_ok=True)

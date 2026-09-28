@@ -42,10 +42,12 @@ The translation activates when Foundry's language is set to Spanish (`es` or a r
 2. Enter this URL in the manifest field and install the module:
 
    ```text
-   https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/main/module.json
+   https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest/download/module.json
    ```
 
 3. Follow the [activation](#activation) steps.
+
+This URL uses the manifest attached to the latest stable release. If that asset is not available yet, use the ZIP installation method.
 
 ### From a ZIP
 

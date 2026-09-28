@@ -14,6 +14,7 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ### Changed
 
+- Preparado el canal de instalación mediante el manifiesto adjunto a la última release estable, con la descarga del ZIP fijada a la etiqueta de su versión. Documentada la publicación antes de actualizar `main`, conservando la entrada anterior durante la transición.
 - La release reutiliza el workflow de validación y crea el borrador únicamente después de superar las comprobaciones, adjuntando el paquete ya validado. El permiso de escritura queda limitado al job que crea el borrador.
 - Homogeneizada la estructura de `README.md` y `README.en.md`, con requisitos alineados con el manifiesto, instalación, activación, actualización, soporte y enlaces entre idiomas. Se aclaran la verificación visual pendiente y el alcance sobre documentos ya importados.
 - Ampliada y redactada en español la guía `DEVELOPER.md`: entorno, estructura, reglas de traducción, convertidores, comandos de validación, construcción, publicación y diagnóstico. Se documentan las limitaciones actuales del empaquetado y la automatización.
@@ -25,6 +26,7 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ### Fixed
 
+- El constructor rechaza releases con URLs de manifiesto o descarga incoherentes y opciones que omitan el ZIP anunciado. Añadidas pruebas para estos casos, las referencias históricas y la conservación de artefactos ante fallos.
 - Declarado el módulo oficial `dnd-players-handbook` como dependencia obligatoria en `module.json`, de acuerdo con los requisitos de ambos README. Los límites de versión del producto oficial quedan pendientes de comprobación funcional.
 - Corregida la construcción con `--ref`: identidad, versión, manifiesto y contenido proceden del mismo commit, incluso con un checkout distinto o cambios locales permitidos. Se comprueba la correspondencia entre etiqueta, versión, commit y entrada de changelog al preparar releases.
 - Completado el aviso de copyright de `LICENSE.md` con `2026 foundryvtt-sinregistrar`, sustituyendo los marcadores de plantilla.

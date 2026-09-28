@@ -11,6 +11,7 @@ import zipfile
 
 BUILDER = Path(__file__).resolve().parents[1] / 'dev-tools/buildScripts/build_release.py'
 MODULE_ID = 'test-translation'
+REPOSITORY = 'https://github.com/example/test-translation'
 
 
 class BuildReleaseTests(unittest.TestCase):
@@ -25,6 +26,9 @@ class BuildReleaseTests(unittest.TestCase):
         self.git('config', 'core.autocrlf', 'false')
         self.meta = {
             'id': MODULE_ID, 'version': '1.0.0',
+            'url': REPOSITORY,
+            'manifest': f'{REPOSITORY}/releases/latest/download/module.json',
+            'download': f'{REPOSITORY}/releases/download/v1.0.0/{MODULE_ID}.zip',
             'esmodules': ['scripts/main.js'],
             'languages': [{'lang': 'es', 'path': 'lang/es.json'}],
         }
@@ -148,6 +152,58 @@ class BuildReleaseTests(unittest.TestCase):
         self.commit()
         self.failure('Invalid JSON in archive: compendium/items.json')
         self.assertFalse((self.root / 'dist' / 'module.json').exists())
+
+    def test_release_rejects_floating_wrong_version_and_wrong_asset_downloads(self):
+        for download in [f'{REPOSITORY}/releases/latest/download/{MODULE_ID}.zip',
+                         f'{REPOSITORY}/releases/download/v0.9.0/{MODULE_ID}.zip',
+                         f'{REPOSITORY}/releases/download/v1.0.0/other.zip', None]:
+            with self.subTest(download=download):
+                self.write_json('module.json', dict(self.meta, download=download))
+                commit = self.commit()
+                self.git('tag', '-f', 'v1.0.0')
+                self.failure('Release download must point', '--ref', commit, '--release-tag', 'v1.0.0')
+                self.assertFalse((self.root / 'dist').exists())
+
+    def test_release_rejects_branch_or_missing_manifest_url(self):
+        for manifest in ['https://raw.githubusercontent.com/example/test-translation/main/module.json', None]:
+            with self.subTest(manifest=manifest):
+                self.write_json('module.json', dict(self.meta, manifest=manifest))
+                self.commit()
+                self.git('tag', '-f', 'v1.0.0')
+                self.failure('Release manifest must point', '--ref', 'v1.0.0')
+
+    def test_release_rejects_invalid_repository_url(self):
+        for url in [None, 'https://example.invalid/repo', REPOSITORY + '/']:
+            with self.subTest(url=url):
+                self.write_json('module.json', dict(self.meta, url=url))
+                self.commit()
+                self.git('tag', '-f', 'v1.0.0')
+                self.failure('Release url must be a GitHub repository URL', '--ref', 'v1.0.0')
+
+    def test_release_cannot_omit_or_rename_download_asset(self):
+        self.git('tag', 'v1.0.0')
+        for args in [('--no-alias',), ('--name', 'custom-archive')]:
+            with self.subTest(args=args):
+                self.failure('Release requires the default module ZIP alias', '--ref', 'v1.0.0', *args)
+
+    def test_historical_commit_can_still_build_without_release_url_contract(self):
+        self.meta.pop('url')
+        self.meta.pop('manifest')
+        self.meta.pop('download')
+        self.write_json('module.json', self.meta)
+        self.initial = self.commit()
+        self.success('--ref', self.initial)
+        self.assert_payload()
+
+    def test_failed_release_url_validation_preserves_existing_artifacts(self):
+        self.success()
+        output = self.root / 'dist'
+        before = {path.name: path.read_bytes() for path in output.iterdir()}
+        self.write_json('module.json', dict(self.meta, download=f'{REPOSITORY}/releases/latest/download/{MODULE_ID}.zip'))
+        self.commit()
+        self.git('tag', 'v1.0.0')
+        self.failure('Release download must point', '--ref', 'v1.0.0')
+        self.assertEqual(before, {path.name: path.read_bytes() for path in output.iterdir()})
 
     def test_unexpected_distribution_file_is_rejected(self):
         self.write('staged.txt', 'local diff accidentally tracked\n')
