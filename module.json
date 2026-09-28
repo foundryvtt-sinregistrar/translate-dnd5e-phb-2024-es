@@ -33,6 +33,10 @@
     ],
     "requires": [
       {
+        "id": "dnd-players-handbook",
+        "type": "module"
+      },
+      {
         "id": "babele",
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",

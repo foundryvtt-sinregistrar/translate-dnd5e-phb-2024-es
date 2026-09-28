@@ -25,6 +25,7 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ### Fixed
 
+- Declarado el módulo oficial `dnd-players-handbook` como dependencia obligatoria en `module.json`, de acuerdo con los requisitos de ambos README. Los límites de versión del producto oficial quedan pendientes de comprobación funcional.
 - Corregida la construcción con `--ref`: identidad, versión, manifiesto y contenido proceden del mismo commit, incluso con un checkout distinto o cambios locales permitidos. Se comprueba la correspondencia entre etiqueta, versión, commit y entrada de changelog al preparar releases.
 - Completado el aviso de copyright de `LICENSE.md` con `2026 foundryvtt-sinregistrar`, sustituyendo los marcadores de plantilla.
 - Corregido el enlace de licencia de `module.json` para apuntar al archivo existente `LICENSE.md`.

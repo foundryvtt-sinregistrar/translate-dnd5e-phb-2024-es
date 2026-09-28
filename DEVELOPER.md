@@ -12,7 +12,9 @@ La versión declarada es **1.14.2**. [module.json](module.json) es la referencia
 | dnd5e | 6.0.0 | 6.0.3 |
 | Babele | 2.9.1 | 2.9.1 |
 
-Las pruebas dentro de Foundry requieren además el módulo oficial **Player's Handbook (2024)** (`dnd-players-handbook`), instalado y activado, y las dependencias de Babele. El manifiesto de esta traducción todavía no declara el producto oficial en `relationships.requires`; hay que instalarlo por separado.
+El módulo oficial **Player's Handbook (2024)** (`dnd-players-handbook`) y Babele están declarados en `relationships.requires`. Para utilizar la traducción y hacer pruebas dentro de Foundry, instala y activa ambos y las dependencias de Babele. El producto oficial se adquiere e instala por separado.
+
+La dependencia del producto oficial se declara por su ID y tipo, sin URL de descarga ni límites de versión. Foundry permite resolver una dependencia por su ID en el directorio de paquetes, según su [documentación de manifiestos](https://foundryvtt.com/article/module-development/). La copia local consultada durante esta homogeneización era la **2.2.0**; su presencia no acredita una versión mínima ni una versión verificada de la traducción. Añade esos límites solo cuando haya evidencia de compatibilidad y registra las versiones utilizadas en la comprobación funcional.
 
 | Herramienta de desarrollo | Uso | Referencia de entorno |
 |---|---|---|

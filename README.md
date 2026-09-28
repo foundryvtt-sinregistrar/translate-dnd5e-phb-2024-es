@@ -30,7 +30,7 @@ Compatibilidad declarada para esta versión:
 | Sistema dnd5e | 6.0.0 | 6.0.3 |
 | Babele | 2.9.1 | 2.9.1 |
 
-También se necesita el módulo oficial **Player's Handbook (2024)** (`dnd-players-handbook`), instalado y activado, y las dependencias de Babele. Instala el producto oficial por separado.
+También se necesita el módulo oficial **Player's Handbook (2024)** (`dnd-players-handbook`), instalado y activado, y las dependencias de Babele. El producto oficial está declarado como dependencia obligatoria en el manifiesto; debes adquirirlo e instalarlo por separado. Aún no se ha establecido una versión mínima ni verificada del producto oficial para esta traducción.
 
 La traducción se activa al seleccionar español como idioma de Foundry (`es` o una variante regional como `es-ES`).
 
