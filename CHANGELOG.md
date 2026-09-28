@@ -1,8 +1,16 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+Este archivo registra los cambios relevantes del proyecto. Las nuevas entradas se redactan en español; el historial anterior conserva su contenido, fechas e idioma original.
+
+Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las categorías `Added`, `Changed` y `Fixed` según corresponda. Al preparar una release, se trasladan a una sección `[X.Y.Z] - YYYY-MM-DD`, con la misma versión que `module.json` y la etiqueta `vX.Y.Z`, y se actualizan los enlaces al final del archivo.
 
 ## [Unreleased]
+
+### Changed
+
+- Homogeneizada la estructura de `README.md` y `README.en.md`, con requisitos alineados con el manifiesto, instalación, activación, actualización, soporte y enlaces entre idiomas. Se aclaran la verificación visual pendiente y el alcance sobre documentos ya importados.
+- Ampliada y redactada en español la guía `DEVELOPER.md`: entorno, estructura, reglas de traducción, convertidores, comandos de validación, construcción, publicación y diagnóstico. Se documentan las limitaciones actuales del empaquetado y la automatización.
+- Establecida la convención de nuevas entradas del changelog en español, manteniendo las categorías y el historial de versiones existentes.
 
 ## [1.14.2] - 2026-09-21
 
