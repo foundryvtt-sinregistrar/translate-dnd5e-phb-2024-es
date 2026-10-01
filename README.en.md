@@ -7,8 +7,10 @@
 ![dnd5e 6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue)
 ![Babele 2.9.1 required](https://img.shields.io/badge/Babele-2.9.1_required-orange)
 ![PHB 2024 required](https://img.shields.io/badge/PHB_2024-required-orange)
+
 [![Latest release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
 [![Latest release downloads](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/latest/total?label=latest%20release%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
+
 [![Total downloads](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/total?label=total%20downloads)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases)
 
 [Español](README.md) | **English**
