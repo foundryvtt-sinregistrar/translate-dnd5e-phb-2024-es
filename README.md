@@ -1,14 +1,17 @@
 # D&D 5e Player's Handbook (2024) — Traducción al español
 
-**Español** | [English](README.en.md)
+**Versión actual — Foundry v14**
 
 ![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
+[![Release v1.14.3](https://img.shields.io/badge/release-v1.14.3-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.3)
 ![dnd5e 6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue)
-![Babele requerido](https://img.shields.io/badge/Babele-required-orange)
-![PHB 2024 requerido](https://img.shields.io/badge/PHB2024-required-orange)
+![Babele 2.9.1 required](https://img.shields.io/badge/Babele-2.9.1_required-orange)
+![PHB 2024 required](https://img.shields.io/badge/PHB_2024-required-orange)
 [![Última versión](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
 [![Descargas de la última versión](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/latest/total?label=descargas%20%C3%BAltima%20release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/latest)
 [![Descargas totales](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/total?label=descargas%20totales)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases)
+
+**Español** | [English](README.en.md)
 
 Traducción no oficial al español del módulo **Player's Handbook (2024)** para Foundry VTT y el sistema **dnd5e**. Utiliza **Babele** para aplicar las traducciones a los compendios del producto oficial, que debe estar instalado y activado.
 
