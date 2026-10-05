@@ -1,7 +1,7 @@
 {
   "id": "translate-dnd5e-phb-2024-es",
-  "title": "Translation: DnD5e PHB 2024 - Spanish (Babele)",
-  "description": "Spanish translation for the official D&D 5e Player's Handbook 2024 using Babele.",
+  "title": "Translation: DnD5e PHB 2024 Spanish Translation (Babele)",
+  "description": "Spanish translation for the official D&amp;D 5e Player's Handbook 2024 using Babele.",
   "version": "1.14.3",
   "compatibility": {
     "minimum": "14.367",
@@ -11,12 +11,14 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     },
     {
       "lang": "es",
       "name": "Español",
-      "path": "lang/es.json"
+      "path": "lang/es.json",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -34,7 +36,8 @@
     "requires": [
       {
         "id": "dnd-players-handbook",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "babele",
@@ -53,7 +56,8 @@
   ],
   "authors": [
     {
-      "name": "foundryvtt-sinregistrar"
+      "name": "foundryvtt-sinregistrar",
+      "flags": {}
     }
   ],
   "url": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es",
@@ -62,5 +66,6 @@
   "bugs": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/issues",
   "readme": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/blob/main/README.md",
   "changelog": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases",
-  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/blob/main/LICENSE.md"
+  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/blob/main/LICENSE.md",
+  "flags": {}
 }
