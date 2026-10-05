@@ -1,5 +1,5 @@
 export function phb2024MergeEffects(source, translation) {
-  if (!Array.isArray(source) || !translation) return source;
+  if (!source || typeof source !== "object" || !translation || typeof translation !== "object") return source;
 
   const byId = {};
   const byName = {};
@@ -24,20 +24,19 @@ export function phb2024MergeEffects(source, translation) {
   const deepClone =
     globalThis.foundry?.utils?.deepClone
       ? foundry.utils.deepClone
-      : (obj) => structuredClone(obj);
+      : structuredClone;
+  const out = deepClone(source);
+  const rows = Array.isArray(out.contents) ? out.contents : out;
 
-  return source.map((eff) => {
-    const id = eff?._id;
+  for (const [key, eff] of Object.entries(rows)) {
+    if (!eff || typeof eff !== "object" || Array.isArray(eff)) continue;
+    const id = eff._id ?? eff.id ?? key;
     const name = eff?.name;
 
     const patch = (id && byId[id]) ? byId[id] : (name && byName[name]) ? byName[name] : null;
-    if (!patch) return eff;
-
-    const cloned = deepClone(eff);
-
-    if (patch.name !== undefined) cloned.name = patch.name;
-    if (patch.description !== undefined) cloned.description = patch.description;
-
-    return cloned;
-  });
+    if (!patch) continue;
+    if (typeof patch.name === "string") eff.name = patch.name;
+    if (typeof patch.description === "string") eff.description = patch.description;
+  }
+  return out;
 }

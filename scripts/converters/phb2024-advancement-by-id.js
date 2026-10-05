@@ -1,15 +1,18 @@
 export function phb2024AdvancementById(source, translation) {
-  if (!Array.isArray(source) || !translation || typeof translation !== "object") return source;
-
-  const out = source.map(a => foundry.utils.deepClone(a));
-
-  for (const adv of out) {
-    const id = adv?._id ?? adv?.id;
-    if (!id) continue;
-    const patch = translation[id];
-    if (patch && typeof patch === "object") {
-      foundry.utils.mergeObject(adv, patch, { insertKeys: true, overwrite: true, inplace: true });
-    }
+  if (!source || typeof source !== "object" || !translation || typeof translation !== "object") return source;
+  const result = foundry.utils.deepClone(source);
+  const patches = Array.isArray(translation)
+    ? Object.fromEntries(translation.filter(value => value?._id ?? value?.id).map(value => [value._id ?? value.id, value]))
+    : translation;
+  const rows = Array.isArray(result.contents) ? result.contents : result;
+  for (const [key, advancement] of Object.entries(rows)) {
+    if (!advancement || typeof advancement !== "object" || Array.isArray(advancement)) continue;
+    const id = advancement._id ?? advancement.id ?? key;
+    const patch = Object.hasOwn(patches, id) ? patches[id] : undefined;
+    if (!patch || typeof patch !== "object" || Array.isArray(patch)) continue;
+    const label = typeof patch.name === "string" ? patch.name : patch.title;
+    if (typeof label === "string") advancement["name" in advancement ? "name" : "title"] = label;
+    if (typeof patch.hint === "string") advancement.hint = patch.hint;
   }
-  return out;
+  return result;
 }

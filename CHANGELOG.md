@@ -6,6 +6,18 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ## [Unreleased]
 
+## [1.14.4] - 2026-10-05
+
+### Fixed
+
+- Compatibilidad de avances con arrays heredados y objetos indexados por ID en dnd5e 6.x; se conserva el contenedor y solo se traducen etiquetas y pistas, sin fusionar mecánicas.
+- Normalizados también los efectos y los avances de objetos embebidos en actores.
+
+### Added
+
+- Pruebas de regresión y evidencia de validación en `dev-tools/VALIDACION-COMPATIBILIDAD-6X.md`.
+
+
 ## [1.14.3] - 2026-09-28
 
 - Comprobados en Foundry 1548 documentos, nombres y campos explícitos; importada y revisada una muestra. Evidencia y límites en `dev-tools/homogeneizacion/VALIDACION-FOUNDRY.md`.
@@ -100,7 +112,8 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.3...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/compare/v1.14.4...HEAD
+[1.14.4]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.4
 [1.14.3]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.3
 [1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.2
 [1.14.1]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es/releases/tag/v1.14.1
