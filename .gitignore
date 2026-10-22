@@ -1,27 +1,28 @@
-# Distribución y temporales locales
+# Dependencies and local runtimes
+node_modules/
+.tmp-npm-cache/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated distribution artifacts and temporary release files
 /dist/
 /tmp/
 /_release-zip/
 /staged.txt
 
-# Python y Node
-__pycache__/
-*.py[cod]
-.venv/
-node_modules/
-
-# Fuentes e informes locales
+# Local sources and reports
 /dev-tools/export/data/*
 !/dev-tools/export/data/.gitkeep
 /dev-tools/export/_data/
 /dev-tools/_[Ii]nformes/
 
-# Configuración local
+# Local configuration and secrets
 .env
 .env.*
 !.env.example
 
-# IDE: conservar las excepciones de configuración compartida
+# IDE and editor state; retain shareable project settings
 /.idea/*
 !/.idea/codeStyles/
 !/.idea/runConfigurations/
@@ -34,7 +35,7 @@ node_modules/
 .history/
 .ionide/
 
-# Archivos del sistema
+# Operating-system files
 .DS_Store
 Thumbs.db
 Thumbs.db:encryptable
