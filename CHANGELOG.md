@@ -6,6 +6,12 @@ Los cambios pendientes de publicación se agrupan en `[Unreleased]`, con las cat
 
 ## [Unreleased]
 
+## [1.14.5] - 2026-10-27
+
+### Changed
+
+- Compatibilidad verificada con Foundry VTT 14.369 y D&D5e 6.0.6.
+
 ## [1.14.4] - 2026-10-05
 
 ### Fixed
