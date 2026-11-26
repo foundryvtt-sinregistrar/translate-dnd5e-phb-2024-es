@@ -1411,6 +1411,72 @@
           "title": "Rasgos de elfo de los bosques"
         }
       }
+    },
+    "phbspElf00000000": {
+      "name": "Elfo",
+      "description": "<p>Creados por el dios Corellon, los primeros elfos podían cambiar de forma a voluntad. Perdieron esta capacidad cuando Corellon los maldijo por conspirar con la deidad Lolth, que intentó sin éxito usurpar el dominio de Corellon. Cuando Lolth fue arrojada al Abismo, la mayoría de los elfos la repudiaron y obtuvieron el perdón de Corellon, pero aquello que él les había arrebatado se perdió para siempre.</p><p>Al ya no poder cambiar de forma a voluntad, los elfos se retiraron a las Tierras Salvajes de las Hadas, donde su pesar se intensificó por la influencia de ese plano. Con el tiempo, la curiosidad llevó a muchos de ellos a explorar otros planos de existencia, incluidos mundos del Plano Material.</p><p>Los elfos tienen orejas puntiagudas y carecen de vello facial y corporal. Viven alrededor de 750 años y no duermen; en su lugar, entran en trance cuando necesitan descansar. En ese estado permanecen conscientes de su entorno mientras se sumergen en recuerdos y meditaciones.</p><p>Un entorno transforma sutilmente a los elfos tras habitar en él durante un milenio o más y les otorga ciertos tipos de magia. Los drow, los altos elfos y los elfos de los bosques son ejemplos de elfos transformados de este modo.</p><h3 data-anchor=\"drow\">Drow</h3><p>Los drow suelen habitar en la Infraoscuridad y han sido moldeados por ella. Algunos individuos y sociedades drow evitan por completo la Infraoscuridad, aunque portan su magia. En el escenario de Eberron, por ejemplo, los drow viven en selvas lluviosas y ruinas ciclópeas en el continente de Xen’drik.</p><h3 data-anchor=\"high-elves\">Altos elfos</h3><p>Los altos elfos han sido imbuidos con la magia de los cruces entre las Tierras Salvajes de las Hadas y el Plano Material. En algunos mundos, los altos elfos se llaman a sí mismos por otros nombres. Por ejemplo, se llaman elfos solares o lunares en el escenario de Reinos Olvidados, Silvanesti y Qualinesti en el escenario de Dragonlance y Aereni en el de Eberron.</p><h3 data-anchor=\"wood-elves\">Elfos de los bosques</h3><p>Los elfos de los bosques llevan en su interior la magia de los bosques primigenios. Se les conoce por muchos otros nombres, incluidos elfos salvajes, elfos verdes y elfos del bosque. Los grugach son elfos de los bosques reservados del escenario de Greyhawk, mientras que los kagonesti y los tairnadal son elfos de los bosques de Dragonlance y Eberron, respectivamente.</p><h3 data-anchor=\"elf-traits\">Rasgos de elfo</h3><p><strong>Tipo de criatura:</strong> Humanoide<br><strong>Tamaño:</strong> Mediano (entre 5 y 6 pies de altura)<br><strong>Velocidad:</strong> 30 pies</p><p>Como elfo, tienes estos rasgos especiales.</p><p><em><strong>Visión en la oscuridad.</strong></em> Tienes visión en la oscuridad con un alcance de 60 pies.</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptElvenLinea caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptFeyAncestr caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptKeenSenses caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptTrance0000 caption=false cite=false nameStyle=inline]</p>",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "<p>Mediano (entre 5 y 6 pies de altura)</p>"
+        }
+      }
+    },
+    "phbspGnome000000": {
+      "name": "Gnomo",
+      "description": "<p>Los gnomos son un pueblo mágico creado por dioses de la invención, las ilusiones y la vida subterránea. Los primeros gnomos rara vez eran vistos por otras gentes debido a su naturaleza reservada y a su tendencia a vivir en bosques y madrigueras. Lo que les faltaba en tamaño lo compensaban con ingenio. Desconcertaban a los depredadores con trampas y túneles laberínticos. También aprendieron magia de dioses como Garl Glittergold, Baervan Wildwanderer y Baravar Cloakshadow, que los visitaban disfrazados. Esa magia acabó dando lugar a los linajes de gnomos del bosque y gnomos de roca.</p><p>Los gnomos son gente menuda, de ojos grandes y orejas puntiagudas, que viven alrededor de 425 años. A muchos gnomos les gusta la sensación de tener un techo sobre la cabeza, incluso si ese «techo» no es más que un sombrero.</p><h3 data-anchor=\"gnome-traits\">Rasgos de gnomo</h3><p><strong>Tipo de criatura:</strong> Humanoide<br><strong>Tamaño:</strong> Pequeño (entre 3 y 4 pies de altura)<br><strong>Velocidad:</strong> 30 pies</p><p>Como gnomo, tienes estos rasgos especiales.</p><p><em><strong>Visión en la oscuridad.</strong></em> Tienes visión en la oscuridad con un alcance de 60 pies.</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptGnomishCun caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptGnomishLin caption=false cite=false nameStyle=inline]</p>",
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "<p>Pequeño (entre 3 y 4 pies de altura)</p>"
+        }
+      }
+    },
+    "phbspTiefling000": {
+      "name": "tiefling",
+      "description": "<p>Los tiefling nacen en los Planos Inferiores o descienden de antepasados infernales que se originaron allí. Un tiefling (se pronuncia TEE-fling) está vinculado por sangre a un diablo, un demonio u otro tipo de infernal. Esta conexión con los Planos Inferiores es el legado infernal del tiefling, que viene acompañado de la promesa de poder pero no determina su perspectiva moral.</p><p>Un tiefling decide si abraza o lamenta su legado infernal.</p><h3 data-anchor=\"abyssal\">Abisal</h3><p>La entropía del Abismo, el caos de Pandemonium y la desesperación de Cárceri atraen a los tiefling que poseen el legado abisal. Los cuernos, el pelaje, los colmillos y los olores peculiares son rasgos físicos comunes de estos tiefling, en cuyas venas suele correr la sangre de demonios.</p><h3 data-anchor=\"chthonic\">Ctónico</h3><p>Los tiefling que tienen el legado ctónico sienten no solo el tirón de Cárceri, sino también la avaricia de Gehenna y la desolación de Hades. Algunos de estos tiefling tienen un aspecto cadavérico. Otros poseen la belleza antinatural de una súcubo, o comparten rasgos físicos con una bruja nocturna, un yugoloth u otro antepasado infernal de alineamiento neutral maligno.</p><h3 data-anchor=\"infernal\">Infernal</h3><p>El legado infernal conecta a los tiefling no solo con Gehenna, sino también con los Nueve Infiernos y los campos de batalla enardecidos de Aqueronte. Cuernos, espinas, colas, ojos dorados y un leve olor a azufre o humo son rasgos físicos habituales de estos tiefling, la mayoría de los cuales remontan su ascendencia a los diablos.</p><h3 data-anchor=\"tiefling-traits\">Rasgos de tiefling</h3><p><strong>Tipo de criatura:</strong> Humanoide<br><strong>Tamaño:</strong> Mediano (entre 4 y 7 pies de altura) o Pequeño (entre 3 y 4 pies de altura), a tu elección al seleccionar esta especie<br><strong>Velocidad:</strong> 30 pies</p><p>Como tiefling, tienes estos rasgos especiales.</p><p><em><strong>Visión en la oscuridad.</strong></em> Tienes visión en la oscuridad con un alcance de 60 pies.</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptFiendishLe caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptOtherworld caption=false cite=false nameStyle=inline]</p>",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "<p>Mediano (entre 4 y 7 pies de altura) o Pequeño (entre 3 y 4 pies de altura)</p>"
+        }
+      }
+    },
+    "phbsptDraconiAnc": {
+      "name": "Ascendencia dracónica",
+      "description": "<p>Tu linaje desciende de un dragón. Elige el tipo de dragón de la tabla Ascendientes dracónicos. Tu elección determina tu apariencia y afecta a tus rasgos Arma de aliento y Resistencia al daño.</p><table><caption><p>Ascendientes dracónicos</p></caption><thead><tr><th><p>Dragón</p></th><th><p>Tipo de daño</p></th><th><p>Dragón</p></th><th><p>Tipo de daño</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncBlac]{Dragón negro}</p></td><td><p>Ácido</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncGold]{Dragón dorado}</p></td><td><p>Fuego</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncBlue]{Dragón azul}</p></td><td><p>Relámpago</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncGree]{Dragón verde}</p></td><td><p>Veneno</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncBras]{Dragón de oropel}</p></td><td><p>Fuego</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncRed0]{Dragón rojo}</p></td><td><p>Fuego</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncBron]{Dragón de bronce}</p></td><td><p>Relámpago</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncSilv]{Dragón plateado}</p></td><td><p>Frío</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncCopp]{Dragón de cobre}</p></td><td><p>Ácido</p></td><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrgAncWhit]{Dragón blanco}</p></td><td><p>Frío</p></td></tr></tbody></table>",
+      "advancement": {
+        "XFXxfGcc0Z3nB070": {
+          "hint": "<p>Tu linaje desciende de un dragón. Elige el tipo de dragón de la tabla Ascendientes dracónicos. Tu elección determina tu apariencia y afecta a tus rasgos Arma de aliento y Resistencia al daño.</p>"
+        }
+      }
+    },
+    "phbsptDrgAncBlac": {
+      "name": "Ascendiente: dragón negro"
+    },
+    "phbsptDrgAncBlue": {
+      "name": "Ascendiente: dragón azul"
+    },
+    "phbsptDrgAncBras": {
+      "name": "Ascendiente: dragón de oropel"
+    },
+    "phbsptDrgAncBron": {
+      "name": "Ascendiente: dragón de bronce"
+    },
+    "phbsptDrgAncCopp": {
+      "name": "Ascendiente: dragón de cobre"
+    },
+    "phbsptDrgAncGold": {
+      "name": "Ascendiente: dragón dorado"
+    },
+    "phbsptDrgAncGree": {
+      "name": "Ascendiente: dragón verde"
+    },
+    "phbsptDrgAncRed0": {
+      "name": "Ascendiente: dragón rojo"
+    },
+    "phbsptDrgAncSilv": {
+      "name": "Ascendiente: dragón plateado"
+    },
+    "phbsptDrgAncWhit": {
+      "name": "Ascendiente: dragón blanco"
     }
   }
 }

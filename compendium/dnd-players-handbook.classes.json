@@ -10955,6 +10955,100 @@
       },
       "effects": {},
       "advancement": {}
+    },
+    "n2qsI3p9HBVQIjeK": {
+      "name": "Maleficio (potente)",
+      "description": "<p>Lanzas una maldición sobre una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges 1d6 puntos de daño necrótico adicional al objetivo cada vez que lo golpeas con una tirada de ataque. Además, elige una característica cuando lanzas el conjuro. El objetivo tiene desventaja en las pruebas de característica realizadas con la característica elegida.</p><p>Si el objetivo cae a 0 Puntos de golpe antes de que el conjuro termine, puedes usar una acción adicional en un turno posterior para maldecir a una nueva criatura.</p><p><strong>Usar un espacio de conjuro de nivel superior.</strong> Tu Concentración puede durar más con un espacio de conjuro de nivel 2 (hasta 4 horas), de nivel 3–4 (hasta 8 horas) o de nivel 5 o superior (24 horas).</p><hr><p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbwlkEldritchHe nameStyle=inline cite=false]</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Daño adicional de Maleficio"
+        },
+        "Btl8HmGdooXEh2gP": {
+          "name": "Imponer maldición"
+        },
+        "E3f3Y8ULb3t5mBQu": {
+          "name": "Maldecir a otra criatura"
+        }
+      }
+    },
+    "phbdrdLandArid00": {
+      "name": "Terreno árido",
+      "description": "<table><caption><p>Terreno árido</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlur000000]{Contorno borroso}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Manos ardientes}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Descarga de fuego}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Bola de fuego}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Marchitar}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofSton]{Muro de piedra}</em></p></td></tr></tbody></table>"
+    },
+    "phbdrdLandPolar0": {
+      "name": "Terreno polar",
+      "description": "<table><caption><p>Terreno polar</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Nube de oscurecimiento}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Inmovilizar persona}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Rayo de escarcha}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleetStorm]{Tormenta de aguanieve}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Tormenta de hielo}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]{Cono de frío}</em></p></td></tr></tbody></table>"
+    },
+    "phbdrdLandTemper": {
+      "name": "Terreno templado",
+      "description": "<table><caption><p>Terreno templado</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso brumoso}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr]{Agarre electrizante}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Dormir}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{Relámpago}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Libertad de movimiento}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTreeStride]{Paso arbóreo}</em></p></td></tr></tbody></table>"
+    },
+    "phbdrdLandTropic": {
+      "name": "Terreno tropical",
+      "description": "<table><caption><p>Terreno tropical</p></caption><thead><tr><td><p>Nivel de druida</p></td><td><p>Conjuros del círculo</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAcidSplash]{Salpicadura ácida}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Rayo nauseabundo}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Telaraña}</em></p></td></tr><tr><td><p>5</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Nube apestosa}</em></p></td></tr><tr><td><p>7</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polimorfar}</em></p></td></tr><tr><td><p>9</p></td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInsectPlag]{Plaga de insectos}</em></p></td></tr></tbody></table>"
+    },
+    "phbfstBlessedWar": {
+      "name": "Guerrero bendito",
+      "description": "<p>Aprendes dos trucos de clérigo a tu elección. Se recomiendan <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guía}</em> y <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Llama sagrada}</em>. Los trucos elegidos cuentan como conjuros de paladín para ti, y Carisma es tu característica para lanzarlos. Cada vez que subas un nivel de paladín, puedes sustituir uno por otro truco de clérigo.</p>",
+      "advancement": {
+        "6dwyqBA13Ui6p4Bf": {
+          "hint": "Aprendes dos trucos de clérigo a tu elección. Se recomiendan Guía y Llama sagrada. Los trucos elegidos cuentan como conjuros de paladín para ti, y Carisma es tu característica para lanzarlos. Cada vez que subas un nivel de paladín, puedes sustituir uno por otro truco de clérigo."
+        }
+      }
+    },
+    "phbfstDruidicWar": {
+      "name": "Guerrero druídico",
+      "description": "<p>Aprendes dos trucos de druida a tu elección. Se recomiendan <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]{Guía}</em> y <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStarryWisp]{Voluta estelar}</em>. Los trucos elegidos cuentan como conjuros de explorador para ti, y Sabiduría es tu característica para lanzarlos. Cada vez que subas un nivel de explorador, puedes sustituir uno por otro truco de druida.</p>",
+      "advancement": {
+        "6dwyqBA13Ui6p4Bf": {
+          "hint": "Aprendes dos trucos de druida a tu elección. Se recomiendan Guía y Voluta estelar. Los trucos elegidos cuentan como conjuros de explorador para ti, y Sabiduría es tu característica para lanzarlos. Cada vez que subas un nivel de explorador, puedes sustituir uno por otro truco de druida."
+        }
+      }
+    },
+    "phbscrElemAffAci": {
+      "name": "Afinidad elemental: ácido",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de ácido, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de ácido.</p>"
+        }
+      }
+    },
+    "phbscrElemAffCol": {
+      "name": "Afinidad elemental: frío",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de frío, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de frío.</p>"
+        }
+      }
+    },
+    "phbscrElemAffFir": {
+      "name": "Afinidad elemental: fuego",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de fuego, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de fuego.</p>"
+        }
+      }
+    },
+    "phbscrElemAffLig": {
+      "name": "Afinidad elemental: relámpago",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de relámpago, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de relámpago.</p>"
+        }
+      }
+    },
+    "phbscrElemAffPoi": {
+      "name": "Afinidad elemental: veneno",
+      "description": "<p>Tienes &amp;Reference[Resistance] al daño de veneno, y al lanzar un conjuro que inflija daño de ese tipo puedes sumar tu modificador de Carisma a una tirada de daño del conjuro.</p>",
+      "advancement": {
+        "GtZSPY1PbRCl5lH3": {
+          "hint": "<p>Tienes &amp;Reference[Resistance] al daño de veneno.</p>"
+        }
+      }
     }
   }
 }
